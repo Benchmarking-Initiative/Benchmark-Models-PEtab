@@ -9,7 +9,7 @@ install:
 
 # run tests
 script:
- - cd benchmark-Models
+ - cd Benchmark-Models/
  - ./checkBenchmarkModels.py
 
 # cache dependencies
