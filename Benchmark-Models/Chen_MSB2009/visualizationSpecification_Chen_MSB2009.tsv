@@ -1,0 +1,13 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+plot1	5 nM EGF	LinePlot	provided	model1_data1_ERB_B1_P_tot	time	0	Time [sec]	pErbB1	0	Psignal (normalized)	pErbB1	lin	lin
+plot1	5 nM EGF	LinePlot	provided	model1_data1_ERK_PP	time	0	Time [sec]	pERK	0	Psignal (normalized)	pERK	lin	lin
+plot1	5 nM EGF	LinePlot	provided	model1_data1_AKT_PP	time	0	Time [sec]	pAKT	0	Psignal (normalized)	pAKT	lin	lin
+plot2	5 nM HRG	LinePlot	provided	model1_data2_ERB_B1_P_tot	time	0	Time [sec]	pErbB1	0	Psignal (normalized)	pErbB1	lin	lin
+plot2	5 nM HRG	LinePlot	provided	model1_data2_ERK_PP 	time	0	Time [sec]	pERK	0	Psignal (normalized)	pERK	lin	lin
+plot2	5 nM HRG	LinePlot	provided	model1_data2_AKT_PP	time	0	Time [sec]	pAKT	0	Psignal (normalized)	pAKT	lin	lin
+plot3	0.01 nM EGF	LinePlot	provided	model1_data3_ERB_B1_P_tot 	time	0	Time [sec]	pErbB1	0	Psignal (normalized)	pErbB1	lin	lin
+plot3	0.01 nM EGF	LinePlot	provided	model1_data3_ERK_PP 	time	0	Time [sec]	pERK	0	Psignal (normalized)	pERK	lin	lin
+plot3	0.01 nM EGF	LinePlot	provided	model1_data3_AKT_PP 	time	0	Time [sec]	pAKT	0	Psignal (normalized)	pAKT	lin	lin
+plot4	0.1 nM HRG	LinePlot	provided	model1_data4_ERB_B1_P_tot 	time	0	Time [sec]	pErbB1	0	Psignal (normalized)	pErbB1	lin	lin
+plot4	0.1 nM HRG	LinePlot	provided	model1_data4_ERK_PP	time	0	Time [sec]	pERK	0	Psignal (normalized)	pERK	lin	lin
+plot4	0.1 nM HRG	LinePlot	provided	model1_data4_AKT_PP 	time	0	Time [sec]	pAKT	0	Psignal (normalized)	pAKT	lin	lin
