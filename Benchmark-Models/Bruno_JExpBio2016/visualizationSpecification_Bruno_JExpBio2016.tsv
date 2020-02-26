@@ -1,0 +1,19 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+plot1	model1_data1	LinePlot	MeanAndSD	model1_data1_ob10	time	0	Time [min]	ob10	0	measurement	ob10	lin	lin
+plot2	model1_data2	LinePlot	MeanAndSD	model1_data2_obcar	time	0	Time [min]	obcar	0	measurement	obcar	lin	lin
+plot2	model1_data2	LinePlot	MeanAndSD	model1_data2_ob10	time	0	Time [min]	ob10	0	measurement	ob10	lin	lin
+plot3	model1_data3	LinePlot	MeanAndSD	model1_data3_obcar	time	0	Time [min]	obcar	0	measurement	obcar	lin	log10
+plot3	model1_data3	LinePlot	MeanAndSD	model1_data3_ob10	time	0	Time [min]	ob10	0	measurement	ob10	lin	log10
+plot5	model1_data5	LinePlot	MeanAndSD	model1_data5_oohb10	time	0	Time [min]	oohb10	0	measurement	oohb10	lin	lin
+plot6	model1_data6	LinePlot	MeanAndSD	model1_data6_oohb10	time	0	Time [min]	oohb10	0	measurement	oohb10	lin	log10
+plot6	model1_data6	LinePlot	MeanAndSD	model1_data6_ozea	time	0	Time [min]	ozea	0	measurement	ozea	lin	log10
+plot7 	ob10	LinePlot	MeanAndSD	model1_data1_ob10	time	0	Time [min]	ob10	0	ob10	model1_data1	lin	lin
+plot7 	ob10	LinePlot	MeanAndSD	model1_data2_ob10	time	0	Time [min]	ob10	0	ob10	model1_data2	lin	lin
+plot7 	ob10	LinePlot	MeanAndSD	model1_data3_ob10	time	0	Time [min]	ob10	0	ob10	model1_data3	lin	lin
+plot7 	ob10	LinePlot	MeanAndSD	model1_data4_ob10	time	0	Time [min]	ob10	0	ob10	model1_data4	lin	lin
+plot8	obcar 	LinePlot	MeanAndSD	model1_data2_obcar	time	0	Time [min]	obcar	0	obcar	model1_data2	lin	lin
+plot8	obcar 	LinePlot	MeanAndSD	model1_data3_obcar	time	0	Time [min]	obcar	0	obcar	model1_data3	lin	lin
+plot9	oobh10	LinePlot	MeanAndSD	model1_data4_oohb10	time	0	Time [min]	oohb10	0	oohb10	model1_data4	lin	lin
+plot9	oobh10	LinePlot	MeanAndSD	model1_data5_oohb10	time	0	Time [min]	oohb10	0	oohb10	model1_data5	lin	lin
+plot9	oobh10	LinePlot	MeanAndSD	model1_data6_oohb10	time	0	Time [min]	oohb10	0	oohb10	model1_data6	lin	log10
+plot10 	ozea	LinePlot	MeanAndSD	model1_data6_ozea	time	0	Time [min]	ozea	0	ozea	model1_data6	lin	log10
