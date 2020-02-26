@@ -1,0 +1,17 @@
+language: python
+python: '3.6'
+os: linux
+dist: xenial
+
+install:
+  - pip3 install --upgrade setuptools wheel pkgconfig
+  - pip3 install https://github.com/ICB-DCM/PEtab/archive/develop.zip
+
+# run tests
+script:
+ - cd benchmark-Models
+ - ./checkBenchmarkModels.py
+
+# cache dependencies
+cache: pip
+
