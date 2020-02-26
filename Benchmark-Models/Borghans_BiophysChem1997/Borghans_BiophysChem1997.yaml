@@ -1,0 +1,11 @@
+format_version: 1
+parameter_file: parameters_Borghans_BiophysChem1997.tsv
+problems:
+- condition_files:
+  - experimentalCondition_Borghans_BiophysChem1997.tsv
+  measurement_files:
+  - measurementData_Borghans_BiophysChem1997.tsv
+  observable_files:
+  - observables_Borghans_BiophysChem1997.tsv
+  sbml_files:
+  - model_Borghans_BiophysChem1997.xml
