@@ -1,0 +1,1347 @@
+observableId	simulationConditionId	measurement	time	observableParameters	noiseParameters
+pJAK2_au	-1.9559976255756102	0.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	0.0	5.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-0.127344806374178	10.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-0.127344806374178	20.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-0.581607137532277	40.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-1.36547262889341	60.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-0.787282786054155	80.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-1.0333527385497	100.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-1.5972874764667202	120.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-0.87244777975697	140.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-0.866920046130467	160.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-1.25001612833191	180.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-1.2273622688806	220.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pJAK2_au	-0.990906111356113	240.0	model1_data1	init_EpoRJAK2;offset_pJAK2_long;scale_pJAK2_long;	sd_JAK2EpoR_au
+pEpoR_au	-2.3553252302031003	0.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-0.154400561644228	5.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	0.0	10.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-0.21719139150368302	20.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-0.719316116206963	40.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-0.996595214566894	60.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-0.9548774412928299	80.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-1.15585621457503	100.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-0.5481846105451079	120.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-0.872772916830244	140.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-0.620594295877223	160.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-1.2951467635692802	180.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-1.3977352010842299	220.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+pEpoR_au	-1.06889043485623	240.0	model1_data1	init_EpoRJAK2;offset_pEpoR_long;scale_pEpoR_long;	sd_JAK2EpoR_au
+CIS_au	-1.76935993330706	0.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-1.4109519848252499	5.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-1.67072834872607	10.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-1.4307921852346102	20.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-0.8903193027020309	40.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-0.548991560655054	60.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-0.0857460419244596	80.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-0.0351469501259641	100.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au		120.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-0.11176693155086301	140.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-0.12403767918259001	160.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-0.0217613620144934	180.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	-0.0402838548483609	220.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+CIS_au	0.0	240.0	model1_data1	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_long;scale_CIS_long;	sd_CIS_au
+SOCS3_au		0.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au		5.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au	-0.959711517423787	10.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au	-0.5505794768228499	20.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au		40.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au	-0.244981248162557	60.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au		80.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au		100.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au	0.0	120.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au		140.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au		160.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au	0.0	180.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au		220.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+SOCS3_au	-0.0133420975969506	240.0	model1_data1	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_long;scale_SOCS3_long;	sd_SOCS3_au
+tSTAT5_au	-0.23638223504607997	0.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	0.0	5.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.164299242959636	10.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.248148116973255	20.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au		40.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.065581965397391	60.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.167295929306147	80.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.126338958119533	100.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.0584778472008498	120.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.19336924183516802	140.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.153513804944323	160.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.0751112295179163	180.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.240428040611722	220.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+tSTAT5_au	-0.141014250062728	240.0	model1_data1	init_STAT5;scale_tSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-2.96272532435892	0.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	0.0	5.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.0421106082218592	10.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.251698446666412	20.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au		40.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.407954070403955	60.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.7721856980066469	80.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.7869556229357779	100.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.7124545374288829	120.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.9147002041491841	140.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.8976369588997071	160.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.535187779629362	180.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-1.06689403147387	220.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+pSTAT5_au	-0.559227992203621	240.0	model1_data1	init_STAT5;offset_pSTAT5_long;scale_pSTAT5_long;	sd_STAT5_au
+STAT5_abs	1.7971518860718998	0.0	model1_data2		sd_STAT5_abs
+STAT5_abs	2.06903388541106	0.0	model1_data2		sd_STAT5_abs
+STAT5_abs	1.8390635225804999	0.0	model1_data2		sd_STAT5_abs
+STAT5_abs		0.0	model1_data2		sd_STAT5_abs
+STAT5_abs		10.0	model1_data2		sd_STAT5_abs
+STAT5_abs		10.0	model1_data2		sd_STAT5_abs
+STAT5_abs		10.0	model1_data2		sd_STAT5_abs
+STAT5_abs		10.0	model1_data2		sd_STAT5_abs
+STAT5_abs		120.0	model1_data2		sd_STAT5_abs
+STAT5_abs		120.0	model1_data2		sd_STAT5_abs
+STAT5_abs		120.0	model1_data2		sd_STAT5_abs
+SHP1_abs	1.4538498041697299	0.0	model1_data2		sd_SHP1_abs
+SHP1_abs	1.48944839182453	0.0	model1_data2		sd_SHP1_abs
+SHP1_abs	1.3374606408398	0.0	model1_data2		sd_SHP1_abs
+SHP1_abs		0.0	model1_data2		sd_SHP1_abs
+SHP1_abs		10.0	model1_data2		sd_SHP1_abs
+SHP1_abs		10.0	model1_data2		sd_SHP1_abs
+SHP1_abs		10.0	model1_data2		sd_SHP1_abs
+SHP1_abs		10.0	model1_data2		sd_SHP1_abs
+SHP1_abs		120.0	model1_data2		sd_SHP1_abs
+SHP1_abs		120.0	model1_data2		sd_SHP1_abs
+SHP1_abs		120.0	model1_data2		sd_SHP1_abs
+CIS_abs		0.0	model1_data2		sd_CIS_abs
+CIS_abs		0.0	model1_data2		sd_CIS_abs
+CIS_abs		0.0	model1_data2		sd_CIS_abs
+CIS_abs		0.0	model1_data2		sd_CIS_abs
+CIS_abs		10.0	model1_data2		sd_CIS_abs
+CIS_abs		10.0	model1_data2		sd_CIS_abs
+CIS_abs		10.0	model1_data2		sd_CIS_abs
+CIS_abs		10.0	model1_data2		sd_CIS_abs
+CIS_abs	1.4633224345609	120.0	model1_data2		sd_CIS_abs
+CIS_abs	1.41660002440178	120.0	model1_data2		sd_CIS_abs
+CIS_abs	1.2934154508076499	120.0	model1_data2		sd_CIS_abs
+SOCS3_abs		0.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs		0.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs		0.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs		0.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs		10.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs		10.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs		10.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs		10.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs	1.09183655186437	120.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs	0.8606757973770011	120.0	model1_data2		sd_SOCS3_abs
+SOCS3_abs	1.06229006385732	120.0	model1_data2		sd_SOCS3_abs
+pSTAT5B_rel	0.508	0.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel	0.68458816509399	0.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel	1.1471363132332	0.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel	1.16093161443051	0.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel	78.02	10.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel	68.4474330326524	10.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel	74.0541912811413	10.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel	71.5513947378025	10.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel		120.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel		120.0	model1_data2		sd_pSTAT5_rel
+pSTAT5B_rel		120.0	model1_data2		sd_pSTAT5_rel
+SOCS3RNA_foldA	0.12639116732831301	15.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldA;	sd_RNA_fold
+SOCS3RNA_foldA	0.0973169664007758	30.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldA;	sd_RNA_fold
+SOCS3RNA_foldA	0.7220070503607819	60.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldA;	sd_RNA_fold
+SOCS3RNA_foldA	0.5588515506878989	120.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldA;	sd_RNA_fold
+SOCS3RNA_foldA	0.5969071244243039	240.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldA;	sd_RNA_fold
+SOCS3RNA_foldA	0.525840484480999	360.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldA;	sd_RNA_fold
+SOCS3RNA_foldB	0.159738446817551	15.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldB;	sd_RNA_fold
+SOCS3RNA_foldB	0.19073099410733	30.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldB;	sd_RNA_fold
+SOCS3RNA_foldB	0.6636110716346079	60.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldB;	sd_RNA_fold
+SOCS3RNA_foldB	0.5934492772362719	120.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldB;	sd_RNA_fold
+SOCS3RNA_foldB		240.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldB;	sd_RNA_fold
+SOCS3RNA_foldB	0.35098329600732	360.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldB;	sd_RNA_fold
+SOCS3RNA_foldC	0.0659908618179086	15.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldC;	sd_RNA_fold
+SOCS3RNA_foldC	0.22090941074056197	30.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldC;	sd_RNA_fold
+SOCS3RNA_foldC	0.9779814982051299	60.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldC;	sd_RNA_fold
+SOCS3RNA_foldC	0.6345140247821079	120.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldC;	sd_RNA_fold
+SOCS3RNA_foldC	0.5969071244243039	240.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldC;	sd_RNA_fold
+SOCS3RNA_foldC	0.6517594168137371	360.0	model1_data3	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_CFUE;scale_SOCS3RNA_foldC;	sd_RNA_fold
+CISHRNA_foldA	0.020264138113098	15.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldA;	sd_RNA_fold
+CISHRNA_foldA	0.155010385467118	30.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldA;	sd_RNA_fold
+CISHRNA_foldA	0.84984591256153	60.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldA;	sd_RNA_fold
+CISHRNA_foldA	0.49302140277603	120.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldA;	sd_RNA_fold
+CISHRNA_foldA	0.41261202944541103	240.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldA;	sd_RNA_fold
+CISHRNA_foldA	0.276477023342852	360.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldA;	sd_RNA_fold
+CISHRNA_foldB	0.0239126343000076	15.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldB;	sd_RNA_fold
+CISHRNA_foldB	0.16272675893774	30.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldB;	sd_RNA_fold
+CISHRNA_foldB	0.737850290937661	60.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldB;	sd_RNA_fold
+CISHRNA_foldB	0.5582887771821751	120.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldB;	sd_RNA_fold
+CISHRNA_foldB		240.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldB;	sd_RNA_fold
+CISHRNA_foldB	0.337678772228885	360.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldB;	sd_RNA_fold
+CISHRNA_foldC	0.0134926223445552	15.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldC;	sd_RNA_fold
+CISHRNA_foldC	0.14828736632630898	30.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldC;	sd_RNA_fold
+CISHRNA_foldC	0.561700788051793	60.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldC;	sd_RNA_fold
+CISHRNA_foldC	0.377848187787286	120.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldC;	sd_RNA_fold
+CISHRNA_foldC	0.34446989156084395	240.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldC;	sd_RNA_fold
+CISHRNA_foldC	0.168301014629429	360.0	model1_data3	CISHRNAeqm;init_STAT5;offset_CISRNA_CFUE;scale_CISRNA_foldC;	sd_RNA_fold
+pJAK2_au	-1.7308796578295	0.0	model1_data4	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	0.0	5.0	model1_data4	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-0.125173906054675	10.0	model1_data4	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-0.629491997973224	30.0	model1_data4	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-1.0894316210833601	60.0	model1_data4	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-1.34237899079417	90.0	model1_data4	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-1.44159496716153	120.0	model1_data4	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-1.16405086027602	150.0	model1_data4	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-1.1269762374166101	180.0	model1_data4	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pEpoR_au	-1.48034533279651	0.0	model1_data4	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.0634103915969199	5.0	model1_data4	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.0749410108886472	10.0	model1_data4	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.8963253412981591	30.0	model1_data4	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.901401981487336	60.0	model1_data4	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-1.27572413039921	90.0	model1_data4	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.7995315171208399	120.0	model1_data4	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-1.0004099051572901	150.0	model1_data4	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-1.10166815424101	180.0	model1_data4	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+tSTAT5_au	-0.0796510075665507	0.0	model1_data4	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.0470636403629587	5.0	model1_data4	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.0657746040825623	10.0	model1_data4	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.173750043240779	30.0	model1_data4	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.13363282003279597	60.0	model1_data4	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.233747972916064	90.0	model1_data4	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.0523278803553159	120.0	model1_data4	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.166801183285451	150.0	model1_data4	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.326655243470447	180.0	model1_data4	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-2.71824455493804	0.0	model1_data4	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.0652667315125915	5.0	model1_data4	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.0249424220023924	10.0	model1_data4	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.319601235210433	30.0	model1_data4	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.768167029477043	60.0	model1_data4	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-1.0894583210209698	90.0	model1_data4	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.7340127532427371	120.0	model1_data4	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.8827132849665591	150.0	model1_data4	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.936815065559769	180.0	model1_data4	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+CIS_au	-1.87851553247604	0.0	model1_data4	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-2.02869949975041	5.0	model1_data4	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-2.04980517018959	10.0	model1_data4	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-1.5531952930015303	30.0	model1_data4	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-0.5122956006699161	60.0	model1_data4	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-0.253463284800389	90.0	model1_data4	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-0.0773720257447081	120.0	model1_data4	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-0.0657124131997148	150.0	model1_data4	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	0.0	180.0	model1_data4	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+pJAK2_au	-1.65270722636302	0.0	model1_data5	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-0.22585565325432003	5.0	model1_data5	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-0.0513843091296225	10.0	model1_data5	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-0.672539373768077	30.0	model1_data5	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-0.905462075245078	60.0	model1_data5	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-0.7555136088328409	90.0	model1_data5	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-1.00564789622101	120.0	model1_data5	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-0.78584008533024	150.0	model1_data5	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pJAK2_au	-0.8482490418921942	180.0	model1_data5	init_EpoRJAK2;offset_pJAK2_actd;scale_pJAK2_actd;	sd_JAK2EpoR_au
+pEpoR_au	-1.94699407792977	0.0	model1_data5	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	0.0	5.0	model1_data5	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.103099587825754	10.0	model1_data5	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.483711645904595	30.0	model1_data5	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.9081406697700181	60.0	model1_data5	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.751406821727331	90.0	model1_data5	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.7147909794784191	120.0	model1_data5	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.7674353794415559	150.0	model1_data5	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+pEpoR_au	-0.8669916307929829	180.0	model1_data5	init_EpoRJAK2;offset_pEpoR_actd;scale_pEpoR_actd;	sd_JAK2EpoR_au
+tSTAT5_au	-0.0444552572554305	0.0	model1_data5	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	0.0	5.0	model1_data5	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.03417561801086	10.0	model1_data5	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.233747972916064	30.0	model1_data5	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.0998543936548377	60.0	model1_data5	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.111835690937952	90.0	model1_data5	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.12104369272477601	120.0	model1_data5	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.127292642001777	150.0	model1_data5	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+tSTAT5_au	-0.288534780018539	180.0	model1_data5	init_STAT5;scale_tSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-2.73952184802751	0.0	model1_data5	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.0178690656151498	5.0	model1_data5	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	0.0	10.0	model1_data5	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.35777327911097795	30.0	model1_data5	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.4914963796725061	60.0	model1_data5	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.47914594128607707	90.0	model1_data5	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.374990810601069	120.0	model1_data5	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.33534345055901194	150.0	model1_data5	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+pSTAT5_au	-0.47309998078673793	180.0	model1_data5	init_STAT5;offset_pSTAT5_actd;scale_pSTAT5_actd;	sd_STAT5_au
+CIS_au	-1.8554641924629398	0.0	model1_data5	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-2.09959659224625	5.0	model1_data5	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-1.99802667824722	10.0	model1_data5	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-1.69429792276374	30.0	model1_data5	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-2.21897397659154	60.0	model1_data5	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-2.12236423948727	90.0	model1_data5	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-2.3805739919738502	120.0	model1_data5	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-1.9003625961950201	150.0	model1_data5	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+CIS_au	-2.09887164600106	180.0	model1_data5	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_actd;scale_CIS_actd;	sd_CIS_au
+pJAK2_au	-1.67427477718999	0.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-1.5823104574285802	0.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.705956125196685	0.5	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.421299842408169	1.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.383923182957323	1.5	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.433347330062609	2.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.308799334918894	3.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.04252177721269999	4.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	0.0	5.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.0971372300108787	6.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.118821811798618	7.5	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.18491350909173002	9.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.0819622234172301	10.5	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.21916453866409696	12.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.319915339824355	13.5	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.6183505525895071	15.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.39717066483594105	16.5	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.12358355458554501	18.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.4524260275736359	20.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.641832181411499	22.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.730089804913404	25.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.410866719579557	28.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.7624170493568349	31.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-1.11290966893094	35.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.7853299120133421	40.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.624628283315861	45.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.8967240975602908	50.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-1.19509725733043	60.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.9452755979802141	65.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pJAK2_au	-0.6529400101964351	70.0	model1_data6	init_EpoRJAK2;offset_pJAK2_fine;scale_pJAK2_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.5090103991331439	0.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-1.56877860413663	0.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.6758936564020022	0.5	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.3726704026001	1.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.0402412187782475	1.5	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.165182766363165	2.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.000641025181919024	3.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.11423695260627	4.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	0.0	5.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.28089981340696996	6.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.3794432583427729	7.5	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.0425799047297502	9.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.7008959253720569	10.5	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.289500719016774	12.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.46950185784947	13.5	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.110112690420483	15.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.0216699792317956	16.5	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.548012165394422	18.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.7781512503836441	20.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.6633071322655101	22.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.919007637334648	25.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.843201667585508	28.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-1.07297655204086	31.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-1.09630191422002	35.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-1.00986685182846	40.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.9151075150678979	45.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-1.15801519540989	50.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.8292451662470971	60.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.801845916181854	65.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pEpoR_au	-0.981049242655498	70.0	model1_data6	init_EpoRJAK2;offset_pEpoR_fine;scale_pEpoR_fine;	sd_JAK2EpoR_au
+pJAK2_au	-1.1259522597798501	0.0	model1_data7	init_EpoRJAK2;offset_pJAK2_socs3oe;scale_pJAK2_socs3oe;	sd_JAK2EpoR_au
+pJAK2_au	0.0	10.0	model1_data7	init_EpoRJAK2;offset_pJAK2_socs3oe;scale_pJAK2_socs3oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.623857120422807	60.0	model1_data7	init_EpoRJAK2;offset_pJAK2_socs3oe;scale_pJAK2_socs3oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.5755524408482521	120.0	model1_data7	init_EpoRJAK2;offset_pJAK2_socs3oe;scale_pJAK2_socs3oe;	sd_JAK2EpoR_au
+pEpoR_au	-1.33451513986853	0.0	model1_data7	init_EpoRJAK2;offset_pEpoR_socs3oe;scale_pEpoR_socs3oe;	sd_JAK2EpoR_au
+pEpoR_au	0.0	10.0	model1_data7	init_EpoRJAK2;offset_pEpoR_socs3oe;scale_pEpoR_socs3oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.438949210819118	60.0	model1_data7	init_EpoRJAK2;offset_pEpoR_socs3oe;scale_pEpoR_socs3oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.43475309622551	120.0	model1_data7	init_EpoRJAK2;offset_pEpoR_socs3oe;scale_pEpoR_socs3oe;	sd_JAK2EpoR_au
+CIS_au	-0.7467244231172009	0.0	model1_data7	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_socs3oe;scale_CIS_socs3oe;	sd_CIS_au
+CIS_au	-0.865977521284862	10.0	model1_data7	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_socs3oe;scale_CIS_socs3oe;	sd_CIS_au
+CIS_au	0.0	60.0	model1_data7	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_socs3oe;scale_CIS_socs3oe;	sd_CIS_au
+CIS_au	-0.0133639615579815	120.0	model1_data7	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_socs3oe;scale_CIS_socs3oe;	sd_CIS_au
+SOCS3_au	-1.55577956935925	0.0	model1_data7	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_socs3oe;scale_SOCS3_socs3oe;	sd_SOCS3_au
+SOCS3_au	-1.62904348101356	10.0	model1_data7	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_socs3oe;scale_SOCS3_socs3oe;	sd_SOCS3_au
+SOCS3_au	-1.0760530609846801	60.0	model1_data7	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_socs3oe;scale_SOCS3_socs3oe;	sd_SOCS3_au
+SOCS3_au	-0.9930788259199179	120.0	model1_data7	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_socs3oe;scale_SOCS3_socs3oe;	sd_SOCS3_au
+pSTAT5_au	-2.2593541288301204	0.0	model1_data7	init_STAT5;offset_pSTAT5_socs3oe;scale_pSTAT5_socs3oe;	sd_STAT5_au;sd_pSTAT5_socs3oe;
+pSTAT5_au	0.0	10.0	model1_data7	init_STAT5;offset_pSTAT5_socs3oe;scale_pSTAT5_socs3oe;	sd_STAT5_au;sd_pSTAT5_socs3oe;
+pSTAT5_au	-0.465590635427935	60.0	model1_data7	init_STAT5;offset_pSTAT5_socs3oe;scale_pSTAT5_socs3oe;	sd_STAT5_au;sd_pSTAT5_socs3oe;
+pSTAT5_au	-0.47712125471966205	120.0	model1_data7	init_STAT5;offset_pSTAT5_socs3oe;scale_pSTAT5_socs3oe;	sd_STAT5_au;sd_pSTAT5_socs3oe;
+pJAK2_au	-1.06425556811773	0.0	model1_data8	init_EpoRJAK2;offset_pJAK2_socs3oe;scale_pJAK2_socs3oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.349156063481175	10.0	model1_data8	init_EpoRJAK2;offset_pJAK2_socs3oe;scale_pJAK2_socs3oe;	sd_JAK2EpoR_au
+pJAK2_au	-1.21748394421391	60.0	model1_data8	init_EpoRJAK2;offset_pJAK2_socs3oe;scale_pJAK2_socs3oe;	sd_JAK2EpoR_au
+pJAK2_au	-1.35599548801148	120.0	model1_data8	init_EpoRJAK2;offset_pJAK2_socs3oe;scale_pJAK2_socs3oe;	sd_JAK2EpoR_au
+pEpoR_au	-1.1989334045444	0.0	model1_data8	init_EpoRJAK2;offset_pEpoR_socs3oe;scale_pEpoR_socs3oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.0469527189043522	10.0	model1_data8	init_EpoRJAK2;offset_pEpoR_socs3oe;scale_pEpoR_socs3oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.8607218284977909	60.0	model1_data8	init_EpoRJAK2;offset_pEpoR_socs3oe;scale_pEpoR_socs3oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.905243772046159	120.0	model1_data8	init_EpoRJAK2;offset_pEpoR_socs3oe;scale_pEpoR_socs3oe;	sd_JAK2EpoR_au
+CIS_au	-1.15848885068849	0.0	model1_data8	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_socs3oe;scale_CIS_socs3oe;	sd_CIS_au
+CIS_au	-1.10651565378151	10.0	model1_data8	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_socs3oe;scale_CIS_socs3oe;	sd_CIS_au
+CIS_au	-1.1025811934394198	60.0	model1_data8	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_socs3oe;scale_CIS_socs3oe;	sd_CIS_au
+CIS_au	-1.24736962192881	120.0	model1_data8	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_socs3oe;scale_CIS_socs3oe;	sd_CIS_au
+SOCS3_au	0.0	0.0	model1_data8	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_socs3oe;scale_SOCS3_socs3oe;	sd_SOCS3_au
+SOCS3_au	-0.0522986348461301	10.0	model1_data8	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_socs3oe;scale_SOCS3_socs3oe;	sd_SOCS3_au
+SOCS3_au	-0.0957125591097073	60.0	model1_data8	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_socs3oe;scale_SOCS3_socs3oe;	sd_SOCS3_au
+SOCS3_au	-0.168312642482063	120.0	model1_data8	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_socs3oe;scale_SOCS3_socs3oe;	sd_SOCS3_au
+pSTAT5_au	-1.8314391015503502	0.0	model1_data8	init_STAT5;offset_pSTAT5_socs3oe;scale_pSTAT5_socs3oe;	sd_STAT5_au;sd_pSTAT5_socs3oe;
+pSTAT5_au	-1.54896431359458	10.0	model1_data8	init_STAT5;offset_pSTAT5_socs3oe;scale_pSTAT5_socs3oe;	sd_STAT5_au;sd_pSTAT5_socs3oe;
+pSTAT5_au	-2.12932321426323	60.0	model1_data8	init_STAT5;offset_pSTAT5_socs3oe;scale_pSTAT5_socs3oe;	sd_STAT5_au;sd_pSTAT5_socs3oe;
+pSTAT5_au	-2.79321041446984	120.0	model1_data8	init_STAT5;offset_pSTAT5_socs3oe;scale_pSTAT5_socs3oe;	sd_STAT5_au;sd_pSTAT5_socs3oe;
+pJAK2_au	-1.71482704671278	0.0	model1_data9	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pJAK2_au	0.0	5.0	model1_data9	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.0035452807646497203	10.0	model1_data9	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.289875752195264	30.0	model1_data9	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.513563761233605	60.0	model1_data9	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	-1.45318999611213	0.0	model1_data9	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	0.0	5.0	model1_data9	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.286306738843275	10.0	model1_data9	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.497936323277945	30.0	model1_data9	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.841370167495014	60.0	model1_data9	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+CIS_au	-1.1439147391911202	0.0	model1_data9	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+CIS_au	-1.20559945267619	5.0	model1_data9	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+CIS_au	-1.13749683660255	10.0	model1_data9	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+CIS_au	-0.8721479210116378	30.0	model1_data9	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+CIS_au	0.0	60.0	model1_data9	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+tSTAT5_au	-0.305069973465721	0.0	model1_data9	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+tSTAT5_au	-0.234083206033368	5.0	model1_data9	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+tSTAT5_au	-0.225212782562728	10.0	model1_data9	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+tSTAT5_au	-0.23893570882778	30.0	model1_data9	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+tSTAT5_au	-0.37066592380537605	60.0	model1_data9	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	-1.2132398708066698	0.0	model1_data9	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	-0.11876591924172301	5.0	model1_data9	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	0.0	10.0	model1_data9	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	-0.323446643721065	30.0	model1_data9	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	-0.465553405466379	60.0	model1_data9	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+tSHP1_au	-0.7789872361699849	0.0	model1_data9	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+tSHP1_au	-0.735999972051053	5.0	model1_data9	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+tSHP1_au	-0.544276889981568	10.0	model1_data9	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+tSHP1_au	-0.521489001752332	30.0	model1_data9	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+tSHP1_au	-0.694814044564861	60.0	model1_data9	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+pJAK2_au	-1.42714727975782	0.0	model1_data10	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.007119741122947841	5.0	model1_data10	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.0330002601029253	10.0	model1_data10	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.471857014727305	30.0	model1_data10	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pJAK2_au	-0.9167188430271239	60.0	model1_data10	init_EpoRJAK2;offset_pJAK2_shp1oe;scale_pJAK2_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	-1.60852603357719	0.0	model1_data10	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.372997586669645	5.0	model1_data10	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.360552767215387	10.0	model1_data10	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	-0.79361285230212	30.0	model1_data10	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+pEpoR_au	-1.1228046070956101	60.0	model1_data10	init_EpoRJAK2;offset_pEpoR_shp1oe;scale_pEpoR_shp1oe;	sd_JAK2EpoR_au
+CIS_au	-1.29136238003949	0.0	model1_data10	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+CIS_au	-1.3657553253006398	5.0	model1_data10	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+CIS_au	-1.33621136030855	10.0	model1_data10	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+CIS_au	-0.8020668580071841	30.0	model1_data10	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+CIS_au	-0.125525224856652	60.0	model1_data10	CISHRNAeqm;CISeqm;init_STAT5;offset_CIS_shp1oe;scale_CIS_shp1oe;	sd_CIS_au
+tSTAT5_au	0.0	0.0	model1_data10	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+tSTAT5_au	-0.161850819941071	5.0	model1_data10	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+tSTAT5_au	-0.12279935059774799	10.0	model1_data10	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+tSTAT5_au	-0.10708130886129501	30.0	model1_data10	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+tSTAT5_au	-0.20540869126297304	60.0	model1_data10	init_STAT5;scale_tSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	-1.3004122982168502	0.0	model1_data10	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	-0.325133226353001	5.0	model1_data10	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	-0.23583762540068398	10.0	model1_data10	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	-0.3764970329115321	30.0	model1_data10	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+pSTAT5_au	-0.626726874895457	60.0	model1_data10	init_STAT5;offset_pSTAT5_shp1oe;scale_pSTAT5_shp1oe;	sd_STAT5_au
+tSHP1_au	-0.09017663034908802	0.0	model1_data10	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+tSHP1_au	-0.060384760093577	5.0	model1_data10	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+tSHP1_au	0.0	10.0	model1_data10	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+tSHP1_au	-0.0393097340099326	30.0	model1_data10	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+tSHP1_au	-0.0886374870420665	60.0	model1_data10	SHP1proOE;init_PTP;scale_SHP1_shp1oe;	sd_SHP1_au
+pJAK2_au	-0.29943038250418796	7.0	model1_data11	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.119102070505252	7.0	model1_data11	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.0827212725402429	7.0	model1_data11	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pEpoR_au	0.0	7.0	model1_data11	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.17277114393563597	7.0	model1_data11	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.0380216890725185	7.0	model1_data11	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.248277860056807	7.0	model1_data12	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.0985155397234748	7.0	model1_data12	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	0.0	7.0	model1_data12	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.180471602444284	7.0	model1_data12	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.10506176502760199	7.0	model1_data12	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.157768115543605	7.0	model1_data12	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.343064179435008	7.0	model1_data13	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.228849308218481	7.0	model1_data13	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.136304100612875	7.0	model1_data13	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.22201969804678798	7.0	model1_data13	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.0934627066491743	7.0	model1_data13	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.474565070283669	7.0	model1_data13	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.811793009099371	7.0	model1_data14	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.7816912768762622	7.0	model1_data14	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.6469280806318511	7.0	model1_data14	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.88256043154405	7.0	model1_data14	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.568047927990819	7.0	model1_data14	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-0.7460398223859341	7.0	model1_data14	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-1.3915766057161798	7.0	model1_data15	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-1.34306417943501	7.0	model1_data15	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-1.0945127972698	7.0	model1_data15	init_EpoRJAK2;offset_pJAK2_dr7;scale_pJAK2_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-1.28246114098161	7.0	model1_data15	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-1.39768371212762	7.0	model1_data15	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pEpoR_au	-1.4337288163122601	7.0	model1_data15	init_EpoRJAK2;offset_pEpoR_dr7;scale_pEpoR_dr7;	sd_JAK2EpoR_au
+pJAK2_au	-0.0819757799957328	30.0	model1_data16	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.120320772071952	30.0	model1_data16	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.261136270779091	30.0	model1_data16	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.128318477259681	30.0	model1_data16	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.326278151210787	30.0	model1_data16	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.103818149583739	30.0	model1_data16	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.113690193172939	30.0	model1_data17	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.175458637702883	30.0	model1_data17	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.171682140150626	30.0	model1_data17	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.181901305332312	30.0	model1_data17	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.156347200859924	30.0	model1_data17	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.13026163254568301	30.0	model1_data17	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pJAK2_au	0.0	30.0	model1_data18	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.10393035588378301	30.0	model1_data18	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.121994355961519	30.0	model1_data18	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.144112744442912	30.0	model1_data18	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.162596150136926	30.0	model1_data18	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.144112744442912	30.0	model1_data18	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.13909477294703398	30.0	model1_data19	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.18698925699460997	30.0	model1_data19	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.20285566012716502	30.0	model1_data19	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.21611540586341396	30.0	model1_data19	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.181901305332312	30.0	model1_data19	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	0.0	30.0	model1_data19	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.418022824387006	30.0	model1_data20	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.6284205853207	30.0	model1_data20	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.641532357984827	30.0	model1_data20	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.46572927088867105	30.0	model1_data20	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.31719849335886796	30.0	model1_data20	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.19753312834611603	30.0	model1_data20	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-1.04253373101593	30.0	model1_data21	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-1.15689621909463	30.0	model1_data21	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pJAK2_au	-0.9635852882340831	30.0	model1_data21	init_EpoRJAK2;offset_pJAK2_dr30;scale_pJAK2_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.9162736311373689	30.0	model1_data21	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.985806106567006	30.0	model1_data21	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pEpoR_au	-0.608162590314816	30.0	model1_data21	init_EpoRJAK2;offset_pEpoR_dr30;scale_pEpoR_dr30;	sd_JAK2EpoR_au
+pSTAT5_au	-0.18879758903123398	10.0	model1_data22	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.22451314129776803	10.0	model1_data22	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.147724708366034	10.0	model1_data22	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.689399939600419	10.0	model1_data23	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-1.19606702748577	10.0	model1_data23	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.885623401281461	10.0	model1_data23	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au		10.0	model1_data24	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au		10.0	model1_data25	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.0729648233196127	10.0	model1_data26	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.154983280926324	10.0	model1_data26	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.0138800995600547	10.0	model1_data26	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.0838738925096115	10.0	model1_data27	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.13901477322645098	10.0	model1_data27	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	0.0	10.0	model1_data27	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.4054032832352179	10.0	model1_data28	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.7122628225599229	10.0	model1_data28	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-0.5603052432209611	10.0	model1_data28	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-2.0297396692743304	10.0	model1_data29	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-2.37900622523081	10.0	model1_data29	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au	-2.01789481340937	10.0	model1_data29	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au		10.0	model1_data30	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au		10.0	model1_data31	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au		10.0	model1_data32	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+pSTAT5_au		10.0	model1_data33	init_STAT5;scale_pSTAT5_dr10;	sd_STAT5_au
+CIS_au1	-0.101189713310361	90.0	model1_data34	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	-0.0131624690435264	90.0	model1_data34	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	-0.0424458042391401	90.0	model1_data34	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.14687062842480098	90.0	model1_data34	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.21865525849734002	90.0	model1_data34	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.284032883719125	90.0	model1_data34	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au1	-0.136728067086745	90.0	model1_data35	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	-0.0525660854116676	90.0	model1_data35	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	0.0	90.0	model1_data35	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au2	0.0	90.0	model1_data35	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.0704354164174596	90.0	model1_data35	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.0397568096722145	90.0	model1_data35	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au1	-0.0128205051833118	90.0	model1_data36	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	-1.23840113633161e-05	90.0	model1_data36	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	-0.0687418159024206	90.0	model1_data36	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.0226727235438288	90.0	model1_data36	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.231658204932813	90.0	model1_data36	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.0586294753254779	90.0	model1_data36	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au1	-0.289601874458826	90.0	model1_data37	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	-0.325318153754375	90.0	model1_data37	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	-0.344251828265026	90.0	model1_data37	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.253555701135469	90.0	model1_data37	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.3937465839911711	90.0	model1_data37	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-0.266015177085708	90.0	model1_data37	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au1	-1.38093403320306	90.0	model1_data38	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	-1.42293141918203	90.0	model1_data38	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au1	-1.4092612404108797	90.0	model1_data38	CISHRNAeqm;CISeqm;init_STAT5;scale1_CIS_dr90;	sd_CIS_au
+CIS_au2	-1.4403382475022501	90.0	model1_data38	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-1.34490959438506	90.0	model1_data38	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+CIS_au2	-1.38701974266468	90.0	model1_data38	CISHRNAeqm;CISeqm;init_STAT5;scale2_CIS_dr90;	sd_CIS_au
+SOCS3RNA_au	1.38381536598043	0.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	1.21572566455757	10.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	1.11394335230684	20.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.8637192950926691	30.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.9513375187959179	40.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.684246747515312	50.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.76067373855426	60.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.867074461151772	80.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.7253670623404309	100.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.753583058892907	120.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.680637631327201	140.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.7494786504876949	160.0	model1_data39	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_onlyActD;scale_SOCS3RNA_onlyActD;	sd_RNA
+CishRNA_au	1.38620160540079	0.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	1.41830129131975	10.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	1.2372085050255701	20.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	1.14197207590708	30.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	1.1893967258352198	40.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	1.0755469613925301	50.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	1.0105826084440601	60.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	0.971894061628124	80.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	0.770852011642144	100.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	0.7001265815359611	120.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	0.6998377258672459	140.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+CishRNA_au	0.562689299428688	160.0	model1_data39	CISHRNAeqm;init_STAT5;offset_CishRNA_onlyActD;scale_CishRNA_onlyActD;	sd_RNA
+SOCS3RNA_au	0.0	0.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	-0.0185066111527051	15.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.531002440265765	30.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.509219293176689	60.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.3912698213124	90.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.39787533645138107	120.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.399211241811258	150.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.42911445113615604	180.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.40287678343806	210.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.419930105327189	240.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.400143448328081	270.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.414857222719822	300.0	model1_data40	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+CishRNA_au	0.0	0.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	0.15269131166388902	15.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.35548544382184	30.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.56879768957339	60.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.53159629865534	90.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.48341206144127	120.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.4946482505044199	150.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.54232830526155	180.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.5000247008518999	210.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.49946391230023	240.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.40450328465769	270.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	1.3278543751254601	300.0	model1_data40	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.261702843790101	90.0	model1_data41	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.141181651465096	120.0	model1_data41	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.143051907074714	150.0	model1_data41	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.230152687178309	180.0	model1_data41	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.0799971622170273	210.0	model1_data41	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.047815359441531	240.0	model1_data41	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.0786767037258363	270.0	model1_data41	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+SOCS3RNA_au	0.0912508318553955	300.0	model1_data41	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_valCFUE;scale_SOCS3RNA_valCFUE;	sd_RNA
+CishRNA_au	1.3116168740894698	90.0	model1_data41	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	0.991107832132555	120.0	model1_data41	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	0.855143109613441	150.0	model1_data41	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	0.8520124988199671	180.0	model1_data41	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	0.7440172688727209	210.0	model1_data41	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	0.712869325239886	240.0	model1_data41	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	0.7176383791795841	270.0	model1_data41	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+CishRNA_au	0.7276957437952779	300.0	model1_data41	CISHRNAeqm;init_STAT5;offset_CishRNA_valCFUE;scale_CishRNA_valCFUE;	sd_RNA
+pEpoR_au	-0.837150452119536	0.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0388569365374257	2.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.22908167879487398	4.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.18498497221566398	6.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.22577904324478898	8.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	0.0	10.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.37787002589670293	15.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.30102999566398103	20.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.34203160066799604	30.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.48184189339224703	40.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.25999314377589	50.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.643922438005113	60.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.35027931996536305	80.0	model2_data1	init_EpoRJAK2_H838;offset_pEpoR_ib_1;scale_pEpoR_ib_1;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.560050848320451	0.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.818323858425422	2.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.761993123216524	4.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.36882584613571207	6.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.43051636002300203	8.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.165201916625555	10.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.1249387366083	15.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.00511944413603164	20.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.176515581983333	30.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	0.0	40.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.20821069875807896	50.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.42823659372810297	60.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pSTAT5_au	-0.306149439800013	80.0	model2_data1	init_STAT5;offset_pSTAT5_ib_1;scale_pSTAT5_ib_1;	sd_STAT5_au_H838
+pJAK2_au	-0.30294879611936404	0.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.47364060708617406	2.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0166322825288624	4.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0554514160040961	6.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.28473132457506	8.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.16118377784464902	10.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.21281351149260896	15.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	0.0	20.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.197755202324062	30.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0918095770215967	40.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.443212500300935	50.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0627564430382587	60.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.24901119911334998	80.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.29675179857050205	100.0	model2_data2	init_EpoRJAK2_H838;offset_pJAK2_ib_2;scale_pJAK2_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.24912160685256898	0.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0614741231095383	2.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.18029241563558898	4.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.000181698964335722	6.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0271171511378034	8.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	0.0	10.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.201547705451972	15.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.119383513115574	20.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.237644235269874	30.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au		40.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.14017973170113399	50.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.16129575350597	60.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0981089457271415	80.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.20431858176969603	100.0	model2_data2	init_EpoRJAK2_H838;offset_pEpoR_ib_2;scale_pEpoR_ib_2;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.29698482656174	0.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.518910145401075	2.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.170916708562353	4.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.18955254609155	4.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.126917707666287	6.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.11207167845174498	6.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.20718007810179997	8.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	0.0	10.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.19548543052932396	15.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.128756823904375	20.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0657092900635924	30.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0879430452020891	40.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.17098106765441198	50.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.444062168709984	60.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.39138267338043503	80.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.30693045416574394	100.0	model2_data3	init_EpoRJAK2_H838;offset_pJAK2_ib_3;scale_pJAK2_ib_3;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.9860671394901779	0.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.394967268667945	2.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.662460690171175	4.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.518848252480689	4.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.293534804748689	6.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.508488546415008	6.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	0.0	8.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.25034116295951003	10.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.0224867202362038	15.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.256883514090807	20.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.17354896024475697	30.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.038092316294512	40.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.296925819298872	50.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.23432087253962497	60.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.429691518484326	80.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.479242277905036	100.0	model2_data3	init_STAT5;offset_pSTAT5_ib_3;scale_pSTAT5_ib_3;	sd_STAT5_au_H838
+pSTAT5_au	-0.8645281057357679	0.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.29527766677489004	4.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.234911222455598	4.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.632023214705406	6.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.142667503568732	8.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.559790828613109	8.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.257013166679607	10.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	0.0	15.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.241592807812113	20.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.724033793778747	30.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.48002624536307	40.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.23823916580452598	50.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.39076142404491404	60.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pSTAT5_au	-0.5039934011199639	80.0	model2_data4	init_STAT5;offset_pSTAT5_ib_4;scale_pSTAT5_ib_4;	sd_STAT5_au_H838
+pJAK2_au	-0.8267288448919671	0.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.468149202402495	1.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		2.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		3.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		4.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0260654904389274	5.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		6.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		7.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		8.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		9.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au	0.0	10.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		15.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.14654988562097698	20.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.18353345187414702	30.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.14654988562097698	40.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.220445535206918	50.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.245681358622992	60.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		80.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au		100.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.40699368564708294	120.0	model2_data5	init_EpoRJAK2_H838;offset_pJAK2_ib_5;scale_pJAK2_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.9763219005263671	0.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.542666339587795	1.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.30479014453728803	2.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.132491874498746	3.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.113849764442688	4.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.13122386051211	5.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.113849764442688	6.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au		7.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.23035533351412502	8.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au		9.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	0.0	10.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.12369255359570099	15.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au		20.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.10303689516047002	30.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au		40.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au		50.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.214731545030591	60.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au		80.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au		100.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.227185286724618	120.0	model2_data5	init_EpoRJAK2_H838;offset_pEpoR_ib_5;scale_pEpoR_ib_5;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.5639395278760551	0.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.6756986619230311	1.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au		2.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.544317137836831	3.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.47216915452041003	4.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.643851294671036	5.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.606062733781636	6.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.30003504796214503	7.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.34945187790606796	8.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.19857740720336803	9.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	0.0	10.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.174103637820168	15.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.11834840556455001	20.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.0843920406902669	30.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.29805196469044604	40.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.5011837911023049	50.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.469224773873629	60.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.5288967789693371	80.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au	-0.614180624003816	100.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_au		120.0	model2_data5	init_STAT5;offset_pSTAT5_ib_5;scale_pSTAT5_ib_5;	sd_STAT5_au_H838
+pSTAT5_rel	3.6369388368268203e-06	0.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	0.8329412982870892	3.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	1.6521535916782502	6.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.17075480599589	9.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	3.2511757237467998	12.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	3.1041421716994	16.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	3.3640564917451	20.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.27722781169546	30.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.18815793109945	40.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	1.41066494156123	50.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	1.19382901286152	60.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	0.38575563108241795	90.0	model2_data6		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.55	20.0	model2_data7		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.69	20.0	model2_data7		sd_pSTAT5_rel_H838
+pSTAT5_rel	1.32	20.0	model2_data8		sd_pSTAT5_rel_H838
+pSTAT5_rel	1.58	20.0	model2_data8		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.71	20.0	model2_data9		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.79	20.0	model2_data9		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.35	20.0	model2_data10		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.2	20.0	model2_data10		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.65	20.0	model2_data11		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.28	20.0	model2_data11		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.48	20.0	model2_data12		sd_pSTAT5_rel_H838
+pSTAT5_rel	2.42	20.0	model2_data12		sd_pSTAT5_rel_H838
+pSTAT5_rel	1.01	20.0	model2_data13		sd_pSTAT5_rel_H838
+pSTAT5_rel	1.19	20.0	model2_data13		sd_pSTAT5_rel_H838
+CISRNA_foldA	0.0	0.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.0010581054919751199	30.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.225622776327601	60.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.305490563327125	90.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.293320924592453	120.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.345819391258305	180.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.27574220195289506	240.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.294133367668775	300.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.257882314618317	360.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.211623385102381	480.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.21129133201472403	780.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldA	0.243595403843617	1440.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldA_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.0	0.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	-0.0413360976367354	30.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.0832035598628663	60.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.20265653678457604	90.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.22361757144413397	120.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.26326363519253	180.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	-0.0135547929009805	240.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.0464892709140284	300.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.106707357566804	360.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.0517102507970633	480.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.00529990298024872	780.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldB	0.12137487574337899	1440.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldB_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.0	0.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	-0.00723632977790134	30.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.165885700835395	60.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.180718522544677	90.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.132426213657613	120.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.0969474144400028	180.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.21521839356554	240.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.059915308566066	300.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.0052221329387272105	360.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	-0.0971473864900306	480.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.0252268578951094	780.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+CISRNA_foldC	0.19676860142158104	1440.0	model2_data14	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_foldC_H838;	sd_RNA_fold_H838
+pSTAT5_au	-0.44502073136496095	150.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.118793103525874	4.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.217096870035971	40.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.302307781752253	90.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.154983694284302	14.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.141755980935684	6.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.268146350868654	120.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.28085562984958695	2.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.12709450574485698	30.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.221432651768815	60.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.0516519862619165	22.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	0.0	10.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.0804342513216438	18.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.6650824992958471	0.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.0250409938775971	26.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.0697918679136547	50.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pSTAT5_au	-0.31369249085904805	180.0	model2_data15	init_STAT5;offset_pSTAT5_ib_6;scale_pSTAT5_ib_6;	sd_STAT5_au_H838
+pEpoR_au	-0.3683878084344389	150.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0679881714954029	4.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.20761562421496202	40.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.230204049097774	90.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0563232316701647	14.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.125778871439132	6.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.333591795085507	120.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.21836185435610397	2.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0907468177279579	30.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.28035008242236	60.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0686922411158246	22.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	0.0	10.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0780432880391097	18.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.932770316350016	0.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0399150383074071	26.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.124647165711313	50.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.47232264679047703	180.0	model2_data15	init_EpoRJAK2;offset_pEpoR_ib_6;scale_pEpoR_ib_6;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.5594190092200699	0.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.248163847037516	2.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0836286018770451	10.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.120168167103599	14.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	0.0	18.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0688554807642663	22.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.25737974297906896	26.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.152644681282815	30.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.150943756887557	40.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.199352631960423	60.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.334129730047664	90.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.39246705547950606	120.0	model2_data16	init_EpoRJAK2;offset_pJAK2_ib_7;scale_pJAK2_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.769438073393588	0.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.12314729623190901	2.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0388477714258543	10.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0551843535914697	14.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	0.0	18.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0480294664981069	22.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.221598267174972	26.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.156297219735996	30.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.120855265824335	40.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.21656317124204397	60.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.313170280937139	90.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.466146605947308	120.0	model2_data16	init_EpoRJAK2;offset_pEpoR_ib_7;scale_pEpoR_ib_7;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.460738805204611	150.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.25313728922909806	4.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.0768721921795039	40.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.24612565150698001	90.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	0.0	14.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.299130058630595	6.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.249695810141487	120.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.7002907870702	2.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.0599166307970119	30.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.17908359378775499	60.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.167097982578147	22.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.0942149573729628	10.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.139846936597585	18.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.952406008741751	0.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.0322212826912146	26.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.0478722642209327	50.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+pSTAT5_au	-0.40037989682969005	180.0	model2_data17	init_STAT5;offset_pSTAT5_ib_8;scale_pSTAT5_ib_8;	sd_STAT5_au_H838
+tSTAT5_au	-0.19498044162668202	150.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.160811978540896	4.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.204632413365554	40.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.139130189735126	90.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.22308494860403003	14.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.151799243023907	6.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.106286959397598	120.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.0830664309169417	2.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.28943891763303997	30.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.204413273225149	60.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.346107896994792	22.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.220878560429678	10.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.35846173997258096	18.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	0.0	0.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.272948953173495	26.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.120907462846551	50.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.0277793573745679	180.0	model2_data17	init_STAT5;offset_tSTAT5_ib_8;scale_tSTAT5_ib_8;	sd_tSTAT5_au_H838
+pSTAT5_au	-2.03786435529616	0.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.546049263551571	2.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au		6.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.127628468012851	10.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.14609273382281698	14.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.179900009832719	18.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.119566471534553	22.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.09869292564298	26.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.0681975074396165	30.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	0.0	40.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.0598788944185573	60.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.0291807022149226	90.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+pSTAT5_au	-0.30974039897171	120.0	model2_data18	init_STAT5;offset_pSTAT5_ib_9;scale_pSTAT5_ib_9;	sd_STAT5_au_H838
+tSTAT5_au	0.0	0.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.287652196595533	2.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au		6.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.676999741378156	10.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.748695337047813	14.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.721354451136633	18.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.6839522749640861	22.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.622996669113222	26.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.598084366455271	30.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.5129971607669629	40.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.383862350653811	60.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.219366681294568	90.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+tSTAT5_au	-0.24479524569621	120.0	model2_data18	init_STAT5;offset_tSTAT5_ib_9;scale_tSTAT5_ib_9;	sd_tSTAT5_au_H838
+pJAK2_au	-1.37230292626973	20.0	model2_data19	init_EpoRJAK2;offset_pJAK2_ib_12;scale_pJAK2_ib_12;	sd_JAK2EpoR_au_H838
+pEpoR_au	-1.1119554501763798	20.0	model2_data19	init_EpoRJAK2;offset_pEpoR_ib_12;scale_pEpoR_ib_12;	sd_JAK2EpoR_au_H838
+tEpoR_au	-0.21802647564921201	20.0	model2_data19	init_EpoRJAK2;offset_tEpoR_ib_12;scale_tEpoR_ib_12;	sd_JAK2EpoR_au_H838
+pJAK2_au	0.0	20.0	model2_data20	init_EpoRJAK2;offset_pJAK2_ib_12;scale_pJAK2_ib_12;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.053897587536999	20.0	model2_data20	init_EpoRJAK2;offset_pEpoR_ib_12;scale_pEpoR_ib_12;	sd_JAK2EpoR_au_H838
+tEpoR_au	-0.0751992740400639	20.0	model2_data20	init_EpoRJAK2;offset_tEpoR_ib_12;scale_tEpoR_ib_12;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0128366535672518	20.0	model2_data21	init_EpoRJAK2;offset_pJAK2_ib_12;scale_pJAK2_ib_12;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.00159600072764609	20.0	model2_data21	init_EpoRJAK2;offset_pEpoR_ib_12;scale_pEpoR_ib_12;	sd_JAK2EpoR_au_H838
+tEpoR_au	0.0	20.0	model2_data21	init_EpoRJAK2;offset_tEpoR_ib_12;scale_tEpoR_ib_12;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0152823812221587	20.0	model2_data22	init_EpoRJAK2;offset_pJAK2_ib_12;scale_pJAK2_ib_12;	sd_JAK2EpoR_au_H838
+pEpoR_au	0.0	20.0	model2_data22	init_EpoRJAK2;offset_pEpoR_ib_12;scale_pEpoR_ib_12;	sd_JAK2EpoR_au_H838
+tEpoR_au	-0.223626825584612	20.0	model2_data22	init_EpoRJAK2;offset_tEpoR_ib_12;scale_tEpoR_ib_12;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0825874493422361	20.0	model2_data23	init_EpoRJAK2;offset_pJAK2_ib_12;scale_pJAK2_ib_12;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.10132291502875	20.0	model2_data23	init_EpoRJAK2;offset_pEpoR_ib_12;scale_pEpoR_ib_12;	sd_JAK2EpoR_au_H838
+tEpoR_au	-0.18575308390412698	20.0	model2_data23	init_EpoRJAK2;offset_tEpoR_ib_12;scale_tEpoR_ib_12;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.7406344339829158	20.0	model2_data24	init_EpoRJAK2;offset_pJAK2_ib_12;scale_pJAK2_ib_12;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.607193653191758	20.0	model2_data24	init_EpoRJAK2;offset_pEpoR_ib_12;scale_pEpoR_ib_12;	sd_JAK2EpoR_au_H838
+tEpoR_au	-0.262273865634058	20.0	model2_data24	init_EpoRJAK2;offset_tEpoR_ib_12;scale_tEpoR_ib_12;	sd_JAK2EpoR_au_H838
+pJAK2_au	-1.2693627603638602	20.0	model2_data25	init_EpoRJAK2;offset_pJAK2_ib_12;scale_pJAK2_ib_12;	sd_JAK2EpoR_au_H838
+pEpoR_au	-1.07564298059037	20.0	model2_data25	init_EpoRJAK2;offset_pEpoR_ib_12;scale_pEpoR_ib_12;	sd_JAK2EpoR_au_H838
+tEpoR_au	-0.23939815965240802	20.0	model2_data25	init_EpoRJAK2;offset_tEpoR_ib_12;scale_tEpoR_ib_12;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.23330306128997302	20.0	model2_data26	init_EpoRJAK2;offset_pJAK2_ib_12;scale_pJAK2_ib_12;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.22195604641193603	20.0	model2_data26	init_EpoRJAK2;offset_pEpoR_ib_12;scale_pEpoR_ib_12;	sd_JAK2EpoR_au_H838
+tEpoR_au	-0.0999904493254523	20.0	model2_data26	init_EpoRJAK2;offset_tEpoR_ib_12;scale_tEpoR_ib_12;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.7626988324044179	20.0	model2_data27	init_EpoRJAK2;offset_pJAK2_ib_12;scale_pJAK2_ib_12;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.808613890412936	20.0	model2_data27	init_EpoRJAK2;offset_pEpoR_ib_12;scale_pEpoR_ib_12;	sd_JAK2EpoR_au_H838
+tEpoR_au	-0.203923755059965	20.0	model2_data27	init_EpoRJAK2;offset_tEpoR_ib_12;scale_tEpoR_ib_12;	sd_JAK2EpoR_au_H838
+SOCS3_au	-0.0472332630938555	0.0	model2_data28	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_10;	sd_SOCS3_au_H838
+SOCS3_au	0.0	60.0	model2_data28	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_10;	sd_SOCS3_au_H838
+SOCS3_au	-0.183632075823907	120.0	model2_data28	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_10;	sd_SOCS3_au_H838
+SOCS3_au	-0.23220794689135701	180.0	model2_data28	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_10;	sd_SOCS3_au_H838
+SOCS3_au	-0.31517874710016697	0.0	model2_data29	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_10;	sd_SOCS3_au_H838
+SOCS3_au	-0.0665194467286608	60.0	model2_data29	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_10;	sd_SOCS3_au_H838
+SOCS3_au	-0.18813224184917104	120.0	model2_data29	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_10;	sd_SOCS3_au_H838
+SOCS3_au	-0.13006082687348403	180.0	model2_data29	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_10;	sd_SOCS3_au_H838
+SOCS3_au	-0.621068084322566	20.0	model2_data30	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_13;scale_SOCS3_ib_13;	sd_SOCS3_au_H838
+SOCS3_au	-0.0321172872888006	20.0	model2_data31	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_13;scale_SOCS3_ib_13;	sd_SOCS3_au_H838
+SOCS3_au	-0.0052452187801705795	20.0	model2_data32	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_13;scale_SOCS3_ib_13;	sd_SOCS3_au_H838
+SOCS3_au	0.0	20.0	model2_data33	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_13;scale_SOCS3_ib_13;	sd_SOCS3_au_H838
+SOCS3_au	-0.35658006829368605	20.0	model2_data34	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_13;scale_SOCS3_ib_13;	sd_SOCS3_au_H838
+SOCS3_au	-0.5465809857958001	20.0	model2_data35	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_13;scale_SOCS3_ib_13;	sd_SOCS3_au_H838
+SOCS3_au	-0.6568382195974971	20.0	model2_data36	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_13;scale_SOCS3_ib_13;	sd_SOCS3_au_H838
+SOCS3_au	-0.9779705159600199	20.0	model2_data37	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_13;scale_SOCS3_ib_13;	sd_SOCS3_au_H838
+SOCS3_au	-0.647426837543818	20.0	model2_data38	SOCS3RNAeqm;SOCS3eqm;SOCS3prom;init_STAT5;offset_SOCS3_ib_13;scale_SOCS3_ib_13;	sd_SOCS3_au_H838
+pSTAT5_rel	0.0	20.0	model2_data39		sd_pSTAT5_rel_H838EpoR
+pSTAT5_rel	58.9	20.0	model2_data40		sd_pSTAT5_rel_H838EpoR
+pSTAT5_rel	51.4	20.0	model2_data41		sd_pSTAT5_rel_H838EpoR
+pSTAT5_rel	62.3	20.0	model2_data42		sd_pSTAT5_rel_H838EpoR
+pSTAT5_rel	45.2	20.0	model2_data43		sd_pSTAT5_rel_H838EpoR
+pSTAT5_rel	13.6	20.0	model2_data44		sd_pSTAT5_rel_H838EpoR
+pSTAT5_rel	0.67	20.0	model2_data45		sd_pSTAT5_rel_H838EpoR
+pSTAT5_rel	29.1	20.0	model2_data46		sd_pSTAT5_rel_H838EpoR
+pSTAT5_rel	3.16	20.0	model2_data47		sd_pSTAT5_rel_H838EpoR
+pJAK2_au	-0.41667900601278707	10.0	model2_data48	init_EpoRJAK2;offset_pJAK2_ib_cera1;scale_pJAK2_ib_cera1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.815975146920103	10.0	model2_data48	init_EpoRJAK2;offset_pEpoR_ib_cera1;scale_pEpoR_ib_cera1;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-1.7321582435507898	10.0	model2_data48	init_STAT5;offset_pSTAT5_ib_cera1;scale_pSTAT5_ib_cera1;	sd_STAT5_au_H838
+pJAK2_au	0.0	10.0	model2_data49	init_EpoRJAK2;offset_pJAK2_ib_cera1;scale_pJAK2_ib_cera1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.00472723394333095	10.0	model2_data49	init_EpoRJAK2;offset_pEpoR_ib_cera1;scale_pEpoR_ib_cera1;	sd_JAK2EpoR_au_H838
+pSTAT5_au	0.0	10.0	model2_data49	init_STAT5;offset_pSTAT5_ib_cera1;scale_pSTAT5_ib_cera1;	sd_STAT5_au_H838
+pJAK2_au	-0.247163914326948	10.0	model2_data50	init_EpoRJAK2;offset_pJAK2_ib_cera1;scale_pJAK2_ib_cera1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.224804258678564	10.0	model2_data50	init_EpoRJAK2;offset_pEpoR_ib_cera1;scale_pEpoR_ib_cera1;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.29538432425489297	10.0	model2_data50	init_STAT5;offset_pSTAT5_ib_cera1;scale_pSTAT5_ib_cera1;	sd_STAT5_au_H838
+pJAK2_au	-0.721892052123331	10.0	model2_data51	init_EpoRJAK2;offset_pJAK2_ib_cera1;scale_pJAK2_ib_cera1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.681138333754438	10.0	model2_data51	init_EpoRJAK2;offset_pEpoR_ib_cera1;scale_pEpoR_ib_cera1;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-1.3327673952864698	10.0	model2_data51	init_STAT5;offset_pSTAT5_ib_cera1;scale_pSTAT5_ib_cera1;	sd_STAT5_au_H838
+pJAK2_au	-0.105773974575882	10.0	model2_data52	init_EpoRJAK2;offset_pJAK2_ib_cera1;scale_pJAK2_ib_cera1;	sd_JAK2EpoR_au_H838
+pEpoR_au	0.0	10.0	model2_data52	init_EpoRJAK2;offset_pEpoR_ib_cera1;scale_pEpoR_ib_cera1;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.0458466575354302	10.0	model2_data52	init_STAT5;offset_pSTAT5_ib_cera1;scale_pSTAT5_ib_cera1;	sd_STAT5_au_H838
+pJAK2_au	-0.0940592769924818	10.0	model2_data53	init_EpoRJAK2;offset_pJAK2_ib_cera1;scale_pJAK2_ib_cera1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0217100816611481	10.0	model2_data53	init_EpoRJAK2;offset_pEpoR_ib_cera1;scale_pEpoR_ib_cera1;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.0855257285123701	10.0	model2_data53	init_STAT5;offset_pSTAT5_ib_cera1;scale_pSTAT5_ib_cera1;	sd_STAT5_au_H838
+pJAK2_au	-0.499611061138636	10.0	model2_data54	init_EpoRJAK2;offset_pJAK2_ib_cera1;scale_pJAK2_ib_cera1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.5113210064611261	10.0	model2_data54	init_EpoRJAK2;offset_pEpoR_ib_cera1;scale_pEpoR_ib_cera1;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-1.00395417407493	10.0	model2_data54	init_STAT5;offset_pSTAT5_ib_cera1;scale_pSTAT5_ib_cera1;	sd_STAT5_au_H838
+pJAK2_au	-0.7431529915001708	10.0	model2_data55	init_EpoRJAK2;offset_pJAK2_ib_cera1;scale_pJAK2_ib_cera1;	sd_JAK2EpoR_au_H838
+pEpoR_au	-1.0661459092063101	10.0	model2_data55	init_EpoRJAK2;offset_pEpoR_ib_cera1;scale_pEpoR_ib_cera1;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-1.7818016353456299	10.0	model2_data55	init_STAT5;offset_pSTAT5_ib_cera1;scale_pSTAT5_ib_cera1;	sd_STAT5_au_H838
+pJAK2_au	-0.399079300740031	10.0	model2_data56	init_EpoRJAK2;offset_pJAK2_ib_cera2;scale_pJAK2_ib_cera2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.9869373438810111	10.0	model2_data56	init_EpoRJAK2;offset_pEpoR_ib_cera2;scale_pEpoR_ib_cera2;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-1.5253702401656801	10.0	model2_data56	init_STAT5;offset_pSTAT5_ib_cera2;scale_pSTAT5_ib_cera2;	sd_STAT5_au_H838
+pJAK2_au	-0.0543277479225801	10.0	model2_data57	init_EpoRJAK2;offset_pJAK2_ib_cera2;scale_pJAK2_ib_cera2;	sd_JAK2EpoR_au_H838
+pEpoR_au	0.0	10.0	model2_data57	init_EpoRJAK2;offset_pEpoR_ib_cera2;scale_pEpoR_ib_cera2;	sd_JAK2EpoR_au_H838
+pSTAT5_au	0.0	10.0	model2_data57	init_STAT5;offset_pSTAT5_ib_cera2;scale_pSTAT5_ib_cera2;	sd_STAT5_au_H838
+pJAK2_au	-0.25696573810901296	10.0	model2_data58	init_EpoRJAK2;offset_pJAK2_ib_cera2;scale_pJAK2_ib_cera2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.25514851108798103	10.0	model2_data58	init_EpoRJAK2;offset_pEpoR_ib_cera2;scale_pEpoR_ib_cera2;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.314710386297328	10.0	model2_data58	init_STAT5;offset_pSTAT5_ib_cera2;scale_pSTAT5_ib_cera2;	sd_STAT5_au_H838
+pJAK2_au	-0.775817217082963	10.0	model2_data59	init_EpoRJAK2;offset_pJAK2_ib_cera2;scale_pJAK2_ib_cera2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.8128692630499291	10.0	model2_data59	init_EpoRJAK2;offset_pEpoR_ib_cera2;scale_pEpoR_ib_cera2;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-1.41553208573454	10.0	model2_data59	init_STAT5;offset_pSTAT5_ib_cera2;scale_pSTAT5_ib_cera2;	sd_STAT5_au_H838
+pJAK2_au	-0.0916799933455974	10.0	model2_data60	init_EpoRJAK2;offset_pJAK2_ib_cera2;scale_pJAK2_ib_cera2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.130063819487324	10.0	model2_data60	init_EpoRJAK2;offset_pEpoR_ib_cera2;scale_pEpoR_ib_cera2;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.0176053735136245	10.0	model2_data60	init_STAT5;offset_pSTAT5_ib_cera2;scale_pSTAT5_ib_cera2;	sd_STAT5_au_H838
+pJAK2_au	0.0	10.0	model2_data61	init_EpoRJAK2;offset_pJAK2_ib_cera2;scale_pJAK2_ib_cera2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.005958949577377711	10.0	model2_data61	init_EpoRJAK2;offset_pEpoR_ib_cera2;scale_pEpoR_ib_cera2;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.0190421945363243	10.0	model2_data61	init_STAT5;offset_pSTAT5_ib_cera2;scale_pSTAT5_ib_cera2;	sd_STAT5_au_H838
+pJAK2_au	-0.41716743588181804	10.0	model2_data62	init_EpoRJAK2;offset_pJAK2_ib_cera2;scale_pJAK2_ib_cera2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.61055180559212	10.0	model2_data62	init_EpoRJAK2;offset_pEpoR_ib_cera2;scale_pEpoR_ib_cera2;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-0.83426172019073	10.0	model2_data62	init_STAT5;offset_pSTAT5_ib_cera2;scale_pSTAT5_ib_cera2;	sd_STAT5_au_H838
+pJAK2_au	-0.883874036861655	10.0	model2_data63	init_EpoRJAK2;offset_pJAK2_ib_cera2;scale_pJAK2_ib_cera2;	sd_JAK2EpoR_au_H838
+pEpoR_au	-1.17845735345	10.0	model2_data63	init_EpoRJAK2;offset_pEpoR_ib_cera2;scale_pEpoR_ib_cera2;	sd_JAK2EpoR_au_H838
+pSTAT5_au	-1.7816440633807702	10.0	model2_data63	init_STAT5;offset_pSTAT5_ib_cera2;scale_pSTAT5_ib_cera2;	sd_STAT5_au_H838
+CishRNA_rep1_au	-0.0409564488073528	0.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	-0.071076876198334	30.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	-0.0461718222312916	60.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	-0.0463969657877436	90.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	-0.00479885880520711	120.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	-0.00441156481508831	150.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	-0.0719531585015116	180.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.0773711161276199	360.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.0391289998165275	540.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	-0.0009211393103705119	720.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.0527654804927077	0.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	-0.0716054974067757	30.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	-0.0553933611386245	60.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	-0.0470622243260314	90.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	-0.00310866719324974	120.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.0104533414403429	150.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	-0.0564960194597183	180.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.0389220777129198	360.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.0685459933560828	540.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.094854109126722	720.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.049368053114967	0.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	-0.0664935289421948	30.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	-0.0468671768180871	60.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au		90.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	-0.0260235283466033	120.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.0110843319283041	150.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	-0.0340544135269615	180.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.0504675652968876	360.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.0492388623919111	540.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.0641814046480872	720.0	model2_data64	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0505733503027941	0.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	-0.028837301680177004	30.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	-0.0223009208255697	60.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	-0.0931377093788401	90.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0778925012222613	120.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0449198313121645	150.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	-0.17190940306799501	180.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	-0.0720522650441047	360.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	-0.0681039556008862	540.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0590342474130158	720.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	-0.171031853087845	0.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.0653025285851074	30.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	-0.0703087667757584	60.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	-0.00368533872610467	90.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	-0.0271963665221435	120.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.0224375857739679	150.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	-0.0871704643084519	180.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	-0.0659819615968228	360.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.0335782491339082	540.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.168248167603171	720.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	-0.190665673510177	0.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.0756481653669288	30.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	-0.0450078040097713	60.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.238596566534434	90.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.0220455312532935	120.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.0391992467146404	150.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	-0.13050323719391	180.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	-0.143944522491991	360.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	-0.0148743382745438	540.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.15104275778602402	720.0	model2_data64	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+CishRNA_rep1_au		0.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.447950040899986	30.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.8795807942408459	60.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.9745558449955442	90.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.989954646569131	120.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.980586806549052	150.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.971613999121393	180.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.8814417351801221	360.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.904955916734509	540.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.8481101531383299	720.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au		0.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.448846125191816	30.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.8785192412111859	60.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.987066328706978	90.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.9842884620179642	120.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.9505884824847192	150.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.869789449213125	180.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.869789449213125	360.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.93490750606589	540.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.85380940693049	720.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au		0.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.520777791954372	30.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au		60.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.9909095192109201	90.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.983453483259282	120.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.9968084428174399	150.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.9484637612059291	180.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.8688441710910692	360.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	1.00186155342339	540.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.9033498094511241	720.0	model2_data65	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au		0.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.39302964659016704	30.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.310030214899906	60.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0789557091642688	90.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.10323071990875801	120.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.135931154986679	150.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.10042219327165401	180.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.10682091082573701	360.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.045449162039997	540.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0139672703635157	720.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au		0.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.502528192987316	30.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.309593950796326	60.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.14567262948433402	90.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.18128019790662098	120.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.0696489679851046	150.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.125802975967856	180.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.125802975967856	360.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.0550753713099349	540.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.07366318261159101	720.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au		0.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.234607128023312	30.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	-0.0173884826209994	60.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.14920956082165898	90.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.14865328179346898	120.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.154748824037712	150.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.150580583999964	180.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.136065417895875	360.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.0222350923667841	540.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	-0.0292232538306144	720.0	model2_data65	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+CishRNA_rep1_au		0.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.47049897751579606	30.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.9415958610626629	60.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.97440907525169	90.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au		120.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.9808787576000121	150.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.9439674234874709	180.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.8123619810831422	360.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.904123985115543	540.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep1_au	0.751380980640386	720.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au		0.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.49438850307749505	30.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.947286537682308	60.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.998623553523837	90.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au		120.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.9802491587672131	150.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.9470443842761591	180.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.8472062214862901	360.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.8879829384987741	540.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep2_au	0.7939970923322529	720.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au		0.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.504268870655767	30.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.9431667287355359	60.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.9980497780845771	90.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au		120.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.9839232643497651	150.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.948383870659141	180.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.838124270856366	360.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	1.0340566569565	540.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_rep3_au	0.8188292626764371	720.0	model2_data66	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au		0.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.6261967100560201	30.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.385218214473782	60.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0336051441326324	90.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0320618704390086	120.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.17983798499655898	150.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0880145490673813	180.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0312191027402132	360.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	-0.12764331121030198	540.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep1_au	0.0615875240104352	720.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au		0.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.6532900685572239	30.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.33897658298425704	60.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.0730328236845102	90.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.0881932560048426	120.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.128780680799751	150.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.070037077305278	180.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.128651873855461	360.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.0409968360364046	540.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep2_au	0.11994421034242699	720.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au		0.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.7090701531862199	30.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.375601568367984	60.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.0827018034862331	90.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.0036922967291573602	120.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.127929337763357	150.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.0337856148824378	180.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.15686502150236903	360.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.0145642103632441	540.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_rep3_au	0.11887507694496802	720.0	model2_data66	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	0.0	0.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.435798195000927	10.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.389485941632059	20.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.49303458256994004	30.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.487928849064501	40.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.8013508741698471	50.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.7581984662739759	60.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.965142207415043	70.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.809022272799211	80.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.89821624939612	90.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-0.70955346877678	100.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+SOCS3RNA_au	-1.05071875935816	120.0	model2_data67	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838;	sd_RNA_H838
+CishRNA_au	0.0	0.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.108501552486666	10.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.13696837224925099	20.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.158579887299544	30.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.15700182840471602	40.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.24980627610168	50.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.287266304357891	60.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.37506037595967895	70.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.40877050483319105	80.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.465810829771937	90.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.25530578721075897	100.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+CishRNA_au	-0.334198526391828	120.0	model2_data67	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838;	sd_RNA_H838
+pJAK2_au	-0.353558279612423	10.0	model2_data68	offset_pJAK2_ib_11;scale_pJAK2_ib_11;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.723101207632795	10.0	model2_data68	offset_pJAK2_ib_11;scale_pJAK2_ib_11;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.9038776355739809	10.0	model2_data68	offset_pEpoR_ib_11;scale_pEpoR_ib_11;	sd_JAK2EpoR_au_H838
+pEpoR_au	-1.0516362615253398	10.0	model2_data68	offset_pEpoR_ib_11;scale_pEpoR_ib_11;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.401930028396207	10.0	model2_data69	offset_pJAK2_ib_11;scale_pJAK2_ib_11;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.314032362604314	10.0	model2_data69	offset_pEpoR_ib_11;scale_pEpoR_ib_11;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.364112571445208	10.0	model2_data70	offset_pJAK2_ib_11;scale_pJAK2_ib_11;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.5047846567368071	10.0	model2_data70	offset_pJAK2_ib_11;scale_pJAK2_ib_11;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.6203530941508341	10.0	model2_data70	offset_pEpoR_ib_11;scale_pEpoR_ib_11;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.7000494321699878	10.0	model2_data70	offset_pEpoR_ib_11;scale_pEpoR_ib_11;	sd_JAK2EpoR_au_H838
+pJAK2_au	0.0	10.0	model2_data71	offset_pJAK2_ib_11;scale_pJAK2_ib_11;	sd_JAK2EpoR_au_H838
+pEpoR_au	0.0	10.0	model2_data71	offset_pEpoR_ib_11;scale_pEpoR_ib_11;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.0886567174884138	10.0	model2_data72	offset_pJAK2_ib_11;scale_pJAK2_ib_11;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.0361546244845432	10.0	model2_data72	offset_pEpoR_ib_11;scale_pEpoR_ib_11;	sd_JAK2EpoR_au_H838
+pJAK2_au	-0.336323840853098	10.0	model2_data73	offset_pJAK2_ib_11;scale_pJAK2_ib_11;	sd_JAK2EpoR_au_H838
+pEpoR_au	-0.235643985306546	10.0	model2_data73	offset_pEpoR_ib_11;scale_pEpoR_ib_11;	sd_JAK2EpoR_au_H838
+SOCS3RNA_au	0.0	0.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.0297582097298532	5.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.0131357441909089	10.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.15445979340799498	15.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.590552687545328	20.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.8139944782839441	25.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.6698839381297371	30.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.8555155432894	35.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.9086328156883191	40.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.6250121102879971	45.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.855743691696205	50.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.576864575123307	55.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.7827616596663479	60.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.654157403832944	65.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.469127330827231	70.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.335726000126303	75.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.300655129089893	80.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.43588572123625	85.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.523893318953675	90.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.241384976342876	120.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.0690557486939976	180.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.17620434273356098	240.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.0507625395315655	300.0	model2_data74	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.0	0.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.0132938717836976	5.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	-0.0229409909243536	10.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.0779052042293017	15.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.266271100056203	20.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.489997550908766	25.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.5941734524735799	30.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.815127024245117	35.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.03553544134591	40.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.12818445701504	45.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.3105866846326002	50.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.4146090322641798	55.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.5299935627416	60.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.48958648109945	65.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.51624655450987	70.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.6941879460562301	75.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.55614088625505	80.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.5720075392607098	85.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.57919915305831	90.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.58880053151384	120.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.4633307425653401	180.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.46628787404815	240.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.38185830124513	300.0	model2_data74	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.705448149089249	40.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au		45.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.675892052766918	50.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au		55.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	0.605288071416759	60.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au		65.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	-0.0469489545464586	70.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au		75.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	-0.10405758757657198	80.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au		85.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	-0.331675470138732	90.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	-0.44205772203373705	120.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	-0.9052246289313571	180.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	-0.644112800228808	240.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+SOCS3RNA_au	-0.56028919303686	300.0	model2_data75	SOCS3RNAeqm;SOCS3prom;init_STAT5;offset_SOCS3RNA_H838;scale_SOCS3RNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.954526618274481	40.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au		45.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.02755276632419	50.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au		55.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.19531710345225	60.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au		65.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.1665816684276	70.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au		75.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.2197440105522	80.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au		85.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.05556499436959	90.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	1.00501365812797	120.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.798307235731484	180.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.7119331172961999	240.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
+CishRNA_au	0.6918096032001702	300.0	model2_data75	CISHRNAeqm;init_STAT5;offset_CISRNA_H838;scale_CISRNA_H838_long1;	sd_RNA_H838
