@@ -1,0 +1,11 @@
+format_version: 1
+parameter_file: parameters_Parmar_PCB2019.tsv
+problems:
+- condition_files:
+  - experimentalCondition_Parmar_PCB2019.tsv
+  measurement_files:
+  - measurementData_Parmar_PCB2019.tsv
+  observable_files:
+  - observables_Parmar_PCB2019.tsv
+  sbml_files:
+  - model_Parmar_PCB2019.xml

@@ -1,0 +1,7 @@
+conditionId	conditionName	fDiet	Injected
+preequilibration_adequate	preequilibration_adequate	1	0
+preequilibration_iron_deficient	preequilibration_iron-deficient	fDiet_iron_deficient	0
+preequilibration_iron_rich	preequilibration_iron-rich	fDiet_iron_rich	0
+simulation_adequate	simulation_adequate	1	3070000000000000
+simulation_iron_deficient	simulation_iron-deficient	fDiet_iron_deficient	3070000000000000
+simulation_iron_rich	simulation_iron-rich	fDiet_iron_rich	3070000000000000
