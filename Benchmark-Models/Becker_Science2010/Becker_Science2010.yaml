@@ -1,0 +1,15 @@
+format_version: 1
+parameter_file: parameters_Becker_Science2010.tsv
+problems:
+- condition_files:
+  - experimentalCondition_Becker_Science2010__BaF3_Exp.tsv
+  measurement_files:
+  - measurementData_Becker_Science2010__BaF3_Exp.tsv
+  sbml_files:
+  - model_Becker_Science2010__BaF3_Exp.xml
+- condition_files:
+  - experimentalCondition_Becker_Science2010__binding.tsv
+  measurement_files:
+  - measurementData_Becker_Science2010__binding.tsv
+  sbml_files:
+  - model_Becker_Science2010__binding.xml

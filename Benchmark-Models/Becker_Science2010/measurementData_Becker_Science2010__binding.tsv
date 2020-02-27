@@ -1,0 +1,13 @@
+observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters	observableTransformation	noiseDistribution	experimentId	replicateId
+Epo_binding_1		Epo_binding_1	4.50782865071162	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_2		Epo_binding_2	4.34201940905093	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_3		Epo_binding_3	39.3434392028039	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_4		Epo_binding_4	38.739235023006	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_5		Epo_binding_5	33.9072568633883	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_6		Epo_binding_6	67.8950853138239	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_7		Epo_binding_7	91.9105196480261	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_8		Epo_binding_8	88.5883938273608	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_9		Epo_binding_9	78.6239815815006	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_10		Epo_binding_10	131.744903361786	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_11		Epo_binding_11	123.728997255185	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1
+Epo_binding_12		Epo_binding_12	105.55990242558	inf		sd_Epo_bound	log10	normal	Epo_binding	rep1

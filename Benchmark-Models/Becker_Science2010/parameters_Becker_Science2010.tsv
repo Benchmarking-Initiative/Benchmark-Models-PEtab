@@ -1,0 +1,17 @@
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate
+init_Epo	init_{Epo}	log10	1E-05	10000	1347.49002394609	1
+init_EpoR_rel	init_{EpoR,rel}	log10	1E-05	1000	0.092051546879589	1
+kD	kD	log10	1E-05	1000	141.873075337375	1
+kde	kde	log10	1E-05	1000	0.011988171189895	1
+kdi	kdi	log10	1E-05	1000	0.001272664084269	1
+ke	ke	log10	1E-05	1000	0.055460060410207	1
+kex	kex	log10	1E-05	1000	0.000578004549785	1
+koff	koff	log10	1E-05	1000	0.080686074928287	1
+kon	kon	log10	1E-05	1000	0.151343458102592	1
+kt	kt	log10	1E-05	1000	0.016012517098437	1
+offset	offset	log10	1E-05	1000	1E-05	1
+scale	scale	log10	1E-05	1000	0.979829622187571	1
+sd_Epo_bound	\sigma_{Epo,bound}	log10	1E-05	1000	0.036797998189213	1
+sd_Epo_ext	\sigma_{Epo,ext}	log10	1E-05	1000	0.007797707390001	1
+sd_Epo_int	\sigma_{Epo,int}	log10	1E-05	1000	0.051244080481271	1
+sd_Epo_mem	\sigma_{Epo,mem}	log10	1E-05	1000	0.04427915748373	1
