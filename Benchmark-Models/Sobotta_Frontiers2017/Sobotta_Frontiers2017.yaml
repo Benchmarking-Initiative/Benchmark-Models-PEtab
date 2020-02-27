@@ -1,0 +1,11 @@
+format_version: 1
+parameter_file: parameters_Sobotta_Frontiers2017.tsv
+problems:
+- condition_files:
+  - experimentalCondition_Sobotta_Frontiers2017.tsv
+  measurement_files:
+  - measurementData_Sobotta_Frontiers2017.tsv
+  observable_files:
+  - observables_Sobotta_Frontiers2017.tsv
+  sbml_files:
+  - model_Sobotta_Frontiers2017.xml

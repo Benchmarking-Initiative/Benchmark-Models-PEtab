@@ -1,0 +1,13 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+JAK1_gp130_abs		JAK1_gp130 + pJAK1_gp130 + pJAK1_pgp130	noiseParameter1_JAK1_gp130_abs	log10	normal
+SOCS3_abs		SOCS3	noiseParameter1_SOCS3_abs	log10	normal
+SOCS3_qpcr		observableParameter1_SOCS3_qpcr + SOCS3RNA * observableParameter2_SOCS3_qpcr	noiseParameter1_SOCS3_qpcr	log10	normal
+SOCS3_wb		observableParameter1_SOCS3_wb + SOCS3 * observableParameter2_SOCS3_wb	noiseParameter1_SOCS3_wb	log10	normal
+ctSTAT3_abs		STAT3 + tpSTAT3	noiseParameter1_ctSTAT3_abs	log10	normal
+npSTAT3_wb		observableParameter1_npSTAT3_wb + 25.34 * stat3_imp * tpSTAT3 * observableParameter2_npSTAT3_wb * (f_pstat3_imp + 1) / total_STAT3	noiseParameter1_npSTAT3_wb	log10	normal
+ntSTAT3_ratio		nSTAT3 / (STAT3 + tpSTAT3)	noiseParameter1_ntSTAT3_ratio	log10	normal
+pJAK1_wb		observableParameter1_pJAK1_wb + observableParameter2_pJAK1_wb * (pJAK1_gp130 + pJAK1_pgp130)	noiseParameter1_pJAK1_wb	log10	normal
+pSTAT3_lumi		observableParameter1_pSTAT3_lumi + tpSTAT3 * observableParameter2_pSTAT3_lumi / total_STAT3	noiseParameter1_pSTAT3_lumi	log10	normal
+pSTAT3_ms		100 * tpSTAT3 / (STAT3 + tpSTAT3)	noiseParameter1_pSTAT3_ms	lin	normal
+pSTAT3_wb		observableParameter1_pSTAT3_wb + tpSTAT3 * observableParameter2_pSTAT3_wb / total_STAT3	noiseParameter1_pSTAT3_wb	log10	normal
+pgp130_wb		observableParameter1_pgp130_wb + observableParameter2_pgp130_wb * pJAK1_pgp130	noiseParameter1_pgp130_wb	log10	normal
