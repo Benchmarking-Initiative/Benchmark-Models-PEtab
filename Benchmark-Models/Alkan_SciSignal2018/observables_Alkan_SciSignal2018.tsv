@@ -1,0 +1,13 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+CellsCasp_count		Cells_Apo4 + Cells_Apo_ReOx	noiseParameter1_CellsCasp_count	lin	normal
+Cells_count		Cells + Cells_Cycle_S + Cells_Cycle_G2 + Cells_SSBDamage_S + Cells_DSBDamage_S + Cells_DSBDamage_G2 + Cells_Apo + Cells_Apo1 + Cells_Apo2 + Cells_Apo3 + Cells_Apo4 + Cells_Apo_ReOx	noiseParameter1_Cells_count	lin	normal
+Wip1_mRNA_fold		observableParameter1_Wip1_mRNA_fold * (Wip1_mRNA_G2 + Wip1_mRNA_S) + 1	noiseParameter1_Wip1_mRNA_fold	lin	normal
+p21_mRNA_fold		observableParameter1_p21_mRNA_fold * (p21_mRNA_S + p21_mRNA_G2) + 1	noiseParameter1_p21_mRNA_fold	lin	normal
+pATM_au		observableParameter1_pATM_au * (pATM_G2 + pATM_S)	noiseParameter1_pATM_au	lin	normal
+pChk1_au		observableParameter1_pChk1_au * (pChk1_G2 + pChk1_S)	noiseParameter1_pChk1_au	lin	normal
+pChk2_au		observableParameter1_pChk2_au * (pChk2_S + pChk2_G2)	noiseParameter1_pChk2_au	lin	normal
+pDNAPK_au		observableParameter1_pDNAPK_au * (pDNAPK_G2 + pDNAPK_S)	noiseParameter1_pDNAPK_au	lin	normal
+pp53_au		observableParameter1_pp53_au * (pp53_S + pp53_G2)	noiseParameter1_pp53_au	lin	normal
+tp21_au		observableParameter1_tp21_au * (p21_S + p21_G2)	noiseParameter1_tp21_au	lin	normal
+tp53_au		observableParameter1_tp53_au * (pp53_S + pp53_G2)	noiseParameter1_tp53_au	lin	normal
+yH2AX_au		observableParameter1_yH2AX_au * (yH2AX_S + yH2AX_G2)	noiseParameter1_yH2AX_au	lin	normal
