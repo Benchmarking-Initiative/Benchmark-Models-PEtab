@@ -1,0 +1,289 @@
+observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters
+observable_0ac		control	2.1122437151133617	inf		sd_0ac
+observable_0ac		control	2.1145298590010246	inf		sd_0ac
+observable_0ac		control	2.1094317927780883	inf		sd_0ac
+observable_0ac		control	2.1085905470393707	inf		sd_0ac
+observable_0ac		control	2.084810045031652	inf		sd_0ac
+observable_0ac		control	2.1114361270525337	inf		sd_0ac
+observable_0ac		control	2.037105548576252	inf		sd_0ac
+observable_0ac		control	2.0220624933055893	inf		sd_0ac
+observable_0ac		control	1.988009160259152	inf		sd_0ac
+observable_0ac		control	2.0224526966030325	inf		sd_0ac
+observable_0ac		control	1.9891716868070377	inf		sd_0ac
+observable_0ac		control	2.0589438723310267	inf		sd_0ac
+observable_0ac		control	2.08465905813182	inf		sd_0ac
+observable_0ac		control	2.0786330432010764	inf		sd_0ac
+observable_0ac		control	2.0892508219123482	inf		sd_0ac
+observable_0ac		control	2.0861109260439017	inf		sd_0ac
+observable_0ac		control	2.19468166286062	inf		sd_0ac
+observable_0ac		control	2.1663424873152666	inf		sd_0ac
+observable_k5		control	1.0363899738052278	inf		sd_k5
+observable_k5		control	1.030428876676365	inf		sd_k5
+observable_k5		control	1.0324643706369858	inf		sd_k5
+observable_k5		control	1.0362483112585663	inf		sd_k5
+observable_k5		control	1.036452565254876	inf		sd_k5
+observable_k5		control	1.0344417989050316	inf		sd_k5
+observable_k5		control	1.0328138793241126	inf		sd_k5
+observable_k5		control	1.0393954791476343	inf		sd_k5
+observable_k5		control	1.0303433752356823	inf		sd_k5
+observable_k5		control	1.0350712477977424	inf		sd_k5
+observable_k5		control	1.0362900606787788	inf		sd_k5
+observable_k5		control	1.042546572756588	inf		sd_k5
+observable_k5		control	1.0371449167224875	inf		sd_k5
+observable_k5		control	1.0363934687253902	inf		sd_k5
+observable_k5		control	1.03847961825212	inf		sd_k5
+observable_k5		control	1.0363088581146722	inf		sd_k5
+observable_k5		control	1.0333797168605603	inf		sd_k5
+observable_k5		control	1.0306022665887191	inf		sd_k5
+observable_k8		control	1.028998883070588	inf		sd_k8
+observable_k8		control	1.0367354820307173	inf		sd_k8
+observable_k8		control	1.03262859054608	inf		sd_k8
+observable_k8		control	1.0303821589145206	inf		sd_k8
+observable_k8		control	1.0336854263878714	inf		sd_k8
+observable_k8		control	1.0312302741635715	inf		sd_k8
+observable_k8		control	1.0387197850846634	inf		sd_k8
+observable_k8		control	1.033893983225591	inf		sd_k8
+observable_k8		control	1.048993773873923	inf		sd_k8
+observable_k8		control	1.0348539207662957	inf		sd_k8
+observable_k8		control	1.0345557130457803	inf		sd_k8
+observable_k8		control	1.027118064907033	inf		sd_k8
+observable_k8		control	1.0258468274303405	inf		sd_k8
+observable_k8		control	1.0306624933439	inf		sd_k8
+observable_k8		control	1.0267560040875403	inf		sd_k8
+observable_k8		control	1.031306604940866	inf		sd_k8
+observable_k8		control	1.0248230731189418	inf		sd_k8
+observable_k8		control	1.031097859086233	inf		sd_k8
+observable_k12		control	1.0723914104539247	inf		sd_k12
+observable_k12		control	1.0679400518115594	inf		sd_k12
+observable_k12		control	1.0731873467575457	inf		sd_k12
+observable_k12		control	1.075329345752123	inf		sd_k12
+observable_k12		control	1.0746280516035436	inf		sd_k12
+observable_k12		control	1.0680935996291137	inf		sd_k12
+observable_k12		control	1.0856130653413611	inf		sd_k12
+observable_k12		control	1.083378509412253	inf		sd_k12
+observable_k12		control	1.078994464230599	inf		sd_k12
+observable_k12		control	1.0860430549848914	inf		sd_k12
+observable_k12		control	1.0934538342414195	inf		sd_k12
+observable_k12		control	1.0810193878471654	inf		sd_k12
+observable_k12		control	1.0779208593933918	inf		sd_k12
+observable_k12		control	1.0884318749932809	inf		sd_k12
+observable_k12		control	1.0738303815537726	inf		sd_k12
+observable_k12		control	1.0769339666587416	inf		sd_k12
+observable_k12		control	1.0589364899475735	inf		sd_k12
+observable_k12		control	1.0643669056347214	inf		sd_k12
+observable_k16		control	1.034584994283584	inf		sd_k16
+observable_k16		control	1.0376801823719848	inf		sd_k16
+observable_k16		control	1.0335729230877164	inf		sd_k16
+observable_k16		control	1.0322014547501692	inf		sd_k16
+observable_k16		control	1.0338713430562576	inf		sd_k16
+observable_k16		control	1.0357546818332375	inf		sd_k16
+observable_k16		control	1.0358878209104352	inf		sd_k16
+observable_k16		control	1.0381281456424618	inf		sd_k16
+observable_k16		control	1.0358807757577335	inf		sd_k16
+observable_k16		control	1.037523986734961	inf		sd_k16
+observable_k16		control	1.0412032031127572	inf		sd_k16
+observable_k16		control	1.0313405433245109	inf		sd_k16
+observable_k16		control	1.0284621804764733	inf		sd_k16
+observable_k16		control	1.0306401465558517	inf		sd_k16
+observable_k16		control	1.0322482179415895	inf		sd_k16
+observable_k16		control	1.0311105340376796	inf		sd_k16
+observable_k16		control	1.0336692072671965	inf		sd_k16
+observable_k16		control	1.0347623089969833	inf		sd_k16
+observable_k5k8		control	1.0056968231311707	inf		sd_k5k8
+observable_k5k8		control	1.0051321729130265	inf		sd_k5k8
+observable_k5k8		control	1.0064429040846123	inf		sd_k5k8
+observable_k5k8		control	1.006435780205017	inf		sd_k5k8
+observable_k5k8		control	1.0071980864749115	inf		sd_k5k8
+observable_k5k8		control	1.0054054776589918	inf		sd_k5k8
+observable_k5k8		control	1.0070874999806123	inf		sd_k5k8
+observable_k5k8		control	1.0056100925600595	inf		sd_k5k8
+observable_k5k8		control	1.0062729368742098	inf		sd_k5k8
+observable_k5k8		control	1.0060316946524566	inf		sd_k5k8
+observable_k5k8		control	1.0073560428289368	inf		sd_k5k8
+observable_k5k8		control	1.0064101726781634	inf		sd_k5k8
+observable_k5k8		control	1.0066204125852087	inf		sd_k5k8
+observable_k5k8		control	1.0066391874389342	inf		sd_k5k8
+observable_k5k8		control	1.0063525294690667	inf		sd_k5k8
+observable_k5k8		control	1.0069233493358094	inf		sd_k5k8
+observable_k5k8		control	1.0038823557940324	inf		sd_k5k8
+observable_k5k8		control	1.0037518387925544	inf		sd_k5k8
+observable_k5k12		control	1.0443721448210106	inf		sd_k5k12
+observable_k5k12		control		inf		sd_k5k12
+observable_k5k12		control	1.045378379159709	inf		sd_k5k12
+observable_k5k12		control		inf		sd_k5k12
+observable_k5k12		control	1.048214374289548	inf		sd_k5k12
+observable_k5k12		control		inf		sd_k5k12
+observable_k5k12		control		inf		sd_k5k12
+observable_k5k12		control	1.0489294428417373	inf		sd_k5k12
+observable_k5k12		control	1.0618987957767076	inf		sd_k5k12
+observable_k5k12		control		inf		sd_k5k12
+observable_k5k12		control	1.0595392971321758	inf		sd_k5k12
+observable_k5k12		control	1.0588110750309492	inf		sd_k5k12
+observable_k5k12		control	1.055496968496219	inf		sd_k5k12
+observable_k5k12		control		inf		sd_k5k12
+observable_k5k12		control	1.0524992010744978	inf		sd_k5k12
+observable_k5k12		control	1.0449879640552842	inf		sd_k5k12
+observable_k5k12		control	1.0312735692129933	inf		sd_k5k12
+observable_k5k12		control	1.0395639095763745	inf		sd_k5k12
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k5k16		control		inf		sd_k5k16
+observable_k8k12		control	1.008129586376993	inf		sd_k8k12
+observable_k8k12		control		inf		sd_k8k12
+observable_k8k12		control	1.0065577846246918	inf		sd_k8k12
+observable_k8k12		control		inf		sd_k8k12
+observable_k8k12		control	1.0065641011972328	inf		sd_k8k12
+observable_k8k12		control		inf		sd_k8k12
+observable_k8k12		control		inf		sd_k8k12
+observable_k8k12		control	1.0134685698153076	inf		sd_k8k12
+observable_k8k12		control	1.0122401922255369	inf		sd_k8k12
+observable_k8k12		control		inf		sd_k8k12
+observable_k8k12		control	1.0079560155196978	inf		sd_k8k12
+observable_k8k12		control	1.0054425570934942	inf		sd_k8k12
+observable_k8k12		control	1.0053362770766958	inf		sd_k8k12
+observable_k8k12		control		inf		sd_k8k12
+observable_k8k12		control	1.005484598944261	inf		sd_k8k12
+observable_k8k12		control	1.0101603145150946	inf		sd_k8k12
+observable_k8k12		control	1.0094628888669772	inf		sd_k8k12
+observable_k8k12		control	1.0060602747086012	inf		sd_k8k12
+observable_k8k16		control	1.003833536776713	inf		sd_k8k16
+observable_k8k16		control		inf		sd_k8k16
+observable_k8k16		control	1.00673420154915	inf		sd_k8k16
+observable_k8k16		control		inf		sd_k8k16
+observable_k8k16		control	1.0055431582626089	inf		sd_k8k16
+observable_k8k16		control		inf		sd_k8k16
+observable_k8k16		control		inf		sd_k8k16
+observable_k8k16		control	1.003967857987092	inf		sd_k8k16
+observable_k8k16		control	1.0013857611809047	inf		sd_k8k16
+observable_k8k16		control		inf		sd_k8k16
+observable_k8k16		control	1.0052365817157594	inf		sd_k8k16
+observable_k8k16		control	1.0066663158246014	inf		sd_k8k16
+observable_k8k16		control	1.006723500524828	inf		sd_k8k16
+observable_k8k16		control		inf		sd_k8k16
+observable_k8k16		control	1.007647254932008	inf		sd_k8k16
+observable_k8k16		control	1.0040456906002098	inf		sd_k8k16
+observable_k8k16		control	1.0012804835198506	inf		sd_k8k16
+observable_k8k16		control	1.0035872200280849	inf		sd_k8k16
+observable_k12k16		control	1.0071736763178911	inf		sd_k12k16
+observable_k12k16		control	1.0067611856089291	inf		sd_k12k16
+observable_k12k16		control	1.0071191124498402	inf		sd_k12k16
+observable_k12k16		control	1.0070347248423224	inf		sd_k12k16
+observable_k12k16		control	1.0079510823934386	inf		sd_k12k16
+observable_k12k16		control	1.0083093159112215	inf		sd_k12k16
+observable_k12k16		control	1.0117454428112078	inf		sd_k12k16
+observable_k12k16		control	1.008421242440365	inf		sd_k12k16
+observable_k12k16		control	1.0087512288579592	inf		sd_k12k16
+observable_k12k16		control	1.008834267834751	inf		sd_k12k16
+observable_k12k16		control	1.0100826702134642	inf		sd_k12k16
+observable_k12k16		control	1.0075425131264393	inf		sd_k12k16
+observable_k12k16		control	1.0085587499502842	inf		sd_k12k16
+observable_k12k16		control	1.0082176857309408	inf		sd_k12k16
+observable_k12k16		control	1.0080619380100868	inf		sd_k12k16
+observable_k12k16		control	1.0087442495341017	inf		sd_k12k16
+observable_k12k16		control	1.0069350069576763	inf		sd_k12k16
+observable_k12k16		control	1.006147582093414	inf		sd_k12k16
+observable_k5k8k12		control	1.0053664456603455	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0057756301075076	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0060328399195897	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0060371142603968	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0061788226559147	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0060481785162132	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0064125147986425	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0064073212202609	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0087817209430705	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0084795526558552	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0086677758999725	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0071662625397464	inf		sd_k5k8k12
+observable_k5k8k12		control	1.007568315411531	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0057649510397166	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0069737028037935	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0066703933347716	inf		sd_k5k8k12
+observable_k5k8k12		control	1.004573383743014	inf		sd_k5k8k12
+observable_k5k8k12		control	1.0036565369796155	inf		sd_k5k8k12
+observable_k5k8k16		control	1.0014731960887715	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0013518929845753	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0010212437146024	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0016480799935206	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0012867144075586	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0010169682618988	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0021650126627246	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0014700463603758	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0015838198198526	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0014809705553696	inf		sd_k5k8k16
+observable_k5k8k16		control	1.001332834735767	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0015390938911304	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0011187048840129	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0011769032076827	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0012537980483962	inf		sd_k5k8k16
+observable_k5k8k16		control	1.000978180606892	inf		sd_k5k8k16
+observable_k5k8k16		control	1.000723088002174	inf		sd_k5k8k16
+observable_k5k8k16		control	1.0010333073946085	inf		sd_k5k8k16
+observable_k5k12k16		control	1.0014469984935042	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0028587300980427	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0016487581095004	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0015646340645914	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0022012290552509	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0025746029123863	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0030285412928388	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0051830539914084	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0032254053619734	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0039218993984431	inf		sd_k5k12k16
+observable_k5k12k16		control	1.003575784819014	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0020843387202134	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0034174119826864	inf		sd_k5k12k16
+observable_k5k12k16		control	1.002029605366357	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0031683581700284	inf		sd_k5k12k16
+observable_k5k12k16		control	1.00175211205775	inf		sd_k5k12k16
+observable_k5k12k16		control	1.0011265927293629	inf		sd_k5k12k16
+observable_k5k12k16		control	1.002223629605479	inf		sd_k5k12k16
+observable_k8k12k16		control	1.0034976663090178	inf		sd_k8k12k16
+observable_k8k12k16		control	1.002184774349014	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0034314947438618	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0034020508834491	inf		sd_k8k12k16
+observable_k8k12k16		control	1.003222397997683	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0034948851190897	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0043580941912875	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0043985267458622	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0053395484462642	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0038090629107492	inf		sd_k8k12k16
+observable_k8k12k16		control	1.004331146419913	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0041502236236777	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0037167955167163	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0027613197396048	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0032191199738534	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0039291396088972	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0023377895786345	inf		sd_k8k12k16
+observable_k8k12k16		control	1.0014345936463631	inf		sd_k8k12k16
+observable_4ac		control	1.002561954912007	inf		sd_4ac
+observable_4ac		control	1.0025308684541492	inf		sd_4ac
+observable_4ac		control	1.0032141016837226	inf		sd_4ac
+observable_4ac		control	1.0027004544761415	inf		sd_4ac
+observable_4ac		control	1.003549579790255	inf		sd_4ac
+observable_4ac		control	1.0032998550738974	inf		sd_4ac
+observable_4ac		control	1.0032423891086193	inf		sd_4ac
+observable_4ac		control	1.003808756447889	inf		sd_4ac
+observable_4ac		control	1.0068987401278042	inf		sd_4ac
+observable_4ac		control	1.0056649825698123	inf		sd_4ac
+observable_4ac		control	1.004995600812034	inf		sd_4ac
+observable_4ac		control	1.0033512423985158	inf		sd_4ac
+observable_4ac		control	1.003595962715874	inf		sd_4ac
+observable_4ac		control	1.0027701847905142	inf		sd_4ac
+observable_4ac		control	1.0030694950821115	inf		sd_4ac
+observable_4ac		control	1.0031748858077725	inf		sd_4ac
+observable_4ac		control	1.001746117791396	inf		sd_4ac
+observable_4ac		control	1.0014090018116129	inf		sd_4ac
