@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="Hass_PONE2017" name="model_Reelin_FINAL">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <pre>PEtab implementation of the model from Hass et al. (2017), PLOS ONE 12(10): e0186927</pre>
+      </body>
+    </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#arFramework3">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Hass</vCard:Family>
+                  <vCard:Given>Helge</vCard:Given>
+                </vCard:N>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1371/journal.pone.0186927"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfUnitDefinitions>
+      <unitDefinition id="time" name="time">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="DefaultCompartment" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="ApoER2_Dab1" name="ApoER2_Dab1" compartment="DefaultCompartment" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ApoER2_Dab1SFK" name="ApoER2_Dab1SFK" compartment="DefaultCompartment" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ApoER2_Dab1SFKInh" name="ApoER2_Dab1SFKInh" compartment="DefaultCompartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pApoER2_re_Dab1" name="pApoER2_re_Dab1" compartment="DefaultCompartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ApoER2_re_Dab1" name="ApoER2_re_Dab1" compartment="DefaultCompartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ApoER2_re_Dab1SFK" name="ApoER2_re_Dab1SFK" compartment="DefaultCompartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ApoER2_re_Dab1SFKInh" name="ApoER2_re_Dab1SFKInh" compartment="DefaultCompartment" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ApoER2_Dab1_released" name="ApoER2_Dab1_released" compartment="DefaultCompartment" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="SFK" name="SFK" compartment="DefaultCompartment" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="ApoER2_Dab1_SFK_degrad" value="0.0123301586132219" constant="true"/>
+      <parameter id="ApoER2_Dab1_SFK_recycle" value="2.49701470433571" constant="true"/>
+      <parameter id="ApoER2_Dab1_SFK_release" value="1957.94102069474" constant="true"/>
+      <parameter id="ApoER2_Dab1_act" value="10000" constant="true"/>
+      <parameter id="ApoER2_Dab1_bind_SFK" value="110.945789806566" constant="true"/>
+      <parameter id="ApoER2_Dab1_bind_SFK_Reelin" value="158602.035531752" constant="true"/>
+      <parameter id="Dab1_bind_Reelin" value="0.0138353182089083" constant="true"/>
+      <parameter id="Dab1_release" value="0.0595417937017265" constant="true"/>
+      <parameter id="SFK_inhibition_ratio" value="0.470718626534915" constant="true"/>
+      <parameter id="init_ApoER2_Dab1" value="1" constant="true"/>
+      <parameter id="init_ApoER2_Dab1SFK" value="8.75097549361293e-05" constant="true"/>
+      <parameter id="perc_mes" value="0.0519099251370762" constant="true"/>
+      <parameter id="Reelin_step" value="0" constant="false"/>
+      <parameter id="Reelin_input" value="0" constant="false"/>
+      <parameter id="Inh" value="0" constant="false"/>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="ApoER2_Dab1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_ApoER2_Dab1 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ApoER2_Dab1SFK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_ApoER2_Dab1SFK </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ApoER2_Dab1_released">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1_SFK_release </ci>
+              <ci> init_ApoER2_Dab1SFK </ci>
+            </apply>
+            <apply>
+              <plus/>
+              <ci> ApoER2_Dab1_SFK_degrad </ci>
+              <ci> ApoER2_Dab1_SFK_recycle </ci>
+            </apply>
+          </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="SFK">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1_SFK_release </ci>
+              <ci> init_ApoER2_Dab1SFK </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1_bind_SFK </ci>
+              <ci> init_ApoER2_Dab1 </ci>
+            </apply>
+          </apply>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfRules>
+      <assignmentRule variable="Reelin_step">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <piecewise>
+              <piece>
+                <cn type="integer"> 0 </cn>
+                <apply>
+                  <lt/>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                  <cn type="integer"> 0 </cn>
+                </apply>
+              </piece>
+              <otherwise>
+                <ci> Reelin_input </ci>
+              </otherwise>
+            </piecewise>
+            <apply>
+              <exp/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <cn type="e-notation"> 9.9999999999 <sep/> -5 </cn>
+                </apply>
+                <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction id="v1_v_ApoER2_Dab1_prod" name="v_ApoER2_Dab1_prod" reversible="false">
+        <listOfProducts>
+          <speciesReference species="ApoER2_Dab1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> ApoER2_Dab1_SFK_degrad </ci>
+                <ci> ApoER2_Dab1_SFK_release </ci>
+                <ci> init_ApoER2_Dab1SFK </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> ApoER2_Dab1_SFK_degrad </ci>
+                <ci> ApoER2_Dab1_SFK_recycle </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v2_v_ApoER2_Dab1_bind_SFK" name="v_ApoER2_Dab1_bind_SFK" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1"/>
+          <speciesReference species="SFK"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_Dab1SFK"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1 </ci>
+              <ci> ApoER2_Dab1_bind_SFK </ci>
+              <ci> SFK </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <ci> Inh </ci>
+                    <ci> SFK_inhibition_ratio </ci>
+                  </apply>
+                </apply>
+                <ci> Inh </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v3_v_ApoER2_Dab1_SFKInh_bind" name="v_ApoER2_Dab1_SFKInh_bind" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1"/>
+          <speciesReference species="SFK"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_Dab1SFKInh"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> ApoER2_Dab1 </ci>
+              </apply>
+              <ci> ApoER2_Dab1_bind_SFK </ci>
+              <ci> SFK </ci>
+              <ci> Inh </ci>
+              <apply>
+                <minus/>
+                <ci> SFK_inhibition_ratio </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v4_v_ApoER2_Dab1_SFK_release" name="v_ApoER2_Dab1_SFK_release" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1SFK"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_Dab1_released"/>
+          <speciesReference species="SFK"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1SFK </ci>
+              <ci> ApoER2_Dab1_SFK_release </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v5_v_ApoER2_Dab1_SFKInh_unbind" name="v_ApoER2_Dab1_SFKInh_unbind" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1SFKInh"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_Dab1"/>
+          <speciesReference species="SFK"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> ApoER2_Dab1SFKInh </ci>
+                <ci> SFK_inhibition_ratio </ci>
+              </apply>
+              <ci> ApoER2_Dab1_act </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v6_v_ApoER2_Dab1SFK_bind_Reelin" name="v_ApoER2_Dab1SFK_bind_Reelin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1SFK"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_re_Dab1SFK"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1SFK </ci>
+              <ci> Dab1_bind_Reelin </ci>
+              <ci> Reelin_step </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v7_v_ApoER2_Dab1SFKInh_bind_Reelin" name="v_ApoER2_Dab1SFKInh_bind_Reelin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1SFKInh"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_re_Dab1SFKInh"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1SFKInh </ci>
+              <ci> Dab1_bind_Reelin </ci>
+              <ci> Reelin_step </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v8_v_ApoER2_re_Dab1_activation" name="v_ApoER2_re_Dab1_activation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_re_Dab1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="pApoER2_re_Dab1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ApoER2_re_Dab1SFK"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> ApoER2_re_Dab1 </ci>
+                <ci> ApoER2_Dab1_act </ci>
+                <ci> ApoER2_re_Dab1SFK </ci>
+              </apply>
+              <ci> SFK_inhibition_ratio </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v9_v_ApoER2_Dab1_bind_Reelin" name="v_ApoER2_Dab1_bind_Reelin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_re_Dab1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1 </ci>
+              <ci> Dab1_bind_Reelin </ci>
+              <ci> Reelin_step </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v10_v_ApoER2_Dab1_bind_SFK_Reelin" name="v_ApoER2_Dab1_bind_SFK_Reelin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1"/>
+          <speciesReference species="SFK"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_re_Dab1SFK"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1 </ci>
+              <ci> ApoER2_Dab1_bind_SFK_Reelin </ci>
+              <ci> Reelin_step </ci>
+              <ci> SFK </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <plus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <times/>
+                    <ci> Inh </ci>
+                    <ci> SFK_inhibition_ratio </ci>
+                  </apply>
+                </apply>
+                <ci> Inh </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v11_v_ApoER2_Dab1_bind_SFKInh_Reelin" name="v_ApoER2_Dab1_bind_SFKInh_Reelin" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1"/>
+          <speciesReference species="SFK"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_re_Dab1SFKInh"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> ApoER2_Dab1 </ci>
+              </apply>
+              <ci> ApoER2_Dab1_bind_SFK_Reelin </ci>
+              <ci> Reelin_step </ci>
+              <ci> Inh </ci>
+              <ci> SFK </ci>
+              <apply>
+                <minus/>
+                <ci> SFK_inhibition_ratio </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v12_v_ApoER2_re_Dab1SFKInh_unbind" name="v_ApoER2_re_Dab1SFKInh_unbind" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_re_Dab1SFKInh"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_Dab1"/>
+          <speciesReference species="SFK"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> ApoER2_re_Dab1SFKInh </ci>
+                <ci> SFK_inhibition_ratio </ci>
+              </apply>
+              <ci> ApoER2_Dab1_act </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v13_v_pApoER2_re_Dab1_release" name="v_pApoER2_re_Dab1_release" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pApoER2_re_Dab1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_Dab1_released"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Dab1_release </ci>
+              <ci> pApoER2_re_Dab1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v14_v_ApoER2_re_Dab1SFK_release" name="v_ApoER2_re_Dab1SFK_release" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_re_Dab1SFK"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_Dab1_released"/>
+          <speciesReference species="SFK"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ApoER2_re_Dab1SFK </ci>
+              <ci> ApoER2_Dab1_SFK_release </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v15_v_Dab1_released_degrad" name="v_Dab1_released_degrad" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1_released"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1_released </ci>
+              <ci> ApoER2_Dab1_SFK_degrad </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v16_v_Dab1_released_recycle" name="v_Dab1_released_recycle" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ApoER2_Dab1_released"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ApoER2_Dab1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> ApoER2_Dab1_released </ci>
+              <ci> ApoER2_Dab1_SFK_recycle </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -1,0 +1,7 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+Dab1		observableParameter2_Dab1 + observableParameter1_Dab1 * (ApoER2_Dab1 + ApoER2_Dab1SFK + ApoER2_re_Dab1 + ApoER2_Dab1SFKInh + ApoER2_re_Dab1SFK + ApoER2_re_Dab1SFKInh + ApoER2_Dab1_released + pApoER2_re_Dab1)	noiseParameter1_Dab1	log10	normal
+pAkt		observableParameter2_pAkt + observableParameter1_pAkt * (ApoER2_Dab1SFK + ApoER2_re_Dab1SFK + pApoER2_re_Dab1)	noiseParameter1_pAkt	log10	normal
+pDab1		observableParameter2_pDab1 + observableParameter1_pDab1 * (ApoER2_Dab1SFK + ApoER2_re_Dab1SFK + pApoER2_re_Dab1)	noiseParameter1_pDab1	log10	normal
+pSFK		observableParameter2_pSFK + observableParameter1_pSFK * (ApoER2_Dab1SFK + ApoER2_re_Dab1SFK + ApoER2_re_Dab1SFKInh * perc_mes)	noiseParameter1_pSFK	log10	normal
+tApoER2		observableParameter2_tApoER2 + observableParameter1_tApoER2 * (ApoER2_Dab1 + ApoER2_Dab1SFK + ApoER2_re_Dab1 + ApoER2_Dab1SFKInh + ApoER2_re_Dab1SFK + ApoER2_re_Dab1SFKInh + ApoER2_Dab1_released + pApoER2_re_Dab1)	noiseParameter1_tApoER2	log10	normal
+tSFK		observableParameter2_tSFK + observableParameter1_tSFK * (ApoER2_Dab1SFK + ApoER2_Dab1SFKInh + ApoER2_re_Dab1SFK + ApoER2_re_Dab1SFKInh + SFK)	noiseParameter1_tSFK	log10	normal
