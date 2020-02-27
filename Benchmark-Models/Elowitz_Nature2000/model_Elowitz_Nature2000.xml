@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="Elowitz_Nature2000" name="model_Elowitz_Nature2000">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <pre>PEtab implementation of the model from Elowitz et al. (2000), Nature. 2000 Jan 20;403(6767):335-8</pre>
+      </body>
+    </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#arFramework3">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Elowitz</vCard:Family>
+                  <vCard:Given>Micheal</vCard:Given>
+                </vCard:N>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1038/35002125"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfUnitDefinitions>
+      <unitDefinition id="time" name="time">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="cell" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="X_protein" name="LacI protein" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Y_protein" name="TetR protein" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Z_protein" name="cI protein" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="GFP" name="GFP" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="X_mRNA" name="LacI mRNA" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Y_mRNA" name="TetR mRNA" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Z_mRNA" name="cI mRNA" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="GFP_mRNA" name="GFP mRNA" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="KM" value="1.00013184764194e-05" constant="true"/>
+      <parameter id="eff" value="0.0301592803622868" constant="true"/>
+      <parameter id="eff_GFP" value="0.00195212197096568" constant="true"/>
+      <parameter id="init_GFP" value="3.38716998236181e-05" constant="true"/>
+      <parameter id="init_GFP_mRNA" value="131.435737789559" constant="true"/>
+      <parameter id="init_X_mRNA" value="2.55665758135759" constant="true"/>
+      <parameter id="init_X_protein" value="30.8087735629587" constant="true"/>
+      <parameter id="init_Y_mRNA" value="999.999945990876" constant="true"/>
+      <parameter id="init_Y_protein" value="0.000818268062900602" constant="true"/>
+      <parameter id="init_Z_mRNA" value="19.3670294497271" constant="true"/>
+      <parameter id="init_Z_protein" value="994.381959318238" constant="true"/>
+      <parameter id="n_Hill" value="1.52254567553984" constant="true"/>
+      <parameter id="tau_mRNA" value="12.624824570772" constant="true"/>
+      <parameter id="tau_mRNA_GFP" value="0.000404064377463447" constant="true"/>
+      <parameter id="tau_prot" value="5.35926527470063" constant="true"/>
+      <parameter id="tau_prot_GFP" value="71.9312640934983" constant="true"/>
+      <parameter id="tps_active" value="0.612278991244992" constant="true"/>
+      <parameter id="tps_repr" value="1.00000000000883e-05" constant="true"/>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="X_protein">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_X_protein </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Y_protein">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_Y_protein </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Z_protein">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_Z_protein </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="GFP">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_GFP </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="X_mRNA">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_X_mRNA </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Y_mRNA">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_Y_mRNA </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Z_mRNA">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_Z_mRNA </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="GFP_mRNA">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_GFP_mRNA </ci>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfReactions>
+      <reaction id="v1_v_0" name="v_0" reversible="false">
+        <listOfReactants>
+          <speciesReference species="X_mRNA" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> X_mRNA </ci>
+                  <apply>
+                    <ln/>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+                <ci> tau_mRNA </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v2_v_1" name="v_1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Y_mRNA" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Y_mRNA </ci>
+                  <apply>
+                    <ln/>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+                <ci> tau_mRNA </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v3_v_2" name="v_2" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Z_mRNA" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Z_mRNA </ci>
+                  <apply>
+                    <ln/>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+                <ci> tau_mRNA </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v4_v_3" name="v_3" reversible="false">
+        <listOfReactants>
+          <speciesReference species="GFP_mRNA" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> GFP_mRNA </ci>
+                  <apply>
+                    <ln/>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+                <ci> tau_mRNA_GFP </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v5_v_4" name="v_4" reversible="false">
+        <listOfProducts>
+          <speciesReference species="X_protein" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="X_mRNA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> X_mRNA </ci>
+                  <ci> eff </ci>
+                </apply>
+                <ci> tau_mRNA </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v6_v_5" name="v_5" reversible="false">
+        <listOfProducts>
+          <speciesReference species="Y_protein" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Y_mRNA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Y_mRNA </ci>
+                  <ci> eff </ci>
+                </apply>
+                <ci> tau_mRNA </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v7_v_6" name="v_6" reversible="false">
+        <listOfProducts>
+          <speciesReference species="Z_protein" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Z_mRNA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Z_mRNA </ci>
+                  <ci> eff </ci>
+                </apply>
+                <ci> tau_mRNA </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v8_v_7" name="v_7" reversible="false">
+        <listOfProducts>
+          <speciesReference species="GFP" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="GFP_mRNA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> GFP_mRNA </ci>
+                  <ci> eff_GFP </ci>
+                </apply>
+                <ci> tau_mRNA_GFP </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v9_v_8" name="v_8" reversible="false">
+        <listOfReactants>
+          <speciesReference species="X_protein" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> X_protein </ci>
+                  <apply>
+                    <ln/>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+                <ci> tau_prot </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v10_v_9" name="v_9" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Y_protein" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Y_protein </ci>
+                  <apply>
+                    <ln/>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+                <ci> tau_prot </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v11_v_10" name="v_10" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Z_protein" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> Z_protein </ci>
+                  <apply>
+                    <ln/>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+                <ci> tau_prot </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v12_v_11" name="v_11" reversible="false">
+        <listOfReactants>
+          <speciesReference species="GFP" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> GFP </ci>
+                  <apply>
+                    <ln/>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+                <ci> tau_prot_GFP </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v13_v_12" name="v_12" reversible="false">
+        <listOfProducts>
+          <speciesReference species="X_mRNA" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Z_protein"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <cn type="integer"> 60 </cn>
+                  <ci> tps_repr </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <ci> KM </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <times/>
+                        <cn type="integer"> 60 </cn>
+                        <ci> tps_repr </ci>
+                      </apply>
+                      <apply>
+                        <times/>
+                        <cn type="integer"> 60 </cn>
+                        <ci> tps_active </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <power/>
+                      <ci> KM </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <ci> Z_protein </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v14_v_13" name="v_13" reversible="false">
+        <listOfProducts>
+          <speciesReference species="Y_mRNA" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="X_protein"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <cn type="integer"> 60 </cn>
+                  <ci> tps_repr </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <ci> KM </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <times/>
+                        <cn type="integer"> 60 </cn>
+                        <ci> tps_repr </ci>
+                      </apply>
+                      <apply>
+                        <times/>
+                        <cn type="integer"> 60 </cn>
+                        <ci> tps_active </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <power/>
+                      <ci> KM </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <ci> X_protein </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v15_v_14" name="v_14" reversible="false">
+        <listOfProducts>
+          <speciesReference species="Z_mRNA" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Y_protein"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <cn type="integer"> 60 </cn>
+                  <ci> tps_repr </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <ci> KM </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <times/>
+                        <cn type="integer"> 60 </cn>
+                        <ci> tps_repr </ci>
+                      </apply>
+                      <apply>
+                        <times/>
+                        <cn type="integer"> 60 </cn>
+                        <ci> tps_active </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <power/>
+                      <ci> KM </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <ci> Y_protein </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v16_v_15" name="v_15" reversible="false">
+        <listOfProducts>
+          <speciesReference species="GFP" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="X_protein"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <cn type="integer"> 60 </cn>
+                  <ci> tps_repr </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <ci> KM </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                    <apply>
+                      <minus/>
+                      <apply>
+                        <times/>
+                        <cn type="integer"> 60 </cn>
+                        <ci> tps_repr </ci>
+                      </apply>
+                      <apply>
+                        <times/>
+                        <cn type="integer"> 60 </cn>
+                        <ci> tps_active </ci>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <power/>
+                      <ci> KM </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <ci> X_protein </ci>
+                      <ci> n_Hill </ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

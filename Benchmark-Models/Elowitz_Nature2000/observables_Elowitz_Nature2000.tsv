@@ -1,0 +1,2 @@
+observableId	observableFormula	observableName	noiseDistribution	noiseFormula	observableTransformation
+fluorescence	observableParameter1_fluorescence + GFP * observableParameter2_fluorescence		normal	noiseParameter1_fluorescence	log10
