@@ -1,0 +1,1052 @@
+observableId	simulationConditionId	measurement	time	observableParameters	noiseParameters
+pAkt_au	-0.0659223371856709	10.0	model1_data1	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	0.0	10.0	model1_data2	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.0911659174460737	10.0	model1_data3	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.38673326236169503	10.0	model1_data4	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.728438834002189	10.0	model1_data5	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.8491453535153108	10.0	model1_data6	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.872085267969188	10.0	model1_data7	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.983723603812516	10.0	model1_data8	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.8760304395368029	10.0	model1_data9	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.9045416697669091	10.0	model1_data10	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.899850044393485	10.0	model1_data11	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.151261350547133	10.0	model1_data12	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.157372293640221	10.0	model1_data13	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.0808063003628599	10.0	model1_data14	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.122076956996562	10.0	model1_data15	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.126429865001669	10.0	model1_data16	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.11556844311505499	10.0	model1_data17	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.0781040598035748	10.0	model1_data18	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.195152587295386	10.0	model1_data19	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	0.0	10.0	model1_data20	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.0745067450967062	10.0	model1_data21	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.154194628058846	10.0	model1_data22	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.00668996040794067	10.0	model1_data23	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	0.0	10.0	model1_data24	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.0862431291387526	10.0	model1_data25	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.35100618383252197	10.0	model1_data26	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.18350619975863602	10.0	model1_data27	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.620933184510413	10.0	model1_data28	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.5200097462624821	10.0	model1_data29	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.219577841798742	10.0	model1_data30	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.724048116191715	10.0	model1_data31	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.603250261398326	10.0	model1_data32	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.19152969416362603	10.0	model1_data33	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.16196977637828	10.0	model1_data34	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	0.0	10.0	model1_data35	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.139693356259983	10.0	model1_data36	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.10829966554688301	10.0	model1_data37	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.7407766947687471	10.0	model1_data38	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.414820978613025	10.0	model1_data39	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.31886121735704603	10.0	model1_data40	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.6757767219140339	10.0	model1_data41	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.6162012653613891	10.0	model1_data42	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data43	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data43	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data43	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data43	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data43	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data44	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data44	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data44	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data44	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data44	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data45	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data45	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data45	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data45	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data45	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data46	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data46	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data46	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data46	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data46	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data47	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data47	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data47	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data47	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data47	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data48	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data48	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data48	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data48	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data48	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data49	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data49	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data49	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data49	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data49	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data50	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data50	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data50	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data50	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data50	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data51	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data51	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data51	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data51	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data51	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data52	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data52	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data52	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data52	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data52	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data53	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data53	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data53	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data53	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data53	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data54	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data54	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data54	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data54	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data54	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data55	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data55	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data55	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data55	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data55	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data56	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data56	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data56	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data56	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data56	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data57	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data57	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data57	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data57	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data57	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data58	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data58	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data58	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data58	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data58	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data59	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data59	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data59	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data59	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data59	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data60	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data60	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data60	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data60	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data60	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data61	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data61	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data61	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data61	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data61	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data62	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data62	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data62	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data62	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data62	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data63	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data63	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data63	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data63	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data63	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data64	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data64	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data64	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data64	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data64	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data65	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data65	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data65	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data65	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data65	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data66	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data67	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data68	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data69	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data70	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data71	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data72	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data73	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data74	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data75	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data76	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data77	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data77	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data77	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data77	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data77	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data78	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data78	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data78	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data78	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data78	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data79	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data79	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data79	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data79	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data79	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data80	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data80	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data80	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data80	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data80	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data81	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data81	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data81	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data81	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data81	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data82	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data82	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data82	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data82	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data82	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data83	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data83	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data83	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data83	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data83	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data84	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data84	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data84	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data84	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data84	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data85	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data85	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data85	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data85	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data85	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data86	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data86	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data86	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data86	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data86	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data87	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data87	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data87	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data87	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data87	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data88	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data88	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data88	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data88	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data88	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data89	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data89	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data89	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data89	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data89	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data90	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data90	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data90	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data90	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data90	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data91	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data91	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data91	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data91	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data91	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data92	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data92	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data92	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data92	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data92	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data93	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data93	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data93	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data93	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data93	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data94	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data94	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data94	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data94	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data94	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data95	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data95	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data95	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data95	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data95	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data96	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data96	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data96	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data96	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data96	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data97	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data97	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data97	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data97	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data97	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data98	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data98	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data98	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data98	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data98	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data99	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data99	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data99	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data99	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data99	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data100	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data100	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data100	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data100	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data100	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data101	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data101	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data101	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data101	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data101	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data102	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data102	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data102	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data102	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data102	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data103	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data103	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data103	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data103	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data103	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data104	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data104	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data104	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data104	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data104	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data105	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data105	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data105	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data105	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data105	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data106	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data106	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data106	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data106	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data106	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data107	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data107	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data107	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data107	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data107	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data108	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data108	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data108	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data108	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data108	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data109	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data109	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data109	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data109	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data109	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data110	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data110	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data110	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data110	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data110	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data111	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data111	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data111	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data111	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data111	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data112	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data112	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data112	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data112	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data112	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data113	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data113	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data113	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data113	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data113	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data114	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data114	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data114	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data114	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data114	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data115	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data115	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data115	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data115	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data115	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data116	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data116	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data116	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data116	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data116	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data117	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data117	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data117	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data117	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data117	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data118	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data118	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data118	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data118	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data118	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data119	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data119	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data119	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data119	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data119	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data120	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data120	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data120	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data120	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data120	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data121	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data121	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data121	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data121	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data121	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data122	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data122	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data122	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data122	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data122	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data123	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data123	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data123	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data123	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data123	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data124	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data124	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data124	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data124	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data124	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data125	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data125	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data125	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data125	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data125	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data126	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data126	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data126	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data126	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data126	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data127	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data127	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data127	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data127	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data127	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data128	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data128	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data128	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data128	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data128	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data129	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data129	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data129	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data129	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data129	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data130	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data130	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data130	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data130	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data130	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data131	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data131	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data131	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data131	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data131	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data132	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data132	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data132	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data132	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data132	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data133	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data133	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data133	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data133	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data133	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data134	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data134	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data134	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data134	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data134	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data135	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data135	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data135	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data135	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data135	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data136	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data136	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data136	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data136	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data136	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data137	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data137	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data137	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data137	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data137	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		0.0	model1_data138	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data138	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20.0	model1_data138	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50.0	model1_data138	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60.0	model1_data138	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data139	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0238500821109247	10.0	model1_data139	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data140	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	0.0	10.0	model1_data140	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data141	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0392978768422337	10.0	model1_data141	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data142	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0553170592461167	10.0	model1_data142	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data143	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0368855837496137	10.0	model1_data143	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data144	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0719481788841913	10.0	model1_data144	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data145	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.153483044538493	10.0	model1_data145	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data146	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0297265809730384	10.0	model1_data146	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data147	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.169511473842842	10.0	model1_data147	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data148	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.111519012569092	10.0	model1_data148	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data149	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data149		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data150	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data150		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data151	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data151		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data152	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data152		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data153	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data153		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data154	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data154		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data155	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0376884528647107	10.0	model1_data155	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data156	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0122029914083792	10.0	model1_data156	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data157	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	0.0	10.0	model1_data157	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data158	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.07374522244125799	10.0	model1_data158	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data159	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.107427861412051	10.0	model1_data159	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data160	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.059714180898385004	10.0	model1_data160	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data161	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0270807991564676	10.0	model1_data161	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data162	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0634962380335556	10.0	model1_data162	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data163	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.17390859549510998	10.0	model1_data163	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data164	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.00995758398070245	10.0	model1_data164	offset_act_met_snu5;scale_act_met_snu5;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data165	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data165		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data166	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data166		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data167	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data167		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data168	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data168		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data169	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data169		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data170	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data170		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data171	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0348055621771344	10.0	model1_data171	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data172	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	0.0	10.0	model1_data172	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data173	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0726488911370753	10.0	model1_data173	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data174	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0539263161053341	10.0	model1_data174	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data175	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.225460060217566	10.0	model1_data175	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data176	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.35802078732219705	10.0	model1_data176	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data177	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.298340654422459	10.0	model1_data177	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data178	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0882292961790384	10.0	model1_data178	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data179	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.327156381548638	10.0	model1_data179	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data180	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.30919882120864	10.0	model1_data180	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data181	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data181		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data182	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data182		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data183	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data183		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data184	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data184		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data185	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data185		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data186	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data186		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data187	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	0.0	10.0	model1_data187	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data188	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0144525412152806	10.0	model1_data188	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data189	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0263711673820289	10.0	model1_data189	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data190	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0203709692546348	10.0	model1_data190	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data191	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0448857882029294	10.0	model1_data191	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data192	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.182895222817651	10.0	model1_data192	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data193	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.147550010093957	10.0	model1_data193	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data194	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.21666521660578894	10.0	model1_data194	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data195	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.18944252909428796	10.0	model1_data195	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data196	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.118586210971475	10.0	model1_data196	offset_act_met_h1993;scale_act_met_h1993;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data197	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data197		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data198	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data198		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data199	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data199		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data200	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data200		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data201	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data201		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data202	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data202		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data203	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	0.0	10.0	model1_data203	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data204	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0503436891271485	10.0	model1_data204	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data205	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0830863496616538	10.0	model1_data205	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data206	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.30756082288327696	10.0	model1_data206	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data207	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-1.52504479385676	10.0	model1_data207	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data208	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-1.2240143566600301	10.0	model1_data208	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data209	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.922985244061992	10.0	model1_data209	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data210	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-2.00216693164326	10.0	model1_data210	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data211	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-1.07274769425811	10.0	model1_data211	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data212	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-1.52504479385676	10.0	model1_data212	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data213	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data213		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data214	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data214		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data215	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data215		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data216	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data216		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data217	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data217		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data218	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data218		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data219	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	0.0	10.0	model1_data219	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data220	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0103153595788103	10.0	model1_data220	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data221	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0317142247294721	10.0	model1_data221	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data222	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.0804058311428592	10.0	model1_data222	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data223	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.913405346570754	10.0	model1_data223	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data224	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.515465745467105	10.0	model1_data224	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data225	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.22800734075770396	10.0	model1_data225	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data226	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-1.02735032915344	10.0	model1_data226	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data227	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.355251231166918	10.0	model1_data227	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data228	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au	-0.737314766795933	10.0	model1_data228	offset_act_met_h292;scale_act_met_h292;	sd_act_met_dimer_au
+pAkt_au		10.0	model1_data229	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data229		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data230	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data230		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data231	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data231		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data232	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data232		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data233	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data233		sd_act_met_dimer_au
+pAkt_au		10.0	model1_data234	offset_pakt;scale_pakt;	sd_pakt_au
+act_met_dimer_au		10.0	model1_data234		sd_act_met_dimer_au
+pAkt_au	0.0	10.0	model1_data235	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.105963513082556	10.0	model1_data236	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.0184177338670935	10.0	model1_data237	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.12641254207224098	10.0	model1_data238	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.25081444540972503	10.0	model1_data239	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.323138070961741	10.0	model1_data240	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.633274792960543	10.0	model1_data241	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.46443422122824995	10.0	model1_data242	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.46659601305946297	10.0	model1_data243	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.519832040113433	10.0	model1_data244	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	-0.35446629540615604	10.0	model1_data245	offset_jc_mm131_pakt_ID1;scale_jc_mm131_pakt_ID1;	sd_pakt_jc_mm131_au_ID1
+pAkt_au	0.0	10.0	model1_data246	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.0376912150210106	10.0	model1_data247	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.0158340373932432	10.0	model1_data248	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.0737083043714846	10.0	model1_data249	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.21221461116759602	10.0	model1_data250	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.281825439809945	10.0	model1_data251	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.5469960088088	10.0	model1_data252	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.456926077976241	10.0	model1_data253	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.543858566158153	10.0	model1_data254	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.5060004954147861	10.0	model1_data255	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.34064549251848497	10.0	model1_data256	offset_jc_mm131_pakt_ID2;scale_jc_mm131_pakt_ID2;	sd_pakt_jc_mm131_au_ID2
+pAkt_au	-0.0526093385702841	10.0	model1_data257	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.0632592881093367	10.0	model1_data258	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	0.0	10.0	model1_data259	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.0076176488395279405	10.0	model1_data260	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.0571930007173505	10.0	model1_data261	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.17703935506751298	10.0	model1_data262	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.35354341780192705	10.0	model1_data263	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.24711167893786698	10.0	model1_data264	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.34327932608150497	10.0	model1_data265	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.26191200877270104	10.0	model1_data266	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.21068214126728896	10.0	model1_data267	offset_jc_mm131_pakt_ID3;scale_jc_mm131_pakt_ID3;	sd_pakt_jc_mm131_au_ID3
+pAkt_au	-0.0139777308350255	10.0	model1_data268	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	0.0	10.0	model1_data269	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	-0.0263654021571834	10.0	model1_data270	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	-0.058616984894476004	10.0	model1_data271	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	-0.0969939093500444	10.0	model1_data272	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	-0.0993134135064132	10.0	model1_data273	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	-0.28906794250200896	10.0	model1_data274	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	-0.280146369921018	10.0	model1_data275	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	-0.39019840123029903	10.0	model1_data276	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	-0.258094089666055	10.0	model1_data277	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	-0.229811135924026	10.0	model1_data278	offset_jc_mm131_pakt_ID4;scale_jc_mm131_pakt_ID4;	sd_pakt_jc_mm131_au_ID4
+pAkt_au	0.0	10.0	model1_data279	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.0200544452062443	10.0	model1_data280	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.0697599688434348	10.0	model1_data281	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.109596586477504	10.0	model1_data282	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.186640974447692	10.0	model1_data283	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.33677808835934697	10.0	model1_data284	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.539831144913967	10.0	model1_data285	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.5687992872809079	10.0	model1_data286	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.415024597924864	10.0	model1_data287	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.573689020110005	10.0	model1_data288	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	-0.316043515681552	10.0	model1_data289	offset_jc_metmab_pakt_ID1;scale_jc_metmab_pakt_ID1;	sd_pakt_jc_metmab_au_ID1
+pAkt_au	0.0	10.0	model1_data290	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.071735508496888	10.0	model1_data291	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.0857152644402057	10.0	model1_data292	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.229862705066682	10.0	model1_data293	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.25687508099197	10.0	model1_data294	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.423615844717589	10.0	model1_data295	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.6017389969792579	10.0	model1_data296	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.58081100122972	10.0	model1_data297	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.577662354612644	10.0	model1_data298	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.6019552517928599	10.0	model1_data299	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.517114157052383	10.0	model1_data300	offset_jc_metmab_pakt_ID2;scale_jc_metmab_pakt_ID2;	sd_pakt_jc_metmab_au_ID2
+pAkt_au	-0.018312475041077	10.0	model1_data301	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	0.0	10.0	model1_data302	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.0312125105632378	10.0	model1_data303	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.0254754393997751	10.0	model1_data304	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.0902236676128108	10.0	model1_data305	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.11121865542690199	10.0	model1_data306	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.33407988287818396	10.0	model1_data307	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.252726798715315	10.0	model1_data308	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.40354096484287394	10.0	model1_data309	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.346785829178182	10.0	model1_data310	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.20263680746164703	10.0	model1_data311	offset_jc_metmab_pakt_ID3;scale_jc_metmab_pakt_ID3;	sd_pakt_jc_metmab_au_ID3
+pAkt_au	-0.0297664566600877	10.0	model1_data312	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.0220649656091187	10.0	model1_data313	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	0.0	10.0	model1_data314	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.031425351422561004	10.0	model1_data315	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.0997685182362085	10.0	model1_data316	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.10631218706401101	10.0	model1_data317	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.41389488774630606	10.0	model1_data318	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.32580718280157	10.0	model1_data319	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.40521861588669206	10.0	model1_data320	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.36650067557400395	10.0	model1_data321	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.22479561914758803	10.0	model1_data322	offset_jc_metmab_pakt_ID4;scale_jc_metmab_pakt_ID4;	sd_pakt_jc_metmab_au_ID4
+pAkt_au	-0.0540638625942298	10.0	model1_data323	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	0.0	10.0	model1_data324	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.0793061061022197	10.0	model1_data325	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.0887265639538553	10.0	model1_data326	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.03576460014979899	10.0	model1_data327	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.17342704633375	10.0	model1_data328	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.527927673331694	10.0	model1_data329	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.332411151563152	10.0	model1_data330	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.723114830812538	10.0	model1_data331	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.33959952148582695	10.0	model1_data332	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.223164182769461	10.0	model1_data333	offset_jc_metmab_h441_pakt_ID1;scale_jc_metmab_h441_pakt_ID1;	sd_pakt_jc_metmab_h441_au_ID1
+pAkt_au	-0.0150441525255655	10.0	model1_data334	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.0138682263170101	10.0	model1_data335	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.0303667335481081	10.0	model1_data336	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.124993986637877	10.0	model1_data337	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	0.0	10.0	model1_data338	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.0019950749577779103	10.0	model1_data339	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.37619202698547705	10.0	model1_data340	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.24092069616618397	10.0	model1_data341	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.4552187473307411	10.0	model1_data342	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.355076330912394	10.0	model1_data343	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.225219921556807	10.0	model1_data344	offset_jc_metmab_h441_pakt_ID2;scale_jc_metmab_h441_pakt_ID2;	sd_pakt_jc_metmab_h441_au_ID2
+pAkt_au	-0.0665790092807375	10.0	model1_data345	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	0.0	10.0	model1_data346	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.0468988696194843	10.0	model1_data347	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.096444931147035	10.0	model1_data348	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.0654200165311887	10.0	model1_data349	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.19160185117851197	10.0	model1_data350	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.49533185231795795	10.0	model1_data351	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.23420071413567997	10.0	model1_data352	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.6877744656283671	10.0	model1_data353	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.34332397674000503	10.0	model1_data354	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.21128644720349798	10.0	model1_data355	offset_jc_metmab_h441_pakt_ID3;scale_jc_metmab_h441_pakt_ID3;	sd_pakt_jc_metmab_h441_au_ID3
+pAkt_au	-0.112557860159241	10.0	model1_data356	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	0.0	10.0	model1_data357	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.171458690235102	10.0	model1_data358	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.166744761479271	10.0	model1_data359	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.0750115995435698	10.0	model1_data360	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.17834021079936502	10.0	model1_data361	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.51970938975141	10.0	model1_data362	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.236397677047283	10.0	model1_data363	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.7719979030151871	10.0	model1_data364	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.392480677294685	10.0	model1_data365	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.219750093809262	10.0	model1_data366	offset_jc_metmab_h441_pakt_ID4;scale_jc_metmab_h441_pakt_ID4;	sd_pakt_jc_metmab_h441_au_ID4
+pAkt_au	-0.0174132108269094	10.0	model1_data367	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.0174132108269094	10.0	model1_data368	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	0.0	10.0	model1_data369	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.0355060257415951	10.0	model1_data370	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.0355060257415951	10.0	model1_data371	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.76896714238498	10.0	model1_data372	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.6321597669561321	10.0	model1_data373	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.17784143332012697	10.0	model1_data374	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.739568533673107	10.0	model1_data375	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.38235418495887197	10.0	model1_data376	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.151955841860369	10.0	model1_data377	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID1
+pAkt_au	-0.0129669502700493	10.0	model1_data378	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	-0.0129669502700493	10.0	model1_data379	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	-0.0251708464782148	10.0	model1_data380	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	-0.00274902741876187	10.0	model1_data381	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	0.0	10.0	model1_data382	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	-0.845957407953812	10.0	model1_data383	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	-0.383325587499474	10.0	model1_data384	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	-0.24775192876116198	10.0	model1_data385	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	-0.7519460285406699	10.0	model1_data386	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	-0.4595850700517129	10.0	model1_data387	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	-0.12388161377395801	10.0	model1_data388	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID2
+pAkt_au	0.0	10.0	model1_data389	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.012381520592047	10.0	model1_data390	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.0117692837827045	10.0	model1_data391	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.207801805702598	10.0	model1_data392	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.47276240384118495	10.0	model1_data393	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.567844601949606	10.0	model1_data394	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.553918755012391	10.0	model1_data395	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.655152045271856	10.0	model1_data396	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.493326859522853	10.0	model1_data397	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.571000825738725	10.0	model1_data398	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.601507426705856	10.0	model1_data399	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID3
+pAkt_au	-0.0124271411954613	10.0	model1_data400	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	0.0	10.0	model1_data401	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.0394141191761372	10.0	model1_data402	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.17194663131708599	10.0	model1_data403	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.410344476632384	10.0	model1_data404	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.639356066270102	10.0	model1_data405	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.7199610406853699	10.0	model1_data406	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.709451560913668	10.0	model1_data407	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.633063215050213	10.0	model1_data408	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.576351045370937	10.0	model1_data409	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.603782070224477	10.0	model1_data410	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID4
+pAkt_au	-0.0117262656745056	10.0	model1_data411	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.0332941573527252	10.0	model1_data412	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.0286587026588247	10.0	model1_data413	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	0.0	10.0	model1_data414	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.0597737385715673	10.0	model1_data415	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.242906214986089	10.0	model1_data416	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.738199356658953	10.0	model1_data417	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.42481978582227403	10.0	model1_data418	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.663711600397354	10.0	model1_data419	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.621500953104708	10.0	model1_data420	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.39363659869729495	10.0	model1_data421	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID5
+pAkt_au	-0.0926678842664565	10.0	model1_data422	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.0111201754918604	10.0	model1_data423	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	0.0	10.0	model1_data424	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.0867348072664428	10.0	model1_data425	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.0414932372370941	10.0	model1_data426	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.302439847745383	10.0	model1_data427	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.6571716908904461	10.0	model1_data428	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.5822113836605789	10.0	model1_data429	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.8287210294249	10.0	model1_data430	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.7095129346326099	10.0	model1_data431	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.397497855891846	10.0	model1_data432	offset_jc_metmab_h747_pakt;scale_jc_metmab_h747_pakt;	sd_pakt_jc_metmab_h747_au_ID6
+pAkt_au	-0.23183574803639	10.0	model1_data433	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0723852816026771	10.0	model1_data434	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0700750865100153	10.0	model1_data435	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0376263229037313	10.0	model1_data436	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	0.0	10.0	model1_data437	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0201806345746136	10.0	model1_data438	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.34356927302227197	10.0	model1_data439	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.228520832042044	10.0	model1_data440	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0807898796210127	10.0	model1_data441	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.343639604267599	10.0	model1_data442	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.189492023955206	10.0	model1_data443	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.346138792018688	10.0	model1_data444	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.28537666023022806	10.0	model1_data445	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.159850765196395	10.0	model1_data446	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0607205923113883	10.0	model1_data447	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	0.0	10.0	model1_data448	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.126533645805506	10.0	model1_data449	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.556565190821251	10.0	model1_data450	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.34633900885312496	10.0	model1_data451	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.15575594500712397	10.0	model1_data452	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.680425919584371	10.0	model1_data453	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.332705811920872	10.0	model1_data454	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.14981404787492403	10.0	model1_data455	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0373061287069739	10.0	model1_data456	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	0.0	10.0	model1_data457	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0750921769049963	10.0	model1_data458	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.10838667384028	10.0	model1_data459	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.13487012008779903	10.0	model1_data460	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.458854099330942	10.0	model1_data461	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.277991265480042	10.0	model1_data462	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.16527975851628196	10.0	model1_data463	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.48628666519997904	10.0	model1_data464	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.286070031778847	10.0	model1_data465	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.11119532707149399	10.0	model1_data466	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0922066466340953	10.0	model1_data467	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0425866176418596	10.0	model1_data468	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	0.0	10.0	model1_data469	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0070110937561500206	10.0	model1_data470	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.18323447867355	10.0	model1_data471	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.9379685988924101	10.0	model1_data472	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.604502695219833	10.0	model1_data473	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.397076229112289	10.0	model1_data474	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.7840832636432611	10.0	model1_data475	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.763007069917678	10.0	model1_data476	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0558088767571369	10.0	model1_data477	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0455233262755214	10.0	model1_data478	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	0.0	10.0	model1_data479	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.210765714808763	10.0	model1_data480	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.21549058939141102	10.0	model1_data481	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.5858711731029139	10.0	model1_data482	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-1.05378300454967	10.0	model1_data483	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.95013369676505	10.0	model1_data484	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.925948005681468	10.0	model1_data485	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.938357988952965	10.0	model1_data486	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.7880732083458308	10.0	model1_data487	offset_ssu_hgf_egf_combo;scale_ssu_hgf_egf_combo;	sd_pakt_ssu_hgf_egf_combo
+pAkt_au	-0.0659223371856709	10.0	model1_data488	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	0.0	10.0	model1_data489	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.0911659174460737	10.0	model1_data490	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.38673326236169503	10.0	model1_data491	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.728438834002189	10.0	model1_data492	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.8491453535153108	10.0	model1_data493	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.872085267969188	10.0	model1_data494	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.983723603812516	10.0	model1_data495	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.8760304395368029	10.0	model1_data496	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.9045416697669091	10.0	model1_data497	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au	-0.899850044393485	10.0	model1_data498	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data499	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data500	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data501	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data502	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data503	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data504	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data505	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data506	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data507	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data508	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data509	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data510	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data511	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data512	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data513	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data514	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data515	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data516	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data517	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data518	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data519	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data520	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data521	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data522	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data523	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data524	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data525	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data526	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data527	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data528	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data529	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data530	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data531	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		1000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		30000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		40000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		70000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		80000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		90000.0	model1_data532	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		1000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		30000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		40000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		70000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		80000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		90000.0	model1_data533	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		1000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		30000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		40000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		70000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		80000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		90000.0	model1_data534	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		1000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		20000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		30000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		40000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		50000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		60000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		70000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		80000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		90000.0	model1_data535	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data536	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data537	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data538	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data539	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data540	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data541	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data542	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data543	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data544	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data545	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data546	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data547	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data548	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data549	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data550	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data551	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data552	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data553	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data554	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data555	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data556	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data557	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data558	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data559	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data560	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data561	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data562	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data563	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data564	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data565	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data566	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data567	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data568	offset_pakt;scale_pakt;	sd_pakt_au
+pAkt_au		10.0	model1_data569	offset_pakt;scale_pakt;	sd_pakt_au
