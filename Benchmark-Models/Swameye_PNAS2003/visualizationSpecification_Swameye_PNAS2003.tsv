@@ -1,0 +1,4 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+plot1	tSTAT_au	LinePlot	MeanAndSD	model1_data1_tSTAT_au	time	0	Time [min]	tSTAT_au	0	tSTAT_au	model1_data1	lin	lin
+plot2	pSTAT_au	LinePlot	MeanAndSD	model1_data1_pSTAT	time	0	Time [min]	pSTAT_au	0	pSTAT_au	model1_data1	lin	lin
+plot3	pEpoR_au	LinePlot	MeanAndSD	model1_data1_pEpoR_au	time	0	Time [min]	pEpoR_au	0	pEpoR_au	model1_data1	lin	lin

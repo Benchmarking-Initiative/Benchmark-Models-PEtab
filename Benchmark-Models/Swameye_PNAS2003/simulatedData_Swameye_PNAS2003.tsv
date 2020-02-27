@@ -1,0 +1,47 @@
+observableId	preequilibrationConditionid	simulationConditionId	simulation	time	observableParameters	noiseParameters	datasetId
+tSTAT_au		model1_data1	0.939405029502915	0		0.084	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.935548027184966	2		0.046	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.884131965397325	4		0.038	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.768449809155305	6		0.032	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.68279236614267	8		0.033	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.64855301000795	10		0.037	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.647359346565121	12		0.039	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.65526965456638	14		0.04	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.660669958701338	16		0.03	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.662663558776184	18		0.028	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.66365202113469	20		0.03	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.671268041876674	25		0.031	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.692617440951762	30		0.032	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.787624653143518	40		0.04	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.879837862708527	50		0.046	model1_data1_tSTAT_au
+tSTAT_au		model1_data1	0.92032440852555	60		0.082	model1_data1_tSTAT_au
+pSTAT_au		model1_data1	0.344438933428608	2		0.051894135962636	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.91078215371561	4		0.06850025947068	model1_data1_pSTAT
+pSTAT_au		model1_data1	1.04845945741245	6		0.072651790347691	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.907747280742224	8		0.067462376751427	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.840972823474505	10		0.052932018681889	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.829360846459001	12		0.055007784120394	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.836647315781658	14		0.052932018681889	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.841594915209384	16		0.041515308770109	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.839800366967139	18		0.041515308770109	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.833085031652144	20		0.049818370524131	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.797995594642204	25		0.053969901401142	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.722676776779208	30		0.056045666839647	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.481035383197448	40		0.0570835495589	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.322580594620519	50		0.04566683964712	model1_data1_pSTAT
+pSTAT_au		model1_data1	0.265365050724311	60		0.073689673066944	model1_data1_pSTAT
+pEpoR_au		model1_data1	0.00187136580901	0			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.045128154803055	2			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.313272967917199	4			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.787243197871831	6			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.968879232373792	8			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.849980750793706	10			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.72599113588495	12			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.631423570199398	14			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.54711933308785	16			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.462082680058283	18			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.372167318709466	20			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.164465433459404	25			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.052686975195394	30			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.003220100173552	40			model1_data1_pEpoR_au
+pEpoR_au		model1_data1	0.000207635159755	50			model1_data1_pEpoR_au

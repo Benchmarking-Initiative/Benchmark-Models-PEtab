@@ -1,0 +1,4 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+pEpoR_au		pEpoR	noiseParameter1_pEpoR_au	lin	normal
+pSTAT_au		observableParameter1_pSTAT_au + observableParameter2_pSTAT_au * (pSTAT + 2 * pSTAT_pSTAT) / init_STAT	noiseParameter1_pSTAT_au	lin	normal
+tSTAT_au		observableParameter1_tSTAT_au + observableParameter2_tSTAT_au * (STAT + pSTAT + 2 * pSTAT_pSTAT) / init_STAT	noiseParameter1_tSTAT_au	lin	normal
