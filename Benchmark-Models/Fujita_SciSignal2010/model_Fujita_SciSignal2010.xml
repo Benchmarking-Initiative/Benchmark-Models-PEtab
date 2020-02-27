@@ -1,38 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="arFramework3" id="Fujita_SciSignal2010" name="model_AktPathwayFujita">
-    <notes>
-      <body xmlns="http://www.w3.org/1999/xhtml">
-        <pre>PEtab implementation of the model from Fujita et al. (2010), Science Signaling  Vol. 3, Issue 132, pp. ra56</pre>
-      </body>
-    </notes>
-    <annotation>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-        <rdf:Description rdf:about="#arFramework3">
-          <dc:creator>
-            <rdf:Bag>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Fujita</vCard:Family>
-                  <vCard:Given>Kazuhiro</vCard:Given>
-                </vCard:N>
-              </rdf:li>
-            </rdf:Bag>
-          </dc:creator>
-          <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
-          </dcterms:created>
-          <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
-          </dcterms:modified>
-          <bqbiol:isDescribedBy>
-            <rdf:Bag>
-              <rdf:li rdf:resource="http://identifiers.org/doi/10.1126/scisignal.2000810"/>
-            </rdf:Bag>
-          </bqbiol:isDescribedBy>
-        </rdf:Description>
-      </rdf:RDF>
-    </annotation>
+  <model id="Fujita_SciSignal2010" name="model_AktPathwayFujita">
     <listOfUnitDefinitions>
       <unitDefinition id="time" name="time">
         <listOfUnits>
@@ -72,9 +40,6 @@
       <parameter id="reaction_8_k1" value="0.000941161525754959" constant="true"/>
       <parameter id="reaction_9_k1" value="0.0273281571867514" constant="true"/>
       <parameter id="EGF" value="0.1" constant="false"/>
-      <parameter id="EGF_step" value="0.1" constant="true"/>
-      <parameter id="EGF_impulse" value="0.1" constant="true"/>
-      <parameter id="EGF_ramp" value="0.1" constant="true"/>
     </listOfParameters>
     <listOfInitialAssignments>
       <initialAssignment symbol="EGFR">
@@ -93,38 +58,6 @@
         </math>
       </initialAssignment>
     </listOfInitialAssignments>
-    <listOfRules>
-      <assignmentRule variable="EGF">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <plus/>
-            <ci> EGF_step </ci>
-            <piecewise>
-              <piece>
-                <ci> EGF_impulse </ci>
-                <apply>
-                  <leq/>
-                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                  <cn> 60 </cn>
-                </apply>
-              </piece>
-              <otherwise>
-                <cn> 0 </cn>
-              </otherwise>
-            </piecewise>
-            <apply>
-              <divide/>
-              <apply>
-                <times/>
-                <ci> EGF_ramp </ci>
-                <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-              </apply>
-              <cn> 3600 </cn>
-            </apply>
-          </apply>
-        </math>
-      </assignmentRule>
-    </listOfRules>
     <listOfReactions>
       <reaction id="v1_reaction_1" name="reaction_1" reversible="true">
         <listOfReactants>

@@ -9,5 +9,3 @@ problems:
   - observables_Fujita_SciSignal2010.tsv
   sbml_files:
   - model_Fujita_SciSignal2010.xml
-  visualization_files:
-  - visualizationSpecification_Fujita_SciSignal2010.tsv
