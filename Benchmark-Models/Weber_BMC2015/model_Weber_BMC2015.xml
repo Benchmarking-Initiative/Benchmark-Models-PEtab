@@ -110,7 +110,7 @@
               </apply>
             </piece>
             <otherwise>
-              <ci type="integer"> Ect_Expr_PI4K3beta_flag </ci>
+              <ci> Ect_Expr_PI4K3beta_flag </ci>
             </otherwise>
           </piecewise>
         </math>
@@ -127,7 +127,7 @@
               </apply>
             </piece>
             <otherwise>
-              <ci type="integer"> Ect_Expr_CERT_flag </ci>
+              <ci> Ect_Expr_CERT_flag </ci>
             </otherwise>
           </piecewise>
         </math>
@@ -142,13 +142,13 @@
                 <apply>
                   <minus/>
                   <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                  <ci type="integer"> PdBu_time </ci>
+                  <ci> PdBu_time </ci>
                 </apply>
                 <cn type="integer"> 0 </cn>
               </apply>
             </piece>
             <otherwise>
-              <ci type="integer"> PdBu_dose </ci>
+              <ci> PdBu_dose </ci>
             </otherwise>
           </piecewise>
         </math>
@@ -157,7 +157,7 @@
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <times/>
-            <ci type="integer"> kb_NB142_70_dose </ci>
+            <ci> kb_NB142_70_dose </ci>
             <piecewise>
               <piece>
                 <cn type="integer"> 0 </cn>
@@ -166,7 +166,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <ci type="integer"> kb_NB142_70_time </ci>
+                    <ci> kb_NB142_70_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
