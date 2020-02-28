@@ -44,13 +44,13 @@
       <compartment id="cyt" spatialDimensions="3" size="1" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="PKD" name="PKD" compartment="cyt" initialConcentration="466431.777927231" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="PKDDAGa" name="PKD_p:DAG" compartment="cyt" initialConcentration="126.688844207092" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="PI4K3B" name="PI4KIII\beta" compartment="cyt" initialConcentration="1580543.30370071" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="PI4K3Ba" name="PI4KIII\beta_p" compartment="cyt" initialConcentration="324972.452890711" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="CERTERa" name="CERT_{a,ER}" compartment="cyt" initialConcentration="30920083.2394518" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="CERT" name="CERT_{p,ER}" compartment="cyt" initialConcentration="142522.792553441" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="CERTTGNa" name="CERT_{a,TGN}" compartment="cyt" initialConcentration="36220166.8201729" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PKD" name="PKD" compartment="cyt" initialConcentration="466534.7994" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PKDDAGa" name="PKD_p:DAG" compartment="cyt" initialConcentration="123.8608" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PI4K3B" name="PI4KIII\beta" compartment="cyt" initialConcentration="1577540.5394" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="PI4K3Ba" name="PI4KIII\beta_p" compartment="cyt" initialConcentration="332054.5041" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CERTERa" name="CERT_{a,ER}" compartment="cyt" initialConcentration="31948388.5902" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CERT" name="CERT_{p,ER}" compartment="cyt" initialConcentration="160797.7364" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="CERTTGNa" name="CERT_{a,TGN}" compartment="cyt" initialConcentration="42082828.6681" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="a11" value="0.183516872816456" constant="true"/>
@@ -100,22 +100,82 @@
       </assignmentRule>
       <assignmentRule variable="u3">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn type="integer"> 0 </cn>
+          <piecewise>
+            <piece>
+              <cn type="integer"> 0 </cn>
+              <apply>
+                <lt/>
+                <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                <cn type="integer"> 0 </cn>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci type="integer"> Ect_Expr_PI4K3beta_flag </ci>
+            </otherwise>
+          </piecewise>
         </math>
       </assignmentRule>
       <assignmentRule variable="u4">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn type="integer"> 0 </cn>
+          <piecewise>
+            <piece>
+              <cn type="integer"> 0 </cn>
+              <apply>
+                <lt/>
+                <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                <cn type="integer"> 0 </cn>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci type="integer"> Ect_Expr_CERT_flag </ci>
+            </otherwise>
+          </piecewise>
         </math>
       </assignmentRule>
       <assignmentRule variable="u5">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn type="integer"> 0 </cn>
+          <piecewise>
+            <piece>
+              <cn type="integer"> 0 </cn>
+              <apply>
+                <lt/>
+                <apply>
+                  <minus/>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                  <ci type="integer"> PdBu_time </ci>
+                </apply>
+                <cn type="integer"> 0 </cn>
+              </apply>
+            </piece>
+            <otherwise>
+              <ci type="integer"> PdBu_dose </ci>
+            </otherwise>
+          </piecewise>
         </math>
       </assignmentRule>
       <assignmentRule variable="u6">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn type="integer"> 0 </cn>
+          <apply>
+            <times/>
+            <ci type="integer"> kb_NB142_70_dose </ci>
+            <piecewise>
+              <piece>
+                <cn type="integer"> 0 </cn>
+                <apply>
+                  <lt/>
+                  <apply>
+                    <minus/>
+                    <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                    <ci type="integer"> kb_NB142_70_time </ci>
+                  </apply>
+                  <cn type="integer"> 0 </cn>
+                </apply>
+              </piece>
+              <otherwise>
+                <cn type="integer"> 1 </cn>
+              </otherwise>
+            </piecewise>
+          </apply>
         </math>
       </assignmentRule>
     </listOfRules>
