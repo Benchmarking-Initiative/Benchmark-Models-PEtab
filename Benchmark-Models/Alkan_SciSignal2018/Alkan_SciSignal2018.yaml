@@ -9,3 +9,5 @@ problems:
   - observables_Alkan_SciSignal2018.tsv
   sbml_files:
   - model_Alkan_SciSignal2018.xml
+  visualization_files:
+  - visualizationSpecification_Alkan_SciSignal2018.tsv
