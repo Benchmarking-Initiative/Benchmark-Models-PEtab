@@ -41,24 +41,24 @@ plot13	Dox – pp53_au	LinePlot	MeanAndSD	model1_data22_pp53_au	time	0	Time [hou
 plot14	Dox – tp21_au	LinePlot	MeanAndSD	model1_data20_tp21_au	time	0	Time [hours]	tp21_au	0	Signal (au)	Dox 0.01µm	lin	lin
 plot14	Dox – tp21_au	LinePlot	MeanAndSD	model1_data21_tp21_au	time	0	Time [hours]	tp21_au	0	Signal (au)	Dox 0.05µm	lin	lin
 plot14	Dox – tp21_au	LinePlot	MeanAndSD	model1_data22_tp21_au	time	0	Time [hours]	tp21_au	0	Signal (au)	Dox 0.1µm	lin	lin
-plot15	Gem – pATM_au	LinePlot	MeanAndSD	model1_data28_patm_au	time	0		pATM_au	0	Signal (au)	Gem 0.01µm	lin	lin
-plot15	Gem – pATM_au	LinePlot	MeanAndSD	model1_data29_patm_au	time	0		pATM_au	0	Signal (au)	Gem 0.05µm	lin	lin
-plot15	Gem – pATM_au	LinePlot	MeanAndSD	model1_data30_patm_au	time	0		pATM_au	0	Signal (au)	Gem 0.1µm	lin	lin
-plot16	Gem– pDNAPK_au	LinePlot	MeanAndSD	model1_data28_pdnapk_au	time	0		pDNAPK_au	0	Signal (au)	Gem 0.01µm	lin	lin
-plot16	Gem– pDNAPK_au	LinePlot	MeanAndSD	model1_data29_pdnapk_au	time	0		pDNAPK_au	0	Signal (au)	Gem 0.05µm	lin	lin
-plot16	Gem– pDNAPK_au	LinePlot	MeanAndSD	model1_data30_pdnapk_au	time	0		pDNAPK_au	0	Signal (au)	Gem 0.1µm	lin	lin
-plot17	Gem – pChk1_au	LinePlot	MeanAndSD	model1_data28_pchk1_au	time	0		pChk1_au	0	Signal (au)	Gem 0.01µm	lin	lin
-plot17	Gem – pChk1_au	LinePlot	MeanAndSD	model1_data29_pchk1_au	time	0		pChk1_au	0	Signal (au)	Gem 0.05µm	lin	lin
-plot17	Gem – pChk1_au	LinePlot	MeanAndSD	model1_data30_pchk1_au	time	0		pChk1_au	0	Signal (au)	Gem 0.1µm	lin	lin
-plot18	Gem – pChk2_au	LinePlot	MeanAndSD	model1_data28_pchk2_au	time	0		pChk2_au	0	Signal (au)	Gem 0.01µm	lin	lin
-plot18	Gem – pChk2_au	LinePlot	MeanAndSD	model1_data29_pchk2_au	time	0		pChk2_au	0	Signal (au)	Gem 0.05µm	lin	lin
-plot18	Gem – pChk2_au	LinePlot	MeanAndSD	model1_data30_pchk2_au	time	0		pChk2_au	0	Signal (au)	Gem 0.1µm	lin	lin
-plot19	Gem – tp53_au	LinePlot	MeanAndSD	model1_data28_tp53_au	time	0		tp53_au	0	Signal (au)	Gem 0.01µm	lin	lin
-plot19	Gem – tp53_au	LinePlot	MeanAndSD	model1_data29_tp53_au	time	0		tp53_au	0	Signal (au)	Gem 0.05µm	lin	lin
-plot19	Gem – tp53_au	LinePlot	MeanAndSD	model1_data30_tp53_au	time	0		tp53_au	0	Signal (au)	Gem 0.1µm	lin	lin
-plot20	Gem – pp53_au	LinePlot	MeanAndSD	model1_data28_pp53_au	time	0		pp53_au	0	Signal (au)	Gem 0.01µm	lin	lin
-plot20	Gem – pp53_au	LinePlot	MeanAndSD	model1_data29_pp53_au	time	0		pp53_au	0	Signal (au)	Gem 0.05µm	lin	lin
-plot20	Gem – pp53_au	LinePlot	MeanAndSD	model1_data30_pp53_au	time	0		pp53_au	0	Signal (au)	Gem 0.1µm	lin	lin
-plot21	Gem – tp21_au	LinePlot	MeanAndSD	model1_data28_tp21_au	time	0		tp21_au	0	Signal (au)	Gem 0.01µm	lin	lin
-plot21	Gem – tp21_au	LinePlot	MeanAndSD	model1_data29_tp21_au	time	0		tp21_au	0	Signal (au)	Gem 0.05µm	lin	lin
-plot21	Gem – tp21_au	LinePlot	MeanAndSD	model1_data30_tp21_au	time	0		tp21_au	0	Signal (au)	Gem 0.1µm	lin	lin
+plot15	Gem – pATM_au	LinePlot	MeanAndSD	model1_data28_patm_au	time	0	Time [hours]	pATM_au	0	Signal (au)	Gem 0.01µm	lin	lin
+plot15	Gem – pATM_au	LinePlot	MeanAndSD	model1_data29_patm_au	time	0	Time [hours]	pATM_au	0	Signal (au)	Gem 0.05µm	lin	lin
+plot15	Gem – pATM_au	LinePlot	MeanAndSD	model1_data30_patm_au	time	0	Time [hours]	pATM_au	0	Signal (au)	Gem 0.1µm	lin	lin
+plot16	Gem– pDNAPK_au	LinePlot	MeanAndSD	model1_data28_pdnapk_au	time	0	Time [hours]	pDNAPK_au	0	Signal (au)	Gem 0.01µm	lin	lin
+plot16	Gem– pDNAPK_au	LinePlot	MeanAndSD	model1_data29_pdnapk_au	time	0	Time [hours]	pDNAPK_au	0	Signal (au)	Gem 0.05µm	lin	lin
+plot16	Gem– pDNAPK_au	LinePlot	MeanAndSD	model1_data30_pdnapk_au	time	0	Time [hours]	pDNAPK_au	0	Signal (au)	Gem 0.1µm	lin	lin
+plot17	Gem – pChk1_au	LinePlot	MeanAndSD	model1_data28_pchk1_au	time	0	Time [hours]	pChk1_au	0	Signal (au)	Gem 0.01µm	lin	lin
+plot17	Gem – pChk1_au	LinePlot	MeanAndSD	model1_data29_pchk1_au	time	0	Time [hours]	pChk1_au	0	Signal (au)	Gem 0.05µm	lin	lin
+plot17	Gem – pChk1_au	LinePlot	MeanAndSD	model1_data30_pchk1_au	time	0	Time [hours]	pChk1_au	0	Signal (au)	Gem 0.1µm	lin	lin
+plot18	Gem – pChk2_au	LinePlot	MeanAndSD	model1_data28_pchk2_au	time	0	Time [hours]	pChk2_au	0	Signal (au)	Gem 0.01µm	lin	lin
+plot18	Gem – pChk2_au	LinePlot	MeanAndSD	model1_data29_pchk2_au	time	0	Time [hours]	pChk2_au	0	Signal (au)	Gem 0.05µm	lin	lin
+plot18	Gem – pChk2_au	LinePlot	MeanAndSD	model1_data30_pchk2_au	time	0	Time [hours]	pChk2_au	0	Signal (au)	Gem 0.1µm	lin	lin
+plot19	Gem – tp53_au	LinePlot	MeanAndSD	model1_data28_tp53_au	time	0	Time [hours]	tp53_au	0	Signal (au)	Gem 0.01µm	lin	lin
+plot19	Gem – tp53_au	LinePlot	MeanAndSD	model1_data29_tp53_au	time	0	Time [hours]	tp53_au	0	Signal (au)	Gem 0.05µm	lin	lin
+plot19	Gem – tp53_au	LinePlot	MeanAndSD	model1_data30_tp53_au	time	0	Time [hours]	tp53_au	0	Signal (au)	Gem 0.1µm	lin	lin
+plot20	Gem – pp53_au	LinePlot	MeanAndSD	model1_data28_pp53_au	time	0	Time [hours]	pp53_au	0	Signal (au)	Gem 0.01µm	lin	lin
+plot20	Gem – pp53_au	LinePlot	MeanAndSD	model1_data29_pp53_au	time	0	Time [hours]	pp53_au	0	Signal (au)	Gem 0.05µm	lin	lin
+plot20	Gem – pp53_au	LinePlot	MeanAndSD	model1_data30_pp53_au	time	0	Time [hours]	pp53_au	0	Signal (au)	Gem 0.1µm	lin	lin
+plot21	Gem – tp21_au	LinePlot	MeanAndSD	model1_data28_tp21_au	time	0	Time [hours]	tp21_au	0	Signal (au)	Gem 0.01µm	lin	lin
+plot21	Gem – tp21_au	LinePlot	MeanAndSD	model1_data29_tp21_au	time	0	Time [hours]	tp21_au	0	Signal (au)	Gem 0.05µm	lin	lin
+plot21	Gem – tp21_au	LinePlot	MeanAndSD	model1_data30_tp21_au	time	0	Time [hours]	tp21_au	0	Signal (au)	Gem 0.1µm	lin	lin
