@@ -1,0 +1,1873 @@
+	observableId	preequilibrationConditionId	simulationConditionId	simulation	time	observableParameters	noiseParameters	datasetId
+0	Cells_count		model1_data1	1.0	0.0		sd_count_abs	
+1	Cells_count		model1_data1	1.1414209255659091	4.0		sd_count_abs	
+2	Cells_count		model1_data1	1.3028050602815542	8.0		sd_count_abs	
+3	Cells_count		model1_data1	1.4869160585716155	12.0		sd_count_abs	
+4	Cells_count		model1_data1	1.6969015502757379	16.0		sd_count_abs	
+5	Cells_count		model1_data1	1.9363432600686843	20.0		sd_count_abs	
+6	Cells_count		model1_data1	2.209309797990419	24.0		sd_count_abs	
+7	Cells_count		model1_data1	2.520414519721922	28.0		sd_count_abs	
+8	Cells_count		model1_data1	2.8748806449817326	32.0		sd_count_abs	
+9	Cells_count		model1_data1	3.278615216302825	36.0		sd_count_abs	
+10	Cells_count		model1_data1	3.7382861758923718	40.0		sd_count_abs	
+11	Cells_count		model1_data1	4.261407793243299	44.0		sd_count_abs	
+12	Cells_count		model1_data1	4.8564300084107925	48.0		sd_count_abs	
+13	CellsCasp_count		model1_data1	0.0	0.0		sd_count_casp_abs	
+14	CellsCasp_count		model1_data1	0.0	4.0		sd_count_casp_abs	
+15	CellsCasp_count		model1_data1	0.0	8.0		sd_count_casp_abs	
+16	CellsCasp_count		model1_data1	0.0	12.0		sd_count_casp_abs	
+17	CellsCasp_count		model1_data1	0.0	16.0		sd_count_casp_abs	
+18	CellsCasp_count		model1_data1	0.0	20.0		sd_count_casp_abs	
+19	CellsCasp_count		model1_data1	0.0	24.0		sd_count_casp_abs	
+20	CellsCasp_count		model1_data1	0.0	28.0		sd_count_casp_abs	
+21	CellsCasp_count		model1_data1	0.0	32.0		sd_count_casp_abs	
+22	CellsCasp_count		model1_data1	0.0	36.0		sd_count_casp_abs	
+23	CellsCasp_count		model1_data1	0.0	40.0		sd_count_casp_abs	
+24	CellsCasp_count		model1_data1	0.0	44.0		sd_count_casp_abs	
+25	CellsCasp_count		model1_data1	0.0	48.0		sd_count_casp_abs	
+26	Cells_count		model1_data10	1.0	0.0		sd_count_abs	
+27	Cells_count		model1_data10	1.0263719052521927	4.0		sd_count_abs	
+28	Cells_count		model1_data10	1.0462877986987489	8.0		sd_count_abs	
+29	Cells_count		model1_data10	1.0647022157274364	12.0		sd_count_abs	
+30	Cells_count		model1_data10	1.0825403990467308	16.0		sd_count_abs	
+31	Cells_count		model1_data10	1.1000251061724158	20.0		sd_count_abs	
+32	Cells_count		model1_data10	1.1172345944006206	24.0		sd_count_abs	
+33	Cells_count		model1_data10	1.1342057277936715	28.0		sd_count_abs	
+34	Cells_count		model1_data10	1.1509590012683217	32.0		sd_count_abs	
+35	Cells_count		model1_data10	1.1675073602472077	36.0		sd_count_abs	
+36	Cells_count		model1_data10	1.1838606763268436	40.0		sd_count_abs	
+37	Cells_count		model1_data10	1.20002840841764	44.0		sd_count_abs	
+38	Cells_count		model1_data10	1.2160210568939542	48.0		sd_count_abs	
+39	CellsCasp_count		model1_data10	0.0	0.0		sd_count_casp_abs	
+40	CellsCasp_count		model1_data10	4.1477889219766725e-06	4.0		sd_count_casp_abs	
+41	CellsCasp_count		model1_data10	4.024648085103113e-05	8.0		sd_count_casp_abs	
+42	CellsCasp_count		model1_data10	0.00013086677737029345	12.0		sd_count_casp_abs	
+43	CellsCasp_count		model1_data10	0.00027584180035367096	16.0		sd_count_casp_abs	
+44	CellsCasp_count		model1_data10	0.00046874314327943306	20.0		sd_count_casp_abs	
+45	CellsCasp_count		model1_data10	0.0007056434334663954	24.0		sd_count_casp_abs	
+46	CellsCasp_count		model1_data10	0.0009844655673668622	28.0		sd_count_casp_abs	
+47	CellsCasp_count		model1_data10	0.0013017732239605484	32.0		sd_count_casp_abs	
+48	CellsCasp_count		model1_data10	0.0016508979604143187	36.0		sd_count_casp_abs	
+49	CellsCasp_count		model1_data10	0.0020220741412762403	40.0		sd_count_casp_abs	
+50	CellsCasp_count		model1_data10	0.0024038229655387413	44.0		sd_count_casp_abs	
+51	CellsCasp_count		model1_data10	0.0027846503881714378	48.0		sd_count_casp_abs	
+52	Cells_count		model1_data11	1.0	0.0		sd_count_abs	
+53	Cells_count		model1_data11	1.0065688978718346	4.0		sd_count_abs	
+54	Cells_count		model1_data11	1.0110465734895266	8.0		sd_count_abs	
+55	Cells_count		model1_data11	1.0148566455765045	12.0		sd_count_abs	
+56	Cells_count		model1_data11	1.0180415935002736	16.0		sd_count_abs	
+57	Cells_count		model1_data11	1.0206553922583295	20.0		sd_count_abs	
+58	Cells_count		model1_data11	1.0227577855864918	24.0		sd_count_abs	
+59	Cells_count		model1_data11	1.0244082267802654	28.0		sd_count_abs	
+60	Cells_count		model1_data11	1.0256618261882389	32.0		sd_count_abs	
+61	Cells_count		model1_data11	1.0265675590607137	36.0		sd_count_abs	
+62	Cells_count		model1_data11	1.0271681050646269	40.0		sd_count_abs	
+63	Cells_count		model1_data11	1.0275005451566652	44.0		sd_count_abs	
+64	Cells_count		model1_data11	1.027597324408684	48.0		sd_count_abs	
+65	CellsCasp_count		model1_data11	0.0	0.0		sd_count_casp_abs	
+66	CellsCasp_count		model1_data11	0.005532420452386778	4.0		sd_count_casp_abs	
+67	CellsCasp_count		model1_data11	0.010395538416029611	8.0		sd_count_casp_abs	
+68	CellsCasp_count		model1_data11	0.014700853147759745	12.0		sd_count_casp_abs	
+69	CellsCasp_count		model1_data11	0.01851416657805749	16.0		sd_count_casp_abs	
+70	CellsCasp_count		model1_data11	0.021879724484824815	20.0		sd_count_casp_abs	
+71	CellsCasp_count		model1_data11	0.02483788772751089	24.0		sd_count_casp_abs	
+72	CellsCasp_count		model1_data11	0.02743037510987271	28.0		sd_count_casp_abs	
+73	CellsCasp_count		model1_data11	0.029699124799488486	32.0		sd_count_casp_abs	
+74	CellsCasp_count		model1_data11	0.03168373396306951	36.0		sd_count_casp_abs	
+75	CellsCasp_count		model1_data11	0.033419667335507185	40.0		sd_count_casp_abs	
+76	CellsCasp_count		model1_data11	0.03493764757980787	44.0		sd_count_casp_abs	
+77	CellsCasp_count		model1_data11	0.03626391118609727	48.0		sd_count_casp_abs	
+78	Cells_count		model1_data12	1.0	0.0		sd_count_abs	
+79	Cells_count		model1_data12	0.9903975378698029	4.0		sd_count_abs	
+80	Cells_count		model1_data12	0.9606673486399451	8.0		sd_count_abs	
+81	Cells_count		model1_data12	0.9179331350406371	12.0		sd_count_abs	
+82	Cells_count		model1_data12	0.8668012179318249	16.0		sd_count_abs	
+83	Cells_count		model1_data12	0.8107795579516919	20.0		sd_count_abs	
+84	Cells_count		model1_data12	0.7525048297948642	24.0		sd_count_abs	
+85	Cells_count		model1_data12	0.6939248715270009	28.0		sd_count_abs	
+86	Cells_count		model1_data12	0.6364465182523067	32.0		sd_count_abs	
+87	Cells_count		model1_data12	0.5810551698572246	36.0		sd_count_abs	
+88	Cells_count		model1_data12	0.5284108555177479	40.0		sd_count_abs	
+89	Cells_count		model1_data12	0.4789248691200789	44.0		sd_count_abs	
+90	Cells_count		model1_data12	0.4328204982283705	48.0		sd_count_abs	
+91	CellsCasp_count		model1_data12	0.0	0.0		sd_count_casp_abs	
+92	CellsCasp_count		model1_data12	0.16538234853472847	4.0		sd_count_casp_abs	
+93	CellsCasp_count		model1_data12	0.2806185283718247	8.0		sd_count_casp_abs	
+94	CellsCasp_count		model1_data12	0.35724995992462644	12.0		sd_count_casp_abs	
+95	CellsCasp_count		model1_data12	0.4044123354324966	16.0		sd_count_casp_abs	
+96	CellsCasp_count		model1_data12	0.42932843594232706	20.0		sd_count_casp_abs	
+97	CellsCasp_count		model1_data12	0.43769353485313	24.0		sd_count_casp_abs	
+98	CellsCasp_count		model1_data12	0.43397727330276864	28.0		sd_count_casp_abs	
+99	CellsCasp_count		model1_data12	0.42166570674568665	32.0		sd_count_casp_abs	
+100	CellsCasp_count		model1_data12	0.40345781639334805	36.0		sd_count_casp_abs	
+101	CellsCasp_count		model1_data12	0.38142533285160823	40.0		sd_count_casp_abs	
+102	CellsCasp_count		model1_data12	0.3571423270866456	44.0		sd_count_casp_abs	
+103	CellsCasp_count		model1_data12	0.3317897981812227	48.0		sd_count_casp_abs	
+104	Cells_count		model1_data13	1.0	0.0		sd_count_abs	
+105	Cells_count		model1_data13	1.1414209255659091	4.0		sd_count_abs	
+106	Cells_count		model1_data13	1.3028050602815542	8.0		sd_count_abs	
+107	Cells_count		model1_data13	1.4869160585716155	12.0		sd_count_abs	
+108	Cells_count		model1_data13	1.6969015502757379	16.0		sd_count_abs	
+109	Cells_count		model1_data13	1.9363432600686843	20.0		sd_count_abs	
+110	Cells_count		model1_data13	2.209309797990419	24.0		sd_count_abs	
+111	Cells_count		model1_data13	2.520414519721922	28.0		sd_count_abs	
+112	Cells_count		model1_data13	2.8748806449817326	32.0		sd_count_abs	
+113	Cells_count		model1_data13	3.278615216302825	36.0		sd_count_abs	
+114	Cells_count		model1_data13	3.7382861758923718	40.0		sd_count_abs	
+115	Cells_count		model1_data13	4.261407793243299	44.0		sd_count_abs	
+116	Cells_count		model1_data13	4.8564300084107925	48.0		sd_count_abs	
+117	CellsCasp_count		model1_data13	0.0	0.0		sd_count_casp_abs	
+118	CellsCasp_count		model1_data13	0.0	4.0		sd_count_casp_abs	
+119	CellsCasp_count		model1_data13	0.0	8.0		sd_count_casp_abs	
+120	CellsCasp_count		model1_data13	0.0	12.0		sd_count_casp_abs	
+121	CellsCasp_count		model1_data13	0.0	16.0		sd_count_casp_abs	
+122	CellsCasp_count		model1_data13	0.0	20.0		sd_count_casp_abs	
+123	CellsCasp_count		model1_data13	0.0	24.0		sd_count_casp_abs	
+124	CellsCasp_count		model1_data13	0.0	28.0		sd_count_casp_abs	
+125	CellsCasp_count		model1_data13	0.0	32.0		sd_count_casp_abs	
+126	CellsCasp_count		model1_data13	0.0	36.0		sd_count_casp_abs	
+127	CellsCasp_count		model1_data13	0.0	40.0		sd_count_casp_abs	
+128	CellsCasp_count		model1_data13	0.0	44.0		sd_count_casp_abs	
+129	CellsCasp_count		model1_data13	0.0	48.0		sd_count_casp_abs	
+130	Cells_count		model1_data14	1.0	0.0		sd_count_abs	
+131	Cells_count		model1_data14	1.1422138646906856	4.0		sd_count_abs	
+132	Cells_count		model1_data14	1.3022010444707521	8.0		sd_count_abs	
+133	Cells_count		model1_data14	1.483639245576175	12.0		sd_count_abs	
+134	Cells_count		model1_data14	1.6887678752654687	16.0		sd_count_abs	
+135	Cells_count		model1_data14	1.9201213830361745	20.0		sd_count_abs	
+136	Cells_count		model1_data14	2.1802499444326404	24.0		sd_count_abs	
+137	Cells_count		model1_data14	2.471752413240617	28.0		sd_count_abs	
+138	Cells_count		model1_data14	2.7973266147337252	32.0		sd_count_abs	
+139	Cells_count		model1_data14	3.1598278323597437	36.0		sd_count_abs	
+140	Cells_count		model1_data14	3.5623142382219912	40.0		sd_count_abs	
+141	Cells_count		model1_data14	4.008062849383498	44.0		sd_count_abs	
+142	Cells_count		model1_data14	4.500553575684298	48.0		sd_count_abs	
+143	CellsCasp_count		model1_data14	0.0	0.0		sd_count_casp_abs	
+144	CellsCasp_count		model1_data14	3.7799098652893893e-06	4.0		sd_count_casp_abs	
+145	CellsCasp_count		model1_data14	5.5357593939569515e-05	8.0		sd_count_casp_abs	
+146	CellsCasp_count		model1_data14	0.0001923691074966964	12.0		sd_count_casp_abs	
+147	CellsCasp_count		model1_data14	0.0003889028277023184	16.0		sd_count_casp_abs	
+148	CellsCasp_count		model1_data14	0.0005929248829194273	20.0		sd_count_casp_abs	
+149	CellsCasp_count		model1_data14	0.0007628165415993764	24.0		sd_count_casp_abs	
+150	CellsCasp_count		model1_data14	0.0008801236034829084	28.0		sd_count_casp_abs	
+151	CellsCasp_count		model1_data14	0.0009470742246378698	32.0		sd_count_casp_abs	
+152	CellsCasp_count		model1_data14	0.000978789524054021	36.0		sd_count_casp_abs	
+153	CellsCasp_count		model1_data14	0.0009957808004465206	40.0		sd_count_casp_abs	
+154	CellsCasp_count		model1_data14	0.0010187557245569245	44.0		sd_count_casp_abs	
+155	CellsCasp_count		model1_data14	0.0010658609177190115	48.0		sd_count_casp_abs	
+156	Cells_count		model1_data15	1.0	0.0		sd_count_abs	
+157	Cells_count		model1_data15	1.1412796308976634	4.0		sd_count_abs	
+158	Cells_count		model1_data15	1.2885254885199282	8.0		sd_count_abs	
+159	Cells_count		model1_data15	1.4391593453084273	12.0		sd_count_abs	
+160	Cells_count		model1_data15	1.5900524414499972	16.0		sd_count_abs	
+161	Cells_count		model1_data15	1.7408910472699242	20.0		sd_count_abs	
+162	Cells_count		model1_data15	1.8927043025222314	24.0		sd_count_abs	
+163	Cells_count		model1_data15	2.046724953217466	28.0		sd_count_abs	
+164	Cells_count		model1_data15	2.203881433500722	32.0		sd_count_abs	
+165	Cells_count		model1_data15	2.3647224228890837	36.0		sd_count_abs	
+166	Cells_count		model1_data15	2.5294963341144365	40.0		sd_count_abs	
+167	Cells_count		model1_data15	2.6982493771041502	44.0		sd_count_abs	
+168	Cells_count		model1_data15	2.8709019448376414	48.0		sd_count_abs	
+169	CellsCasp_count		model1_data15	0.0	0.0		sd_count_casp_abs	
+170	CellsCasp_count		model1_data15	1.4486728814523607e-05	4.0		sd_count_casp_abs	
+171	CellsCasp_count		model1_data15	0.00018770918864082926	8.0		sd_count_casp_abs	
+172	CellsCasp_count		model1_data15	0.0006290005059201835	12.0		sd_count_casp_abs	
+173	CellsCasp_count		model1_data15	0.001259213590561815	16.0		sd_count_casp_abs	
+174	CellsCasp_count		model1_data15	0.0019302773806569526	20.0		sd_count_casp_abs	
+175	CellsCasp_count		model1_data15	0.002528202724487689	24.0		sd_count_casp_abs	
+176	CellsCasp_count		model1_data15	0.003003876367136531	28.0		sd_count_casp_abs	
+177	CellsCasp_count		model1_data15	0.0033614547179301483	32.0		sd_count_casp_abs	
+178	CellsCasp_count		model1_data15	0.0036346002261456595	36.0		sd_count_casp_abs	
+179	CellsCasp_count		model1_data15	0.0038660702868425116	40.0		sd_count_casp_abs	
+180	CellsCasp_count		model1_data15	0.004095129500132114	44.0		sd_count_casp_abs	
+181	CellsCasp_count		model1_data15	0.004351949747810858	48.0		sd_count_casp_abs	
+182	Cells_count		model1_data16	1.0	0.0		sd_count_abs	
+183	Cells_count		model1_data16	1.1278843366757765	4.0		sd_count_abs	
+184	Cells_count		model1_data16	1.2145474095977933	8.0		sd_count_abs	
+185	Cells_count		model1_data16	1.2804190479306898	12.0		sd_count_abs	
+186	Cells_count		model1_data16	1.3335176667636957	16.0		sd_count_abs	
+187	Cells_count		model1_data16	1.378989882156135	20.0		sd_count_abs	
+188	Cells_count		model1_data16	1.4199265292315608	24.0		sd_count_abs	
+189	Cells_count		model1_data16	1.4581867213600181	28.0		sd_count_abs	
+190	Cells_count		model1_data16	1.4949054286299082	32.0		sd_count_abs	
+191	Cells_count		model1_data16	1.5307817722098913	36.0		sd_count_abs	
+192	Cells_count		model1_data16	1.5662442602605506	40.0		sd_count_abs	
+193	Cells_count		model1_data16	1.6015495487474471	44.0		sd_count_abs	
+194	Cells_count		model1_data16	1.6368443823638479	48.0		sd_count_abs	
+195	CellsCasp_count		model1_data16	0.0	0.0		sd_count_casp_abs	
+196	CellsCasp_count		model1_data16	3.651335806081568e-05	4.0		sd_count_casp_abs	
+197	CellsCasp_count		model1_data16	0.0004376140311172492	8.0		sd_count_casp_abs	
+198	CellsCasp_count		model1_data16	0.0014392840540275234	12.0		sd_count_casp_abs	
+199	CellsCasp_count		model1_data16	0.0028671544106695845	16.0		sd_count_casp_abs	
+200	CellsCasp_count		model1_data16	0.004387256238627535	20.0		sd_count_casp_abs	
+201	CellsCasp_count		model1_data16	0.0057248389716622675	24.0		sd_count_casp_abs	
+202	CellsCasp_count		model1_data16	0.0067378981201409935	28.0		sd_count_casp_abs	
+203	CellsCasp_count		model1_data16	0.0074019140261163095	32.0		sd_count_casp_abs	
+204	CellsCasp_count		model1_data16	0.007765118475371138	36.0		sd_count_casp_abs	
+205	CellsCasp_count		model1_data16	0.007906395805259906	40.0		sd_count_casp_abs	
+206	CellsCasp_count		model1_data16	0.007906742016351158	44.0		sd_count_casp_abs	
+207	CellsCasp_count		model1_data16	0.007834319855851863	48.0		sd_count_casp_abs	
+208	Cells_count		model1_data17	1.0	0.0		sd_count_abs	
+209	Cells_count		model1_data17	1.1196707094424527	4.0		sd_count_abs	
+210	Cells_count		model1_data17	1.1803678186036377	8.0		sd_count_abs	
+211	Cells_count		model1_data17	1.2172619997497298	12.0		sd_count_abs	
+212	Cells_count		model1_data17	1.2409230927179862	16.0		sd_count_abs	
+213	Cells_count		model1_data17	1.257056168444748	20.0		sd_count_abs	
+214	Cells_count		model1_data17	1.2688267362763825	24.0		sd_count_abs	
+215	Cells_count		model1_data17	1.2780702443147032	28.0		sd_count_abs	
+216	Cells_count		model1_data17	1.2858945434126823	32.0		sd_count_abs	
+217	Cells_count		model1_data17	1.292983297160285	36.0		sd_count_abs	
+218	Cells_count		model1_data17	1.2997571414617377	40.0		sd_count_abs	
+219	Cells_count		model1_data17	1.3064668274206286	44.0		sd_count_abs	
+220	Cells_count		model1_data17	1.3132519451871798	48.0		sd_count_abs	
+221	CellsCasp_count		model1_data17	0.0	0.0		sd_count_casp_abs	
+222	CellsCasp_count		model1_data17	5.962817554711723e-05	4.0		sd_count_casp_abs	
+223	CellsCasp_count		model1_data17	0.0006683166862692107	8.0		sd_count_casp_abs	
+224	CellsCasp_count		model1_data17	0.002143120075375017	12.0		sd_count_casp_abs	
+225	CellsCasp_count		model1_data17	0.004201984763603275	16.0		sd_count_casp_abs	
+226	CellsCasp_count		model1_data17	0.006343589274165697	20.0		sd_count_casp_abs	
+227	CellsCasp_count		model1_data17	0.008164299135614143	24.0		sd_count_casp_abs	
+228	CellsCasp_count		model1_data17	0.009461442503472682	28.0		sd_count_casp_abs	
+229	CellsCasp_count		model1_data17	0.010207756114955778	32.0		sd_count_casp_abs	
+230	CellsCasp_count		model1_data17	0.010483668419439523	36.0		sd_count_casp_abs	
+231	CellsCasp_count		model1_data17	0.010414168634799147	40.0		sd_count_casp_abs	
+232	CellsCasp_count		model1_data17	0.010126091456633748	44.0		sd_count_casp_abs	
+233	CellsCasp_count		model1_data17	0.009725797246638199	48.0		sd_count_casp_abs	
+234	Cells_count		model1_data18	1.0	0.0		sd_count_abs	
+235	Cells_count		model1_data18	1.1418470995875127	4.0		sd_count_abs	
+236	Cells_count		model1_data18	1.302783096718864	8.0		sd_count_abs	
+237	Cells_count		model1_data18	1.4862804316652476	12.0		sd_count_abs	
+238	Cells_count		model1_data18	1.6952757178423197	16.0		sd_count_abs	
+239	Cells_count		model1_data18	1.9332296027179297	20.0		sd_count_abs	
+240	Cells_count		model1_data18	2.204074308954759	24.0		sd_count_abs	
+241	Cells_count		model1_data18	2.5122198525360973	28.0		sd_count_abs	
+242	Cells_count		model1_data18	2.8626044760712426	32.0		sd_count_abs	
+243	Cells_count		model1_data18	3.26074231545401	36.0		sd_count_abs	
+244	Cells_count		model1_data18	3.7127703075164677	40.0		sd_count_abs	
+245	Cells_count		model1_data18	4.225495094478045	44.0		sd_count_abs	
+246	Cells_count		model1_data18	4.806439678485315	48.0		sd_count_abs	
+247	CellsCasp_count		model1_data18	0.0	0.0		sd_count_casp_abs	
+248	CellsCasp_count		model1_data18	1.1277335783947765e-06	4.0		sd_count_casp_abs	
+249	CellsCasp_count		model1_data18	1.981637487198403e-05	8.0		sd_count_casp_abs	
+250	CellsCasp_count		model1_data18	7.37909122454854e-05	12.0		sd_count_casp_abs	
+251	CellsCasp_count		model1_data18	0.00015441087697435187	16.0		sd_count_casp_abs	
+252	CellsCasp_count		model1_data18	0.0002397934943532287	20.0		sd_count_casp_abs	
+253	CellsCasp_count		model1_data18	0.00031106166968119804	24.0		sd_count_casp_abs	
+254	CellsCasp_count		model1_data18	0.000358640209612101	28.0		sd_count_casp_abs	
+255	CellsCasp_count		model1_data18	0.0003816607712936278	32.0		sd_count_casp_abs	
+256	CellsCasp_count		model1_data18	0.0003848349752781028	36.0		sd_count_casp_abs	
+257	CellsCasp_count		model1_data18	0.0003753358690013423	40.0		sd_count_casp_abs	
+258	CellsCasp_count		model1_data18	0.00036063604188650875	44.0		sd_count_casp_abs	
+259	CellsCasp_count		model1_data18	0.0003473788029402113	48.0		sd_count_casp_abs	
+260	pATM_au		model1_data19	0.0	0.25	scale_patm_au;	sd_patm_au	
+261	pATM_au		model1_data19	0.0	1.0	scale_patm_au;	sd_patm_au	
+262	pATM_au		model1_data19	0.0	3.0	scale_patm_au;	sd_patm_au	
+263	pATM_au		model1_data19	0.0	6.0	scale_patm_au;	sd_patm_au	
+264	pATM_au		model1_data19	0.0	12.0	scale_patm_au;	sd_patm_au	
+265	pATM_au		model1_data19	0.0	24.0	scale_patm_au;	sd_patm_au	
+266	pATM_au		model1_data19	0.0	0.25	scale_patm_au;	sd_patm_au	
+267	pATM_au		model1_data19	0.0	1.0	scale_patm_au;	sd_patm_au	
+268	pATM_au		model1_data19	0.0	3.0	scale_patm_au;	sd_patm_au	
+269	pATM_au		model1_data19	0.0	6.0	scale_patm_au;	sd_patm_au	
+270	pATM_au		model1_data19	0.0	12.0	scale_patm_au;	sd_patm_au	
+271	pATM_au		model1_data19	0.0	24.0	scale_patm_au;	sd_patm_au	
+272	pDNAPK_au		model1_data19	0.0	0.25	scale_pdnapk_au;	sd_pdnapk_au	
+273	pDNAPK_au		model1_data19	0.0	1.0	scale_pdnapk_au;	sd_pdnapk_au	
+274	pDNAPK_au		model1_data19	0.0	3.0	scale_pdnapk_au;	sd_pdnapk_au	
+275	pDNAPK_au		model1_data19	0.0	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+276	pDNAPK_au		model1_data19	0.0	12.0	scale_pdnapk_au;	sd_pdnapk_au	
+277	pDNAPK_au		model1_data19	0.0	24.0	scale_pdnapk_au;	sd_pdnapk_au	
+278	pDNAPK_au		model1_data19	0.0	0.25	scale_pdnapk_au;	sd_pdnapk_au	
+279	pDNAPK_au		model1_data19	0.0	1.0	scale_pdnapk_au;	sd_pdnapk_au	
+280	pDNAPK_au		model1_data19	0.0	3.0	scale_pdnapk_au;	sd_pdnapk_au	
+281	pDNAPK_au		model1_data19	0.0	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+282	pDNAPK_au		model1_data19	0.0	12.0	scale_pdnapk_au;	sd_pdnapk_au	
+283	pDNAPK_au		model1_data19	0.0	24.0	scale_pdnapk_au;	sd_pdnapk_au	
+284	pChk1_au		model1_data19	0.0	0.25	scale_pchk1_au;	sd_pchk1_au	
+285	pChk1_au		model1_data19	0.0	1.0	scale_pchk1_au;	sd_pchk1_au	
+286	pChk1_au		model1_data19	0.0	3.0	scale_pchk1_au;	sd_pchk1_au	
+287	pChk1_au		model1_data19	0.0	6.0	scale_pchk1_au;	sd_pchk1_au	
+288	pChk1_au		model1_data19	0.0	12.0	scale_pchk1_au;	sd_pchk1_au	
+289	pChk1_au		model1_data19	0.0	24.0	scale_pchk1_au;	sd_pchk1_au	
+290	pChk1_au		model1_data19	0.0	0.25	scale_pchk1_au;	sd_pchk1_au	
+291	pChk1_au		model1_data19	0.0	1.0	scale_pchk1_au;	sd_pchk1_au	
+292	pChk1_au		model1_data19	0.0	3.0	scale_pchk1_au;	sd_pchk1_au	
+293	pChk1_au		model1_data19	0.0	6.0	scale_pchk1_au;	sd_pchk1_au	
+294	pChk1_au		model1_data19	0.0	12.0	scale_pchk1_au;	sd_pchk1_au	
+295	pChk1_au		model1_data19	0.0	24.0	scale_pchk1_au;	sd_pchk1_au	
+296	pChk2_au		model1_data19	0.0	0.25	scale_pchk2_au;	sd_pchk2_au	
+297	pChk2_au		model1_data19	0.0	1.0	scale_pchk2_au;	sd_pchk2_au	
+298	pChk2_au		model1_data19	0.0	3.0	scale_pchk2_au;	sd_pchk2_au	
+299	pChk2_au		model1_data19	0.0	6.0	scale_pchk2_au;	sd_pchk2_au	
+300	pChk2_au		model1_data19	0.0	12.0	scale_pchk2_au;	sd_pchk2_au	
+301	pChk2_au		model1_data19	0.0	24.0	scale_pchk2_au;	sd_pchk2_au	
+302	pChk2_au		model1_data19	0.0	0.25	scale_pchk2_au;	sd_pchk2_au	
+303	pChk2_au		model1_data19	0.0	1.0	scale_pchk2_au;	sd_pchk2_au	
+304	pChk2_au		model1_data19	0.0	3.0	scale_pchk2_au;	sd_pchk2_au	
+305	pChk2_au		model1_data19	0.0	6.0	scale_pchk2_au;	sd_pchk2_au	
+306	pChk2_au		model1_data19	0.0	12.0	scale_pchk2_au;	sd_pchk2_au	
+307	pChk2_au		model1_data19	0.0	24.0	scale_pchk2_au;	sd_pchk2_au	
+308	tp53_au		model1_data19	0.0	0.25	scale_tp53_au;	sd_tp53_au	
+309	tp53_au		model1_data19	0.0	1.0	scale_tp53_au;	sd_tp53_au	
+310	tp53_au		model1_data19	0.0	3.0	scale_tp53_au;	sd_tp53_au	
+311	tp53_au		model1_data19	0.0	6.0	scale_tp53_au;	sd_tp53_au	
+312	tp53_au		model1_data19	0.0	12.0	scale_tp53_au;	sd_tp53_au	
+313	tp53_au		model1_data19	0.0	24.0	scale_tp53_au;	sd_tp53_au	
+314	tp53_au		model1_data19	0.0	0.25	scale_tp53_au;	sd_tp53_au	
+315	tp53_au		model1_data19	0.0	1.0	scale_tp53_au;	sd_tp53_au	
+316	tp53_au		model1_data19	0.0	3.0	scale_tp53_au;	sd_tp53_au	
+317	tp53_au		model1_data19	0.0	6.0	scale_tp53_au;	sd_tp53_au	
+318	tp53_au		model1_data19	0.0	12.0	scale_tp53_au;	sd_tp53_au	
+319	tp53_au		model1_data19	0.0	24.0	scale_tp53_au;	sd_tp53_au	
+320	pp53_au		model1_data19	0.0	0.25	scale_pp53_au;	sd_pp53_au	
+321	pp53_au		model1_data19	0.0	1.0	scale_pp53_au;	sd_pp53_au	
+322	pp53_au		model1_data19	0.0	3.0	scale_pp53_au;	sd_pp53_au	
+323	pp53_au		model1_data19	0.0	6.0	scale_pp53_au;	sd_pp53_au	
+324	pp53_au		model1_data19	0.0	12.0	scale_pp53_au;	sd_pp53_au	
+325	pp53_au		model1_data19	0.0	24.0	scale_pp53_au;	sd_pp53_au	
+326	pp53_au		model1_data19	0.0	0.25	scale_pp53_au;	sd_pp53_au	
+327	pp53_au		model1_data19	0.0	1.0	scale_pp53_au;	sd_pp53_au	
+328	pp53_au		model1_data19	0.0	3.0	scale_pp53_au;	sd_pp53_au	
+329	pp53_au		model1_data19	0.0	6.0	scale_pp53_au;	sd_pp53_au	
+330	pp53_au		model1_data19	0.0	12.0	scale_pp53_au;	sd_pp53_au	
+331	pp53_au		model1_data19	0.0	24.0	scale_pp53_au;	sd_pp53_au	
+332	tp21_au		model1_data19	0.0	0.25	scale_tp21_au;	sd_tp21_au	
+333	tp21_au		model1_data19	0.0	1.0	scale_tp21_au;	sd_tp21_au	
+334	tp21_au		model1_data19	0.0	3.0	scale_tp21_au;	sd_tp21_au	
+335	tp21_au		model1_data19	0.0	6.0	scale_tp21_au;	sd_tp21_au	
+336	tp21_au		model1_data19	0.0	12.0	scale_tp21_au;	sd_tp21_au	
+337	tp21_au		model1_data19	0.0	24.0	scale_tp21_au;	sd_tp21_au	
+338	tp21_au		model1_data19	0.0	0.25	scale_tp21_au;	sd_tp21_au	
+339	tp21_au		model1_data19	0.0	1.0	scale_tp21_au;	sd_tp21_au	
+340	tp21_au		model1_data19	0.0	3.0	scale_tp21_au;	sd_tp21_au	
+341	tp21_au		model1_data19	0.0	6.0	scale_tp21_au;	sd_tp21_au	
+342	tp21_au		model1_data19	0.0	12.0	scale_tp21_au;	sd_tp21_au	
+343	tp21_au		model1_data19	0.0	24.0	scale_tp21_au;	sd_tp21_au	
+344	Cells_count		model1_data2	1.0	0.0		sd_count_abs	
+345	Cells_count		model1_data2	1.1416023407197615	4.0		sd_count_abs	
+346	Cells_count		model1_data2	1.2985721682773745	8.0		sd_count_abs	
+347	Cells_count		model1_data2	1.4730241582004435	12.0		sd_count_abs	
+348	Cells_count		model1_data2	1.6674092898116604	16.0		sd_count_abs	
+349	Cells_count		model1_data2	1.8844442008556408	20.0		sd_count_abs	
+350	Cells_count		model1_data2	2.1271084441957484	24.0		sd_count_abs	
+351	Cells_count		model1_data2	2.398680769469933	28.0		sd_count_abs	
+352	Cells_count		model1_data2	2.7027626986011275	32.0		sd_count_abs	
+353	Cells_count		model1_data2	3.043322599065776	36.0		sd_count_abs	
+354	Cells_count		model1_data2	3.424735723011183	40.0		sd_count_abs	
+355	Cells_count		model1_data2	3.8518195970440487	44.0		sd_count_abs	
+356	Cells_count		model1_data2	4.329867502900258	48.0		sd_count_abs	
+357	CellsCasp_count		model1_data2	0.0	0.0		sd_count_casp_abs	
+358	CellsCasp_count		model1_data2	1.4174323095587057e-06	4.0		sd_count_casp_abs	
+359	CellsCasp_count		model1_data2	2.6487502682959842e-05	8.0		sd_count_casp_abs	
+360	CellsCasp_count		model1_data2	0.00010585931275017171	12.0		sd_count_casp_abs	
+361	CellsCasp_count		model1_data2	0.00023510060331815723	16.0		sd_count_casp_abs	
+362	CellsCasp_count		model1_data2	0.00038493663429996184	20.0		sd_count_casp_abs	
+363	CellsCasp_count		model1_data2	0.0005261612786887815	24.0		sd_count_casp_abs	
+364	CellsCasp_count		model1_data2	0.0006424563089983284	28.0		sd_count_casp_abs	
+365	CellsCasp_count		model1_data2	0.0007312251619836055	32.0		sd_count_casp_abs	
+366	CellsCasp_count		model1_data2	0.0007991612029598551	36.0		sd_count_casp_abs	
+367	CellsCasp_count		model1_data2	0.0008572531472454498	40.0		sd_count_casp_abs	
+368	CellsCasp_count		model1_data2	0.0009171470744494371	44.0		sd_count_casp_abs	
+369	CellsCasp_count		model1_data2	0.0009891604816737649	48.0		sd_count_casp_abs	
+370	pATM_au		model1_data20	0.015559691906437722	0.25	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+371	pATM_au		model1_data20	0.13221408496664513	1.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+372	pATM_au		model1_data20	0.3558804282760841	3.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+373	pATM_au		model1_data20	0.6351930401852398	6.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+374	pATM_au		model1_data20	0.8349779144195257	12.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+375	pATM_au		model1_data20	0.8647254694668877	24.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+376	pATM_au		model1_data20	0.015559691906437722	0.25	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+377	pATM_au		model1_data20	0.13221408496664513	1.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+378	pATM_au		model1_data20	0.3558804282760841	3.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+379	pATM_au		model1_data20	0.6351930401852398	6.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+380	pATM_au		model1_data20	0.8349779144195257	12.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+381	pATM_au		model1_data20	0.8647254694668877	24.0	scale_patm_au;	sd_patm_au	model1_data20_patm_au
+382	pDNAPK_au		model1_data20	0.07331678109757529	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+383	pDNAPK_au		model1_data20	0.36550472616693586	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+384	pDNAPK_au		model1_data20	0.3602261245355377	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+385	pDNAPK_au		model1_data20	0.28102038662181533	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+386	pDNAPK_au		model1_data20	0.2509752863912121	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+387	pDNAPK_au		model1_data20	0.25783153233447526	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+388	pDNAPK_au		model1_data20	0.07331678109757529	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+389	pDNAPK_au		model1_data20	0.36550472616693586	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+390	pDNAPK_au		model1_data20	0.3602261245355377	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+391	pDNAPK_au		model1_data20	0.28102038662181533	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+392	pDNAPK_au		model1_data20	0.2509752863912121	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+393	pDNAPK_au		model1_data20	0.25783153233447526	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data20_pdnapk_au
+394	pChk1_au		model1_data20	7.415466021705227e-05	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+395	pChk1_au		model1_data20	0.013379699255669399	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+396	pChk1_au		model1_data20	0.23336690771648516	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+397	pChk1_au		model1_data20	0.2991516459022698	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+398	pChk1_au		model1_data20	0.3537675130658446	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+399	pChk1_au		model1_data20	0.4081676077780133	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+400	pChk1_au		model1_data20	7.415466021705227e-05	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+401	pChk1_au		model1_data20	0.013379699255669399	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+402	pChk1_au		model1_data20	0.23336690771648516	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+403	pChk1_au		model1_data20	0.2991516459022698	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+404	pChk1_au		model1_data20	0.3537675130658446	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+405	pChk1_au		model1_data20	0.4081676077780133	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data20_pchk1_au
+406	pChk2_au		model1_data20	0.015250243156339174	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+407	pChk2_au		model1_data20	0.5133326882768624	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+408	pChk2_au		model1_data20	1.1030209707501848	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+409	pChk2_au		model1_data20	0.8789790719928721	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+410	pChk2_au		model1_data20	0.733104869018853	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+411	pChk2_au		model1_data20	0.6776746985962305	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+412	pChk2_au		model1_data20	0.015250243156339174	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+413	pChk2_au		model1_data20	0.5133326882768624	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+414	pChk2_au		model1_data20	1.1030209707501848	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+415	pChk2_au		model1_data20	0.8789790719928721	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+416	pChk2_au		model1_data20	0.733104869018853	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+417	pChk2_au		model1_data20	0.6776746985962305	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data20_pchk2_au
+418	tp53_au		model1_data20	0.0004069620039170475	0.25	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+419	tp53_au		model1_data20	0.022235099828204676	1.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+420	tp53_au		model1_data20	0.22536661868216099	3.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+421	tp53_au		model1_data20	0.5652228981064243	6.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+422	tp53_au		model1_data20	0.9891837011118639	12.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+423	tp53_au		model1_data20	1.1557454604820496	24.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+424	tp53_au		model1_data20	0.0004069620039170475	0.25	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+425	tp53_au		model1_data20	0.022235099828204676	1.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+426	tp53_au		model1_data20	0.22536661868216099	3.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+427	tp53_au		model1_data20	0.5652228981064243	6.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+428	tp53_au		model1_data20	0.9891837011118639	12.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+429	tp53_au		model1_data20	1.1557454604820496	24.0	scale_tp53_au;	sd_tp53_au	model1_data20_tp53_au
+430	pp53_au		model1_data20	0.0003229228047139596	0.25	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+431	pp53_au		model1_data20	0.01764346727829241	1.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+432	pp53_au		model1_data20	0.17882755611892226	3.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+433	pp53_au		model1_data20	0.4485022232745923	6.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+434	pp53_au		model1_data20	0.7849135105140891	12.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+435	pp53_au		model1_data20	0.9170796340740553	24.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+436	pp53_au		model1_data20	0.0003229228047139596	0.25	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+437	pp53_au		model1_data20	0.01764346727829241	1.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+438	pp53_au		model1_data20	0.17882755611892226	3.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+439	pp53_au		model1_data20	0.4485022232745923	6.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+440	pp53_au		model1_data20	0.7849135105140891	12.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+441	pp53_au		model1_data20	0.9170796340740553	24.0	scale_pp53_au;	sd_pp53_au	model1_data20_pp53_au
+442	tp21_au		model1_data20	3.617961270062922e-07	0.25	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+443	tp21_au		model1_data20	0.000307033962313268	1.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+444	tp21_au		model1_data20	0.030063437603417734	3.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+445	tp21_au		model1_data20	0.24981525309537905	6.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+446	tp21_au		model1_data20	1.126548403380857	12.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+447	tp21_au		model1_data20	2.517677960700867	24.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+448	tp21_au		model1_data20	3.617961270062922e-07	0.25	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+449	tp21_au		model1_data20	0.000307033962313268	1.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+450	tp21_au		model1_data20	0.030063437603417734	3.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+451	tp21_au		model1_data20	0.24981525309537905	6.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+452	tp21_au		model1_data20	1.126548403380857	12.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+453	tp21_au		model1_data20	2.517677960700867	24.0	scale_tp21_au;	sd_tp21_au	model1_data20_tp21_au
+454	pATM_au		model1_data21	0.051867625189640415	0.25	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+455	pATM_au		model1_data21	0.25820423680142024	1.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+456	pATM_au		model1_data21	0.6268306751519639	3.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+457	pATM_au		model1_data21	0.8299912089375825	6.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+458	pATM_au		model1_data21	0.8752312780116593	12.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+459	pATM_au		model1_data21	0.879720022955973	24.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+460	pATM_au		model1_data21	0.051867625189640415	0.25	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+461	pATM_au		model1_data21	0.25820423680142024	1.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+462	pATM_au		model1_data21	0.6268306751519639	3.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+463	pATM_au		model1_data21	0.8299912089375825	6.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+464	pATM_au		model1_data21	0.8752312780116593	12.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+465	pATM_au		model1_data21	0.879720022955973	24.0	scale_patm_au;	sd_patm_au	model1_data21_patm_au
+466	pDNAPK_au		model1_data21	0.20576757100345955	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+467	pDNAPK_au		model1_data21	0.4439887128711159	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+468	pDNAPK_au		model1_data21	0.3863118305902055	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+469	pDNAPK_au		model1_data21	0.323002833391908	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+470	pDNAPK_au		model1_data21	0.2965589303805554	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+471	pDNAPK_au		model1_data21	0.2935441398887451	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+472	pDNAPK_au		model1_data21	0.20576757100345955	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+473	pDNAPK_au		model1_data21	0.4439887128711159	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+474	pDNAPK_au		model1_data21	0.3863118305902055	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+475	pDNAPK_au		model1_data21	0.323002833391908	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+476	pDNAPK_au		model1_data21	0.2965589303805554	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+477	pDNAPK_au		model1_data21	0.2935441398887451	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data21_pdnapk_au
+478	pChk1_au		model1_data21	0.00029403597473666654	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+479	pChk1_au		model1_data21	0.03231899450862207	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+480	pChk1_au		model1_data21	0.3057123068605059	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+481	pChk1_au		model1_data21	0.3287784001446771	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+482	pChk1_au		model1_data21	0.372176068970923	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+483	pChk1_au		model1_data21	0.4158805935506666	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+484	pChk1_au		model1_data21	0.00029403597473666654	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+485	pChk1_au		model1_data21	0.03231899450862207	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+486	pChk1_au		model1_data21	0.3057123068605059	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+487	pChk1_au		model1_data21	0.3287784001446771	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+488	pChk1_au		model1_data21	0.372176068970923	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+489	pChk1_au		model1_data21	0.4158805935506666	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data21_pchk1_au
+490	pChk2_au		model1_data21	0.055975951604564395	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+491	pChk2_au		model1_data21	0.9036124883571223	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+492	pChk2_au		model1_data21	1.1246773986448153	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+493	pChk2_au		model1_data21	0.8754132570995679	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+494	pChk2_au		model1_data21	0.7233291690642382	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+495	pChk2_au		model1_data21	0.683832150789441	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+496	pChk2_au		model1_data21	0.055975951604564395	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+497	pChk2_au		model1_data21	0.9036124883571223	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+498	pChk2_au		model1_data21	1.1246773986448153	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+499	pChk2_au		model1_data21	0.8754132570995679	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+500	pChk2_au		model1_data21	0.7233291690642382	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+501	pChk2_au		model1_data21	0.683832150789441	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data21_pchk2_au
+502	tp53_au		model1_data21	0.0015236632825964907	0.25	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+503	tp53_au		model1_data21	0.04833332057816769	1.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+504	tp53_au		model1_data21	0.34405037422813156	3.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+505	tp53_au		model1_data21	0.7316484186927068	6.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+506	tp53_au		model1_data21	1.0611669340198695	12.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+507	tp53_au		model1_data21	1.1646985895294757	24.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+508	tp53_au		model1_data21	0.0015236632825964907	0.25	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+509	tp53_au		model1_data21	0.04833332057816769	1.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+510	tp53_au		model1_data21	0.34405037422813156	3.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+511	tp53_au		model1_data21	0.7316484186927068	6.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+512	tp53_au		model1_data21	1.0611669340198695	12.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+513	tp53_au		model1_data21	1.1646985895294757	24.0	scale_tp53_au;	sd_tp53_au	model1_data21_tp53_au
+514	pp53_au		model1_data21	0.0012090210287937066	0.25	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+515	pp53_au		model1_data21	0.038352306338215965	1.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+516	pp53_au		model1_data21	0.27300266545591784	3.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+517	pp53_au		model1_data21	0.5805602418768835	6.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+518	pp53_au		model1_data21	0.8420319324780459	12.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+519	pp53_au		model1_data21	0.9241839079746483	24.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+520	pp53_au		model1_data21	0.0012090210287937066	0.25	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+521	pp53_au		model1_data21	0.038352306338215965	1.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+522	pp53_au		model1_data21	0.27300266545591784	3.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+523	pp53_au		model1_data21	0.5805602418768835	6.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+524	pp53_au		model1_data21	0.8420319324780459	12.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+525	pp53_au		model1_data21	0.9241839079746483	24.0	scale_pp53_au;	sd_pp53_au	model1_data21_pp53_au
+526	tp21_au		model1_data21	1.4857509899524502e-06	0.25	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+527	tp21_au		model1_data21	0.0007994182328147331	1.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+528	tp21_au		model1_data21	0.05181025617313109	3.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+529	tp21_au		model1_data21	0.36230091804553244	6.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+530	tp21_au		model1_data21	1.345183863065226	12.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+531	tp21_au		model1_data21	2.6155271216176534	24.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+532	tp21_au		model1_data21	1.4857509899524502e-06	0.25	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+533	tp21_au		model1_data21	0.0007994182328147331	1.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+534	tp21_au		model1_data21	0.05181025617313109	3.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+535	tp21_au		model1_data21	0.36230091804553244	6.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+536	tp21_au		model1_data21	1.345183863065226	12.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+537	tp21_au		model1_data21	2.6155271216176534	24.0	scale_tp21_au;	sd_tp21_au	model1_data21_tp21_au
+538	pATM_au		model1_data22	0.0681073420612071	0.25	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+539	pATM_au		model1_data22	0.2880530215337574	1.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+540	pATM_au		model1_data22	0.6643960013198698	3.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+541	pATM_au		model1_data22	0.8439041094889883	6.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+542	pATM_au		model1_data22	0.8779483382809481	12.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+543	pATM_au		model1_data22	0.8812558503498794	24.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+544	pATM_au		model1_data22	0.0681073420612071	0.25	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+545	pATM_au		model1_data22	0.2880530215337574	1.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+546	pATM_au		model1_data22	0.6643960013198698	3.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+547	pATM_au		model1_data22	0.8439041094889883	6.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+548	pATM_au		model1_data22	0.8779483382809481	12.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+549	pATM_au		model1_data22	0.8812558503498794	24.0	scale_patm_au;	sd_patm_au	model1_data22_patm_au
+550	pDNAPK_au		model1_data22	0.25073232366923764	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+551	pDNAPK_au		model1_data22	0.4509713569776724	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+552	pDNAPK_au		model1_data22	0.40966994901590376	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+553	pDNAPK_au		model1_data22	0.36148848449002025	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+554	pDNAPK_au		model1_data22	0.339776832739386	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+555	pDNAPK_au		model1_data22	0.3364519023479659	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+556	pDNAPK_au		model1_data22	0.25073232366923764	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+557	pDNAPK_au		model1_data22	0.4509713569776724	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+558	pDNAPK_au		model1_data22	0.40966994901590376	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+559	pDNAPK_au		model1_data22	0.36148848449002025	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+560	pDNAPK_au		model1_data22	0.339776832739386	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+561	pDNAPK_au		model1_data22	0.3364519023479659	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data22_pdnapk_au
+562	pChk1_au		model1_data22	0.0004481992949517999	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+563	pChk1_au		model1_data22	0.03859508180874607	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+564	pChk1_au		model1_data22	0.37940133211894034	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+565	pChk1_au		model1_data22	0.42063506621137503	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+566	pChk1_au		model1_data22	0.46862157767991125	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+567	pChk1_au		model1_data22	0.5150272481466385	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+568	pChk1_au		model1_data22	0.0004481992949517999	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+569	pChk1_au		model1_data22	0.03859508180874607	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+570	pChk1_au		model1_data22	0.37940133211894034	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+571	pChk1_au		model1_data22	0.42063506621137503	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+572	pChk1_au		model1_data22	0.46862157767991125	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+573	pChk1_au		model1_data22	0.5150272481466385	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data22_pchk1_au
+574	pChk2_au		model1_data22	0.07983318064665067	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+575	pChk2_au		model1_data22	0.9857736345681504	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+576	pChk2_au		model1_data22	1.222270790869185	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+577	pChk2_au		model1_data22	1.0051334153995592	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+578	pChk2_au		model1_data22	0.8655052787086361	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+579	pChk2_au		model1_data22	0.8293869196883583	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+580	pChk2_au		model1_data22	0.07983318064665067	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+581	pChk2_au		model1_data22	0.9857736345681504	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+582	pChk2_au		model1_data22	1.222270790869185	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+583	pChk2_au		model1_data22	1.0051334153995592	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+584	pChk2_au		model1_data22	0.8655052787086361	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+585	pChk2_au		model1_data22	0.8293869196883583	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data22_pchk2_au
+586	tp53_au		model1_data22	0.002204846414758542	0.25	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+587	tp53_au		model1_data22	0.055709463211947224	1.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+588	tp53_au		model1_data22	0.36881468019173036	3.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+589	tp53_au		model1_data22	0.7603375740046522	6.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+590	tp53_au		model1_data22	1.0765278931641193	12.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+591	tp53_au		model1_data22	1.171441733441328	24.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+592	tp53_au		model1_data22	0.002204846414758542	0.25	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+593	tp53_au		model1_data22	0.055709463211947224	1.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+594	tp53_au		model1_data22	0.36881468019173036	3.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+595	tp53_au		model1_data22	0.7603375740046522	6.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+596	tp53_au		model1_data22	1.0765278931641193	12.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+597	tp53_au		model1_data22	1.171441733441328	24.0	scale_tp53_au;	sd_tp53_au	model1_data22_tp53_au
+598	pp53_au		model1_data22	0.0017495372574449855	0.25	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+599	pp53_au		model1_data22	0.04420524750801572	1.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+600	pp53_au		model1_data22	0.2926530481982586	3.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+601	pp53_au		model1_data22	0.6033249776729461	6.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+602	pp53_au		model1_data22	0.8542207952274262	12.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+603	pp53_au		model1_data22	0.929534567062343	24.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+604	pp53_au		model1_data22	0.0017495372574449855	0.25	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+605	pp53_au		model1_data22	0.04420524750801572	1.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+606	pp53_au		model1_data22	0.2926530481982586	3.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+607	pp53_au		model1_data22	0.6033249776729461	6.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+608	pp53_au		model1_data22	0.8542207952274262	12.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+609	pp53_au		model1_data22	0.929534567062343	24.0	scale_pp53_au;	sd_pp53_au	model1_data22_pp53_au
+610	tp21_au		model1_data22	1.6008238528257353e-06	0.25	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+611	tp21_au		model1_data22	0.000665440623554466	1.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+612	tp21_au		model1_data22	0.03867131649297429	3.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+613	tp21_au		model1_data22	0.2610071561225294	6.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+614	tp21_au		model1_data22	0.9397220221314563	12.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+615	tp21_au		model1_data22	1.792422422972466	24.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+616	tp21_au		model1_data22	1.6008238528257353e-06	0.25	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+617	tp21_au		model1_data22	0.000665440623554466	1.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+618	tp21_au		model1_data22	0.03867131649297429	3.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+619	tp21_au		model1_data22	0.2610071561225294	6.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+620	tp21_au		model1_data22	0.9397220221314563	12.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+621	tp21_au		model1_data22	1.792422422972466	24.0	scale_tp21_au;	sd_tp21_au	model1_data22_tp21_au
+622	pATM_au		model1_data23	0.0	0.25	scale_patm_au;	sd_patm_au	
+623	pATM_au		model1_data23	0.0	1.0	scale_patm_au;	sd_patm_au	
+624	pATM_au		model1_data23	0.0	3.0	scale_patm_au;	sd_patm_au	
+625	pATM_au		model1_data23	0.0	6.0	scale_patm_au;	sd_patm_au	
+626	pATM_au		model1_data23	0.0	12.0	scale_patm_au;	sd_patm_au	
+627	pATM_au		model1_data23	0.0	24.0	scale_patm_au;	sd_patm_au	
+628	pATM_au		model1_data23	0.0	0.25	scale_patm_au;	sd_patm_au	
+629	pATM_au		model1_data23	0.0	1.0	scale_patm_au;	sd_patm_au	
+630	pATM_au		model1_data23	0.0	3.0	scale_patm_au;	sd_patm_au	
+631	pATM_au		model1_data23	0.0	6.0	scale_patm_au;	sd_patm_au	
+632	pATM_au		model1_data23	0.0	12.0	scale_patm_au;	sd_patm_au	
+633	pATM_au		model1_data23	0.0	24.0	scale_patm_au;	sd_patm_au	
+634	pDNAPK_au		model1_data23	0.0	0.25	scale_pdnapk_au;	sd_pdnapk_au	
+635	pDNAPK_au		model1_data23	0.0	1.0	scale_pdnapk_au;	sd_pdnapk_au	
+636	pDNAPK_au		model1_data23	0.0	3.0	scale_pdnapk_au;	sd_pdnapk_au	
+637	pDNAPK_au		model1_data23	0.0	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+638	pDNAPK_au		model1_data23	0.0	12.0	scale_pdnapk_au;	sd_pdnapk_au	
+639	pDNAPK_au		model1_data23	0.0	24.0	scale_pdnapk_au;	sd_pdnapk_au	
+640	pDNAPK_au		model1_data23	0.0	0.25	scale_pdnapk_au;	sd_pdnapk_au	
+641	pDNAPK_au		model1_data23	0.0	1.0	scale_pdnapk_au;	sd_pdnapk_au	
+642	pDNAPK_au		model1_data23	0.0	3.0	scale_pdnapk_au;	sd_pdnapk_au	
+643	pDNAPK_au		model1_data23	0.0	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+644	pDNAPK_au		model1_data23	0.0	12.0	scale_pdnapk_au;	sd_pdnapk_au	
+645	pDNAPK_au		model1_data23	0.0	24.0	scale_pdnapk_au;	sd_pdnapk_au	
+646	pChk1_au		model1_data23	0.0	0.25	scale_pchk1_au;	sd_pchk1_au	
+647	pChk1_au		model1_data23	0.0	1.0	scale_pchk1_au;	sd_pchk1_au	
+648	pChk1_au		model1_data23	0.0	3.0	scale_pchk1_au;	sd_pchk1_au	
+649	pChk1_au		model1_data23	0.0	6.0	scale_pchk1_au;	sd_pchk1_au	
+650	pChk1_au		model1_data23	0.0	12.0	scale_pchk1_au;	sd_pchk1_au	
+651	pChk1_au		model1_data23	0.0	24.0	scale_pchk1_au;	sd_pchk1_au	
+652	pChk1_au		model1_data23	0.0	0.25	scale_pchk1_au;	sd_pchk1_au	
+653	pChk1_au		model1_data23	0.0	1.0	scale_pchk1_au;	sd_pchk1_au	
+654	pChk1_au		model1_data23	0.0	3.0	scale_pchk1_au;	sd_pchk1_au	
+655	pChk1_au		model1_data23	0.0	6.0	scale_pchk1_au;	sd_pchk1_au	
+656	pChk1_au		model1_data23	0.0	12.0	scale_pchk1_au;	sd_pchk1_au	
+657	pChk1_au		model1_data23	0.0	24.0	scale_pchk1_au;	sd_pchk1_au	
+658	pChk2_au		model1_data23	0.0	0.25	scale_pchk2_au;	sd_pchk2_au	
+659	pChk2_au		model1_data23	0.0	1.0	scale_pchk2_au;	sd_pchk2_au	
+660	pChk2_au		model1_data23	0.0	3.0	scale_pchk2_au;	sd_pchk2_au	
+661	pChk2_au		model1_data23	0.0	6.0	scale_pchk2_au;	sd_pchk2_au	
+662	pChk2_au		model1_data23	0.0	12.0	scale_pchk2_au;	sd_pchk2_au	
+663	pChk2_au		model1_data23	0.0	24.0	scale_pchk2_au;	sd_pchk2_au	
+664	pChk2_au		model1_data23	0.0	0.25	scale_pchk2_au;	sd_pchk2_au	
+665	pChk2_au		model1_data23	0.0	1.0	scale_pchk2_au;	sd_pchk2_au	
+666	pChk2_au		model1_data23	0.0	3.0	scale_pchk2_au;	sd_pchk2_au	
+667	pChk2_au		model1_data23	0.0	6.0	scale_pchk2_au;	sd_pchk2_au	
+668	pChk2_au		model1_data23	0.0	12.0	scale_pchk2_au;	sd_pchk2_au	
+669	pChk2_au		model1_data23	0.0	24.0	scale_pchk2_au;	sd_pchk2_au	
+670	tp53_au		model1_data23	0.0	0.25	scale_tp53_au;	sd_tp53_au	
+671	tp53_au		model1_data23	0.0	1.0	scale_tp53_au;	sd_tp53_au	
+672	tp53_au		model1_data23	0.0	3.0	scale_tp53_au;	sd_tp53_au	
+673	tp53_au		model1_data23	0.0	6.0	scale_tp53_au;	sd_tp53_au	
+674	tp53_au		model1_data23	0.0	12.0	scale_tp53_au;	sd_tp53_au	
+675	tp53_au		model1_data23	0.0	24.0	scale_tp53_au;	sd_tp53_au	
+676	tp53_au		model1_data23	0.0	0.25	scale_tp53_au;	sd_tp53_au	
+677	tp53_au		model1_data23	0.0	1.0	scale_tp53_au;	sd_tp53_au	
+678	tp53_au		model1_data23	0.0	3.0	scale_tp53_au;	sd_tp53_au	
+679	tp53_au		model1_data23	0.0	6.0	scale_tp53_au;	sd_tp53_au	
+680	tp53_au		model1_data23	0.0	12.0	scale_tp53_au;	sd_tp53_au	
+681	tp53_au		model1_data23	0.0	24.0	scale_tp53_au;	sd_tp53_au	
+682	pp53_au		model1_data23	0.0	0.25	scale_pp53_au;	sd_pp53_au	
+683	pp53_au		model1_data23	0.0	1.0	scale_pp53_au;	sd_pp53_au	
+684	pp53_au		model1_data23	0.0	3.0	scale_pp53_au;	sd_pp53_au	
+685	pp53_au		model1_data23	0.0	6.0	scale_pp53_au;	sd_pp53_au	
+686	pp53_au		model1_data23	0.0	12.0	scale_pp53_au;	sd_pp53_au	
+687	pp53_au		model1_data23	0.0	24.0	scale_pp53_au;	sd_pp53_au	
+688	pp53_au		model1_data23	0.0	0.25	scale_pp53_au;	sd_pp53_au	
+689	pp53_au		model1_data23	0.0	1.0	scale_pp53_au;	sd_pp53_au	
+690	pp53_au		model1_data23	0.0	3.0	scale_pp53_au;	sd_pp53_au	
+691	pp53_au		model1_data23	0.0	6.0	scale_pp53_au;	sd_pp53_au	
+692	pp53_au		model1_data23	0.0	12.0	scale_pp53_au;	sd_pp53_au	
+693	pp53_au		model1_data23	0.0	24.0	scale_pp53_au;	sd_pp53_au	
+694	tp21_au		model1_data23	0.0	0.25	scale_tp21_au;	sd_tp21_au	
+695	tp21_au		model1_data23	0.0	1.0	scale_tp21_au;	sd_tp21_au	
+696	tp21_au		model1_data23	0.0	3.0	scale_tp21_au;	sd_tp21_au	
+697	tp21_au		model1_data23	0.0	6.0	scale_tp21_au;	sd_tp21_au	
+698	tp21_au		model1_data23	0.0	12.0	scale_tp21_au;	sd_tp21_au	
+699	tp21_au		model1_data23	0.0	24.0	scale_tp21_au;	sd_tp21_au	
+700	tp21_au		model1_data23	0.0	0.25	scale_tp21_au;	sd_tp21_au	
+701	tp21_au		model1_data23	0.0	1.0	scale_tp21_au;	sd_tp21_au	
+702	tp21_au		model1_data23	0.0	3.0	scale_tp21_au;	sd_tp21_au	
+703	tp21_au		model1_data23	0.0	6.0	scale_tp21_au;	sd_tp21_au	
+704	tp21_au		model1_data23	0.0	12.0	scale_tp21_au;	sd_tp21_au	
+705	tp21_au		model1_data23	0.0	24.0	scale_tp21_au;	sd_tp21_au	
+706	pATM_au		model1_data24	0.020729448642182048	0.25	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+707	pATM_au		model1_data24	0.1805562420573951	1.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+708	pATM_au		model1_data24	0.527860106896645	3.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+709	pATM_au		model1_data24	0.7712249899893433	6.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+710	pATM_au		model1_data24	0.860093555893284	12.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+711	pATM_au		model1_data24	0.8723461963223923	24.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+712	pATM_au		model1_data24	0.020729448642182048	0.25	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+713	pATM_au		model1_data24	0.1805562420573951	1.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+714	pATM_au		model1_data24	0.527860106896645	3.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+715	pATM_au		model1_data24	0.7712249899893433	6.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+716	pATM_au		model1_data24	0.860093555893284	12.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+717	pATM_au		model1_data24	0.8723461963223923	24.0	scale_patm_au;	sd_patm_au	model1_data24_SN38_pATM
+718	pDNAPK_au		model1_data24	0.09527479510477213	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+719	pDNAPK_au		model1_data24	0.41122520952918756	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+720	pDNAPK_au		model1_data24	0.3823116270281317	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+721	pDNAPK_au		model1_data24	0.3008446501099368	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+722	pDNAPK_au		model1_data24	0.2700578863256415	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+723	pDNAPK_au		model1_data24	0.2742798816297127	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+724	pDNAPK_au		model1_data24	0.09527479510477213	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+725	pDNAPK_au		model1_data24	0.41122520952918756	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+726	pDNAPK_au		model1_data24	0.3823116270281317	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+727	pDNAPK_au		model1_data24	0.3008446501099368	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+728	pDNAPK_au		model1_data24	0.2700578863256415	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+729	pDNAPK_au		model1_data24	0.2742798816297127	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+730	pChk1_au		model1_data24	0.00011642597381665291	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+731	pChk1_au		model1_data24	0.01781311815762308	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+732	pChk1_au		model1_data24	0.27906070643936887	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+733	pChk1_au		model1_data24	0.31905532600292286	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+734	pChk1_au		model1_data24	0.3649470247164517	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+735	pChk1_au		model1_data24	0.41196495760675195	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+736	pChk1_au		model1_data24	0.00011642597381665291	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+737	pChk1_au		model1_data24	0.01781311815762308	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+738	pChk1_au		model1_data24	0.27906070643936887	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+739	pChk1_au		model1_data24	0.31905532600292286	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+740	pChk1_au		model1_data24	0.3649470247164517	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+741	pChk1_au		model1_data24	0.41196495760675195	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data24_SN38_pChk1
+742	pChk2_au		model1_data24	0.02045570192107035	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+743	pChk2_au		model1_data24	0.6410441341860159	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+744	pChk2_au		model1_data24	1.1388216335499695	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+745	pChk2_au		model1_data24	0.8811864903488968	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+746	pChk2_au		model1_data24	0.7233599195155331	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+747	pChk2_au		model1_data24	0.6790449782218524	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+748	pChk2_au		model1_data24	0.02045570192107035	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+749	pChk2_au		model1_data24	0.6410441341860159	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+750	pChk2_au		model1_data24	1.1388216335499695	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+751	pChk2_au		model1_data24	0.8811864903488968	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+752	pChk2_au		model1_data24	0.7233599195155331	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+753	pChk2_au		model1_data24	0.6790449782218524	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data24_SN38_pChk2
+754	tp53_au		model1_data24	0.000546978002209183	0.25	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+755	tp53_au		model1_data24	0.029115551630420546	1.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+756	tp53_au		model1_data24	0.28880209693452863	3.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+757	tp53_au		model1_data24	0.6725054113205742	6.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+758	tp53_au		model1_data24	1.0380854410340639	12.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+759	tp53_au		model1_data24	1.161144254994409	24.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+760	tp53_au		model1_data24	0.000546978002209183	0.25	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+761	tp53_au		model1_data24	0.029115551630420546	1.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+762	tp53_au		model1_data24	0.28880209693452863	3.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+763	tp53_au		model1_data24	0.6725054113205742	6.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+764	tp53_au		model1_data24	1.0380854410340639	12.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+765	tp53_au		model1_data24	1.161144254994409	24.0	scale_tp53_au;	sd_tp53_au	model1_data24_SN38_tp53
+766	pp53_au		model1_data24	0.00043402496766315124	0.25	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+767	pp53_au		model1_data24	0.023103079655578753	1.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+768	pp53_au		model1_data24	0.22916336722280464	3.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+769	pp53_au		model1_data24	0.5336304901162734	6.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+770	pp53_au		model1_data24	0.8237168554432835	12.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+771	pp53_au		model1_data24	0.921363557018274	24.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+772	pp53_au		model1_data24	0.00043402496766315124	0.25	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+773	pp53_au		model1_data24	0.023103079655578753	1.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+774	pp53_au		model1_data24	0.22916336722280464	3.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+775	pp53_au		model1_data24	0.5336304901162734	6.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+776	pp53_au		model1_data24	0.8237168554432835	12.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+777	pp53_au		model1_data24	0.921363557018274	24.0	scale_pp53_au;	sd_pp53_au	model1_data24_SN38_pp53
+778	tp21_au		model1_data24	4.888211005692028e-07	0.25	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+779	tp21_au		model1_data24	0.0004033670906468505	1.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+780	tp21_au		model1_data24	0.03903629364509949	3.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+781	tp21_au		model1_data24	0.31343649452155875	6.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+782	tp21_au		model1_data24	1.2713539176142918	12.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+783	tp21_au		model1_data24	2.5937490178075904	24.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+784	tp21_au		model1_data24	4.888211005692028e-07	0.25	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+785	tp21_au		model1_data24	0.0004033670906468505	1.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+786	tp21_au		model1_data24	0.03903629364509949	3.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+787	tp21_au		model1_data24	0.31343649452155875	6.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+788	tp21_au		model1_data24	1.2713539176142918	12.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+789	tp21_au		model1_data24	2.5937490178075904	24.0	scale_tp21_au;	sd_tp21_au	model1_data24_SN38_tp21
+790	pATM_au		model1_data25	0.06352920089873614	0.25	scale_patm_au;	sd_patm_au	model1_data25_pATM
+791	pATM_au		model1_data25	0.30738122371750454	1.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+792	pATM_au		model1_data25	0.6707362909762605	3.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+793	pATM_au		model1_data25	0.8347659427686765	6.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+794	pATM_au		model1_data25	0.8728028318726004	12.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+795	pATM_au		model1_data25	0.8794256030366985	24.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+796	pATM_au		model1_data25	0.06352920089873614	0.25	scale_patm_au;	sd_patm_au	model1_data25_pATM
+797	pATM_au		model1_data25	0.30738122371750454	1.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+798	pATM_au		model1_data25	0.6707362909762605	3.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+799	pATM_au		model1_data25	0.8347659427686765	6.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+800	pATM_au		model1_data25	0.8728028318726004	12.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+801	pATM_au		model1_data25	0.8794256030366985	24.0	scale_patm_au;	sd_patm_au	model1_data25_pATM
+802	pDNAPK_au		model1_data25	0.23883620991443075	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+803	pDNAPK_au		model1_data25	0.45291993204906644	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+804	pDNAPK_au		model1_data25	0.3827476022440463	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+805	pDNAPK_au		model1_data25	0.3144396340526093	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+806	pDNAPK_au		model1_data25	0.2897115945423047	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+807	pDNAPK_au		model1_data25	0.2921627556937181	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+808	pDNAPK_au		model1_data25	0.23883620991443075	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+809	pDNAPK_au		model1_data25	0.45291993204906644	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+810	pDNAPK_au		model1_data25	0.3827476022440463	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+811	pDNAPK_au		model1_data25	0.3144396340526093	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+812	pDNAPK_au		model1_data25	0.2897115945423047	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+813	pDNAPK_au		model1_data25	0.2921627556937181	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data25_pDNAPK
+814	pChk1_au		model1_data25	0.0004201444815808979	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+815	pChk1_au		model1_data25	0.03927369086816869	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+816	pChk1_au		model1_data25	0.31561406054148	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+817	pChk1_au		model1_data25	0.3299557948330963	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+818	pChk1_au		model1_data25	0.37187889730220064	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+819	pChk1_au		model1_data25	0.41436396099304307	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+820	pChk1_au		model1_data25	0.0004201444815808979	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+821	pChk1_au		model1_data25	0.03927369086816869	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+822	pChk1_au		model1_data25	0.31561406054148	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+823	pChk1_au		model1_data25	0.3299557948330963	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+824	pChk1_au		model1_data25	0.37187889730220064	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+825	pChk1_au		model1_data25	0.41436396099304307	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data25_pChk1
+826	pChk2_au		model1_data25	0.06917333654291145	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+827	pChk2_au		model1_data25	1.0042075734786724	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+828	pChk2_au		model1_data25	1.1135814212744701	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+829	pChk2_au		model1_data25	0.861669059267792	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+830	pChk2_au		model1_data25	0.7174681279513896	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+831	pChk2_au		model1_data25	0.6808547930671877	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+832	pChk2_au		model1_data25	0.06917333654291145	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+833	pChk2_au		model1_data25	1.0042075734786724	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+834	pChk2_au		model1_data25	1.1135814212744701	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+835	pChk2_au		model1_data25	0.861669059267792	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+836	pChk2_au		model1_data25	0.7174681279513896	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+837	pChk2_au		model1_data25	0.6808547930671877	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data25_pChk2
+838	tp53_au		model1_data25	0.00189270014829757	0.25	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+839	tp53_au		model1_data25	0.05727291296829442	1.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+840	tp53_au		model1_data25	0.37256412267390243	3.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+841	tp53_au		model1_data25	0.7526100755807951	6.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+842	tp53_au		model1_data25	1.0655553617646094	12.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+843	tp53_au		model1_data25	1.1646729299713041	24.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+844	tp53_au		model1_data25	0.00189270014829757	0.25	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+845	tp53_au		model1_data25	0.05727291296829442	1.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+846	tp53_au		model1_data25	0.37256412267390243	3.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+847	tp53_au		model1_data25	0.7526100755807951	6.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+848	tp53_au		model1_data25	1.0655553617646094	12.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+849	tp53_au		model1_data25	1.1646729299713041	24.0	scale_tp53_au;	sd_tp53_au	model1_data25_tp53
+850	pp53_au		model1_data25	0.0015018503803499081	0.25	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+851	pp53_au		model1_data25	0.045445838952645784	1.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+852	pp53_au		model1_data25	0.2956282165697596	3.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+853	pp53_au		model1_data25	0.5971932370179555	6.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+854	pp53_au		model1_data25	0.845514133228917	12.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+855	pp53_au		model1_data25	0.9241635472126785	24.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+856	pp53_au		model1_data25	0.0015018503803499081	0.25	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+857	pp53_au		model1_data25	0.045445838952645784	1.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+858	pp53_au		model1_data25	0.2956282165697596	3.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+859	pp53_au		model1_data25	0.5971932370179555	6.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+860	pp53_au		model1_data25	0.845514133228917	12.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+861	pp53_au		model1_data25	0.9241635472126785	24.0	scale_pp53_au;	sd_pp53_au	model1_data25_pp53
+862	tp21_au		model1_data25	1.8891237667855026e-06	0.25	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+863	tp21_au		model1_data25	0.0009736227378914649	1.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+864	tp21_au		model1_data25	0.058872234319468836	3.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+865	tp21_au		model1_data25	0.38936706753600386	6.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+866	tp21_au		model1_data25	1.3851008765294444	12.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+867	tp21_au		model1_data25	2.645655634276148	24.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+868	tp21_au		model1_data25	1.8891237667855026e-06	0.25	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+869	tp21_au		model1_data25	0.0009736227378914649	1.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+870	tp21_au		model1_data25	0.058872234319468836	3.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+871	tp21_au		model1_data25	0.38936706753600386	6.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+872	tp21_au		model1_data25	1.3851008765294444	12.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+873	tp21_au		model1_data25	2.645655634276148	24.0	scale_tp21_au;	sd_tp21_au	model1_data25_tp21
+874	pATM_au		model1_data26	0.08225229468481751	0.25	scale_patm_au;	sd_patm_au	model1_data26_pATM
+875	pATM_au		model1_data26	0.3300557864268799	1.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+876	pATM_au		model1_data26	0.6872843274501372	3.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+877	pATM_au		model1_data26	0.8401601736212331	6.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+878	pATM_au		model1_data26	0.8740454522315281	12.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+879	pATM_au		model1_data26	0.8802680829698203	24.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+880	pATM_au		model1_data26	0.08225229468481751	0.25	scale_patm_au;	sd_patm_au	model1_data26_pATM
+881	pATM_au		model1_data26	0.3300557864268799	1.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+882	pATM_au		model1_data26	0.6872843274501372	3.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+883	pATM_au		model1_data26	0.8401601736212331	6.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+884	pATM_au		model1_data26	0.8740454522315281	12.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+885	pATM_au		model1_data26	0.8802680829698203	24.0	scale_patm_au;	sd_patm_au	model1_data26_pATM
+886	pDNAPK_au		model1_data26	0.2840841732858854	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+887	pDNAPK_au		model1_data26	0.4546856839056285	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+888	pDNAPK_au		model1_data26	0.382055869524468	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+889	pDNAPK_au		model1_data26	0.31590498862928157	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+890	pDNAPK_au		model1_data26	0.2920911224437481	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+891	pDNAPK_au		model1_data26	0.29446745205583874	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+892	pDNAPK_au		model1_data26	0.2840841732858854	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+893	pDNAPK_au		model1_data26	0.4546856839056285	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+894	pDNAPK_au		model1_data26	0.382055869524468	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+895	pDNAPK_au		model1_data26	0.31590498862928157	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+896	pDNAPK_au		model1_data26	0.2920911224437481	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+897	pDNAPK_au		model1_data26	0.29446745205583874	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data26_pDNAPK
+898	pChk1_au		model1_data26	0.0006150808476026967	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+899	pChk1_au		model1_data26	0.04562787939529361	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+900	pChk1_au		model1_data26	0.3187560946686141	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+901	pChk1_au		model1_data26	0.3311178488135765	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+902	pChk1_au		model1_data26	0.3726701733206281	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+903	pChk1_au		model1_data26	0.4146347723372437	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+904	pChk1_au		model1_data26	0.0006150808476026967	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+905	pChk1_au		model1_data26	0.04562787939529361	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+906	pChk1_au		model1_data26	0.3187560946686141	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+907	pChk1_au		model1_data26	0.3311178488135765	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+908	pChk1_au		model1_data26	0.3726701733206281	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+909	pChk1_au		model1_data26	0.4146347723372437	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data26_pChk1
+910	pChk2_au		model1_data26	0.09645742322384537	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+911	pChk2_au		model1_data26	1.0651106474322045	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+912	pChk2_au		model1_data26	1.1071517201156327	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+913	pChk2_au		model1_data26	0.8582442798285316	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+914	pChk2_au		model1_data26	0.7167707431432362	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+915	pChk2_au		model1_data26	0.6810801288287942	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+916	pChk2_au		model1_data26	0.09645742322384537	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+917	pChk2_au		model1_data26	1.0651106474322045	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+918	pChk2_au		model1_data26	1.1071517201156327	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+919	pChk2_au		model1_data26	0.8582442798285316	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+920	pChk2_au		model1_data26	0.7167707431432362	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+921	pChk2_au		model1_data26	0.6810801288287942	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data26_pChk2
+922	tp53_au		model1_data26	0.002679356250959954	0.25	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+923	tp53_au		model1_data26	0.06434676094309252	1.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+924	tp53_au		model1_data26	0.38553389410239786	3.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+925	tp53_au		model1_data26	0.7624214717764818	6.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+926	tp53_au		model1_data26	1.0685522478003804	12.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+927	tp53_au		model1_data26	1.165061932710423	24.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+928	tp53_au		model1_data26	0.002679356250959954	0.25	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+929	tp53_au		model1_data26	0.06434676094309252	1.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+930	tp53_au		model1_data26	0.38553389410239786	3.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+931	tp53_au		model1_data26	0.7624214717764818	6.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+932	tp53_au		model1_data26	1.0685522478003804	12.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+933	tp53_au		model1_data26	1.165061932710423	24.0	scale_tp53_au;	sd_tp53_au	model1_data26_tp53
+934	pp53_au		model1_data26	0.0021260590105709972	0.25	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+935	pp53_au		model1_data26	0.05105891045847507	1.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+936	pp53_au		model1_data26	0.30591968094696576	3.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+937	pp53_au		model1_data26	0.6049785426415164	6.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+938	pp53_au		model1_data26	0.8478921509179506	12.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+939	pp53_au		model1_data26	0.9244722194089735	24.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+940	pp53_au		model1_data26	0.0021260590105709972	0.25	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+941	pp53_au		model1_data26	0.05105891045847507	1.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+942	pp53_au		model1_data26	0.30591968094696576	3.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+943	pp53_au		model1_data26	0.6049785426415164	6.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+944	pp53_au		model1_data26	0.8478921509179506	12.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+945	pp53_au		model1_data26	0.9244722194089735	24.0	scale_pp53_au;	sd_pp53_au	model1_data26_pp53
+946	tp21_au		model1_data26	2.9183205943629803e-06	0.25	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+947	tp21_au		model1_data26	0.0011732823912241899	1.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+948	tp21_au		model1_data26	0.06287018204487399	3.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+949	tp21_au		model1_data26	0.40122933030424796	6.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+950	tp21_au		model1_data26	1.40001557730744	12.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+951	tp21_au		model1_data26	2.6519809088376625	24.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+952	tp21_au		model1_data26	2.9183205943629803e-06	0.25	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+953	tp21_au		model1_data26	0.0011732823912241899	1.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+954	tp21_au		model1_data26	0.06287018204487399	3.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+955	tp21_au		model1_data26	0.40122933030424796	6.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+956	tp21_au		model1_data26	1.40001557730744	12.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+957	tp21_au		model1_data26	2.6519809088376625	24.0	scale_tp21_au;	sd_tp21_au	model1_data26_tp21
+958	pATM_au		model1_data27	0.0	0.25	scale_patm_au;	sd_patm_au	
+959	pATM_au		model1_data27	0.0	1.0	scale_patm_au;	sd_patm_au	
+960	pATM_au		model1_data27	0.0	3.0	scale_patm_au;	sd_patm_au	
+961	pATM_au		model1_data27	0.0	6.0	scale_patm_au;	sd_patm_au	
+962	pATM_au		model1_data27	0.0	12.0	scale_patm_au;	sd_patm_au	
+963	pATM_au		model1_data27	0.0	24.0	scale_patm_au;	sd_patm_au	
+964	pATM_au		model1_data27	0.0	0.25	scale_patm_au;	sd_patm_au	
+965	pATM_au		model1_data27	0.0	1.0	scale_patm_au;	sd_patm_au	
+966	pATM_au		model1_data27	0.0	3.0	scale_patm_au;	sd_patm_au	
+967	pATM_au		model1_data27	0.0	6.0	scale_patm_au;	sd_patm_au	
+968	pATM_au		model1_data27	0.0	12.0	scale_patm_au;	sd_patm_au	
+969	pATM_au		model1_data27	0.0	24.0	scale_patm_au;	sd_patm_au	
+970	pDNAPK_au		model1_data27	0.0	0.25	scale_pdnapk_au;	sd_pdnapk_au	
+971	pDNAPK_au		model1_data27	0.0	1.0	scale_pdnapk_au;	sd_pdnapk_au	
+972	pDNAPK_au		model1_data27	0.0	3.0	scale_pdnapk_au;	sd_pdnapk_au	
+973	pDNAPK_au		model1_data27	0.0	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+974	pDNAPK_au		model1_data27	0.0	12.0	scale_pdnapk_au;	sd_pdnapk_au	
+975	pDNAPK_au		model1_data27	0.0	24.0	scale_pdnapk_au;	sd_pdnapk_au	
+976	pDNAPK_au		model1_data27	0.0	0.25	scale_pdnapk_au;	sd_pdnapk_au	
+977	pDNAPK_au		model1_data27	0.0	1.0	scale_pdnapk_au;	sd_pdnapk_au	
+978	pDNAPK_au		model1_data27	0.0	3.0	scale_pdnapk_au;	sd_pdnapk_au	
+979	pDNAPK_au		model1_data27	0.0	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+980	pDNAPK_au		model1_data27	0.0	12.0	scale_pdnapk_au;	sd_pdnapk_au	
+981	pDNAPK_au		model1_data27	0.0	24.0	scale_pdnapk_au;	sd_pdnapk_au	
+982	pChk1_au		model1_data27	0.0	0.25	scale_pchk1_au;	sd_pchk1_au	
+983	pChk1_au		model1_data27	0.0	1.0	scale_pchk1_au;	sd_pchk1_au	
+984	pChk1_au		model1_data27	0.0	3.0	scale_pchk1_au;	sd_pchk1_au	
+985	pChk1_au		model1_data27	0.0	6.0	scale_pchk1_au;	sd_pchk1_au	
+986	pChk1_au		model1_data27	0.0	12.0	scale_pchk1_au;	sd_pchk1_au	
+987	pChk1_au		model1_data27	0.0	24.0	scale_pchk1_au;	sd_pchk1_au	
+988	pChk1_au		model1_data27	0.0	0.25	scale_pchk1_au;	sd_pchk1_au	
+989	pChk1_au		model1_data27	0.0	1.0	scale_pchk1_au;	sd_pchk1_au	
+990	pChk1_au		model1_data27	0.0	3.0	scale_pchk1_au;	sd_pchk1_au	
+991	pChk1_au		model1_data27	0.0	6.0	scale_pchk1_au;	sd_pchk1_au	
+992	pChk1_au		model1_data27	0.0	12.0	scale_pchk1_au;	sd_pchk1_au	
+993	pChk1_au		model1_data27	0.0	24.0	scale_pchk1_au;	sd_pchk1_au	
+994	pChk2_au		model1_data27	0.0	0.25	scale_pchk2_au;	sd_pchk2_au	
+995	pChk2_au		model1_data27	0.0	1.0	scale_pchk2_au;	sd_pchk2_au	
+996	pChk2_au		model1_data27	0.0	3.0	scale_pchk2_au;	sd_pchk2_au	
+997	pChk2_au		model1_data27	0.0	6.0	scale_pchk2_au;	sd_pchk2_au	
+998	pChk2_au		model1_data27	0.0	12.0	scale_pchk2_au;	sd_pchk2_au	
+999	pChk2_au		model1_data27	0.0	24.0	scale_pchk2_au;	sd_pchk2_au	
+1000	pChk2_au		model1_data27	0.0	0.25	scale_pchk2_au;	sd_pchk2_au	
+1001	pChk2_au		model1_data27	0.0	1.0	scale_pchk2_au;	sd_pchk2_au	
+1002	pChk2_au		model1_data27	0.0	3.0	scale_pchk2_au;	sd_pchk2_au	
+1003	pChk2_au		model1_data27	0.0	6.0	scale_pchk2_au;	sd_pchk2_au	
+1004	pChk2_au		model1_data27	0.0	12.0	scale_pchk2_au;	sd_pchk2_au	
+1005	pChk2_au		model1_data27	0.0	24.0	scale_pchk2_au;	sd_pchk2_au	
+1006	tp53_au		model1_data27	0.0	0.25	scale_tp53_au;	sd_tp53_au	
+1007	tp53_au		model1_data27	0.0	1.0	scale_tp53_au;	sd_tp53_au	
+1008	tp53_au		model1_data27	0.0	3.0	scale_tp53_au;	sd_tp53_au	
+1009	tp53_au		model1_data27	0.0	6.0	scale_tp53_au;	sd_tp53_au	
+1010	tp53_au		model1_data27	0.0	12.0	scale_tp53_au;	sd_tp53_au	
+1011	tp53_au		model1_data27	0.0	24.0	scale_tp53_au;	sd_tp53_au	
+1012	tp53_au		model1_data27	0.0	0.25	scale_tp53_au;	sd_tp53_au	
+1013	tp53_au		model1_data27	0.0	1.0	scale_tp53_au;	sd_tp53_au	
+1014	tp53_au		model1_data27	0.0	3.0	scale_tp53_au;	sd_tp53_au	
+1015	tp53_au		model1_data27	0.0	6.0	scale_tp53_au;	sd_tp53_au	
+1016	tp53_au		model1_data27	0.0	12.0	scale_tp53_au;	sd_tp53_au	
+1017	tp53_au		model1_data27	0.0	24.0	scale_tp53_au;	sd_tp53_au	
+1018	pp53_au		model1_data27	0.0	0.25	scale_pp53_au;	sd_pp53_au	
+1019	pp53_au		model1_data27	0.0	1.0	scale_pp53_au;	sd_pp53_au	
+1020	pp53_au		model1_data27	0.0	3.0	scale_pp53_au;	sd_pp53_au	
+1021	pp53_au		model1_data27	0.0	6.0	scale_pp53_au;	sd_pp53_au	
+1022	pp53_au		model1_data27	0.0	12.0	scale_pp53_au;	sd_pp53_au	
+1023	pp53_au		model1_data27	0.0	24.0	scale_pp53_au;	sd_pp53_au	
+1024	pp53_au		model1_data27	0.0	0.25	scale_pp53_au;	sd_pp53_au	
+1025	pp53_au		model1_data27	0.0	1.0	scale_pp53_au;	sd_pp53_au	
+1026	pp53_au		model1_data27	0.0	3.0	scale_pp53_au;	sd_pp53_au	
+1027	pp53_au		model1_data27	0.0	6.0	scale_pp53_au;	sd_pp53_au	
+1028	pp53_au		model1_data27	0.0	12.0	scale_pp53_au;	sd_pp53_au	
+1029	pp53_au		model1_data27	0.0	24.0	scale_pp53_au;	sd_pp53_au	
+1030	tp21_au		model1_data27	0.0	0.25	scale_tp21_au;	sd_tp21_au	
+1031	tp21_au		model1_data27	0.0	1.0	scale_tp21_au;	sd_tp21_au	
+1032	tp21_au		model1_data27	0.0	3.0	scale_tp21_au;	sd_tp21_au	
+1033	tp21_au		model1_data27	0.0	6.0	scale_tp21_au;	sd_tp21_au	
+1034	tp21_au		model1_data27	0.0	12.0	scale_tp21_au;	sd_tp21_au	
+1035	tp21_au		model1_data27	0.0	24.0	scale_tp21_au;	sd_tp21_au	
+1036	tp21_au		model1_data27	0.0	0.25	scale_tp21_au;	sd_tp21_au	
+1037	tp21_au		model1_data27	0.0	1.0	scale_tp21_au;	sd_tp21_au	
+1038	tp21_au		model1_data27	0.0	3.0	scale_tp21_au;	sd_tp21_au	
+1039	tp21_au		model1_data27	0.0	6.0	scale_tp21_au;	sd_tp21_au	
+1040	tp21_au		model1_data27	0.0	12.0	scale_tp21_au;	sd_tp21_au	
+1041	tp21_au		model1_data27	0.0	24.0	scale_tp21_au;	sd_tp21_au	
+1042	pATM_au		model1_data28	1.7263318259554833e-05	0.25	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1043	pATM_au		model1_data28	0.000948961467900813	1.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1044	pATM_au		model1_data28	0.010191399236485365	3.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1045	pATM_au		model1_data28	0.01806098161222152	6.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1046	pATM_au		model1_data28	0.04443238386108596	12.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1047	pATM_au		model1_data28	0.16288281066298024	24.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1048	pATM_au		model1_data28	1.7263318259554833e-05	0.25	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1049	pATM_au		model1_data28	0.000948961467900813	1.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1050	pATM_au		model1_data28	0.010191399236485365	3.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1051	pATM_au		model1_data28	0.01806098161222152	6.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1052	pATM_au		model1_data28	0.04443238386108596	12.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1053	pATM_au		model1_data28	0.16288281066298024	24.0	scale_patm_au;	sd_patm_au	model1_data28_patm_au
+1054	pDNAPK_au		model1_data28	8.7732157673464e-05	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1055	pDNAPK_au		model1_data28	0.004800538613973823	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1056	pDNAPK_au		model1_data28	0.048883920174493445	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1057	pDNAPK_au		model1_data28	0.0674698392814377	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1058	pDNAPK_au		model1_data28	0.05385927126015437	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1059	pDNAPK_au		model1_data28	0.05321517006419193	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1060	pDNAPK_au		model1_data28	8.7732157673464e-05	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1061	pDNAPK_au		model1_data28	0.004800538613973823	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1062	pDNAPK_au		model1_data28	0.048883920174493445	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1063	pDNAPK_au		model1_data28	0.0674698392814377	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1064	pDNAPK_au		model1_data28	0.05385927126015437	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1065	pDNAPK_au		model1_data28	0.05321517006419193	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data28_pdnapk_au
+1066	pChk1_au		model1_data28	0.00043397747323190033	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1067	pChk1_au		model1_data28	0.024241004565130453	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1068	pChk1_au		model1_data28	0.394823531852231	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1069	pChk1_au		model1_data28	0.8203626650555716	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1070	pChk1_au		model1_data28	0.7394111413794294	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1071	pChk1_au		model1_data28	0.6327407207476712	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1072	pChk1_au		model1_data28	0.00043397747323190033	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1073	pChk1_au		model1_data28	0.024241004565130453	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1074	pChk1_au		model1_data28	0.394823531852231	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1075	pChk1_au		model1_data28	0.8203626650555716	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1076	pChk1_au		model1_data28	0.7394111413794294	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1077	pChk1_au		model1_data28	0.6327407207476712	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data28_pchk1_au
+1078	pChk2_au		model1_data28	1.2432875627950651e-05	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1079	pChk2_au		model1_data28	0.002805912636720703	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1080	pChk2_au		model1_data28	0.11605777902393391	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1081	pChk2_au		model1_data28	0.3701518563346671	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1082	pChk2_au		model1_data28	0.34653416348018506	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1083	pChk2_au		model1_data28	0.4381442011909675	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1084	pChk2_au		model1_data28	1.2432875627950651e-05	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1085	pChk2_au		model1_data28	0.002805912636720703	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1086	pChk2_au		model1_data28	0.11605777902393391	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1087	pChk2_au		model1_data28	0.3701518563346671	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1088	pChk2_au		model1_data28	0.34653416348018506	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1089	pChk2_au		model1_data28	0.4381442011909675	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data28_pchk2_au
+1090	tp53_au		model1_data28	3.2333457054617254e-07	0.25	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1091	tp53_au		model1_data28	9.371009120876856e-05	1.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1092	tp53_au		model1_data28	0.006942664308370637	3.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1093	tp53_au		model1_data28	0.051919732666207793	6.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1094	tp53_au		model1_data28	0.1635134072518928	12.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1095	tp53_au		model1_data28	0.4410536257330276	24.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1096	tp53_au		model1_data28	3.2333457054617254e-07	0.25	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1097	tp53_au		model1_data28	9.371009120876856e-05	1.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1098	tp53_au		model1_data28	0.006942664308370637	3.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1099	tp53_au		model1_data28	0.051919732666207793	6.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1100	tp53_au		model1_data28	0.1635134072518928	12.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1101	tp53_au		model1_data28	0.4410536257330276	24.0	scale_tp53_au;	sd_tp53_au	model1_data28_tp53_au
+1102	pp53_au		model1_data28	2.5656475390030846e-07	0.25	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1103	pp53_au		model1_data28	7.435860152021647e-05	1.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1104	pp53_au		model1_data28	0.005508977764674886	3.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1105	pp53_au		model1_data28	0.041198110711063565	6.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1106	pp53_au		model1_data28	0.1297472677298886	12.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1107	pp53_au		model1_data28	0.34997437716569124	24.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1108	pp53_au		model1_data28	2.5656475390030846e-07	0.25	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1109	pp53_au		model1_data28	7.435860152021647e-05	1.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1110	pp53_au		model1_data28	0.005508977764674886	3.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1111	pp53_au		model1_data28	0.041198110711063565	6.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1112	pp53_au		model1_data28	0.1297472677298886	12.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1113	pp53_au		model1_data28	0.34997437716569124	24.0	scale_pp53_au;	sd_pp53_au	model1_data28_pp53_au
+1114	tp21_au		model1_data28	1.9140373126262371e-10	0.25	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1115	tp21_au		model1_data28	7.724247439379552e-07	1.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1116	tp21_au		model1_data28	0.0004497071421965577	3.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1117	tp21_au		model1_data28	0.01300546658825652	6.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1118	tp21_au		model1_data28	0.1339883330019741	12.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1119	tp21_au		model1_data28	0.6373258174955062	24.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1120	tp21_au		model1_data28	1.9140373126262371e-10	0.25	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1121	tp21_au		model1_data28	7.724247439379552e-07	1.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1122	tp21_au		model1_data28	0.0004497071421965577	3.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1123	tp21_au		model1_data28	0.01300546658825652	6.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1124	tp21_au		model1_data28	0.1339883330019741	12.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1125	tp21_au		model1_data28	0.6373258174955062	24.0	scale_tp21_au;	sd_tp21_au	model1_data28_tp21_au
+1126	pATM_au		model1_data29	7.676911246840827e-05	0.25	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1127	pATM_au		model1_data29	0.003073042563002546	1.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1128	pATM_au		model1_data29	0.016476541882352737	3.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1129	pATM_au		model1_data29	0.024117823087616553	6.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1130	pATM_au		model1_data29	0.05997437419554935	12.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1131	pATM_au		model1_data29	0.19824531555993144	24.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1132	pATM_au		model1_data29	7.676911246840827e-05	0.25	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1133	pATM_au		model1_data29	0.003073042563002546	1.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1134	pATM_au		model1_data29	0.016476541882352737	3.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1135	pATM_au		model1_data29	0.024117823087616553	6.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1136	pATM_au		model1_data29	0.05997437419554935	12.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1137	pATM_au		model1_data29	0.19824531555993144	24.0	scale_patm_au;	sd_patm_au	model1_data29_patm_au
+1138	pDNAPK_au		model1_data29	0.0003900268595007061	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1139	pDNAPK_au		model1_data29	0.01538385785511862	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1140	pDNAPK_au		model1_data29	0.0755776301334298	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1141	pDNAPK_au		model1_data29	0.07413229685711005	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1142	pDNAPK_au		model1_data29	0.05832671895326146	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1143	pDNAPK_au		model1_data29	0.0548716069463294	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1144	pDNAPK_au		model1_data29	0.0003900268595007061	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1145	pDNAPK_au		model1_data29	0.01538385785511862	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1146	pDNAPK_au		model1_data29	0.0755776301334298	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1147	pDNAPK_au		model1_data29	0.07413229685711005	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1148	pDNAPK_au		model1_data29	0.05832671895326146	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1149	pDNAPK_au		model1_data29	0.0548716069463294	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data29_pdnapk_au
+1150	pChk1_au		model1_data29	0.001926668153055529	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1151	pChk1_au		model1_data29	0.07916973628808587	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1152	pChk1_au		model1_data29	0.6641289458443107	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1153	pChk1_au		model1_data29	0.8356740801332081	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1154	pChk1_au		model1_data29	0.7482463669477356	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1155	pChk1_au		model1_data29	0.6259563560082947	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1156	pChk1_au		model1_data29	0.001926668153055529	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1157	pChk1_au		model1_data29	0.07916973628808587	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1158	pChk1_au		model1_data29	0.6641289458443107	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1159	pChk1_au		model1_data29	0.8356740801332081	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1160	pChk1_au		model1_data29	0.7482463669477356	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1161	pChk1_au		model1_data29	0.6259563560082947	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data29_pchk1_au
+1162	pChk2_au		model1_data29	5.654834926835596e-05	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1163	pChk2_au		model1_data29	0.009910579755396965	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1164	pChk2_au		model1_data29	0.22325912681210003	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1165	pChk2_au		model1_data29	0.4297331507451183	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1166	pChk2_au		model1_data29	0.3774734693218489	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1167	pChk2_au		model1_data29	0.45763762931350294	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1168	pChk2_au		model1_data29	5.654834926835596e-05	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1169	pChk2_au		model1_data29	0.009910579755396965	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1170	pChk2_au		model1_data29	0.22325912681210003	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1171	pChk2_au		model1_data29	0.4297331507451183	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1172	pChk2_au		model1_data29	0.3774734693218489	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1173	pChk2_au		model1_data29	0.45763762931350294	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data29_pchk2_au
+1174	tp53_au		model1_data29	1.4726562102664387e-06	0.25	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1175	tp53_au		model1_data29	0.000337336703528709	1.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1176	tp53_au		model1_data29	0.015031004118512978	3.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1177	tp53_au		model1_data29	0.07659721487702979	6.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1178	tp53_au		model1_data29	0.19808253655688648	12.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1179	tp53_au		model1_data29	0.5048349679124432	24.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1180	tp53_au		model1_data29	1.4726562102664387e-06	0.25	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1181	tp53_au		model1_data29	0.000337336703528709	1.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1182	tp53_au		model1_data29	0.015031004118512978	3.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1183	tp53_au		model1_data29	0.07659721487702979	6.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1184	tp53_au		model1_data29	0.19808253655688648	12.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1185	tp53_au		model1_data29	0.5048349679124432	24.0	scale_tp53_au;	sd_tp53_au	model1_data29_tp53_au
+1186	pp53_au		model1_data29	1.1685471105936538e-06	0.25	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1187	pp53_au		model1_data29	0.00026767539325036477	1.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1188	pp53_au		model1_data29	0.011927044689426748	3.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1189	pp53_au		model1_data29	0.06077959913527974	6.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1190	pp53_au		model1_data29	0.15717774056086942	12.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1191	pp53_au		model1_data29	0.40058462998230526	24.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1192	pp53_au		model1_data29	1.1685471105936538e-06	0.25	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1193	pp53_au		model1_data29	0.00026767539325036477	1.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1194	pp53_au		model1_data29	0.011927044689426748	3.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1195	pp53_au		model1_data29	0.06077959913527974	6.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1196	pp53_au		model1_data29	0.15717774056086942	12.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1197	pp53_au		model1_data29	0.40058462998230526	24.0	scale_pp53_au;	sd_pp53_au	model1_data29_pp53_au
+1198	tp21_au		model1_data29	8.938446781654827e-10	0.25	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1199	tp21_au		model1_data29	3.022192033561309e-06	1.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1200	tp21_au		model1_data29	0.001165379483890198	3.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1201	tp21_au		model1_data29	0.023027915701233127	6.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1202	tp21_au		model1_data29	0.17534587499548238	12.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1203	tp21_au		model1_data29	0.7516236053352069	24.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1204	tp21_au		model1_data29	8.938446781654827e-10	0.25	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1205	tp21_au		model1_data29	3.022192033561309e-06	1.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1206	tp21_au		model1_data29	0.001165379483890198	3.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1207	tp21_au		model1_data29	0.023027915701233127	6.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1208	tp21_au		model1_data29	0.17534587499548238	12.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1209	tp21_au		model1_data29	0.7516236053352069	24.0	scale_tp21_au;	sd_tp21_au	model1_data29_tp21_au
+1210	Cells_count		model1_data3	1.0	0.0		sd_count_abs	
+1211	Cells_count		model1_data3	1.138411111574095	4.0		sd_count_abs	
+1212	Cells_count		model1_data3	1.2743649781618789	8.0		sd_count_abs	
+1213	Cells_count		model1_data3	1.4079716403319673	12.0		sd_count_abs	
+1214	Cells_count		model1_data3	1.541469926179192	16.0		sd_count_abs	
+1215	Cells_count		model1_data3	1.677020497875032	20.0		sd_count_abs	
+1216	Cells_count		model1_data3	1.8162048146995684	24.0		sd_count_abs	
+1217	Cells_count		model1_data3	1.9601587960836773	28.0		sd_count_abs	
+1218	Cells_count		model1_data3	2.1097776799998376	32.0		sd_count_abs	
+1219	Cells_count		model1_data3	2.2658183406948904	36.0		sd_count_abs	
+1220	Cells_count		model1_data3	2.42894626204167	40.0		sd_count_abs	
+1221	Cells_count		model1_data3	2.5997643650811852	44.0		sd_count_abs	
+1222	Cells_count		model1_data3	2.778837174279499	48.0		sd_count_abs	
+1223	CellsCasp_count		model1_data3	0.0	0.0		sd_count_casp_abs	
+1224	CellsCasp_count		model1_data3	4.598418029988443e-06	4.0		sd_count_casp_abs	
+1225	CellsCasp_count		model1_data3	6.723373712404558e-05	8.0		sd_count_casp_abs	
+1226	CellsCasp_count		model1_data3	0.00024178126969977897	12.0		sd_count_casp_abs	
+1227	CellsCasp_count		model1_data3	0.0005079255000542446	16.0		sd_count_casp_abs	
+1228	CellsCasp_count		model1_data3	0.0008091986668603988	20.0		sd_count_casp_abs	
+1229	CellsCasp_count		model1_data3	0.001098091919086609	24.0		sd_count_casp_abs	
+1230	CellsCasp_count		model1_data3	0.001352656433535711	28.0		sd_count_casp_abs	
+1231	CellsCasp_count		model1_data3	0.001573948842116041	32.0		sd_count_casp_abs	
+1232	CellsCasp_count		model1_data3	0.0017769002817571175	36.0		sd_count_casp_abs	
+1233	CellsCasp_count		model1_data3	0.001981622159049554	40.0		sd_count_casp_abs	
+1234	CellsCasp_count		model1_data3	0.002207545623253594	44.0		sd_count_casp_abs	
+1235	CellsCasp_count		model1_data3	0.0024703927496301237	48.0		sd_count_casp_abs	
+1236	pATM_au		model1_data30	0.00013408085324613116	0.25	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1237	pATM_au		model1_data30	0.004164175609793863	1.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1238	pATM_au		model1_data30	0.017490989192293516	3.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1239	pATM_au		model1_data30	0.025142801411533154	6.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1240	pATM_au		model1_data30	0.06265293494191054	12.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1241	pATM_au		model1_data30	0.20315956654459566	24.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1242	pATM_au		model1_data30	0.00013408085324613116	0.25	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1243	pATM_au		model1_data30	0.004164175609793863	1.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1244	pATM_au		model1_data30	0.017490989192293516	3.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1245	pATM_au		model1_data30	0.025142801411533154	6.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1246	pATM_au		model1_data30	0.06265293494191054	12.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1247	pATM_au		model1_data30	0.20315956654459566	24.0	scale_patm_au;	sd_patm_au	model1_data30_patm_au
+1248	pDNAPK_au		model1_data30	0.0006810090504770271	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1249	pDNAPK_au		model1_data30	0.02073420785135844	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1250	pDNAPK_au		model1_data30	0.07936696077558762	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1251	pDNAPK_au		model1_data30	0.07387774488121271	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1252	pDNAPK_au		model1_data30	0.058722957105575346	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1253	pDNAPK_au		model1_data30	0.05487967424311477	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1254	pDNAPK_au		model1_data30	0.0006810090504770271	0.25	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1255	pDNAPK_au		model1_data30	0.02073420785135844	1.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1256	pDNAPK_au		model1_data30	0.07936696077558762	3.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1257	pDNAPK_au		model1_data30	0.07387774488121271	6.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1258	pDNAPK_au		model1_data30	0.058722957105575346	12.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1259	pDNAPK_au		model1_data30	0.05487967424311477	24.0	scale_pdnapk_au;	sd_pdnapk_au	model1_data30_pdnapk_au
+1260	pChk1_au		model1_data30	0.003361161953390183	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1261	pChk1_au		model1_data30	0.10766557058430157	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1262	pChk1_au		model1_data30	0.7122826533826563	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1263	pChk1_au		model1_data30	0.8324826701765502	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1264	pChk1_au		model1_data30	0.7481218345044386	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1265	pChk1_au		model1_data30	0.624405002882105	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1266	pChk1_au		model1_data30	0.003361161953390183	0.25	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1267	pChk1_au		model1_data30	0.10766557058430157	1.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1268	pChk1_au		model1_data30	0.7122826533826563	3.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1269	pChk1_au		model1_data30	0.8324826701765502	6.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1270	pChk1_au		model1_data30	0.7481218345044386	12.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1271	pChk1_au		model1_data30	0.624405002882105	24.0	scale_pchk1_au;	sd_pchk1_au	model1_data30_pchk1_au
+1272	pChk2_au		model1_data30	0.00010128427672209312	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1273	pChk2_au		model1_data30	0.014276023645004587	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1274	pChk2_au		model1_data30	0.25012252208259605	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1275	pChk2_au		model1_data30	0.4324047019097343	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1276	pChk2_au		model1_data30	0.38176525304432257	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1277	pChk2_au		model1_data30	0.4596123006398271	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1278	pChk2_au		model1_data30	0.00010128427672209312	0.25	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1279	pChk2_au		model1_data30	0.014276023645004587	1.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1280	pChk2_au		model1_data30	0.25012252208259605	3.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1281	pChk2_au		model1_data30	0.4324047019097343	6.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1282	pChk2_au		model1_data30	0.38176525304432257	12.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1283	pChk2_au		model1_data30	0.4596123006398271	24.0	scale_pchk2_au;	sd_pchk2_au	model1_data30_pchk2_au
+1284	tp53_au		model1_data30	2.6418576366750252e-06	0.25	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1285	tp53_au		model1_data30	0.0004930251548488916	1.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1286	tp53_au		model1_data30	0.017561513103379365	3.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1287	tp53_au		model1_data30	0.08151311897533446	6.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1288	tp53_au		model1_data30	0.20405153852498648	12.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1289	tp53_au		model1_data30	0.5140986885547412	24.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1290	tp53_au		model1_data30	2.6418576366750252e-06	0.25	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1291	tp53_au		model1_data30	0.0004930251548488916	1.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1292	tp53_au		model1_data30	0.017561513103379365	3.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1293	tp53_au		model1_data30	0.08151311897533446	6.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1294	tp53_au		model1_data30	0.20405153852498648	12.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1295	tp53_au		model1_data30	0.5140986885547412	24.0	scale_tp53_au;	sd_tp53_au	model1_data30_tp53_au
+1296	pp53_au		model1_data30	2.09630400253284e-06	0.25	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1297	pp53_au		model1_data30	0.0003912135881628656	1.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1298	pp53_au		model1_data30	0.013934993959583902	3.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1299	pp53_au		model1_data30	0.0646803503696701	6.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1300	pp53_au		model1_data30	0.16191412095591703	12.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1301	pp53_au		model1_data30	0.407935357133991	24.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1302	pp53_au		model1_data30	2.09630400253284e-06	0.25	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1303	pp53_au		model1_data30	0.0003912135881628656	1.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1304	pp53_au		model1_data30	0.013934993959583902	3.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1305	pp53_au		model1_data30	0.0646803503696701	6.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1306	pp53_au		model1_data30	0.16191412095591703	12.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1307	pp53_au		model1_data30	0.407935357133991	24.0	scale_pp53_au;	sd_pp53_au	model1_data30_pp53_au
+1308	tp21_au		model1_data30	1.649278298219429e-09	0.25	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1309	tp21_au		model1_data30	4.711467680028712e-06	1.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1310	tp21_au		model1_data30	0.0014579795610366088	3.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1311	tp21_au		model1_data30	0.02565933544305758	6.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1312	tp21_au		model1_data30	0.18329655749445475	12.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1313	tp21_au		model1_data30	0.7699445310438583	24.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1314	tp21_au		model1_data30	1.649278298219429e-09	0.25	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1315	tp21_au		model1_data30	4.711467680028712e-06	1.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1316	tp21_au		model1_data30	0.0014579795610366088	3.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1317	tp21_au		model1_data30	0.02565933544305758	6.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1318	tp21_au		model1_data30	0.18329655749445475	12.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1319	tp21_au		model1_data30	0.7699445310438583	24.0	scale_tp21_au;	sd_tp21_au	model1_data30_tp21_au
+1320	pATM_au		model1_data31	0.0	6.0	scale_patm_au;	sd_patm_au	
+1321	pDNAPK_au		model1_data31	0.0	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1322	pChk1_au		model1_data31	0.0	6.0	scale_pchk1_au;	sd_pchk1_au	
+1323	pChk2_au		model1_data31	0.0	6.0	scale_pchk2_au;	sd_pchk2_au	
+1324	tp53_au		model1_data31	0.0	6.0	scale_tp53_au;	sd_tp53_au	
+1325	pp53_au		model1_data31	0.0	6.0	scale_pp53_au;	sd_pp53_au	
+1326	tp21_au		model1_data31	0.0	6.0	scale_tp21_au;	sd_tp21_au	
+1327	yH2AX_au		model1_data31	0.0	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1328	pATM_au		model1_data32	0.04907748997631527	6.0	scale_patm_au;	sd_patm_au	
+1329	pDNAPK_au		model1_data32	0.09138979312582694	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1330	pChk1_au		model1_data32	0.1309606576195388	6.0	scale_pchk1_au;	sd_pchk1_au	
+1331	pChk2_au		model1_data32	0.49370409972254514	6.0	scale_pchk2_au;	sd_pchk2_au	
+1332	tp53_au		model1_data32	0.13614223827429986	6.0	scale_tp53_au;	sd_tp53_au	
+1333	pp53_au		model1_data32	0.10802834908522396	6.0	scale_pp53_au;	sd_pp53_au	
+1334	tp21_au		model1_data32	0.05295883201099128	6.0	scale_tp21_au;	sd_tp21_au	
+1335	yH2AX_au		model1_data32	0.029632429825329844	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1336	pATM_au		model1_data33	0.07499069750335854	6.0	scale_patm_au;	sd_patm_au	
+1337	pDNAPK_au		model1_data33	0.11175327049853237	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1338	pChk1_au		model1_data33	0.15321206925302963	6.0	scale_pchk1_au;	sd_pchk1_au	
+1339	pChk2_au		model1_data33	0.5399230391706832	6.0	scale_pchk2_au;	sd_pchk2_au	
+1340	tp53_au		model1_data33	0.1714174089425204	6.0	scale_tp53_au;	sd_tp53_au	
+1341	pp53_au		model1_data33	0.13601906305680955	6.0	scale_pp53_au;	sd_pp53_au	
+1342	tp21_au		model1_data33	0.07036241146108563	6.0	scale_tp21_au;	sd_tp21_au	
+1343	yH2AX_au		model1_data33	0.04295349547172314	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1344	pATM_au		model1_data34	0.09571256351265897	6.0	scale_patm_au;	sd_patm_au	
+1345	pDNAPK_au		model1_data34	0.12695572602033195	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1346	pChk1_au		model1_data34	0.166229676252746	6.0	scale_pchk1_au;	sd_pchk1_au	
+1347	pChk2_au		model1_data34	0.5725943175974895	6.0	scale_pchk2_au;	sd_pchk2_au	
+1348	tp53_au		model1_data34	0.1940131155691787	6.0	scale_tp53_au;	sd_tp53_au	
+1349	pp53_au		model1_data34	0.15394867046030958	6.0	scale_pp53_au;	sd_pp53_au	
+1350	tp21_au		model1_data34	0.08139843289121079	6.0	scale_tp21_au;	sd_tp21_au	
+1351	yH2AX_au		model1_data34	0.0526819618531598	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1352	pATM_au		model1_data35	0.2136721095780267	6.0	scale_patm_au;	sd_patm_au	
+1353	pDNAPK_au		model1_data35	0.19042951320145357	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1354	pChk1_au		model1_data35	0.21442052090624822	6.0	scale_pchk1_au;	sd_pchk1_au	
+1355	pChk2_au		model1_data35	0.7122180754701115	6.0	scale_pchk2_au;	sd_pchk2_au	
+1356	tp53_au		model1_data35	0.29079509979406293	6.0	scale_tp53_au;	sd_tp53_au	
+1357	pp53_au		model1_data35	0.23074480742363218	6.0	scale_pp53_au;	sd_pp53_au	
+1358	tp21_au		model1_data35	0.12562228049030627	6.0	scale_tp21_au;	sd_tp21_au	
+1359	yH2AX_au		model1_data35	0.10265027394976832	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1360	pATM_au		model1_data36	0.26223651833956024	6.0	scale_patm_au;	sd_patm_au	
+1361	pDNAPK_au		model1_data36	0.20735599466781612	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1362	pChk1_au		model1_data36	0.2286387733869351	6.0	scale_pchk1_au;	sd_pchk1_au	
+1363	pChk2_au		model1_data36	0.7504898072147794	6.0	scale_pchk2_au;	sd_pchk2_au	
+1364	tp53_au		model1_data36	0.32452200418843696	6.0	scale_tp53_au;	sd_tp53_au	
+1365	pp53_au		model1_data36	0.2575069779862944	6.0	scale_pp53_au;	sd_pp53_au	
+1366	tp21_au		model1_data36	0.14012973299308482	6.0	scale_tp21_au;	sd_tp21_au	
+1367	yH2AX_au		model1_data36	0.12275262394255339	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1368	pATM_au		model1_data37	0.46234478451555927	6.0	scale_patm_au;	sd_patm_au	
+1369	pDNAPK_au		model1_data37	0.2525736441245599	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1370	pChk1_au		model1_data37	0.2721308377642781	6.0	scale_pchk1_au;	sd_pchk1_au	
+1371	pChk2_au		model1_data37	0.844221397628165	6.0	scale_pchk2_au;	sd_pchk2_au	
+1372	tp53_au		model1_data37	0.45309439306408444	6.0	scale_tp53_au;	sd_tp53_au	
+1373	pp53_au		model1_data37	0.3595286803193725	6.0	scale_pp53_au;	sd_pp53_au	
+1374	tp21_au		model1_data37	0.19535733376563746	6.0	scale_tp21_au;	sd_tp21_au	
+1375	yH2AX_au		model1_data37	0.21139038106884925	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1376	pATM_au		model1_data38	0.6648608907768688	6.0	scale_patm_au;	sd_patm_au	
+1377	pDNAPK_au		model1_data38	0.28594638824759566	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1378	pChk1_au		model1_data38	0.3033160925586671	6.0	scale_pchk1_au;	sd_pchk1_au	
+1379	pChk2_au		model1_data38	0.8817816623539416	6.0	scale_pchk2_au;	sd_pchk2_au	
+1380	tp53_au		model1_data38	0.5859850655408197	6.0	scale_tp53_au;	sd_tp53_au	
+1381	pp53_au		model1_data38	0.4649769242916987	6.0	scale_pp53_au;	sd_pp53_au	
+1382	tp21_au		model1_data38	0.2612561668128814	6.0	scale_tp21_au;	sd_tp21_au	
+1383	yH2AX_au		model1_data38	0.32682801924269106	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1384	pATM_au		model1_data39	0.6937456258103146	6.0	scale_patm_au;	sd_patm_au	
+1385	pDNAPK_au		model1_data39	0.2909283168805548	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1386	pChk1_au		model1_data39	0.3073133341586796	6.0	scale_pchk1_au;	sd_pchk1_au	
+1387	pChk2_au		model1_data39	0.8835621796986965	6.0	scale_pchk2_au;	sd_pchk2_au	
+1388	tp53_au		model1_data39	0.6070265879154295	6.0	scale_tp53_au;	sd_tp53_au	
+1389	pp53_au		model1_data39	0.48167329239304485	6.0	scale_pp53_au;	sd_pp53_au	
+1390	tp21_au		model1_data39	0.2734618234150045	6.0	scale_tp21_au;	sd_tp21_au	
+1391	yH2AX_au		model1_data39	0.3480402541394889	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1392	Cells_count		model1_data4	1.0	0.0		sd_count_abs	
+1393	Cells_count		model1_data4	1.1265802316916163	4.0		sd_count_abs	
+1394	Cells_count		model1_data4	1.2167429839455273	8.0		sd_count_abs	
+1395	Cells_count		model1_data4	1.2831780902414365	12.0		sd_count_abs	
+1396	Cells_count		model1_data4	1.3354890634064607	16.0		sd_count_abs	
+1397	Cells_count		model1_data4	1.3790637465230942	20.0		sd_count_abs	
+1398	Cells_count		model1_data4	1.4169510639022076	24.0		sd_count_abs	
+1399	Cells_count		model1_data4	1.4510490330521706	28.0		sd_count_abs	
+1400	Cells_count		model1_data4	1.4826193200276547	32.0		sd_count_abs	
+1401	Cells_count		model1_data4	1.512531491450419	36.0		sd_count_abs	
+1402	Cells_count		model1_data4	1.5413962634833607	40.0		sd_count_abs	
+1403	Cells_count		model1_data4	1.5696458587610242	44.0		sd_count_abs	
+1404	Cells_count		model1_data4	1.5975856466212361	48.0		sd_count_abs	
+1405	CellsCasp_count		model1_data4	0.0	0.0		sd_count_casp_abs	
+1406	CellsCasp_count		model1_data4	1.0261845448443766e-05	4.0		sd_count_casp_abs	
+1407	CellsCasp_count		model1_data4	0.00012956185356478576	8.0		sd_count_casp_abs	
+1408	CellsCasp_count		model1_data4	0.0004393510051557484	12.0		sd_count_casp_abs	
+1409	CellsCasp_count		model1_data4	0.0008962622230579249	16.0		sd_count_casp_abs	
+1410	CellsCasp_count		model1_data4	0.0014052987230721923	20.0		sd_count_casp_abs	
+1411	CellsCasp_count		model1_data4	0.0018884105478757997	24.0		sd_count_casp_abs	
+1412	CellsCasp_count		model1_data4	0.0023073877291436835	28.0		sd_count_casp_abs	
+1413	CellsCasp_count		model1_data4	0.002658645571186054	32.0		sd_count_casp_abs	
+1414	CellsCasp_count		model1_data4	0.0029588463989863793	36.0		sd_count_casp_abs	
+1415	CellsCasp_count		model1_data4	0.0032315683247441185	40.0		sd_count_casp_abs	
+1416	CellsCasp_count		model1_data4	0.0034984363231101235	44.0		sd_count_casp_abs	
+1417	CellsCasp_count		model1_data4	0.0037747119126606797	48.0		sd_count_casp_abs	
+1418	pATM_au		model1_data40	0.793532300813629	6.0	scale_patm_au;	sd_patm_au	
+1419	pDNAPK_au		model1_data40	0.3115327982471953	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1420	pChk1_au		model1_data40	0.32137670884139546	6.0	scale_pchk1_au;	sd_pchk1_au	
+1421	pChk2_au		model1_data40	0.8802836115405337	6.0	scale_pchk2_au;	sd_pchk2_au	
+1422	tp53_au		model1_data40	0.6911465550918796	6.0	scale_tp53_au;	sd_tp53_au	
+1423	pp53_au		model1_data40	0.5484221669110759	6.0	scale_pp53_au;	sd_pp53_au	
+1424	tp21_au		model1_data40	0.33060505274478436	6.0	scale_tp21_au;	sd_tp21_au	
+1425	yH2AX_au		model1_data40	0.444019308341676	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1426	pATM_au		model1_data41	0.8130253820896375	6.0	scale_patm_au;	sd_patm_au	
+1427	pDNAPK_au		model1_data41	0.3169307451816613	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1428	pChk1_au		model1_data41	0.3244934061885198	6.0	scale_pchk1_au;	sd_pchk1_au	
+1429	pChk2_au		model1_data41	0.8771548057976338	6.0	scale_pchk2_au;	sd_pchk2_au	
+1430	tp53_au		model1_data41	0.7115418566200118	6.0	scale_tp53_au;	sd_tp53_au	
+1431	pp53_au		model1_data41	0.564605761224696	6.0	scale_pp53_au;	sd_pp53_au	
+1432	tp21_au		model1_data41	0.34704310009717826	6.0	scale_tp21_au;	sd_tp21_au	
+1433	yH2AX_au		model1_data41	0.4706188885969263	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1434	pATM_au		model1_data42	0.8299912093407004	6.0	scale_patm_au;	sd_patm_au	
+1435	pDNAPK_au		model1_data42	0.3230028333156516	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1436	pChk1_au		model1_data42	0.3287783951972567	6.0	scale_pchk1_au;	sd_pchk1_au	
+1437	pChk2_au		model1_data42	0.8754132582205842	6.0	scale_pchk2_au;	sd_pchk2_au	
+1438	tp53_au		model1_data42	0.7316484194518962	6.0	scale_tp53_au;	sd_tp53_au	
+1439	pp53_au		model1_data42	0.5805602424792974	6.0	scale_pp53_au;	sd_pp53_au	
+1440	tp21_au		model1_data42	0.36230092075562387	6.0	scale_tp21_au;	sd_tp21_au	
+1441	yH2AX_au		model1_data42	0.4982133385090907	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1442	pATM_au		model1_data43	0.8439041080920743	6.0	scale_patm_au;	sd_patm_au	
+1443	pATM_au		model1_data43	0.8439041080920743	6.0	scale_patm_au;	sd_patm_au	
+1444	pDNAPK_au		model1_data43	0.3614884848073357	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1445	pDNAPK_au		model1_data43	0.3614884848073357	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1446	pChk1_au		model1_data43	0.42063509438795565	6.0	scale_pchk1_au;	sd_pchk1_au	
+1447	pChk1_au		model1_data43	0.42063509438795565	6.0	scale_pchk1_au;	sd_pchk1_au	
+1448	pChk2_au		model1_data43	1.0051334159408456	6.0	scale_pchk2_au;	sd_pchk2_au	
+1449	pChk2_au		model1_data43	1.0051334159408456	6.0	scale_pchk2_au;	sd_pchk2_au	
+1450	tp53_au		model1_data43	0.7603375717583449	6.0	scale_tp53_au;	sd_tp53_au	
+1451	tp53_au		model1_data43	0.7603375717583449	6.0	scale_tp53_au;	sd_tp53_au	
+1452	pp53_au		model1_data43	0.6033249758905098	6.0	scale_pp53_au;	sd_pp53_au	
+1453	pp53_au		model1_data43	0.6033249758905098	6.0	scale_pp53_au;	sd_pp53_au	
+1454	tp21_au		model1_data43	0.2610071599889338	6.0	scale_tp21_au;	sd_tp21_au	
+1455	tp21_au		model1_data43	0.2610071599889338	6.0	scale_tp21_au;	sd_tp21_au	
+1456	yH2AX_au		model1_data43	0.5266620300039179	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1457	yH2AX_au		model1_data43	0.5266620300039179	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1458	pATM_au		model1_data44	0.8412832324856917	6.0	scale_patm_au;	sd_patm_au	
+1459	pDNAPK_au		model1_data44	0.46414930833237	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1460	pChk1_au		model1_data44	1.017557129477086	6.0	scale_pchk1_au;	sd_pchk1_au	
+1461	pChk2_au		model1_data44	1.5109680125818572	6.0	scale_pchk2_au;	sd_pchk2_au	
+1462	tp53_au		model1_data44	0.7963821457069723	6.0	scale_tp53_au;	sd_tp53_au	
+1463	pp53_au		model1_data44	0.6319262084433726	6.0	scale_pp53_au;	sd_pp53_au	
+1464	tp21_au		model1_data44	0.001557870412216283	6.0	scale_tp21_au;	sd_tp21_au	
+1465	yH2AX_au		model1_data44	0.5385534084261688	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1466	pATM_au		model1_data45	0.0	6.0	scale_patm_au;	sd_patm_au	
+1467	pDNAPK_au		model1_data45	0.0	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1468	pChk1_au		model1_data45	0.0	6.0	scale_pchk1_au;	sd_pchk1_au	
+1469	pChk2_au		model1_data45	0.0	6.0	scale_pchk2_au;	sd_pchk2_au	
+1470	tp53_au		model1_data45	0.0	6.0	scale_tp53_au;	sd_tp53_au	
+1471	pp53_au		model1_data45	0.0	6.0	scale_pp53_au;	sd_pp53_au	
+1472	tp21_au		model1_data45	0.0	6.0	scale_tp21_au;	sd_tp21_au	
+1473	yH2AX_au		model1_data45	0.0	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1474	pATM_au		model1_data46	0.08432597571561781	6.0	scale_patm_au;	sd_patm_au	
+1475	pDNAPK_au		model1_data46	0.11916573552721821	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1476	pChk1_au		model1_data46	0.16040422200523816	6.0	scale_pchk1_au;	sd_pchk1_au	
+1477	pChk2_au		model1_data46	0.5571616895832386	6.0	scale_pchk2_au;	sd_pchk2_au	
+1478	tp53_au		model1_data46	0.18176748430088985	6.0	scale_tp53_au;	sd_tp53_au	
+1479	pp53_au		model1_data46	0.1442318085503834	6.0	scale_pp53_au;	sd_pp53_au	
+1480	tp21_au		model1_data46	0.07409314456119911	6.0	scale_tp21_au;	sd_tp21_au	
+1481	yH2AX_au		model1_data46	0.047337486167207767	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1482	pATM_au		model1_data47	0.14567745374133817	6.0	scale_patm_au;	sd_patm_au	
+1483	pDNAPK_au		model1_data47	0.15900745415701878	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1484	pChk1_au		model1_data47	0.19148894216890353	6.0	scale_pchk1_au;	sd_pchk1_au	
+1485	pChk2_au		model1_data47	0.6413478470798697	6.0	scale_pchk2_au;	sd_pchk2_au	
+1486	tp53_au		model1_data47	0.23904524899108137	6.0	scale_tp53_au;	sd_tp53_au	
+1487	pp53_au		model1_data47	0.18968149732593062	6.0	scale_pp53_au;	sd_pp53_au	
+1488	tp21_au		model1_data47	0.10071042099203381	6.0	scale_tp21_au;	sd_tp21_au	
+1489	yH2AX_au		model1_data47	0.07453467233229538	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1490	pATM_au		model1_data48	0.19732358085738766	6.0	scale_patm_au;	sd_patm_au	
+1491	pDNAPK_au		model1_data48	0.18378014691119676	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1492	pChk1_au		model1_data48	0.21080201041033575	6.0	scale_pchk1_au;	sd_pchk1_au	
+1493	pChk2_au		model1_data48	0.6965349573148792	6.0	scale_pchk2_au;	sd_pchk2_au	
+1494	tp53_au		model1_data48	0.2792961614402823	6.0	scale_tp53_au;	sd_tp53_au	
+1495	pp53_au		model1_data48	0.22162044350588264	6.0	scale_pp53_au;	sd_pp53_au	
+1496	tp21_au		model1_data48	0.11835228173134357	6.0	scale_tp21_au;	sd_tp21_au	
+1497	yH2AX_au		model1_data48	0.0962936840844424	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1498	pATM_au		model1_data49	0.46268926622249634	6.0	scale_patm_au;	sd_patm_au	
+1499	pDNAPK_au		model1_data49	0.25082703793428857	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1500	pChk1_au		model1_data49	0.27345457269780876	6.0	scale_pchk1_au;	sd_pchk1_au	
+1501	pChk2_au		model1_data49	0.8456950415719888	6.0	scale_pchk2_au;	sd_pchk2_au	
+1502	tp53_au		model1_data49	0.45257791954525883	6.0	scale_tp53_au;	sd_tp53_au	
+1503	pp53_au		model1_data49	0.3591188605434367	6.0	scale_pp53_au;	sd_pp53_au	
+1504	tp21_au		model1_data49	0.190428340277632	6.0	scale_tp21_au;	sd_tp21_au	
+1505	yH2AX_au		model1_data49	0.21053861216056688	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1506	Cells_count		model1_data5	1.0	0.0		sd_count_abs	
+1507	Cells_count		model1_data5	1.1125808088210491	4.0		sd_count_abs	
+1508	Cells_count		model1_data5	1.1746161696228998	8.0		sd_count_abs	
+1509	Cells_count		model1_data5	1.2117038778716114	12.0		sd_count_abs	
+1510	Cells_count		model1_data5	1.2351668226098518	16.0		sd_count_abs	
+1511	Cells_count		model1_data5	1.250958841886613	20.0		sd_count_abs	
+1512	Cells_count		model1_data5	1.2623272706990212	24.0		sd_count_abs	
+1513	Cells_count		model1_data5	1.2711094136610583	28.0		sd_count_abs	
+1514	Cells_count		model1_data5	1.2783732697658894	32.0		sd_count_abs	
+1515	Cells_count		model1_data5	1.284749111678058	36.0		sd_count_abs	
+1516	Cells_count		model1_data5	1.2906092219018386	40.0		sd_count_abs	
+1517	Cells_count		model1_data5	1.2961702886716806	44.0		sd_count_abs	
+1518	Cells_count		model1_data5	1.3015545216012903	48.0		sd_count_abs	
+1519	CellsCasp_count		model1_data5	0.0	0.0		sd_count_casp_abs	
+1520	CellsCasp_count		model1_data5	1.7621156185006256e-05	4.0		sd_count_casp_abs	
+1521	CellsCasp_count		model1_data5	0.00020215309341115807	8.0		sd_count_casp_abs	
+1522	CellsCasp_count		model1_data5	0.0006583307048325449	12.0		sd_count_casp_abs	
+1523	CellsCasp_count		model1_data5	0.0013094000235932541	16.0		sd_count_casp_abs	
+1524	CellsCasp_count		model1_data5	0.0020108731166909623	20.0		sd_count_casp_abs	
+1525	CellsCasp_count		model1_data5	0.0026470248852007747	24.0		sd_count_casp_abs	
+1526	CellsCasp_count		model1_data5	0.00316156894779472	28.0		sd_count_casp_abs	
+1527	CellsCasp_count		model1_data5	0.003549033950762136	32.0		sd_count_casp_abs	
+1528	CellsCasp_count		model1_data5	0.0038336820261231637	36.0		sd_count_casp_abs	
+1529	CellsCasp_count		model1_data5	0.0040502740352462525	40.0		sd_count_casp_abs	
+1530	CellsCasp_count		model1_data5	0.004231412031522023	44.0		sd_count_casp_abs	
+1531	CellsCasp_count		model1_data5	0.004401358555422469	48.0		sd_count_casp_abs	
+1532	pATM_au		model1_data50	0.5356388535786153	6.0	scale_patm_au;	sd_patm_au	
+1533	pDNAPK_au		model1_data50	0.263186557008377	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1534	pChk1_au		model1_data50	0.2853330247625771	6.0	scale_pchk1_au;	sd_pchk1_au	
+1535	pChk2_au		model1_data50	0.8648688888320456	6.0	scale_pchk2_au;	sd_pchk2_au	
+1536	tp53_au		model1_data50	0.4980007872165127	6.0	scale_tp53_au;	sd_tp53_au	
+1537	pp53_au		model1_data50	0.39516173355214684	6.0	scale_pp53_au;	sd_pp53_au	
+1538	tp21_au		model1_data50	0.21084803767644233	6.0	scale_tp21_au;	sd_tp21_au	
+1539	yH2AX_au		model1_data50	0.24654738991803224	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1540	pATM_au		model1_data51	0.6989857136530565	6.0	scale_patm_au;	sd_patm_au	
+1541	pDNAPK_au		model1_data51	0.2887821658542104	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1542	pChk1_au		model1_data51	0.3087714677022532	6.0	scale_pchk1_au;	sd_pchk1_au	
+1543	pChk2_au		model1_data51	0.885037256083191	6.0	scale_pchk2_au;	sd_pchk2_au	
+1544	tp53_au		model1_data51	0.6098493643830523	6.0	scale_tp53_au;	sd_tp53_au	
+1545	pp53_au		model1_data51	0.48391315480091496	6.0	scale_pp53_au;	sd_pp53_au	
+1546	tp21_au		model1_data51	0.270246874945006	6.0	scale_tp21_au;	sd_tp21_au	
+1547	yH2AX_au		model1_data51	0.3501204021080941	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1548	pATM_au		model1_data52	0.7812827509088757	6.0	scale_patm_au;	sd_patm_au	
+1549	pDNAPK_au		model1_data52	0.30270353968301433	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1550	pChk1_au		model1_data52	0.32058483852592184	6.0	scale_pchk1_au;	sd_pchk1_au	
+1551	pChk2_au		model1_data52	0.8795733133264522	6.0	scale_pchk2_au;	sd_pchk2_au	
+1552	tp53_au		model1_data52	0.6827759328892775	6.0	scale_tp53_au;	sd_tp53_au	
+1553	pp53_au		model1_data52	0.541780109979844	6.0	scale_pp53_au;	sd_pp53_au	
+1554	tp21_au		model1_data52	0.3215873625132342	6.0	scale_tp21_au;	sd_tp21_au	
+1555	yH2AX_au		model1_data52	0.43377135034549397	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1556	pATM_au		model1_data53	0.7907309317718414	6.0	scale_patm_au;	sd_patm_au	
+1557	pDNAPK_au		model1_data53	0.3045198104042446	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1558	pChk1_au		model1_data53	0.3220643327558037	6.0	scale_pchk1_au;	sd_pchk1_au	
+1559	pChk2_au		model1_data53	0.877704553096114	6.0	scale_pchk2_au;	sd_pchk2_au	
+1560	tp53_au		model1_data53	0.6929754013760877	6.0	scale_tp53_au;	sd_tp53_au	
+1561	pp53_au		model1_data53	0.5498733494927489	6.0	scale_pp53_au;	sd_pp53_au	
+1562	tp21_au		model1_data53	0.33005768710977407	6.0	scale_tp21_au;	sd_tp21_au	
+1563	yH2AX_au		model1_data53	0.44688664279771484	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1564	pATM_au		model1_data54	0.8224211597377534	6.0	scale_patm_au;	sd_patm_au	
+1565	pDNAPK_au		model1_data54	0.3113382419174512	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1566	pChk1_au		model1_data54	0.32750568017366183	6.0	scale_pchk1_au;	sd_pchk1_au	
+1567	pChk2_au		model1_data54	0.8678779030680878	6.0	scale_pchk2_au;	sd_pchk2_au	
+1568	tp53_au		model1_data54	0.7329906477089709	6.0	scale_tp53_au;	sd_tp53_au	
+1569	pp53_au		model1_data54	0.5816252955043195	6.0	scale_pp53_au;	sd_pp53_au	
+1570	tp21_au		model1_data54	0.36767961313292774	6.0	scale_tp21_au;	sd_tp21_au	
+1571	yH2AX_au		model1_data54	0.5026337106219454	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1572	pATM_au		model1_data55	0.8288685005589851	6.0	scale_patm_au;	sd_patm_au	
+1573	pDNAPK_au		model1_data55	0.31291826237384424	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1574	pChk1_au		model1_data55	0.3287526219024744	6.0	scale_pchk1_au;	sd_pchk1_au	
+1575	pChk2_au		model1_data55	0.8648776035592806	6.0	scale_pchk2_au;	sd_pchk2_au	
+1576	tp53_au		model1_data55	0.742818918458394	6.0	scale_tp53_au;	sd_tp53_au	
+1577	pp53_au		model1_data55	0.5894239910221909	6.0	scale_pp53_au;	sd_pp53_au	
+1578	tp21_au		model1_data55	0.37822779067849166	6.0	scale_tp21_au;	sd_tp21_au	
+1579	yH2AX_au		model1_data55	0.5175050679376056	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1580	pATM_au		model1_data56	0.8347659426903441	6.0	scale_patm_au;	sd_patm_au	
+1581	pDNAPK_au		model1_data56	0.3144396342635378	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1582	pChk1_au		model1_data56	0.32995580290857845	6.0	scale_pchk1_au;	sd_pchk1_au	
+1583	pChk2_au		model1_data56	0.8616690582343157	6.0	scale_pchk2_au;	sd_pchk2_au	
+1584	tp53_au		model1_data56	0.7526100746077283	6.0	scale_tp53_au;	sd_tp53_au	
+1585	pp53_au		model1_data56	0.5971932362458308	6.0	scale_pp53_au;	sd_pp53_au	
+1586	tp21_au		model1_data56	0.3893670687370898	6.0	scale_tp21_au;	sd_tp21_au	
+1587	yH2AX_au		model1_data56	0.5328319179716979	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1588	pATM_au		model1_data57	0.8401601734813126	6.0	scale_patm_au;	sd_patm_au	
+1589	pATM_au		model1_data57	0.8401601734813126	6.0	scale_patm_au;	sd_patm_au	
+1590	pDNAPK_au		model1_data57	0.3159049883562544	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1591	pDNAPK_au		model1_data57	0.3159049883562544	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1592	pChk1_au		model1_data57	0.33111784786121357	6.0	scale_pchk1_au;	sd_pchk1_au	
+1593	pChk1_au		model1_data57	0.33111784786121357	6.0	scale_pchk1_au;	sd_pchk1_au	
+1594	pChk2_au		model1_data57	0.8582442813820428	6.0	scale_pchk2_au;	sd_pchk2_au	
+1595	pChk2_au		model1_data57	0.8582442813820428	6.0	scale_pchk2_au;	sd_pchk2_au	
+1596	tp53_au		model1_data57	0.7624214674426697	6.0	scale_tp53_au;	sd_tp53_au	
+1597	tp53_au		model1_data57	0.7624214674426697	6.0	scale_tp53_au;	sd_tp53_au	
+1598	pp53_au		model1_data57	0.604978539202653	6.0	scale_pp53_au;	sd_pp53_au	
+1599	pp53_au		model1_data57	0.604978539202653	6.0	scale_pp53_au;	sd_pp53_au	
+1600	tp21_au		model1_data57	0.40122933656970233	6.0	scale_tp21_au;	sd_tp21_au	
+1601	tp21_au		model1_data57	0.40122933656970233	6.0	scale_tp21_au;	sd_tp21_au	
+1602	yH2AX_au		model1_data57	0.5487172721652929	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1603	yH2AX_au		model1_data57	0.5487172721652929	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1604	pATM_au		model1_data58	0.8435409033373448	6.0	scale_patm_au;	sd_patm_au	
+1605	pDNAPK_au		model1_data58	0.316873816452079	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1606	pChk1_au		model1_data58	0.331877716530409	6.0	scale_pchk1_au;	sd_pchk1_au	
+1607	pChk2_au		model1_data58	0.8558220398537203	6.0	scale_pchk2_au;	sd_pchk2_au	
+1608	tp53_au		model1_data58	0.7690604479591829	6.0	scale_tp53_au;	sd_tp53_au	
+1609	pp53_au		model1_data58	0.6102465450316954	6.0	scale_pp53_au;	sd_pp53_au	
+1610	tp21_au		model1_data58	0.40967516469775217	6.0	scale_tp21_au;	sd_tp21_au	
+1611	yH2AX_au		model1_data58	0.5597628163423717	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1612	pATM_au		model1_data59	0.0	6.0	scale_patm_au;	sd_patm_au	
+1613	pDNAPK_au		model1_data59	0.0	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1614	pChk1_au		model1_data59	0.0	6.0	scale_pchk1_au;	sd_pchk1_au	
+1615	pChk2_au		model1_data59	0.0	6.0	scale_pchk2_au;	sd_pchk2_au	
+1616	tp53_au		model1_data59	0.0	6.0	scale_tp53_au;	sd_tp53_au	
+1617	pp53_au		model1_data59	0.0	6.0	scale_pp53_au;	sd_pp53_au	
+1618	tp21_au		model1_data59	0.0	6.0	scale_tp21_au;	sd_tp21_au	
+1619	yH2AX_au		model1_data59	0.0	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1620	Cells_count		model1_data6	1.0	0.0		sd_count_abs	
+1621	Cells_count		model1_data6	1.1417291391856874	4.0		sd_count_abs	
+1622	Cells_count		model1_data6	1.3023191762732143	8.0		sd_count_abs	
+1623	Cells_count		model1_data6	1.4844203232587638	12.0		sd_count_abs	
+1624	Cells_count		model1_data6	1.6910852567080625	16.0		sd_count_abs	
+1625	Cells_count		model1_data6	1.9257018121877985	20.0		sd_count_abs	
+1626	Cells_count		model1_data6	2.1920718189915394	24.0		sd_count_abs	
+1627	Cells_count		model1_data6	2.4944862541081956	28.0		sd_count_abs	
+1628	Cells_count		model1_data6	2.837790956696044	32.0		sd_count_abs	
+1629	Cells_count		model1_data6	3.2274424175178313	36.0		sd_count_abs	
+1630	Cells_count		model1_data6	3.669573170164707	40.0		sd_count_abs	
+1631	Cells_count		model1_data6	4.171065499680554	44.0		sd_count_abs	
+1632	Cells_count		model1_data6	4.73962869225573	48.0		sd_count_abs	
+1633	CellsCasp_count		model1_data6	0.0	0.0		sd_count_casp_abs	
+1634	CellsCasp_count		model1_data6	4.1699211249445285e-07	4.0		sd_count_casp_abs	
+1635	CellsCasp_count		model1_data6	1.0214764529229596e-05	8.0		sd_count_casp_abs	
+1636	CellsCasp_count		model1_data6	4.66919159561209e-05	12.0		sd_count_casp_abs	
+1637	CellsCasp_count		model1_data6	0.00011239438465569816	16.0		sd_count_casp_abs	
+1638	CellsCasp_count		model1_data6	0.0001938208703934533	20.0		sd_count_casp_abs	
+1639	CellsCasp_count		model1_data6	0.00027358826254382946	24.0		sd_count_casp_abs	
+1640	CellsCasp_count		model1_data6	0.00033950343331186095	28.0		sd_count_casp_abs	
+1641	CellsCasp_count		model1_data6	0.0003871447677442412	32.0		sd_count_casp_abs	
+1642	CellsCasp_count		model1_data6	0.0004182841366825852	36.0		sd_count_casp_abs	
+1643	CellsCasp_count		model1_data6	0.00043807553377647247	40.0		sd_count_casp_abs	
+1644	CellsCasp_count		model1_data6	0.00045267653983470466	44.0		sd_count_casp_abs	
+1645	CellsCasp_count		model1_data6	0.0004677853598534216	48.0		sd_count_casp_abs	
+1646	pATM_au		model1_data60	0.0053898517039736695	6.0	scale_patm_au;	sd_patm_au	
+1647	pDNAPK_au		model1_data60	0.02568342523397239	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1648	pChk1_au		model1_data60	0.3026126211975973	6.0	scale_pchk1_au;	sd_pchk1_au	
+1649	pChk2_au		model1_data60	0.12283379137307188	6.0	scale_pchk2_au;	sd_pchk2_au	
+1650	tp53_au		model1_data60	0.012214231021493339	6.0	scale_tp53_au;	sd_tp53_au	
+1651	pp53_au		model1_data60	0.009691945933333009	6.0	scale_pp53_au;	sd_pp53_au	
+1652	tp21_au		model1_data60	0.0022859352870222838	6.0	scale_tp21_au;	sd_tp21_au	
+1653	yH2AX_au		model1_data60	0.01600615253839696	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1654	pATM_au		model1_data61	0.0069634617311184095	6.0	scale_patm_au;	sd_patm_au	
+1655	pDNAPK_au		model1_data61	0.03236579863575934	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1656	pChk1_au		model1_data61	0.4161135782211992	6.0	scale_pchk1_au;	sd_pchk1_au	
+1657	pChk2_au		model1_data61	0.16085933000296823	6.0	scale_pchk2_au;	sd_pchk2_au	
+1658	tp53_au		model1_data61	0.016773754161397522	6.0	scale_tp53_au;	sd_tp53_au	
+1659	pp53_au		model1_data61	0.013309910230550736	6.0	scale_pp53_au;	sd_pp53_au	
+1660	tp21_au		model1_data61	0.003290678850927527	6.0	scale_tp21_au;	sd_tp21_au	
+1661	yH2AX_au		model1_data61	0.0243196496726095	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1662	pATM_au		model1_data62	0.00791004850166947	6.0	scale_patm_au;	sd_patm_au	
+1663	pDNAPK_au		model1_data62	0.0361931962977094	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1664	pChk1_au		model1_data62	0.47983623402944636	6.0	scale_pchk1_au;	sd_pchk1_au	
+1665	pChk2_au		model1_data62	0.1828603717902293	6.0	scale_pchk2_au;	sd_pchk2_au	
+1666	tp53_au		model1_data62	0.019579934634134367	6.0	scale_tp53_au;	sd_tp53_au	
+1667	pp53_au		model1_data62	0.015536603779500424	6.0	scale_pp53_au;	sd_pp53_au	
+1668	tp21_au		model1_data62	0.0039387661957034385	6.0	scale_tp21_au;	sd_tp21_au	
+1669	yH2AX_au		model1_data62	0.029977724289055884	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1670	pATM_au		model1_data63	0.011271014199151856	6.0	scale_patm_au;	sd_patm_au	
+1671	pDNAPK_au		model1_data63	0.04859981059059745	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1672	pChk1_au		model1_data63	0.6604122905701528	6.0	scale_pchk1_au;	sd_pchk1_au	
+1673	pChk2_au		model1_data63	0.25479270340000754	6.0	scale_pchk2_au;	sd_pchk2_au	
+1674	tp53_au		model1_data63	0.029777548272305086	6.0	scale_tp53_au;	sd_tp53_au	
+1675	pp53_au		model1_data63	0.02362837147705345	6.0	scale_pp53_au;	sd_pp53_au	
+1676	tp21_au		model1_data63	0.006469975305057357	6.0	scale_tp21_au;	sd_tp21_au	
+1677	yH2AX_au		model1_data63	0.05357514398333841	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1678	pATM_au		model1_data64	0.012215881400640605	6.0	scale_patm_au;	sd_patm_au	
+1679	pDNAPK_au		model1_data64	0.051747270711210186	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1680	pChk1_au		model1_data64	0.6973824366971748	6.0	scale_pchk1_au;	sd_pchk1_au	
+1681	pChk2_au		model1_data64	0.273241190747365	6.0	scale_pchk2_au;	sd_pchk2_au	
+1682	tp53_au		model1_data64	0.032706356803221974	6.0	scale_tp53_au;	sd_tp53_au	
+1683	pp53_au		model1_data64	0.02595236992450221	6.0	scale_pp53_au;	sd_pp53_au	
+1684	tp21_au		model1_data64	0.007247888752733654	6.0	scale_tp21_au;	sd_tp21_au	
+1685	yH2AX_au		model1_data64	0.06112757684986826	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1686	pATM_au		model1_data65	0.015305002981997558	6.0	scale_patm_au;	sd_patm_au	
+1687	pDNAPK_au		model1_data65	0.06091965890538709	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1688	pChk1_au		model1_data65	0.7816065612789164	6.0	scale_pchk1_au;	sd_pchk1_au	
+1689	pChk2_au		model1_data65	0.32819238323891237	6.0	scale_pchk2_au;	sd_pchk2_au	
+1690	tp53_au		model1_data65	0.04255595440824022	6.0	scale_tp53_au;	sd_tp53_au	
+1691	pp53_au		model1_data65	0.03376798822130202	6.0	scale_pp53_au;	sd_pp53_au	
+1692	tp21_au		model1_data65	0.010045097743488754	6.0	scale_tp21_au;	sd_tp21_au	
+1693	yH2AX_au		model1_data65	0.08860869265842104	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1694	pATM_au		model1_data66	0.01864083858006821	6.0	scale_patm_au;	sd_patm_au	
+1695	pDNAPK_au		model1_data66	0.06861782343185698	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1696	pChk1_au		model1_data66	0.825315322622152	6.0	scale_pchk1_au;	sd_pchk1_au	
+1697	pChk2_au		model1_data66	0.3780605780571364	6.0	scale_pchk2_au;	sd_pchk2_au	
+1698	tp53_au		model1_data66	0.05399594129844199	6.0	scale_tp53_au;	sd_tp53_au	
+1699	pp53_au		model1_data66	0.042845574376563555	6.0	scale_pp53_au;	sd_pp53_au	
+1700	tp21_au		model1_data66	0.013709378219354676	6.0	scale_tp21_au;	sd_tp21_au	
+1701	yH2AX_au		model1_data66	0.12369554414698669	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1702	pATM_au		model1_data67	0.019263933067129577	6.0	scale_patm_au;	sd_patm_au	
+1703	pDNAPK_au		model1_data67	0.06975020458963666	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1704	pChk1_au		model1_data67	0.8296232408004202	6.0	scale_pchk1_au;	sd_pchk1_au	
+1705	pChk2_au		model1_data67	0.3861627039911928	6.0	scale_pchk2_au;	sd_pchk2_au	
+1706	tp53_au		model1_data67	0.05627992403880553	6.0	scale_tp53_au;	sd_tp53_au	
+1707	pp53_au		model1_data67	0.04465790600786446	6.0	scale_pp53_au;	sd_pp53_au	
+1708	tp21_au		model1_data67	0.014506513724224342	6.0	scale_tp21_au;	sd_tp21_au	
+1709	yH2AX_au		model1_data67	0.1310045504142285	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1710	pATM_au		model1_data68	0.02226055670558129	6.0	scale_patm_au;	sd_patm_au	
+1711	pDNAPK_au		model1_data68	0.07348794678944813	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1712	pChk1_au		model1_data68	0.8382089904021259	6.0	scale_pchk1_au;	sd_pchk1_au	
+1713	pChk2_au		model1_data68	0.4180924968755518	6.0	scale_pchk2_au;	sd_pchk2_au	
+1714	tp53_au		model1_data68	0.06823651589720915	6.0	scale_tp53_au;	sd_tp53_au	
+1715	pp53_au		model1_data68	0.054145416243642656	6.0	scale_pp53_au;	sd_pp53_au	
+1716	tp21_au		model1_data68	0.019150526844740133	6.0	scale_tp21_au;	sd_tp21_au	
+1717	yH2AX_au		model1_data68	0.1703549332612982	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1718	pATM_au		model1_data69	0.02315575817630402	6.0	scale_patm_au;	sd_patm_au	
+1719	pDNAPK_au		model1_data69	0.07397155368440124	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1720	pChk1_au		model1_data69	0.8375923739171006	6.0	scale_pchk1_au;	sd_pchk1_au	
+1721	pChk2_au		model1_data69	0.4246790526967831	6.0	scale_pchk2_au;	sd_pchk2_au	
+1722	tp53_au		model1_data69	0.07217432472082447	6.0	scale_tp53_au;	sd_tp53_au	
+1723	pp53_au		model1_data69	0.05727005259177808	6.0	scale_pp53_au;	sd_pp53_au	
+1724	tp21_au		model1_data69	0.020897129723632574	6.0	scale_tp21_au;	sd_tp21_au	
+1725	yH2AX_au		model1_data69	0.1836092644247461	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1726	Cells_count		model1_data7	1.0	0.0		sd_count_abs	
+1727	Cells_count		model1_data7	1.1414209255659091	4.0		sd_count_abs	
+1728	Cells_count		model1_data7	1.3028050602815542	8.0		sd_count_abs	
+1729	Cells_count		model1_data7	1.4869160585716155	12.0		sd_count_abs	
+1730	Cells_count		model1_data7	1.6969015502757379	16.0		sd_count_abs	
+1731	Cells_count		model1_data7	1.9363432600686843	20.0		sd_count_abs	
+1732	Cells_count		model1_data7	2.209309797990419	24.0		sd_count_abs	
+1733	Cells_count		model1_data7	2.520414519721922	28.0		sd_count_abs	
+1734	Cells_count		model1_data7	2.8748806449817326	32.0		sd_count_abs	
+1735	Cells_count		model1_data7	3.278615216302825	36.0		sd_count_abs	
+1736	Cells_count		model1_data7	3.7382861758923718	40.0		sd_count_abs	
+1737	Cells_count		model1_data7	4.261407793243299	44.0		sd_count_abs	
+1738	Cells_count		model1_data7	4.8564300084107925	48.0		sd_count_abs	
+1739	CellsCasp_count		model1_data7	0.0	0.0		sd_count_casp_abs	
+1740	CellsCasp_count		model1_data7	0.0	4.0		sd_count_casp_abs	
+1741	CellsCasp_count		model1_data7	0.0	8.0		sd_count_casp_abs	
+1742	CellsCasp_count		model1_data7	0.0	12.0		sd_count_casp_abs	
+1743	CellsCasp_count		model1_data7	0.0	16.0		sd_count_casp_abs	
+1744	CellsCasp_count		model1_data7	0.0	20.0		sd_count_casp_abs	
+1745	CellsCasp_count		model1_data7	0.0	24.0		sd_count_casp_abs	
+1746	CellsCasp_count		model1_data7	0.0	28.0		sd_count_casp_abs	
+1747	CellsCasp_count		model1_data7	0.0	32.0		sd_count_casp_abs	
+1748	CellsCasp_count		model1_data7	0.0	36.0		sd_count_casp_abs	
+1749	CellsCasp_count		model1_data7	0.0	40.0		sd_count_casp_abs	
+1750	CellsCasp_count		model1_data7	0.0	44.0		sd_count_casp_abs	
+1751	CellsCasp_count		model1_data7	0.0	48.0		sd_count_casp_abs	
+1752	pATM_au		model1_data70	0.024117822510657846	6.0	scale_patm_au;	sd_patm_au	
+1753	pDNAPK_au		model1_data70	0.07413229572452491	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1754	pChk1_au		model1_data70	0.8356740760779731	6.0	scale_pchk1_au;	sd_pchk1_au	
+1755	pChk2_au		model1_data70	0.4297331447465544	6.0	scale_pchk2_au;	sd_pchk2_au	
+1756	tp53_au		model1_data70	0.0765972136705089	6.0	scale_tp53_au;	sd_tp53_au	
+1757	pp53_au		model1_data70	0.060779598177909996	6.0	scale_pp53_au;	sd_pp53_au	
+1758	tp21_au		model1_data70	0.023027915437112256	6.0	scale_tp21_au;	sd_tp21_au	
+1759	yH2AX_au		model1_data70	0.1986645263472327	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1760	pATM_au		model1_data71	0.02514280067874946	6.0	scale_patm_au;	sd_patm_au	
+1761	pATM_au		model1_data71	0.02514280067874946	6.0	scale_patm_au;	sd_patm_au	
+1762	pDNAPK_au		model1_data71	0.07387774350064648	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1763	pDNAPK_au		model1_data71	0.07387774350064648	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1764	pChk1_au		model1_data71	0.8324826794679686	6.0	scale_pchk1_au;	sd_pchk1_au	
+1765	pChk1_au		model1_data71	0.8324826794679686	6.0	scale_pchk1_au;	sd_pchk1_au	
+1766	pChk2_au		model1_data71	0.43240468931388215	6.0	scale_pchk2_au;	sd_pchk2_au	
+1767	pChk2_au		model1_data71	0.43240468931388215	6.0	scale_pchk2_au;	sd_pchk2_au	
+1768	tp53_au		model1_data71	0.0815131171333287	6.0	scale_tp53_au;	sd_tp53_au	
+1769	tp53_au		model1_data71	0.0815131171333287	6.0	scale_tp53_au;	sd_tp53_au	
+1770	pp53_au		model1_data71	0.06468034890804553	6.0	scale_pp53_au;	sd_pp53_au	
+1771	pp53_au		model1_data71	0.06468034890804553	6.0	scale_pp53_au;	sd_pp53_au	
+1772	tp21_au		model1_data71	0.025659334989976006	6.0	scale_tp21_au;	sd_tp21_au	
+1773	tp21_au		model1_data71	0.025659334989976006	6.0	scale_tp21_au;	sd_tp21_au	
+1774	yH2AX_au		model1_data71	0.21572856431786416	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1775	yH2AX_au		model1_data71	0.21572856431786416	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1776	pATM_au		model1_data72	0.025847477015899217	6.0	scale_patm_au;	sd_patm_au	
+1777	pDNAPK_au		model1_data72	0.07343032259417868	6.0	scale_pdnapk_au;	sd_pdnapk_au	
+1778	pChk1_au		model1_data72	0.8297322517580223	6.0	scale_pchk1_au;	sd_pchk1_au	
+1779	pChk2_au		model1_data72	0.4323428567751741	6.0	scale_pchk2_au;	sd_pchk2_au	
+1780	tp53_au		model1_data72	0.0850124798265807	6.0	scale_tp53_au;	sd_tp53_au	
+1781	pp53_au		model1_data72	0.06745707991668942	6.0	scale_pp53_au;	sd_pp53_au	
+1782	tp21_au		model1_data72	0.0277522811672812	6.0	scale_tp21_au;	sd_tp21_au	
+1783	yH2AX_au		model1_data72	0.228224672370046	6.0	scale_yh2ax_au;	sd_yh2ax_au	
+1784	p21_mRNA_fold		model1_data73	1.3446465885634216	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1785	Wip1_mRNA_fold		model1_data73	1.1224732984653831	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1786	p21_mRNA_fold		model1_data74	1.621808110851509	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1787	Wip1_mRNA_fold		model1_data74	1.1999550633598988	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1788	p21_mRNA_fold		model1_data75	1.859753193940012	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1789	Wip1_mRNA_fold		model1_data75	1.2603637571121336	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1790	p21_mRNA_fold		model1_data76	2.029658505737392	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1791	Wip1_mRNA_fold		model1_data76	1.2991435307641082	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1792	p21_mRNA_fold		model1_data77	2.1071379024729686	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1793	Wip1_mRNA_fold		model1_data77	1.3155563165819346	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1794	p21_mRNA_fold		model1_data78	2.135694753893394	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1795	Wip1_mRNA_fold		model1_data78	1.3213856932485992	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1796	p21_mRNA_fold		model1_data79	5.48020365931267	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1797	Wip1_mRNA_fold		model1_data79	2.2066023333635734	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1798	Cells_count		model1_data8	1.0	0.0		sd_count_abs	
+1799	Cells_count		model1_data8	1.1346607706459089	4.0		sd_count_abs	
+1800	Cells_count		model1_data8	1.285400680466244	8.0		sd_count_abs	
+1801	Cells_count		model1_data8	1.4477721106101868	12.0		sd_count_abs	
+1802	Cells_count		model1_data8	1.6223315958933577	16.0		sd_count_abs	
+1803	Cells_count		model1_data8	1.808963252991687	20.0		sd_count_abs	
+1804	Cells_count		model1_data8	2.0085115644595675	24.0		sd_count_abs	
+1805	Cells_count		model1_data8	2.222200124012188	28.0		sd_count_abs	
+1806	Cells_count		model1_data8	2.4510918564486044	32.0		sd_count_abs	
+1807	Cells_count		model1_data8	2.6958910945366545	36.0		sd_count_abs	
+1808	Cells_count		model1_data8	2.956974935064232	40.0		sd_count_abs	
+1809	Cells_count		model1_data8	3.234487378242555	44.0		sd_count_abs	
+1810	Cells_count		model1_data8	3.5284171637178057	48.0		sd_count_abs	
+1811	CellsCasp_count		model1_data8	0.0	0.0		sd_count_casp_abs	
+1812	CellsCasp_count		model1_data8	1.2823494958848175e-06	4.0		sd_count_casp_abs	
+1813	CellsCasp_count		model1_data8	1.4295471668395382e-05	8.0		sd_count_casp_abs	
+1814	CellsCasp_count		model1_data8	4.573153431410057e-05	12.0		sd_count_casp_abs	
+1815	CellsCasp_count		model1_data8	9.050414766244255e-05	16.0		sd_count_casp_abs	
+1816	CellsCasp_count		model1_data8	0.00014082625830245168	20.0		sd_count_casp_abs	
+1817	CellsCasp_count		model1_data8	0.00019299890480300885	24.0		sd_count_casp_abs	
+1818	CellsCasp_count		model1_data8	0.00024910164659630655	28.0		sd_count_casp_abs	
+1819	CellsCasp_count		model1_data8	0.000315646073448168	32.0		sd_count_casp_abs	
+1820	CellsCasp_count		model1_data8	0.00040128026369017273	36.0		sd_count_casp_abs	
+1821	CellsCasp_count		model1_data8	0.0005147749146923256	40.0		sd_count_casp_abs	
+1822	CellsCasp_count		model1_data8	0.000663766612748101	44.0		sd_count_casp_abs	
+1823	CellsCasp_count		model1_data8	0.0008542667367636893	48.0		sd_count_casp_abs	
+1824	p21_mRNA_fold		model1_data80	7.749011696261406	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1825	Wip1_mRNA_fold		model1_data80	2.5852966241897395	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1826	p21_mRNA_fold		model1_data81	8.551468633579816	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1827	Wip1_mRNA_fold		model1_data81	2.6650005356613637	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1828	p21_mRNA_fold		model1_data82	5.1513082551459615	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1829	Wip1_mRNA_fold		model1_data82	1.8948071925783854	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1830	p21_mRNA_fold		model1_data83	1.0204258158529629	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1831	Wip1_mRNA_fold		model1_data83	1.0043783727628255	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1832	p21_mRNA_fold		model1_data84	1.0081164504897593	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1833	Wip1_mRNA_fold		model1_data84	1.0017433879411775	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1834	p21_mRNA_fold		model1_data85	7.114481117776084	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1835	Wip1_mRNA_fold		model1_data85	2.5031199733773786	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1836	p21_mRNA_fold		model1_data86	8.355181427087524	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1837	Wip1_mRNA_fold		model1_data86	2.647277795018391	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1838	p21_mRNA_fold		model1_data87	8.750866293743783	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1839	Wip1_mRNA_fold		model1_data87	2.6792894987819107	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1840	p21_mRNA_fold		model1_data88	8.88136451234346	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1841	Wip1_mRNA_fold		model1_data88	2.688484660396423	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1842	p21_mRNA_fold		model1_data89	8.926646033658525	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1843	Wip1_mRNA_fold		model1_data89	2.6915304228082846	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
+1844	Cells_count		model1_data9	1.0	0.0		sd_count_abs	
+1845	Cells_count		model1_data9	1.0925979362558353	4.0		sd_count_abs	
+1846	Cells_count		model1_data9	1.1739373086330023	8.0		sd_count_abs	
+1847	Cells_count		model1_data9	1.2481396809727328	12.0		sd_count_abs	
+1848	Cells_count		model1_data9	1.3209657605876435	16.0		sd_count_abs	
+1849	Cells_count		model1_data9	1.3941050049163715	20.0		sd_count_abs	
+1850	Cells_count		model1_data9	1.4679676088347042	24.0		sd_count_abs	
+1851	Cells_count		model1_data9	1.5425921966612388	28.0		sd_count_abs	
+1852	Cells_count		model1_data9	1.6179241131102393	32.0		sd_count_abs	
+1853	Cells_count		model1_data9	1.693893003567116	36.0		sd_count_abs	
+1854	Cells_count		model1_data9	1.7704325642338934	40.0		sd_count_abs	
+1855	Cells_count		model1_data9	1.847484428876014	44.0		sd_count_abs	
+1856	Cells_count		model1_data9	1.9249980571315848	48.0		sd_count_abs	
+1857	CellsCasp_count		model1_data9	0.0	0.0		sd_count_casp_abs	
+1858	CellsCasp_count		model1_data9	2.4153613357144073e-06	4.0		sd_count_casp_abs	
+1859	CellsCasp_count		model1_data9	2.5982860478997283e-05	8.0		sd_count_casp_abs	
+1860	CellsCasp_count		model1_data9	8.482102111733333e-05	12.0		sd_count_casp_abs	
+1861	CellsCasp_count		model1_data9	0.00017674188747239332	16.0		sd_count_casp_abs	
+1862	CellsCasp_count		model1_data9	0.0002968565974709333	20.0		sd_count_casp_abs	
+1863	CellsCasp_count		model1_data9	0.00044535222022419786	24.0		sd_count_casp_abs	
+1864	CellsCasp_count		model1_data9	0.0006268703253246471	28.0		sd_count_casp_abs	
+1865	CellsCasp_count		model1_data9	0.0008466944665804613	32.0		sd_count_casp_abs	
+1866	CellsCasp_count		model1_data9	0.0011076055265448026	36.0		sd_count_casp_abs	
+1867	CellsCasp_count		model1_data9	0.0014086603176437066	40.0		sd_count_casp_abs	
+1868	CellsCasp_count		model1_data9	0.0017455765428590149	44.0		sd_count_casp_abs	
+1869	CellsCasp_count		model1_data9	0.002111932622544887	48.0		sd_count_casp_abs	
+1870	p21_mRNA_fold		model1_data90	8.942164751633769	12.0	scale_p21_mRNA_fold;	sd_p21_mRNA_fold	
+1871	Wip1_mRNA_fold		model1_data90	2.692559887646798	12.0	scale_wip1_mRNA_fold;	sd_wip1_mRNA_fold	
