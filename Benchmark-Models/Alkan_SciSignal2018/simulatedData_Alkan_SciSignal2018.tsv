@@ -1,4 +1,4 @@
-	observableId	preequilibrationConditionId	simulationConditionId	simulatedData	time	observableParameters	noiseParameters	datasetId
+	observableId	preequilibrationConditionId	simulationConditionId	simulation	time	observableParameters	noiseParameters	datasetId
 0	Cells_count		model1_data1	1.0	0.0		sd_count_abs	
 1	Cells_count		model1_data1	1.1414209255659091	4.0		sd_count_abs	
 2	Cells_count		model1_data1	1.3028050602815542	8.0		sd_count_abs	
