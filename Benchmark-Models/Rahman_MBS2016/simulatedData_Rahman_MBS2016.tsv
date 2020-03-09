@@ -1,4 +1,4 @@
-	observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters	datasetId
+	observableId	preequilibrationConditionId	simulationConditionId	simulation	time	observableParameters	noiseParameters	datasetId
 0	observable_prevalence		simCondition	0.20193254451694997	0		1	model1_data1_prevalence
 1	observable_prevalence		simCondition	0.5508733076280521	1		1	model1_data1_prevalence
 2	observable_prevalence		simCondition	1.136421165617051	2		1	model1_data1_prevalence
