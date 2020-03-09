@@ -1,0 +1,24 @@
+observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters	datasetId
+observable_prevalence		simCondition	0.3	0		1	model1_data1_prevalence
+observable_prevalence		simCondition	0.6	1		1	model1_data1_prevalence
+observable_prevalence		simCondition	1.1	2		1	model1_data1_prevalence
+observable_prevalence		simCondition	2.0	3		1	model1_data1_prevalence
+observable_prevalence		simCondition	3.3	4		1	model1_data1_prevalence
+observable_prevalence		simCondition	5.0	5		1	model1_data1_prevalence
+observable_prevalence		simCondition	7.0	6		1	model1_data1_prevalence
+observable_prevalence		simCondition	9.2	7		1	model1_data1_prevalence
+observable_prevalence		simCondition	11.3	8		1	model1_data1_prevalence
+observable_prevalence		simCondition	13.2	9		1	model1_data1_prevalence
+observable_prevalence		simCondition	14.9	10		1	model1_data1_prevalence
+observable_prevalence		simCondition	16.2	11		1	model1_data1_prevalence
+observable_prevalence		simCondition	17.1	12		1	model1_data1_prevalence
+observable_prevalence		simCondition	17.8	13		1	model1_data1_prevalence
+observable_prevalence		simCondition	18.3	14		1	model1_data1_prevalence
+observable_prevalence		simCondition	18.5	15		1	model1_data1_prevalence
+observable_prevalence		simCondition	18.7	16		1	model1_data1_prevalence
+observable_prevalence		simCondition	18.8	17		1	model1_data1_prevalence
+observable_prevalence		simCondition	18.9	18		1	model1_data1_prevalence
+observable_prevalence		simCondition	18.9	19		1	model1_data1_prevalence
+observable_prevalence		simCondition	18.9	20		1	model1_data1_prevalence
+observable_prevalence		simCondition	18.8	21		1	model1_data1_prevalence
+observable_prevalence		simCondition	18.9	22		1	model1_data1_prevalence
