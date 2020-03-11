@@ -1,0 +1,4 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+observable_pY1068_percent	pY1068_percent	100 * current_EGFR_pY1068_total / current_EGFR_total	noiseParameter1_observable_pY1068_percent	lin	normal
+observable_pY1173_percent	pY1173_percent	100 * current_EGFR_pY1173_total / current_EGFR_total	noiseParameter1_observable_pY1173_percent	lin	normal
+observable_pEGFR_percent	pEGFR_percent	100 * (current_EGFR_total - current_EGFR_dY1068_dY1173_dYN_total) / current_EGFR_total	noiseParameter1_observable_pEGFR_percent	lin	normal
