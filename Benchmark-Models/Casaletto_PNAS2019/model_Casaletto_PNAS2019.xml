@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="arFramework3" id="dimer_model_paper_make_clean_koff_no_ratios_der">
+  <model id="Casaletto_PNAS2019" name="Casaletto_PNAS2019">
     <listOfUnitDefinitions>
       <unitDefinition id="time" name="time">
         <listOfUnits>
