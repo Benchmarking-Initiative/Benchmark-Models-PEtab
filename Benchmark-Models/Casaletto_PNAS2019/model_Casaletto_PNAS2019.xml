@@ -17,60 +17,94 @@
       <species id="egfr" name="egfr" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="met" name="met" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="epcam" name="epcam" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="hgf_met" name="hgf_met" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="egf_egfr" name="egf_egfr" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="act_egfr_dimer" name="act_egfr_dimer" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="act_met_dimer" name="act_met_dimer" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="pAkt" name="pAkt" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="mm131_AB" name="mm131_AB" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="mm151_AB" name="mm151_AB" compartment="cell" initialConcentration="33.3333" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="met_egfr_AB" name="met_egfr_AB" compartment="cell" initialConcentration="33.3333" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="no_ta_cmet_AB" name="no_ta_cmet_AB" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="metmab" name="metmab" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="egfr_mm151_AB" name="egfr_mm151_AB" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="met_no_ta_cMet_AB" name="met_no_ta_cMet_AB" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="mm151_egfr_dimer" name="mm151_egfr_dimer" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="ligand" name="ligand" compartment="cell" initialConcentration="33.3333" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="met_AB" name="met_AB" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="egfr_AB" name="egfr_AB" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="met_egfr_dimer_AB" name="met_egfr_dimer_AB" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="met_mm131_AB" name="met_mm131_AB" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="epcam_mm131_AB" name="epcam_mm131_AB" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="mm131_dimer" name="mm131_dimer" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="metmab_met" name="metmab_met" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="hgf_met" name="hgf_met" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="egf_egfr" name="egf_egfr" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="act_egfr_dimer" name="act_egfr_dimer" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="act_met_dimer" name="act_met_dimer" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pAkt" name="pAkt" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="mm131_AB" name="mm131_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="mm151_AB" name="mm151_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="met_egfr_AB" name="met_egfr_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="no_ta_cmet_AB" name="no_ta_cmet_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="metmab" name="metmab" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="egfr_mm151_AB" name="egfr_mm151_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="met_no_ta_cMet_AB" name="met_no_ta_cMet_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="mm151_egfr_dimer" name="mm151_egfr_dimer" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ligand" name="ligand" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="met_AB" name="met_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="egfr_AB" name="egfr_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="met_egfr_dimer_AB" name="met_egfr_dimer_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="met_mm131_AB" name="met_mm131_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="epcam_mm131_AB" name="epcam_mm131_AB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="mm131_dimer" name="mm131_dimer" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="metmab_met" name="metmab_met" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
-      <parameter id="bool_epcam" value="217.063252560673" constant="true"/>
-      <parameter id="cl_mm131" value="0.854450180649882" constant="true"/>
-      <parameter id="egfr_prod" value="0.844039464844313" constant="true"/>
-      <parameter id="init_egf" value="0.0143922139305604" constant="true"/>
-      <parameter id="init_hgf" value="0.607496551263033" constant="true"/>
-      <parameter id="k2_mm151_bind" value="999.999868081115" constant="true"/>
-      <parameter id="k4_egfr_cmet_bind" value="1.8508411810795" constant="true"/>
-      <parameter id="k_deg_egfr" value="0.160303406459622" constant="true"/>
-      <parameter id="k_deg_met" value="4.04291565952104e-05" constant="true"/>
-      <parameter id="k_hgf_met_bind_cl" value="0.00155688892694997" constant="true"/>
-      <parameter id="k_pakt_act_egf" value="288.3070816474" constant="true"/>
-      <parameter id="k_pakt_act_hgf" value="999.989331474049" constant="true"/>
-      <parameter id="kdeg_met_egfr_dimer" value="721.126166882079" constant="true"/>
-      <parameter id="kdeg_mm131" value="999.999999992536" constant="true"/>
-      <parameter id="kdeg_mm151" value="988.408519392558" constant="true"/>
-      <parameter id="met_prod" value="1.52253636491035e-05" constant="true"/>
-      <parameter id="mm151_bool" value="1" constant="true"/>
-      <parameter id="no_ratio_binding_mm151" value="132.12018856593" constant="true"/>
-      <parameter id="no_ratio_epcam_131" value="0.0220476783284063" constant="true"/>
-      <parameter id="no_ratio_met_131" value="0.0246548849782876" constant="true"/>
-      <parameter id="no_ratio_met_egfr_151_egfr" value="0.0843021325807407" constant="true"/>
-      <parameter id="no_ratio_met_egfr_151_met" value="293.129182892672" constant="true"/>
-      <parameter id="no_ratio_metmab" value="0.0951061014175664" constant="true"/>
-      <parameter id="no_ratio_mm151_egfr" value="9.03251583537504" constant="true"/>
-      <parameter id="no_ratio_mm151_hgf" value="60.4001401478414" constant="true"/>
-      <parameter id="no_ratio_no_ta_met_151" value="1.02308829652554" constant="true"/>
-      <parameter id="offset_pakt" value="0.128754856794878" constant="true"/>
-      <parameter id="qfacs_fac" value="1.00000120195916e-05" constant="true"/>
-      <parameter id="scale_pakt" value="15.6014075974439" constant="true"/>
-      <parameter id="sd_pakt_au" value="0.222584717535062" constant="true"/>
-      <parameter id="pAkt_au" value="0" constant="false"/>
+      <parameter id="bool_epcam" name="bool_epcam" value="0.1" constant="true"/>
+      <parameter id="cl_mm131" name="cl_mm131" value="0.1" constant="true"/>
+      <parameter id="egfr_prod" name="egfr_prod" value="0.1" constant="true"/>
+      <parameter id="init_egfr" name="init_egfr" value="0.1" constant="true"/>
+      <parameter id="init_epcam" name="init_epcam" value="0.1" constant="true"/>
+      <parameter id="init_met" name="init_met" value="0.1" constant="true"/>
+      <parameter id="k2_mm151_bind" name="k2_mm151_bind" value="0.1" constant="true"/>
+      <parameter id="k4_egfr_cmet_bind" name="k4_egfr_cmet_bind" value="0.1" constant="true"/>
+      <parameter id="k_deg_egfr" name="k_deg_egfr" value="0.1" constant="true"/>
+      <parameter id="k_deg_met" name="k_deg_met" value="0.1" constant="true"/>
+      <parameter id="k_hgf_met_bind_cl" name="k_hgf_met_bind_cl" value="0.1" constant="true"/>
+      <parameter id="k_pakt_act_egf" name="k_pakt_act_egf" value="0.1" constant="true"/>
+      <parameter id="k_pakt_act_hgf" name="k_pakt_act_hgf" value="0.1" constant="true"/>
+      <parameter id="kdeg_met_egfr_dimer" name="kdeg_met_egfr_dimer" value="0.1" constant="true"/>
+      <parameter id="kdeg_mm131" name="kdeg_mm131" value="0.1" constant="true"/>
+      <parameter id="kdeg_mm151" name="kdeg_mm151" value="0.1" constant="true"/>
+      <parameter id="koff_egfr" name="koff_egfr" value="1" constant="false"/>
+      <parameter id="koff_egfr_AB" name="koff_egfr_AB" value="1" constant="false"/>
+      <parameter id="koff_met" name="koff_met" value="1" constant="false"/>
+      <parameter id="koff_met_AB" name="koff_met_AB" value="1" constant="false"/>
+      <parameter id="koff_metmab" name="koff_metmab" value="1" constant="false"/>
+      <parameter id="koff_mm131_epcam" name="koff_mm131_epcam" value="1" constant="false"/>
+      <parameter id="koff_mm131_met" name="koff_mm131_met" value="1" constant="false"/>
+      <parameter id="koff_mm151_bind" name="koff_mm151_bind" value="1" constant="false"/>
+      <parameter id="koff_no_ta" name="koff_no_ta" value="1" constant="false"/>
+      <parameter id="kon_egfr" name="kon_egfr" value="1" constant="false"/>
+      <parameter id="kon_egfr_AB" name="kon_egfr_AB" value="1" constant="false"/>
+      <parameter id="kon_met" name="kon_met" value="1" constant="false"/>
+      <parameter id="kon_met_AB" name="kon_met_AB" value="1" constant="false"/>
+      <parameter id="kon_metmab" name="kon_metmab" value="1" constant="false"/>
+      <parameter id="kon_mm131_epcam" name="kon_mm131_epcam" value="1" constant="false"/>
+      <parameter id="kon_mm131_met" name="kon_mm131_met" value="1" constant="false"/>
+      <parameter id="kon_mm151_bind" name="kon_mm151_bind" value="1" constant="false"/>
+      <parameter id="kon_no_ta" name="kon_no_ta" value="1" constant="false"/>
+      <parameter id="met_prod" name="met_prod" value="0.1" constant="true"/>
+      <parameter id="mm151_bool" name="mm151_bool" value="1" constant="true"/>
+      <parameter id="abc_fac_h1993" name="abc_fac_h1993" value="1" constant="true"/>
+      <parameter id="abc_fac_h292" name="abc_fac_h292" value="1" constant="true"/>
+      <parameter id="abc_fac_snu5" name="abc_fac_snu5" value="1" constant="true"/>
+      <parameter id="init_egf" name="init_egf" value="1" constant="true"/>
+      <parameter id="init_egf_combo" name="init_egf_combo" value="1" constant="true"/>
+      <parameter id="init_egf_combo_fig8" name="init_egf_combo_fig8" value="1" constant="true"/>
+      <parameter id="init_egf_combo_fig9" name="init_egf_combo_fig9" value="1" constant="true"/>
+      <parameter id="init_hgf" name="init_hgf" value="1" constant="true"/>
+      <parameter id="init_hgf_combo" name="init_hgf_combo" value="1" constant="true"/>
+      <parameter id="init_hgf_combo_fig8" name="init_hgf_combo_fig8" value="1" constant="true"/>
+      <parameter id="init_hgf_combo_fig9" name="init_hgf_combo_fig9" value="1" constant="true"/>
+      <parameter id="init_mm131_fig9" name="init_mm131_fig9" value="1" constant="true"/>
+      <parameter id="init_mm151_fig9" name="init_mm151_fig9" value="1" constant="true"/>
+      <parameter id="no_ratio_binding_mm151" name="no_ratio_binding_mm151" value="1" constant="true"/>
+      <parameter id="no_ratio_epcam_131" name="no_ratio_epcam_131" value="1" constant="true"/>
+      <parameter id="no_ratio_met_131" name="no_ratio_met_131" value="1" constant="true"/>
+      <parameter id="no_ratio_met_egfr_151_egfr" name="no_ratio_met_egfr_151_egfr" value="1" constant="true"/>
+      <parameter id="no_ratio_met_egfr_151_met" name="no_ratio_met_egfr_151_met" value="1" constant="true"/>
+      <parameter id="no_ratio_metmab" name="no_ratio_metmab" value="1" constant="true"/>
+      <parameter id="no_ratio_mm151_egfr" name="no_ratio_mm151_egfr" value="1" constant="true"/>
+      <parameter id="no_ratio_mm151_hgf" name="no_ratio_mm151_hgf" value="1" constant="true"/>
+      <parameter id="no_ratio_no_ta_met_151" name="no_ratio_no_ta_met_151" value="1" constant="true"/>
+      <parameter id="qfacs_fac" name="qfacs_fac" value="1" constant="true"/>
+      <parameter id="init_ligand" value="0" constant="true"/>
+      <parameter id="init_met_egfr_AB" value="0" constant="true"/>
+      <parameter id="init_metmab" value="0" constant="true"/>
+      <parameter id="init_mm131_AB" value="0" constant="true"/>
+      <parameter id="init_mm151_AB" value="0" constant="true"/>
+      <parameter id="init_no_ta_cmet_AB" value="0" constant="true"/>
     </listOfParameters>
     <listOfInitialAssignments>
       <initialAssignment symbol="HGF">
@@ -87,7 +121,7 @@
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <times/>
-            <cn type="integer"> 315000 </cn>
+            <ci> init_egfr </ci>
             <ci> qfacs_fac </ci>
           </apply>
         </math>
@@ -96,7 +130,7 @@
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <times/>
-            <cn> 71969.5 </cn>
+            <ci> init_met </ci>
             <ci> qfacs_fac </ci>
           </apply>
         </math>
@@ -105,29 +139,241 @@
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <times/>
-            <cn> 24045.75 </cn>
+            <ci> init_epcam </ci>
             <ci> qfacs_fac </ci>
           </apply>
         </math>
       </initialAssignment>
+      <initialAssignment symbol="hgf_met">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="egf_egfr">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="act_egfr_dimer">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="act_met_dimer">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="pAkt">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="mm131_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_mm131_AB </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="mm151_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_mm151_AB </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="met_egfr_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_met_egfr_AB </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="no_ta_cmet_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_no_ta_cmet_AB </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="metmab">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_metmab </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="egfr_mm151_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="met_no_ta_cMet_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="mm151_egfr_dimer">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ligand">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_ligand </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="met_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="egfr_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="met_egfr_dimer_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="met_mm131_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="epcam_mm131_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="mm131_dimer">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="metmab_met">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <cn type="integer"> 0 </cn>
+        </math>
+      </initialAssignment>
     </listOfInitialAssignments>
     <listOfRules>
-      <assignmentRule variable="pAkt_au">
+      <assignmentRule variable="koff_egfr">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> no_ratio_mm151_egfr </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="koff_egfr_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> no_ratio_met_egfr_151_egfr </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="koff_met">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> no_ratio_mm151_hgf </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="koff_met_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> no_ratio_met_egfr_151_met </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="koff_metmab">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> no_ratio_metmab </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="koff_mm131_epcam">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> no_ratio_epcam_131 </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="koff_mm131_met">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> no_ratio_met_131 </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="koff_mm151_bind">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> no_ratio_binding_mm151 </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="koff_no_ta">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> no_ratio_no_ta_met_151 </ci>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="kon_egfr">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
-            <log/>
-            <logbase>
-              <cn type="integer"> 10 </cn>
-            </logbase>
-            <apply>
-              <plus/>
-              <ci> offset_pakt </ci>
-              <apply>
-                <times/>
-                <ci> pAkt </ci>
-                <ci> scale_pakt </ci>
-              </apply>
-            </apply>
+            <divide/>
+            <ci> no_ratio_mm151_egfr </ci>
+            <cn type="integer"> 10 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="kon_egfr_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <cn> 1.25 </cn>
+            <ci> no_ratio_met_egfr_151_egfr </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="kon_met">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <cn> 2 </cn>
+            <ci> no_ratio_mm151_hgf </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="kon_met_AB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> no_ratio_met_egfr_151_met </ci>
+            <cn type="integer"> 6 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="kon_metmab">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <cn> 0.833333333333333 </cn>
+            <ci> no_ratio_metmab </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="kon_mm131_epcam">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> no_ratio_epcam_131 </ci>
+            <cn type="integer"> 10 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="kon_mm131_met">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <cn> 5 </cn>
+            <ci> no_ratio_met_131 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="kon_mm151_bind">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <cn> 2.5 </cn>
+            <ci> no_ratio_binding_mm151 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="kon_no_ta">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> no_ratio_no_ta_met_151 </ci>
+            <cn type="integer"> 6 </cn>
           </apply>
         </math>
       </assignmentRule>
@@ -146,10 +392,9 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <cn> 2 </cn>
               <ci> HGF </ci>
+              <ci> kon_met </ci>
               <ci> met </ci>
-              <ci> no_ratio_mm151_hgf </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -168,7 +413,7 @@
               <times/>
               <ci> cell </ci>
               <ci> hgf_met </ci>
-              <ci> no_ratio_mm151_hgf </ci>
+              <ci> koff_met </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -225,7 +470,7 @@
               <times/>
               <ci> cell </ci>
               <ci> act_met_dimer </ci>
-              <ci> no_ratio_mm151_hgf </ci>
+              <ci> koff_met </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -243,16 +488,9 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> EGF </ci>
-                  <ci> egfr </ci>
-                  <ci> no_ratio_mm151_egfr </ci>
-                </apply>
-                <cn type="integer"> 10 </cn>
-              </apply>
+              <ci> EGF </ci>
+              <ci> egfr </ci>
+              <ci> kon_egfr </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -271,7 +509,7 @@
               <times/>
               <ci> cell </ci>
               <ci> egf_egfr </ci>
-              <ci> no_ratio_mm151_egfr </ci>
+              <ci> koff_egfr </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -328,7 +566,7 @@
               <times/>
               <ci> cell </ci>
               <ci> act_egfr_dimer </ci>
-              <ci> no_ratio_mm151_egfr </ci>
+              <ci> koff_egfr </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -376,10 +614,9 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <cn> 2.5 </cn>
               <ci> egfr </ci>
+              <ci> kon_mm151_bind </ci>
               <ci> mm151_AB </ci>
-              <ci> no_ratio_binding_mm151 </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -398,7 +635,7 @@
               <times/>
               <ci> cell </ci>
               <ci> egfr_mm151_AB </ci>
-              <ci> no_ratio_binding_mm151 </ci>
+              <ci> koff_mm151_bind </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -437,8 +674,8 @@
             <apply>
               <times/>
               <ci> cell </ci>
+              <ci> koff_mm151_bind </ci>
               <ci> mm151_egfr_dimer </ci>
-              <ci> no_ratio_binding_mm151 </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -471,16 +708,9 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> met </ci>
-                  <ci> met_egfr_AB </ci>
-                  <ci> no_ratio_met_egfr_151_met </ci>
-                </apply>
-                <cn type="integer"> 6 </cn>
-              </apply>
+              <ci> kon_met_AB </ci>
+              <ci> met </ci>
+              <ci> met_egfr_AB </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -498,10 +728,9 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <cn> 1.25 </cn>
               <ci> egfr </ci>
+              <ci> kon_egfr_AB </ci>
               <ci> met_egfr_AB </ci>
-              <ci> no_ratio_met_egfr_151_egfr </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -520,7 +749,7 @@
               <times/>
               <ci> cell </ci>
               <ci> egfr_AB </ci>
-              <ci> no_ratio_met_egfr_151_egfr </ci>
+              <ci> koff_egfr_AB </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -538,8 +767,8 @@
             <apply>
               <times/>
               <ci> cell </ci>
+              <ci> koff_met_AB </ci>
               <ci> met_AB </ci>
-              <ci> no_ratio_met_egfr_151_met </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -612,8 +841,8 @@
             <apply>
               <times/>
               <ci> cell </ci>
+              <ci> koff_egfr_AB </ci>
               <ci> met_egfr_dimer_AB </ci>
-              <ci> no_ratio_met_egfr_151_egfr </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -631,8 +860,8 @@
             <apply>
               <times/>
               <ci> cell </ci>
+              <ci> koff_met_AB </ci>
               <ci> met_egfr_dimer_AB </ci>
-              <ci> no_ratio_met_egfr_151_met </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -650,16 +879,9 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> met </ci>
-                  <ci> no_ta_cmet_AB </ci>
-                  <ci> no_ratio_no_ta_met_151 </ci>
-                </apply>
-                <cn type="integer"> 6 </cn>
-              </apply>
+              <ci> kon_no_ta </ci>
+              <ci> met </ci>
+              <ci> no_ta_cmet_AB </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -677,8 +899,8 @@
             <apply>
               <times/>
               <ci> cell </ci>
+              <ci> koff_no_ta </ci>
               <ci> met_no_ta_cMet_AB </ci>
-              <ci> no_ratio_no_ta_met_151 </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -692,9 +914,8 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <cn> 71969.5 </cn>
+              <ci> init_met </ci>
               <ci> met_prod </ci>
-              <ci> qfacs_fac </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -708,9 +929,8 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <cn type="integer"> 315000 </cn>
               <ci> egfr_prod </ci>
-              <ci> qfacs_fac </ci>
+              <ci> init_egfr </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -758,10 +978,9 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <cn> 5 </cn>
+              <ci> kon_mm131_met </ci>
               <ci> met </ci>
               <ci> mm131_AB </ci>
-              <ci> no_ratio_met_131 </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -779,17 +998,10 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <apply>
-                <divide/>
-                <apply>
-                  <times/>
-                  <ci> bool_epcam </ci>
-                  <ci> epcam </ci>
-                  <ci> mm131_AB </ci>
-                  <ci> no_ratio_epcam_131 </ci>
-                </apply>
-                <cn type="integer"> 10 </cn>
-              </apply>
+              <ci> bool_epcam </ci>
+              <ci> epcam </ci>
+              <ci> kon_mm131_epcam </ci>
+              <ci> mm131_AB </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -807,8 +1019,8 @@
             <apply>
               <times/>
               <ci> cell </ci>
+              <ci> koff_mm131_met </ci>
               <ci> met_mm131_AB </ci>
-              <ci> no_ratio_met_131 </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -828,7 +1040,7 @@
               <ci> cell </ci>
               <ci> bool_epcam </ci>
               <ci> epcam_mm131_AB </ci>
-              <ci> no_ratio_epcam_131 </ci>
+              <ci> koff_mm131_epcam </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -903,8 +1115,8 @@
               <times/>
               <ci> cell </ci>
               <ci> bool_epcam </ci>
+              <ci> koff_mm131_met </ci>
               <ci> mm131_dimer </ci>
-              <ci> no_ratio_met_131 </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -923,8 +1135,8 @@
               <times/>
               <ci> cell </ci>
               <ci> bool_epcam </ci>
+              <ci> koff_mm131_epcam </ci>
               <ci> mm131_dimer </ci>
-              <ci> no_ratio_epcam_131 </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -942,10 +1154,9 @@
             <apply>
               <times/>
               <ci> cell </ci>
-              <cn> 0.833333333333333 </cn>
+              <ci> kon_metmab </ci>
               <ci> met </ci>
               <ci> metmab </ci>
-              <ci> no_ratio_metmab </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -963,8 +1174,8 @@
             <apply>
               <times/>
               <ci> cell </ci>
+              <ci> koff_metmab </ci>
               <ci> metmab_met </ci>
-              <ci> no_ratio_metmab </ci>
             </apply>
           </math>
         </kineticLaw>

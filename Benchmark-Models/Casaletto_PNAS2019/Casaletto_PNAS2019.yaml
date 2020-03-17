@@ -1,0 +1,11 @@
+format_version: 1
+parameter_file: parameters_Casaletto_PNAS2019.tsv
+problems:
+- condition_files:
+  - experimentalCondition_Casaletto_PNAS2019.tsv
+  measurement_files:
+  - measurementData_Casaletto_PNAS2019.tsv
+  observable_files:
+  - observables_Casaletto_PNAS2019.tsv
+  sbml_files:
+  - model_Casaletto_PNAS2019.xml
