@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model substanceUnits="item" timeUnits="year" extentUnits="item">
+    <listOfUnitDefinitions>
+      <unitDefinition id="year">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="31557600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_year">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="31557600"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c1" spatialDimensions="3" size="1" units="dimensionless" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="susceptible" compartment="c1" initialAmount="17940000" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="infected_normal" compartment="c1" initialAmount="16300" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="infected_moderate" compartment="c1" initialAmount="9000" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="infected_weak" compartment="c1" initialAmount="11000" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="treated_normal" compartment="c1" initialAmount="0" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="treated_moderate" compartment="c1" initialAmount="0" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+      <species id="treated_weak" compartment="c1" initialAmount="0" substanceUnits="item" hasOnlySubstanceUnits="true" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="recruitment_rate" value="1032672" units="per_year" constant="true"/>
+      <parameter id="force_of_infection" value="0" units="per_year" constant="false"/>
+      <parameter id="infected_normal_transmission_rate" value="1.03" units="per_year" constant="false"/>
+      <parameter id="infected_normal_transmission_rate_relative" value="12.57" units="per_year" constant="true"/>
+      <parameter id="infected_moderate_transmission_rate" value="0.082" units="per_year" constant="true"/>
+      <parameter id="infected_weak_transmission_rate" value="0.372" units="per_year" constant="false"/>
+      <parameter id="infected_weak_transmission_rate_relative" value="4.54" units="per_year" constant="true"/>
+      <parameter id="treated_transmission_rate" value="0.003" units="per_year" constant="false"/>
+      <parameter id="infected_normal_treatment_rate" value="0" units="per_year" constant="true"/>
+      <parameter id="infected_moderate_treatment_rate" value="0" units="per_year" constant="true"/>
+      <parameter id="infected_weak_treatment_rate" value="0.11" units="per_year" constant="true"/>
+      <parameter id="infected_normal_worsen_rate" value="0.33" units="per_year" constant="true"/>
+      <parameter id="infected_moderate_worsen_rate" value="0.34" units="per_year" constant="true"/>
+      <parameter id="treated_moderate_improve_rate" value="0.57" units="per_year" constant="true"/>
+      <parameter id="treated_weak_improve_rate" value="0.82" units="per_year" constant="true"/>
+      <parameter id="susceptible_death_rate" value="0.0288" units="per_year" constant="true"/>
+      <parameter id="infected_normal_death_rate" value="0.0888" units="per_year" constant="true"/>
+      <parameter id="infected_moderate_death_rate" value="0.1368" units="per_year" constant="true"/>
+      <parameter id="infected_weak_death_rate" value="0.3108" units="per_year" constant="true"/>
+      <parameter id="treated_normal_death_rate" value="0.0408" units="per_year" constant="true"/>
+      <parameter id="treated_moderate_death_rate" value="0.0528" units="per_year" constant="true"/>
+      <parameter id="treated_weak_death_rate" value="0.1752" units="per_year" constant="true"/>
+      <parameter id="behavioural_change_rate" value="0.00000024744" units="per_year" constant="true"/>
+      <parameter id="prevalence" value="0" units="item" constant="false"/>
+    </listOfParameters>
+    <listOfRules>
+      <assignmentRule variable="infected_normal_transmission_rate">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> infected_normal_transmission_rate_relative </ci>
+            <ci> infected_moderate_transmission_rate </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="infected_weak_transmission_rate">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> infected_weak_transmission_rate_relative </ci>
+            <ci> infected_moderate_transmission_rate </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="treated_transmission_rate">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <cn> 0.04 </cn>
+            <ci> infected_moderate_transmission_rate </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="force_of_infection">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> infected_normal_transmission_rate </ci>
+                  <ci> infected_normal </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> infected_moderate_transmission_rate </ci>
+                  <ci> infected_moderate </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> infected_weak_transmission_rate </ci>
+                  <ci> infected_weak </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> treated_transmission_rate </ci>
+                  <apply>
+                    <plus/>
+                    <ci> treated_normal </ci>
+                    <ci> treated_moderate </ci>
+                    <ci> treated_weak </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> susceptible </ci>
+                <ci> infected_normal </ci>
+                <ci> infected_moderate </ci>
+                <ci> infected_weak </ci>
+                <ci> treated_normal </ci>
+                <ci> treated_moderate </ci>
+                <ci> treated_weak </ci>
+              </apply>
+            </apply>
+            <apply>
+              <exp/>
+              <apply>
+                <times/>
+                <apply>
+                  <minus/>
+                  <cn> 1 </cn>
+                </apply>
+                <ci> behavioural_change_rate </ci>
+                <apply>
+                  <plus/>
+                  <ci> infected_normal </ci>
+                  <ci> infected_moderate </ci>
+                  <ci> infected_weak </ci>
+                  <ci> treated_normal </ci>
+                  <ci> treated_moderate </ci>
+                  <ci> treated_weak </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="prevalence">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <cn> 1 </cn>
+              <apply>
+                <divide/>
+                <ci> susceptible </ci>
+                <apply>
+                  <plus/>
+                  <ci> susceptible </ci>
+                  <ci> infected_normal </ci>
+                  <ci> infected_moderate </ci>
+                  <ci> infected_weak </ci>
+                  <ci> treated_normal </ci>
+                  <ci> treated_moderate </ci>
+                  <ci> treated_weak </ci>
+                </apply>
+              </apply>
+            </apply>
+            <cn> 100 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction id="v1" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="susceptible" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> recruitment_rate </ci>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v2" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="susceptible" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="infected_normal" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> force_of_infection </ci>
+              <ci> susceptible </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v3" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="infected_normal" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="infected_moderate" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> infected_normal_worsen_rate </ci>
+              <ci> infected_normal </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v4" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="infected_moderate" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="infected_weak" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> infected_moderate_worsen_rate </ci>
+              <ci> infected_moderate </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v5" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="treated_weak" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="treated_moderate" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> treated_weak_improve_rate </ci>
+              <ci> treated_weak </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v6" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="treated_moderate" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="treated_normal" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> treated_moderate_improve_rate </ci>
+              <ci> treated_moderate </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v7" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="infected_normal" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="treated_normal" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> infected_normal_treatment_rate </ci>
+              <ci> infected_normal </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v8" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="infected_moderate" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="treated_moderate" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> infected_moderate_treatment_rate </ci>
+              <ci> infected_moderate </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v9" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="infected_weak" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="treated_weak" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> infected_weak_treatment_rate </ci>
+              <ci> infected_weak </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v10" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="susceptible" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> susceptible_death_rate </ci>
+              <ci> susceptible </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v11" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="infected_normal" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> infected_normal_death_rate </ci>
+              <ci> infected_normal </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v12" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="infected_moderate" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> infected_moderate_death_rate </ci>
+              <ci> infected_moderate </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v13" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="infected_weak" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> infected_weak_death_rate </ci>
+              <ci> infected_weak </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v14" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="treated_normal" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> treated_normal_death_rate </ci>
+              <ci> treated_normal </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v15" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="treated_moderate" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> treated_moderate_death_rate </ci>
+              <ci> treated_moderate </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v16" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="treated_weak" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> treated_weak_death_rate </ci>
+              <ci> treated_weak </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
