@@ -1,0 +1,2 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+observable_prevalence	prevalence	prevalence	noiseParameter1_observable_prevalence	lin	normal
