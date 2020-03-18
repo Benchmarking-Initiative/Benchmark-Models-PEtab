@@ -9,3 +9,5 @@ problems:
   - observables_Schwen_PONE2014.tsv
   sbml_files:
   - model_Schwen_PONE2014.xml
+  visualization_files:
+  - visualizationSpecification_Schwen_PONE2014.tsv
