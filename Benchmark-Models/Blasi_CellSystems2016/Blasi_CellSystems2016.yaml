@@ -1,0 +1,11 @@
+format_version: 1
+parameter_file: parameters_Blasi_CellSystems2016.tsv
+problems:
+- condition_files:
+  - experimentalCondition_Blasi_CellSystems2016.tsv
+  measurement_files:
+  - measurementData_Blasi_CellSystems2016.tsv
+  observable_files:
+  - observables_Blasi_CellSystems2016.tsv
+  sbml_files:
+  - model_Blasi_CellSystems2016.xml
