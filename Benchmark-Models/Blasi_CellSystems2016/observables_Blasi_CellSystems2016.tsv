@@ -1,0 +1,17 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+observable_0ac		x_0ac	noiseParameter1_observable_0ac	log	normal
+observable_4ac		x_4ac	noiseParameter1_observable_4ac	log	normal
+observable_k12		x_k12	noiseParameter1_observable_k12	log	normal
+observable_k12k16		x_k12k16	noiseParameter1_observable_k12k16	log	normal
+observable_k16		x_k16	noiseParameter1_observable_k16	log	normal
+observable_k5		x_k5	noiseParameter1_observable_k5	log	normal
+observable_k5k12		x_k5k12	noiseParameter1_observable_k5k12	log	normal
+observable_k5k12k16		x_k5k12k16	noiseParameter1_observable_k5k12k16	log	normal
+observable_k5k16		x_k5k16	noiseParameter1_observable_k5k16	log	normal
+observable_k5k8		x_k5k8	noiseParameter1_observable_k5k8	log	normal
+observable_k5k8k12		x_k5k8k12	noiseParameter1_observable_k5k8k12	log	normal
+observable_k5k8k16		x_k5k8k16	noiseParameter1_observable_k5k8k16	log	normal
+observable_k8		x_k8	noiseParameter1_observable_k8	log	normal
+observable_k8k12		x_k8k12	noiseParameter1_observable_k8k12	log	normal
+observable_k8k12k16		x_k8k12k16	noiseParameter1_observable_k8k12k16	log	normal
+observable_k8k16		x_k8k16	noiseParameter1_observable_k8k16	log	normal

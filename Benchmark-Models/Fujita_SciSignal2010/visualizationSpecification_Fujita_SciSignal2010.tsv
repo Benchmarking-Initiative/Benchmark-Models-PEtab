@@ -1,0 +1,19 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+plot1	pEGFR	LinePlot	provided	model1_data1_pEGFR_tot	time	0	Time [s]	pEGFR_tot	0	Phosphorylation (AU)	EGF 0.1 ng/ml	lin	lin
+plot1	pEGFR	LinePlot	provided	model1_data2_pEGFR_tot	time	0	Time [s]	pEGFR_tot	0	Phosphorylation (AU)	EGF 0.3 ng/ml	lin	lin
+plot1	pEGFR	LinePlot	provided	model1_data3_pEGFR_tot	time	0	Time [s]	pEGFR_tot	0	Phosphorylation (AU)	EGF 1 ng/ml	lin	lin
+plot1	pEGFR	LinePlot	provided	model1_data4_pEGFR_tot	time	0	Time [s]	pEGFR_tot	0	Phosphorylation (AU)	EGF 3 ng/ml	lin	lin
+plot1	pEGFR	LinePlot	provided	model1_data5_pEGFR_tot	time	0	Time [s]	pEGFR_tot	0	Phosphorylation (AU)	EGF 10 ng/ml	lin	lin
+plot1	pEGFR	LinePlot	provided	model1_data6_pEGFR_tot	time	0	Time [s]	pEGFR_tot	0	Phosphorylation (AU)	EGF 30 ng/ml	lin	lin
+plot2	pAkt	LinePlot	provided	model1_data1_pAkt_tot	time	0	Time [s]	pAkt_tot	0	Phosphorylation (AU)	EGF 0.1 ng/ml	lin	lin
+plot2	pAkt	LinePlot	provided	model1_data2_pAkt_tot	time	0	Time [s]	pAkt_tot	0	Phosphorylation (AU)	EGF 0.3 ng/ml	lin	lin
+plot2	pAkt	LinePlot	provided	model1_data3_pAkt_tot	time	0	Time [s]	pAkt_tot	0	Phosphorylation (AU)	EGF 1 ng/ml	lin	lin
+plot2	pAkt	LinePlot	provided	model1_data4_pAkt_tot	time	0	Time [s]	pAkt_tot	0	Phosphorylation (AU)	EGF 3 ng/ml	lin	lin
+plot2	pAkt	LinePlot	provided	model1_data5_pAkt_tot	time	0	Time [s]	pAkt_tot	0	Phosphorylation (AU)	EGF 10 ng/ml	lin	lin
+plot2	pAkt	LinePlot	provided	model1_data6_pAkt_tot	time	0	Time [s]	pAkt_tot	0	Phosphorylation (AU)	EGF 30 ng/ml	lin	lin
+plot3	pS6	LinePlot	provided	model1_data1_pS6_tot	time	0	Time [s]	pS6_tot	0	Phosphorylation (AU)	EGF 0.1 ng/ml	lin	lin
+plot3	pS6	LinePlot	provided	model1_data2_pS6_tot	time	0	Time [s]	pS6_tot	0	Phosphorylation (AU)	EGF 0.3 ng/ml	lin	lin
+plot3	pS6	LinePlot	provided	model1_data3_pS6_tot	time	0	Time [s]	pS6_tot	0	Phosphorylation (AU)	EGF 1 ng/ml	lin	lin
+plot3	pS6	LinePlot	provided	model1_data4_pS6_tot	time	0	Time [s]	pS6_tot	0	Phosphorylation (AU)	EGF 3 ng/ml	lin	lin
+plot3	pS6	LinePlot	provided	model1_data5_pS6_tot	time	0	Time [s]	pS6_tot	0	Phosphorylation (AU)	EGF 10 ng/ml	lin	lin
+plot3	pS6	LinePlot	provided	model1_data6_pS6_tot	time	0	Time [s]	pS6_tot	0	Phosphorylation (AU)	EGF 30 ng/ml	lin	lin
