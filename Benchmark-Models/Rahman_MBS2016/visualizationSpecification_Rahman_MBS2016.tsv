@@ -1,0 +1,2 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+plot1	prevalence	LinePlot	MeanAndSD	model1_data1_prevalence	time	0	Time [years]	observable_prevalence	0	[%]	Prevalence	lin	lin

@@ -1,0 +1,10 @@
+parameterId	parameterScale	lowerBound	upperBound	nominalValue	estimate
+infected_normal_transmission_rate_relative	log10	0.1	1000	427.47	1
+infected_moderate_transmission_rate	log10	1E-04	1	0.0029273	1
+infected_weak_transmission_rate_relative	log10	0.1	1000	992.96	1
+infected_weak_treatment_rate	log10	1E-04	1	0.0001	1
+infected_normal_worsen_rate	log10	1E-04	1	0.66545	1
+infected_moderate_worsen_rate	log10	1E-04	1	0.0079757	1
+treated_moderate_improve_rate	log10	1E-04	1	0.13636	1
+treated_weak_improve_rate	log10	1E-04	1	0.77557	1
+behavioural_change_rate	log10	1E-09	1E-05	1.3380E-07	1
