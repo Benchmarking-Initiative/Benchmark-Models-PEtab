@@ -1,2 +1,35 @@
 plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
-plot1	MET_EGFR_AB	LinePlot	MeanAndSD	plotDoseResponseCurve1	init_met_egfr_AB	0	log$_{10}$(init_met_egfr_AB)	pAkt_au_egfr_cmet_nm	0	log$_{10}$(conc. [au])	t = 10 min	log10	log10
+plot1	combi_condi: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve1	init_met_egfr_AB	0	init_ligand	pAkt_au_egfr_cmet_nm	0	conc. [au]	t = 10 min: egfr_cMet_nm	log10	log10
+plot1	combi_condi: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve3	init_ligand	0	init_ligand	pAkt_au_mm151_egfr_cMet_nm	0	conc. [au]	t = 10 min: mm151_egfr_cMet_nm	log10	log10
+plot1	combi_condi: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve2	init_mm151_AB	0	init_ligand	pAkt_au_mm151_nm	0	conc. [au]	t = 10 min: mm151_nm	log10	log10
+plot1	combi_condi: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve4	init_no_ta_cmet_AB	0	init_ligand	pAkt_au_no_ta_cMet_nm	0	conc. [au]	t = 10 min: no_ta_cMet_nm	log10	log10
+plot2	JNJ_combi_snu5: act_met_dimer_au	LinePlot	MeanAndSD	plotDoseResponseCurve5	init_met_egfr_AB	0	init_met_egfr_AB	act_met_dimer_au_jnj_bs_nm_dr_snu5	0	conc. [au]	t = 10 min: BsAb	log10	log10
+plot2	JNJ_combi_snu5: act_met_dimer_au	LinePlot	MeanAndSD	plotDoseResponseCurve6	init_metmab	0	init_met_egfr_AB	act_met_dimer_au_jnj_met_nm_dr_snu5	0	conc. [au]	t = 10 min: Met_blind	log10	log10
+plot3	JNJ_combi_h1993: act_met_dimer_au	LinePlot	MeanAndSD	plotDoseResponseCurve7	init_met_egfr_AB	0	init_met_egfr_AB	act_met_dimer_au_jnj_bs_nm_dr_h1993	0	conc. [au]	t = 10 min: BsAb	log10	log10
+plot3	JNJ_combi_h1993: act_met_dimer_au	LinePlot	MeanAndSD	plotDoseResponseCurve8	init_metmab	0	init_met_egfr_AB	act_met_dimer_au_jnj_met_nm_dr_h1993	0	conc. [au]	t = 10 min: Met_blind	log10	log10
+plot4	JNJ_combi_h292: act_met_dimer_au	LinePlot	MeanAndSD	plotDoseResponseCurve9	init_met_egfr_AB	0	init_met_egfr_AB	act_met_dimer_au_jnj_bs_nm_dr_h292	0	conc. [au]	t = 10 min: BsAb	log10	log10
+plot4	JNJ_combi_h292: act_met_dimer_au	LinePlot	MeanAndSD	plotDoseResponseCurve10	init_metmab	0	init_met_egfr_AB	act_met_dimer_au_jnj_met_nm_dr_h292	0	conc. [au]	t = 10 min: Met_blind	log10	log10
+plot5	metmab_nm_a549: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve11	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_ID_ID1	0	conc. [au]	t = 10 min: jc_data_metmab_nm_ID_ID1	log10	log10
+plot5	metmab_nm_a549: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve12	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_ID_ID2	0	conc. [au]	t = 10 min: jc_data_metmab_nm_ID_ID2	log10	log10
+plot5	metmab_nm_a549: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve13	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_ID_ID3	0	conc. [au]	t = 10 min: jc_data_metmab_nm_ID_ID3	log10	log10
+plot5	metmab_nm_a549: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve14	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_ID_ID4	0	conc. [au]	t = 10 min: jc_data_metmab_nm_ID_ID4	log10	log10
+plot6	metmab_nm_h441: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve15	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h441_ID_ID1	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h441_ID_ID1	log10	log10
+plot6	metmab_nm_h441: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve16	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h441_ID_ID2	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h441_ID_ID2	log10	log10
+plot6	metmab_nm_h441: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve17	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h441_ID_ID3	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h441_ID_ID3	log10	log10
+plot6	metmab_nm_h441: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve18	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h441_ID_ID4	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h441_ID_ID4	log10	log10
+plot7	metmab_nm_h747: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve19	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h747_ID_ID1	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h747_ID_ID1	log10	log10
+plot7	metmab_nm_h747: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve20	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h747_ID_ID2	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h747_ID_ID2	log10	log10
+plot7	metmab_nm_h747: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve21	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h747_ID_ID3	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h747_ID_ID3	log10	log10
+plot7	metmab_nm_h747: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve22	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h747_ID_ID4	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h747_ID_ID4	log10	log10
+plot7	metmab_nm_h747: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve23	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h747_ID_ID5	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h747_ID_ID5	log10	log10
+plot7	metmab_nm_h747: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve24	init_metmab	0	init_metmab	pAkt_au_jc_data_metmab_nm_h747_ID_ID6	0	conc. [au]	t = 10 min: jc_data_metmab_nm_h747_ID_ID6	log10	log10
+plot8	egfr_cmet_nm_dummy: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve25	init_met_egfr_AB	0	init_met_egfr_AB	pAkt_au_egfr_cmet_nm_dummy	0	conc. [au]	t = 10 min	log10	log10
+plot9	ssu_hgf_egf_combi: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve26	init_mm151_AB	0	init_mm151_AB	pAkt_au_hgf_egf_combo_inhibition_2_AR1	0	conc. [au]	t = 10 min: MM131	log10	log10
+plot9	ssu_hgf_egf_combi: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve27	init_metmab	0	init_mm151_AB	pAkt_au_hgf_egf_combo_inhibition_2_AR2	0	conc. [au]	t = 10 min: mm151_egfr_cMet_nm	log10	log10
+plot9	ssu_hgf_egf_combi: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve28	init_mm131_AB	0	init_mm151_AB	pAkt_au_hgf_egf_combo_inhibition_2_AR3	0	conc. [au]	t = 10 min: MM131 = MM151	log10	log10
+plot9	ssu_hgf_egf_combi: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve29	init_ligand	0	init_mm151_AB	pAkt_au_hgf_egf_combo_inhibition_2_AR4	0	conc. [au]	t = 10 min: MM151 +MetmAB	log10	log10
+plot9	ssu_hgf_egf_combi: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve30	init_ligand	0	init_mm151_AB	pAkt_au_hgf_egf_combo_inhibition_2_AR5	0	conc. [au]	t = 10 min: MetmAB	log10	log10
+plot10	mm131_jc: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve31	init_mm131_AB	0	init_mm131_AB	pAkt_au_jc_data_mm131_nm_ID_ID1	0	conc. [au]	t = 10 min: jc_data_mm131_nm_ID_ID1	log10	log10
+plot10	mm131_jc: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve32	init_mm131_AB	0	init_mm131_AB	pAkt_au_jc_data_mm131_nm_ID_ID2	0	conc. [au]	t = 10 min: jc_data_mm131_nm_ID_ID2	log10	log10
+plot10	mm131_jc: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve33	init_mm131_AB	0	init_mm131_AB	pAkt_au_jc_data_mm131_nm_ID_ID3	0	conc. [au]	t = 10 min: jc_data_mm131_nm_ID_ID3	log10	log10
+plot10	mm131_jc: pAkt_au	LinePlot	MeanAndSD	plotDoseResponseCurve34	init_mm131_AB	0	init_mm131_AB	pAkt_au_jc_data_mm131_nm_ID_ID4	0	conc. [au]	t = 10 min: jc_data_mm131_nm_ID_ID4	log10	log10
