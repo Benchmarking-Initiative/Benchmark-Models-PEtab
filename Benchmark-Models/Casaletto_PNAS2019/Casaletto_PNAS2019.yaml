@@ -9,5 +9,5 @@ problems:
   - observables_Casaletto_PNAS2019.tsv
   sbml_files:
   - model_Casaletto_PNAS2019.xml
-  visualization files:
+  visualization_files:
   - visualizationSpecification_Casaletto_PNAS2019.tsv
