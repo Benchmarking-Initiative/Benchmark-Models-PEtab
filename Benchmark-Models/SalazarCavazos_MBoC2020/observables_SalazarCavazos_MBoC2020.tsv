@@ -1,0 +1,5 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+observable_pY1068_percent	pY1068_percent	(100*pY1068)/EGFRtot	noiseParameter1_observable_pY1068_percent	lin	normal
+observable_pY1173_percent	pY1173_percent	(100*pY1173)/EGFRtot	noiseParameter1_observable_pY1173_percent	lin	normal
+observable_unphosR_per	unphosR_per	(100*unphosR)/EGFRtot	noiseParameter1_observable_unphosR_per	lin	normal
+observable_phosR_per	phosR_per	(100*(EGFRtot-unphosR))/EGFRtot	noiseParameter1_observable_phosR_per	lin	normal

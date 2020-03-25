@@ -1,0 +1,19 @@
+observableId	preequilibrationConditionId	simulationConditionId	simulation	time	observableParameters	noiseParameters	datasetId
+observable_pY1068_percent		EGF25nM	12.533329878686965	60		0.67	model1_data1_EGF25nM
+observable_pY1068_percent		EGF25nM	12.533502638368994	120		0.69	model1_data1_EGF25nM
+observable_pY1068_percent		EGF25nM	12.53350264035847	300		0.85	model1_data1_EGF25nM
+observable_pY1173_percent		EGF25nM	20.533216762191987	60		0.79	model1_data1_EGF25nM
+observable_pY1173_percent		EGF25nM	20.533523045095688	120		0.88	model1_data1_EGF25nM
+observable_pY1173_percent		EGF25nM	20.533523048622783	300		1.02	model1_data1_EGF25nM
+observable_phosR_per		EGF25nM	41.251408681348245	60		0.2	model1_data1_EGF25nM
+observable_phosR_per		EGF25nM	44.816218864312795	120		0.26	model1_data1_EGF25nM
+observable_phosR_per		EGF25nM	46.06404244395114	300		0.34	model1_data1_EGF25nM
+observable_pY1068_percent		dose1	2.2806812205824816	300		0.29	model1_data1_dosing
+observable_pY1173_percent		dose1	3.886443510873913	300		0.31	model1_data1_dosing
+observable_phosR_per		dose1	8.976812466523912	300		0.61	model1_data1_dosing
+observable_pY1068_percent		dose2	11.427733171692154	300		0.66	model1_data1_dosing
+observable_pY1173_percent		dose2	18.78914831736962	300		0.66	model1_data1_dosing
+observable_phosR_per		dose2	42.48559733057973	300		0.97	model1_data1_dosing
+observable_pY1068_percent		dose3	12.648836157758213	300		0.98	model1_data1_dosing
+observable_pY1173_percent		dose3	20.71359386803154	300		0.8	model1_data1_dosing
+observable_phosR_per		dose3	46.40530531830804	300		1.3	model1_data1_dosing

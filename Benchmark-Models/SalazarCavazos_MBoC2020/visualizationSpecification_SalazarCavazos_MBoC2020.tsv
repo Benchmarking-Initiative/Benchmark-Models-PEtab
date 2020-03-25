@@ -1,0 +1,4 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+plot1	figure_2D	LinePlot	MeanAndSD	model1_data1_EGF25nM	time	0	Time after EGF addition (min)	observable_pY1068_percent	0	pEGFR (%)	pY1068	lin	lin
+plot1	figure_2D	LinePlot	MeanAndSD	model1_data1_EGF25nM	time	0	Time after EGF addition (min)	observable_pY1173_percent	0	pEGFR (%)	pY1173	lin	lin
+plot1	figure_2D	LinePlot	MeanAndSD	model1_data1_EGF25nM	time	0	Time after EGF addition (min)	observable_phosR_per	0	pEGFR (%)	PY	lin	lin
