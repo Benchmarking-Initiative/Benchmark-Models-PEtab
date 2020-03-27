@@ -780,6 +780,7 @@
                   <ci> CISRNAEqc </ci>
                   <ci> CISRNATurn </ci>
                   <ci> npSTAT5 </ci>
+                  <ci> ActD </ci>
                 </apply>
                 <ci> init_STAT5 </ci>
               </apply>
@@ -933,6 +934,23 @@
           </math>
         </kineticLaw>
       </reaction>
+      <reaction id="v26_v_25" name="v_25" reversible="false">
+        <listOfProducts>
+          <speciesReference species="CIS" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cyt </ci>
+              <ci> CISEqc </ci>
+              <ci> CISTurn </ci>
+              <ci> CISEqcOE </ci>
+              <ci> CISoe </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
       <reaction id="v27_v_26" name="v_26" reversible="false">
         <listOfProducts>
           <speciesReference species="SOCS3nRNA1" stoichiometry="1"/>
@@ -952,6 +970,7 @@
                   <ci> SOCS3RNAEqc </ci>
                   <ci> SOCS3RNATurn </ci>
                   <ci> npSTAT5 </ci>
+                  <ci> ActD </ci>
                 </apply>
                 <ci> init_STAT5 </ci>
               </apply>
@@ -1101,6 +1120,23 @@
               <ci> cyt </ci>
               <ci> SOCS3 </ci>
               <ci> SOCS3Turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v36_v_35" name="v_35" reversible="false">
+        <listOfProducts>
+          <speciesReference species="SOCS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cyt </ci>
+              <ci> SOCS3oe </ci>
+              <ci> SOCS3Eqc </ci>
+              <ci> SOCS3Turn </ci>
+              <ci> SOCS3EqcOE </ci>
             </apply>
           </math>
         </kineticLaw>
