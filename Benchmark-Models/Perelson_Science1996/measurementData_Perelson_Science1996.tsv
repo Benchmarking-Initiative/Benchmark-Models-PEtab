@@ -1,0 +1,17 @@
+observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters
+task0_model0_perelson1_V		condition1	1029000	0		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	1087000	0.105		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	2158000	0.169		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	1860000	0.282		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	2195000	0.492		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	1567000	0.757		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	3208000	1.029		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	2293000	1.253		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	1342000	1.533		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	1197000	1.75		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	987100	2.038		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	697300	3.013		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	503800	3.987		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	282200	4.968		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	172700	5.972		sd_task0_model0_perelson1_V
+task0_model0_perelson1_V		condition1	91618.242	6.973		sd_task0_model0_perelson1_V
