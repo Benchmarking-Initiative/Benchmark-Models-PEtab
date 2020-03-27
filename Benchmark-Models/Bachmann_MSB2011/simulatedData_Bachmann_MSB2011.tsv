@@ -1,4 +1,4 @@
-observableId	preequilibrationCondition	simulationCondition	simulation	time	observableParameters	noiseParameters
+observableId	preequilibrationConditionId	simulationConditionId	simulation	time	observableParameters	noiseParameters
 observable_CIS_abs		model1_data2	24.6100368089178	120		sd_CIS_abs
 observable_CIS_abs		model1_data2	24.6100368089178	120		sd_CIS_abs
 observable_CIS_abs		model1_data2	24.6100368089178	120		sd_CIS_abs
