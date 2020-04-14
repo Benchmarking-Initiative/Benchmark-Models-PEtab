@@ -1,4 +1,4 @@
-parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	priorType	priorParameters	hierarchicalOptimization (optional)
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	priorType	priorParameters	parameterType
 EGFR_turnover	EGFR_{turnover}	log10	1E-08	100000000	0.001479614562719	1			
 init_AKT	init_{AKT}	log10	1E-08	100000000	0.026930923029049	1			
 init_EGFR	init_{EGFR}	log10	1E-08	100000000	37536153.8059105	1			
@@ -15,6 +15,6 @@ reaction_6_k1	reaction_{6,k1}	log10	1E-08	100000000	5.46319692934546E-06	1
 reaction_7_k1	reaction_{7,k1}	log10	1E-08	100000000	0.011803208311735	1			
 reaction_8_k1	reaction_{8,k1}	log10	1E-08	100000000	0.000944761775113	1			
 reaction_9_k1	reaction_{9,k1}	log10	1E-08	100000000	0.028510798479438	1			
-scaling_pAkt_tot	scaling_{pAkt}_tot	log10	1E-08	100000000	41.3771031603841	1			
-scaling_pEGFR_tot	scaling_{pEGFR}_tot	log10	1E-08	100000000	5.64785460492811E-08	1			
-scaling_pS6_tot	scaling_{pS6}_tot	log10	1E-08	100000000	78521.9513232784	1			
+scaling_pAkt_tot	scaling_{pAkt}_tot	log10	1E-08	100000000	41.3771031603841	1			scaling
+scaling_pEGFR_tot	scaling_{pEGFR}_tot	log10	1E-08	100000000	5.64785460492811E-08	1			scaling
+scaling_pS6_tot	scaling_{pS6}_tot	log10	1E-08	100000000	78521.9513232784	1			scaling
