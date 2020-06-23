@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
-  <model substanceUnits="item" timeUnits="year" extentUnits="item">
+  <model substanceUnits="item" timeUnits="year" extentUnits="item" id="Rahman_MBS2016" name="Rahman_MBS2016">
     <listOfUnitDefinitions>
       <unitDefinition id="year">
         <listOfUnits>
