@@ -1,0 +1,8 @@
+conditionId	conditionName	Trigger_Stage_I	Trigger_Stage_II	Trigger_Stage_III	Trigger_Wuhan	Trigger_Hubei	Trigger_China
+model1_Wuhan_Stage_I	model1_Wuhan_Stage_I	1	0	0	1	0	0
+model1_Wuhan_Stage_II	model1_Wuhan_Stage_II	0	1	0	1	0	0
+model1_Wuhan_Stage_III	model1_Wuhan_Stage_III	0	0	1	1	0	0
+model1_Hubei_Stage_I	model1_Hubei_Stage_I	1	0	0	0	1	0
+model1_Hubei_Stage_II	model1_Hubei_Stage_II	0	1	0	0	1	0
+model1_China_Stage_I	model1_China_Stage_I	1	0	0	0	0	1
+model1_China_Stage_II	model1_China_Stage_II	0	1	0	0	0	1
