@@ -1,0 +1,13 @@
+format_version: 1
+parameter_file: parameters_Giordano_Nature2020.tsv
+problems:
+- condition_files:
+  - experimentalCondition_Giordano_Nature2020.tsv
+  measurement_files:
+  - measurementData_Giordano_Nature2020.tsv
+  observable_files:
+  - observables_Giordano_Nature2020.tsv
+  sbml_files:
+  - Giordano_Nature2020_model.xml
+  visualization_files:
+  - visualizationSpecification_Giordano_Nature2020.tsv
