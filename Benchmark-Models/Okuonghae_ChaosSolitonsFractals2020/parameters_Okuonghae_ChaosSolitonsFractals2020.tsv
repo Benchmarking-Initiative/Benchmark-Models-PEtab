@@ -1,0 +1,17 @@
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate
+alpha	alpha	log10	1E-05	1000	0.5	1
+d_0	d_0	log10	1E-05	1000	0.015	1
+d_D	d_D	log10	1E-05	1000	0.015	1
+gamma_0	gamma_0	log10	1E-05	1000	0.13978	1
+gamma_a	gamma_a	log10	1E-05	1000	0.13978	1
+gamma_i	gamma_i	log10	1E-05	1000	0.06666667	1
+nu	nu	log10	1E-05	1000	0.5	1
+psi	psi	log10	1E-05	1000	0.0135	1
+sigma	sigma	log10	1E-05	1000	0.1923077	1
+theta	theta	log10	1E-13	1000	2E-12	1
+asymptomatic_start	asymptomatic_start	log10	1	10000	188	1
+symptomatic_start	symptomatic_start	log10	1	10000	212	1
+exposed_start	exposed_start	log10	1	1000	441	1
+transmission_rate_effective	transmissionRate_effective	log10	1E-05	1000	0.4236	1
+sd_Cumulative	sd_Cumulative	log10	1E-05	1000	1	1
+sd_ActiveCases	sd_ActiveCases	log10	1E-05	1000	1	1

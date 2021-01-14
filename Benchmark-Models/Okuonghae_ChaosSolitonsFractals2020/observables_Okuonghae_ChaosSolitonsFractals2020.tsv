@@ -1,0 +1,3 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution
+observable_Cumulative	detected_cumulative	detected_cumulative	noiseParameter1_observable_Cumulative	normal
+observable_ActiveCases	ActiveCases	detected	noiseParameter1_observable_ActiveCases	normal
