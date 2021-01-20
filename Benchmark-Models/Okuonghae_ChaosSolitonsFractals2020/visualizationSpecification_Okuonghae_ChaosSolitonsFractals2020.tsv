@@ -1,0 +1,3 @@
+plotId	plotTypeSimulation	xValues	yValues	yLabel	datasetId	legendEntry
+ActiveCases Sim vs Data	LinePlot	time	observable_ActiveCases	Number of Active Cases	id1	Activecases
+Cumulative Sim vs Data	LinePlot	time	observable_Cumulative	Number of Cumulative Cases	id1	CumCases
