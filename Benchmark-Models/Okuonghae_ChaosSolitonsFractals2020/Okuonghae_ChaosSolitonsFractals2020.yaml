@@ -1,0 +1,13 @@
+format_version: 1
+parameter_file: parameters_Okuonghae_ChaosSolitonsFractals2020.tsv
+problems:
+- condition_files:
+  - experimentalConditions_Okuonghae_ChaosSolitonsFractals2020.tsv
+  measurement_files:
+  - measurementData_Okuonghae_ChaosSolitonsFractals2020.tsv
+  observable_files:
+  - observables_Okuonghae_ChaosSolitonsFractals2020.tsv
+  sbml_files:
+  - Okuonghae_ChaosSolitonsFractals2020_model.xml
+  visualization_files:
+  - visualizationSpecification_Okuonghae_ChaosSolitonsFractals2020.tsv
