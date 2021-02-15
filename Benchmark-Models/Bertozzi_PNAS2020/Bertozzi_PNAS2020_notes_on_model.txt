@@ -1,0 +1,5 @@
+Notes on Bertozzi PNAS 2020
+
+- the paper uses difference equations for their simulation (Euler approximations with size step 1 day), not differential equations. This leads to different curves than in the paper when simulation is run with same parameters and differential equations.
+- the paper starts its simulation on 22th of January 22 (Day 1). However, until 9th of March (Day 48), all the measurements (new infected each day) are 0. This is why I_0 (number of initially infected people) corresponds to a value of 0.1 people (absolute number!)
+- the 0 measurements dominate the fitting and it might look pretty strange.
