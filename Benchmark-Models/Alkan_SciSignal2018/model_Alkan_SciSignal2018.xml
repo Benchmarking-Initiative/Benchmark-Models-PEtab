@@ -1,0 +1,2832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model metaid="arFramework3" id="combined_model" name="NoName">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <pre>PEtab implementation of the model from Alkan et al. (2018), Science Signaling  24 Jul 2018: Vol. 11, Issue 540, eaat0229</pre>
+      </body>
+    </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#arFramework3">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Alkan</vCard:Family>
+                  <vCard:Given>Ozan</vCard:Given>
+                </vCard:N>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1126/scisignal.aat0229"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfUnitDefinitions>
+      <unitDefinition id="time" name="time">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="default" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="Space" name="Space" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells" name="Cells" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_Cycle_S" name="Cells_Cycle_S" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_Cycle_G2" name="Cells_Cycle_G2" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_SSBDamage_S" name="Cells_SSBDamage_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_DSBDamage_S" name="Cells_DSBDamage_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_DSBDamage_G2" name="Cells_DSBDamage_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_Apo" name="Cells_Apo" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_Apo1" name="Cells_Apo1" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_Apo2" name="Cells_Apo2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_Apo3" name="Cells_Apo3" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_Apo4" name="Cells_Apo4" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_Apo_ReOx" name="Cells_Apo_ReOx" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Cells_Dead" name="Cells_Dead" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pATR_S" name="pATR_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pATR_G2" name="pATR_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pChk1_S" name="pChk1_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pChk1_G2" name="pChk1_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pATM_S" name="pATM_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pATM_G2" name="pATM_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pChk2_S" name="pChk2_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pChk2_G2" name="pChk2_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pDNAPK_S" name="pDNAPK_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pDNAPK_G2" name="pDNAPK_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pp53_S" name="pp53_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pp53_G2" name="pp53_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="yH2AX_S" name="yH2AX_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="yH2AX_G2" name="yH2AX_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="p21_mRNA_S" name="p21_mRNA_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="p21_S" name="p21_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="p21_mRNA_G2" name="p21_mRNA_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="p21_G2" name="p21_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Wip1_mRNA_S" name="Wip1_mRNA_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Wip1_S" name="Wip1_S" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Wip1_mRNA_G2" name="Wip1_mRNA_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Wip1_G2" name="Wip1_G2" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="Gem_level" value="0.1" constant="false"/>
+      <parameter id="Dox_level" value="0" constant="false"/>
+      <parameter id="SN38_level" value="0" constant="false"/>
+      <parameter id="init_Cells" name="init_Cells" value="1" constant="false"/>
+      <parameter id="init_Cells_Cycle_G2_rel" name="init_Cells_Cycle_G2_rel" value="0.4" constant="false"/>
+      <parameter id="init_Cells_Cycle_S_rel" name="init_Cells_Cycle_S_rel" value="0.5" constant="false"/>
+      <parameter id="init_Space" name="init_Space" value="100" constant="false"/>
+      <parameter id="k_damage_sn38_ssb" name="k_damage_sn38_ssb" value="174.434737098025" constant="false"/>
+      <parameter id="k_ssb_to_dsb_sn38" name="k_ssb_to_dsb_sn38" value="999.999674332206" constant="false"/>
+      <parameter id="k_damage_dox_dsb" name="k_damage_dox_dsb" value="214.760281583402" constant="false"/>
+      <parameter id="k_dox_apo" name="k_dox_apo" value="0.0488009964455022" constant="false"/>
+      <parameter id="k_dox_kd" name="k_dox_kd" value="0.356451133426244" constant="false"/>
+      <parameter id="k_apo_dsb_g2" name="k_apo_dsb_g2" value="1e-05" constant="false"/>
+      <parameter id="k_apo_dsb_s" name="k_apo_dsb_s" value="1e-05" constant="false"/>
+      <parameter id="k_apo_ssb" name="k_apo_ssb" value="1e-05" constant="false"/>
+      <parameter id="k_cyc_arr_chk1" name="k_cyc_arr_chk1" value="999.99999999992" constant="false"/>
+      <parameter id="k_cyc_arr_chk2" name="k_cyc_arr_chk2" value="1000" constant="false"/>
+      <parameter id="k_damage_gem_ssb" name="k_damage_gem_ssb" value="49.8700470112818" constant="false"/>
+      <parameter id="k_death" name="k_death" value="0.103177842663178" constant="false"/>
+      <parameter id="k_death_delay" name="k_death_delay" value="0.141041612206608" constant="false"/>
+      <parameter id="k_death_reox" name="k_death_reox" value="0.034124623752161" constant="false"/>
+      <parameter id="k_lyse" name="k_lyse" value="10" constant="false"/>
+      <parameter id="k_rep_hr" name="k_rep_hr" value="1.00000000000009e-05" constant="false"/>
+      <parameter id="k_rep_nhej" name="k_rep_nhej" value="0.324197628164391" constant="false"/>
+      <parameter id="k_rep_nhej_sat" name="k_rep_nhej_sat" value="0.00686700298036127" constant="false"/>
+      <parameter id="k_rep_s" name="k_rep_s" value="1.00000000000009e-05" constant="false"/>
+      <parameter id="k_ssb_to_dsb" name="k_ssb_to_dsb" value="0.0304996268234734" constant="false"/>
+      <parameter id="kt" name="kt" value="0.187392093037445" constant="false"/>
+      <parameter id="kt_apo" name="kt_apo" value="0.123501569444653" constant="false"/>
+      <parameter id="p_mrna_exp_inh_dox" name="p_mrna_exp_inh_dox" value="999.999999999919" constant="false"/>
+      <parameter id="p_mrna_exp_inh_dox_kd" name="p_mrna_exp_inh_dox_kd" value="0.356451179497663" constant="false"/>
+      <parameter id="p_atm_act_dsb" name="p_atm_act_dsb" value="0.999999999999924" constant="false"/>
+      <parameter id="p_atr_act_atm" name="p_atr_act_atm" value="0.0902182570058027" constant="false"/>
+      <parameter id="p_atr_act_ssb" name="p_atr_act_ssb" value="0.0791834194872235" constant="false"/>
+      <parameter id="p_chk1_act" name="p_chk1_act" value="8.43249925096952" constant="false"/>
+      <parameter id="p_chk1_dea_wip1" name="p_chk1_dea_wip1" value="9.99999998885131" constant="false"/>
+      <parameter id="p_chk2_act" name="p_chk2_act" value="6.89308197813853" constant="false"/>
+      <parameter id="p_chk2_dea_wip1" name="p_chk2_dea_wip1" value="9.9999999999992" constant="false"/>
+      <parameter id="p_dnapk_act" name="p_dnapk_act" value="9.99999764924192" constant="false"/>
+      <parameter id="p_dnapk_dea_wip1" name="p_dnapk_dea_wip1" value="6.58806922708483" constant="false"/>
+      <parameter id="p_h2ax_act_atm" name="p_h2ax_act_atm" value="0.00135444548009859" constant="false"/>
+      <parameter id="p_h2ax_act_atr" name="p_h2ax_act_atr" value="0.00537764161229014" constant="false"/>
+      <parameter id="p_h2ax_act_dnapk" name="p_h2ax_act_dnapk" value="1.00000000000962e-05" constant="false"/>
+      <parameter id="p_h2ax_dea" name="p_h2ax_dea" value="1.00003466144413e-05" constant="false"/>
+      <parameter id="p_p21_mrna_turn" name="p_p21_mrna_turn" value="0.109354404673231" constant="false"/>
+      <parameter id="p_p21_turn" name="p_p21_turn" value="0.999999999999921" constant="false"/>
+      <parameter id="p_p53_act_atm" name="p_p53_act_atm" value="0.172667542315577" constant="false"/>
+      <parameter id="p_p53_act_atr" name="p_p53_act_atr" value="1.00000000000009e-05" constant="false"/>
+      <parameter id="p_p53_act_chk1" name="p_p53_act_chk1" value="1.00000000000855e-05" constant="false"/>
+      <parameter id="p_p53_act_chk2" name="p_p53_act_chk2" value="0.0512391341519817" constant="false"/>
+      <parameter id="p_wip1_mrna_turn" name="p_wip1_mrna_turn" value="3.40101630069606" constant="false"/>
+      <parameter id="p_wip1_turn" name="p_wip1_turn" value="3.41164292406599" constant="false"/>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="Space">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_Space </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Cells">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> init_Cells </ci>
+            <apply>
+              <minus/>
+              <ci> init_Cells_Cycle_G2_rel </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+            <apply>
+              <minus/>
+              <ci> init_Cells_Cycle_S_rel </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Cells_Cycle_S">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> init_Cells </ci>
+            <ci> init_Cells_Cycle_S_rel </ci>
+          </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Cells_Cycle_G2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <minus/>
+              <ci> init_Cells </ci>
+            </apply>
+            <ci> init_Cells_Cycle_G2_rel </ci>
+            <apply>
+              <minus/>
+              <ci> init_Cells_Cycle_S_rel </ci>
+              <cn type="integer"> 1 </cn>
+            </apply>
+          </apply>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfReactions>
+      <reaction id="v1_v_0" name="v_0" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Space" stoichiometry="1"/>
+          <speciesReference species="Cells" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Cycle_S" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Cells </ci>
+                <ci> Space </ci>
+                <ci> kt </ci>
+              </apply>
+              <ci> init_Space </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v2_v_1" name="v_1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Cycle_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Cycle_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Cells_Cycle_S </ci>
+                <ci> kt </ci>
+                <apply>
+                  <minus/>
+                  <ci> init_Cells_Cycle_G2_rel </ci>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+                <apply>
+                  <minus/>
+                  <ci> init_Cells_Cycle_S_rel </ci>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <times/>
+                      <ci> init_Cells </ci>
+                      <ci> init_Cells_Cycle_S_rel </ci>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <ci> init_Cells </ci>
+                      <apply>
+                        <minus/>
+                        <ci> init_Cells_Cycle_G2_rel </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                      <apply>
+                        <minus/>
+                        <ci> init_Cells_Cycle_S_rel </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <cn type="integer"> 2 </cn>
+                    <ci> init_Cells </ci>
+                    <ci> init_Cells_Cycle_G2_rel </ci>
+                    <apply>
+                      <minus/>
+                      <ci> init_Cells_Cycle_S_rel </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> init_Cells_Cycle_S_rel </ci>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <plus/>
+                    <apply>
+                      <times/>
+                      <cn type="integer"> 2 </cn>
+                      <ci> init_Cells </ci>
+                      <ci> init_Cells_Cycle_S_rel </ci>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <ci> init_Cells </ci>
+                      <apply>
+                        <minus/>
+                        <ci> init_Cells_Cycle_G2_rel </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                      <apply>
+                        <minus/>
+                        <ci> init_Cells_Cycle_S_rel </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <cn type="integer"> 2 </cn>
+                    <ci> init_Cells </ci>
+                    <ci> init_Cells_Cycle_G2_rel </ci>
+                    <apply>
+                      <minus/>
+                      <ci> init_Cells_Cycle_S_rel </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v3_v_2" name="v_2" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Cycle_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Cells_Cycle_G2 </ci>
+                  <ci> init_Cells </ci>
+                  <ci> kt </ci>
+                  <apply>
+                    <minus/>
+                    <ci> init_Cells_Cycle_G2_rel </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                  <apply>
+                    <minus/>
+                    <ci> init_Cells_Cycle_S_rel </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                  <apply>
+                    <minus/>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <times/>
+                        <ci> init_Cells </ci>
+                        <ci> init_Cells_Cycle_S_rel </ci>
+                      </apply>
+                      <apply>
+                        <times/>
+                        <ci> init_Cells </ci>
+                        <apply>
+                          <minus/>
+                          <ci> init_Cells_Cycle_G2_rel </ci>
+                          <cn type="integer"> 1 </cn>
+                        </apply>
+                        <apply>
+                          <minus/>
+                          <ci> init_Cells_Cycle_S_rel </ci>
+                          <cn type="integer"> 1 </cn>
+                        </apply>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <times/>
+                      <ci> init_Cells </ci>
+                      <ci> init_Cells_Cycle_G2_rel </ci>
+                      <apply>
+                        <minus/>
+                        <ci> init_Cells_Cycle_S_rel </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <minus/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <ci> init_Cells </ci>
+                      <cn type="integer"> 2 </cn>
+                    </apply>
+                    <ci> init_Cells_Cycle_G2_rel </ci>
+                    <apply>
+                      <minus/>
+                      <ci> init_Cells_Cycle_G2_rel </ci>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <minus/>
+                        <ci> init_Cells_Cycle_S_rel </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                      <cn type="integer"> 2 </cn>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <cn type="integer"> 2 </cn>
+                    <apply>
+                      <power/>
+                      <ci> init_Cells </ci>
+                      <cn type="integer"> 2 </cn>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <ci> init_Cells_Cycle_G2_rel </ci>
+                      <cn type="integer"> 2 </cn>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <minus/>
+                        <ci> init_Cells_Cycle_S_rel </ci>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                      <cn type="integer"> 2 </cn>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <cn type="integer"> 2 </cn>
+                  <apply>
+                    <power/>
+                    <ci> init_Cells </ci>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                  <ci> init_Cells_Cycle_G2_rel </ci>
+                  <ci> init_Cells_Cycle_S_rel </ci>
+                  <apply>
+                    <minus/>
+                    <ci> init_Cells_Cycle_S_rel </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v4_v_3" name="v_3" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo1" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo </ci>
+              <ci> k_death_delay </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v5_v_4" name="v_4" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo1" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo1 </ci>
+              <ci> k_death_delay </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v6_v_5" name="v_5" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo2 </ci>
+              <ci> k_death_delay </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v7_v_6" name="v_6" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo3 </ci>
+              <ci> k_death_delay </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v8_v_7" name="v_7" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Dead" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo4 </ci>
+              <ci> k_death </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v9_v_8" name="v_8" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v10_v_9" name="v_9" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Cycle_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Cycle_S </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v11_v_10" name="v_10" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Cycle_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Cycle_G2 </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v12_v_11" name="v_11" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_SSBDamage_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_SSBDamage_S </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v13_v_12" name="v_12" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_DSBDamage_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_DSBDamage_S </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v14_v_13" name="v_13" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_DSBDamage_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_DSBDamage_G2 </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v15_v_14" name="v_14" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v16_v_15" name="v_15" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo1" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo1 </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v17_v_16" name="v_16" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo2 </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v18_v_17" name="v_17" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo3 </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v19_v_18" name="v_18" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo4 </ci>
+              <ci> k_dox_apo </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <power/>
+                  <ci> Dox_level </ci>
+                  <cn> 6 </cn>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <power/>
+                    <ci> Dox_level </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <ci> k_dox_kd </ci>
+                    <cn> 6 </cn>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v20_v_19" name="v_19" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Apo_ReOx" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Dead" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Apo_ReOx </ci>
+              <ci> k_death_reox </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v21_v_20" name="v_20" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Dead" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Space" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Dead </ci>
+              <ci> k_lyse </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v22_v_21" name="v_21" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Cycle_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_SSBDamage_S" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Gem_level </ci>
+              <ci> Cells_Cycle_S </ci>
+              <ci> k_damage_gem_ssb </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v23_v_22" name="v_22" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Cycle_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_DSBDamage_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_Cycle_G2 </ci>
+              <ci> k_damage_dox_dsb </ci>
+              <ci> Dox_level </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v24_v_23" name="v_23" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_Cycle_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_SSBDamage_S" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> SN38_level </ci>
+              <ci> Cells_Cycle_S </ci>
+              <ci> k_damage_sn38_ssb </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v25_v_24" name="v_24" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_SSBDamage_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_DSBDamage_S" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_SSBDamage_S </ci>
+              <apply>
+                <plus/>
+                <ci> k_ssb_to_dsb </ci>
+                <apply>
+                  <times/>
+                  <ci> k_ssb_to_dsb_sn38 </ci>
+                  <piecewise>
+                    <piece>
+                      <cn> 1 </cn>
+                      <apply>
+                        <gt/>
+                        <ci> SN38_level </ci>
+                        <cn> 0 </cn>
+                      </apply>
+                    </piece>
+                    <piece>
+                      <cn> 0 </cn>
+                      <apply>
+                        <leq/>
+                        <ci> SN38_level </ci>
+                        <cn> 0 </cn>
+                      </apply>
+                    </piece>
+                  </piecewise>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v26_v_25" name="v_25" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_SSBDamage_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Cycle_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATR_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_SSBDamage_S </ci>
+              <ci> k_rep_s </ci>
+              <ci> pATR_S </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v27_v_26" name="v_26" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_DSBDamage_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Cycle_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pDNAPK_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Cells_DSBDamage_S </ci>
+                <ci> k_rep_nhej </ci>
+                <ci> pDNAPK_S </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Cells_DSBDamage_S </ci>
+                <ci> k_rep_nhej_sat </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v28_v_27" name="v_27" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_DSBDamage_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Cycle_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pDNAPK_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Cells_DSBDamage_G2 </ci>
+                <ci> k_rep_nhej </ci>
+                <ci> pDNAPK_G2 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Cells_DSBDamage_G2 </ci>
+                <ci> k_rep_nhej_sat </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v29_v_28" name="v_28" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_DSBDamage_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Cycle_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATM_G2"/>
+          <modifierSpeciesReference species="pATR_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_DSBDamage_G2 </ci>
+              <ci> k_rep_hr </ci>
+              <ci> pATM_G2 </ci>
+              <ci> pATR_G2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v30_v_29" name="v_29" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_SSBDamage_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pp53_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_SSBDamage_S </ci>
+              <ci> k_apo_ssb </ci>
+              <ci> pp53_S </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v31_v_30" name="v_30" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_DSBDamage_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pp53_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_DSBDamage_S </ci>
+              <ci> k_apo_dsb_s </ci>
+              <ci> pp53_S </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v32_v_31" name="v_31" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_DSBDamage_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pp53_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Cells_DSBDamage_G2 </ci>
+              <ci> k_apo_dsb_g2 </ci>
+              <ci> pp53_G2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v33_v_32" name="v_32" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_SSBDamage_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pChk1_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Cells_SSBDamage_S </ci>
+                <ci> kt_apo </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k_cyc_arr_chk1 </ci>
+                  <ci> pChk1_S </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v34_v_33" name="v_33" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_DSBDamage_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pChk1_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Cells_DSBDamage_S </ci>
+                <ci> kt_apo </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k_cyc_arr_chk1 </ci>
+                  <ci> pChk1_S </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v35_v_34" name="v_34" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cells_DSBDamage_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cells_Apo" stoichiometry="2"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pChk2_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> Cells_DSBDamage_G2 </ci>
+                <ci> kt_apo </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k_cyc_arr_chk2 </ci>
+                  <ci> pChk2_G2 </ci>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v42_v_41" name="v_41" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pATR_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Cells"/>
+          <modifierSpeciesReference species="Cells_Apo"/>
+          <modifierSpeciesReference species="Cells_Apo1"/>
+          <modifierSpeciesReference species="Cells_Apo2"/>
+          <modifierSpeciesReference species="Cells_Apo3"/>
+          <modifierSpeciesReference species="Cells_Apo4"/>
+          <modifierSpeciesReference species="Cells_Cycle_G2"/>
+          <modifierSpeciesReference species="Cells_Cycle_S"/>
+          <modifierSpeciesReference species="Cells_Apo_ReOx"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_G2"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_S"/>
+          <modifierSpeciesReference species="Cells_SSBDamage_S"/>
+          <modifierSpeciesReference species="pATR_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Cells_SSBDamage_S </ci>
+                  <ci> p_atr_act_ssb </ci>
+                  <apply>
+                    <minus/>
+                    <ci> pATR_S </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Cells </ci>
+                <ci> Cells_Apo </ci>
+                <ci> Cells_Apo1 </ci>
+                <ci> Cells_Apo2 </ci>
+                <ci> Cells_Apo3 </ci>
+                <ci> Cells_Apo4 </ci>
+                <ci> Cells_Cycle_G2 </ci>
+                <ci> Cells_Cycle_S </ci>
+                <ci> Cells_Apo_ReOx </ci>
+                <ci> Cells_DSBDamage_G2 </ci>
+                <ci> Cells_DSBDamage_S </ci>
+                <ci> Cells_SSBDamage_S </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v43_v_42" name="v_42" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pATR_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATM_S"/>
+          <modifierSpeciesReference species="pATR_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATM_S </ci>
+              </apply>
+              <ci> p_atr_act_atm </ci>
+              <apply>
+                <minus/>
+                <ci> pATR_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v44_v_43" name="v_43" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pATR_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pATR_S </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v45_v_44" name="v_44" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pChk1_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATR_S"/>
+          <modifierSpeciesReference species="pChk1_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATR_S </ci>
+              </apply>
+              <ci> p_chk1_act </ci>
+              <apply>
+                <minus/>
+                <ci> pChk1_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v46_v_45" name="v_45" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pChk1_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pChk1_S </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v47_v_46" name="v_46" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pChk1_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Wip1_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_S </ci>
+              <ci> pChk1_S </ci>
+              <ci> p_chk1_dea_wip1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v48_v_47" name="v_47" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pATM_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Cells"/>
+          <modifierSpeciesReference species="Cells_Apo"/>
+          <modifierSpeciesReference species="Cells_Apo1"/>
+          <modifierSpeciesReference species="Cells_Apo2"/>
+          <modifierSpeciesReference species="Cells_Apo3"/>
+          <modifierSpeciesReference species="Cells_Apo4"/>
+          <modifierSpeciesReference species="Cells_Cycle_G2"/>
+          <modifierSpeciesReference species="Cells_Cycle_S"/>
+          <modifierSpeciesReference species="Cells_Apo_ReOx"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_G2"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_S"/>
+          <modifierSpeciesReference species="Cells_SSBDamage_S"/>
+          <modifierSpeciesReference species="pATM_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Cells_DSBDamage_S </ci>
+                  <ci> p_atm_act_dsb </ci>
+                  <apply>
+                    <minus/>
+                    <ci> pATM_S </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Cells </ci>
+                <ci> Cells_Apo </ci>
+                <ci> Cells_Apo1 </ci>
+                <ci> Cells_Apo2 </ci>
+                <ci> Cells_Apo3 </ci>
+                <ci> Cells_Apo4 </ci>
+                <ci> Cells_Cycle_G2 </ci>
+                <ci> Cells_Cycle_S </ci>
+                <ci> Cells_Apo_ReOx </ci>
+                <ci> Cells_DSBDamage_G2 </ci>
+                <ci> Cells_DSBDamage_S </ci>
+                <ci> Cells_SSBDamage_S </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v49_v_48" name="v_48" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pATM_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pATM_S </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v50_v_49" name="v_49" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pChk2_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATM_S"/>
+          <modifierSpeciesReference species="pChk2_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATM_S </ci>
+              </apply>
+              <ci> p_chk2_act </ci>
+              <apply>
+                <minus/>
+                <ci> pChk2_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v51_v_50" name="v_50" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pChk2_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pChk2_S </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v52_v_51" name="v_51" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pChk2_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Wip1_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_S </ci>
+              <ci> pChk2_S </ci>
+              <ci> p_chk2_dea_wip1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v53_v_52" name="v_52" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pDNAPK_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Cells"/>
+          <modifierSpeciesReference species="Cells_Apo"/>
+          <modifierSpeciesReference species="Cells_Apo1"/>
+          <modifierSpeciesReference species="Cells_Apo2"/>
+          <modifierSpeciesReference species="Cells_Apo3"/>
+          <modifierSpeciesReference species="Cells_Apo4"/>
+          <modifierSpeciesReference species="Cells_Cycle_G2"/>
+          <modifierSpeciesReference species="Cells_Cycle_S"/>
+          <modifierSpeciesReference species="Cells_Apo_ReOx"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_G2"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_S"/>
+          <modifierSpeciesReference species="Cells_SSBDamage_S"/>
+          <modifierSpeciesReference species="pDNAPK_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Cells_DSBDamage_S </ci>
+                  <ci> p_dnapk_act </ci>
+                  <apply>
+                    <minus/>
+                    <ci> pDNAPK_S </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Cells </ci>
+                <ci> Cells_Apo </ci>
+                <ci> Cells_Apo1 </ci>
+                <ci> Cells_Apo2 </ci>
+                <ci> Cells_Apo3 </ci>
+                <ci> Cells_Apo4 </ci>
+                <ci> Cells_Cycle_G2 </ci>
+                <ci> Cells_Cycle_S </ci>
+                <ci> Cells_Apo_ReOx </ci>
+                <ci> Cells_DSBDamage_G2 </ci>
+                <ci> Cells_DSBDamage_S </ci>
+                <ci> Cells_SSBDamage_S </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v54_v_53" name="v_53" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pDNAPK_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pDNAPK_S </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v55_v_54" name="v_54" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pDNAPK_S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Wip1_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_S </ci>
+              <ci> pDNAPK_S </ci>
+              <ci> p_dnapk_dea_wip1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v56_v_55" name="v_55" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pp53_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATR_S"/>
+          <modifierSpeciesReference species="pp53_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATR_S </ci>
+              </apply>
+              <ci> p_p53_act_atr </ci>
+              <apply>
+                <minus/>
+                <ci> pp53_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v57_v_56" name="v_56" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pp53_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pChk1_S"/>
+          <modifierSpeciesReference species="pp53_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pChk1_S </ci>
+              </apply>
+              <ci> p_p53_act_chk1 </ci>
+              <apply>
+                <minus/>
+                <ci> pp53_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v58_v_57" name="v_57" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pp53_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATM_S"/>
+          <modifierSpeciesReference species="pp53_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATM_S </ci>
+              </apply>
+              <ci> p_p53_act_atm </ci>
+              <apply>
+                <minus/>
+                <ci> pp53_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v59_v_58" name="v_58" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pp53_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pChk2_S"/>
+          <modifierSpeciesReference species="pp53_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pChk2_S </ci>
+              </apply>
+              <ci> p_p53_act_chk2 </ci>
+              <apply>
+                <minus/>
+                <ci> pp53_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v60_v_59" name="v_59" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pp53_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pp53_S </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v61_v_60" name="v_60" reversible="false">
+        <listOfProducts>
+          <speciesReference species="p21_mRNA_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pp53_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> p_p21_mrna_turn </ci>
+                <ci> pp53_S </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> p_mrna_exp_inh_dox </ci>
+                  <apply>
+                    <divide/>
+                    <apply>
+                      <power/>
+                      <ci> Dox_level </ci>
+                      <cn> 6 </cn>
+                    </apply>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <power/>
+                        <ci> Dox_level </ci>
+                        <cn> 6 </cn>
+                      </apply>
+                      <apply>
+                        <power/>
+                        <ci> p_mrna_exp_inh_dox_kd </ci>
+                        <cn> 6 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v62_v_61" name="v_61" reversible="false">
+        <listOfReactants>
+          <speciesReference species="p21_mRNA_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> p21_mRNA_S </ci>
+              <ci> p_p21_mrna_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v63_v_62" name="v_62" reversible="false">
+        <listOfProducts>
+          <speciesReference species="p21_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="p21_mRNA_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> p21_mRNA_S </ci>
+              <ci> p_p21_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v64_v_63" name="v_63" reversible="false">
+        <listOfReactants>
+          <speciesReference species="p21_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> p21_S </ci>
+              <ci> p_p21_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v65_v_64" name="v_64" reversible="false">
+        <listOfProducts>
+          <speciesReference species="Wip1_mRNA_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pp53_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> p_wip1_mrna_turn </ci>
+                <ci> pp53_S </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> p_mrna_exp_inh_dox </ci>
+                  <apply>
+                    <divide/>
+                    <apply>
+                      <power/>
+                      <ci> Dox_level </ci>
+                      <cn> 6 </cn>
+                    </apply>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <power/>
+                        <ci> Dox_level </ci>
+                        <cn> 6 </cn>
+                      </apply>
+                      <apply>
+                        <power/>
+                        <ci> p_mrna_exp_inh_dox_kd </ci>
+                        <cn> 6 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v66_v_65" name="v_65" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Wip1_mRNA_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_mRNA_S </ci>
+              <ci> p_wip1_mrna_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v67_v_66" name="v_66" reversible="false">
+        <listOfProducts>
+          <speciesReference species="Wip1_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Wip1_mRNA_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_mRNA_S </ci>
+              <ci> p_wip1_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v68_v_67" name="v_67" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Wip1_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_S </ci>
+              <ci> p_wip1_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v69_v_68" name="v_68" reversible="false">
+        <listOfProducts>
+          <speciesReference species="yH2AX_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATM_S"/>
+          <modifierSpeciesReference species="yH2AX_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATM_S </ci>
+              </apply>
+              <ci> p_h2ax_act_atm </ci>
+              <apply>
+                <minus/>
+                <ci> yH2AX_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v70_v_69" name="v_69" reversible="false">
+        <listOfProducts>
+          <speciesReference species="yH2AX_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATR_S"/>
+          <modifierSpeciesReference species="yH2AX_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATR_S </ci>
+              </apply>
+              <ci> p_h2ax_act_atr </ci>
+              <apply>
+                <minus/>
+                <ci> yH2AX_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v71_v_70" name="v_70" reversible="false">
+        <listOfProducts>
+          <speciesReference species="yH2AX_S" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pDNAPK_S"/>
+          <modifierSpeciesReference species="yH2AX_S"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pDNAPK_S </ci>
+              </apply>
+              <ci> p_h2ax_act_dnapk </ci>
+              <apply>
+                <minus/>
+                <ci> yH2AX_S </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v72_v_71" name="v_71" reversible="false">
+        <listOfReactants>
+          <speciesReference species="yH2AX_S" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> p_h2ax_dea </ci>
+              <ci> yH2AX_S </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v73_v_72" name="v_72" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pATR_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATM_G2"/>
+          <modifierSpeciesReference species="pATR_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATM_G2 </ci>
+              </apply>
+              <ci> p_atr_act_atm </ci>
+              <apply>
+                <minus/>
+                <ci> pATR_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v74_v_73" name="v_73" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pATR_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pATR_G2 </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v75_v_74" name="v_74" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pChk1_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATR_G2"/>
+          <modifierSpeciesReference species="pChk1_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATR_G2 </ci>
+              </apply>
+              <ci> p_chk1_act </ci>
+              <apply>
+                <minus/>
+                <ci> pChk1_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v76_v_75" name="v_75" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pChk1_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pChk1_G2 </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v77_v_76" name="v_76" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pChk1_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Wip1_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_G2 </ci>
+              <ci> pChk1_G2 </ci>
+              <ci> p_chk1_dea_wip1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v78_v_77" name="v_77" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pATM_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Cells"/>
+          <modifierSpeciesReference species="Cells_Apo"/>
+          <modifierSpeciesReference species="Cells_Apo1"/>
+          <modifierSpeciesReference species="Cells_Apo2"/>
+          <modifierSpeciesReference species="Cells_Apo3"/>
+          <modifierSpeciesReference species="Cells_Apo4"/>
+          <modifierSpeciesReference species="Cells_Cycle_G2"/>
+          <modifierSpeciesReference species="Cells_Apo_ReOx"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_G2"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_S"/>
+          <modifierSpeciesReference species="Cells_SSBDamage_S"/>
+          <modifierSpeciesReference species="pATM_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Cells_DSBDamage_G2 </ci>
+                  <ci> p_atm_act_dsb </ci>
+                  <apply>
+                    <minus/>
+                    <ci> pATM_G2 </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Cells </ci>
+                <ci> Cells_Apo </ci>
+                <ci> Cells_Apo1 </ci>
+                <ci> Cells_Apo2 </ci>
+                <ci> Cells_Apo3 </ci>
+                <ci> Cells_Apo4 </ci>
+                <apply>
+                  <times/>
+                  <cn type="integer"> 2 </cn>
+                  <ci> Cells_Cycle_G2 </ci>
+                </apply>
+                <ci> Cells_Apo_ReOx </ci>
+                <ci> Cells_DSBDamage_G2 </ci>
+                <ci> Cells_DSBDamage_S </ci>
+                <ci> Cells_SSBDamage_S </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v79_v_78" name="v_78" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pATM_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pATM_G2 </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v80_v_79" name="v_79" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pChk2_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATM_G2"/>
+          <modifierSpeciesReference species="pChk2_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATM_G2 </ci>
+              </apply>
+              <ci> p_chk2_act </ci>
+              <apply>
+                <minus/>
+                <ci> pChk2_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v81_v_80" name="v_80" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pChk2_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pChk2_G2 </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v82_v_81" name="v_81" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pChk2_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Wip1_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_G2 </ci>
+              <ci> pChk2_G2 </ci>
+              <ci> p_chk2_dea_wip1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v83_v_82" name="v_82" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pDNAPK_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Cells"/>
+          <modifierSpeciesReference species="Cells_Apo"/>
+          <modifierSpeciesReference species="Cells_Apo1"/>
+          <modifierSpeciesReference species="Cells_Apo2"/>
+          <modifierSpeciesReference species="Cells_Apo3"/>
+          <modifierSpeciesReference species="Cells_Apo4"/>
+          <modifierSpeciesReference species="Cells_Cycle_G2"/>
+          <modifierSpeciesReference species="Cells_Apo_ReOx"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_G2"/>
+          <modifierSpeciesReference species="Cells_DSBDamage_S"/>
+          <modifierSpeciesReference species="Cells_SSBDamage_S"/>
+          <modifierSpeciesReference species="pDNAPK_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> Cells_DSBDamage_G2 </ci>
+                  <ci> p_dnapk_act </ci>
+                  <apply>
+                    <minus/>
+                    <ci> pDNAPK_G2 </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <ci> Cells </ci>
+                <ci> Cells_Apo </ci>
+                <ci> Cells_Apo1 </ci>
+                <ci> Cells_Apo2 </ci>
+                <ci> Cells_Apo3 </ci>
+                <ci> Cells_Apo4 </ci>
+                <apply>
+                  <times/>
+                  <cn type="integer"> 2 </cn>
+                  <ci> Cells_Cycle_G2 </ci>
+                </apply>
+                <ci> Cells_Apo_ReOx </ci>
+                <ci> Cells_DSBDamage_G2 </ci>
+                <ci> Cells_DSBDamage_S </ci>
+                <ci> Cells_SSBDamage_S </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v84_v_83" name="v_83" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pDNAPK_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pDNAPK_G2 </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v85_v_84" name="v_84" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pDNAPK_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Wip1_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_G2 </ci>
+              <ci> pDNAPK_G2 </ci>
+              <ci> p_dnapk_dea_wip1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v86_v_85" name="v_85" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pp53_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATR_G2"/>
+          <modifierSpeciesReference species="pp53_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATR_G2 </ci>
+              </apply>
+              <ci> p_p53_act_atr </ci>
+              <apply>
+                <minus/>
+                <ci> pp53_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v87_v_86" name="v_86" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pp53_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pChk1_G2"/>
+          <modifierSpeciesReference species="pp53_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pChk1_G2 </ci>
+              </apply>
+              <ci> p_p53_act_chk1 </ci>
+              <apply>
+                <minus/>
+                <ci> pp53_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v88_v_87" name="v_87" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pp53_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATM_G2"/>
+          <modifierSpeciesReference species="pp53_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATM_G2 </ci>
+              </apply>
+              <ci> p_p53_act_atm </ci>
+              <apply>
+                <minus/>
+                <ci> pp53_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v89_v_88" name="v_88" reversible="false">
+        <listOfProducts>
+          <speciesReference species="pp53_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pChk2_G2"/>
+          <modifierSpeciesReference species="pp53_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pChk2_G2 </ci>
+              </apply>
+              <ci> p_p53_act_chk2 </ci>
+              <apply>
+                <minus/>
+                <ci> pp53_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v90_v_89" name="v_89" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pp53_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <ci> pp53_G2 </ci>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v91_v_90" name="v_90" reversible="false">
+        <listOfProducts>
+          <speciesReference species="p21_mRNA_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pp53_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> p_p21_mrna_turn </ci>
+                <ci> pp53_G2 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> p_mrna_exp_inh_dox </ci>
+                  <apply>
+                    <divide/>
+                    <apply>
+                      <power/>
+                      <ci> Dox_level </ci>
+                      <cn> 6 </cn>
+                    </apply>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <power/>
+                        <ci> Dox_level </ci>
+                        <cn> 6 </cn>
+                      </apply>
+                      <apply>
+                        <power/>
+                        <ci> p_mrna_exp_inh_dox_kd </ci>
+                        <cn> 6 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v92_v_91" name="v_91" reversible="false">
+        <listOfReactants>
+          <speciesReference species="p21_mRNA_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> p21_mRNA_G2 </ci>
+              <ci> p_p21_mrna_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v93_v_92" name="v_92" reversible="false">
+        <listOfProducts>
+          <speciesReference species="p21_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="p21_mRNA_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> p21_mRNA_G2 </ci>
+              <ci> p_p21_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v94_v_93" name="v_93" reversible="false">
+        <listOfReactants>
+          <speciesReference species="p21_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> p21_G2 </ci>
+              <ci> p_p21_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v95_v_94" name="v_94" reversible="false">
+        <listOfProducts>
+          <speciesReference species="Wip1_mRNA_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pp53_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> p_wip1_mrna_turn </ci>
+                <ci> pp53_G2 </ci>
+              </apply>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> p_mrna_exp_inh_dox </ci>
+                  <apply>
+                    <divide/>
+                    <apply>
+                      <power/>
+                      <ci> Dox_level </ci>
+                      <cn> 6 </cn>
+                    </apply>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <power/>
+                        <ci> Dox_level </ci>
+                        <cn> 6 </cn>
+                      </apply>
+                      <apply>
+                        <power/>
+                        <ci> p_mrna_exp_inh_dox_kd </ci>
+                        <cn> 6 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v96_v_95" name="v_95" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Wip1_mRNA_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_mRNA_G2 </ci>
+              <ci> p_wip1_mrna_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v97_v_96" name="v_96" reversible="false">
+        <listOfProducts>
+          <speciesReference species="Wip1_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="Wip1_mRNA_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_mRNA_G2 </ci>
+              <ci> p_wip1_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v98_v_97" name="v_97" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Wip1_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Wip1_G2 </ci>
+              <ci> p_wip1_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v99_v_98" name="v_98" reversible="false">
+        <listOfProducts>
+          <speciesReference species="yH2AX_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATM_G2"/>
+          <modifierSpeciesReference species="yH2AX_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATM_G2 </ci>
+              </apply>
+              <ci> p_h2ax_act_atm </ci>
+              <apply>
+                <minus/>
+                <ci> yH2AX_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v100_v_99" name="v_99" reversible="false">
+        <listOfProducts>
+          <speciesReference species="yH2AX_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pATR_G2"/>
+          <modifierSpeciesReference species="yH2AX_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pATR_G2 </ci>
+              </apply>
+              <ci> p_h2ax_act_atr </ci>
+              <apply>
+                <minus/>
+                <ci> yH2AX_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v101_v_100" name="v_100" reversible="false">
+        <listOfProducts>
+          <speciesReference species="yH2AX_G2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="pDNAPK_G2"/>
+          <modifierSpeciesReference species="yH2AX_G2"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <ci> pDNAPK_G2 </ci>
+              </apply>
+              <ci> p_h2ax_act_dnapk </ci>
+              <apply>
+                <minus/>
+                <ci> yH2AX_G2 </ci>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v102_v_101" name="v_101" reversible="false">
+        <listOfReactants>
+          <speciesReference species="yH2AX_G2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> p_h2ax_dea </ci>
+              <ci> yH2AX_G2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

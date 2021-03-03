@@ -1,0 +1,8 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+plot1	China_Stage_I	LinePlot		model1_data_observable_confirmed_infected_China_Stage_I	time	-30	Time [d] from 2020-1-20	observable_confirmed_infected	0	Cumulative confirmed infected number	Confirmed_Infected	lin	lin
+plot2	China_Stage_II	LinePlot		model1_data_observable_confirmed_infected_China_Stage_II	time	0	Time [d] from 2020-1-30	observable_confirmed_infected	0	Cumulative confirmed infected number	Confirmed_Infected	lin	lin
+plot3	Wuhan_Stage_I	LinePlot		model1_data_observable_confirmed_infected_Wuhan_Stage_I	time	-15	Time [d] from 2020-1-20	observable_confirmed_infected	0	Cumulative confirmed infected number	Confirmed_Infected	lin	lin
+plot4	Wuhan_Stage_II	LinePlot		model1_data_observable_confirmed_infected_Wuhan_Stage_II	time	0	Time [d] from 2020-1-28	observable_confirmed_infected	0	Cumulative confirmed infected number	Confirmed_Infected	lin	lin
+plot5	Wuhan_Stage_III	LinePlot		model1_data_observable_confirmed_infected_Wuhan_Stage_III	time	0	Time [d] from 2020-2-13	observable_confirmed_infected	0	Cumulative confirmed infected number	Confirmed_Infected	lin	lin
+plot6	Hubei_Stage_I	LinePlot		model1_data_observable_confirmed_infected_Hubei_Stage_I	time	-15	Time [d] from 2020-1-20	observable_confirmed_infected	0	Cumulative confirmed infected number	Confirmed_Infected	lin	lin
+plot7	Hubei_Stage_II	LinePlot		model1_data_observable_confirmed_infected_Hubei_Stage_II	time	0	Time [d] from 2020-1-28	observable_confirmed_infected	0	Cumulative confirmed infected number	Confirmed_Infected	lin	lin

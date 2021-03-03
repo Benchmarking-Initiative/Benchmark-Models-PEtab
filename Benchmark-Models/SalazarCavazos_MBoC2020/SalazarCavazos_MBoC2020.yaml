@@ -1,0 +1,11 @@
+format_version: 1
+parameter_file: parameters_SalazarCavazos_MBoC2020.tsv
+problems:
+- condition_files:
+  - experimentalCondition_SalazarCavazos_MBoC2020.tsv
+  measurement_files:
+  - measurementData_SalazarCavazos_MBoC2020.tsv
+  observable_files:
+  - observables_SalazarCavazos_MBoC2020.tsv
+  sbml_files:
+  - model_SalazarCavazos_MBoC2020.xml
