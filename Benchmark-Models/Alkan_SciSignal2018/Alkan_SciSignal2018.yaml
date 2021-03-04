@@ -1,0 +1,13 @@
+format_version: 1
+parameter_file: parameters_Alkan_SciSignal2018.tsv
+problems:
+- condition_files:
+  - experimentalCondition_Alkan_SciSignal2018.tsv
+  measurement_files:
+  - measurementData_Alkan_SciSignal2018.tsv
+  observable_files:
+  - observables_Alkan_SciSignal2018.tsv
+  sbml_files:
+  - model_Alkan_SciSignal2018.xml
+  visualization_files:
+  - visualizationSpecification_Alkan_SciSignal2018.tsv

@@ -1,0 +1,44 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+Bmp4		geneH + 1e-6	noiseParameter1_Bmp4	log10	normal
+Cxcl15		geneI + 1e-6	noiseParameter1_Cxcl15	log10	normal
+Dnmt3a		geneC + 1e-6	noiseParameter1_Dnmt3a	log10	normal
+Dusp5		geneJ + 1e-6	noiseParameter1_Dusp5	log10	normal
+Jun		geneE + 1e-6	noiseParameter1_Jun	log10	normal
+Klf10		geneG + 1e-6	noiseParameter1_Klf10	log10	normal
+Pdk4		geneL + 1e-6	noiseParameter1_Pdk4	log10	normal
+S23IP_S2		100 * (S2 + S2_S4_S4) / (S2 + S2_S4_S4 + pS2 + ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3)	noiseParameter1_S23IP_S2	lin	normal
+S23IP_S3		100 * S3 / (S3 + pS3 + ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S23IP_S3	lin	normal
+S23IP_pS2		100 * pS2 / (S2 + S2_S4_S4 + pS2 + ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3)	noiseParameter1_S23IP_pS2	lin	normal
+S23IP_pS3		100 * pS3 / (S3 + pS3 + ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S23IP_pS3	lin	normal
+S23IP_ppS2		100 * (ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3) / (S2 + S2_S4_S4 + pS2 + ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3)	noiseParameter1_S23IP_ppS2	lin	normal
+S23IP_ppS3		100 * (ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3) / (S3 + pS3 + ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S23IP_ppS3	lin	normal
+S23IP_tS2		100 * (S2 + S2_S4_S4 + pS2 + ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3) / (S2 + S3 + 3 * S2_S4_S4 + pS2 + pS3 + ppS2 + ppS3 + 3 * ppS2_S4_S4 + 3 * ppS3_S4_S4 + 3 * ppS2_ppS2_S4 + 4 * ppS2_ppS3_S4 + 3 * ppS3_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 3 * ppS2_ppS2_ppS3 + 3 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S23IP_tS2	lin	normal
+S23IP_tS3		100 * (S3 + pS3 + ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3) / (S2 + S3 + 3 * S2_S4_S4 + pS2 + pS3 + ppS2 + ppS3 + 3 * ppS2_S4_S4 + 3 * ppS3_S4_S4 + 3 * ppS2_ppS2_S4 + 4 * ppS2_ppS3_S4 + 3 * ppS3_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 3 * ppS2_ppS2_ppS3 + 3 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S23IP_tS3	lin	normal
+S23IP_tS4		100 * (2 * S2_S4_S4 + 2 * ppS2_S4_S4 + 2 * ppS3_S4_S4 + ppS2_ppS2_S4 + 2 * ppS2_ppS3_S4 + ppS3_ppS3_S4) / (S2 + S3 + 3 * S2_S4_S4 + pS2 + pS3 + ppS2 + ppS3 + 3 * ppS2_S4_S4 + 3 * ppS3_S4_S4 + 3 * ppS2_ppS2_S4 + 4 * ppS2_ppS3_S4 + 3 * ppS3_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 3 * ppS2_ppS2_ppS3 + 3 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S23IP_tS4	lin	normal
+S2IP_S2		100 * (S2 + S2_S4_S4) / (S2 + S2_S4_S4 + pS2 + ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3)	noiseParameter1_S2IP_S2	lin	normal
+S2IP_S3		0	noiseParameter1_S2IP_S3	lin	normal
+S2IP_pS2		100 * pS2 / (S2 + S2_S4_S4 + pS2 + ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3)	noiseParameter1_S2IP_pS2	lin	normal
+S2IP_pS3		0	noiseParameter1_S2IP_pS3	lin	normal
+S2IP_ppS2		100 * (ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3) / (S2 + S2_S4_S4 + pS2 + ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3)	noiseParameter1_S2IP_ppS2	lin	normal
+S2IP_ppS3		100	noiseParameter1_S2IP_ppS3	lin	normal
+S2IP_tS2		100 * (S2 + S2_S4_S4 + pS2 + ppS2 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3) / (S2 + 3 * S2_S4_S4 + pS2 + ppS2 + 3 * ppS2_S4_S4 + 3 * ppS2_ppS2_S4 + 3 * ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 3 * ppS2_ppS2_ppS3 + 3 * ppS2_ppS3_ppS3)	noiseParameter1_S2IP_tS2	lin	normal
+S2IP_tS3		100 * (ppS2_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3) / (S2 + 3 * S2_S4_S4 + pS2 + ppS2 + 3 * ppS2_S4_S4 + 3 * ppS2_ppS2_S4 + 3 * ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 3 * ppS2_ppS2_ppS3 + 3 * ppS2_ppS3_ppS3)	noiseParameter1_S2IP_tS3	lin	normal
+S2IP_tS4		100 * (2 * ppS2_S4_S4 + ppS2_ppS2_S4 + ppS2_ppS3_S4) / (S2 + 3 * S2_S4_S4 + pS2 + ppS2 + 3 * ppS2_S4_S4 + 3 * ppS2_ppS2_S4 + 3 * ppS2_ppS3_S4 + 3 * ppS2_ppS2_ppS2 + 3 * ppS2_ppS2_ppS3 + 3 * ppS2_ppS3_ppS3)	noiseParameter1_S2IP_tS4	lin	normal
+S3IP_S2		0	noiseParameter1_S3IP_S2	lin	normal
+S3IP_S3		100 * S3 / (S3 + pS3 + ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S3IP_S3	lin	normal
+S3IP_pS2		0	noiseParameter1_S3IP_pS2	lin	normal
+S3IP_pS3		100 * pS3 / (S3 + pS3 + ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S3IP_pS3	lin	normal
+S3IP_ppS2		100	noiseParameter1_S3IP_ppS2	lin	normal
+S3IP_ppS3		100 * (ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3) / (S3 + pS3 + ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S3IP_ppS3	lin	normal
+S3IP_tS2		100 * (ppS2_ppS3_S4 + 2 * ppS2_ppS2_ppS3 + ppS2_ppS3_ppS3) / (S3 + pS3 + ppS3 + 3 * ppS3_S4_S4 + 3 * ppS2_ppS3_S4 + 3 * ppS3_ppS3_S4 + 3 * ppS2_ppS2_ppS3 + 3 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S3IP_tS2	lin	normal
+S3IP_tS3		100 * (S3 + pS3 + ppS3 + ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4 + ppS2_ppS2_ppS3 + 2 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3) / (S3 + pS3 + ppS3 + 3 * ppS3_S4_S4 + 3 * ppS2_ppS3_S4 + 3 * ppS3_ppS3_S4 + 3 * ppS2_ppS2_ppS3 + 3 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S3IP_tS3	lin	normal
+S3IP_tS4		100 * (2 * ppS3_S4_S4 + ppS2_ppS3_S4 + ppS3_ppS3_S4) / (S3 + pS3 + ppS3 + 3 * ppS3_S4_S4 + 3 * ppS2_ppS3_S4 + 3 * ppS3_ppS3_S4 + 3 * ppS2_ppS2_ppS3 + 3 * ppS2_ppS3_ppS3 + 3 * ppS3_ppS3_ppS3)	noiseParameter1_S3IP_tS4	lin	normal
+S4IP_tS2		100 * (S2_S4_S4 + ppS2_S4_S4 + 2 * ppS2_ppS2_S4 + ppS2_ppS3_S4) / (S4 + 3 * S2_S4_S4 + 3 * S4_S4_S4 + 3 * ppS2_S4_S4 + 3 * ppS3_S4_S4 + 3 * ppS2_ppS2_S4 + 3 * ppS2_ppS3_S4 + 3 * ppS3_ppS3_S4)	noiseParameter1_S4IP_tS2	lin	normal
+S4IP_tS3		100 * (ppS3_S4_S4 + ppS2_ppS3_S4 + 2 * ppS3_ppS3_S4) / (S4 + 3 * S2_S4_S4 + 3 * S4_S4_S4 + 3 * ppS2_S4_S4 + 3 * ppS3_S4_S4 + 3 * ppS2_ppS2_S4 + 3 * ppS2_ppS3_S4 + 3 * ppS3_ppS3_S4)	noiseParameter1_S4IP_tS3	lin	normal
+S4IP_tS4		100 * (S4 + 2 * S2_S4_S4 + 3 * S4_S4_S4 + 2 * ppS2_S4_S4 + 2 * ppS3_S4_S4 + ppS2_ppS2_S4 + ppS2_ppS3_S4 + ppS3_ppS3_S4) / (S4 + 3 * S2_S4_S4 + 3 * S4_S4_S4 + 3 * ppS2_S4_S4 + 3 * ppS3_S4_S4 + 3 * ppS2_ppS2_S4 + 3 * ppS2_ppS3_S4 + 3 * ppS3_ppS3_S4)	noiseParameter1_S4IP_tS4	lin	normal
+Ski		geneA + 1e-6	noiseParameter1_Ski	log10	normal
+Skil		geneB + 1e-6	noiseParameter1_Skil	log10	normal
+Smad7		geneF + 1e-6	noiseParameter1_Smad7	log10	normal
+Sox4		geneD + 1e-6	noiseParameter1_Sox4	log10	normal
+TGFbR		Rec + TGFb_pRec	noiseParameter1_TGFbR	lin	normal
+Tgfa		geneK + 1e-6	noiseParameter1_Tgfa	log10	normal

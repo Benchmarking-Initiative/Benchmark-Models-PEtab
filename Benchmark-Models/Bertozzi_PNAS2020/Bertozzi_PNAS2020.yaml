@@ -1,0 +1,13 @@
+format_version: 1
+parameter_file: parameters_Bertozzi_PNAS2020.tsv
+problems:
+- condition_files:
+  - experimentalCondition_Bertozzi_PNAS2020.tsv
+  measurement_files:
+  - measurementData_Bertozzi_PNAS2020.tsv
+  observable_files:
+  - observables_Bertozzi_PNAS2020.tsv
+  sbml_files:
+  - model_Bertozzi_PNAS2020.xml
+  visualization_files:
+  - visualizationSpecification_Bertozzi_PNAS2020.tsv

@@ -1,0 +1,4 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution
+observable_susceptible	susceptible	Susceptible	noiseParameter1_observable_susceptible	normal
+observable_infected	infected	Infected	noiseParameter1_observable_infected	normal
+observable_resistant	resistant	Recovered	noiseParameter1_observable_resistant	normal

@@ -1,0 +1,8 @@
+plotId	plotName	plotTypeSimulation	xValues	yValues	yLabel	legendEntry	xScale	yScale	datasetId
+TotalDiagnosedCases Data vs Sim	TotalDiagnosedCases Data vs Sim	LinePlot	time	observable_TotalCases	TotalCases	TotalCases	lin	lin	test
+Deaths Data vs Sim	Deaths Data vs Sim	LinePlot	time	observable_Deaths	Deaths	Deaths	lin	lin	test
+Recovered Data vs Sim	Recovered Data vs Sim	LinePlot	time	observable_Recovered	Recovered	Recovered	lin	lin	test
+CurrentDiagnosedCases Data vs Sim	CurrentDiagnosedCases Data vs Sim	LinePlot	time	observable_CurrentCases	CurrentCases	CurrentCases	lin	lin	test
+Diagnosed Data vs Sim	Diagnosed Data vs Sim	LinePlot	time	observable_DiagHome	Diagnosed	Diagnosed	lin	lin	test
+Recognized Data vs Sim	Recognized Data vs Sim	LinePlot	time	observable_Hospit	Recognized	Recognized	lin	lin	test
+Threatened Data vs Sim	Threatened Data vs Sim	LinePlot	time	observable_ICU	Threatened	Threatened	lin	lin	test

@@ -1,0 +1,24 @@
+	observableId	preequilibrationConditionId	simulationConditionId	simulation	time	observableParameters	noiseParameters	datasetId
+0	observable_prevalence		simCondition	0.20193254451694997	0		1	model1_data1_prevalence
+1	observable_prevalence		simCondition	0.5508733076280521	1		1	model1_data1_prevalence
+2	observable_prevalence		simCondition	1.136421165617051	2		1	model1_data1_prevalence
+3	observable_prevalence		simCondition	2.0305715125909387	3		1	model1_data1_prevalence
+4	observable_prevalence		simCondition	3.3030753267172344	4		1	model1_data1_prevalence
+5	observable_prevalence		simCondition	4.977925401920288	5		1	model1_data1_prevalence
+6	observable_prevalence		simCondition	6.988584321001156	6		1	model1_data1_prevalence
+7	observable_prevalence		simCondition	9.172248208060225	7		1	model1_data1_prevalence
+8	observable_prevalence		simCondition	11.321992415021754	8		1	model1_data1_prevalence
+9	observable_prevalence		simCondition	13.260463498786393	9		1	model1_data1_prevalence
+10	observable_prevalence		simCondition	14.883638862482286	10		1	model1_data1_prevalence
+11	observable_prevalence		simCondition	16.16157346648103	11		1	model1_data1_prevalence
+12	observable_prevalence		simCondition	17.11581812405518	12		1	model1_data1_prevalence
+13	observable_prevalence		simCondition	17.794434361693177	13		1	model1_data1_prevalence
+14	observable_prevalence		simCondition	18.253807781476198	14		1	model1_data1_prevalence
+15	observable_prevalence		simCondition	18.548085553010367	15		1	model1_data1_prevalence
+16	observable_prevalence		simCondition	18.724147741368583	16		1	model1_data1_prevalence
+17	observable_prevalence		simCondition	18.81992957475059	17		1	model1_data1_prevalence
+18	observable_prevalence		simCondition	18.864543146770842	18		1	model1_data1_prevalence
+19	observable_prevalence		simCondition	18.879262143427226	19		1	model1_data1_prevalence
+20	observable_prevalence		simCondition	18.878844068470556	20		1	model1_data1_prevalence
+21	observable_prevalence		simCondition	18.87290046820914	21		1	model1_data1_prevalence
+22	observable_prevalence		simCondition	18.86716857362093	22		1	model1_data1_prevalence
