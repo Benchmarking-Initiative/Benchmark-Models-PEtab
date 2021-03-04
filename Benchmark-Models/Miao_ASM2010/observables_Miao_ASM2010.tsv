@@ -1,0 +1,2 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+V	viral_titers	- (c_V * s3) + (pi_a * s2)	noiseParameter1_V	lin	normal

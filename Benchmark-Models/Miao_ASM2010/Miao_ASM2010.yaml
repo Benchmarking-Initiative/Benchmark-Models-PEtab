@@ -1,0 +1,12 @@
+format_version: 1
+parameter_file: parameters_Miao_ASM2010.tsv
+problems:
+  - condition_files:
+    - experimentalCondition_Miao_ASM2010.tsv
+    measurement_files:
+    - measurementData_Miao_ASM2010.tsv
+    observable_files:
+    - observables_Miao_ASM2010.tsv
+    sbml_files:
+    - model_Miao_ASM2010.xml
+

@@ -1,0 +1,6 @@
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate
+rho_E	rho_E	log10	1E-05	100000	6.20E-08	1
+beta_a	beta_a	log10	1E-05	100000	2.40E-06	1
+delta_Es	delta_Es	log10	1E-05	100000	6.00E-01	1
+pi_a	pi_a	log10	1E-05	100000	100	0
+c_V	c_V	log10	1E-05	100000	4.2	1
