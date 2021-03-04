@@ -1,11 +1,11 @@
 format_version: 1
-parameter_file: Raimundez_PCB2020_parameters.tsv
+parameter_file: parameters_Raimundez_PCB2020.tsv
 problems:
 - condition_files:
-  - Raimundez_PCB2020_conditions.tsv
+  - experimentalCondition_Raimundez_PCB2020.tsv
   measurement_files:
-  - Raimundez_PCB2020_measurements.tsv
+  - measurementData_Raimundez_PCB2020.tsv
   observable_files:
-  - Raimundez_PCB2020_observables.tsv
+  - observables_Raimundez_PCB2020.tsv
   sbml_files:
   - model_Raimundez_PCB2020.xml
