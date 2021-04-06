@@ -1,3 +1,5 @@
+Data created during the INCOME2021 hackathon by Simona Catozzi (may need revision).
+
 - Publication
 Blum Y, Mikelson J, Dobrzyński M, Ryu H, Jacques MA, Jeon NL, Khammash M, Pertz O. 
 Temporal perturbation of ERK dynamics reveals network architecture of FGF2/MAPK signaling. 
