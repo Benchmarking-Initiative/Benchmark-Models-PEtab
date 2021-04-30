@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Bruno_JExpBio2016" name="Bruno_JExpBio2016">
+  <model id="Bruno_JExpBot2016" name="Bruno_JExpBot2016">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Bruno et al. (2016), J Exp Bot.; 67(21): 5993–6005</pre>
