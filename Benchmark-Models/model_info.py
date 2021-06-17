@@ -15,18 +15,20 @@ def get_problem_info(
 ) -> Dict:
     """Get dictionary with stats for the given PEtab problem"""
     return {
-        'name':
-            problem_name,
-        'species':
-            len(problem.sbml_model.getListOfSpecies()),
-        'estimated_parameters':
-            np.sum(problem.parameter_df[petab.ESTIMATE]),
-        'observables':
-            len(problem.measurement_df[petab.OBSERVABLE_ID].unique()),
         'conditions':
             problem.get_simulation_conditions_from_measurement_df().shape[0],
+        'estimated_parameters':
+            np.sum(problem.parameter_df[petab.ESTIMATE]),
         'events':
             len(problem.sbml_model.getListOfEvents()),
+        'measurements':
+            len(problem.measurement_df.index),
+        'name':
+            problem_name,
+        'observables':
+            len(problem.measurement_df[petab.OBSERVABLE_ID].unique()),
+        'species':
+            len(problem.sbml_model.getListOfSpecies()),
     }
 
 
