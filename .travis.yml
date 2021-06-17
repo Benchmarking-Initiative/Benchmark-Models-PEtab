@@ -11,6 +11,7 @@ install:
 script:
  - cd Benchmark-Models/
  - ./checkBenchmarkModels.py
+ - ./model_info.py
 
 # cache dependencies
 cache: pip
