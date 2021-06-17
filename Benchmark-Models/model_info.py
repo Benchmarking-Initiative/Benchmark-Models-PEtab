@@ -49,12 +49,22 @@ def get_overview_table(path: str = None) -> pd.DataFrame:
     return df
 
 
-def main():
+def main(
+    markdown: bool = False,
+):
     df = get_overview_table()
 
     pd.options.display.width = 0
-    print(df)
+
+    if markdown:
+        print(df.to_markdown())
+    else:
+        print(df)
 
 
 if __name__ == '__main__':
-    main()
+    import sys
+    markdown = False
+    if '--markdown' in sys.argv:
+        markdown = True
+    main(markdown)
