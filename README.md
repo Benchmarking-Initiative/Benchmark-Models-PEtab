@@ -3,7 +3,7 @@ A collection of mathematical models with experimental data in the [PEtab](https:
 
 Contributions to the collection are very welcome. For this, please create a new branch, add your model and test your files with the provided functions, and start a pull request. We will then check your model and merge it into the collection. We are continuously working on the extension of the collection.
 
-# Overview
+## Overview
 | Model ID                            |   Conditions |   Estimated Parameters |   Events |   Measurements |   Observables |   Species |
 |:------------------------------------|-------------:|-----------------------:|---------:|---------------:|--------------:|----------:|
 | Alkan_SciSignal2018                 |           90 |                     56 |        0 |           1872 |            12 |        36 |
