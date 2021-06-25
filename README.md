@@ -24,6 +24,7 @@ Contributions to the collection are very welcome. For this, please create a new 
 | Isensee_JCB2018                     |          120 |                     46 |        0 |            687 |             6 |        25 |
 | Lucarelli_CellSystems2018           |           16 |                     84 |        0 |           1755 |            43 |        33 |
 | Okuonghae_ChaosSolitonsFractals2020 |            1 |                     16 |        0 |             92 |             2 |         9 |
+| Oliveira_NatCommun2021              |            1 |                     12 |        0 |            120 |             2 |         9 |
 | Perelson_Science1996                |            1 |                      3 |        0 |             16 |             1 |         4 |
 | Rahman_MBS2016                      |            1 |                      9 |        0 |             23 |             1 |         7 |
 | Raimundez_PCB2020                   |          170 |                    136 |        0 |            627 |            79 |        22 |
