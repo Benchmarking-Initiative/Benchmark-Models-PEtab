@@ -1,0 +1,3 @@
+plotId	plotName	plotTypeSimulation	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel
+plot1	Cumulative_cases	LinePlot	dataset_	time	0	Time [d] from 2020-3-6	cumulative_cases	0	Cumulative_cases
+plot2	Cumulative_deaths	LinePlot	dataset_	time	0	Time [d] from 2020-3-6	cumulative_deaths	0	Cumulative_deaths

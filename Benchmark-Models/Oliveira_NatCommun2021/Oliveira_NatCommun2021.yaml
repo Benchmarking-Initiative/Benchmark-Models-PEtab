@@ -1,0 +1,14 @@
+format_version: 1
+parameter_file: parameters_Oliveira_NatCommun2021.tsv
+problems:
+  - condition_files:
+    - experimentalConditions_Oliveira_NatCommun2021.tsv
+    measurement_files:
+    - measurementData_Oliveira_NatCommun2021.tsv
+    observable_files:
+    - observables_Oliveira_NatCommun2021.tsv
+    sbml_files:
+    - Oliveira_NatCommun2021_model.xml
+    visualization_files:
+    - visualizationSpecification_Oliveira_NatCommun2021.tsv
+

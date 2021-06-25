@@ -1,0 +1,3 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution
+cumulative_deaths	cumulative_deaths	Deaths	noiseParameter1_cumulative_deaths	normal
+cumulative_cases	cumulative_cases	Cumulative_cases	noiseParameter1_cumulative_cases	normal
