@@ -9,5 +9,3 @@ problems:
     - observables_Laske_PLOSComputBiol2019.tsv
     sbml_files:
     - Laske_PLOSComputBiol2019.xml
-    visualization_files:
-    - visualizationSpecification_Laske_PLOSComputBiol2019.tsv
