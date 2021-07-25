@@ -32,12 +32,12 @@ RCSegTot	virus_infection	1003.14044835124	10	sigma_RC
 Vrel	virus_infection_2	848.298307989294	20	sigma_Vrel
 Vrel	virus_infection_2	907.923629140452	24	sigma_Vrel
 Vrel	virus_infection_2	1223.94016428638	28	sigma_Vrel
-IntNucOffset	virus_infection_3	51.6	0	
-FracNucInt_1	virus_infection_3	42.785	0.25	
-FracNucInt_2	virus_infection_3	51.7075	0.5	
-FracNucInt_3	virus_infection_3	53.7125	0.75	
-FracNucInt_4	virus_infection_3	57.4275	1	
-FracNucInt_5	virus_infection_3	65.885	1.25	
-FracNucInt_6	virus_infection_3	72.12	1.5	
-FracNucInt_7	virus_infection_3	69.9933333333333	1.75	
-FracNucInt_8	virus_infection_3	76.97	2	
+IntNucOffset	virus_infection_3	51.6	0	scale_sigma_FracNucInt
+FracNucInt_1	virus_infection_3	42.785	0.25	scale_sigma_FracNucInt
+FracNucInt_2	virus_infection_3	51.7075	0.5	scale_sigma_FracNucInt
+FracNucInt_3	virus_infection_3	53.7125	0.75	scale_sigma_FracNucInt
+FracNucInt_4	virus_infection_3	57.4275	1	scale_sigma_FracNucInt
+FracNucInt_5	virus_infection_3	65.885	1.25	scale_sigma_FracNucInt
+FracNucInt_6	virus_infection_3	72.12	1.5	scale_sigma_FracNucInt
+FracNucInt_7	virus_infection_3	69.9933333333333	1.75	scale_sigma_FracNucInt
+FracNucInt_8	virus_infection_3	76.97	2	scale_sigma_FracNucInt
