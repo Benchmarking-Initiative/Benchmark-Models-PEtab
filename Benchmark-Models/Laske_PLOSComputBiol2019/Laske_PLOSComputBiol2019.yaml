@@ -8,4 +8,4 @@ problems:
     observable_files:
     - observables_Laske_PLOSComputBiol2019.tsv
     sbml_files:
-    - Laske_PLOSComputBiol2019.xml
+    - model_Laske_PLOSComputBiol2019.xml
