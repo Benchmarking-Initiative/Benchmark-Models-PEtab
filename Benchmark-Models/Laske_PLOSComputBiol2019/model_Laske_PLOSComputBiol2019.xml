@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created by COPASI version 4.30 (Build 240) on 2021-07-16 10:12 with libSBML version 5.19.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version3" level="2" version="3">
-  <model metaid="COPASI0" id="Laske_et_al___Influenza_A_Modelling" name="Laske et al., Influenza A Modelling">
+  <model metaid="COPASI0" id="Laske_PLOSComputBiol2019" name="Laske_PLOSComputBiol2019">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>Heldt2012 - Influenza Virus Replication 
