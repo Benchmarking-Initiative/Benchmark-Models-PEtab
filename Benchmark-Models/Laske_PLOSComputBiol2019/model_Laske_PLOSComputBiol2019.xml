@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!-- Created by COPASI version 4.30 (Build 240) on 2021-07-16 10:12 with libSBML version 5.19.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version3" level="2" version="3">
   <model metaid="COPASI0" id="Laske_PLOSComputBiol2019" name="Laske_PLOSComputBiol2019">
@@ -91,113 +91,11 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </bqbiol:isDescribedBy>
         </rdf:Description>
       </rdf:RDF>
-      <COPASI xmlns="http://www.copasi.org/static/sbml">
-        <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
-          <rdf:Description rdf:about="#COPASI0">
-            <bqmodel:isDerivedFrom rdf:resource="urn:miriam:biomodels.db:BIOMD0000000463"/>
-            <bqmodel:isDerivedFrom rdf:resource="urn:miriam:biomodels.db:MODEL1307270000"/>
-            <dcterms:bibliographicCitation>
-              <rdf:Description>
-                <CopasiMT:isDescribedBy rdf:resource="urn:miriam:pubmed:22593159"/>
-              </rdf:Description>
-            </dcterms:bibliographicCitation>
-            <dcterms:created>
-              <rdf:Description>
-                <dcterms:W3CDTF>2021-04-19T11:32:11Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:created>
-            <dcterms:creator>
-              <rdf:Description>
-                <vCard:EMAIL>heldt@mpi-magdeburg.mpg.de</vCard:EMAIL>
-                <vCard:N>
-                  <rdf:Description>
-                    <vCard:Family>Heldt</vCard:Family>
-                    <vCard:Given>Frank Stefan</vCard:Given>
-                  </rdf:Description>
-                </vCard:N>
-                <vCard:ORG>
-                  <rdf:Description>
-                    <vCard:Orgname>Bioprocess Engineering Group, Max Planck Institute for Dynamics of Complex Technical Systems, Magdeburg, Germany</vCard:Orgname>
-                  </rdf:Description>
-                </vCard:ORG>
-              </rdf:Description>
-            </dcterms:creator>
-            <dcterms:creator>
-              <rdf:Description>
-                <vCard:EMAIL>viji@ebi.ac.uk</vCard:EMAIL>
-                <vCard:N>
-                  <rdf:Description>
-                    <vCard:Family>Chelliah</vCard:Family>
-                    <vCard:Given>Vijayalakshmi</vCard:Given>
-                  </rdf:Description>
-                </vCard:N>
-                <vCard:ORG>
-                  <rdf:Description>
-                    <vCard:Orgname>EMBL-EBI</vCard:Orgname>
-                  </rdf:Description>
-                </vCard:ORG>
-              </rdf:Description>
-            </dcterms:creator>
-            <dcterms:creator>
-              <rdf:Description>
-                <vCard:EMAIL>juty@ebi.ac.uk</vCard:EMAIL>
-                <vCard:N>
-                  <rdf:Description>
-                    <vCard:Family>Juty</vCard:Family>
-                    <vCard:Given>Nick</vCard:Given>
-                  </rdf:Description>
-                </vCard:N>
-                <vCard:ORG>
-                  <rdf:Description>
-                    <vCard:Orgname>EMBL-EBI</vCard:Orgname>
-                  </rdf:Description>
-                </vCard:ORG>
-              </rdf:Description>
-            </dcterms:creator>
-            <dcterms:creator>
-              <rdf:Bag>
-                <rdf:li>
-                  <rdf:Description>
-                    <vCard:EMAIL>s6clpeit@uni-bonn.de</vCard:EMAIL>
-                    <vCard:N>
-                      <rdf:Description>
-                        <vCard:Family>Peiter</vCard:Family>
-                        <vCard:Given>Clemens</vCard:Given>
-                      </rdf:Description>
-                    </vCard:N>
-                    <vCard:ORG>
-                      <rdf:Description>
-                        <vCard:Orgname>LIMES, University of Bonn, Germany</vCard:Orgname>
-                      </rdf:Description>
-                    </vCard:ORG>
-                  </rdf:Description>
-                </rdf:li>
-              </rdf:Bag>
-            </dcterms:creator>
-            <dcterms:modified>
-              <rdf:Description>
-                <dcterms:W3CDTF>2021-04-19T11:32:11Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:modified>
-          </rdf:Description>
-        </rdf:RDF>
-      </COPASI>
-    </annotation>
+      </annotation>
     <listOfFunctionDefinitions>
       <functionDefinition metaid="COPASI158" id="Rate_Law_for_binding_of_viral_proteins_2" name="Rate Law for binding of viral proteins_2">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI158">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-05-06T10:30:32Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <lambda>
             <bvar>
@@ -220,18 +118,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </functionDefinition>
       <functionDefinition metaid="COPASI159" id="Rate_Law_for_binding_of_viral_proteins_1" name="Rate Law for binding of viral proteins_1">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI159">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-05-06T10:30:32Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <lambda>
             <bvar>
@@ -254,18 +141,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </functionDefinition>
       <functionDefinition metaid="COPASI160" id="Rate_Law_for_Vp_cyt_M1_Virion_release_1" name="Rate Law for Vp_cyt_M1-Virion_release_1">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI160">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-05-06T10:30:32Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <lambda>
             <bvar>
@@ -374,18 +250,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </functionDefinition>
       <functionDefinition metaid="COPASI161" id="Rate_Law_for_binding_of_viral_proteins_3" name="Rate Law for binding of viral proteins_3">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI161">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-05-06T10:30:32Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <lambda>
             <bvar>
@@ -437,18 +302,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
     <listOfCompartments>
       <compartment metaid="COPASI1" id="compartment" name="cell" spatialDimensions="3" size="1" constant="true">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI1">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:33:32Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </compartment>
     </listOfCompartments>
     <listOfSpecies>
@@ -473,20 +327,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:occursIn>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI2">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:33:32Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0019012"/>
-                <CopasiMT:occursIn rdf:resource="urn:miriam:go:GO:0005576"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI3" id="V_end" name="V_end" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -509,20 +350,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:occursIn>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI3">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:33:46Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0019012"/>
-                <CopasiMT:occursIn rdf:resource="urn:miriam:go:GO:0005768"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI4" id="Vp_cyt" name="Vp_cyt" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -545,20 +373,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:occursIn>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI4">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:33:55Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0030529"/>
-                <CopasiMT:occursIn rdf:resource="urn:miriam:go:GO:0005737"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI5" id="Vp_nuc" name="Vp_nuc" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -581,20 +396,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:occursIn>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI5">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:34:03Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0030529"/>
-                <CopasiMT:occursIn rdf:resource="urn:miriam:go:GO:0005634"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI6" id="R_C" name="R_C" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -612,19 +414,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI6">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:34:15Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0001172"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI7" sboTerm="SBO:0000296" id="R_C_RdRp" name="R_C_RdRp" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -642,19 +432,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI7">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:34:20Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000296"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI8" id="R_V" name="R_V" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -672,19 +450,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isPartOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI8">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:34:52Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isPartOf rdf:resource="urn:miriam:taxonomy:211044"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI9" id="R_V_RdRp" name="R_V_RdRp" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -693,18 +459,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI9">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:34:56Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI10" sboTerm="SBO:0000278" id="R_M1" name="R_M1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -722,19 +477,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI10">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:18Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000278"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI11" sboTerm="SBO:0000278" id="R_M2" name="R_M2" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -752,19 +495,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI11">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:20Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000278"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI12" sboTerm="SBO:0000278" id="R_M3" name="R_M3" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -782,19 +513,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI12">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:22Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000278"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI13" sboTerm="SBO:0000278" id="R_M4" name="R_M4" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -812,19 +531,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI13">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:24Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000278"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI14" sboTerm="SBO:0000278" id="R_M5" name="R_M5" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -842,19 +549,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI14">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:27Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000278"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI15" sboTerm="SBO:0000278" id="R_M6" name="R_M6" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -872,19 +567,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI15">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:30Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000278"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI16" sboTerm="SBO:0000278" id="R_M7" name="R_M7" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -902,19 +585,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI16">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:32Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000278"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI17" sboTerm="SBO:0000278" id="R_M8" name="R_M8" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -932,19 +603,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI17">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:35Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000278"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI18" id="P_B1" name="P_PB1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -962,19 +621,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI18">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:47Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:P16511"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI19" id="P_B2" name="P_PB2" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -992,19 +639,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI19">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:48Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:P03427"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI20" id="P_PA" name="P_PA" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1022,19 +657,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI20">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:35:51Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:P15659"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI21" id="P_HA" name="P_HA" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1052,19 +675,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI21">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:36:01Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:P03437"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI22" id="P_NP" name="P_NP" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1082,19 +693,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI22">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:36:03Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:P03466"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI23" id="P_NA" name="P_NA" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1112,19 +711,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI23">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:36:09Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:P06820"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI24" id="P_M1" name="P_M1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1142,19 +729,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI24">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:36:18Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:P05777"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI25" id="P_NEP" name="P_NEP" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1172,19 +747,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI25">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:36:24Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:P03508"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI26" id="Vp_nuc_M1" name="Vp_nuc_M1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1212,21 +775,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:occursIn>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI26">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:37:10Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:hasPart rdf:resource="urn:miriam:go:GO:0030529"/>
-                <CopasiMT:hasPart rdf:resource="urn:miriam:uniprot:P05777"/>
-                <CopasiMT:occursIn rdf:resource="urn:miriam:go:GO:0005634"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI27" id="Vp_cyt_M1" name="Vp_cyt_M1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1254,21 +803,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:occursIn>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI27">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:37:16Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:hasPart rdf:resource="urn:miriam:go:GO:0030529"/>
-                <CopasiMT:hasPart rdf:resource="urn:miriam:uniprot:P05777"/>
-                <CopasiMT:occursIn rdf:resource="urn:miriam:go:GO:0005737"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI28" id="V_rel" name="V_rel" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1286,19 +821,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI28">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:37:25Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0019012"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI29" sboTerm="SBO:0000297" id="P_RdRp" name="P_RdRp" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1316,19 +839,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI29">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:03:17Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000297"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI30" id="Cp" name="Cp" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1346,19 +857,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI30">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:04:38Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:go:GO:0030529"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI31" id="V_att_Hi" name="V_att_Hi" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1367,18 +866,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI31">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:16:14Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI32" id="V_att_Lo" name="V_att_Lo" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1387,18 +875,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI32">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:16:49Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI33" id="P_M2" name="P_M2" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
         <notes>
@@ -1416,19 +893,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:isVersionOf>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI33">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T16:11:39Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:isVersionOf rdf:resource="urn:miriam:uniprot:P63231"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI34" sboTerm="SBO:0000606" id="B_att_Lo" name="B_att_Lo" compartment="compartment" initialConcentration="1000" boundaryCondition="false" constant="false">
         <notes>
@@ -1446,19 +911,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI34">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T12:32:09Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000606"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI35" sboTerm="SBO:0000605" id="B_att_Hi" name="B_att_Hi" compartment="compartment" initialConcentration="150" boundaryCondition="false" constant="false">
         <notes>
@@ -1476,19 +929,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
               </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI35">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T12:32:26Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-                <CopasiMT:is rdf:resource="urn:miriam:sbo:SBO:0000605"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI36" id="R_C_seg_tot" name="R_C_seg_tot" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
         <notes>
@@ -1497,18 +938,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI36">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-26T09:35:24Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI37" id="R_V_seg_tot" name="R_V_seg_tot" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
         <notes>
@@ -1517,18 +947,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI37">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-26T09:36:01Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI38" id="F_rnp_nuc" name="F_rnp_nuc" compartment="compartment" boundaryCondition="true" constant="false">
         <notes>
@@ -1537,18 +956,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI38">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-26T09:36:48Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI39" id="R_C_total_0" name="R_C_total" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
         <notes>
@@ -1557,18 +965,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI39">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-26T11:56:38Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI40" id="R_V_total_0" name="R_V_total" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
         <notes>
@@ -1577,18 +974,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI40">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-26T11:56:42Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI41" id="RNP_nuc" name="RNP_nuc" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
         <notes>
@@ -1597,18 +983,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI41">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-05-03T12:06:40Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
       <species metaid="COPASI42" id="RNP_cyt" name="RNP_cyt" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
         <notes>
@@ -1617,18 +992,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI42">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-05-03T12:06:45Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </species>
     </listOfSpecies>
     <listOfParameters>
@@ -1639,18 +1003,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI43">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:14:52Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI44" id="k_att_Lo" name="k_att_Lo" value="0.000455" constant="true">
         <notes>
@@ -1659,18 +1012,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI44">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:15:02Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI45" id="k_dis_Hi" name="k_dis_Hi" value="7.15929203539823" constant="false">
         <notes>
@@ -1679,18 +1021,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI45">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:15:25Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI46" id="k_dis_Lo" name="k_dis_Lo" value="5.46218487394958" constant="false">
         <notes>
@@ -1699,18 +1030,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI46">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:17:26Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI47" id="k_end" name="k_end" value="4.8" constant="true">
         <notes>
@@ -1719,18 +1039,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI47">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:18:24Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI48" id="k_deg_end" name="k_deg_V_end" value="3.08411764705882" constant="false">
         <notes>
@@ -1739,18 +1048,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI48">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:19:49Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI49" id="k_fus" name="k_fus" value="3.21" constant="true">
         <notes>
@@ -1759,18 +1057,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI49">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:21:39Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI50" id="k_imp" name="k_imp" value="0.296" constant="true">
         <notes>
@@ -1779,18 +1066,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI50">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:28:08Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI51" id="k_deg_Rnp" name="k_deg_Rnp" value="0.09" constant="true">
         <notes>
@@ -1799,18 +1075,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI51">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:28:55Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI52" id="k_syn_R_C" name="k_syn_R_C" value="1.53" constant="true">
         <notes>
@@ -1819,18 +1084,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI52">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:31:12Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI53" id="k_bind_RdRp" name="k_bind_RdRp" value="1" constant="true">
         <notes>
@@ -1839,18 +1093,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI53">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:31:33Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI54" id="k_bind_NP" name="k_bind_NP" value="0.000301" constant="true">
         <notes>
@@ -1859,18 +1102,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI54">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:31:43Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI55" id="k_bind_M1" name="k_bind_M1" value="1.82e-06" constant="true">
         <notes>
@@ -1879,18 +1111,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI55">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:33:34Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI56" id="k_exp_Vp_nuc_M1" name="k_exp_Vp_nuc_M1" value="1e-06" constant="true">
         <notes>
@@ -1899,18 +1120,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI56">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:34:26Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI57" id="k_deg_R" name="k_deg_R" value="36.36" constant="true">
         <notes>
@@ -1919,18 +1129,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI57">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:35:06Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI58" id="k_deg_R_RdRp" name="k_deg_R_RdRp" value="4.25" constant="true">
         <notes>
@@ -1939,18 +1138,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI58">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:37:26Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI59" id="k_syn_R_M" name="k_syn_R_M" value="30600" constant="true">
         <notes>
@@ -1959,18 +1147,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI59">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:39:21Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI60" id="k_syn_P" name="k_syn_P" value="64800" constant="true">
         <notes>
@@ -1979,18 +1156,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI60">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:40:57Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI61" id="k_rel" name="k_rel" value="0.0011" constant="true">
         <notes>
@@ -1999,18 +1165,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI61">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:46:34Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI62" id="D_rib" name="D_rib" value="160" constant="true">
         <notes>
@@ -2019,18 +1174,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI62">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:00:40Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI63" id="k_syn_P_rel" name="k_syn_P_D_rib" value="405" constant="false">
         <notes>
@@ -2039,338 +1183,151 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI63">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:15:32Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI64" id="L1" name="L1" value="2320" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>length of segment 1&apos;s mRNA encoding PB2 (nucleotides)</pre>
+            <pre>length of segment 1's mRNA encoding PB2 (nucleotides)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI64">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:18:34Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI65" id="L2" name="L2" value="2320" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>length of segment 2&apos;s mRNA encoding PB1 (nucleotides)</pre>
+            <pre>length of segment 2's mRNA encoding PB1 (nucleotides)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI65">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:18:34Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI66" id="L3" name="L3" value="2211" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>length of segment 3&apos;s mRNA encoding PA (nucleotides)</pre>
+            <pre>length of segment 3's mRNA encoding PA (nucleotides)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI66">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:18:35Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI67" id="L4" name="L4" value="1757" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>length of segment 4&apos;s mRNA encoding HA (nucleotides)</pre>
+            <pre>length of segment 4's mRNA encoding HA (nucleotides)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI67">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:18:36Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI68" id="L5" name="L5" value="1540" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>length of segment 5&apos;s mRNA encoding HA (nucleotides)</pre>
+            <pre>length of segment 5's mRNA encoding HA (nucleotides)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI68">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:18:37Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI69" id="L6" name="L6" value="1392" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>length of segment 6&apos;s mRNA encoding HA (nucleotides)</pre>
+            <pre>length of segment 6's mRNA encoding HA (nucleotides)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI69">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:18:38Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI70" id="L7" name="L7" value="1005" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>length of segment 7&apos;s mRNA encoding HA (nucleotides)</pre>
+            <pre>length of segment 7's mRNA encoding HA (nucleotides)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI70">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:18:39Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI71" id="L8" name="L8" value="868" constant="true">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>length of segment 8&apos;s mRNA encoding HA (nucleotides)</pre>
+            <pre>length of segment 8's mRNA encoding HA (nucleotides)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI71">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:18:40Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI72" id="k_syn_R_M1_rel" name="k_syn_R_M1" value="1.64870689655172" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>synthesis rate of segment 1&apos;s mRNA (1/h)</pre>
+            <pre>synthesis rate of segment 1's mRNA (1/h)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI72">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:21:17Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI73" id="k_syn_R_M2_rel" name="k_syn_R_M2" value="1.64870689655172" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>synthesis rate of segment 2&apos;s mRNA (1/h)</pre>
+            <pre>synthesis rate of segment 2's mRNA (1/h)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI73">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:21:40Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI74" id="k_syn_R_M3_rel" name="k_syn_R_M3" value="1.72998643147897" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>synthesis rate of segment 3&apos;s mRNA (1/h)</pre>
+            <pre>synthesis rate of segment 3's mRNA (1/h)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI74">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:21:47Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI75" id="k_syn_R_M4_rel" name="k_syn_R_M4" value="2.1770062606716" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>synthesis rate of segment 4&apos;s mRNA (1/h)</pre>
+            <pre>synthesis rate of segment 4's mRNA (1/h)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI75">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:21:57Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI76" id="k_syn_R_M5_rel" name="k_syn_R_M5" value="2.48376623376623" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>synthesis rate of segment 5&apos;s mRNA (1/h)</pre>
+            <pre>synthesis rate of segment 5's mRNA (1/h)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI76">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:22:03Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI77" id="k_syn_R_M6_rel" name="k_syn_R_M6" value="2.74784482758621" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>synthesis rate of segment 6&apos;s mRNA (1/h)</pre>
+            <pre>synthesis rate of segment 6's mRNA (1/h)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI77">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:22:13Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI78" id="k_syn_R_M7_rel" name="k_syn_R_M7" value="3.80597014925373" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>synthesis rate of segment 7&apos;s mRNA (1/h)</pre>
+            <pre>synthesis rate of segment 7's mRNA (1/h)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI78">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:22:17Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI79" id="k_syn_R_M8_rel" name="k_syn_R_M8" value="4.40668202764977" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <pre>synthesis rate of segment 8&apos;s mRNA (1/h)</pre>
+            <pre>synthesis rate of segment 8's mRNA (1/h)</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI79">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:22:20Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI80" id="k_deg_R_M" name="k_deg_R_M" value="0.33" constant="true">
         <notes>
@@ -2379,18 +1336,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI80">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:31:37Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI81" id="N_P_RdRp" name="N_P_RdRp" value="45" constant="true">
         <notes>
@@ -2399,18 +1345,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI81">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:39:30Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI82" id="N_P_HA" name="N_P_HA" value="500" constant="true">
         <notes>
@@ -2419,18 +1354,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI82">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:39:42Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI83" id="N_P_M1" name="N_P_M1" value="3000" constant="true">
         <notes>
@@ -2439,18 +1363,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI83">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:39:47Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI84" id="N_P_NA" name="N_P_NA" value="100" constant="true">
         <notes>
@@ -2459,18 +1372,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI84">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:39:54Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI85" id="N_P_NEP" name="N_P_NEP" value="165" constant="true">
         <notes>
@@ -2479,18 +1381,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI85">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:40:00Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI86" id="N_P_NP" name="N_P_NP" value="1000" constant="true">
         <notes>
@@ -2499,18 +1390,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI86">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:40:17Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI87" id="K_V_rel" name="K_V_rel" value="10" constant="true">
         <notes>
@@ -2519,18 +1399,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI87">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T14:43:53Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI88" id="F_Spl7" name="F_Spl7" value="0.02" constant="true">
         <notes>
@@ -2539,18 +1408,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI88">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T16:13:04Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI89" id="k_syn_P_M1_rel" name="k_syn_P_M1" value="396.9" constant="false">
         <notes>
@@ -2559,18 +1417,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI89">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T16:13:41Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI90" id="k_syn_P_M2_rel" name="k_syn_P_M2" value="8.1" constant="false">
         <notes>
@@ -2579,18 +1426,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI90">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T16:13:48Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI91" id="F_Spl8" name="F_Spl8" value="0.125" constant="true">
         <notes>
@@ -2599,18 +1435,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI91">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T16:17:16Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI92" id="k_syn_P_NEP_rel" name="k_syn_P_NEP" value="50.625" constant="false">
         <notes>
@@ -2619,18 +1444,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI92">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T16:21:57Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI93" id="N_P_M2" name="N_P_M2" value="40" constant="true">
         <notes>
@@ -2639,18 +1453,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI93">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T16:31:58Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI94" id="K_eq_Hi" name="K_eq_Hi" value="0.0113" constant="true">
         <notes>
@@ -2659,18 +1462,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI94">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T10:03:07Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI95" id="K_eq_Lo" name="K_eq_Lo" value="8.33e-05" constant="true">
         <notes>
@@ -2679,18 +1471,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI95">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T10:03:12Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI96" id="F_fus" name="F_fus" value="0.51" constant="true">
         <notes>
@@ -2699,18 +1480,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI96">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T10:11:24Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI97" id="k_syn_R_V" name="k_syn_R_V" value="100.93" constant="true">
         <notes>
@@ -2719,18 +1489,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI97">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T10:57:25Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI98" id="KmB" name="KmB" value="450" constant="false">
         <notes>
@@ -2739,18 +1498,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI98">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-21T08:05:20Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI99" id="KmC" name="KmC" value="5000" constant="false">
         <notes>
@@ -2759,18 +1507,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI99">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-21T08:05:23Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI100" id="KmD" name="KmD" value="10000" constant="false">
         <notes>
@@ -2779,18 +1516,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI100">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-21T08:05:26Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI101" id="KmE" name="KmE" value="1000" constant="false">
         <notes>
@@ -2799,18 +1525,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI101">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-21T08:05:28Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI102" id="KmF" name="KmF" value="30000" constant="false">
         <notes>
@@ -2819,18 +1534,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI102">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-21T08:05:30Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI103" id="KmG" name="KmG" value="400" constant="false">
         <notes>
@@ -2839,18 +1543,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI103">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-21T08:05:34Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI104" id="KmH" name="KmH" value="1650" constant="false">
         <notes>
@@ -2859,18 +1552,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI104">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-21T08:05:37Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter metaid="COPASI105" id="k_RdRp" name="k_RdRp" value="1" constant="true">
         <notes>
@@ -2879,18 +1561,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI105">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-21T09:26:37Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
       </parameter>
       <parameter id="ModelValue_82" name="Initial for D_rib" value="160">
         <annotation>
@@ -3514,18 +2185,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
     <listOfReactions>
       <reaction metaid="COPASI106" id="V_ex_Virion_attachment_Hi" name="V_ex-virion_attachment_Hi" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI106">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:38:29Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="V_ex" stoichiometry="1"/>
           <speciesReference species="B_att_Hi" stoichiometry="1"/>
@@ -3547,18 +2207,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI107" id="V_att_Hi_Dissociation_virion" name="V_att_Hi-dissociation_virion" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI107">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:39:24Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="V_att_Hi" stoichiometry="1"/>
         </listOfReactants>
@@ -3579,18 +2228,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI108" id="V_att_Hi_Endocytosis_virion" name="V_att_Hi-endocytosis_virion" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI108">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:39:56Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="V_att_Hi" stoichiometry="1"/>
         </listOfReactants>
@@ -3611,18 +2249,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI109" id="V_end_Degradation" name="V_end-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI109">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:41:11Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="V_end" stoichiometry="1"/>
         </listOfReactants>
@@ -3639,18 +2266,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI110" id="V_end_Fusion_and_release" name="V_end-fusion_and_release" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI110">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T11:42:03Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="V_end" stoichiometry="1"/>
         </listOfReactants>
@@ -3670,18 +2286,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI111" id="V_cyt_Import" name="V_cyt-import" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI111">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:00:34Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_cyt" stoichiometry="1"/>
         </listOfReactants>
@@ -3701,18 +2306,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI112" id="R_C_Synthesis" name="R_C-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI112">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:01:33Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -3733,18 +2327,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI113" id="R_C_Degradation" name="R_C-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI113">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:02:17Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_C" stoichiometry="1"/>
         </listOfReactants>
@@ -3761,18 +2344,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI114" id="R_C_binding_of_RdRp" name="R_C-binding_of_RdRp" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI114">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:02:54Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_C" stoichiometry="1"/>
           <speciesReference species="P_RdRp" stoichiometry="1"/>
@@ -3794,18 +2366,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI115" id="R_C_RdRp_Degradation" name="R_C_RdRp-Degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI115">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:03:36Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_C_RdRp" stoichiometry="1"/>
         </listOfReactants>
@@ -3822,18 +2383,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI116" id="C_P_synthesis" name="C_P-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI116">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:04:28Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_C_RdRp" stoichiometry="1"/>
           <speciesReference species="P_NP" stoichiometry="71"/>
@@ -3858,18 +2408,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI117" id="R_V_synthesis" name="R_V-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI117">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:05:23Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Cp" stoichiometry="1"/>
         </listOfReactants>
@@ -3890,18 +2429,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI118" id="C_P_degradation" name="C_P-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI118">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:05:46Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Cp" stoichiometry="1"/>
         </listOfReactants>
@@ -3918,18 +2446,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI119" id="R_V_binding_of_RdRp" name="R_V-binding_of_RdRp" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI119">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:06:11Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_V" stoichiometry="1"/>
           <speciesReference species="P_RdRp" stoichiometry="1"/>
@@ -3951,18 +2468,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
       </reaction>
       <reaction metaid="COPASI120" id="R_V_degradation" name="R_V-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI120">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:07:01Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_V" stoichiometry="1"/>
         </listOfReactants>
@@ -3985,18 +2491,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI121">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:08:20Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_V_RdRp" stoichiometry="1"/>
           <speciesReference species="P_NP" stoichiometry="71"/>
@@ -4021,18 +2516,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI122" id="Vp_nuc_degradation" name="Vp_nuc-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI122">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:09:13Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -4049,18 +2533,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI123" id="R_M1_synthesis" name="R_M1-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI123">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:10:12Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -4081,18 +2554,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI124" id="R_M2_synthesis" name="R_M2-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI124">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:10:49Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -4113,18 +2575,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI125" id="R_M3_synthesis" name="R_M3-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI125">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:11:26Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -4145,18 +2596,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI126" id="R_M4_synthesis" name="R_M4-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI126">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:11:40Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -4177,18 +2617,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI127" id="R_M5_synthesis" name="R_M5-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI127">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:11:52Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -4209,18 +2638,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI128" id="R_M6_synthesis" name="R_M6-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI128">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:12:11Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -4241,18 +2659,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI129" id="R_M7_synthesis" name="R_M7-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI129">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:12:20Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -4273,18 +2680,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI130" id="R_M8_synthesis" name="R_M8-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI130">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:12:34Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
         </listOfReactants>
@@ -4305,18 +2701,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI131" id="P_B1_synthesis" name="P_B1-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI131">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:12:57Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M2" stoichiometry="1"/>
         </listOfReactants>
@@ -4337,18 +2722,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI132" id="P_B2_synthesis" name="P_B2-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI132">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:13:29Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M1" stoichiometry="1"/>
         </listOfReactants>
@@ -4369,18 +2743,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI133" id="P_PA_synthesis" name="P_PA-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI133">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:13:49Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M3" stoichiometry="1"/>
         </listOfReactants>
@@ -4401,18 +2764,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI134" id="P_HA_synthesis" name="P_HA-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI134">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:14:10Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M4" stoichiometry="1"/>
         </listOfReactants>
@@ -4433,18 +2785,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI135" id="P_NP_synthesis" name="P_NP-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI135">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:14:29Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M5" stoichiometry="1"/>
         </listOfReactants>
@@ -4465,18 +2806,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI136" id="P_NA_synthesis" name="P_NA-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI136">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:14:45Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M6" stoichiometry="1"/>
         </listOfReactants>
@@ -4497,18 +2827,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI137" id="P_M1_synthesis" name="P_M1-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI137">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:15:03Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M7" stoichiometry="1"/>
         </listOfReactants>
@@ -4529,18 +2848,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI138" id="P_NEP_synthesis" name="P_NEP-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI138">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:15:18Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M8" stoichiometry="1"/>
         </listOfReactants>
@@ -4561,18 +2869,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI139" id="R_M1_degradation" name="R_M1-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI139">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:16:08Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M1" stoichiometry="1"/>
         </listOfReactants>
@@ -4589,18 +2886,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI140" id="R_M2_degradation" name="R_M2-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI140">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:16:13Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M2" stoichiometry="1"/>
         </listOfReactants>
@@ -4617,18 +2903,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI141" id="R_M3_degradation" name="R_M3-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI141">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:16:18Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M3" stoichiometry="1"/>
         </listOfReactants>
@@ -4645,18 +2920,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI142" id="R_M4_degradation" name="R_M4-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI142">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:16:22Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M4" stoichiometry="1"/>
         </listOfReactants>
@@ -4673,18 +2937,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI143" id="R_M5_degradation" name="R_M5-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI143">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:16:27Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M5" stoichiometry="1"/>
         </listOfReactants>
@@ -4701,18 +2954,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI144" id="R_M6_degradation" name="R_M6-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI144">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:16:33Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M6" stoichiometry="1"/>
         </listOfReactants>
@@ -4729,18 +2971,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI145" id="R_M7_degradation" name="R_M7-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI145">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:16:38Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M7" stoichiometry="1"/>
         </listOfReactants>
@@ -4757,18 +2988,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI146" id="R_M8_degradation" name="R_M8-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI146">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:38:20Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M8" stoichiometry="1"/>
         </listOfReactants>
@@ -4785,18 +3005,7 @@ R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
       </reaction>
       <reaction metaid="COPASI147" id="P_RdRp_complex_formation" name="P_RdRp-complex_formation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI147">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:39:40Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="P_B1" stoichiometry="1"/>
           <speciesReference species="P_B2" stoichiometry="1"/>
@@ -4826,18 +3035,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI148">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:41:03Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc" stoichiometry="1"/>
           <speciesReference species="P_M1" stoichiometry="8.5"/>
@@ -4862,18 +3060,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
       </reaction>
       <reaction metaid="COPASI149" id="Vp_nuc_M1_export" name="Vp_nuc_M1-export" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI149">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:41:25Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc_M1" stoichiometry="1"/>
           <speciesReference species="P_NEP" stoichiometry="1"/>
@@ -4901,18 +3088,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
           </body>
         </notes>
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI150">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T12:41:53Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_cyt_M1" stoichiometry="8"/>
           <speciesReference species="P_RdRp" stoichiometry="37"/>
@@ -4956,18 +3132,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
       </reaction>
       <reaction metaid="COPASI151" id="V_ex_Virion_attachment_Lo" name="V_ex-virion_attachment_Lo" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI151">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T13:16:40Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="V_ex" stoichiometry="1"/>
           <speciesReference species="B_att_Lo" stoichiometry="1"/>
@@ -4989,18 +3154,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
       </reaction>
       <reaction metaid="COPASI152" id="P_M2_synthesis" name="P_M2-synthesis" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI152">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-19T16:16:24Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_M7" stoichiometry="1"/>
         </listOfReactants>
@@ -5021,18 +3175,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
       </reaction>
       <reaction metaid="COPASI153" id="V_att_Lo_Dissociation_virion" name="V_att_Lo-dissociation_virion" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI153">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T10:01:22Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="V_att_Lo" stoichiometry="1"/>
         </listOfReactants>
@@ -5053,18 +3196,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
       </reaction>
       <reaction metaid="COPASI154" id="V_att_Lo_Endocytosis_virion" name="V_att_Lo-endocytosis_virion" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI154">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T10:09:57Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="V_att_Lo" stoichiometry="1"/>
         </listOfReactants>
@@ -5085,18 +3217,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
       </reaction>
       <reaction metaid="COPASI155" id="Vp_nuc_M1_degradation" name="Vp_nuc_M1-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI155">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T10:29:49Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_nuc_M1" stoichiometry="1"/>
         </listOfReactants>
@@ -5113,18 +3234,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
       </reaction>
       <reaction metaid="COPASI156" id="R_V_RdRp_degradation" name="R_V_RdRp-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI156">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T13:08:03Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="R_V_RdRp" stoichiometry="1"/>
         </listOfReactants>
@@ -5141,18 +3251,7 @@ Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
       </reaction>
       <reaction metaid="COPASI157" id="Vp_cyt_M1_degradation" name="Vp_cyt_M1-degradation" reversible="false">
         <annotation>
-          <COPASI xmlns="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI157">
-                <dcterms:created>
-                  <rdf:Description>
-                    <dcterms:W3CDTF>2021-04-20T14:54:22Z</dcterms:W3CDTF>
-                  </rdf:Description>
-                </dcterms:created>
-              </rdf:Description>
-            </rdf:RDF>
-          </COPASI>
-        </annotation>
+          </annotation>
         <listOfReactants>
           <speciesReference species="Vp_cyt_M1" stoichiometry="1"/>
         </listOfReactants>
