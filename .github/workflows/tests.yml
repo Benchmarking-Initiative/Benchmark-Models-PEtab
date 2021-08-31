@@ -28,3 +28,7 @@ jobs:
     - name: Check benchmark problems
       run: ./checkBenchmarkModels.py
       working-directory: Benchmark-Models/
+
+    - name: Show overview
+      run: ./model_info.py
+      working-directory: Benchmark-Models/
