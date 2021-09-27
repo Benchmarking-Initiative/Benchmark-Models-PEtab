@@ -485,12 +485,6 @@ pDNAPK_au		model1_data19	0.028669219721108	3.0	scale_pdnapk_au	sd_pdnapk_au
 pDNAPK_au		model1_data19	0.048906315994831	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pDNAPK_au		model1_data19	-0.011804972826338	12.0	scale_pdnapk_au	sd_pdnapk_au	
 pDNAPK_au		model1_data19	-0.032042069100061	24.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data19		0.25	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data19		1.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data19		3.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data19		6.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data19		12.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data19		24.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data19	0.014372600762671998	0.25	scale_pchk1_au	sd_pchk1_au	
 pChk1_au		model1_data19	0.014372600762671998	1.0	scale_pchk1_au	sd_pchk1_au	
 pChk1_au		model1_data19	0.0031164927606259995	3.0	scale_pchk1_au	sd_pchk1_au	
@@ -569,12 +563,6 @@ pDNAPK_au		model1_data20	0.048906315994831	3.0	scale_pdnapk_au	sd_pdnapk_au	mode
 pDNAPK_au		model1_data20	0.099499056679138	6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
 pDNAPK_au		model1_data20	0.19056598991089105	12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
 pDNAPK_au		model1_data20	0.139973249226584	24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
-pDNAPK_au		model1_data20		0.25	scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
-pDNAPK_au		model1_data20		1.0	scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
-pDNAPK_au		model1_data20		3.0	scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
-pDNAPK_au		model1_data20		6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
-pDNAPK_au		model1_data20		12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
-pDNAPK_au		model1_data20		24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
 pChk1_au		model1_data20	-0.019395723243467	0.25	scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
 pChk1_au		model1_data20	0.036884816766764	1.0	scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
 pChk1_au		model1_data20	0.014372600762671998	3.0	scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
@@ -653,12 +641,6 @@ pDNAPK_au		model1_data21	0.129854701089722	3.0	scale_pdnapk_au	sd_pdnapk_au	mode
 pDNAPK_au		model1_data21	0.696493396753966	6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
 pDNAPK_au		model1_data21	1.07087967781784	12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
 pDNAPK_au		model1_data21	0.7268490411645501	24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
-pDNAPK_au		model1_data21		0.25	scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
-pDNAPK_au		model1_data21		1.0	scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
-pDNAPK_au		model1_data21		3.0	scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
-pDNAPK_au		model1_data21		6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
-pDNAPK_au		model1_data21		12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
-pDNAPK_au		model1_data21		24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
 pChk1_au		model1_data21	0.036884816766764	0.25	scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
 pChk1_au		model1_data21	0.059397032770857	1.0	scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
 pChk1_au		model1_data21	0.171958112791318	3.0	scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
@@ -737,12 +719,6 @@ pDNAPK_au		model1_data22	0.301870019416368	3.0	scale_pdnapk_au	sd_pdnapk_au	mode
 pDNAPK_au		model1_data22	1.0000498408598102	6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
 pDNAPK_au		model1_data22	1.02028693713353	12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
 pDNAPK_au		model1_data22	0.969694196449226	24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
-pDNAPK_au		model1_data22		0.25	scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
-pDNAPK_au		model1_data22		1.0	scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
-pDNAPK_au		model1_data22		3.0	scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
-pDNAPK_au		model1_data22		6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
-pDNAPK_au		model1_data22		12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
-pDNAPK_au		model1_data22		24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
 pChk1_au		model1_data22	0.048140924768811	0.25	scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
 pChk1_au		model1_data22	0.07065314077290301	1.0	scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
 pChk1_au		model1_data22	0.273263084809734	3.0	scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
@@ -821,12 +797,6 @@ pDNAPK_au		model1_data23	0.014568871863345	3.0	scale_pdnapk_au	sd_pdnapk_au
 pDNAPK_au		model1_data23	0.04930433549064401	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pDNAPK_au		model1_data23	0.008155097564927	12.0	scale_pdnapk_au	sd_pdnapk_au	
 pDNAPK_au		model1_data23	-0.00011743257644	24.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data23		0.25	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data23		1.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data23		3.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data23		6.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data23		12.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data23		24.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data23	0.100635850622685	0.25	scale_pchk1_au	sd_pchk1_au	
 pChk1_au		model1_data23	0.030289195188535	1.0	scale_pchk1_au	sd_pchk1_au	
 pChk1_au		model1_data23	-0.087113667447673	3.0	scale_pchk1_au	sd_pchk1_au	
@@ -905,12 +875,6 @@ pDNAPK_au		model1_data24	0.06654203830865	3.0	scale_pdnapk_au	sd_pdnapk_au	model
 pDNAPK_au		model1_data24	0.086365456144508	6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
 pDNAPK_au		model1_data24	0.07029324102630499	12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
 pDNAPK_au		model1_data24	-0.049542896390269014	24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
-pDNAPK_au		model1_data24		0.25	scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
-pDNAPK_au		model1_data24		1.0	scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
-pDNAPK_au		model1_data24		3.0	scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
-pDNAPK_au		model1_data24		6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
-pDNAPK_au		model1_data24		12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
-pDNAPK_au		model1_data24		24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
 pChk1_au		model1_data24	0.253502111164832	0.25	scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
 pChk1_au		model1_data24	0.279995468423617	1.0	scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
 pChk1_au		model1_data24	0.371878073254277	3.0	scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
@@ -989,12 +953,6 @@ pDNAPK_au		model1_data25	0.262206431348769	3.0	scale_pdnapk_au	sd_pdnapk_au	mode
 pDNAPK_au		model1_data25	0.196792075477296	6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
 pDNAPK_au		model1_data25	0.208550556246243	12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
 pDNAPK_au		model1_data25	0.125884299223642	24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
-pDNAPK_au		model1_data25		0.25	scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
-pDNAPK_au		model1_data25		1.0	scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
-pDNAPK_au		model1_data25		3.0	scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
-pDNAPK_au		model1_data25		6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
-pDNAPK_au		model1_data25		12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
-pDNAPK_au		model1_data25		24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
 pChk1_au		model1_data25	0.51522607381689	0.25	scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
 pChk1_au		model1_data25	0.498873142429549	1.0	scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
 pChk1_au		model1_data25	0.5645208288095971	3.0	scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
@@ -1073,12 +1031,6 @@ pDNAPK_au		model1_data26	0.7569460257421871	3.0	scale_pdnapk_au	sd_pdnapk_au	mod
 pDNAPK_au		model1_data26	0.563406663073244	6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
 pDNAPK_au		model1_data26	0.32696730660816603	12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
 pDNAPK_au		model1_data26	0.13449841832567402	24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
-pDNAPK_au		model1_data26		0.25	scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
-pDNAPK_au		model1_data26		1.0	scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
-pDNAPK_au		model1_data26		3.0	scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
-pDNAPK_au		model1_data26		6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
-pDNAPK_au		model1_data26		12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
-pDNAPK_au		model1_data26		24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
 pChk1_au		model1_data26	0.791125201366447	0.25	scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
 pChk1_au		model1_data26	0.754672729001364	1.0	scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
 pChk1_au		model1_data26	0.464431355565502	3.0	scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
@@ -1157,12 +1109,6 @@ pDNAPK_au		model1_data27	-0.029361669473367994	3.0	scale_pdnapk_au	sd_pdnapk_au
 pDNAPK_au		model1_data27	-0.05194172836902	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pDNAPK_au		model1_data27	0.14662855717633402	12.0	scale_pdnapk_au	sd_pdnapk_au	
 pDNAPK_au		model1_data27	-0.0218856740263	24.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data27		0.25	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data27		1.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data27		3.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data27		6.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data27		12.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data27		24.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data27	0.06177949038812201	0.25	scale_pchk1_au	sd_pchk1_au	
 pChk1_au		model1_data27	-0.000137920833419	1.0	scale_pchk1_au	sd_pchk1_au	
 pChk1_au		model1_data27	-0.042664035762982014	3.0	scale_pchk1_au	sd_pchk1_au	
@@ -1241,12 +1187,6 @@ pDNAPK_au		model1_data28	-0.017995201559580003	3.0	scale_pdnapk_au	sd_pdnapk_au	
 pDNAPK_au		model1_data28	-0.05194172836902	6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
 pDNAPK_au		model1_data28	-0.05194172836902	12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
 pDNAPK_au		model1_data28	0.3624329380647299	24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
-pDNAPK_au		model1_data28		0.25	scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
-pDNAPK_au		model1_data28		1.0	scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
-pDNAPK_au		model1_data28		3.0	scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
-pDNAPK_au		model1_data28		6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
-pDNAPK_au		model1_data28		12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
-pDNAPK_au		model1_data28		24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
 pChk1_au		model1_data28	0.034527087908237	0.25	scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
 pChk1_au		model1_data28	0.020564607644433	1.0	scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
 pChk1_au		model1_data28	0.5287559450939899	3.0	scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
@@ -1325,12 +1265,6 @@ pDNAPK_au		model1_data29	-0.05194172836902	3.0	scale_pdnapk_au	sd_pdnapk_au	mode
 pDNAPK_au		model1_data29	-0.05194172836902	6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
 pDNAPK_au		model1_data29	0.24485483092196494	12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
 pDNAPK_au		model1_data29	0.318656045049883	24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
-pDNAPK_au		model1_data29		0.25	scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
-pDNAPK_au		model1_data29		1.0	scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
-pDNAPK_au		model1_data29		3.0	scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
-pDNAPK_au		model1_data29		6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
-pDNAPK_au		model1_data29		12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
-pDNAPK_au		model1_data29		24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
 pChk1_au		model1_data29	0.007047353058427	0.25	scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
 pChk1_au		model1_data29	0.19462833792764306	1.0	scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
 pChk1_au		model1_data29	0.874348149496012	3.0	scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
@@ -1409,12 +1343,6 @@ pDNAPK_au		model1_data30	-0.05194172836902	3.0	scale_pdnapk_au	sd_pdnapk_au	mode
 pDNAPK_au		model1_data30	-0.031936764405906	6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
 pDNAPK_au		model1_data30	0.364053939490198	12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
 pDNAPK_au		model1_data30	0.6134230540862691	24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
-pDNAPK_au		model1_data30		0.25	scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
-pDNAPK_au		model1_data30		1.0	scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
-pDNAPK_au		model1_data30		3.0	scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
-pDNAPK_au		model1_data30		6.0	scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
-pDNAPK_au		model1_data30		12.0	scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
-pDNAPK_au		model1_data30		24.0	scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
 pChk1_au		model1_data30	-0.028026041810982002	0.25	scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
 pChk1_au		model1_data30	0.675546106464469	1.0	scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
 pChk1_au		model1_data30	1.05190375230824	3.0	scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
@@ -1491,13 +1419,13 @@ tp53_au		model1_data32	0.012982487	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data32	-0.00465469	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data32	0.01537557	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data32	0.015896	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data33	31	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data33	31.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data33	-0.03312	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data33	0.016588235294118	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data33	0.054000000000000006	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data33		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data33		6.0	scale_pp53_au	sd_pp53_au	
-tp21_au		model1_data33	28	6.0	scale_tp21_au	sd_tp21_au	
+tp21_au		model1_data33	28.0	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data33	0.016296296296296	6.0	scale_yh2ax_au	sd_yh2ax_au	
 pATM_au		model1_data34	0.16761225	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data34		6.0	scale_pdnapk_au	sd_pdnapk_au	
@@ -1531,7 +1459,7 @@ tp53_au		model1_data37	0.18990311	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data37	0.120775175	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data37	0.26195241	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data37	0.168854828	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data38	341	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data38	341.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data38	-0.01872	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data38	0.056823529411765	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data38	0.4747	6.0	scale_pchk2_au	sd_pchk2_au	
@@ -1555,13 +1483,13 @@ tp53_au		model1_data40	0.6856818440000001	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data40	0.51336017	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data40	0.68789274	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data40	0.725268708	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data41	693	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data41	693.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data41	0.12	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data41	0.205294117647059	6.0	scale_pchk1_au	sd_pchk1_au	
-pChk2_au		model1_data41	985	6.0	scale_pchk2_au	sd_pchk2_au	
+pChk2_au		model1_data41	985.0	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data41		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data41		6.0	scale_pp53_au	sd_pp53_au	
-tp21_au		model1_data41	505	6.0	scale_tp21_au	sd_tp21_au	
+tp21_au		model1_data41	505.0	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data41	0.284814814814815	6.0	scale_yh2ax_au	sd_yh2ax_au	
 pATM_au		model1_data42	0.7425440999999999	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data42		6.0	scale_pdnapk_au	sd_pdnapk_au	
@@ -1574,34 +1502,32 @@ yH2AX_au		model1_data42	0.834909756	6.0	scale_yh2ax_au	sd_yh2ax_au
 pATM_au		model1_data43	0.784763925	6.0	scale_patm_au	sd_patm_au	
 pATM_au		model1_data43	0.88	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data43		6.0	scale_pdnapk_au	sd_pdnapk_au	
-pDNAPK_au		model1_data43	1016	6.0	scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au		model1_data43	1016.0	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data43	0.671972688	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk1_au		model1_data43	0.5723529411764711	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data43	0.83442425	6.0	scale_pchk2_au	sd_pchk2_au	
-pChk2_au		model1_data43	1069	6.0	scale_pchk2_au	sd_pchk2_au	
+pChk2_au		model1_data43	1069.0	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data43	1.02166322	6.0	scale_tp53_au	sd_tp53_au	
-tp53_au		model1_data43		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data43	0.806212015	6.0	scale_pp53_au	sd_pp53_au	
-pp53_au		model1_data43		6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data43	0.76171155	6.0	scale_tp21_au	sd_tp21_au	
-tp21_au		model1_data43	1005	6.0	scale_tp21_au	sd_tp21_au	
+tp21_au		model1_data43	1005.0	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data43	0.884276884	6.0	scale_yh2ax_au	sd_yh2ax_au	
 yH2AX_au		model1_data43	0.75	6.0	scale_yh2ax_au	sd_yh2ax_au	
 pATM_au		model1_data44	0.93	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data44		6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data44	0.938235294117647	6.0	scale_pchk1_au	sd_pchk1_au	
-pChk2_au		model1_data44	922	6.0	scale_pchk2_au	sd_pchk2_au	
+pChk2_au		model1_data44	922.0	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data44		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data44		6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data44	0.3315	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data44	0.9648148148148148	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data45	-5	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data45	-5.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data45	-0.0548	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data45	0.021882352941177	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data45	0.0491	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data45		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data45		6.0	scale_pp53_au	sd_pp53_au	
-tp21_au		model1_data45	25	6.0	scale_tp21_au	sd_tp21_au	
+tp21_au		model1_data45	25.0	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data45	-0.013851851851852	6.0	scale_yh2ax_au	sd_yh2ax_au	
 pATM_au		model1_data46	0.02675	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data46		6.0	scale_pdnapk_au	sd_pdnapk_au	
@@ -1611,7 +1537,7 @@ tp53_au		model1_data46	0.003012206	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data46	-0.02089102	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data46	-0.07241313	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data46	-0.022838364	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data47	404	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data47	404.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data47	0.2408	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data47	0.337058823529412	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data47	0.3802	6.0	scale_pchk2_au	sd_pchk2_au	
@@ -1651,10 +1577,10 @@ tp53_au		model1_data51	0.458842307	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data51	0.40649308	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data51	0.16595502	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data51	0.188245912	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data52	619	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data52	619.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data52	0.76	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data52	0.395882352941176	6.0	scale_pchk1_au	sd_pchk1_au	
-pChk2_au		model1_data52	607	6.0	scale_pchk2_au	sd_pchk2_au	
+pChk2_au		model1_data52	607.0	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data52		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data52		6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data52	0.2255	6.0	scale_tp21_au	sd_tp21_au	
@@ -1675,10 +1601,10 @@ tp53_au		model1_data54	0.57813827	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data54	0.656159805	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data54	0.67659675	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data54	0.185201468	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data55	632	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data55	632.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data55	0.5296	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data55	0.277058823529412	6.0	scale_pchk1_au	sd_pchk1_au	
-pChk2_au		model1_data55	593	6.0	scale_pchk2_au	sd_pchk2_au	
+pChk2_au		model1_data55	593.0	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data55		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data55		6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data55	0.64	6.0	scale_tp21_au	sd_tp21_au	
@@ -1692,30 +1618,28 @@ pp53_au		model1_data56	0.858353335	6.0	scale_pp53_au	sd_pp53_au
 tp21_au		model1_data56	0.76538799	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data56	0.361340624	6.0	scale_yh2ax_au	sd_yh2ax_au	
 pATM_au		model1_data57	0.795775775	6.0	scale_patm_au	sd_patm_au	
-pATM_au		model1_data57	654	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data57	654.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data57		6.0	scale_pdnapk_au	sd_pdnapk_au	
 pDNAPK_au		model1_data57	0.2448	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data57	0.282170576	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk1_au		model1_data57	0.241764705882353	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data57	0.8236625	6.0	scale_pchk2_au	sd_pchk2_au	
-pChk2_au		model1_data57	705	6.0	scale_pchk2_au	sd_pchk2_au	
+pChk2_au		model1_data57	705.0	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data57	0.986115425	6.0	scale_tp53_au	sd_tp53_au	
-tp53_au		model1_data57		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data57	1.007687575	6.0	scale_pp53_au	sd_pp53_au	
-pp53_au		model1_data57		6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data57	0.88273374	6.0	scale_tp21_au	sd_tp21_au	
-tp21_au		model1_data57	645	6.0	scale_tp21_au	sd_tp21_au	
+tp21_au		model1_data57	645.0	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data57	0.600477168	6.0	scale_yh2ax_au	sd_yh2ax_au	
 yH2AX_au		model1_data57	0.461111111111111	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data58	706	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data58	706.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data58	0.3464	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data58	0.220588235294118	6.0	scale_pchk1_au	sd_pchk1_au	
-pChk2_au		model1_data58	873	6.0	scale_pchk2_au	sd_pchk2_au	
+pChk2_au		model1_data58	873.0	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data58		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data58		6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data58	0.64	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data58	0.572222222222222	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data59	-8	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data59	-8.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data59	-0.04	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data59	0.018941176470588	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data59	0.0358	6.0	scale_pchk2_au	sd_pchk2_au	
@@ -1731,13 +1655,13 @@ tp53_au		model1_data60	0.031444592	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data60	-0.00740359	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data60	0.00687228	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data60	0.053946515999999986	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data61	-13	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data61	-13.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data61	0.07200000000000001	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data61	0.178235294117647	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data61	0.0022	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data61		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data61		6.0	scale_pp53_au	sd_pp53_au	
-tp21_au		model1_data61	16	6.0	scale_tp21_au	sd_tp21_au	
+tp21_au		model1_data61	16.0	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data61	0.004444444444444	6.0	scale_yh2ax_au	sd_yh2ax_au	
 pATM_au		model1_data62	0.022673175	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data62		6.0	scale_pdnapk_au	sd_pdnapk_au	
@@ -1755,7 +1679,7 @@ tp53_au		model1_data63	0.02428925	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data63	0.002783895	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data63	-0.04464885	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data63	0.063230336	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data64	77	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data64	77.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data64	-0.12	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data64	0.554705882352941	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data64	0.0617	6.0	scale_pchk2_au	sd_pchk2_au	
@@ -1771,13 +1695,13 @@ tp53_au		model1_data65	0.046266089	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data65	0.02659521	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data65	-0.04985436	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data65	0.10792968	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data66	254	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data66	254.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data66	0.4320000000000001	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data66	0.862941176470588	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data66	0.2577	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data66		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data66		6.0	scale_pp53_au	sd_pp53_au	
-tp21_au		model1_data66	14	6.0	scale_tp21_au	sd_tp21_au	
+tp21_au		model1_data66	14.0	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data66	0.158148148148148	6.0	scale_yh2ax_au	sd_yh2ax_au	
 pATM_au		model1_data67	0.176717975	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data67		6.0	scale_pdnapk_au	sd_pdnapk_au	
@@ -1795,8 +1719,8 @@ tp53_au		model1_data68	0.131877545	6.0	scale_tp53_au	sd_tp53_au
 pp53_au		model1_data68	0.071762585	6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data68	-0.05270667	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data68	0.17158951600000005	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data69	324	6.0	scale_patm_au	sd_patm_au	
-pDNAPK_au		model1_data69	952	6.0	scale_pdnapk_au	sd_pdnapk_au	
+pATM_au		model1_data69	324.0	6.0	scale_patm_au	sd_patm_au	
+pDNAPK_au		model1_data69	952.0	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data69	0.7335294117647059	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data69	0.3669	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data69		6.0	scale_tp53_au	sd_tp53_au	
@@ -1812,7 +1736,7 @@ pp53_au		model1_data70	0.13039726	6.0	scale_pp53_au	sd_pp53_au
 tp21_au		model1_data70	-0.07637415	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data70	0.188634812	6.0	scale_yh2ax_au	sd_yh2ax_au	
 pATM_au		model1_data71	0.31673635	6.0	scale_patm_au	sd_patm_au	
-pATM_au		model1_data71	308	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data71	308.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data71		6.0	scale_pdnapk_au	sd_pdnapk_au	
 pDNAPK_au		model1_data71	0.7440000000000001	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data71	0.614477184	6.0	scale_pchk1_au	sd_pchk1_au	
@@ -1820,14 +1744,12 @@ pChk1_au		model1_data71	0.6994117647058821	6.0	scale_pchk1_au	sd_pchk1_au
 pChk2_au		model1_data71	0.285248	6.0	scale_pchk2_au	sd_pchk2_au	
 pChk2_au		model1_data71	0.3935	6.0	scale_pchk2_au	sd_pchk2_au	
 tp53_au		model1_data71	0.189162572	6.0	scale_tp53_au	sd_tp53_au	
-tp53_au		model1_data71		6.0	scale_tp53_au	sd_tp53_au	
 pp53_au		model1_data71	0.144083735	6.0	scale_pp53_au	sd_pp53_au	
-pp53_au		model1_data71		6.0	scale_pp53_au	sd_pp53_au	
 tp21_au		model1_data71	-0.12703578	6.0	scale_tp21_au	sd_tp21_au	
 tp21_au		model1_data71	-0.0085	6.0	scale_tp21_au	sd_tp21_au	
 yH2AX_au		model1_data71	0.248893428	6.0	scale_yh2ax_au	sd_yh2ax_au	
 yH2AX_au		model1_data71	0.18962962962963	6.0	scale_yh2ax_au	sd_yh2ax_au	
-pATM_au		model1_data72	307	6.0	scale_patm_au	sd_patm_au	
+pATM_au		model1_data72	307.0	6.0	scale_patm_au	sd_patm_au	
 pDNAPK_au		model1_data72	1.0	6.0	scale_pdnapk_au	sd_pdnapk_au	
 pChk1_au		model1_data72	0.607647058823529	6.0	scale_pchk1_au	sd_pchk1_au	
 pChk2_au		model1_data72	0.3186	6.0	scale_pchk2_au	sd_pchk2_au	
