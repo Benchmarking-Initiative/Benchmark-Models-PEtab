@@ -1,0 +1,43 @@
+observableId	simulationConditionId	measurement	time	noiseParameters	observableParameters	datasetId
+RM5	virus_infection	16.4862319433747	1	sigma_RM5		dataset_RM5
+RM5	virus_infection	137.529004093062	2	sigma_RM5		dataset_RM5
+RM5	virus_infection	5927.73630370154	3	sigma_RM5		dataset_RM5
+RM5	virus_infection	26070.7777033051	4	sigma_RM5		dataset_RM5
+RM5	virus_infection	36165.1722001919	5	sigma_RM5		dataset_RM5
+RM5	virus_infection	39708.6354393543	6	sigma_RM5		dataset_RM5
+RM5	virus_infection	33557.6057996387	7	sigma_RM5		dataset_RM5
+RM5	virus_infection	26851.6819153912	8	sigma_RM5		dataset_RM5
+RM5	virus_infection	24129.7114856115	9	sigma_RM5		dataset_RM5
+RM5	virus_infection	15503.6668243303	10	sigma_RM5		dataset_RM5
+RVSegTot	virus_infection	535.171384487193	1	sigma_RV	vRNA_offset	dataset_RV
+RVSegTot	virus_infection	505.340542126865	2	sigma_RV	vRNA_offset	dataset_RV
+RVSegTot	virus_infection	2257.56566823967	3	sigma_RV	vRNA_offset	dataset_RV
+RVSegTot	virus_infection	13599.6998388987	4	sigma_RV	vRNA_offset	dataset_RV
+RVSegTot	virus_infection	34431.2425312543	5	sigma_RV	vRNA_offset	dataset_RV
+RVSegTot	virus_infection	52925.7096508491	6	sigma_RV	vRNA_offset	dataset_RV
+RVSegTot	virus_infection	64547.3268688838	7	sigma_RV	vRNA_offset	dataset_RV
+RVSegTot	virus_infection	74091.3081045583	8	sigma_RV	vRNA_offset	dataset_RV
+RVSegTot	virus_infection	88032.0436517163	9	sigma_RV	vRNA_offset	dataset_RV
+RVSegTot	virus_infection	97993.174580701	10	sigma_RV	vRNA_offset	dataset_RV
+RCSegTot	virus_infection	0.316575722115733	1	sigma_RC		dataset_RC
+RCSegTot	virus_infection	28.2322619773035	2	sigma_RC		dataset_RC
+RCSegTot	virus_infection	304.173443943742	3	sigma_RC		dataset_RC
+RCSegTot	virus_infection	853.489726325741	4	sigma_RC		dataset_RC
+RCSegTot	virus_infection	1059.34292406483	5	sigma_RC		dataset_RC
+RCSegTot	virus_infection	1080.18974477004	6	sigma_RC		dataset_RC
+RCSegTot	virus_infection	923.164390912859	7	sigma_RC		dataset_RC
+RCSegTot	virus_infection	944.367497535591	8	sigma_RC		dataset_RC
+RCSegTot	virus_infection	1058.63298698841	9	sigma_RC		dataset_RC
+RCSegTot	virus_infection	1003.14044835124	10	sigma_RC		dataset_RC
+Vrel	virus_infection_2	848.298307989294	20	sigma_Vrel		dataset_Vrel
+Vrel	virus_infection_2	907.923629140452	24	sigma_Vrel		dataset_Vrel
+Vrel	virus_infection_2	1223.94016428638	28	sigma_Vrel		dataset_Vrel
+IntNucOffset	virus_infection_3	51.6	0	scale_sigma_FracNucInt	Int_nuc_off	dataset_FracNucInt
+FracNucInt_1	virus_infection_3	42.785	0.25	scale_sigma_FracNucInt	Int_nuc_off	dataset_FracNucInt
+FracNucInt_2	virus_infection_3	51.7075	0.5	scale_sigma_FracNucInt	Int_nuc_off	dataset_FracNucInt
+FracNucInt_3	virus_infection_3	53.7125	0.75	scale_sigma_FracNucInt	Int_nuc_off	dataset_FracNucInt
+FracNucInt_4	virus_infection_3	57.4275	1	scale_sigma_FracNucInt	Int_nuc_off	dataset_FracNucInt
+FracNucInt_5	virus_infection_3	65.885	1.25	scale_sigma_FracNucInt	Int_nuc_off	dataset_FracNucInt
+FracNucInt_6	virus_infection_3	72.12	1.5	scale_sigma_FracNucInt	Int_nuc_off	dataset_FracNucInt
+FracNucInt_7	virus_infection_3	69.9933333333333	1.75	scale_sigma_FracNucInt	Int_nuc_off	dataset_FracNucInt
+FracNucInt_8	virus_infection_3	76.97	2	scale_sigma_FracNucInt	Int_nuc_off	dataset_FracNucInt

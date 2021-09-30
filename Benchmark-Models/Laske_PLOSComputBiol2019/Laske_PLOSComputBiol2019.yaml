@@ -1,0 +1,13 @@
+format_version: 1
+parameter_file: parameters_Laske_PLOSComputBiol2019.tsv
+problems:
+  - condition_files:
+    - experimentalCondition_Laske_PLOSComputBiol2019.tsv
+    measurement_files:
+    - measurementData_Laske_PLOSComputBiol2019.tsv
+    observable_files:
+    - observables_Laske_PLOSComputBiol2019.tsv
+    sbml_files:
+    - model_Laske_PLOSComputBiol2019.xml
+    visualization_files:
+    - visualizationSpecification_Laske_PLOSComputBiol2019.tsv
