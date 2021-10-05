@@ -9,6 +9,19 @@ import pandas as pd
 import petab
 
 
+markdown_columns = {
+    'conditions': 'Conditions',
+    'estimated_parameters': 'Estimated Parameters',
+    'events': 'Events',
+    'measurements': 'Measurements',
+    'name': 'Model ID',
+    'observables': 'Observables',
+    'species': 'Species',
+}
+
+index_column = 'name'
+
+
 def get_problem_info(
         problem: petab.Problem,
         problem_name: str = None
@@ -45,7 +58,7 @@ def get_overview_table(path: str = None) -> pd.DataFrame:
         dict_list.append(d)
 
     df = pd.DataFrame(dict_list)
-    df.set_index(['name'], inplace=True)
+    df.set_index([index_column], inplace=True)
     return df
 
 
@@ -57,6 +70,8 @@ def main(
     pd.options.display.width = 0
 
     if markdown:
+        df.index.rename(markdown_columns[index_column], inplace=True)
+        df.rename(columns=markdown_columns, inplace=True)
         print(df.to_markdown())
     else:
         print(df)
