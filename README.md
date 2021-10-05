@@ -6,7 +6,7 @@ Contributions to the collection are very welcome. For this, please create a new 
 ## Overview
 | Model ID                            |   Conditions |   Estimated Parameters |   Events |   Measurements |   Observables |   Species |
 |:------------------------------------|-------------:|-----------------------:|---------:|---------------:|--------------:|----------:|
-| Alkan_SciSignal2018                 |           90 |                     56 |        0 |           1872 |            12 |        36 |
+| Alkan_SciSignal2018                 |           73 |                     56 |        0 |           1733 |            12 |        36 |
 | Bachmann_MSB2011                    |           36 |                    113 |        0 |            541 |            20 |        25 |
 | Beer_MolBioSystems2014              |           19 |                     72 |        0 |          27132 |             2 |         4 |
 | Bertozzi_PNAS2020                   |            2 |                      3 |        0 |            138 |             1 |         3 |
@@ -22,6 +22,7 @@ Contributions to the collection are very welcome. For this, please create a new 
 | Fujita_SciSignal2010                |            6 |                     19 |        0 |            144 |             3 |         9 |
 | Giordano_Nature2020                 |            1 |                     50 |        0 |            313 |             7 |        13 |
 | Isensee_JCB2018                     |          120 |                     46 |        0 |            687 |             6 |        25 |
+| Laske_PLOSComputBiol2019            |            3 |                     13 |        0 |             42 |            13 |        41 |
 | Lucarelli_CellSystems2018           |           16 |                     84 |        0 |           1755 |            43 |        33 |
 | Okuonghae_ChaosSolitonsFractals2020 |            1 |                     16 |        0 |             92 |             2 |         9 |
 | Oliveira_NatCommun2021              |            1 |                     12 |        0 |            120 |             2 |         9 |
