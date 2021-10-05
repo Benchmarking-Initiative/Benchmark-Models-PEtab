@@ -6,7 +6,7 @@ Contributions to the collection are very welcome. For this, please create a new 
 ## Overview
 | Model ID                            |   Conditions |   Estimated Parameters |   Events |   Measurements |   Observables |   Species |
 |:------------------------------------|-------------:|-----------------------:|---------:|---------------:|--------------:|----------:|
-| Alkan_SciSignal2018                 |           90 |                     56 |        0 |           1872 |            12 |        36 |
+| Alkan_SciSignal2018                 |           73 |                     56 |        0 |           1733 |            12 |        36 |
 | Bachmann_MSB2011                    |           36 |                    113 |        0 |            541 |            20 |        25 |
 | Beer_MolBioSystems2014              |           19 |                     72 |        0 |          27132 |             2 |         4 |
 | Bertozzi_PNAS2020                   |            2 |                      3 |        0 |            138 |             1 |         3 |
