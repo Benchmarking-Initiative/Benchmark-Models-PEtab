@@ -77,10 +77,7 @@
                 <apply>
                   <minus/>
                   <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                  <apply>
-                    <plus/>
-                    <ci> tau </ci>
-                  </apply>
+                  <ci> tau </ci>
                 </apply>
                 <cn type="integer"> 0 </cn>
               </apply>
