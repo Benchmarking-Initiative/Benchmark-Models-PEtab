@@ -112,10 +112,7 @@
                   <apply>
                     <times/>
                     <ci> Bac </ci>
-                    <apply>
-                      <plus/>
-                      <ci> beta </ci>
-                    </apply>
+                    <ci> beta </ci>
                     <ci> lag </ci>
                     <apply>
                       <minus/>
