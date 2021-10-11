@@ -147,10 +147,7 @@
                 <ci> Bac </ci>
               </apply>
               <ci> Glu </ci>
-              <apply>
-                <plus/>
-                <ci> ksyn </ci>
-              </apply>
+              <ci> ksyn </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -175,10 +172,7 @@
                   <times/>
                   <ci> Bac </ci>
                   <ci> Glu </ci>
-                  <apply>
-                    <plus/>
-                    <ci> ksyn </ci>
-                  </apply>
+                  <ci> ksyn </ci>
                 </apply>
                 <apply>
                   <times/>
@@ -187,10 +181,7 @@
                     <ci> cGlu </ci>
                     <cn type="integer"> 2 </cn>
                   </apply>
-                  <apply>
-                    <plus/>
-                    <ci> kdim </ci>
-                  </apply>
+                  <ci> kdim </ci>
                 </apply>
               </apply>
             </apply>
@@ -219,18 +210,12 @@
                     <ci> cGlu </ci>
                     <cn type="integer"> 2 </cn>
                   </apply>
-                  <apply>
-                    <plus/>
-                    <ci> kdim </ci>
-                  </apply>
+                  <ci> kdim </ci>
                 </apply>
                 <apply>
                   <times/>
                   <ci> Ind </ci>
-                  <apply>
-                    <plus/>
-                    <ci> kdegi </ci>
-                  </apply>
+                  <ci> kdegi </ci>
                 </apply>
               </apply>
             </apply>
