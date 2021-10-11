@@ -108,26 +108,22 @@
               <apply>
                 <divide/>
                 <apply>
-                  <minus/>
                   <apply>
                     <times/>
                     <ci> Bac </ci>
                     <ci> beta </ci>
                     <ci> lag </ci>
                     <apply>
-                      <minus/>
-                      <ci> Bac </ci>
+                      <plus/>
+                      <ci> Bacmax </ci>
                       <apply>
-                        <plus/>
-                        <ci> Bacmax </ci>
+                        <minus/>
+                        <ci> Bac </ci>
                       </apply>
                     </apply>
                   </apply>
                 </apply>
-                <apply>
-                  <plus/>
-                  <ci> Bacmax </ci>
-                </apply>
+                <ci> Bacmax </ci>
               </apply>
             </apply>
           </math>
