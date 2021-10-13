@@ -42,7 +42,7 @@ offset_pEpoR_cisoe_pepor	offset_{pEpoR,cisoe,pepor}	log10	0.001	1000	0.131027220
 offset_pEpoR_dr30	offset_{pEpoR,dr30}	log10	0.001	1000	0.001	1
 offset_pEpoR_dr7	offset_{pEpoR,dr7}	log10	0.001	1000	0.028405110847623	1
 offset_pEpoR_fine	offset_{pEpoR,fine}	log10	0.001	1000	0.064550876993068	1
-offset_pEpoR_long	offset_{pEpoR,long}	log10	0.001	1000	0.004391399791279	1		
+offset_pEpoR_long	offset_{pEpoR,long}	log10	0.001	1000	0.004391399791279	1
 offset_pEpoR_shp1oe	offset_{pEpoR,shp1oe}	log10	0.001	1000	0.031327226759826	1
 offset_pEpoR_socs3oe	offset_{pEpoR,socs3oe}	log10	0.001	1000	0.056711915845858	1
 offset_pJAK2_actd	offset_{pJAK2,actd}	log10	0.001	1000	0.017059890602388	1
