@@ -277,7 +277,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <ci> Rp8_pCPT_cAMPS_pAB_time </ci>
+                    <ci> Rp8_pCPT_cAMPS_pAB_incubation_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
