@@ -252,11 +252,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <apply>
-                      <minus/>
-                      <cn type="integer"> 60 </cn>
-                      <ci> Rp8_Br_cAMPS_pAB_incubation_time </ci>
-                    </apply>
+                    <ci> Rp8_Br_cAMPS_pAB_incubation_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
@@ -281,11 +277,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <apply>
-                      <minus/>
-                      <cn type="integer"> 60 </cn>
-                      <ci> Rp8_pCPT_cAMPS_pAB_incubation_time </ci>
-                    </apply>
+                    <ci> Rp8_pCPT_cAMPS_pAB_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
@@ -310,11 +302,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <apply>
-                      <minus/>
-                      <cn type="integer"> 60 </cn>
-                      <ci> Rp_cAMPS_pAB_incubation_time </ci>
-                    </apply>
+                    <ci> Rp_cAMPS_pAB_incubation_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
@@ -364,11 +352,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <apply>
-                      <minus/>
-                      <cn type="integer"> 60 </cn>
-                      <ci> fourABnOH_incubation_time </ci>
-                    </apply>
+                    <ci> fourABnOH_incubation_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
