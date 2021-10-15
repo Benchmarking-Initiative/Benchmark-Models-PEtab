@@ -205,77 +205,17 @@
       </initialAssignment>
       <initialAssignment symbol="S2">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <plus/>
-            <apply>
-              <times/>
-              <ci> S2tot </ci>
-              <apply>
-                <plus/>
-                <cn type="integer"> 1 </cn>
-                <apply>
-                  <times/>
-                  <cn type="integer"> -1 </cn>
-                  <ci> fix_init_S2 </ci>
-                </apply>
-              </apply>
-            </apply>
-            <apply>
-              <times/>
-              <ci> fix_init_S2 </ci>
-              <ci> init_S2 </ci>
-            </apply>
-          </apply>
+          <ci> init_S2 </ci>
         </math>
       </initialAssignment>
       <initialAssignment symbol="S3">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <plus/>
-            <apply>
-              <times/>
-              <ci> S3tot </ci>
-              <apply>
-                <plus/>
-                <cn type="integer"> 1 </cn>
-                <apply>
-                  <times/>
-                  <cn type="integer"> -1 </cn>
-                  <ci> fix_init_S3 </ci>
-                </apply>
-              </apply>
-            </apply>
-            <apply>
-              <times/>
-              <ci> fix_init_S3 </ci>
-              <ci> init_S3 </ci>
-            </apply>
-          </apply>
+          <ci> init_S3 </ci>
         </math>
       </initialAssignment>
       <initialAssignment symbol="S4">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <plus/>
-            <apply>
-              <times/>
-              <ci> S4tot </ci>
-              <apply>
-                <plus/>
-                <cn type="integer"> 1 </cn>
-                <apply>
-                  <times/>
-                  <cn type="integer"> -1 </cn>
-                  <ci> fix_init_S4 </ci>
-                </apply>
-              </apply>
-            </apply>
-            <apply>
-              <times/>
-              <ci> fix_init_S4 </ci>
-              <ci> init_S4 </ci>
-            </apply>
-          </apply>
+          <ci> init_S4 </ci>
         </math>
       </initialAssignment>
     </listOfInitialAssignments>
