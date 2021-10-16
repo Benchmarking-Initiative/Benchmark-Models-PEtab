@@ -80,12 +80,6 @@
     </listOfSpecies>
     <listOfParameters>
       <parameter id="Rec_act" value="0.00598343088790046" constant="true"/>
-      <parameter id="S2tot" value="142.777172927249" constant="true"/>
-      <parameter id="S3tot" value="16.258584970194" constant="true"/>
-      <parameter id="S4tot" value="67.0508150691882" constant="true"/>
-      <parameter id="fix_init_S2" value="0" constant="true"/>
-      <parameter id="fix_init_S3" value="0" constant="true"/>
-      <parameter id="fix_init_S4" value="0" constant="true"/>
       <parameter id="init_TGFb" value="0" constant="true"/>
       <parameter id="init_S2" value="0" constant="true"/>
       <parameter id="init_S3" value="0" constant="true"/>
