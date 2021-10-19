@@ -1,12 +1,12 @@
 parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	objectivePrior	objectivePriorParameters
 IR_obs_std	IR_{obs,std}	log10	1E-05	0.056234132519035	0.04718566713256	1
 fragments	fragments	lin	0	1	0.999999072086866	1
-ini_R1	ini_{R1}	log10	1E-05	1000	58.8503656504712	1	parameterScaleNormal	1.80977;3
-ini_R2fold	ini_{R2fold}	log10	1E-05	1000	15.6091614910056	1	parameterScaleNormal	1.19692;3
-ka1	ka1	log10	1E-05	1000	0.003799559577141	1	parameterScaleNormal	-4.00677;3
-ka2fold	ka2fold	log10	1E-05	1000	4.90235664339923	1	parameterScaleNormal	-0.0186139;3
-kd1	kd1	log10	1E-05	1000	9.1452569352756	1	parameterScaleNormal	-0.917793;3
-kd2fold	kd2fold	log10	1E-05	1000	6.94256361634239	1	parameterScaleNormal	-0.105609;3
+ini_R1	ini_{R1}	log10	1E-05	1000	58.8503656504712	1	parameterScaleNormal	1.809765366817905;3
+ini_R2fold	ini_{R2fold}	log10	1E-05	1000	15.6091614910056	1	parameterScaleNormal	1.196922192866968;3
+ka1	ka1	log10	1E-05	1000	0.003799559577141	1	parameterScaleNormal	-4.006774320046476;3
+ka2fold	ka2fold	log10	1E-05	1000	4.90235664339923	1	parameterScaleNormal	-0.018613892336092;3
+kd1	kd1	log10	1E-05	1000	9.1452569352756	1	parameterScaleNormal	-0.917792647716124;3
+kd2fold	kd2fold	log10	1E-05	1000	6.94256361634239	1	parameterScaleNormal	-0.105608820817629;3
 kin	kin	log10	1E-05	1000	0.371867742056691	1
 kin2	kin2	log10	1E-05	1000	0.538281644062314	1
 km_nExpID1	km_{nExpID1}	log10	1000	100000000	99999998.6188564	1
