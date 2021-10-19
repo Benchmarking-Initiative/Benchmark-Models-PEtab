@@ -1,4 +1,4 @@
-parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	objectivePrior	objectivePriorParameters
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	objectivePriorType	objectivePriorParameters
 CISEqc	CISEqc	log10	0.001	10000	432.854027325732	1
 CISEqcOE	CISEqcOE	log10	0.001	1000	0.53027229006794	1
 CISInh	CISInh	log10	0.001	1000000000000	785221045.232906	1

@@ -1,4 +1,4 @@
-parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	objectivePrior	objectivePriorParameters
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	objectivePriorType	objectivePriorParameters
 IR_obs_std	IR_{obs,std}	log10	1E-05	0.056234132519035	0.04718566713256	1
 fragments	fragments	lin	0	1	0.999999072086866	1
 ini_R1	ini_{R1}	log10	1E-05	1000	58.8503656504712	1	parameterScaleNormal	1.809765366817905;3
