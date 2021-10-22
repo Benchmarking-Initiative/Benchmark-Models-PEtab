@@ -39,7 +39,10 @@
       <parameter id="reaction_7_k1" value="0.0119329694583145" constant="true"/>
       <parameter id="reaction_8_k1" value="0.000941161525754959" constant="true"/>
       <parameter id="reaction_9_k1" value="0.0273281571867514" constant="true"/>
-      <parameter id="EGF" value="0.1" constant="false"/>
+      <parameter id="EGF" value="0.0" constant="false"/>
+      <parameter id="EGF_0" value="0.0" constant="true"/>
+      <parameter id="EGF_rate" value="0.0" constant="true"/>
+      <parameter id="EGF_end" value="0.0" constant="true"/>
     </listOfParameters>
     <listOfInitialAssignments>
       <initialAssignment symbol="EGFR">
@@ -58,6 +61,33 @@
         </math>
       </initialAssignment>
     </listOfInitialAssignments>
+    <listOfRules>
+      <assignmentRule variable="EGF">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <piecewise>
+            <piece>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> EGF_rate </ci>
+                  <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                </apply>
+                <ci> EGF_0 </ci>
+              </apply>
+              <apply>
+                <leq/>
+                <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+                <ci> EGF_end </ci>
+              </apply>
+            </piece>
+            <otherwise>
+              <cn> 0 </cn>
+            </otherwise>
+          </piecewise>
+        </math>
+      </assignmentRule>
+    </listOfRules>
     <listOfReactions>
       <reaction id="v1_reaction_1" name="reaction_1" reversible="true">
         <listOfReactants>
