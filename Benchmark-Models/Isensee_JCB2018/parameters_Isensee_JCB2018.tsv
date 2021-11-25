@@ -1,10 +1,10 @@
-parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	objectivePrior	objectivePriorParameters
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	objectivePriorType	objectivePriorParameters
 AC_total	AC_{total}	log10	1E-05	1000	1	0		
-KD_Fsk	KD_{Fsk}	log10	1E-05	1000	14.2805171742694	1	parameterScaleNormal	0.845098;0.2
-KD_H89	KD_{H89}	log10	1E-05	1000	0.048074027232332	1	parameterScaleNormal	-1.31876;0.2
+KD_Fsk	KD_{Fsk}	log10	1E-05	1000	14.2805171742694	1	parameterScaleNormal	0.845098040014257;0.2
+KD_H89	KD_{H89}	log10	1E-05	1000	0.048074027232332	1	parameterScaleNormal	-1.318758762624413;0.2
 KD_IBMX	KD_{IBMX}	log10	1E-05	1000	11.960772655864	1	parameterScaleNormal	1.0;0.2
 KD_PDE_Csub	KD_{PDE,Csub}	lin	-5	3	0	0		
-KD_cAMP	KD_{cAMP}	log10	1E-05	1000	2.85002019924967	1	parameterScaleNormal	0.462398;0.2
+KD_cAMP	KD_{cAMP}	log10	1E-05	1000	2.85002019924967	1	parameterScaleNormal	0.462397997898956;0.2
 PDE_total	PDE_{total}	log10	1E-05	1000	1	0		
 RII2_total	RII2_{total}	log10	1E-05	1000	1	0		
 b_Calpha_global	b_{Calpha,global}	log10	0.001	1000	101.662732662228	1	parameterScaleNormal	2;0.1
@@ -54,8 +54,8 @@ xi_i_Rp8_Br_cAMPS_pAB	\xi_{i,Rp8,Br,cAMPS,pAB}	log10	1E-05	1	1	0	parameterScaleN
 xi_i_Rp8_pCPT_cAMPS_pAB	\xi_{i,Rp8,pCPT,cAMPS,pAB}	log10	1E-05	1	1	0	parameterScaleNormal	0;3
 xi_i_Rp_cAMPS_pAB	\xi_{i,Rp,cAMPS,pAB}	log10	1E-05	1	1	0	parameterScaleNormal	0;3
 xi_i_Sp8_Br_cAMPS_AM	\xi_{i,Sp8,Br,cAMPS,AM}	log10	1E-05	1	1	0	parameterScaleNormal	0;3
-xi_kf_RII_2__RII_C_2	\xi_{kf_RII_2,RII_C_2}	log10	1E-05	1	0.01893099823943	1	parameterScaleNormal	-1.74244;0.1
-xi_kf_RII_C_2__RII_2	\xi_{kf_RII_C_2,RII_2}	log10	1E-05	100000	0.810991675177056	1	parameterScaleNormal	-0.0621479;0.1
+xi_kf_RII_2__RII_C_2	\xi_{kf_RII_2,RII_C_2}	log10	1E-05	1	0.01893099823943	1	parameterScaleNormal	-1.742435698117109;0.1
+xi_kf_RII_C_2__RII_2	\xi_{kf_RII_C_2,RII_2}	log10	1E-05	100000	0.810991675177056	1	parameterScaleNormal	-0.062147906748844;0.1
 xi_pAC	\xi_{pAC}	log10	0.001	1	1	0	parameterScaleNormal	0;3
-xi_pPDE	\xi_{pPDE}	log10	1	1000	1	0	parameterScaleNormal	0.39794;3
+xi_pPDE	\xi_{pPDE}	log10	1	1000	1	0	parameterScaleNormal	0.397940008672038;3
 xi_rel_open	\xi_{rel,open}	log10	1E-05	1	0.749424660751357	1		
