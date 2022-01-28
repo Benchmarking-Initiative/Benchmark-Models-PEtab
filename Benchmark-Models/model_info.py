@@ -48,15 +48,16 @@ def get_problem_info(
         'estimated_parameters':
             np.sum(problem.parameter_df[petab.ESTIMATE]),
         'events':
-            check_events(problem),
+            get_number_of_events(problem),
         'preequilibration':
             'No' if petab.PREEQUILIBRATION_CONDITION_ID not in
-                    problem.measurement_df.columns or
-                    all(pd.isnull(problem.measurement_df[
-                              'preequilibrationConditionId'].values))
+            problem.measurement_df.columns or
+            all(pd.isnull(problem.measurement_df[
+                              petab.PREEQUILIBRATION_CONDITION_ID].values))
             else 'Yes',
         'postequilibration':
-            'Yes' if np.inf in problem.measurement_df[petab.TIME].values else 'No',
+            'Yes' if np.inf in problem.measurement_df[petab.TIME].values else
+            'No',
         'measurements':
             len(problem.measurement_df.index),
         'name':
