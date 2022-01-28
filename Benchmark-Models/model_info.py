@@ -56,7 +56,7 @@ def get_problem_info(
                               'preequilibrationConditionId'].values))
             else 'Yes',
         'postequilibration':
-            'Yes' if np.inf in problem.measurement_df['time'].values else 'No',
+            'Yes' if np.inf in problem.measurement_df[petab.TIME].values else 'No',
         'measurements':
             len(problem.measurement_df.index),
         'name':
