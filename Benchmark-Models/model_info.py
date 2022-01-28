@@ -24,7 +24,7 @@ markdown_columns = {
 index_column = 'name'
 
 
-def check_events(petab_problem: petab.Problem) -> int:
+def get_number_of_events(petab_problem: petab.Problem) -> int:
     """Check for events in the model"""
     n_events = len(petab_problem.sbml_model.getListOfEvents())
 
