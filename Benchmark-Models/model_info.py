@@ -50,7 +50,7 @@ def get_problem_info(
         'events':
             check_events(problem),
         'preequilibration':
-            'No' if 'preequilibrationConditionId' not in
+            'No' if petab.PREEQUILIBRATION_CONDITION_ID not in
                     problem.measurement_df.columns or
                     all(pd.isnull(problem.measurement_df[
                               'preequilibrationConditionId'].values))
