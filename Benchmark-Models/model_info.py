@@ -32,7 +32,7 @@ def get_number_of_events(petab_problem: petab.Problem) -> int:
                      petab_problem.sbml_model.getListOfParameters()]
     for p_id in parameter_ids:
         assignment_rule = petab_problem.sbml_model.getAssignmentRule(p_id)
-        if assignment_rule and 'piecewise' in assignment_rule.getFormula():
+        if assignment_rule and 'piecewise(' in assignment_rule.getFormula():
             n_events += 1
     return n_events
 
