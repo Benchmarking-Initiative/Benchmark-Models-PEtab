@@ -13,6 +13,8 @@ markdown_columns = {
     'conditions': 'Conditions',
     'estimated_parameters': 'Estimated Parameters',
     'events': 'Events',
+    'preequilibration': 'Preequilibration',
+    'postequilibration': 'Postequilibration',
     'measurements': 'Measurements',
     'name': 'Model ID',
     'observables': 'Observables',
@@ -20,6 +22,19 @@ markdown_columns = {
 }
 
 index_column = 'name'
+
+
+def check_events(petab_problem: petab.Problem) -> int:
+    """Check for events in the model"""
+    n_events = len(petab_problem.sbml_model.getListOfEvents())
+
+    parameter_ids = [p.getId() for p in
+                     petab_problem.sbml_model.getListOfParameters()]
+    for p_id in parameter_ids:
+        assignment_rule = petab_problem.sbml_model.getAssignmentRule(p_id)
+        if assignment_rule and 'piecewise' in assignment_rule.getFormula():
+            n_events += 1
+    return n_events
 
 
 def get_problem_info(
@@ -33,7 +48,15 @@ def get_problem_info(
         'estimated_parameters':
             np.sum(problem.parameter_df[petab.ESTIMATE]),
         'events':
-            len(problem.sbml_model.getListOfEvents()),
+            check_events(problem),
+        'preequilibration':
+            'No' if 'preequilibrationConditionId' not in
+                    problem.measurement_df.columns or
+                    all(pd.isnull(problem.measurement_df[
+                              'preequilibrationConditionId'].values))
+            else 'Yes',
+        'postequilibration':
+            'Yes' if np.inf in problem.measurement_df['time'].values else 'No',
         'measurements':
             len(problem.measurement_df.index),
         'name':
