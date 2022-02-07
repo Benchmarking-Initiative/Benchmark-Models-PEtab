@@ -49,7 +49,7 @@ def get_problem_info(
 
 
 def get_described_by(sbml_model: libsbml.Model) -> List[str]:
-    """Get publication URIs from SBML is-described-by annotatation"""
+    """Get publication URIs from SBML is-described-by annotation"""
     cv_terms = sbml_model.getCVTerms()
     reference_uris = []
     for anno in cv_terms:
