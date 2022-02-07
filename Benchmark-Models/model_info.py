@@ -2,12 +2,12 @@
 """Print some stats for each benchmark problem"""
 
 import os
-from typing import Dict
+from typing import Dict, List
 
+import libsbml
 import numpy as np
 import pandas as pd
 import petab
-
 
 markdown_columns = {
     'conditions': 'Conditions',
@@ -17,6 +17,7 @@ markdown_columns = {
     'name': 'Model ID',
     'observables': 'Observables',
     'species': 'Species',
+    'reference_uris': 'References',
 }
 
 index_column = 'name'
@@ -42,7 +43,23 @@ def get_problem_info(
             len(problem.measurement_df[petab.OBSERVABLE_ID].unique()),
         'species':
             len(problem.sbml_model.getListOfSpecies()),
+        'reference_uris':
+            get_reference_uris(problem.sbml_model),
     }
+
+
+def get_reference_uris(sbml_model: libsbml.Model) -> List[str]:
+    """Get publication URIs from SBML is-described-by annotation"""
+    cv_terms = sbml_model.getCVTerms()
+    reference_uris = []
+    for anno in cv_terms:
+        if anno.getBiologicalQualifierType() != libsbml.BQB_IS_DESCRIBED_BY:
+            continue
+        resources = anno.getResources()
+        for i in range(resources.getNumAttributes()):
+            uri = resources.getValue(i)
+            reference_uris.append(uri)
+    return reference_uris
 
 
 def get_overview_table(path: str = None) -> pd.DataFrame:
@@ -63,15 +80,21 @@ def get_overview_table(path: str = None) -> pd.DataFrame:
 
 
 def main(
-    markdown: bool = False,
+        markdown: bool = False,
 ):
     df = get_overview_table()
 
     pd.options.display.width = 0
 
     if markdown:
+        # directory as markdown link
         df.rename(index=lambda x: f"[{x}](Benchmark-Models/{x}/)",
                   inplace=True)
+        # references to markdown links
+        df['reference_uris'] = df['reference_uris'].apply(
+            lambda x: " ".join([f"[\\[{i + 1}\\]]({uri})"
+                                for i, uri in enumerate(x)])
+        )
         df.index.rename(markdown_columns[index_column], inplace=True)
         df.rename(columns=markdown_columns, inplace=True)
         print(df.to_markdown())
@@ -81,6 +104,7 @@ def main(
 
 if __name__ == '__main__':
     import sys
+
     markdown = False
     if '--markdown' in sys.argv:
         markdown = True
