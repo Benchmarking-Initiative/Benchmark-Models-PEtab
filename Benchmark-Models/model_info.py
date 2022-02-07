@@ -17,7 +17,7 @@ markdown_columns = {
     'name': 'Model ID',
     'observables': 'Observables',
     'species': 'Species',
-    'described_by': 'References',
+    'reference_uris': 'References',
 }
 
 index_column = 'name'
@@ -43,12 +43,12 @@ def get_problem_info(
             len(problem.measurement_df[petab.OBSERVABLE_ID].unique()),
         'species':
             len(problem.sbml_model.getListOfSpecies()),
-        'described_by':
-            get_described_by(problem.sbml_model),
+        'reference_uris':
+            get_reference_uris(problem.sbml_model),
     }
 
 
-def get_described_by(sbml_model: libsbml.Model) -> List[str]:
+def get_reference_uris(sbml_model: libsbml.Model) -> List[str]:
     """Get publication URIs from SBML is-described-by annotation"""
     cv_terms = sbml_model.getCVTerms()
     reference_uris = []
@@ -80,7 +80,7 @@ def get_overview_table(path: str = None) -> pd.DataFrame:
 
 
 def main(
-    markdown: bool = False,
+        markdown: bool = False,
 ):
     df = get_overview_table()
 
@@ -91,9 +91,9 @@ def main(
         df.rename(index=lambda x: f"[{x}](Benchmark-Models/{x}/)",
                   inplace=True)
         # references to markdown links
-        df['described_by'] = df['described_by'].apply(
+        df['reference_uris'] = df['reference_uris'].apply(
             lambda x: " ".join([f"[\\[{i + 1}\\]]({uri})"
-                               for i, uri in enumerate(x)])
+                                for i, uri in enumerate(x)])
         )
         df.index.rename(markdown_columns[index_column], inplace=True)
         df.rename(columns=markdown_columns, inplace=True)
@@ -104,6 +104,7 @@ def main(
 
 if __name__ == '__main__':
     import sys
+
     markdown = False
     if '--markdown' in sys.argv:
         markdown = True
