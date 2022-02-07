@@ -70,6 +70,8 @@ def main(
     pd.options.display.width = 0
 
     if markdown:
+        df.rename(index=lambda x: f"[{x}](Benchmark-Models/{x}/)",
+                  inplace=True)
         df.index.rename(markdown_columns[index_column], inplace=True)
         df.rename(columns=markdown_columns, inplace=True)
         print(df.to_markdown())
