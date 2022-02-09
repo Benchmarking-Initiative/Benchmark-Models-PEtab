@@ -26,14 +26,14 @@ jobs:
         pip install petab
         pip install lxml more-itertools
 
-    - name: Check petablint
+    - name: Check with petablint
       run: ./check_petablint.py
       working-directory: scripts/
 
     - name: Show overview
-      run: ./model_info.py
+      run: ./overview.py
       working-directory: scripts/
 
-    - name: Show overview
+    - name: Check SBML metadata
       run: ./check_sbml_metadata.py
       working-directory: scripts/
