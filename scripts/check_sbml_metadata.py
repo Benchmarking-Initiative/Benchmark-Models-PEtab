@@ -8,7 +8,7 @@ import petab
 from lxml import etree
 from more_itertools import one
 
-from model_info import get_reference_uris
+from overview import get_reference_uris
 from _helpers import petab_yamls
 
 
