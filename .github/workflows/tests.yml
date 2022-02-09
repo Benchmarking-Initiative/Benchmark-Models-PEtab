@@ -24,11 +24,16 @@ jobs:
         python -m pip install --upgrade pip
         pip install --upgrade setuptools wheel
         pip install petab
+        pip install lxml more-itertools
 
-    - name: Check benchmark problems
-      run: ./checkBenchmarkModels.py
-      working-directory: Benchmark-Models/
+    - name: Check petablint
+      run: ./check_petablint.py
+      working-directory: scripts/
 
     - name: Show overview
       run: ./model_info.py
-      working-directory: Benchmark-Models/
+      working-directory: scripts/
+
+    - name: Show overview
+      run: ./check_sbml_metadata.py
+      working-directory: scripts/
