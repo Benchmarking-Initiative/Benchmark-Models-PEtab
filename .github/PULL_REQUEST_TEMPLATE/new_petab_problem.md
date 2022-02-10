@@ -8,4 +8,3 @@
     - [ ] Any differences between the implementation and the original publication
     - [ ] Experience of fitting / uncertainty analysis (e.g. optimizer used, hyperparameters)
 - [ ] I am assigned to the GitHub issue
-- [ ] A reviewer is assigned to the PR
