@@ -1,5 +1,5 @@
-libsbml
 numpy
 pandas
 petab
+python-libsbml
 tabulate
