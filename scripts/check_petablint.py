@@ -8,7 +8,6 @@ from _helpers import petab_yamls
 
 
 num_failures = 0
-num_models = 0
 
 for petab_problem_id, petab_yaml in petab_yamls.items():
     print(petab_problem_id)
@@ -17,7 +16,6 @@ for petab_problem_id, petab_yaml in petab_yamls.items():
 
     if ret:
         num_failures += 1
-    num_models += 1
 
 num_passed = len(petab_yamls) - num_failures
 print(f'Result: {Path(__file__).stem}')

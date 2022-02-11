@@ -1,6 +1,4 @@
 libsbml
-lxml
-more-itertools
 numpy
 pandas
 petab
