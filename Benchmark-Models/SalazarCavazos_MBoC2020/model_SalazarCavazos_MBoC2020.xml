@@ -3,7 +3,7 @@
   <model id="SalazarCavazos_MBoC2020" name="SalazarCavazos_MBoC2020">
     <annotation>
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-        <rdf:Description rdf:about="#arFramework3">
+        <rdf:Description rdf:about="#benchmark_models_petab">
           <bqbiol:isDescribedBy>
             <rdf:Bag>
               <rdf:li rdf:resource="http://identifiers.org/doi/10.1091/mbc.E19-09-0548"/>
