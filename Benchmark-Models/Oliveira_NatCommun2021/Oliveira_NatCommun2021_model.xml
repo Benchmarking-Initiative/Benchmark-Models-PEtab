@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Created by COPASI version 4.30 (Build 240) on 2021-05-08 11:25 with libSBML version 5.19.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Oliveira_NatCommun2021" name="Oliveira_NatCommun2021">
+  <model metaid="COPASI0" id="Oliveira_NatCommun2021" name="Oliveira_NatCommun2021">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>Oliveira, Nature 2021.
@@ -16,7 +16,7 @@ To model with a two-step transmission rate, set 'beta_2_multiplier' = 0. To mode
     </notes>
     <annotation>
       <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-        <rdf:Description rdf:about="#benchmark_models_petab">
+        <rdf:Description rdf:about="#COPASI0">
           <bqbiol:isDescribedBy>
             <rdf:Bag>
               <rdf:li rdf:resource="http://identifiers.org/doi/10.1038/s41467-020-19798-3"/>
