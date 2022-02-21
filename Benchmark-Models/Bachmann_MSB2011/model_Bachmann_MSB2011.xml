@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="arFramework3" id="Bachmann_MSB2011" name="jak2_stat5_feedbacks">
+  <model metaid="arFramework3" id="Bachmann_MSB2011" name="Bachmann_MSB2011">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Bachmann et al. (2011), Mol Syst Biol. ; 7: 516. </pre>

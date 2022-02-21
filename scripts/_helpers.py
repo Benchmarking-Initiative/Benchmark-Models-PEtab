@@ -6,3 +6,4 @@ petab_yamls = {
     petab_path.name: benchmark_path / petab_path.name / (petab_path.name + '.yaml')
     for petab_path in benchmark_path.glob('*')
 }
+petab_yamls = {k: petab_yamls[k] for k in sorted(petab_yamls)}

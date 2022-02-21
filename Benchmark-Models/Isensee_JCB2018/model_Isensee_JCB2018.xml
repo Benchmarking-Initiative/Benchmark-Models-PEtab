@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="Isensee_JCB2018" id="Isensee_JCB2018" name="PKA_cycle">
+  <model metaid="Isensee_JCB2018" id="Isensee_JCB2018" name="Isensee_JCB2018">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Isensee et al. (2018), The Journal of Cell Biology Jun 2018, 217 (6) 2167-2184</pre>
