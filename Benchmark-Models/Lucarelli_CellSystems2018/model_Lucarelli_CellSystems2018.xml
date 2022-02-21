@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Lucarelli_CellSystems2018" name="Complex_ModelSelectionProfile">
+  <model id="Lucarelli_CellSystems2018" name="Lucarelli_CellSystems2018">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Lucarelli et al. (2018), Cell Syst. 2018 Jan 24;6(1):75-89.e11</pre>

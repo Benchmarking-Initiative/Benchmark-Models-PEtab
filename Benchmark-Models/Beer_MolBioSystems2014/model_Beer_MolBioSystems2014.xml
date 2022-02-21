@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Beer_MolBioSystems2014" name="TwoStepSynthesisWithGlu">
+  <model id="Beer_MolBioSystems2014" name="Beer_MolBioSystems2014">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Beer et al. (2014), Mol Biosyst.;10(7):1709-18</pre>

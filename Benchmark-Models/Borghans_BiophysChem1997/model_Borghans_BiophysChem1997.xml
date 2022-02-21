@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Borghans_BiophysChem1997" name="model_Borghans_BiophysChem_1997">
+  <model id="Borghans_BiophysChem1997" name="Borghans_BiophysChem1997">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Borghans et al. (1997), Biophysical Chemistry 66(1) 25-41</pre>
