@@ -69,7 +69,7 @@ def convert_observable_id(id0: str) -> str:
 # Create observables
 observable_dicts = []
 observable_id_mapping = {}
-observable_ids0 = set(measurements0)
+observable_ids0 = sorted(set(measurements0))
 for observable_id0 in observable_ids0:
     observable_dict = convert_observable_id(observable_id0)
     observable_id_mapping[observable_id0] = observable_dict[OBSERVABLE_ID]
