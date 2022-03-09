@@ -1,0 +1,4 @@
+conditionId	conditionName	V_ex	k_syn_P
+virus_infection	Intracellular RNA (MOI50)	50	64800
+virus_infection_2	HA titer (MOI1)	1	64800
+virus_infection_3	Estimation of k_imp (MOI50 + CHX)	50	0

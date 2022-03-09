@@ -1,0 +1,17 @@
+conditionId	conditionName	init_S2	init_S3	init_S4	init_TGFb
+model1_data1		S2tot	S3tot	S4tot	0
+model1_data2		S2tot	S3tot	S4tot	0.1
+model1_data3		S2tot	S3tot	S4tot	1
+model1_data4		S2tot	S3tot	S4tot	1
+model1_data5		S2tot	S3tot	S4tot	0
+model1_data6		S2tot	S3tot	S4tot	1
+model1_data7		S2tot	S3tot	S4tot	0
+model1_data8		142.34	14.234	208.41	0
+model1_data9		142.34	14.234	69.47	0
+model1_data10		142.34	227.744	69.47	0
+model1_data11		284.68	14.234	69.47	0
+model1_data12		142.34	14.234	208.41	1
+model1_data13		142.34	14.234	69.47	1
+model1_data14		142.34	227.744	69.47	1
+model1_data15		284.68	14.234	69.47	1
+model1_data16		142.34	S3tot	69.47	1

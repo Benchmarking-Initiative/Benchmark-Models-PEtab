@@ -1,0 +1,14 @@
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate
+k_imp	k_{Imp}	log10	1E-10	10000000000	0.296	1
+k_syn_R_M	R^{Syn}_{R_M}	log10	1E-10	10000000000	30600	1
+k_syn_R_C	{R^{Syn}}_{R_C}	log10	1E-10	10000000000	1.53	1
+k_syn_R_V	R^{Syn}_{R_V}	log10	1E-10	10000000000	100.93	1
+k_bind_M1	k^{Bind}_{M1}	log10	1E-10	10000000000	1.82E-06	1
+k_rel	k^{Release}	log10	1E-10	10000000000	0.0011	1
+vRNA_offset	vRNA_{offset}	log10	1E-10	10000000000	535	1
+Int_nuc_off	Int^{nuc}_offset	log10	1E-10	10000000000	45.8	1
+scale_sigma_FracNucInt	Stdev frac^{Int}_{nuc}	log10	0.001	1000	1	1
+sigma_RM5	Stdev R_{M5}	log10	0.001	1000	1	1
+sigma_RV	Stdev R^{SegTot}_{V}	log10	0.001	1000	1	1
+sigma_RC	Stdev R^{SegTot}_{C}	log10	0.001	1000	1	1
+sigma_Vrel	Stdev V_{rel}	log10	0.001	1000	1	1

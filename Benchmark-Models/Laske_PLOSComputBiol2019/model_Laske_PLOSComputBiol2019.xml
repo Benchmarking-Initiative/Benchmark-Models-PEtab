@@ -1,0 +1,3271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by COPASI version 4.30 (Build 240) on 2021-07-16 10:12 with libSBML version 5.19.0. -->
+<sbml xmlns="http://www.sbml.org/sbml/level2/version3" level="2" version="3">
+  <model metaid="COPASI0" id="Laske_PLOSComputBiol2019" name="Laske_PLOSComputBiol2019">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <pre>Heldt2012 - Influenza Virus Replication 
+The model describes the life cycle of influenza A virus in a mammalian cell including the following steps: attachment of parental virions to the cell membrane, receptor-mediated endocytosis, fusion of the virus envelope with the endosomal membrane, nuclear import of vRNPs, viral transcription and replication, translation of the structural viral proteins, nuclear export of progeny vRNPs and budding of new virions. It also explicitly accounts for the stabilization of cRNA by viral polymerases and NP and the inhibition of vRNP activity by M1 protein binding. In short, the model focuses on the molecular mechanism that controls viral transcription and replication.
+
+This model is described in the article: 
+Modeling the intracellular dynamics of influenza virus replication to understand the control of viral RNA synthesis. 
+Heldt FS, Frensing T, Reichl U. 
+J Virol. 
+
+This model has been adapted to fit the needs for parameter optimisation using pyPESTO by Clemens Peiter. In comparison to the original model, the chemical species names are also the IDs of the species in the SBML file, which simplifies things in the PEtab files. Some species have also been added to simplify PEtab problem specification (e.g., F_rnp_nuc).
+
+The values of certain kinetic parameters have been adjusted to Laske et al. re-estimation of the parameters for human A549 cells.
+
+The original model is hosted on BioModels Database and identified by: MODEL1307270000 .</pre>
+      </body>
+    </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#COPASI0">
+          <dc:creator rdf:parseType="Resource">
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Juty</vCard:Family>
+                  <vCard:Given>Nick</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>juty@ebi.ac.uk</vCard:EMAIL>
+                <vCard:ORG>
+                  <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Chelliah</vCard:Family>
+                  <vCard:Given>Vijayalakshmi</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>viji@ebi.ac.uk</vCard:EMAIL>
+                <vCard:ORG>
+                  <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Peiter</vCard:Family>
+                  <vCard:Given>Clemens</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>s6clpeit@uni-bonn.de</vCard:EMAIL>
+                <vCard:ORG>
+                  <vCard:Orgname>LIMES, University of Bonn, Germany</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Heldt</vCard:Family>
+                  <vCard:Given>Frank Stefan</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>heldt@mpi-magdeburg.mpg.de</vCard:EMAIL>
+                <vCard:ORG>
+                  <vCard:Orgname>Bioprocess Engineering Group, Max Planck Institute for Dynamics of Complex Technical Systems, Magdeburg, Germany</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2021-04-19T11:32:11Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2021-04-19T11:32:11Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqmodel:isDerivedFrom>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000463"/>
+            </rdf:Bag>
+          </bqmodel:isDerivedFrom>
+          <bqmodel:isDerivedFrom>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/biomodels.db/MODEL1307270000"/>
+            </rdf:Bag>
+          </bqmodel:isDerivedFrom>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000463"/>
+              <rdf:li rdf:resource="http://identifiers.org/biomodels.db/MODEL1307270000"/>
+              <rdf:li rdf:resource="http://identifiers.org/pubmed/22593159"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+      </annotation>
+    <listOfFunctionDefinitions>
+      <functionDefinition metaid="COPASI158" id="Rate_Law_for_binding_of_viral_proteins_2" name="Rate Law for binding of viral proteins_2">
+        <annotation>
+          </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> P_NP </ci>
+            </bvar>
+            <bvar>
+              <ci> R_V_RdRp </ci>
+            </bvar>
+            <bvar>
+              <ci> k_bind_NP </ci>
+            </bvar>
+            <apply>
+              <times/>
+              <ci> k_bind_NP </ci>
+              <ci> R_V_RdRp </ci>
+              <ci> P_NP </ci>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI159" id="Rate_Law_for_binding_of_viral_proteins_1" name="Rate Law for binding of viral proteins_1">
+        <annotation>
+          </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> P_NP </ci>
+            </bvar>
+            <bvar>
+              <ci> R_C_RdRp </ci>
+            </bvar>
+            <bvar>
+              <ci> k_bind_NP </ci>
+            </bvar>
+            <apply>
+              <times/>
+              <ci> k_bind_NP </ci>
+              <ci> R_C_RdRp </ci>
+              <ci> P_NP </ci>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI160" id="Rate_Law_for_Vp_cyt_M1_Virion_release_1" name="Rate Law for Vp_cyt_M1-Virion_release_1">
+        <annotation>
+          </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> KmB </ci>
+            </bvar>
+            <bvar>
+              <ci> KmC </ci>
+            </bvar>
+            <bvar>
+              <ci> KmD </ci>
+            </bvar>
+            <bvar>
+              <ci> KmE </ci>
+            </bvar>
+            <bvar>
+              <ci> KmF </ci>
+            </bvar>
+            <bvar>
+              <ci> KmG </ci>
+            </bvar>
+            <bvar>
+              <ci> KmH </ci>
+            </bvar>
+            <bvar>
+              <ci> P_HA </ci>
+            </bvar>
+            <bvar>
+              <ci> P_M1 </ci>
+            </bvar>
+            <bvar>
+              <ci> P_M2 </ci>
+            </bvar>
+            <bvar>
+              <ci> P_NA </ci>
+            </bvar>
+            <bvar>
+              <ci> P_NEP </ci>
+            </bvar>
+            <bvar>
+              <ci> P_NP </ci>
+            </bvar>
+            <bvar>
+              <ci> P_RdRp </ci>
+            </bvar>
+            <bvar>
+              <ci> Vp_cyt_M1 </ci>
+            </bvar>
+            <bvar>
+              <ci> k_rel </ci>
+            </bvar>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> k_rel </ci>
+                <ci> Vp_cyt_M1 </ci>
+                <ci> P_RdRp </ci>
+                <ci> P_HA </ci>
+                <ci> P_NP </ci>
+                <ci> P_NA </ci>
+                <ci> P_M1 </ci>
+                <ci> P_M2 </ci>
+                <ci> P_NEP </ci>
+              </apply>
+              <apply>
+                <times/>
+                <apply>
+                  <plus/>
+                  <ci> P_RdRp </ci>
+                  <ci> KmB </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <ci> P_HA </ci>
+                  <ci> KmC </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <ci> P_NP </ci>
+                  <ci> KmD </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <ci> P_NA </ci>
+                  <ci> KmE </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <ci> P_M1 </ci>
+                  <ci> KmF </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <ci> P_M2 </ci>
+                  <ci> KmG </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <ci> P_NEP </ci>
+                  <ci> KmH </ci>
+                </apply>
+              </apply>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+      <functionDefinition metaid="COPASI161" id="Rate_Law_for_binding_of_viral_proteins_3" name="Rate Law for binding of viral proteins_3">
+        <annotation>
+          </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> P_M1 </ci>
+            </bvar>
+            <bvar>
+              <ci> Vp_nuc </ci>
+            </bvar>
+            <bvar>
+              <ci> k_bind_M1 </ci>
+            </bvar>
+            <apply>
+              <times/>
+              <ci> k_bind_M1 </ci>
+              <ci> Vp_nuc </ci>
+              <ci> P_M1 </ci>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+    </listOfFunctionDefinitions>
+    <listOfUnitDefinitions>
+      <unitDefinition id="length" name="length">
+        <listOfUnits>
+          <unit kind="metre" exponent="1" scale="-6" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="area" name="area">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="-18" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume" name="volume">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="time" name="time">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="2" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance" name="substance">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-3" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment metaid="COPASI1" id="compartment" name="cell" spatialDimensions="3" size="1" constant="true">
+        <annotation>
+          </annotation>
+      </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="COPASI2" id="V_ex" name="V_ex" compartment="compartment" initialConcentration="50" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>virions in the extracellular medium (virions)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI2">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0019012"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0005576"/>
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI3" id="V_end" name="V_end" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>virions in endosomes (virions)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI3">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0019012"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0005768"/>
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI4" id="Vp_cyt" name="Vp_cyt" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>parental vRNPs in the cytoplasm (virions)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI4">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0030529"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0005737"/>
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI5" id="Vp_nuc" name="Vp_nuc" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>vRNPs in the nucleus (virions)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI5">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0030529"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0005634"/>
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI6" id="R_C" name="R_C" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>nascent cRNA (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI6">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0001172"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI7" sboTerm="SBO:0000296" id="R_C_RdRp" name="R_C_RdRp" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>complex of viral polymerase and cRNA (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI7">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000296"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI8" id="R_V" name="R_V" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>nascent vRNA (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI8">
+              <bqbiol:isPartOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/taxonomy/211044"/>
+                </rdf:Bag>
+              </bqbiol:isPartOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI9" id="R_V_RdRp" name="R_V_RdRp" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>complex of viral polymerase and vRNA (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+      <species metaid="COPASI10" sboTerm="SBO:0000278" id="R_M1" name="R_M1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>mRNA of segment 1 (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI10">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000278"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI11" sboTerm="SBO:0000278" id="R_M2" name="R_M2" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>mRNA of segment 2 (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI11">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000278"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI12" sboTerm="SBO:0000278" id="R_M3" name="R_M3" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>mRNA of segment 3 (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI12">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000278"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI13" sboTerm="SBO:0000278" id="R_M4" name="R_M4" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>mRNA of segment 4 (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI13">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000278"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI14" sboTerm="SBO:0000278" id="R_M5" name="R_M5" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>mRNA of segment 5 (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI14">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000278"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI15" sboTerm="SBO:0000278" id="R_M6" name="R_M6" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>mRNA of segment 6 (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI15">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000278"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI16" sboTerm="SBO:0000278" id="R_M7" name="R_M7" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>unspliced mRNA of segment 7 (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI16">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000278"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI17" sboTerm="SBO:0000278" id="R_M8" name="R_M8" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>unspliced mRNA of segment 8 (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI17">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000278"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI18" id="P_B1" name="P_PB1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>PB1 proteins (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI18">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P16511"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI19" id="P_B2" name="P_PB2" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>PB2 proteins (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI19">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P03427"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI20" id="P_PA" name="P_PA" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>PA proteins (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI20">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P15659"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI21" id="P_HA" name="P_HA" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>HA proteins (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI21">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P03437"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI22" id="P_NP" name="P_NP" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>NP proteins (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI22">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P03466"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI23" id="P_NA" name="P_NA" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>NA proteins (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI23">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P06820"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI24" id="P_M1" name="P_M1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>M1 proteins (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI24">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P05777"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI25" id="P_NEP" name="P_NEP" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>NEP proteins (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI25">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P03508"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI26" id="Vp_nuc_M1" name="Vp_nuc_M1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>M1-vRNP complexes in the nucleus (virions)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI26">
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P05777"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0030529"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0005634"/>
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI27" id="Vp_cyt_M1" name="Vp_cyt_M1" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>M1-vRNP complexes in the cytoplasm (virions)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI27">
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P05777"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0030529"/>
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0005737"/>
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI28" id="V_rel" name="V_rel" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>total amount of released virions (virions)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI28">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0019012"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI29" sboTerm="SBO:0000297" id="P_RdRp" name="P_RdRp" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>viral polymerase complex (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI29">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000297"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI30" id="Cp" name="Cp" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>cRNPs (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI30">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/go/GO:0030529"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI31" id="V_att_Hi" name="V_att_Hi" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>virions attached to high-affinity binding sites (virions)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+      <species metaid="COPASI32" id="V_att_Lo" name="V_att_Lo" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>virions attached to low-affinity binding sites (virions)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+      <species metaid="COPASI33" id="P_M2" name="P_M2" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>M2 proteins (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI33">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P63231"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI34" sboTerm="SBO:0000606" id="B_att_Lo" name="B_att_Lo" compartment="compartment" initialConcentration="1000" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>free low-affinity binding sites (sites)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI34">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000606"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI35" sboTerm="SBO:0000605" id="B_att_Hi" name="B_att_Hi" compartment="compartment" initialConcentration="150" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>free high-affinity binding sites (sites)</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI35">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/sbo/SBO:0000605"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+          </annotation>
+      </species>
+      <species metaid="COPASI36" id="R_C_seg_tot" name="R_C_seg_tot" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>total amount of cRNA in the cell considering an arbitrary segment (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+      <species metaid="COPASI37" id="R_V_seg_tot" name="R_V_seg_tot" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>total amount of vRNA in the cell considering an arbitrary segments (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+      <species metaid="COPASI38" id="F_rnp_nuc" name="F_rnp_nuc" compartment="compartment" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>The fraction of RNPs that is nuclear</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+      <species metaid="COPASI39" id="R_C_total_0" name="R_C_total" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>total amount of cRNA in the cell considering all segments (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+      <species metaid="COPASI40" id="R_V_total_0" name="R_V_total" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>total amount of vRNA in the cell considering all segments (molecules)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+      <species metaid="COPASI41" id="RNP_nuc" name="RNP_nuc" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>nuclear RNPs</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+      <species metaid="COPASI42" id="RNP_cyt" name="RNP_cyt" compartment="compartment" initialConcentration="0" boundaryCondition="true" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>cytoplasmic RNPs</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </species>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter metaid="COPASI43" id="k_att_Hi" name="k_att_Hi" value="0.0809" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>attachment rate of virus particles to high-affinity binding sites (1/(site*h))</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI44" id="k_att_Lo" name="k_att_Lo" value="0.000455" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>attachment rate of virus particles to low-affinity binding sites (1/(site*h))</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI45" id="k_dis_Hi" name="k_dis_Hi" value="7.15929203539823" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>dissociation rate of virions from high-affinity binding sites (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI46" id="k_dis_Lo" name="k_dis_Lo" value="5.46218487394958" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>dissociation rate of virions from low-affinity binding sites (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI47" id="k_end" name="k_end" value="4.8" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>endocytosis rate of virions bound to high-affinity or low-affinity binding sites (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI48" id="k_deg_end" name="k_deg_V_end" value="3.08411764705882" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>degradation rate of virions which do not fuse with the endosomal membrane (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI49" id="k_fus" name="k_fus" value="3.21" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>fusion rate of virions in late endosomes (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI50" id="k_imp" name="k_imp" value="0.296" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>nuclear import rate of cytoplasmic vRNPs which are not bound to M1 (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI51" id="k_deg_Rnp" name="k_deg_Rnp" value="0.09" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Degradation of viral ribonucleoproteins.</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI52" id="k_syn_R_C" name="k_syn_R_C" value="1.53" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of cRNAs (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI53" id="k_bind_RdRp" name="k_bind_RdRp" value="1" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>binding rate of polymerase complexes to cRNA and vRNA (1/(h*molecule))</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI54" id="k_bind_NP" name="k_bind_NP" value="0.000301" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>binding rate of NP to RdRp-cRNA and RdRp-vRNA complexes (1/(h*molecule))</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI55" id="k_bind_M1" name="k_bind_M1" value="1.82e-06" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>binding rate of M1 to nuclear vRNPs (1/(h*molecule))</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI56" id="k_exp_Vp_nuc_M1" name="k_exp_Vp_nuc_M1" value="1e-06" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>combined rate of NEP binding to M1-vRNP complexes and subsequent transport out of the nucleus (1/(molecule*h))</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI57" id="k_deg_R" name="k_deg_R" value="36.36" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Degradation of viral RNA in the nucleus.</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI58" id="k_deg_R_RdRp" name="k_deg_R_RdRp" value="4.25" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>degradation rate of RdRp-cRNA and RdRp-vRNA complexes (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI59" id="k_syn_R_M" name="k_syn_R_M" value="30600" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of mRNAs (nucleotides/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI60" id="k_syn_P" name="k_syn_P" value="64800" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of proteins (nucleotides/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI61" id="k_rel" name="k_rel" value="0.0011" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>release rate of progeny virions from the cell (virions/(molecule*h))</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI62" id="D_rib" name="D_rib" value="160" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>distance between two adjacent ribosomes on an mRNA (nucleotides)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI63" id="k_syn_P_rel" name="k_syn_P_D_rib" value="405" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>fraction of protein synthesis rate and distance between two adjacent ribosomes (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI64" id="L1" name="L1" value="2320" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>length of segment 1's mRNA encoding PB2 (nucleotides)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI65" id="L2" name="L2" value="2320" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>length of segment 2's mRNA encoding PB1 (nucleotides)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI66" id="L3" name="L3" value="2211" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>length of segment 3's mRNA encoding PA (nucleotides)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI67" id="L4" name="L4" value="1757" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>length of segment 4's mRNA encoding HA (nucleotides)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI68" id="L5" name="L5" value="1540" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>length of segment 5's mRNA encoding HA (nucleotides)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI69" id="L6" name="L6" value="1392" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>length of segment 6's mRNA encoding HA (nucleotides)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI70" id="L7" name="L7" value="1005" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>length of segment 7's mRNA encoding HA (nucleotides)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI71" id="L8" name="L8" value="868" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>length of segment 8's mRNA encoding HA (nucleotides)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI72" id="k_syn_R_M1_rel" name="k_syn_R_M1" value="1.64870689655172" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of segment 1's mRNA (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI73" id="k_syn_R_M2_rel" name="k_syn_R_M2" value="1.64870689655172" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of segment 2's mRNA (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI74" id="k_syn_R_M3_rel" name="k_syn_R_M3" value="1.72998643147897" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of segment 3's mRNA (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI75" id="k_syn_R_M4_rel" name="k_syn_R_M4" value="2.1770062606716" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of segment 4's mRNA (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI76" id="k_syn_R_M5_rel" name="k_syn_R_M5" value="2.48376623376623" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of segment 5's mRNA (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI77" id="k_syn_R_M6_rel" name="k_syn_R_M6" value="2.74784482758621" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of segment 6's mRNA (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI78" id="k_syn_R_M7_rel" name="k_syn_R_M7" value="3.80597014925373" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of segment 7's mRNA (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI79" id="k_syn_R_M8_rel" name="k_syn_R_M8" value="4.40668202764977" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of segment 8's mRNA (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI80" id="k_deg_R_M" name="k_deg_R_M" value="0.33" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>degradation rate of mRNA (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI81" id="N_P_RdRp" name="N_P_RdRp" value="45" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>number of P_RdRp in a virion</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI82" id="N_P_HA" name="N_P_HA" value="500" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>number of P_HA in a virion</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI83" id="N_P_M1" name="N_P_M1" value="3000" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>number of P_M1 in a virion</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI84" id="N_P_NA" name="N_P_NA" value="100" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>number of P_NA in a virion</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI85" id="N_P_NEP" name="N_P_NEP" value="165" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>number of P_NEP in a virion</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI86" id="N_P_NP" name="N_P_NP" value="1000" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>number of P_NP in a virion</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI87" id="K_V_rel" name="K_V_rel" value="10" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Michaelis-Menten-like constant vor virus release kinetics</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI88" id="F_Spl7" name="F_Spl7" value="0.02" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>fraction of spliced M2 mRNAs compared to total mRNAs of segment 7 (-)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI89" id="k_syn_P_M1_rel" name="k_syn_P_M1" value="396.9" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of M1 proteins (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI90" id="k_syn_P_M2_rel" name="k_syn_P_M2" value="8.1" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of M2 proteins (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI91" id="F_Spl8" name="F_Spl8" value="0.125" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>fraction of spliced NEP mRNAs compared to total mRNAs of segment 8 (-)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI92" id="k_syn_P_NEP_rel" name="k_syn_P_NEP" value="50.625" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of NEP proteins (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI93" id="N_P_M2" name="N_P_M2" value="40" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>number of P_M2 in a virion</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI94" id="K_eq_Hi" name="K_eq_Hi" value="0.0113" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>equilibrium constant for the attachment of virions to the high-affinity binding sites (1/site)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI95" id="K_eq_Lo" name="K_eq_Lo" value="8.33e-05" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>equilibrium constant for the attachment of virions to the low-affinity binding sites (1/site)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI96" id="F_fus" name="F_fus" value="0.51" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>fraction of fusion-competent virions (-)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI97" id="k_syn_R_V" name="k_syn_R_V" value="100.93" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>synthesis rate of vRNAs (1/h)</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI98" id="KmB" name="KmB" value="450" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Michaelis-Menten-like constant for half-maximal virus release; necessary for virus release kinetics</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI99" id="KmC" name="KmC" value="5000" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Michaelis-Menten-like constant for half-maximal virus release; necessary for virus release kinetics</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI100" id="KmD" name="KmD" value="10000" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Michaelis-Menten-like constant for half-maximal virus release; necessary for virus release kinetics</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI101" id="KmE" name="KmE" value="1000" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Michaelis-Menten-like constant for half-maximal virus release; necessary for virus release kinetics</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI102" id="KmF" name="KmF" value="30000" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Michaelis-Menten-like constant for half-maximal virus release; necessary for virus release kinetics</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI103" id="KmG" name="KmG" value="400" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Michaelis-Menten-like constant for half-maximal virus release; necessary for virus release kinetics</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI104" id="KmH" name="KmH" value="1650" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Michaelis-Menten-like constant for half-maximal virus release; necessary for virus release kinetics</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter metaid="COPASI105" id="k_RdRp" name="k_RdRp" value="1" constant="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>formation rate of functional polymerase complexes from the three subunits (1/(h*molecule^2))</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+      </parameter>
+      <parameter id="ModelValue_82" name="Initial for D_rib" value="160">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="D_rib"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_108" name="Initial for F_Spl7" value="0.02">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="F_Spl7"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_111" name="Initial for F_Spl8" value="0.125">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="F_Spl8"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_116" name="Initial for F_fus" value="0.51">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="F_fus"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_107" name="Initial for K_V_rel" value="10">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="K_V_rel"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_114" name="Initial for K_eq_Hi" value="0.0113">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="K_eq_Hi"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_115" name="Initial for K_eq_Lo" value="8.33e-05">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="K_eq_Lo"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_84" name="Initial for L1" value="2320">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="L1"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_85" name="Initial for L2" value="2320">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="L2"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_86" name="Initial for L3" value="2211">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="L3"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_87" name="Initial for L4" value="1757">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="L4"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_88" name="Initial for L5" value="1540">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="L5"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_89" name="Initial for L6" value="1392">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="L6"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_90" name="Initial for L7" value="1005">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="L7"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_91" name="Initial for L8" value="868">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="L8"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_102" name="Initial for N_P_HA" value="500">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="N_P_HA"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_103" name="Initial for N_P_M1" value="3000">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="N_P_M1"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_113" name="Initial for N_P_M2" value="40">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="N_P_M2"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_104" name="Initial for N_P_NA" value="100">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="N_P_NA"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_105" name="Initial for N_P_NEP" value="165">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="N_P_NEP"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_106" name="Initial for N_P_NP" value="1000">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="N_P_NP"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_101" name="Initial for N_P_RdRp" value="45">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="N_P_RdRp"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_63" name="Initial for k_att_Hi" value="0.0809">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="k_att_Hi"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_64" name="Initial for k_att_Lo" value="0.000455">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="k_att_Lo"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_69" name="Initial for k_fus" value="3.21">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="k_fus"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_80" name="Initial for k_syn_P" value="64800">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="k_syn_P"/>
+        </annotation>
+      </parameter>
+      <parameter id="ModelValue_79" name="Initial for k_syn_R_M" value="30600">
+        <annotation>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="k_syn_R_M"/>
+        </annotation>
+      </parameter>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="ModelValue_82">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> D_rib </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_108">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> F_Spl7 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_111">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> F_Spl8 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_116">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> F_fus </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_107">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> K_V_rel </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_114">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> K_eq_Hi </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_115">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> K_eq_Lo </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_84">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> L1 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_85">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> L2 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_86">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> L3 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_87">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> L4 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_88">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> L5 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_89">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> L6 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_90">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> L7 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_91">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> L8 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_102">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> N_P_HA </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_103">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> N_P_M1 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_113">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> N_P_M2 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_104">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> N_P_NA </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_105">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> N_P_NEP </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_106">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> N_P_NP </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_101">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> N_P_RdRp </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_63">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> k_att_Hi </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_64">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> k_att_Lo </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_69">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> k_fus </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_80">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> k_syn_P </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="ModelValue_79">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> k_syn_R_M </ci>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfRules>
+      <assignmentRule variable="k_syn_R_M1_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_79 </ci>
+              <ci> ModelValue_84 </ci>
+            </apply>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_R_M2_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_79 </ci>
+              <ci> ModelValue_85 </ci>
+            </apply>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_R_M3_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_79 </ci>
+              <ci> ModelValue_86 </ci>
+            </apply>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_R_M5_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_79 </ci>
+              <ci> ModelValue_88 </ci>
+            </apply>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_R_M4_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_79 </ci>
+              <ci> ModelValue_87 </ci>
+            </apply>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="R_C_total_0">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> Cp </ci>
+            <ci> R_C_RdRp </ci>
+            <ci> R_C </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="R_C_seg_tot">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> R_C_total_0 </ci>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="R_V_total_0">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <cn> 8 </cn>
+              <apply>
+                <plus/>
+                <ci> V_att_Hi </ci>
+                <ci> V_att_Lo </ci>
+                <ci> V_end </ci>
+              </apply>
+            </apply>
+            <ci> Vp_cyt_M1 </ci>
+            <ci> Vp_nuc_M1 </ci>
+            <ci> Vp_cyt </ci>
+            <ci> Vp_nuc </ci>
+            <ci> R_V </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="R_V_seg_tot">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> R_V_total_0 </ci>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="RNP_nuc">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> Vp_nuc_M1 </ci>
+            <ci> Vp_nuc </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="RNP_cyt">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <cn> 8 </cn>
+              <ci> V_end </ci>
+            </apply>
+            <ci> Vp_cyt </ci>
+            <ci> Vp_cyt_M1 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="F_rnp_nuc">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> RNP_nuc </ci>
+              <apply>
+                <plus/>
+                <ci> RNP_nuc </ci>
+                <ci> RNP_cyt </ci>
+              </apply>
+            </apply>
+            <cn> 100 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_dis_Hi">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> ModelValue_63 </ci>
+            <ci> ModelValue_114 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_dis_Lo">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> ModelValue_64 </ci>
+            <ci> ModelValue_115 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_deg_end">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+                <ci> ModelValue_116 </ci>
+              </apply>
+              <ci> ModelValue_116 </ci>
+            </apply>
+            <ci> ModelValue_69 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_P_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> ModelValue_80 </ci>
+            <ci> ModelValue_82 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_R_M6_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_79 </ci>
+              <ci> ModelValue_89 </ci>
+            </apply>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_R_M7_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_79 </ci>
+              <ci> ModelValue_90 </ci>
+            </apply>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_R_M8_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_79 </ci>
+              <ci> ModelValue_91 </ci>
+            </apply>
+            <cn> 8 </cn>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_P_M1_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_80 </ci>
+              <ci> ModelValue_82 </ci>
+            </apply>
+            <apply>
+              <minus/>
+              <cn> 1 </cn>
+              <ci> ModelValue_108 </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_P_M2_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_80 </ci>
+              <ci> ModelValue_82 </ci>
+            </apply>
+            <ci> ModelValue_108 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="k_syn_P_NEP_rel">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <apply>
+              <divide/>
+              <ci> ModelValue_80 </ci>
+              <ci> ModelValue_82 </ci>
+            </apply>
+            <ci> ModelValue_111 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="KmB">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ModelValue_107 </ci>
+            <ci> ModelValue_101 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="KmC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ModelValue_107 </ci>
+            <ci> ModelValue_102 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="KmD">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ModelValue_107 </ci>
+            <ci> ModelValue_106 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="KmE">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ModelValue_107 </ci>
+            <ci> ModelValue_104 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="KmF">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ModelValue_107 </ci>
+            <ci> ModelValue_103 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="KmG">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ModelValue_107 </ci>
+            <ci> ModelValue_113 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="KmH">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> ModelValue_107 </ci>
+            <ci> ModelValue_105 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction metaid="COPASI106" id="V_ex_Virion_attachment_Hi" name="V_ex-virion_attachment_Hi" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="V_ex" stoichiometry="1"/>
+          <speciesReference species="B_att_Hi" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="V_att_Hi" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_att_Hi </ci>
+              <ci> V_ex </ci>
+              <ci> B_att_Hi </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI107" id="V_att_Hi_Dissociation_virion" name="V_att_Hi-dissociation_virion" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="V_att_Hi" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="V_ex" stoichiometry="1"/>
+          <speciesReference species="B_att_Hi" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_dis_Hi </ci>
+              <ci> V_att_Hi </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI108" id="V_att_Hi_Endocytosis_virion" name="V_att_Hi-endocytosis_virion" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="V_att_Hi" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="V_end" stoichiometry="1"/>
+          <speciesReference species="B_att_Hi" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_end </ci>
+              <ci> V_att_Hi </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI109" id="V_end_Degradation" name="V_end-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="V_end" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_end </ci>
+              <ci> V_end </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI110" id="V_end_Fusion_and_release" name="V_end-fusion_and_release" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="V_end" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_cyt" stoichiometry="8"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_fus </ci>
+              <ci> V_end </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI111" id="V_cyt_Import" name="V_cyt-import" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_cyt" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_imp </ci>
+              <ci> Vp_cyt </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI112" id="R_C_Synthesis" name="R_C-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="R_C" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_C </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI113" id="R_C_Degradation" name="R_C-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_C" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R </ci>
+              <ci> R_C </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI114" id="R_C_binding_of_RdRp" name="R_C-binding_of_RdRp" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_C" stoichiometry="1"/>
+          <speciesReference species="P_RdRp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_C_RdRp" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_bind_RdRp </ci>
+              <ci> R_C </ci>
+              <ci> P_RdRp </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI115" id="R_C_RdRp_Degradation" name="R_C_RdRp-Degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_C_RdRp" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_RdRp </ci>
+              <ci> R_C_RdRp </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI116" id="C_P_synthesis" name="C_P-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_C_RdRp" stoichiometry="1"/>
+          <speciesReference species="P_NP" stoichiometry="71"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cp" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <apply>
+                <ci> Rate_Law_for_binding_of_viral_proteins_1 </ci>
+                <ci> P_NP </ci>
+                <ci> R_C_RdRp </ci>
+                <ci> k_bind_NP </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI117" id="R_V_synthesis" name="R_V-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Cp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cp" stoichiometry="1"/>
+          <speciesReference species="R_V" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_V </ci>
+              <ci> Cp </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI118" id="C_P_degradation" name="C_P-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Cp" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_Rnp </ci>
+              <ci> Cp </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI119" id="R_V_binding_of_RdRp" name="R_V-binding_of_RdRp" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_V" stoichiometry="1"/>
+          <speciesReference species="P_RdRp" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_V_RdRp" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_bind_RdRp </ci>
+              <ci> R_V </ci>
+              <ci> P_RdRp </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI120" id="R_V_degradation" name="R_V-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_V" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R </ci>
+              <ci> R_V </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI121" id="Vp_nuc_synthesis" name="Vp_nuc-synthesis" reversible="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Actual reaction:
+R_V_RdRp + 71 * P_NP -&gt; Vp_nuc</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_V_RdRp" stoichiometry="1"/>
+          <speciesReference species="P_NP" stoichiometry="71"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <apply>
+                <ci> Rate_Law_for_binding_of_viral_proteins_2 </ci>
+                <ci> P_NP </ci>
+                <ci> R_V_RdRp </ci>
+                <ci> k_bind_NP </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI122" id="Vp_nuc_degradation" name="Vp_nuc-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_Rnp </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI123" id="R_M1_synthesis" name="R_M1-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="R_M1" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_M1_rel </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI124" id="R_M2_synthesis" name="R_M2-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="R_M2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_M2_rel </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI125" id="R_M3_synthesis" name="R_M3-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="R_M3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_M3_rel </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI126" id="R_M4_synthesis" name="R_M4-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="R_M4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_M4_rel </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI127" id="R_M5_synthesis" name="R_M5-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="R_M5" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_M5_rel </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI128" id="R_M6_synthesis" name="R_M6-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="R_M6" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_M6_rel </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI129" id="R_M7_synthesis" name="R_M7-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="R_M7" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_M7_rel </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI130" id="R_M8_synthesis" name="R_M8-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="R_M8" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_R_M8_rel </ci>
+              <ci> Vp_nuc </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI131" id="P_B1_synthesis" name="P_B1-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_M2" stoichiometry="1"/>
+          <speciesReference species="P_B1" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_P_rel </ci>
+              <ci> R_M2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI132" id="P_B2_synthesis" name="P_B2-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M1" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_M1" stoichiometry="1"/>
+          <speciesReference species="P_B2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_P_rel </ci>
+              <ci> R_M1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI133" id="P_PA_synthesis" name="P_PA-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_M3" stoichiometry="1"/>
+          <speciesReference species="P_PA" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_P_rel </ci>
+              <ci> R_M3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI134" id="P_HA_synthesis" name="P_HA-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_M4" stoichiometry="1"/>
+          <speciesReference species="P_HA" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_P_rel </ci>
+              <ci> R_M4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI135" id="P_NP_synthesis" name="P_NP-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M5" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_M5" stoichiometry="1"/>
+          <speciesReference species="P_NP" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_P_rel </ci>
+              <ci> R_M5 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI136" id="P_NA_synthesis" name="P_NA-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M6" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_M6" stoichiometry="1"/>
+          <speciesReference species="P_NA" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_P_rel </ci>
+              <ci> R_M6 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI137" id="P_M1_synthesis" name="P_M1-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M7" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_M7" stoichiometry="1"/>
+          <speciesReference species="P_M1" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_P_M1_rel </ci>
+              <ci> R_M7 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI138" id="P_NEP_synthesis" name="P_NEP-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M8" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_M8" stoichiometry="1"/>
+          <speciesReference species="P_NEP" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_P_NEP_rel </ci>
+              <ci> R_M8 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI139" id="R_M1_degradation" name="R_M1-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M1" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_M </ci>
+              <ci> R_M1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI140" id="R_M2_degradation" name="R_M2-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M2" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_M </ci>
+              <ci> R_M2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI141" id="R_M3_degradation" name="R_M3-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M3" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_M </ci>
+              <ci> R_M3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI142" id="R_M4_degradation" name="R_M4-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M4" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_M </ci>
+              <ci> R_M4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI143" id="R_M5_degradation" name="R_M5-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M5" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_M </ci>
+              <ci> R_M5 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI144" id="R_M6_degradation" name="R_M6-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M6" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_M </ci>
+              <ci> R_M6 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI145" id="R_M7_degradation" name="R_M7-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M7" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_M </ci>
+              <ci> R_M7 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI146" id="R_M8_degradation" name="R_M8-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M8" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_M </ci>
+              <ci> R_M8 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI147" id="P_RdRp_complex_formation" name="P_RdRp-complex_formation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="P_B1" stoichiometry="1"/>
+          <speciesReference species="P_B2" stoichiometry="1"/>
+          <speciesReference species="P_PA" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="P_RdRp" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_RdRp </ci>
+              <ci> P_B1 </ci>
+              <ci> P_B2 </ci>
+              <ci> P_PA </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI148" id="Vp_nuc_binding_of_P_M1" name="Vp_nuc-binding_of_P_M1" reversible="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Actual reaction:
+Vp_nuc + 8 * P_M1 -&gt; Vp_nuc_M1</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc" stoichiometry="1"/>
+          <speciesReference species="P_M1" stoichiometry="8.5"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_nuc_M1" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <apply>
+                <ci> Rate_Law_for_binding_of_viral_proteins_3 </ci>
+                <ci> P_M1 </ci>
+                <ci> Vp_nuc </ci>
+                <ci> k_bind_M1 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI149" id="Vp_nuc_M1_export" name="Vp_nuc_M1-export" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc_M1" stoichiometry="1"/>
+          <speciesReference species="P_NEP" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Vp_cyt_M1" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_exp_Vp_nuc_M1 </ci>
+              <ci> Vp_nuc_M1 </ci>
+              <ci> P_NEP </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI150" id="Vp_cyt_M1_Virion_release" name="Vp_cyt_M1-virion_release" reversible="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Actual reaction:
+8 * Vp_cyt_M1 + 37 * P_RdRp + 433 * P_NP + 2932 * P_M1 + 157 * P_NEP + 500 * P_HA + 100 * P_NA + 40 * P_M2 -&gt; V_rel</pre>
+          </body>
+        </notes>
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_cyt_M1" stoichiometry="8"/>
+          <speciesReference species="P_RdRp" stoichiometry="37"/>
+          <speciesReference species="P_NP" stoichiometry="433"/>
+          <speciesReference species="P_M1" stoichiometry="2932"/>
+          <speciesReference species="P_NEP" stoichiometry="157"/>
+          <speciesReference species="P_HA" stoichiometry="500"/>
+          <speciesReference species="P_NA" stoichiometry="100"/>
+          <speciesReference species="P_M2" stoichiometry="40"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="V_rel" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <apply>
+                <ci> Rate_Law_for_Vp_cyt_M1_Virion_release_1 </ci>
+                <ci> KmB </ci>
+                <ci> KmC </ci>
+                <ci> KmD </ci>
+                <ci> KmE </ci>
+                <ci> KmF </ci>
+                <ci> KmG </ci>
+                <ci> KmH </ci>
+                <ci> P_HA </ci>
+                <ci> P_M1 </ci>
+                <ci> P_M2 </ci>
+                <ci> P_NA </ci>
+                <ci> P_NEP </ci>
+                <ci> P_NP </ci>
+                <ci> P_RdRp </ci>
+                <ci> Vp_cyt_M1 </ci>
+                <ci> k_rel </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI151" id="V_ex_Virion_attachment_Lo" name="V_ex-virion_attachment_Lo" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="V_ex" stoichiometry="1"/>
+          <speciesReference species="B_att_Lo" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="V_att_Lo" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_att_Lo </ci>
+              <ci> V_ex </ci>
+              <ci> B_att_Lo </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI152" id="P_M2_synthesis" name="P_M2-synthesis" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_M7" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_M7" stoichiometry="1"/>
+          <speciesReference species="P_M2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_syn_P_M2_rel </ci>
+              <ci> R_M7 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI153" id="V_att_Lo_Dissociation_virion" name="V_att_Lo-dissociation_virion" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="V_att_Lo" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="V_ex" stoichiometry="1"/>
+          <speciesReference species="B_att_Lo" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_dis_Lo </ci>
+              <ci> V_att_Lo </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI154" id="V_att_Lo_Endocytosis_virion" name="V_att_Lo-endocytosis_virion" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="V_att_Lo" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="V_end" stoichiometry="1"/>
+          <speciesReference species="B_att_Lo" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_end </ci>
+              <ci> V_att_Lo </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI155" id="Vp_nuc_M1_degradation" name="Vp_nuc_M1-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_nuc_M1" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_Rnp </ci>
+              <ci> Vp_nuc_M1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI156" id="R_V_RdRp_degradation" name="R_V_RdRp-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="R_V_RdRp" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_R_RdRp </ci>
+              <ci> R_V_RdRp </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI157" id="Vp_cyt_M1_degradation" name="Vp_cyt_M1-degradation" reversible="false">
+        <annotation>
+          </annotation>
+        <listOfReactants>
+          <speciesReference species="Vp_cyt_M1" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> compartment </ci>
+              <ci> k_deg_Rnp </ci>
+              <ci> Vp_cyt_M1 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

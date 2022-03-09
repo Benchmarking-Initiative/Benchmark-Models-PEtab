@@ -1,0 +1,7 @@
+﻿conditionId	conditionName	alpha_50	beta_50	gamma_50	delta_50	epsilon_50	zeta_50	eta_50	kappa_50	lam_50	mu_50	nu_50	xi_50	rho_50	sigma_50
+pred1	pred_NoChanges	0.21	0.005	0.11	0.005	0.2	0.025	0.025	0.02	0.08	0.08	0.015	0.02	0.02	0.01
+pred2	pred_LessSocDist	0.252	0.005	0.11	0.005	0.2	0.025	0.025	0.02	0.08	0.08	0.015	0.02	0.02	0.01
+pred3	pred_MoreSocDist	0.105	0.005	0.11	0.005	0.2	0.025	0.025	0.02	0.08	0.08	0.015	0.02	0.02	0.01
+pred4	pred_MoreTests	0.21	0.005	0.11	0.005	0.4	0.025	0.025	0.02	0.08	0.08	0.015	0.02	0.02	0.01
+pred5	pred_MoreTestsLessSocDist	0.42	0.005	0.11	0.005	0.6	0.025	0.025	0.02	0.08	0.08	0.015	0.02	0.02	0.01
+
