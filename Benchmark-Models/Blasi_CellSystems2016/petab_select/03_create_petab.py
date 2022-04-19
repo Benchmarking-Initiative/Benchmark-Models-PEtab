@@ -24,6 +24,7 @@ from petab import (
     UPPER_BOUND,
     NOMINAL_VALUE,
     ESTIMATE,
+    TIME_STEADY_STATE,
 )
 
 
@@ -39,7 +40,7 @@ from model_info import (
 
 
 petab_problem0 = petab.Problem.from_yaml('../Blasi_CellSystems2016.yaml')
-measurements0 = dict(zip(petab_problem0.measurement_df[OBSERVABLE_ID], petab_problem0.measurement_df[MEASUREMENT]))
+measurements0_grouped = {k: v for k, v in petab_problem0.measurement_df.groupby(OBSERVABLE_ID)}
 
 condition_id = 'condition'
 noise = 'sigma'
@@ -69,23 +70,24 @@ def convert_observable_id(id0: str) -> str:
 # Create observables
 observable_dicts = []
 observable_id_mapping = {}
-observable_ids0 = sorted(set(measurements0))
+observable_ids0 = sorted(set(measurements0_grouped))
 for observable_id0 in observable_ids0:
     observable_dict = convert_observable_id(observable_id0)
-    observable_id_mapping[observable_id0] = observable_dict[OBSERVABLE_ID]
+    observable_id_mapping[observable_dict[OBSERVABLE_ID]] = observable_id0
     observable_dicts.append(observable_dict)
 
 # Create measurements
 measurement_dicts = []
-for observable_id0, value0 in measurements0.items():
-    observable_id = observable_id_mapping[observable_id0]
-    measurement_dict = {
-        OBSERVABLE_ID: observable_id,
-        SIMULATION_CONDITION_ID: condition_id,
-        TIME: 'inf',
-        MEASUREMENT: value0,
-    }
-    measurement_dicts.append(measurement_dict)
+for observable_id in sorted(observable_id_mapping):
+    measurements0 = measurements0_grouped[observable_id_mapping[observable_id]]
+    for _, row0 in measurements0.iterrows():
+        measurement_dict = {
+            OBSERVABLE_ID: observable_id,
+            SIMULATION_CONDITION_ID: condition_id,
+            TIME: TIME_STEADY_STATE,
+            MEASUREMENT: row0.measurement,
+        }
+        measurement_dicts.append(measurement_dict)
 
 # Create parameters
 parameter_dicts = []
