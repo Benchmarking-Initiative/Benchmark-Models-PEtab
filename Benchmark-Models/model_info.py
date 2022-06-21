@@ -52,8 +52,8 @@ def get_problem_info(
         'preequilibration':
             'No' if petab.PREEQUILIBRATION_CONDITION_ID not in
             problem.measurement_df.columns or
-            all(pd.isnull(problem.measurement_df[
-                              petab.PREEQUILIBRATION_CONDITION_ID].values))
+            pd.isnull(problem.measurement_df[
+                              petab.PREEQUILIBRATION_CONDITION_ID]).all()
             else 'Yes',
         'postequilibration':
             'Yes' if np.inf in problem.measurement_df[petab.TIME].values else
