@@ -43,7 +43,7 @@ petab_problem0 = petab.Problem.from_yaml('../Blasi_CellSystems2016.yaml')
 measurements0_grouped = {k: v for k, v in petab_problem0.measurement_df.groupby(OBSERVABLE_ID)}
 
 condition_id = 'condition'
-noise = 'sigma'
+noise = 'sigma_'
 
 
 def convert_observable_id(id0: str) -> str:
@@ -90,6 +90,18 @@ for observable_id in sorted(observable_id_mapping):
         measurement_dicts.append(measurement_dict)
 
 # Create parameters
+## Optimal parameters, reported in paper, taken from MATLAB implementation
+published_optimal_parameters = {
+    'a_b': 0.0667579590703576,
+    'a_0ac_k08': 0.0272712553008379,
+    'a_k05_k05k12': 2.06203333647699,
+    'a_k12_k05k12': 0.551940805482671,
+    'a_k16_k12k16': 0.695938574109670,
+    'a_k05k12_k05k08k12': 0.325297000106462,
+    'a_k12k16_k08k12k16': 2.20553079904637,
+    'a_k08k12k16_4ac': 3.59169549625268,
+}
+
 parameter_dicts = []
 ## Motif-specific
 for parameter_dict0 in motif_specific_parameters.values():
@@ -97,10 +109,18 @@ for parameter_dict0 in motif_specific_parameters.values():
         PARAMETER_ID: parameter_dict0['id'],
         PARAMETER_NAME: parameter_dict0['name'],
         PARAMETER_SCALE: LOG10,
-        LOWER_BOUND: '1e-12',
+        LOWER_BOUND: '1e-3',
         UPPER_BOUND: '1e3',
-        NOMINAL_VALUE: 1,
-        ESTIMATE: 0,
+        NOMINAL_VALUE: (
+            published_optimal_parameters[parameter_dict0['id']] / published_optimal_parameters['a_b']
+            if parameter_dict0['id'] in published_optimal_parameters
+            else 1
+        ),
+        ESTIMATE: (
+            1
+            if parameter_dict0['id'] in published_optimal_parameters
+            else 0
+        ),
     }
     parameter_dicts.append(parameter_dict)
 # ## Switch
@@ -120,9 +140,9 @@ for parameter_dict0 in common_parameters.values():
             PARAMETER_ID: parameter_dict0['id'],
             PARAMETER_NAME: parameter_dict0['name'],
             PARAMETER_SCALE: LOG10,
-            LOWER_BOUND: '1e-12',
+            LOWER_BOUND: '1e-3',
             UPPER_BOUND: '1e3',
-            NOMINAL_VALUE: 0,
+            NOMINAL_VALUE: published_optimal_parameters['a_b'],
             ESTIMATE: 1,
         }
     elif parameter_dict0['id'] == 'da_b':
@@ -142,10 +162,10 @@ parameter_dicts.append(
         PARAMETER_ID: noise,
         PARAMETER_NAME: noise,
         PARAMETER_SCALE: LOG10,
-        LOWER_BOUND: '1e-12',
+        LOWER_BOUND: '1e-3',
         UPPER_BOUND: '1e3',
-        NOMINAL_VALUE: 0.1,
-        ESTIMATE: 1,
+        NOMINAL_VALUE: 1,
+        ESTIMATE: 0,
     }
 )
 
