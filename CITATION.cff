@@ -1,0 +1,53 @@
+authors:
+   -
+      family-names: "Haas"
+      given-names: "Helge"
+   -
+      family-names: "Loos"
+      given-names: "Carolin"
+   -
+      family-names: "Raimúndez-Álvarez"
+      given-names: "Elba"
+   -
+      family-names: "Timmer"
+      given-names: "Jens"
+   -
+      family-names: "Hasenauer"
+      given-names: "Jan"
+   -
+      family-names: "Kreutz"
+      given-names: "Clemens"
+title: "Benchmark problems for dynamic modeling of intracellular processes}"
+
+preferred-citation:
+   type: article
+   title: "Benchmark problems for dynamic modeling of intracellular processes}"
+   doi: "10.1093/bioinformatics/btz020"
+   journal: "Bioinformatics"
+   year: 2019
+   month: 9
+   start: 1
+   end: 1
+   authors:
+      -
+         family-names: "Haas"
+         given-names: "Helge"
+      -
+         family-names: "Loos"
+         given-names: "Carolin"
+      -
+         family-names: "Raimúndez-Álvarez"
+         given-names: "Elba"
+      -
+         family-names: "Timmer"
+         given-names: "Jens"
+      -
+         family-names: "Hasenauer"
+         given-names: "Jan"
+      -
+         family-names: "Kreutz"
+         given-names: "Clemens"
+
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article from preferred-citation and the software itself."
+url: "https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab"
