@@ -2,3 +2,5 @@
 *.DS_store
 ~$*
 __pycache__
+
+src/python/build
