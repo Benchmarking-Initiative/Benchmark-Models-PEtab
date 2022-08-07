@@ -16,7 +16,9 @@ mkdir $BUILD_DIR
 
 # Copy code
 cp -r \
-  $CODE_DIR "setup.py" "MANIFEST.in" "../../LICENSE" "../../README.md" \
+  $CODE_DIR \
+  "setup.cfg" "setup.py" "pyproject.toml" "MANIFEST.in" \
+  "../../LICENSE" "../../README.md" \
   $BUILD_DIR
 # Remove link
 rm -rf $BUILD_DIR/$CODE_DIR/$DATA_DIR
@@ -27,4 +29,5 @@ cp -r "../../$DATA_DIR" $BUILD_DIR/$CODE_DIR
 cd $BUILD_DIR
 
 # Build
-python setup.py sdist
+pip install --upgrade build
+python -m build --sdist

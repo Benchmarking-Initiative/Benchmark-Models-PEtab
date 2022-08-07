@@ -1,5 +1,3 @@
-from .C import (
-    MODELS_DIR,
-    MODEL_DIRS,
-    MODELS,
-)
+from .base import get_problem
+from .C import MODEL_DIRS, MODELS, MODELS_DIR
+from .version import __version__
