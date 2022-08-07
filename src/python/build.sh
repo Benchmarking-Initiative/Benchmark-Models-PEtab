@@ -3,6 +3,13 @@
 # Either, call `./build.sh` followed by `pip install build/dist/*`
 # Or directly install from source via `pip install -e .`
 
+# Get script directory
+DIR="$(dirname "${BASH_SOURCE[0]}")"
+DIR="$(realpath "$DIR")"
+
+# Hop into
+cd $DIR
+
 BUILD_DIR="build"
 CODE_DIR="benchmark_models_petab"
 DATA_DIR="Benchmark-Models"
