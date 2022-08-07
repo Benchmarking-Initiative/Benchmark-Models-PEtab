@@ -1,3 +1,5 @@
+"""Get a petab problem from the collection."""
+
 import os
 
 import petab

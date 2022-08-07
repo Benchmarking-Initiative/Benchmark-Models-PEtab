@@ -1,3 +1,5 @@
+"""Basic tests."""
+
 import benchmark_models_petab as models
 
 
