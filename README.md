@@ -43,3 +43,7 @@ Contributions to the collection are very welcome. For this, please create a new 
 Any original content in this repository may be used under the terms of the [BSD-3-Clause license](LICENSE).
 Different terms may apply to models and datasets, for which we refer the user to the original publications
 that are referenced in the respective SBML files.
+
+## Installation
+
+See [INSTALL.md](INSTALL.md).
