@@ -1,8 +1,7 @@
 name: Python CI
 
 # trigger
-on:
-  push:
+on: [push]
 
 jobs:
   base:
