@@ -43,4 +43,12 @@ Once installed, the python package can be used via:
 
     import benchmark_models_petab as models
     
-For provided functionality, see the code documentation in the python folder.
+    # print models base folder
+    print(models.MODELS_DIR)
+    # print all model names
+    print(models.MODELS)
+    # generate petab problem
+    petab_problem = models.get_problem('Zheng_PNAS2012')
+    
+For provided functionality, see the
+[source code documentation](src/python/benchmark_models_petab).
