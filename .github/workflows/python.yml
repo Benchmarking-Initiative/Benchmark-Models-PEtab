@@ -30,8 +30,7 @@ jobs:
     - name: Run tests from sdist install
       run: |
         cd src/python
-        python -m build --sdist
-        pip install build/dist/*
+        ./build.sh
         pip install pytest
         pytest test
 
