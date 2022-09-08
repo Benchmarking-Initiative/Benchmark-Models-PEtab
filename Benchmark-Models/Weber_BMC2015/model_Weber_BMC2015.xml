@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Weber_BMC2015" name="model_A">
+  <model id="Weber_BMC2015" name="Weber_BMC2015">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Weber et al. (2015), BMC Syst. Biol., 9, 9</pre>

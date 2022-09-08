@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Sneyd_PNAS2002" name="model_Sneyd_PNAS2002">
+  <model id="Sneyd_PNAS2002" name="Sneyd_PNAS2002">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Sneyd et al. (2002), PNAS February 19, 2002 99 (4) 2398-2403</pre>

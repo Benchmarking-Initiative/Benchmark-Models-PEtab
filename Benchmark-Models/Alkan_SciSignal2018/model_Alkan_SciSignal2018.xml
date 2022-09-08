@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="arFramework3" id="combined_model" name="NoName">
+  <model metaid="arFramework3" id="Alkan_SciSignal2018" name="Alkan_SciSignal2018">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Alkan et al. (2018), Science Signaling  24 Jul 2018: Vol. 11, Issue 540, eaat0229</pre>

@@ -1,0 +1,18 @@
+files: src/python
+repos:
+- repo: https://github.com/psf/black
+  rev: 22.3.0
+  hooks:
+  - id: black
+    description: The uncompromising code formatter
+- repo: https://github.com/pycqa/isort
+  rev: 5.10.1
+  hooks:
+  - id: isort
+    name: isort
+- repo: https://github.com/pycqa/flake8
+  rev: 5.0.4
+  additional_dependencies: [flake8-docstrings]
+  hooks:
+  - id: flake8
+    args: [--config, src/python/setup.cfg]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Chen_MSB2009" name="model_ChenMSB2009_sin">
+  <model id="Chen_MSB2009" name="Chen_MSB2009">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Chen et al. (2009), Mol Syst Biol. ;5:239</pre>

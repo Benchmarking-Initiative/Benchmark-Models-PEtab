@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="arFramework3" id="Brannmark_JBC2010" name="model_Mif">
+  <model metaid="arFramework3" id="Brannmark_JBC2010" name="Brannmark_JBC2010">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Brannmark et al. (2010), THE JOURNAL OF BIOLOGICAL CHEMISTRY VOL. 285, NO. 26, pp. 20171–20179, </pre>

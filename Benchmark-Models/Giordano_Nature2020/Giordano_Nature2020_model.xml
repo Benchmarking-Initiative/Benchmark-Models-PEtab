@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Created by COPASI version 4.29 (Build 228) on 2020-09-17 20:49 with libSBML version 5.18.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="COPASI0" id="Giordano2020___SIDARTHE_model_of_COVID_19_spread_in_Italy" name="Giordano2020 - SIDARTHE model of COVID-19 spread in Italy">
+  <model metaid="COPASI0" id="Giordano_Nature2020" name="Giordano_Nature2020">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>This is a model created on COPASI 4.27 (Build 217) which reproduces the Figures 2b, 2d, 3b, 3d, 4b, 4d in the article - https://www.nature.com/articles/s41591-020-0883-7

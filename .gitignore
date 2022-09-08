@@ -1,3 +1,6 @@
 .~lock.*
 *.DS_store
 ~$*
+__pycache__
+*egg-info
+src/python/build

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Crauste_CellSystems2017" name="ModelImmuneCells">
+  <model id="Crauste_CellSystems2017" name="Crauste_CellSystems2017">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Crauste et al. (2017), Cell Syst. 2017 Mar 22;4(3):306-317.e4</pre>
