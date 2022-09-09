@@ -48,9 +48,9 @@ def get_summary(
             petab_problem.measurement_df.columns or
             pd.isnull(petab_problem.measurement_df[
                           petab.PREEQUILIBRATION_CONDITION_ID]).all()
-            else sum([cond is not np.nan for cond in
-                      petab_problem.measurement_df[
-                          petab.PREEQUILIBRATION_CONDITION_ID].unique()]),
+            else (pd.isnull(petab_problem.measurement_df[
+                  petab.PREEQUILIBRATION_CONDITION_ID].unique() == False
+                 ).sum(),
         'postequilibration':
             petab.measurements.get_simulation_conditions(
                 petab_problem.measurement_df[
