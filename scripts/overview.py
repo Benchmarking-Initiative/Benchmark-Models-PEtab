@@ -16,10 +16,13 @@ markdown_columns = {
     'conditions': 'Conditions',
     'estimated_parameters': 'Estimated Parameters',
     'events': 'Events',
+    'preequilibration': 'Preequilibration',
+    'postequilibration': 'Postequilibration',
     'measurements': 'Measurements',
     'petab_problem_id': 'PEtab Problem ID',
     'observables': 'Observables',
     'species': 'Species',
+    'noise_distributions': 'Noise distribution(s)',
     'reference_uris': 'References',
 }
 
@@ -40,10 +43,27 @@ def get_summary(
             np.sum(petab_problem.parameter_df[petab.ESTIMATE]),
         'events':
             len(petab_problem.sbml_model.getListOfEvents()),
+        'preequilibration':
+            0 if petab.PREEQUILIBRATION_CONDITION_ID not in
+            petab_problem.measurement_df.columns or
+            pd.isnull(petab_problem.measurement_df[
+                          petab.PREEQUILIBRATION_CONDITION_ID]).all()
+            else (pd.isnull(petab_problem.measurement_df[
+                  petab.PREEQUILIBRATION_CONDITION_ID].unique()) == False
+                  ).sum(),
+        'postequilibration':
+            petab.measurements.get_simulation_conditions(
+                petab_problem.measurement_df[
+                    petab_problem.measurement_df[petab.TIME] == np.inf]).shape[
+                0] if
+            np.isinf(petab_problem.measurement_df[petab.TIME]).any()
+            else 0,
         'measurements':
             len(petab_problem.measurement_df.index),
         'observables':
             len(petab_problem.measurement_df[petab.OBSERVABLE_ID].unique()),
+        'noise_distributions':
+            get_noise_distributions(petab_problem.observable_df),
         'species':
             len(petab_problem.sbml_model.getListOfSpecies()),
         'reference_uris':
@@ -63,6 +83,16 @@ def get_reference_uris(sbml_model: libsbml.Model) -> List[str]:
             uri = resources.getValue(i)
             reference_uris.append(uri)
     return reference_uris
+
+
+def get_noise_distributions(observable_df):
+    if petab.NOISE_DISTRIBUTION in observable_df.columns:
+        noise_distrs = ['normal' if dist is np.nan else dist for dist in
+                        observable_df[petab.NOISE_DISTRIBUTION]]
+        noise_distrs = set(noise_distrs)
+    else:
+        noise_distrs = {'normal'}
+    return "; ".join(noise_distrs)
 
 
 def get_overview_table() -> pd.DataFrame:
