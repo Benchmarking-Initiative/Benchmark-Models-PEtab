@@ -44,14 +44,20 @@ def get_summary(
         'events':
             len(petab_problem.sbml_model.getListOfEvents()),
         'preequilibration':
-            'No' if petab.PREEQUILIBRATION_CONDITION_ID not in
+            0 if petab.PREEQUILIBRATION_CONDITION_ID not in
             petab_problem.measurement_df.columns or
             pd.isnull(petab_problem.measurement_df[
                           petab.PREEQUILIBRATION_CONDITION_ID]).all()
-            else 'Yes',
+            else sum([cond is not np.nan for cond in
+                      petab_problem.measurement_df[
+                          petab.PREEQUILIBRATION_CONDITION_ID].unique()]),
         'postequilibration':
-            'Yes' if np.isinf(petab_problem.measurement_df[petab.TIME]).any()
-            else 'No',
+            petab.measurements.get_simulation_conditions(
+                petab_problem.measurement_df[
+                    petab_problem.measurement_df[petab.TIME] == np.inf]).shape[
+                0] if
+            np.isinf(petab_problem.measurement_df[petab.TIME]).any()
+            else 0,
         'measurements':
             len(petab_problem.measurement_df.index),
         'observables':
