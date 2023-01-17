@@ -86,12 +86,34 @@ def get_reference_uris(sbml_model: libsbml.Model) -> List[str]:
 
 
 def get_noise_distributions(observable_df):
+    def transform(nd_list):
+        if not isinstance(nd_list[0], str) and np.isnan(nd_list[0]):
+            nd_list[0] = ''
+        elif nd_list[0] == 'lin':
+            nd_list[0] = ''
+
+        if not isinstance(nd_list[1], str) and np.isnan(nd_list[1]):
+            nd_list[1] = 'normal'
+        return tuple(nd_list)
+
     if petab.NOISE_DISTRIBUTION in observable_df.columns:
-        noise_distrs = ['normal' if dist is np.nan else dist for dist in
-                        observable_df[petab.NOISE_DISTRIBUTION]]
-        noise_distrs = set(noise_distrs)
+        if petab.OBSERVABLE_TRANSFORMATION in observable_df.columns:
+            noise_distrs = [transform(e.values) for _, e in observable_df[
+                [petab.OBSERVABLE_TRANSFORMATION,
+                 petab.NOISE_DISTRIBUTION]].iterrows()]
+        else:
+            noise_distrs = [transform(['', e]) for e in
+                            observable_df[petab.NOISE_DISTRIBUTION]]
+
     else:
-        noise_distrs = {'normal'}
+        if petab.OBSERVABLE_TRANSFORMATION in observable_df.columns:
+            noise_distrs = [transform([e, 'normal']) for e in
+                            observable_df[petab.OBSERVABLE_TRANSFORMATION]]
+        else:
+            noise_distrs = {('', 'normal')}
+
+    noise_distrs = set(noise_distrs)
+    noise_distrs = ['-'.join(nd) if nd[0] else nd[1] for nd in noise_distrs]
     return "; ".join(noise_distrs)
 
 
