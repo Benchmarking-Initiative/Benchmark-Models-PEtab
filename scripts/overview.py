@@ -34,6 +34,7 @@ def get_summary(
         petab_problem_id: str = None,
 ) -> Dict:
     """Get dictionary with stats for the given PEtab problem"""
+    print(petab_problem_id)
     return {
         'petab_problem_id':
             petab_problem_id,
@@ -86,34 +87,32 @@ def get_reference_uris(sbml_model: libsbml.Model) -> List[str]:
 
 
 def get_noise_distributions(observable_df):
-    def transform(nd_list):
-        if not isinstance(nd_list[0], str) and np.isnan(nd_list[0]):
-            nd_list[0] = ''
-        elif nd_list[0] == 'lin':
-            nd_list[0] = ''
-
-        if not isinstance(nd_list[1], str) and np.isnan(nd_list[1]):
-            nd_list[1] = 'normal'
-        return tuple(nd_list)
 
     if petab.NOISE_DISTRIBUTION in observable_df.columns:
+        observable_df = observable_df.fillna(
+            value={petab.NOISE_DISTRIBUTION: petab.NORMAL})
         if petab.OBSERVABLE_TRANSFORMATION in observable_df.columns:
-            noise_distrs = [transform(e.values) for _, e in observable_df[
+            observable_df = observable_df.fillna(
+                value={petab.OBSERVABLE_TRANSFORMATION: petab.LIN})
+            noise_distrs = [tuple(e.values) for _, e in observable_df[
                 [petab.OBSERVABLE_TRANSFORMATION,
                  petab.NOISE_DISTRIBUTION]].iterrows()]
         else:
-            noise_distrs = [transform(['', e]) for e in
+            noise_distrs = [(petab.LIN, e) for e in
                             observable_df[petab.NOISE_DISTRIBUTION]]
 
     else:
         if petab.OBSERVABLE_TRANSFORMATION in observable_df.columns:
-            noise_distrs = [transform([e, 'normal']) for e in
+            observable_df = observable_df.fillna(
+                value={petab.OBSERVABLE_TRANSFORMATION: petab.LIN})
+            noise_distrs = [(e, petab.NORMAL) for e in
                             observable_df[petab.OBSERVABLE_TRANSFORMATION]]
         else:
-            noise_distrs = {('', 'normal')}
+            noise_distrs = {(petab.LIN, petab.NORMAL)}
 
     noise_distrs = set(noise_distrs)
-    noise_distrs = ['-'.join(nd) if nd[0] else nd[1] for nd in noise_distrs]
+    noise_distrs = ['-'.join(nd) if nd[0] != petab.LIN else
+                    nd[1] for nd in noise_distrs]
     return "; ".join(noise_distrs)
 
 
