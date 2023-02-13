@@ -9,3 +9,5 @@ problems:
   - observables_Brannmark_JBC2010.tsv
   sbml_files:
   - model_Brannmark_JBC2010.xml
+  visualization_files:
+  - visualizationSpecification_Brannmark_JBC2010.tsv

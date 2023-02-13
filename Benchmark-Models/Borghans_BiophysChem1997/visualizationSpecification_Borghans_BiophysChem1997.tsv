@@ -1,0 +1,2 @@
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset
+plot1	MeanAndSD		LinePlot	time	lin	values	lin	model1_data1 - Ca	Ca	time	0	0.0
