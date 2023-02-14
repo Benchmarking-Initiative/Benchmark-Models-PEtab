@@ -9,3 +9,5 @@ problems:
   - observables_Zheng_PNAS2012.tsv
   sbml_files:
   - model_Zheng_PNAS2012.xml
+  visualization_files:
+  - visualizationSpecification_Zheng_PNAS2012.tsv
