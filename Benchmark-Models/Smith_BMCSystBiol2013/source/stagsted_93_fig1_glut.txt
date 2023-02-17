@@ -1,0 +1,14 @@
+# from fig 1 stagsted et al 1993 adipocytes - abs
+# Glu uptake in dpm /min/1e5 cells
+Insulin	   Glucose_uptake  Delta_Glucose
+1e-14	   45		   20
+1.5e-11    45		   20
+4.5e-11	   76		   25
+1.3e-10    114		   20
+3.1e-10    185		   10
+1e-9 	   201		   10
+3e-9 	   218		   10
+1e-8 	   230		   10
+3e-8 	   230		   20
+1e-7 	   225		   5
+3e-7	   230		   10

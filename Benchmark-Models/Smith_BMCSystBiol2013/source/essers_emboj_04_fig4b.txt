@@ -1,0 +1,8 @@
+# Essers foxo_jnk_emboj_04.pdf DLD1 cells (human colon cancer) 16h H2O2 (uM)
+# FOXO4 is estimated by eye from the blot
+H2O2	 MnSOD_fold_induction Delta_MnSOD FOXO4
+0	 5		      0.3	  1.0
+5	 8		      0.5	  1.0
+10	 10.5		      0.5	  1.0
+20	 3.5		      1.0	  0.5
+50	 2.0		      0.5	  0.3

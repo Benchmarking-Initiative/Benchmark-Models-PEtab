@@ -1,0 +1,12 @@
+# from fig 1 archuleta et al 2009 - rat skeletal muscle 
+# Glu uptake in pmol/mg/20 min ; Time min; H2O2 60-90 uM
+# ins taken as 100 nM , in fact 5 mU/ml, text says is "maximally effective" 
+Time	   Insulin	   H2O2		   Glucose_uptake  Delta_Glucose
+120	   0	   	   0		   200		   10
+120	   0    	   60		   270		   25
+120	   5	   	   0		   670		   30
+120	   5    	   60		   360		   50		   
+240	   0	   	   0		   220		   15
+240	   0    	   60		   350		   25
+240	   5	   	   0		   600		   50
+240	   5    	   60		   300		   25		   

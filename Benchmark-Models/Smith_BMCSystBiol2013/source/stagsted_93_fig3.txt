@@ -1,0 +1,15 @@
+# from fig 3 stagsted et al 1993 adipocytes - abs
+# Insulin in M, PI3K activity in whole cells aribitrary units 
+# ins point at 1e-14 is actually zero 
+Insulin	   PI3K_activity    Delta_PI3K_activity
+1e-14	   10		    10
+3.5e-11    40		    10
+1.5e-10	   70 		    10
+5e-10	   60		    20
+1.5e-9     150		    30
+5e-9 	   200		    20
+1.5e-8 	   440		    15
+5e-8 	   420		    20
+1e-7 	   515		    40
+3e-7	   490		    40
+1e-6 	   470		    25

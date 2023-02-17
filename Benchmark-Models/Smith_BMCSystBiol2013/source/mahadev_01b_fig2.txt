@@ -1,0 +1,6 @@
+# mahadev_hperoxide_ins_activ_jbc_01.pdf Ins 100nM fig 2A 3T3L1 Total PTP
+Time	PTP_activ	 Delta_PTP_activ	PTP_activ_plus_DPI	Delta_PTP_activ_plus_DPI
+0	0.16	0.01	0.15	0.007
+1	0.10	0.01	0.14	0.015
+5	0.05	0.005	0.12	0.01
+

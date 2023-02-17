@@ -1,0 +1,12 @@
+# from fig 1 stagsted et al 1993 adipocytes - abs
+# Insulin in M, Bound Ins in 1e3 molec/cell, 
+Insulin	   Cell_Bound_Ins   Delta_CBI
+2e-11	   0		    1
+5e-11	   2		    1
+2e-10	   5		    1
+4e-10	   12		    1
+1e-9	   28		    3
+2e-9	   55		    6
+1e-8	   97		    4
+3e-8	   120		    20
+3e-7	   142		    10
