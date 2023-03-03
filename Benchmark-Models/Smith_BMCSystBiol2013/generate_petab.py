@@ -260,14 +260,16 @@ for (ins, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H2O2'
     vextracellular = sbml_model.getParameter('vextracellular').getValue()
     extracellular = sbml_model.getCompartment('extracellular').getSize()
 
-    # note that we (hopefully?) set Ins as amount in the model, so we don't divide by extracellular here.
-    Ins = ins * (navo * vextracellular)
+    Ins = ins * (navo * vextracellular) / extracellular
+
+    # note that the simulation table likely reports Ins as amount, not concentration
+    # so we have to multiply by extracellular volume to get the amount
 
     # check we are actually using the same values as in the supplementary material
     # 2B + ins=1e-14/5e-8 not included in simulations/plot :shrug:
     if panel not in ['3B', '3C', '2B']:
         assert ins in sim.insconc.unique()
-        assert Ins in sim.Ins.unique()
+        assert Ins * extracellular in sim.Ins.unique()
 
     if panel not in ['3B', '3C']:
         assert rosconc in sim.extracellular_ROS.unique()
@@ -275,8 +277,8 @@ for (ins, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H2O2'
     if panel == '2B' and ins != 1e-14:
         assert ins < sim.insconc.max()
         assert ins > sim.insconc.min()
-        assert Ins < sim.Ins.max()
-        assert Ins > sim.Ins.min()
+        assert Ins * extracellular < sim.Ins.max()
+        assert Ins * extracellular > sim.Ins.min()
 
     if condition_id not in (c[petab.CONDITION_ID] for c in conditions):
         conditions.append({
