@@ -37,7 +37,7 @@ simulations['fig3A_right'] = pd.read_csv(source_dir / 'm8b2_rapijfe.6.fasting-t3
 # -- figure 3 data --
 data['gluc_fig3B'] = pd.read_csv(source_dir / 'archuleta_09_fig1.txt', sep='\s+', skiprows=range(3))
 data['sod2_fig3C'] = pd.read_csv(source_dir / 'essers_emboj_04_fig4b.txt', sep='\s+', skiprows=range(2))
-data['sod2_fig3C']['Time'] = 16 * 60  # 16h according to comment in source data
+data['sod2_fig3C']['Time'] = 16 * 60  # 16h according to comment in source data, confirmed in panel in manuscript
 
 # cleanup
 for df in list(simulations.values()) + list(data.values()):
@@ -260,16 +260,22 @@ for (ins, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H2O2'
     vextracellular = sbml_model.getParameter('vextracellular').getValue()
     extracellular = sbml_model.getCompartment('extracellular').getSize()
 
-    Ins = ins * (navo * vextracellular) / extracellular
+    # note we are dealing with concentrations so don't apply volume
+    if panel in ['3B', '3C']:
+        # Ins/ins is the other way around
+        Ins = ins
+        ins = Ins / (navo * vextracellular)
+    else:
+        Ins = ins * (navo * vextracellular)
 
     # note that the simulation table likely reports Ins as amount, not concentration
     # so we have to multiply by extracellular volume to get the amount
 
     # check we are actually using the same values as in the supplementary material
     # 2B + ins=1e-14/5e-8 not included in simulations/plot :shrug:
-    if panel not in ['3B', '3C', '2B']:
-        assert ins in sim.insconc.unique()
-        assert Ins * extracellular in sim.Ins.unique()
+    if panel not in ['2B', '3C']:
+        assert np.isclose(ins, sim.insconc.unique(), atol=0, rtol=1e-2).any()
+        assert np.isclose(Ins, sim.Ins.unique(), atol=0, rtol=1e-2).any()
 
     if panel not in ['3B', '3C']:
         assert rosconc in sim.extracellular_ROS.unique()
@@ -277,14 +283,14 @@ for (ins, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H2O2'
     if panel == '2B' and ins != 1e-14:
         assert ins < sim.insconc.max()
         assert ins > sim.insconc.min()
-        assert Ins * extracellular < sim.Ins.max()
-        assert Ins * extracellular > sim.Ins.min()
+        assert Ins < sim.Ins.max()
+        assert Ins > sim.Ins.min()
 
     if condition_id not in (c[petab.CONDITION_ID] for c in conditions):
         conditions.append({
             petab.CONDITION_ID: condition_id,
-            'extracellular_ROS': int(rosconc),
-            'Ins': int(Ins),
+            'extracellular_ROS': float(rosconc),
+            'Ins': float(Ins),
         })
 
 observable_table = pd.DataFrame(observables).set_index(petab.OBSERVABLE_ID)
