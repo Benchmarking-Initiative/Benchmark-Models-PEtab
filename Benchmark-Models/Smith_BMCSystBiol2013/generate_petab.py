@@ -219,7 +219,7 @@ for x in sbml_model.getListOfSpecies():
 df_data.Insulin.fillna(0.0, inplace=True)
 df_data.H2O2.fillna(0.0, inplace=True)
 data_cols = np.unique([obs[petab.OBSERVABLE_ID].split('__')[0] for obs in observables])
-for (ins, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H2O2']):
+for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H2O2']):
     # group: (Insulin, dataset, Time, H2O@)
     # df: all rows with this
 
@@ -234,7 +234,7 @@ for (ins, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H2O2'
     ).dropna(axis=0, subset=[petab.MEASUREMENT])
     m.rename(columns={'Time': petab.TIME}, inplace=True)
     m[petab.OBSERVABLE_ID] = m[petab.OBSERVABLE_ID] + '__' + dataset[-2:]
-    condition_id = f'figure{panel}__{rosconc}__{ins}'.replace('.', '_').replace('-', 'm')
+    condition_id = f'figure{panel}__{rosconc}__{insconc}'.replace('.', '_').replace('-', 'm')
     m[petab.SIMULATION_CONDITION_ID] = condition_id
     measurements.append(m)
 
@@ -242,7 +242,7 @@ for (ins, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H2O2'
     # Fig 2C/2D: only time?
     # Fig 3B: Insulin "maps" to insconc (5-->0.0, 5e4-->5.0), H2O2 "maps" to extracellular_ROS (rosconc) (0-->0.0, 5e4-->60)
     if panel == '3B':
-        ins = {0.0: 5, 5.0: 5e4}.get(ins)
+        insconc = {0.0: 5, 5.0: 5e4}.get(insconc)
         rosconc = {0.0: 0, 60.0: 5e4}.get(rosconc)
     # maps: sim --> data
     # Fig 3C: H2O2 maps to extracellular_ROS*2 (rosconc ?)
@@ -258,33 +258,39 @@ for (ins, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H2O2'
 
     navo = sbml_model.getParameter('navo').getValue()
     vextracellular = sbml_model.getParameter('vextracellular').getValue()
-    extracellular = sbml_model.getCompartment('extracellular').getSize()
 
-    # note we are dealing with concentrations so don't apply volume
+    v_ins = sbml_model.getCompartment(sbml_model.getSpecies('Ins').getCompartment()).getSize()
+    v_ros = sbml_model.getCompartment(sbml_model.getSpecies('extracellular_ROS').getCompartment()).getSize()
+
     if panel in ['3B', '3C']:
         # Ins/ins is the other way around
-        Ins = ins
-        ins = Ins / (navo * vextracellular)
+        Ins = insconc / v_ins
+        insconc = Ins * v_ros / (navo * vextracellular)
     else:
-        Ins = ins * (navo * vextracellular)
+        Ins = insconc * (navo * vextracellular) / v_ins
+
+    Ros = rosconc / v_ros
 
     # note that the simulation table likely reports Ins as amount, not concentration
     # so we have to multiply by extracellular volume to get the amount
 
     # check we are actually using the same values as in the supplementary material
     # 2B + ins=1e-14/5e-8 not included in simulations/plot :shrug:
+
+    # we want Ins in concentrations, but simulations are in "amounts" (still floats ...)
+    # so we need to multiply with the respective compartment size
     if panel not in ['2B', '3C']:
-        assert np.isclose(ins, sim.insconc.unique(), atol=0, rtol=1e-2).any()
-        assert np.isclose(Ins, sim.Ins.unique(), atol=0, rtol=1e-2).any()
+        assert np.isclose(insconc, sim.insconc.unique(), atol=0, rtol=1e-2).any()
+        assert np.isclose(Ins * v_ins, sim.Ins.unique(), atol=0, rtol=1e-2).any()
 
     if panel not in ['3B', '3C']:
-        assert rosconc in sim.extracellular_ROS.unique()
+        assert Ros * v_ros in sim.extracellular_ROS.unique()
 
-    if panel == '2B' and ins != 1e-14:
-        assert ins < sim.insconc.max()
-        assert ins > sim.insconc.min()
-        assert Ins < sim.Ins.max()
-        assert Ins > sim.Ins.min()
+    if panel == '2B' and insconc != 1e-14:
+        assert insconc < sim.insconc.max()
+        assert insconc > sim.insconc.min()
+        assert Ins * v_ins < sim.Ins.max()
+        assert Ins * v_ins > sim.Ins.min()
 
     if condition_id not in (c[petab.CONDITION_ID] for c in conditions):
         conditions.append({
