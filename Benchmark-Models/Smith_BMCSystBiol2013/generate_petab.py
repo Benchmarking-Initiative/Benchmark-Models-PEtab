@@ -163,9 +163,7 @@ observables = [
 #    } for o in obs_names
 ]
 
-# for fitting to data
-# notes: always use scaling factors instead of normalizing with max/initial value
-for scale_factor, assignment_variable, data_variable, figure in (
+obs_def = (
     # figure 2B: PI3K https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig2/B/plotB.R 17, 29-40
     ('sc_PI3K',    'IRS1_TyrP_PI3K',      'PI3K_activity',          '2B'),
     # figure 2B: GLUT https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig2/B/plotB.R 21, 43-56
@@ -182,7 +180,11 @@ for scale_factor, assignment_variable, data_variable, figure in (
     ('sc_SOD2',    'cytoplasm_SOD2',      'MnSOD_fold_induction',   '3C'),  # initial value normalized
     # figure 3C: FOXO1 https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig3/C/plotC.R 32
     ('sc_FOXO1',   'Foxo1_all',           'FOXO4',                  '3C'),  # initial value normalized
-):
+)
+
+# for fitting to data
+# notes: always use scaling factors instead of normalizing with max/initial value
+for scale_factor, assignment_variable, data_variable, figure in obs_def:
     observables.append({
         petab.OBSERVABLE_ID: f'{data_variable}__{figure}',
         petab.OBSERVABLE_FORMULA: f'{scale_factor} * {assignment_variable}',
@@ -299,10 +301,26 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
             'Ins': float(Ins),
         })
 
+
 observable_table = pd.DataFrame(observables).set_index(petab.OBSERVABLE_ID)
 parameter_table = pd.DataFrame(parameters).set_index(petab.PARAMETER_ID)
 condition_table = pd.DataFrame(conditions).set_index(petab.CONDITION_ID)
 measurement_table = pd.concat(measurements)
+
+# derive scaling factors
+for dataset, df in df_data.groupby(['dataset']):
+    sim = simulations[data_mappings[dataset]]
+    scaling_factors = {
+        obs[0]: (obs[1], obs[2]) for obs in obs_def
+        if dataset.endswith(obs[3]) and df[obs[2]].any()
+    }
+    for sc, (sim_id, data_id) in scaling_factors.items():
+        vol = sbml_model.getCompartment(
+            sbml_model.getSpecies(sim_id).getCompartment()
+        ).getSize()
+        parameter_table.loc[
+            sc, petab.NOMINAL_VALUE
+        ] = vol / sim[sim_id].max() * df[data_id].max()
 
 sbml_model.setName(model_name)
 sbml_model.setId(model_name)
