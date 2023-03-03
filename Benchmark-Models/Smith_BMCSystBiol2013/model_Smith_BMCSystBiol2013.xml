@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" metaid="ea71b239_15b6_4fa3_a76f_dd6c414eede6" level="2" version="4">
-  <model metaid="f4425bc4_80db_4c1c_b889_aae600e0ce20" id="MODEL1212210000" name="Smith2013 - Regulation of Insulin Signalling by Oxidative Stress">
+  <model metaid="f4425bc4_80db_4c1c_b889_aae600e0ce20" id="Smith_BMCSystBiol2013" name="Smith_BMCSystBiol2013">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <div class="dc:title">Smith2013 - Regulation of Insulin Signalling by Oxidative Stress</div>

@@ -23,8 +23,11 @@ simulations['fig2F'] = pd.read_csv(source_dir / 'pj.6-t60-scanextROS-2SOD.txt', 
 simulations['fig2H'] = pd.read_csv(source_dir / 'm8b2_rapijf.6.InsROS_out.txt', sep='\t')
 # -- figure 2 data --
 data['pi3k_fig2B'] = pd.read_csv(source_dir / 'stagsted_93_fig3.txt', sep='\s+', skiprows=range(3))
+data['pi3k_fig2B']['Time'] = 15  # 15 min according to simulation data (m8b2_rapi.6-insscan.txt)
 data['ins_fig2B'] = pd.read_csv(source_dir / 'stagsted_93_fig1_boundi.txt', sep='\s+', skiprows=range(2))
+data['ins_fig2B']['Time'] = 15  # 15 min according to simulation data (m8b2_rapi.6-insscan.txt)
 data['glut4_fig2B'] = pd.read_csv(source_dir / 'stagsted_93_fig1_glut.txt', sep='\s+', skiprows=range(2))
+data['glut4_fig2B']['Time'] = 15  # 15 min according to simulation data (m8b2_rapi.6-insscan.txt)
 data['p_irs_fig2C'] = pd.read_csv(source_dir / 'cedersund_irs_p_fig1c.dat.txt', sep='\t')
 data['ptp1b_fig2D'] = pd.read_csv(source_dir / 'mahadev_01b_fig2.txt', sep='\t', skiprows=range(1))
 
@@ -34,6 +37,7 @@ simulations['fig3A_right'] = pd.read_csv(source_dir / 'm8b2_rapijfe.6.fasting-t3
 # -- figure 3 data --
 data['gluc_fig3B'] = pd.read_csv(source_dir / 'archuleta_09_fig1.txt', sep='\s+', skiprows=range(3))
 data['sod2_fig3C'] = pd.read_csv(source_dir / 'essers_emboj_04_fig4b.txt', sep='\s+', skiprows=range(2))
+data['sod2_fig3C']['Time'] = 16 * 60  # 16h according to comment in source data
 
 # cleanup
 for df in list(simulations.values()) + list(data.values()):
@@ -285,6 +289,9 @@ observable_table = pd.DataFrame(observables).set_index(petab.OBSERVABLE_ID)
 parameter_table = pd.DataFrame(parameters).set_index(petab.PARAMETER_ID)
 condition_table = pd.DataFrame(conditions).set_index(petab.CONDITION_ID)
 measurement_table = pd.concat(measurements)
+
+sbml_model.setName(model_name)
+sbml_model.setId(model_name)
 
 petab_problem = petab.Problem(
     model=petab.models.sbml_model.SbmlModel(
