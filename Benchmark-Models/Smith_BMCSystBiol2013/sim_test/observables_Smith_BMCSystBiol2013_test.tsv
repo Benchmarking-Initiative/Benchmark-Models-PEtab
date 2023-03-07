@@ -6,7 +6,6 @@ Ins_InR_obs	Ins_InR	1.0
 Ins_InR_P_obs	Ins_InR_P	1.0
 Ins_2_InR_P_obs	Ins_2_InR_P	1.0
 cellsurface_GLUT4_obs	cellsurface_GLUT4	1.0
-NULL_obs	NULL	1.0
 cytoplasm_InR_obs	cytoplasm_InR	1.0
 cytoplasm_Ins_2_InR_P_obs	cytoplasm_Ins_2_InR_P	1.0
 cytoplasm_Ins_InR_P_obs	cytoplasm_Ins_InR_P	1.0
@@ -83,7 +82,6 @@ cytoplasm_Foxo1_tot_obs	cytoplasm_Foxo1_tot	1.0
 nucleus_Foxo1_tot_obs	nucleus_Foxo1_tot	1.0
 dnabound_Foxo1_tot_obs	dnabound_Foxo1_tot	1.0
 Foxo1_all_obs	Foxo1_all	1.0
-null_obs	null	1.0
 degr_Foxo1_obs	degr_Foxo1	1.0
 cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0_obs	cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0	1.0
 cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1_obs	cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1	1.0

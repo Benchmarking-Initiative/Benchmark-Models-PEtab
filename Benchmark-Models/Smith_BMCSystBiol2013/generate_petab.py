@@ -171,7 +171,8 @@ indicator_foxo = {
 pnames = [
     p.id for p in sbml_model.getListOfParameters()
     if p.id not in (
-        'navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm', 't_ins', 'indicator_jnk', 'indicator_foxo',
+        'navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm',
+        't_ins', 'indicator_jnk', 'indicator_foxo',
         'k4', 'kminus4', 'k_irs1_basal_syn'
     )
     and sbml_model.getAssignmentRule(p.id) is None
@@ -267,7 +268,7 @@ observables_test = [
         ,
         petab.NOISE_FORMULA: '1.0',
     } for o in df_sim.columns
-    if o not in pnames + ['dataset', 'Time']
+    if o not in pnames + ['dataset', 'Time', 'NULL', 'null']
 ]
 
 observables = []
