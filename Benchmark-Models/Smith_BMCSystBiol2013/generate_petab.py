@@ -192,7 +192,7 @@ observables_test = [
         petab.OBSERVABLE_ID: f'{o.replace("[", "_").replace(".","_")}_obs',
         petab.OBSERVABLE_FORMULA:
             # convert all species from concentration to amount
-            f'{o} * {sbml_model.getCompartment(sbml_model.getSpecies("Ins").getCompartment()).getSize()}'
+            f'{o} * {sbml_model.getCompartment(sbml_model.getSpecies(o).getCompartment()).getSize()}'
             if sbml_model.getSpecies(o) is not None
             else re.match('Compartments\[([\w]+)\.Volume', o).group(1)
             if re.match('Compartments\[([\w]+)\.Volume', o)
