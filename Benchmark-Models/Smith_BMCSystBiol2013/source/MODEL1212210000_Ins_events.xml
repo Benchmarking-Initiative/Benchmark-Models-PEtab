@@ -22386,7 +22386,7 @@
       </reaction>
     </listOfReactions>
     <listOfEvents>
-      <event metaid="COPASI4" id="event_3" name="event_2">
+      <event metaid="COPASI4" id="event_1" name="event_1">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -22405,7 +22405,7 @@
             <apply>
               <gt/>
               <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-              <cn> t_ins </cn>
+              <ci> t_ins </ci>
             </apply>
           </math>
         </trigger>
