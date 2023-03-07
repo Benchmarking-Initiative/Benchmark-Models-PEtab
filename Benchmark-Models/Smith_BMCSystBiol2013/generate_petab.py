@@ -57,16 +57,23 @@ data_mappings = {
     'sod2_fig3C': 'fig2H',
 }
 
+for simname, simulation in simulations.items():
+    simulation['dataset'] = simname
+df_sim = pd.concat(simulations.values(), ignore_index=True)
+for dataname, dataset in data.items():
+    dataset['dataset'] = dataname
+df_data = pd.concat(data.values(), ignore_index=True)
+
 # extracted via manual inspection, time of insulin stimulation
 t_ins = {
-    'base': np.inf,
+    'base': df_sim.Time.max()*2,
     'fig1': 15,
     'fig2A': 15,
-    'fig2E': np.inf,
-    'fig2F': np.inf,
-    'fig2H': np.inf,
-    'fig3A_left': np.inf,
-    'fig3A_right': np.inf,
+    'fig2E': df_sim.Time.max()*2,
+    'fig2F': df_sim.Time.max()*2,
+    'fig2H': df_sim.Time.max()*2,
+    'fig3A_left': df_sim.Time.max()*2,
+    'fig3A_right': df_sim.Time.max()*2,
 }
 
 # potentially missing datasets:
@@ -117,13 +124,6 @@ pnames = [
     and sbml_model.getAssignmentRule(p.id) is None
 ]
 
-for simname, simulation in simulations.items():
-    simulation['dataset'] = simname
-df_sim = pd.concat(simulations.values(), ignore_index=True)
-for dataname, dataset in data.items():
-    dataset['dataset'] = dataname
-df_data = pd.concat(data.values(), ignore_index=True)
-
 # - k4: 3.33e-4 (all data except 3A) and 3.33e-2 (as in manuscript)
 # - kminus4: 0.003 (all data except 3A) and 0.3 (as in manuscript)
 # - k_irs1_basal_syn: 130 (all data except 3A) and 260 (as in manuscript)
@@ -149,7 +149,6 @@ for p in pnames:
 # k2psp is named kpsp2 in the manuscript
 # ros_perm is 7.8e8 in the paper, but 7.4e7 in the txt
 # k42f is 2.5e-4 in the paper, 5e-5 in the txt
-
 
 # text: following parameters were estimated from data:
 # k1, kminus1 (stagsted, fig1)
