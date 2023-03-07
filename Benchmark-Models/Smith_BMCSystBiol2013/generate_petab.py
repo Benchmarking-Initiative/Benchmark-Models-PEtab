@@ -170,20 +170,40 @@ indicator_foxo = {
 
 pnames = [
     p.id for p in sbml_model.getListOfParameters()
-    if p.id not in ('navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm', 't_ins', 'indicator_jnk', 'indicator_foxo')
+    if p.id not in (
+        'navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm', 't_ins', 'indicator_jnk', 'indicator_foxo',
+        'k4', 'kminus4', 'k_irs1_basal_syn'
+    )
     and sbml_model.getAssignmentRule(p.id) is None
 ]
 
+# iconsistent parameter values:
 # - k4: 3.33e-4 (all data except 3A) and 3.33e-2 (as in manuscript)
 # - kminus4: 0.003 (all data except 3A) and 0.3 (as in manuscript)
 # - k_irs1_basal_syn: 130 (all data except 3A) and 260 (as in manuscript)
+
+k4 = {
+    figname: simulations[figname]['k4'].unique()[0] if 'k4' in simulations[figname] else 0.0
+    for figname in simfiles.keys()
+}
+kminus4 = {
+    figname: simulations[figname]['kminus4'].unique()[0] if 'kminus4' in simulations[figname] else 0.0
+    for figname in simfiles.keys()
+}
+k_irs1_basal_syn = {
+    figname: simulations[figname]['k_irs1_basal_syn'].unique()[0] if 'k_irs1_basal_syn' in simulations[figname] else 0.0
+    for figname in simfiles.keys()
+}
+for par in ['k4', 'kminus4', 'k_irs1_basal_syn']:
+    for figname in simfiles.keys():
+        if par not in simulations[figname].columns:
+            continue
+        assert len(simulations[figname][par].unique()) == 1
+
 p_nominal = {
-    p: df_sim.loc[
-        np.logical_not(df_sim.dataset.isin(['fig3A_left', 'fig3A_right'])),
-        p
-    ].dropna().values[0]
+    p: df_sim[p].dropna().values[0]
     for p in pnames
-    if len(df_sim.loc[np.logical_not(df_sim.dataset.isin(['fig3A_left', 'fig3A_right'])), p].dropna().unique()) == 1
+    if len(df_sim[p].dropna().unique()) == 1
 }
 for p in pnames:
     assert p in p_nominal
@@ -192,7 +212,7 @@ for p in pnames:
 # cytoplasm and cellsurface compartments have correct size (not parameterized though) and appear in equations
 
 # k14, kminus14, kcat82, Km82: fine, not used in the model
-# sc_pip, sc_ros: fine, looks like scaling factors
+# sc_pip, sc_ros: fine, scaling factors
 # IRp: probably refers to IRSp?
 
 # notes:
@@ -394,6 +414,9 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
             't_ins': t_ins[data_mappings[dataset]],
             'indicator_jnk': float(indicator_jnk[data_mappings[dataset]]),
             'indicator_foxo': float(indicator_foxo[data_mappings[dataset]]),
+            'k4': k4[data_mappings[dataset]],
+            'kminus4': kminus4[data_mappings[dataset]],
+            'k_irs1_basal_syn': k_irs1_basal_syn[data_mappings[dataset]],
         })
 
 measurements_test = []
@@ -401,7 +424,7 @@ conditions_test = []
 
 for (dataset, rosconc, sod2, nox, e2f1), df in df_sim.groupby([
     'dataset', 'extracellular_ROS', 'cytoplasm_SOD2', 'NOX_total', 'E2F1'
-]):
+], dropna=False):
     if df.Time.min() < t_ins[dataset]:
         single_ins = len(df.loc[df.Time < t_ins[dataset], 'Ins'].unique()) == 1
         insconc = df.loc[df.Time < t_ins[dataset], 'Ins'].values[0]
@@ -454,8 +477,10 @@ for (dataset, rosconc, sod2, nox, e2f1), df in df_sim.groupby([
                 't_ins': t_ins[dataset],
                 'indicator_jnk': float(indicator_jnk[dataset]),
                 'indicator_foxo': float(indicator_foxo[dataset]),
+                'k4': k4[dataset],
+                'kminus4': kminus4[dataset],
+                'k_irs1_basal_syn': k_irs1_basal_syn[dataset],
             })
-
 observable_table = pd.DataFrame(observables).set_index(petab.OBSERVABLE_ID)
 observable_table_test = pd.DataFrame(observables_test).set_index(petab.OBSERVABLE_ID)
 parameter_table = pd.DataFrame(parameters).set_index(petab.PARAMETER_ID)

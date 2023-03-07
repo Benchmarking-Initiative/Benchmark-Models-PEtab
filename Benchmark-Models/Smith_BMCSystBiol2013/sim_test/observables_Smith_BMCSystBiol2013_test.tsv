@@ -53,6 +53,8 @@ Compartments_extracellular_Volume_obs	extracellular	1.0
 Compartments_cellsurface_Volume_obs	cellsurface	1.0
 Compartments_cytoplasm_Volume_obs	cytoplasm	1.0
 Compartments_nucleus_Volume_obs	nucleus	1.0
+k4_obs	k4	1.0
+kminus4_obs	kminus4	1.0
 navo_obs	navo	1.0
 insconc_obs	insconc	1.0
 k_ros_perm_obs	k_ros_perm	1.0
@@ -60,6 +62,7 @@ membrane_area_obs	membrane_area	1.0
 ros_ext_conc_obs	ros_ext_conc	1.0
 ros_cyto_conc_obs	ros_cyto_conc	1.0
 molec_per_fm_obs	molec_per_fm	1.0
+k_irs1_basal_syn_obs	k_irs1_basal_syn	1.0
 JNK_obs	JNK * 1.65e-11	1.0
 JNK_plus_JNK_P_obs	JNK_plus_JNK_P * 1.65e-11	1.0
 IKK_obs	IKK * 1.65e-11	1.0
