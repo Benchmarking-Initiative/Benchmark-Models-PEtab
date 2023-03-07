@@ -324,6 +324,8 @@ for x in sbml_model.getListOfSpecies():
 
     sel = df_sim.loc[df_sim.Time == 0.0, x.id].dropna()
     assert len(sel.unique()) == 1
+    x.setSubstanceUnits('substance')
+    x.setHasOnlySubstanceUnits(True)
     x.setInitialAmount(sel.values[0])
 
 

@@ -26,139 +26,139 @@
       <compartment id="dnabound" size="1e-13" outside="nucleus"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="NULL" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="true"/>
+      <species id="NULL" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true"/>
       <species id="Ins" compartment="extracellular" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="true"/>
-      <species id="InR" compartment="cellsurface" initialAmount="90000" hasOnlySubstanceUnits="true"/>
-      <species id="Ins_InR" compartment="cellsurface" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="Ins_InR_P" compartment="cellsurface" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="Ins_2_InR_P" compartment="cellsurface" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_InR" compartment="cytoplasm" initialAmount="10000" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Ins_2_InR_P" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Ins_InR_P" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="InR_tot" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="InR_bound" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="InR_active" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="PTP1B" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="IRS1_TyrP_PI3K" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="PI345P3" compartment="cytoplasm" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="PIP2" compartment="cytoplasm" initialAmount="200000" hasOnlySubstanceUnits="true"/>
-      <species id="PI345P3_mol" compartment="cytoplasm" initialAmount="1000000" hasOnlySubstanceUnits="true"/>
-      <species id="PIP2_mol" compartment="cytoplasm" initialAmount="200000000" hasOnlySubstanceUnits="true"/>
-      <species id="Akt" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="Akt_P2" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="PKC" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="PKC_P" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="AS160" compartment="cytoplasm" initialAmount="20000" hasOnlySubstanceUnits="true"/>
-      <species id="AS160_P" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_GLUT4" compartment="cytoplasm" initialAmount="96000" hasOnlySubstanceUnits="true"/>
-      <species id="cellsurface_GLUT4" compartment="cellsurface" initialAmount="4000" hasOnlySubstanceUnits="true"/>
-      <species id="PTEN" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="PP2A" compartment="cytoplasm" initialAmount="500000" hasOnlySubstanceUnits="true"/>
+      <species id="InR" compartment="cellsurface" initialAmount="90000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Ins_InR" compartment="cellsurface" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Ins_InR_P" compartment="cellsurface" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Ins_2_InR_P" compartment="cellsurface" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_InR" compartment="cytoplasm" initialAmount="10000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Ins_2_InR_P" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Ins_InR_P" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="InR_tot" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="InR_bound" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="InR_active" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PTP1B" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="IRS1_TyrP_PI3K" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PI345P3" compartment="cytoplasm" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PIP2" compartment="cytoplasm" initialAmount="200000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PI345P3_mol" compartment="cytoplasm" initialAmount="1000000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PIP2_mol" compartment="cytoplasm" initialAmount="200000000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Akt" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Akt_P2" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PKC" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PKC_P" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="AS160" compartment="cytoplasm" initialAmount="20000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="AS160_P" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_GLUT4" compartment="cytoplasm" initialAmount="96000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cellsurface_GLUT4" compartment="cellsurface" initialAmount="4000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PTEN" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PP2A" compartment="cytoplasm" initialAmount="500000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
       <species id="extracellular_ROS" compartment="extracellular" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="true"/>
-      <species id="PTP1B_ox" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="PTP1B_plus_PTP1B_ox" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="PTEN_ox" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="PTEN_plus_PTEN_ox" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="ROS" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="GSH" compartment="cytoplasm" initialAmount="100" hasOnlySubstanceUnits="true"/>
-      <species id="GSSG" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_SOD2" compartment="cytoplasm" initialAmount="41700" hasOnlySubstanceUnits="true"/>
-      <species id="NOX_inact" compartment="cytoplasm" initialAmount="100" hasOnlySubstanceUnits="true"/>
-      <species id="NOX" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="NOX_deact" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="NOX_total" compartment="cytoplasm" initialAmount="100" hasOnlySubstanceUnits="true"/>
-      <species id="Mt" compartment="cytoplasm" initialAmount="50" hasOnlySubstanceUnits="true" boundaryCondition="true"/>
-      <species id="IRS1" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="IRS1_TyrP" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="IRS1_PolySerP" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="IRS1_TyrP_PolySerP" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="IRS_total" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="PI3K" compartment="cytoplasm" initialAmount="10000" hasOnlySubstanceUnits="true"/>
-      <species id="JNK_P" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="IKK_P" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="JNK" compartment="cytoplasm" initialAmount="16000" hasOnlySubstanceUnits="true"/>
-      <species id="JNK_plus_JNK_P" compartment="cytoplasm" initialAmount="16000" hasOnlySubstanceUnits="true"/>
-      <species id="IKK" compartment="cytoplasm" initialAmount="2000" hasOnlySubstanceUnits="true"/>
-      <species id="IKK_plus_IKK_P" compartment="cytoplasm" initialAmount="2000" hasOnlySubstanceUnits="true"/>
-      <species id="DUSP" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="DUSP_ox" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="DUSP_plus_DUSP_ox" compartment="cytoplasm" initialAmount="100000" hasOnlySubstanceUnits="true"/>
-      <species id="null" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true" boundaryCondition="true"/>
-      <species id="degr_Foxo1" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0" compartment="cytoplasm" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1" compartment="dnabound" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="Foxo1_Pa0_tot" compartment="extracellular" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="Foxo1_Pa1_tot" compartment="extracellular" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="Foxo1_Pd0_tot" compartment="extracellular" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="Foxo1_Pd1_tot" compartment="extracellular" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="Foxo1_Pe0_tot" compartment="extracellular" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="Foxo1_Pe1_tot" compartment="extracellular" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="Foxo1_pUb0_tot" compartment="extracellular" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="Foxo1_pUb1_tot" compartment="extracellular" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_Foxo1_tot" compartment="extracellular" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_Foxo1_tot" compartment="extracellular" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="dnabound_Foxo1_tot" compartment="extracellular" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="Foxo1_all" compartment="extracellular" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_RNA_InR" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_RNA_InR" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="nucleus_RNA_SOD2" compartment="nucleus" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="cytoplasm_RNA_SOD2" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="E2F1" compartment="cytoplasm" initialAmount="300" hasOnlySubstanceUnits="true"/>
-      <species id="SGK" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="CDK2" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="AMPK" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="CBPP300" compartment="cytoplasm" initialAmount="10" hasOnlySubstanceUnits="true"/>
-      <species id="SIRT1" compartment="cytoplasm" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="E3" compartment="cytoplasm" initialAmount="0" hasOnlySubstanceUnits="true"/>
-      <species id="USP7" compartment="cytoplasm" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="SCF" compartment="cytoplasm" initialAmount="1000" hasOnlySubstanceUnits="true"/>
-      <species id="Proteasome" compartment="cytoplasm" initialAmount="1000" hasOnlySubstanceUnits="true"/>
+      <species id="PTP1B_ox" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PTP1B_plus_PTP1B_ox" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PTEN_ox" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PTEN_plus_PTEN_ox" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="ROS" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="GSH" compartment="cytoplasm" initialAmount="100" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="GSSG" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_SOD2" compartment="cytoplasm" initialAmount="41700" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="NOX_inact" compartment="cytoplasm" initialAmount="100" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="NOX" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="NOX_deact" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="NOX_total" compartment="cytoplasm" initialAmount="100" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Mt" compartment="cytoplasm" initialAmount="50" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true"/>
+      <species id="IRS1" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="IRS1_TyrP" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="IRS1_PolySerP" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="IRS1_TyrP_PolySerP" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="IRS_total" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="PI3K" compartment="cytoplasm" initialAmount="10000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="JNK_P" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="IKK_P" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="JNK" compartment="cytoplasm" initialAmount="16000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="JNK_plus_JNK_P" compartment="cytoplasm" initialAmount="16000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="IKK" compartment="cytoplasm" initialAmount="2000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="IKK_plus_IKK_P" compartment="cytoplasm" initialAmount="2000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="DUSP" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="DUSP_ox" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="DUSP_plus_DUSP_ox" compartment="cytoplasm" initialAmount="100000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="null" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true" boundaryCondition="true"/>
+      <species id="degr_Foxo1" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0" compartment="cytoplasm" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1" compartment="dnabound" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Foxo1_Pa0_tot" compartment="extracellular" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Foxo1_Pa1_tot" compartment="extracellular" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Foxo1_Pd0_tot" compartment="extracellular" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Foxo1_Pd1_tot" compartment="extracellular" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Foxo1_Pe0_tot" compartment="extracellular" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Foxo1_Pe1_tot" compartment="extracellular" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Foxo1_pUb0_tot" compartment="extracellular" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Foxo1_pUb1_tot" compartment="extracellular" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_Foxo1_tot" compartment="extracellular" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_Foxo1_tot" compartment="extracellular" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="dnabound_Foxo1_tot" compartment="extracellular" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Foxo1_all" compartment="extracellular" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_RNA_InR" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_RNA_InR" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="nucleus_RNA_SOD2" compartment="nucleus" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="cytoplasm_RNA_SOD2" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="E2F1" compartment="cytoplasm" initialAmount="300" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="SGK" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="CDK2" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="AMPK" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="CBPP300" compartment="cytoplasm" initialAmount="10" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="SIRT1" compartment="cytoplasm" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="E3" compartment="cytoplasm" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="USP7" compartment="cytoplasm" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="SCF" compartment="cytoplasm" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
+      <species id="Proteasome" compartment="cytoplasm" initialAmount="1000" substanceUnits="substance" hasOnlySubstanceUnits="true"/>
     </listOfSpecies>
     <listOfParameters>
       <parameter id="k1" value="2e-05"/>
