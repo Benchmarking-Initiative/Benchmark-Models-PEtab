@@ -22403,7 +22403,7 @@
         <trigger>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ge/>
+              <gt/>
               <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
               <cn> t_ins </cn>
             </apply>
