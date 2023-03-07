@@ -90,6 +90,8 @@ sbml_reader = sbml.SBMLReader()
 sbml_document = sbml_reader.readSBMLFromFile(str(model_file))
 sbml_model = sbml_document.getModel()
 
+sbml_document.setLevelAndVersion(2, 4)
+
 sbml_model.setName(model_name)
 sbml_model.setId(model_name)
 
@@ -325,8 +327,6 @@ for x in sbml_model.getListOfSpecies():
 
     sel = df_sim.loc[df_sim.Time == 0.0, x.id].dropna()
     assert len(sel.unique()) == 1
-    x.setSubstanceUnits('substance')
-    x.setHasOnlySubstanceUnits(True)
     x.setInitialAmount(sel.values[0])
 
 
