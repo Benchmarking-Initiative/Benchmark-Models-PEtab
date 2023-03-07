@@ -83,21 +83,38 @@ t_ins = {
 # omitted as analysis was to check for stable cycles under physiological conditions
 # - Frayn 1996
 
-# model, use BIOMODELS rather than model from supplementary material as it features events for Insulin administration
-# the model we provide here is a modified version of the curated model "MODEL1212210000_eventsForFigure3A.xml"
-# from BIOMODELS. List of events was pruned such that there is only a single event that sets Insulin to 0 after 15 min.
-
-model_file = source_dir / 'MODEL1212210000_Ins_events.xml'
+# use BIOMODELS model version instead of original model version as it's a bit more cleaned up and already went through
+# one round of curation
+model_file = source_dir / 'BIOMD0000000474_url.xml'
 import libsbml as sbml
 # read model using libsbml
 sbml_reader = sbml.SBMLReader()
 sbml_document = sbml_reader.readSBMLFromFile(str(model_file))
 sbml_model = sbml_document.getModel()
 
+sbml_model.setName(model_name)
+sbml_model.setId(model_name)
+
+# add event to end insulin stimulation
+tt = sbml_model.createParameter()
+tt.setId('t_ins')
+tt.setValue(15)
+tt.setConstant(True)
+event = sbml_model.createEvent()
+event.setId('insulin_stimulation')
+trigger = event.createTrigger()
+trigger.setMath(sbml.parseL3Formula('time >= t_ins'))
+event.setTrigger(trigger)
+a = event.createEventAssignment()
+a.setVariable('Ins')
+a.setMath(sbml.parseL3Formula('0.0'))
+event.addEventAssignment(a)
+sbml_model.addEvent(event)
+
 pnames = [
-    p.name for p in sbml_model.getListOfParameters()
-    if p.name not in ('navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm', 't_ins')
-    and sbml_model.getAssignmentRule(p.name) is None
+    p.id for p in sbml_model.getListOfParameters()
+    if p.id not in ('navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm', 't_ins')
+    and sbml_model.getAssignmentRule(p.id) is None
 ]
 
 for simname, simulation in simulations.items():
@@ -231,15 +248,15 @@ for scale_factor, assignment_variable, data_variable, figure in obs_def:
 conditions = []
 measurements = []
 
-# sanity check to ensure that initialization is already provided in model and we don't need to do anything else
+# set initializations
 for x in sbml_model.getListOfSpecies():
-    assert x.name in df_sim.columns
+    assert x.id in df_sim.columns
 
     # set via conditions
-    if x.name in ['Ins']:
+    if x.id in ['Ins']:
         continue
 
-    sel = df_sim.loc[df_sim.Time == 0.0, x.name].dropna()
+    sel = df_sim.loc[df_sim.Time == 0.0, x.id].dropna()
     assert len(sel.unique()) == 1
     assert x.getInitialAmount() == sel.values[0]
 
@@ -407,9 +424,6 @@ for dataset, df in df_data.groupby(['dataset']):
         parameter_table.loc[
             sc, petab.NOMINAL_VALUE
         ] = vol / sim[sim_id].max() * df[data_id].max()
-
-sbml_model.setName(model_name)
-sbml_model.setId(model_name)
 
 petab_problem = petab.Problem(
     model=petab.models.sbml_model.SbmlModel(
