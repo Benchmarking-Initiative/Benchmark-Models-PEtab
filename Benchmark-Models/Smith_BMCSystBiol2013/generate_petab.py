@@ -463,7 +463,7 @@ petab_problem.to_files(
     relative_paths=True,
 )
 
-petab_problem.to_files(
+petab_problem_test.to_files(
     model_file=f'model_{model_name}.xml',
     observable_file=f'observables_{model_name}_test.tsv',
     parameter_file=f'parameters_{model_name}.tsv',
