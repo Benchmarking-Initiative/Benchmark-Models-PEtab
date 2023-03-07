@@ -439,6 +439,9 @@ for (dataset, rosconc, sod2, nox, e2f1), df in df_sim.groupby([
     else:
         conditions_ins = df.groupby('Ins')
 
+    if np.isnan(e2f1):
+        e2f1 = sbml_model.getSpecies('E2F1').getInitialAmount()
+
     for insconc, df_ins in conditions_ins:
         m = df_ins.melt(
             id_vars=['Time'],
