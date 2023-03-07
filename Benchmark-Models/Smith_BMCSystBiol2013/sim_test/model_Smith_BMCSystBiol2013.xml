@@ -12716,6 +12716,8 @@ Dedication</a>
       <parameter metaid="_3b00a3bb_628b_4c26_81dc_7bdbdfe6ae9d" id="by_jnk_phos_factor" name="by_jnk_phos_factor" value="2" constant="true"/>
       <parameter metaid="_14448c48_3e9b_433b_9b43_f027f93d9ea2" id="by_ikk_phos_factor" name="by_ikk_phos_factor" value="3" constant="true"/>
       <parameter id="t_ins" value="15" constant="true"/>
+      <parameter id="indicator_jnk" value="0" constant="true"/>
+      <parameter id="indicator_foxo" value="0" constant="true"/>
     </listOfParameters>
     <listOfRules>
       <assignmentRule metaid="e16a3437_9e35_4ae0_a89d_75207e80799f" variable="JNK_plus_JNK_P">
@@ -15865,6 +15867,7 @@ Dedication</a>
                 <ci> cytoplasm </ci>
                 <ci> k42f </ci>
               </apply>
+              <ci> indicator_jnk </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -15893,6 +15896,7 @@ Dedication</a>
                 <ci> cytoplasm </ci>
                 <ci> k42r </ci>
               </apply>
+              <ci> indicator_jnk </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -15921,6 +15925,7 @@ Dedication</a>
                 <ci> cytoplasm </ci>
                 <ci> k43f </ci>
               </apply>
+              <ci> indicator_jnk </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -15949,6 +15954,7 @@ Dedication</a>
                 <ci> cytoplasm </ci>
                 <ci> k43r </ci>
               </apply>
+              <ci> indicator_jnk </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -15978,6 +15984,7 @@ Dedication</a>
                 <ci> cytoplasm </ci>
                 <ci> k32f </ci>
               </apply>
+              <ci> indicator_jnk </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -16007,6 +16014,7 @@ Dedication</a>
                 <ci> cytoplasm </ci>
                 <ci> k32r </ci>
               </apply>
+              <ci> indicator_jnk </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -16033,6 +16041,7 @@ Dedication</a>
                 <ci> cytoplasm </ci>
                 <ci> ksynth </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16053,10 +16062,14 @@ Dedication</a>
         <kineticLaw metaid="_16fe29ec_d7b1_480e_b0c7_5070ceff0b1e">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_62 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_62 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16077,10 +16090,14 @@ Dedication</a>
         <kineticLaw metaid="_20bb1030_003b_47cd_85d8_1ce86a88bd07">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_63 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_63 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16101,10 +16118,14 @@ Dedication</a>
         <kineticLaw metaid="_61890195_2186_4b80_b6e4_d2790cbd7785">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_64 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_64 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16125,10 +16146,14 @@ Dedication</a>
         <kineticLaw metaid="_9e5dcd9f_8562_4abe_bbdc_f35cbd886148">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_65 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_65 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16149,10 +16174,14 @@ Dedication</a>
         <kineticLaw metaid="aefda4eb_4cfc_448f_bb95_74f66dc40562">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_66 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_66 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16173,10 +16202,14 @@ Dedication</a>
         <kineticLaw metaid="_30b7473a_550e_4095_a764_5a70d0c6cffd">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_67 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_67 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16197,10 +16230,14 @@ Dedication</a>
         <kineticLaw metaid="_2247d232_ea1c_4604_bc2e_62166872a40f">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_68 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_68 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16221,10 +16258,14 @@ Dedication</a>
         <kineticLaw metaid="_936e34af_2f02_4818_a468_53e52e2e4661">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_69 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_69 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16245,10 +16286,14 @@ Dedication</a>
         <kineticLaw metaid="_25794b94_1dd0_4902_bdf2_d3a14dd6e8f0">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_70 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_70 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16269,10 +16314,14 @@ Dedication</a>
         <kineticLaw metaid="c67451f3_64fe_42c4_afb4_746467ccace2">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_71 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_71 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16293,10 +16342,14 @@ Dedication</a>
         <kineticLaw metaid="_1d6d37b4_9659_40fa_9654_bcc4258d70bf">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_72 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_72 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16317,10 +16370,14 @@ Dedication</a>
         <kineticLaw metaid="_5d5408e4_fbfa_4ff6_bcbb_1809ecb6ce65">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_73 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_73 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16341,10 +16398,14 @@ Dedication</a>
         <kineticLaw metaid="b9c3e6b8_05bb_48e2_a83f_93db146ddc40">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_74 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_74 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16365,10 +16426,14 @@ Dedication</a>
         <kineticLaw metaid="c13f2eee_26e5_4f94_8dc2_8fa6b4a34297">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_75 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_75 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16389,10 +16454,14 @@ Dedication</a>
         <kineticLaw metaid="_5d9f56b6_0151_465d_bf8b_ad79afa97c54">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_76 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_76 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16413,10 +16482,14 @@ Dedication</a>
         <kineticLaw metaid="_7e8f6acd_a8a4_4a2a_8eaf_ed16c3972f9a">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_77 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_77 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16437,10 +16510,14 @@ Dedication</a>
         <kineticLaw metaid="_3973f463_75c2_42c0_bd42_d6116c00d32d">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_78 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_78 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16461,10 +16538,14 @@ Dedication</a>
         <kineticLaw metaid="_1d0e499d_84f8_404b_bdf7_426f694168cd">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_79 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_79 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16485,10 +16566,14 @@ Dedication</a>
         <kineticLaw metaid="_712f3d17_5790_41ea_ae92_1967156dd2d2">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_80 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_80 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16509,10 +16594,14 @@ Dedication</a>
         <kineticLaw metaid="adf1bd92_77db_4b0f_af12_7d2c2e294d65">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_81 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_81 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16533,10 +16622,14 @@ Dedication</a>
         <kineticLaw metaid="d705161c_9c77_443c_9765_6ae370ec0e18">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_82 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_82 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16557,10 +16650,14 @@ Dedication</a>
         <kineticLaw metaid="_09e01855_1712_43f0_8e85_6c38c4cb8341">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_83 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_83 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16581,10 +16678,14 @@ Dedication</a>
         <kineticLaw metaid="fdde6f53_bebc_4d08_92a3_bb4ddc4dc8bb">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_84 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_84 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16605,10 +16706,14 @@ Dedication</a>
         <kineticLaw metaid="_797e44ca_ecbb_4eeb_b076_baab7bd4f69c">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_85 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_85 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16629,10 +16734,14 @@ Dedication</a>
         <kineticLaw metaid="afe469ec_3e91_4492_8ba4_e278b3ccc353">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_86 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_86 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16653,10 +16762,14 @@ Dedication</a>
         <kineticLaw metaid="_4b393226_2a62_4be0_a1cf_fc5d5e2065b4">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_87 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_87 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16677,10 +16790,14 @@ Dedication</a>
         <kineticLaw metaid="_2248ff17_ea7b_4ce7_88e4_5323c4257839">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_88 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_88 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16701,10 +16818,14 @@ Dedication</a>
         <kineticLaw metaid="a205329d_4ebe_41b5_9130_667c859b124d">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_89 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_89 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16725,10 +16846,14 @@ Dedication</a>
         <kineticLaw metaid="_60cab4f3_f3aa_44fa_a9c0_c214e7a4f5c8">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_90 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_90 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16749,10 +16874,14 @@ Dedication</a>
         <kineticLaw metaid="_1e7602c9_2205_44bd_a0ef_18355e0d8a8d">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_91 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_91 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16773,10 +16902,14 @@ Dedication</a>
         <kineticLaw metaid="_0e54faab_047c_4a18_a731_7ed2267fe032">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_92 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_92 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16797,10 +16930,14 @@ Dedication</a>
         <kineticLaw metaid="_5d4e66ab_8574_4318_9ad0_05942544b8dc">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_93 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_93 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16821,10 +16958,14 @@ Dedication</a>
         <kineticLaw metaid="_8073a68c_481f_43cf_9912_42b1dd2b3da6">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_94 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_94 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16845,10 +16986,14 @@ Dedication</a>
         <kineticLaw metaid="_49bd64ef_1747_4cad_8a77_59c18e9b62e7">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_95 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_95 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16869,10 +17014,14 @@ Dedication</a>
         <kineticLaw metaid="a588673f_a4ad_42e7_b454_6592452ca083">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_96 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_96 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16893,10 +17042,14 @@ Dedication</a>
         <kineticLaw metaid="_74e7aa94_c725_466b_9e1d_6888be7e96ef">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_97 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_97 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16917,10 +17070,14 @@ Dedication</a>
         <kineticLaw metaid="afd84b5f_dd50_4a7c_acbf_c57c3e95663a">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_98 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_98 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16941,10 +17098,14 @@ Dedication</a>
         <kineticLaw metaid="f8b30738_70a3_44c8_a3d6_0f94e5984322">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_99 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_99 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16965,10 +17126,14 @@ Dedication</a>
         <kineticLaw metaid="_2e6da982_a259_4b38_ba68_e0fdc868daf8">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_100 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_100 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -16989,10 +17154,14 @@ Dedication</a>
         <kineticLaw metaid="_55645c23_a5c7_4f0d_8883_1f18f98a4402">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_101 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_101 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17013,10 +17182,14 @@ Dedication</a>
         <kineticLaw metaid="_955afceb_ce12_46eb_848a_35aff10a5879">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_102 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_102 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17037,10 +17210,14 @@ Dedication</a>
         <kineticLaw metaid="dbdbc42e_bd09_45ef_ac95_f4432424b544">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_103 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_103 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17061,10 +17238,14 @@ Dedication</a>
         <kineticLaw metaid="_3b4def1c_4582_4230_9087_db924b285550">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_104 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_104 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17085,10 +17266,14 @@ Dedication</a>
         <kineticLaw metaid="_6d9a8e41_22b2_48d0_897e_bd5501afc79b">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_105 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_105 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17109,10 +17294,14 @@ Dedication</a>
         <kineticLaw metaid="_481f4a41_438a_42ad_b1be_c7cfb09382a0">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_106 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_106 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17133,10 +17322,14 @@ Dedication</a>
         <kineticLaw metaid="_071826b6_df91_45dc_8452_4c1e67a8c8b0">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_107 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_107 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17157,10 +17350,14 @@ Dedication</a>
         <kineticLaw metaid="_52827ddf_69c6_4050_805c_2a0ac79719d7">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_108 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_108 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17181,10 +17378,14 @@ Dedication</a>
         <kineticLaw metaid="a2b2a88a_5d22_4b13_ba92_f48a8435bf2f">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_109 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_109 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17205,10 +17406,14 @@ Dedication</a>
         <kineticLaw metaid="fd8505d2_8e35_4bc7_9a41_8b43bfbdca8b">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_110 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_110 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17229,10 +17434,14 @@ Dedication</a>
         <kineticLaw metaid="cd680a69_d9b3_4f2b_8cdc_c438cda6d04c">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_111 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_111 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17253,10 +17462,14 @@ Dedication</a>
         <kineticLaw metaid="_245c2a4f_bb79_4f2e_91d8_a312d6f32760">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_112 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_112 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17277,10 +17490,14 @@ Dedication</a>
         <kineticLaw metaid="_41119012_9c62_4057_b3b0_ee6200342d49">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_113 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_113 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17301,10 +17518,14 @@ Dedication</a>
         <kineticLaw metaid="cadf47a3_a493_40f0_82c8_2793f616be7e">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_114 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_114 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17325,10 +17546,14 @@ Dedication</a>
         <kineticLaw metaid="_1b35d54f_af59_4705_889b_789d4eee44f8">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_115 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_115 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17349,10 +17574,14 @@ Dedication</a>
         <kineticLaw metaid="_3755d34e_01ce_4551_a8dd_472e762cd61b">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_116 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_116 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17373,10 +17602,14 @@ Dedication</a>
         <kineticLaw metaid="fc4d496f_b97d_4eae_b18b_1ed1e981f76e">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_117 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_117 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17397,10 +17630,14 @@ Dedication</a>
         <kineticLaw metaid="_02d3f00b_cb73_41d7_bd95_65b4686922de">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_118 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_118 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17421,10 +17658,14 @@ Dedication</a>
         <kineticLaw metaid="f0ec2229_80b3_4f17_8dfb_41fdc1f7163f">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_119 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_119 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17445,10 +17686,14 @@ Dedication</a>
         <kineticLaw metaid="_43ab94d6_1048_4a6c_9abb_829c24c43acb">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_120 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
+              <times/>
+              <apply>
+                <ci> function_120 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17469,10 +17714,14 @@ Dedication</a>
         <kineticLaw metaid="_23810872_090e_4fe5_83d5_37d859e7e8aa">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_121 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_121 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17493,10 +17742,14 @@ Dedication</a>
         <kineticLaw metaid="f46068a4_2336_49dc_94d8_6d341261b8f6">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_122 </ci>
-              <ci> cytoplasm </ci>
-              <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_122 </ci>
+                <ci> cytoplasm </ci>
+                <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17517,10 +17770,14 @@ Dedication</a>
         <kineticLaw metaid="c181cb0e_67db_4937_8ad5_97c2c8f662fd">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_123 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_123 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17541,10 +17798,14 @@ Dedication</a>
         <kineticLaw metaid="_21771a6f_ab01_45be_9d99_423008b9597d">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_124 </ci>
-              <ci> ktr </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
+              <times/>
+              <apply>
+                <ci> function_124 </ci>
+                <ci> ktr </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17565,10 +17826,14 @@ Dedication</a>
         <kineticLaw metaid="ce003f11_4edf_485a_830f_cc08b6ce61e5">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_125 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <times/>
+              <apply>
+                <ci> function_125 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
+                <ci> ktr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17600,6 +17865,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17632,6 +17898,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17664,6 +17931,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17695,6 +17963,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17727,6 +17996,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17759,6 +18029,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17790,6 +18061,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17822,6 +18094,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17854,6 +18127,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17885,6 +18159,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17917,6 +18192,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17949,6 +18225,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -17980,6 +18257,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18012,6 +18290,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18044,6 +18323,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18075,6 +18355,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18107,6 +18388,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18139,6 +18421,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18170,6 +18453,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18202,6 +18486,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18234,6 +18519,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18265,6 +18551,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18297,6 +18584,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18329,6 +18617,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18360,6 +18649,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18392,6 +18682,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18424,6 +18715,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18455,6 +18747,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18487,6 +18780,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18519,6 +18813,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18550,6 +18845,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18582,6 +18878,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18614,6 +18911,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18645,6 +18943,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18677,6 +18976,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18709,6 +19009,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18740,6 +19041,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18772,6 +19074,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18804,6 +19107,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18835,6 +19139,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18867,6 +19172,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18899,6 +19205,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18930,6 +19237,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18962,6 +19270,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -18994,6 +19303,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19025,6 +19335,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19057,6 +19368,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19089,6 +19401,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19120,6 +19433,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19152,6 +19466,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19184,6 +19499,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19215,6 +19531,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19247,6 +19564,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19279,6 +19597,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19310,6 +19629,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19342,6 +19662,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19374,6 +19695,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19405,6 +19727,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19437,6 +19760,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19469,6 +19793,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19500,6 +19825,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19532,6 +19858,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19564,6 +19891,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19595,6 +19923,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19627,6 +19956,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19659,6 +19989,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19690,6 +20021,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19722,6 +20054,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19754,6 +20087,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19785,6 +20119,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19817,6 +20152,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19849,6 +20185,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19881,6 +20218,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19914,6 +20252,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19947,6 +20286,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -19979,6 +20319,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20012,6 +20353,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20045,6 +20387,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20077,6 +20420,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20110,6 +20454,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20143,6 +20488,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20175,6 +20521,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20208,6 +20555,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20241,6 +20589,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20272,6 +20621,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20304,6 +20654,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20336,6 +20687,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20367,6 +20719,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20399,6 +20752,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20431,6 +20785,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20462,6 +20817,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20494,6 +20850,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20526,6 +20883,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20557,6 +20915,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20589,6 +20948,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20621,6 +20981,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20653,6 +21014,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20686,6 +21048,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20719,6 +21082,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20751,6 +21115,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20784,6 +21149,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20817,6 +21183,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20849,6 +21216,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20882,6 +21250,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20915,6 +21284,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20947,6 +21317,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -20980,6 +21351,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21013,6 +21385,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21044,6 +21417,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21076,6 +21450,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21108,6 +21483,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21139,6 +21515,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21171,6 +21548,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21203,6 +21581,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21234,6 +21613,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21266,6 +21646,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21298,6 +21679,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21329,6 +21711,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21361,6 +21744,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21393,6 +21777,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21425,6 +21810,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21458,6 +21844,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21491,6 +21878,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21523,6 +21911,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21556,6 +21945,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21589,6 +21979,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21620,6 +22011,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21652,6 +22044,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21684,6 +22077,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21715,6 +22109,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21747,6 +22142,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21779,6 +22175,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21811,6 +22208,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21844,6 +22242,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21877,6 +22276,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21909,6 +22309,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21942,6 +22343,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -21975,6 +22377,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22006,6 +22409,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22038,6 +22442,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22070,6 +22475,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22101,6 +22507,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22133,6 +22540,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22165,6 +22573,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22197,6 +22606,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22230,6 +22640,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22263,6 +22674,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22295,6 +22707,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22328,6 +22741,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22361,6 +22775,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22392,6 +22807,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22424,6 +22840,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22456,6 +22873,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22487,6 +22905,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22519,6 +22938,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22551,6 +22971,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22583,6 +23004,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22616,6 +23038,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22649,6 +23072,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22681,6 +23105,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22714,6 +23139,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22747,6 +23173,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
                 <ci> kkin </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22778,6 +23205,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22810,6 +23238,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22842,6 +23271,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22873,6 +23303,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22905,6 +23336,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22937,6 +23369,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
                 <ci> kdephos </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -22968,6 +23401,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23000,6 +23434,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23032,6 +23467,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23063,6 +23499,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23095,6 +23532,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23127,6 +23565,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23158,6 +23597,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23190,6 +23630,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23222,6 +23663,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23253,6 +23695,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23285,6 +23728,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23317,6 +23761,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23348,6 +23793,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23380,6 +23826,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23412,6 +23859,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23443,6 +23891,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23475,6 +23924,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23507,6 +23957,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23538,6 +23989,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23570,6 +24022,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23602,6 +24055,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23633,6 +24087,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23665,6 +24120,7 @@ Dedication</a>
                 <ci> nucleus </ci>
                 <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23697,6 +24153,7 @@ Dedication</a>
                 <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
                 <ci> kub </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23728,6 +24185,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
                 <ci> kdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23759,6 +24217,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
                 <ci> kdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23790,6 +24249,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
                 <ci> kdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23821,6 +24281,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
                 <ci> kdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23852,6 +24313,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
                 <ci> kdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23883,6 +24345,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
                 <ci> kdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23914,6 +24377,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
                 <ci> kdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23945,6 +24409,7 @@ Dedication</a>
                 <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
                 <ci> kdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23966,10 +24431,14 @@ Dedication</a>
         <kineticLaw metaid="bef52d04_b01a_48f4_adb8_286bc1263631">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_326 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_326 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -23991,10 +24460,14 @@ Dedication</a>
         <kineticLaw metaid="_577ca263_4d07_4b78_be87_076648e6db28">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_327 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_327 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24016,10 +24489,14 @@ Dedication</a>
         <kineticLaw metaid="_2028cae8_08bd_4d4d_a9a3_720899addf4f">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_328 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_328 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24041,10 +24518,14 @@ Dedication</a>
         <kineticLaw metaid="_02390d0f_98dd_49e1_8885_b91a58d2d664">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_329 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_329 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24066,10 +24547,14 @@ Dedication</a>
         <kineticLaw metaid="a24cb448_e66e_4fb4_972c_555e21833d62">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_330 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_330 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24091,10 +24576,14 @@ Dedication</a>
         <kineticLaw metaid="_55bf858f_d104_4f98_a87b_1efe94776a4e">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_331 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_331 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24116,10 +24605,14 @@ Dedication</a>
         <kineticLaw metaid="cdc0936d_f530_425d_aeb6_88759b2bac5f">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_332 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_332 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24141,10 +24634,14 @@ Dedication</a>
         <kineticLaw metaid="fe969d08_0dd7_4719_a5cc_6a5bc3ed0b4b">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_333 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_333 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24166,10 +24663,14 @@ Dedication</a>
         <kineticLaw metaid="_7c22aa7d_2439_4fc5_8856_0462ab1d2c4c">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_334 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_334 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24191,10 +24692,14 @@ Dedication</a>
         <kineticLaw metaid="_05ed6007_9515_4168_840a_a4a439c9667f">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_335 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_335 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24216,10 +24721,14 @@ Dedication</a>
         <kineticLaw metaid="_2d59ec6a_c515_431d_ab23_5f04b11e1805">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_336 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_336 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24241,10 +24750,14 @@ Dedication</a>
         <kineticLaw metaid="_676e6f28_e150_4024_8026_43d6cb1eb318">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_337 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_337 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24266,10 +24779,14 @@ Dedication</a>
         <kineticLaw metaid="_35306a84_af39_4613_914c_9600435f30b0">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_338 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_338 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24291,10 +24808,14 @@ Dedication</a>
         <kineticLaw metaid="_7127cfc7_a622_4a14_9b4a_263626a26b32">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_339 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_339 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24316,10 +24837,14 @@ Dedication</a>
         <kineticLaw metaid="_2ec4bf56_9cd8_4114_a617_84276dbc140b">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_340 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_340 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24341,10 +24866,14 @@ Dedication</a>
         <kineticLaw metaid="_9d5f8694_8a3a_4319_964a_f7f1b2f1fc1f">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_341 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_341 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24366,10 +24895,14 @@ Dedication</a>
         <kineticLaw metaid="_8bbd8b9d_f7b3_4c90_9fb5_ba08ec0f7ebf">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_342 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_342 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24391,10 +24924,14 @@ Dedication</a>
         <kineticLaw metaid="_8f00ce96_64ad_4860_8d0d_b2e9618d91b9">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_343 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_343 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24416,10 +24953,14 @@ Dedication</a>
         <kineticLaw metaid="_5bfb5e59_5b43_4511_bccc_a9c0919c9eb6">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_344 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_344 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24441,10 +24982,14 @@ Dedication</a>
         <kineticLaw metaid="d813cdde_d927_4dc6_9755_719580247cc5">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_345 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_345 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24466,10 +25011,14 @@ Dedication</a>
         <kineticLaw metaid="c3433ce3_463d_4e89_bccf_df2e288f267d">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_346 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_346 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24491,10 +25040,14 @@ Dedication</a>
         <kineticLaw metaid="_7e3adef0_97f4_4114_bd4d_87cafdf77466">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_347 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_347 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24516,10 +25069,14 @@ Dedication</a>
         <kineticLaw metaid="_3b9c8c8b_3e7c_4883_b999_4893022ba8ce">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_348 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_348 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24541,10 +25098,14 @@ Dedication</a>
         <kineticLaw metaid="_269284d2_6366_4d38_84d0_39006c094623">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_349 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_349 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24566,10 +25127,14 @@ Dedication</a>
         <kineticLaw metaid="_8f2205ff_da62_4c30_bb49_95d023fcfefe">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_350 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_350 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24591,10 +25156,14 @@ Dedication</a>
         <kineticLaw metaid="_890f72f9_ca9c_4d20_bbee_7439071ad2ff">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_351 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_351 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24616,10 +25185,14 @@ Dedication</a>
         <kineticLaw metaid="ead9ea3e_9eb8_4b1f_b382_5d88b0d42b40">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_352 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_352 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24641,10 +25214,14 @@ Dedication</a>
         <kineticLaw metaid="_2713054a_91ee_41b0_8312_a93f50aa3786">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_353 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_353 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24666,10 +25243,14 @@ Dedication</a>
         <kineticLaw metaid="_2e37af01_a8db_42e7_b738_f29f6e3c4ed1">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_354 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_354 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24691,10 +25272,14 @@ Dedication</a>
         <kineticLaw metaid="_8ba1b723_9ac5_47f2_8da5_95c63d54a689">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_355 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_355 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24716,10 +25301,14 @@ Dedication</a>
         <kineticLaw metaid="_472c7e6e_eddf_4898_a51f_9f0cd4ec41f5">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_356 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_356 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24741,10 +25330,14 @@ Dedication</a>
         <kineticLaw metaid="_7153087d_72ed_431b_a395_061a9ecf5126">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_357 </ci>
-              <ci> dnabound </ci>
-              <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <times/>
+              <apply>
+                <ci> function_357 </ci>
+                <ci> dnabound </ci>
+                <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
+                <ci> ktranscr </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24762,8 +25355,12 @@ Dedication</a>
         <kineticLaw metaid="aac28b80_cc94_42d3_9ac6_c6d976c9d773">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_358 </ci>
-              <ci> v </ci>
+              <times/>
+              <apply>
+                <ci> function_358 </ci>
+                <ci> v </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24784,10 +25381,14 @@ Dedication</a>
         <kineticLaw metaid="d6238178_7c70_46db_adb8_0e646184455e">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_359 </ci>
-              <ci> kexp </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_RNA_InR </ci>
+              <times/>
+              <apply>
+                <ci> function_359 </ci>
+                <ci> kexp </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_RNA_InR </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24816,6 +25417,7 @@ Dedication</a>
                 <ci> cytoplasm_RNA_InR </ci>
                 <ci> kmdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24845,6 +25447,7 @@ Dedication</a>
                 <ci> cytoplasm_RNA_InR </ci>
                 <ci> ktransl </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24873,6 +25476,7 @@ Dedication</a>
                 <ci> cytoplasm_InR </ci>
                 <ci> kpdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24890,8 +25494,12 @@ Dedication</a>
         <kineticLaw metaid="_864cf308_6df2_456a_b251_df0636d199c6">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_358 </ci>
-              <ci> v </ci>
+              <times/>
+              <apply>
+                <ci> function_358 </ci>
+                <ci> v </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24912,10 +25520,14 @@ Dedication</a>
         <kineticLaw metaid="_6fb2aa6b_fe30_4284_bcc0_f97ebb019659">
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <ci> function_363 </ci>
-              <ci> kexp </ci>
-              <ci> nucleus </ci>
-              <ci> nucleus_RNA_SOD2 </ci>
+              <times/>
+              <apply>
+                <ci> function_363 </ci>
+                <ci> kexp </ci>
+                <ci> nucleus </ci>
+                <ci> nucleus_RNA_SOD2 </ci>
+              </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24944,6 +25556,7 @@ Dedication</a>
                 <ci> cytoplasm_RNA_SOD2 </ci>
                 <ci> kmdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -24973,6 +25586,7 @@ Dedication</a>
                 <ci> cytoplasm_RNA_SOD2 </ci>
                 <ci> ktransl </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -25001,6 +25615,7 @@ Dedication</a>
                 <ci> cytoplasm_SOD2 </ci>
                 <ci> kpdeg </ci>
               </apply>
+              <ci> indicator_foxo </ci>
             </apply>
           </math>
           <listOfParameters>

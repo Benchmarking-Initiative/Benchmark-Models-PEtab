@@ -13,15 +13,18 @@ source_dir = model_dir / "source"
 simulations = dict()
 data = dict()
 # -- figure 1 --
-simulations['fig1'] = pd.read_csv(source_dir / 'm8b2_rapie.6-t60.txt', sep='\t')
+simfiles = {
+    'fig1': 'm8b2_rapie.6-t60.txt',
+    'fig2A': 'm8b2_rapie.6-t60.txt',
+    # used in 2B 2E 3A figures, assuming equal name means equal data
+    'base': 'm8b2_rapi.6-insscan.txt',
+    'fig2E': 'm8b2_rapi.6-insscan-nox0.txt',
+    'fig2F': 'pj.6-t60-scanextROS-2SOD.txt',
+    'fig2H': 'm8b2_rapijf.6.InsROS_out.txt',
+    'fig3A_left': 'm8b2_rapi_sensitized-insscan.txt',
+    'fig3A_right': 'm8b2_rapijfe.6.fasting-t3000.txt',
+}
 
-# -- figure 2 simulation --
-simulations['fig2A'] = pd.read_csv(source_dir / 'm8b2_rapie.6-t60.txt', sep='\t')
-# used in 2B 2E 3A figures, assuming equal name means equal data
-simulations['base'] = pd.read_csv(source_dir / 'm8b2_rapi.6-insscan.txt', sep='\t')
-simulations['fig2E'] = pd.read_csv(source_dir / 'm8b2_rapi.6-insscan-nox0.txt', sep='\t')
-simulations['fig2F'] = pd.read_csv(source_dir / 'pj.6-t60-scanextROS-2SOD.txt', sep='\t')
-simulations['fig2H'] = pd.read_csv(source_dir / 'm8b2_rapijf.6.InsROS_out.txt', sep='\t')
 # -- figure 2 data --
 data['pi3k_fig2B'] = pd.read_csv(source_dir / 'stagsted_93_fig3.txt', sep='\s+', skiprows=range(3))
 data['pi3k_fig2B']['Time'] = 15  # 15 min according to simulation data (m8b2_rapi.6-insscan.txt)
@@ -32,13 +35,13 @@ data['glut4_fig2B']['Time'] = 15  # 15 min according to simulation data (m8b2_ra
 data['p_irs_fig2C'] = pd.read_csv(source_dir / 'cedersund_irs_p_fig1c.dat.txt', sep='\t')
 data['ptp1b_fig2D'] = pd.read_csv(source_dir / 'mahadev_01b_fig2.txt', sep='\t', skiprows=range(1))
 
-# -- figure 3 simulation --
-simulations['fig3A_left'] = pd.read_csv(source_dir / 'm8b2_rapi_sensitized-insscan.txt', sep='\t')
-simulations['fig3A_right'] = pd.read_csv(source_dir / 'm8b2_rapijfe.6.fasting-t3000.txt', sep='\t')
 # -- figure 3 data --
 data['gluc_fig3B'] = pd.read_csv(source_dir / 'archuleta_09_fig1.txt', sep='\s+', skiprows=range(3))
 data['sod2_fig3C'] = pd.read_csv(source_dir / 'essers_emboj_04_fig4b.txt', sep='\s+', skiprows=range(2))
 data['sod2_fig3C']['Time'] = 16 * 60  # 16h according to comment in source data, confirmed in panel in manuscript
+
+for figname, simfile in simfiles.items():
+    simulations[figname] = pd.read_csv(source_dir / simfile, sep='\t')
 
 # cleanup
 for df in list(simulations.values()) + list(data.values()):
@@ -63,18 +66,6 @@ df_sim = pd.concat(simulations.values(), ignore_index=True)
 for dataname, dataset in data.items():
     dataset['dataset'] = dataname
 df_data = pd.concat(data.values(), ignore_index=True)
-
-# extracted via manual inspection, time of insulin stimulation
-t_ins = {
-    'base': df_sim.Time.max()*2,
-    'fig1': 15,
-    'fig2A': 15,
-    'fig2E': df_sim.Time.max()*2,
-    'fig2F': df_sim.Time.max()*2,
-    'fig2H': df_sim.Time.max()*2,
-    'fig3A_left': df_sim.Time.max()*2,
-    'fig3A_right': df_sim.Time.max()*2,
-}
 
 # potentially missing datasets:
 # - Lee 1998 referenced in text about estimation, but unclear how/which dataset was used
@@ -118,9 +109,68 @@ a.setMath(sbml.parseL3Formula('0.0'))
 event.addEventAssignment(a)
 sbml_model.addEvent(event)
 
+# confirmed by inspection of simfiles, time of insulin stimulation
+t_ins = {
+    figname: 15.0 if 'e.6-t60' in simfile else df_sim.Time.max()*2
+    for figname, simfile in simfiles.items()
+}
+
+# simulation data files have endings 'rapi', 'rapie', 'rapijf', 'rapijfe', which likely corresponds to
+# different model compositions. looking at the shorthand sbml files in the supplementary material suggests the
+# following mapping:
+# - r: m8b2_recep.6.mod
+# - a: m8b2_akt.6.mod
+# - p: m8b2_phosph.6.mod
+# - i: m8b2_ins.6.mod
+# - j: m8b2_jnk.6.mod
+# - f: m8b2_foxo.6.mod
+# - e: m8b2_events.ins5d.mod (insulin events, giant mess, at least in the ins5d case)
+
+# this means that for some of the simulations, we need to disable jnk/foxo components. To emulate this, we can
+# add indicator variables to the rate laws of the respective reactions
+
+# for jnk module, these are the following reactions:
+# - R42f, R42r, R43f, R43r, R32f, R32r
+i_j = sbml_model.createParameter()
+i_j.setId('indicator_jnk')
+i_j.setValue(0)
+i_j.setConstant(True)
+
+for r_id in ('R42f', 'R42r', 'R43f', 'R43r', 'R32f', 'R32r'):
+    kin_law = sbml_model.getReaction(r_id).getKineticLaw()
+    formula = sbml.formulaToL3String(kin_law.getMath())
+    formula += ' * indicator_jnk'
+    kin_law.setMath(sbml.parseL3Formula(formula))
+
+indicator_jnk = {
+    figname: 'j' in simfile.split('.')[0].split('_')[1]
+    if simfile.startswith('m8b2') else True
+    for figname, simfile in simfiles.items()
+}
+
+
+# for foxo, these are the folling reactions:
+# - R100 - R406
+i_f = sbml_model.createParameter()
+i_f.setId('indicator_foxo')
+i_f.setValue(0)
+i_f.setConstant(True)
+
+for r_num in range(100, 407):
+    kin_law = sbml_model.getReaction(f'R{r_num}').getKineticLaw()
+    formula = sbml.formulaToL3String(kin_law.getMath())
+    formula += ' * indicator_foxo'
+    kin_law.setMath(sbml.parseL3Formula(formula))
+
+indicator_foxo = {
+    figname: 'f' in simfile.split('.')[0].split('_')[1]
+    if simfile.startswith('m8b2') else False
+    for figname, simfile in simfiles.items()
+}
+
 pnames = [
     p.id for p in sbml_model.getListOfParameters()
-    if p.id not in ('navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm', 't_ins')
+    if p.id not in ('navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm', 't_ins', 'indicator_jnk', 'indicator_foxo')
     and sbml_model.getAssignmentRule(p.id) is None
 ]
 
@@ -252,7 +302,7 @@ for x in sbml_model.getListOfSpecies():
     assert x.id in df_sim.columns
 
     # set via conditions
-    if x.id in ['Ins']:
+    if x.id in ['Ins', 'extracellular_ROS', 'JNK', 'JNK_P', 'IKK', 'IKK_P', 'DUSP', 'DUSP_ox']:
         continue
 
     sel = df_sim.loc[df_sim.Time == 0.0, x.id].dropna()
@@ -342,12 +392,16 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
             'extracellular_ROS': rosconc,
             'Ins': Ins,
             't_ins': t_ins[data_mappings[dataset]],
+            'indicator_jnk': float(indicator_jnk[data_mappings[dataset]]),
+            'indicator_foxo': float(indicator_foxo[data_mappings[dataset]]),
         })
 
 measurements_test = []
 conditions_test = []
 
-for (dataset, rosconc, sod2, nox), df in df_sim.groupby(['dataset', 'extracellular_ROS', 'cytoplasm_SOD2', 'NOX_total']):
+for (dataset, rosconc, sod2, nox, e2f1), df in df_sim.groupby([
+    'dataset', 'extracellular_ROS', 'cytoplasm_SOD2', 'NOX_total', 'E2F1'
+]):
     if df.Time.min() < t_ins[dataset]:
         single_ins = len(df.loc[df.Time < t_ins[dataset], 'Ins'].unique()) == 1
         insconc = df.loc[df.Time < t_ins[dataset], 'Ins'].values[0]
@@ -386,7 +440,8 @@ for (dataset, rosconc, sod2, nox), df in df_sim.groupby(['dataset', 'extracellul
         v_sod = sbml_model.getCompartment(sbml_model.getSpecies('cytoplasm_SOD2').getCompartment()).getSize()
         # NOX_total = NOX_inact + NOX_act + NOX, so we can't assign that, looking at t==0, it looks like NOX_inact was
         # assigned
-        b_nox = sbml_model.getCompartment(sbml_model.getSpecies('NOX_inact').getCompartment()).getSize()
+        v_nox = sbml_model.getCompartment(sbml_model.getSpecies('NOX_inact').getCompartment()).getSize()
+        v_e2f1 = sbml_model.getCompartment(sbml_model.getSpecies('E2F1').getCompartment()).getSize()
 
         if condition_id not in (c[petab.CONDITION_ID] for c in conditions_test):
             conditions_test.append({
@@ -394,8 +449,11 @@ for (dataset, rosconc, sod2, nox), df in df_sim.groupby(['dataset', 'extracellul
                 'extracellular_ROS': rosconc / v_ros,
                 'Ins': insconc / v_ins,
                 'cytoplasm_SOD2': sod2 / v_sod,
-                'NOX_inact': nox / b_nox,
+                'NOX_inact': nox / v_nox,
+                'E2F1': e2f1 / v_e2f1,
                 't_ins': t_ins[dataset],
+                'indicator_jnk': float(indicator_jnk[dataset]),
+                'indicator_foxo': float(indicator_foxo[dataset]),
             })
 
 observable_table = pd.DataFrame(observables).set_index(petab.OBSERVABLE_ID)
