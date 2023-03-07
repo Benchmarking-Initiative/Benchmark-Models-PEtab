@@ -83,7 +83,7 @@ df_data = pd.concat(data.values(), ignore_index=True)
 
 # use BIOMODELS model version instead of original model version as it's a bit more cleaned up and already went through
 # one round of curation
-model_file = source_dir / 'BIOMD0000000474_url.xml'
+model_file = source_dir / 'm8b2_rapijf.6.xml'
 import libsbml as sbml
 # read model using libsbml
 sbml_reader = sbml.SBMLReader()
@@ -261,10 +261,7 @@ observables_test = [
     {
         petab.OBSERVABLE_ID: f'{o.replace("[", "_").replace(".","_")}_obs',
         petab.OBSERVABLE_FORMULA:
-            # convert all species from concentration to amount
-            f'{o} * {sbml_model.getCompartment(sbml_model.getSpecies(o).getCompartment()).getSize()}'
-            if sbml_model.getSpecies(o) is not None
-            else re.match('Compartments\[([\w]+)\.Volume', o).group(1)
+            re.match('Compartments\[([\w]+)\.Volume', o).group(1)
             if re.match('Compartments\[([\w]+)\.Volume', o)
             else o
         ,
@@ -322,12 +319,12 @@ for x in sbml_model.getListOfSpecies():
     assert x.id in df_sim.columns
 
     # set via conditions
-    if x.id in ['Ins', 'extracellular_ROS', 'JNK', 'JNK_P', 'IKK', 'IKK_P', 'DUSP', 'DUSP_ox']:
+    if x.id in ['Ins', 'extracellular_ROS']:
         continue
 
     sel = df_sim.loc[df_sim.Time == 0.0, x.id].dropna()
     assert len(sel.unique()) == 1
-    assert x.getInitialAmount() == sel.values[0]
+    x.setInitialAmount(sel.values[0])
 
 
 df_data.Insulin.fillna(0.0, inplace=True)
@@ -373,38 +370,29 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
     navo = sbml_model.getParameter('navo').getValue()
     vextracellular = sbml_model.getParameter('vextracellular').getValue()
 
-    v_ins = sbml_model.getCompartment(sbml_model.getSpecies('Ins').getCompartment()).getSize()
-    v_ros = sbml_model.getCompartment(sbml_model.getSpecies('extracellular_ROS').getCompartment()).getSize()
-
     if panel in ['3B', '3C']:
         # Ins/ins is the other way around
-        Ins = insconc / v_ins
-        insconc = Ins * v_ros / (navo * vextracellular)
+        Ins = insconc
+        insconc = Ins / (navo * vextracellular)
     else:
-        Ins = insconc * (navo * vextracellular) / v_ins
+        Ins = insconc * (navo * vextracellular)
 
-    Ros = rosconc / v_ros
-
-    # note that the simulation table likely reports Ins as amount, not concentration
-    # so we have to multiply by extracellular volume to get the amount
-
+    Ros = rosconc
     # check we are actually using the same values as in the supplementary material
     # 2B + ins=1e-14/5e-8 not included in simulations/plot :shrug:
 
-    # we want Ins in concentrations, but simulations are in "amounts" (still floats ...)
-    # so we need to multiply with the respective compartment size
     if panel not in ['2B', '3C']:
         assert np.isclose(insconc, sim.insconc.unique(), atol=0, rtol=1e-2).any()
-        assert np.isclose(Ins * v_ins, sim.Ins.unique(), atol=0, rtol=1e-2).any()
+        assert np.isclose(Ins, sim.Ins.unique(), atol=0, rtol=1e-2).any()
 
     if panel not in ['3B', '3C']:
-        assert Ros * v_ros in sim.extracellular_ROS.unique()
+        assert Ros in sim.extracellular_ROS.unique()
 
     if panel == '2B' and insconc != 1e-14:
         assert insconc < sim.insconc.max()
         assert insconc > sim.insconc.min()
-        assert Ins * v_ins < sim.Ins.max()
-        assert Ins * v_ins > sim.Ins.min()
+        assert Ins < sim.Ins.max()
+        assert Ins > sim.Ins.min()
 
     if condition_id not in (c[petab.CONDITION_ID] for c in conditions):
         conditions.append({
@@ -461,22 +449,14 @@ for (dataset, rosconc, sod2, nox, e2f1), df in df_sim.groupby([
 
         measurements_test.append(m)
 
-        v_ins = sbml_model.getCompartment(sbml_model.getSpecies('Ins').getCompartment()).getSize()
-        v_ros = sbml_model.getCompartment(sbml_model.getSpecies('extracellular_ROS').getCompartment()).getSize()
-        v_sod = sbml_model.getCompartment(sbml_model.getSpecies('cytoplasm_SOD2').getCompartment()).getSize()
-        # NOX_total = NOX_inact + NOX_act + NOX, so we can't assign that, looking at t==0, it looks like NOX_inact was
-        # assigned
-        v_nox = sbml_model.getCompartment(sbml_model.getSpecies('NOX_inact').getCompartment()).getSize()
-        v_e2f1 = sbml_model.getCompartment(sbml_model.getSpecies('E2F1').getCompartment()).getSize()
-
         if condition_id not in (c[petab.CONDITION_ID] for c in conditions_test):
             conditions_test.append({
                 petab.CONDITION_ID: condition_id,
-                'extracellular_ROS': rosconc / v_ros,
-                'Ins': insconc / v_ins,
-                'cytoplasm_SOD2': sod2 / v_sod,
-                'NOX_inact': nox / v_nox,
-                'E2F1': e2f1 / v_e2f1,
+                'extracellular_ROS': rosconc,
+                'Ins': insconc,
+                'cytoplasm_SOD2': sod2,
+                'NOX_inact': nox,
+                'E2F1': e2f1,
                 't_ins': t_ins[dataset],
                 'indicator_jnk': float(indicator_jnk[dataset]),
                 'indicator_foxo': float(indicator_foxo[dataset]),
@@ -503,12 +483,9 @@ for dataset, df in df_data.groupby(['dataset']):
         if dataset.endswith(obs[3]) and df[obs[2]].any()
     }
     for sc, (sim_id, data_id) in scaling_factors.items():
-        vol = sbml_model.getCompartment(
-            sbml_model.getSpecies(sim_id).getCompartment()
-        ).getSize()
         parameter_table.loc[
             sc, petab.NOMINAL_VALUE
-        ] = vol / sim[sim_id].max() * df[data_id].max()
+        ] = df[data_id].max() / sim[sim_id].max()
 
 petab_problem = petab.Problem(
     model=petab.models.sbml_model.SbmlModel(
