@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import petab
+import re
 import petab.models
 
 from pathlib import Path
@@ -56,6 +57,18 @@ data_mappings = {
     'sod2_fig3C': 'fig2H',
 }
 
+# extracted via manual inspection, time of insulin stimulation
+t_ins = {
+    'base': np.inf,
+    'fig1': 15,
+    'fig2A': 15,
+    'fig2E': np.inf,
+    'fig2F': np.inf,
+    'fig2H': np.inf,
+    'fig3A_left': np.inf,
+    'fig3A_right': np.inf,
+}
+
 # potentially missing datasets:
 # - Lee 1998 referenced in text about estimation, but unclear how/which dataset was used
 # - Lee 2002 not referenced in text about estimation
@@ -71,7 +84,10 @@ data_mappings = {
 # - Frayn 1996
 
 # model, use BIOMODELS rather than model from supplementary material as it features events for Insulin administration
-model_file = source_dir / 'BIOMD0000000474_url.xml'
+# the model we provide here is a modified version of the curated model "MODEL1212210000_eventsForFigure3A.xml"
+# from BIOMODELS. List of events was pruned such that there is only a single event that sets Insulin to 0 after 15 min.
+
+model_file = source_dir / 'MODEL1212210000_Ins_events.xml'
 import libsbml as sbml
 # read model using libsbml
 sbml_reader = sbml.SBMLReader()
@@ -80,7 +96,7 @@ sbml_model = sbml_document.getModel()
 
 pnames = [
     p.name for p in sbml_model.getListOfParameters()
-    if p.name not in ('navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm')
+    if p.name not in ('navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm', 't_ins')
     and sbml_model.getAssignmentRule(p.name) is None
 ]
 
@@ -155,13 +171,23 @@ for o in obs_names:
     assert o in df_sim.columns
 
 # for comparison against simulations
-observables = [
-#    {
-#        petab.OBSERVABLE_ID: f'{o}_obs',
-#        petab.OBSERVABLE_FORMULA: o,
-#        petab.NOISE_FORMULA: '1.0',
-#    } for o in obs_names
+observables_test = [
+    {
+        petab.OBSERVABLE_ID: f'{o.replace("[", "_").replace(".","_")}_obs',
+        petab.OBSERVABLE_FORMULA:
+            # convert all species from concentration to amount
+            f'{o} * {sbml_model.getCompartment(sbml_model.getSpecies("Ins").getCompartment()).getSize()}'
+            if sbml_model.getSpecies(o) is not None
+            else re.match('Compartments\[([\w]+)\.Volume', o).group(1)
+            if re.match('Compartments\[([\w]+)\.Volume', o)
+            else o
+        ,
+        petab.NOISE_FORMULA: '1.0',
+    } for o in df_sim.columns
+    if o not in pnames + ['dataset', 'Time']
 ]
+
+observables = []
 
 obs_def = (
     # figure 2B: PI3K https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig2/B/plotB.R 17, 29-40
@@ -297,15 +323,75 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
     if condition_id not in (c[petab.CONDITION_ID] for c in conditions):
         conditions.append({
             petab.CONDITION_ID: condition_id,
-            'extracellular_ROS': float(rosconc),
-            'Ins': float(Ins),
+            'extracellular_ROS': rosconc,
+            'Ins': Ins,
+            't_ins': t_ins[data_mappings[dataset]],
         })
 
+measurements_test = []
+conditions_test = []
+
+for (dataset, rosconc, sod2, nox), df in df_sim.groupby(['dataset', 'extracellular_ROS', 'cytoplasm_SOD2', 'NOX_total']):
+    if df.Time.min() < t_ins[dataset]:
+        single_ins = len(df.loc[df.Time < t_ins[dataset], 'Ins'].unique()) == 1
+        insconc = df.loc[df.Time < t_ins[dataset], 'Ins'].values[0]
+
+    else:
+        assert len(df.loc[:, 'Ins'].unique()) == 1
+        single_ins = True
+        insconc = df.loc[:, 'Ins'].values[0]
+
+    if single_ins:
+        conditions_ins = ((insconc, df),)
+    else:
+        conditions_ins = df.groupby('Ins')
+
+    for insconc, df_ins in conditions_ins:
+        m = df_ins.melt(
+            id_vars=['Time'],
+            value_vars=[c for c in df.columns if c != 'Time'],
+            var_name=petab.OBSERVABLE_ID,
+            value_name=petab.MEASUREMENT
+        ).dropna(axis=0, subset=[petab.MEASUREMENT])
+        m.rename(columns={'Time': petab.TIME}, inplace=True)
+        m.loc[:, petab.OBSERVABLE_ID] = m[petab.OBSERVABLE_ID].apply(
+            lambda obs_id: obs_id.replace('[', '_').replace('.', '_') + '_obs'
+        )
+        m = m.loc[m[petab.OBSERVABLE_ID].isin([o[petab.OBSERVABLE_ID] for o in observables_test]), :]
+        condition_id = f'{dataset}_{rosconc}__{insconc}__{sod2}__{nox}'.replace('.', '_').replace('-', 'm')
+        m.loc[:, petab.SIMULATION_CONDITION_ID] = condition_id
+
+        assert len(m[petab.OBSERVABLE_ID].unique()) * len(m[petab.TIME].unique()) == len(m)
+
+        measurements_test.append(m)
+
+        v_ins = sbml_model.getCompartment(sbml_model.getSpecies('Ins').getCompartment()).getSize()
+        v_ros = sbml_model.getCompartment(sbml_model.getSpecies('extracellular_ROS').getCompartment()).getSize()
+        v_sod = sbml_model.getCompartment(sbml_model.getSpecies('cytoplasm_SOD2').getCompartment()).getSize()
+        # NOX_total = NOX_inact + NOX_act + NOX, so we can't assign that, looking at t==0, it looks like NOX_inact was
+        # assigned
+        b_nox = sbml_model.getCompartment(sbml_model.getSpecies('NOX_inact').getCompartment()).getSize()
+
+        if condition_id not in (c[petab.CONDITION_ID] for c in conditions_test):
+            conditions_test.append({
+                petab.CONDITION_ID: condition_id,
+                'extracellular_ROS': rosconc / v_ros,
+                'Ins': insconc / v_ins,
+                'cytoplasm_SOD2': sod2 / v_sod,
+                'NOX_inact': nox / b_nox,
+                't_ins': t_ins[dataset],
+            })
 
 observable_table = pd.DataFrame(observables).set_index(petab.OBSERVABLE_ID)
+observable_table_test = pd.DataFrame(observables_test).set_index(petab.OBSERVABLE_ID)
 parameter_table = pd.DataFrame(parameters).set_index(petab.PARAMETER_ID)
+parameter_table_test = parameter_table.loc[
+    [par_id for par_id in parameter_table.index if not par_id.startswith('sc_')], :
+]
 condition_table = pd.DataFrame(conditions).set_index(petab.CONDITION_ID)
+condition_table_test = pd.DataFrame(conditions_test).set_index(petab.CONDITION_ID)
 measurement_table = pd.concat(measurements)
+measurement_table_test = pd.concat(measurements_test)
 
 # derive scaling factors
 for dataset, df in df_data.groupby(['dataset']):
@@ -339,6 +425,20 @@ petab_problem = petab.Problem(
 
 petab.lint_problem(petab_problem)
 
+petab_problem_test = petab.Problem(
+    model=petab.models.sbml_model.SbmlModel(
+        sbml_model=sbml_model,
+        sbml_reader=sbml_reader,
+        sbml_document=sbml_document,
+    ),
+    condition_df=condition_table_test,
+    measurement_df=measurement_table_test,
+    observable_df=observable_table_test,
+    parameter_df=parameter_table_test,
+)
+
+petab.lint_problem(petab_problem_test)
+
 petab_problem.to_files(
     model_file=f'model_{model_name}.xml',
     observable_file=f'observables_{model_name}.tsv',
@@ -347,5 +447,16 @@ petab_problem.to_files(
     measurement_file=f'measurementData_{model_name}.tsv',
     yaml_file=f'{model_name}.yaml',
     prefix_path=model_dir,
+    relative_paths=True,
+)
+
+petab_problem.to_files(
+    model_file=f'model_{model_name}.xml',
+    observable_file=f'observables_{model_name}_test.tsv',
+    parameter_file=f'parameters_{model_name}.tsv',
+    condition_file=f'experimentalCondition_{model_name}_test.tsv',
+    measurement_file=f'measurementData_{model_name}_test.tsv',
+    yaml_file=f'{model_name}_test.yaml',
+    prefix_path=model_dir / 'sim_test',
     relative_paths=True,
 )
