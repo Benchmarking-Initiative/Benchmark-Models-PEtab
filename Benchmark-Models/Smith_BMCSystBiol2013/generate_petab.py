@@ -181,10 +181,26 @@ i_f.setId('indicator_foxo')
 i_f.setValue(0)
 i_f.setConstant(True)
 
+r_tx = sbml_model.createParameter()
+r_tx.setId('tx_ratio_SOD2')
+r_tx.setValue(1.0)
+r_tx.setConstant(True)
+
+r_tx = sbml_model.createParameter()
+r_tx.setId('tx_ratio_InR')
+r_tx.setValue(1.0)
+r_tx.setConstant(True)
+
+
 for r_num in range(100, 407):
-    kin_law = sbml_model.getReaction(f'R{r_num}').getKineticLaw()
+    r = sbml_model.getReaction(f'R{r_num}')
+    kin_law = r.getKineticLaw()
     formula = sbml.formulaToL3String(kin_law.getMath())
     formula += ' * indicator_foxo'
+    if r.getName().startswith('transcription of SOD2'):
+        formula += ' * tx_ratio_SOD2'
+    if r.getName().startswith('transcription of InR'):
+        formula += ' * tx_ratio_InR'
     kin_law.setMath(sbml.parseL3Formula(formula))
 
 indicator_foxo = {
@@ -198,7 +214,7 @@ pnames = [
     if p.id not in (
         'navo', 'molec_per_fm', 'membrane_area', 'k_ros_perm',
         't_ins', 'indicator_jnk', 'indicator_foxo',
-        'k4', 'kminus4', 'k_irs1_basal_syn'
+        'k4', 'kminus4', 'k_irs1_basal_syn', 'tx_ratio_SOD2', 'tx_ratio_InR'
     )
     and sbml_model.getAssignmentRule(p.id) is None
 ]
@@ -473,6 +489,14 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
         inr = np.NaN
         irs = np.NaN
 
+    if dataset == 'fig2H':
+        # values inferred based on data mismatch
+        tx_inr = 1/0.4
+        tx_sod2 = 1/0.8
+    else:
+        tx_inr = np.NaN
+        tx_sod2 = np.NaN
+
     if single_ins and single_sod2:
         conditions_ins_sod = ((insconc, sod2, df),)
     elif not single_ins and single_sod2:
@@ -525,6 +549,8 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
                 'k4': k4[dataset],
                 'kminus4': kminus4[dataset],
                 'k_irs1_basal_syn': k_irs1_basal_syn[dataset],
+                'tx_ratio_InR': tx_inr,
+                'tx_ratio_SOD2': tx_sod2,
             })
 observable_table = pd.DataFrame(observables).set_index(petab.OBSERVABLE_ID)
 observable_table_test = pd.DataFrame(observables_test).set_index(petab.OBSERVABLE_ID)
