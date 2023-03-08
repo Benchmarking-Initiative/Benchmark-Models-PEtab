@@ -466,6 +466,13 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
         jnk_p = np.NaN
         ikk_p = np.NaN
 
+    if dataset == 'fig3A_left':
+        inr = df['InR_tot'].values[0]
+        irs = df['IRS_total'].values[0]
+    else:
+        inr = np.NaN
+        irs = np.NaN
+
     if single_ins and single_sod2:
         conditions_ins_sod = ((insconc, sod2, df),)
     elif not single_ins and single_sod2:
@@ -493,7 +500,7 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
             lambda obs_id: obs_id.replace('[', '_').replace('.', '_') + '_obs'
         )
         m = m.loc[m[petab.OBSERVABLE_ID].isin([o[petab.OBSERVABLE_ID] for o in observables_test]), :]
-        condition_id = f'{dataset}__{rosconc}__{insconc}__{nox}__{e2f1}'.replace('.', '_').replace('-', 'm')
+        condition_id = f'{dataset}__{rosconc}__{insconc}__{nox}__{e2f1}__{sod2}'.replace('.', '_').replace('-', 'm')
         m.loc[:, petab.SIMULATION_CONDITION_ID] = condition_id
 
         assert len(m[petab.OBSERVABLE_ID].unique()) * len(m[petab.TIME].unique()) == len(m)
@@ -510,6 +517,8 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
                 'E2F1': e2f1,
                 'JNK_P': jnk_p,
                 'IKK_P': ikk_p,
+                'InR': inr,
+                'IRS1': irs,
                 't_ins': t_ins[dataset],
                 'indicator_jnk': float(indicator_jnk[dataset]),
                 'indicator_foxo': float(indicator_foxo[dataset]),
