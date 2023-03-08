@@ -460,6 +460,7 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
             'k4': k4[data_mappings[dataset]],
             'kminus4': kminus4[data_mappings[dataset]],
             'k_irs1_basal_syn': k_irs1_basal_syn[data_mappings[dataset]],
+            'E2F1': 150.0 if data_mappings[dataset] == 'fig2H' else np.NaN
         })
 
 measurements_test = []
