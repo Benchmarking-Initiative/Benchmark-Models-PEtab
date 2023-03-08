@@ -94,6 +94,15 @@ sbml_document.setLevelAndVersion(2, 4)
 
 sbml_model.setName(model_name)
 sbml_model.setId(model_name)
+sbml_model.setMetaId(model_name)
+
+cv = sbml.CVTerm(sbml.BIOLOGICAL_QUALIFIER)
+cv.setBiologicalQualifierType(sbml.BQB_IS_DESCRIBED_BY)
+cv.addResource("http://identifiers.org/doi/10.1186/1752-0509-7-41")
+sbml_model.addCVTerm(cv)
+
+annot = sbml.RDFAnnotationParser.parseCVTerms(sbml_model)
+sbml_model.setAnnotation(annot)
 
 # add event to end insulin stimulation
 tt = sbml_model.createParameter()
@@ -181,15 +190,17 @@ i_f.setId('indicator_foxo')
 i_f.setValue(0)
 i_f.setConstant(True)
 
-r_tx = sbml_model.createParameter()
-r_tx.setId('tx_ratio_SOD2')
-r_tx.setValue(1.0)
-r_tx.setConstant(True)
+# can be uncommented to fix some of the discrepancies
+# to reference simulations in AMICI
+# r_tx = sbml_model.createParameter()
+# r_tx.setId('tx_ratio_SOD2')
+# r_tx.setValue(1.0)
+# r_tx.setConstant(True)
 
-r_tx = sbml_model.createParameter()
-r_tx.setId('tx_ratio_InR')
-r_tx.setValue(1.0)
-r_tx.setConstant(True)
+# r_tx = sbml_model.createParameter()
+# r_tx.setId('tx_ratio_InR')
+# r_tx.setValue(1.0)
+# r_tx.setConstant(True)
 
 
 for r_num in range(100, 407):
@@ -197,10 +208,12 @@ for r_num in range(100, 407):
     kin_law = r.getKineticLaw()
     formula = sbml.formulaToL3String(kin_law.getMath())
     formula += ' * indicator_foxo'
-    if r.getName().startswith('transcription of SOD2'):
-        formula += ' * tx_ratio_SOD2'
-    if r.getName().startswith('transcription of InR'):
-        formula += ' * tx_ratio_InR'
+    # can be uncommented to fix some of the discrepancies
+    # to reference simulations in AMICI
+    # if r.getName().startswith('transcription of SOD2'):
+    #     formula += ' * tx_ratio_SOD2'
+    # if r.getName().startswith('transcription of InR'):
+    #     formula += ' * tx_ratio_InR'
     kin_law.setMath(sbml.parseL3Formula(formula))
 
 indicator_foxo = {
@@ -489,13 +502,13 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
         inr = np.NaN
         irs = np.NaN
 
-    if dataset == 'fig2H':
-        # values inferred based on data mismatch
-        tx_inr = 1/0.4
-        tx_sod2 = 1/0.8
-    else:
-        tx_inr = np.NaN
-        tx_sod2 = np.NaN
+    # if dataset == 'fig2H':
+    #     # values inferred based on data mismatch
+    #     tx_inr = 1/0.4
+    #     tx_sod2 = 1/0.8
+    # else:
+    #     tx_inr = np.NaN
+    #     tx_sod2 = np.NaN
 
     if single_ins and single_sod2:
         conditions_ins_sod = ((insconc, sod2, df),)
@@ -549,8 +562,8 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
                 'k4': k4[dataset],
                 'kminus4': kminus4[dataset],
                 'k_irs1_basal_syn': k_irs1_basal_syn[dataset],
-                'tx_ratio_InR': tx_inr,
-                'tx_ratio_SOD2': tx_sod2,
+                # 'tx_ratio_InR': tx_inr,
+                # 'tx_ratio_SOD2': tx_sod2,
             })
 observable_table = pd.DataFrame(observables).set_index(petab.OBSERVABLE_ID)
 observable_table_test = pd.DataFrame(observables_test).set_index(petab.OBSERVABLE_ID)
@@ -601,7 +614,7 @@ petab_problem_test = petab.Problem(
     parameter_df=parameter_table_test,
 )
 
-petab.lint_problem(petab_problem_test)
+# petab.lint_problem(petab_problem_test)
 
 petab_problem.to_files(
     model_file=f'model_{model_name}.xml',

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Smith_BMCSystBiol2013" name="Smith_BMCSystBiol2013">
+  <model metaid="Smith_BMCSystBiol2013" id="Smith_BMCSystBiol2013" name="Smith_BMCSystBiol2013">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#Smith_BMCSystBiol2013">
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1186/1752-0509-7-41"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
     <listOfUnitDefinitions>
       <unitDefinition id="volume">
         <listOfUnits>
@@ -245,8 +256,6 @@
       <parameter id="t_ins" value="15" constant="true"/>
       <parameter id="indicator_jnk" value="0" constant="true"/>
       <parameter id="indicator_foxo" value="0" constant="true"/>
-      <parameter id="tx_ratio_SOD2" value="1" constant="true"/>
-      <parameter id="tx_ratio_InR" value="1" constant="true"/>
     </listOfParameters>
     <listOfRules>
       <assignmentRule variable="InR_bound">
@@ -8450,7 +8459,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8475,7 +8483,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8500,7 +8507,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8525,7 +8531,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8550,7 +8555,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8575,7 +8579,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8600,7 +8603,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8625,7 +8627,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8650,7 +8651,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8675,7 +8675,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8700,7 +8699,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8725,7 +8723,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8750,7 +8747,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8775,7 +8771,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8800,7 +8795,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8825,7 +8819,6 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8850,7 +8843,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8875,7 +8867,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8900,7 +8891,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8925,7 +8915,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8950,7 +8939,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -8975,7 +8963,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9000,7 +8987,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9025,7 +9011,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9050,7 +9035,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9075,7 +9059,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9100,7 +9083,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9125,7 +9107,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9150,7 +9131,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9175,7 +9155,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9200,7 +9179,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_InR </ci>
             </apply>
           </math>
           <listOfParameters>
@@ -9225,7 +9203,6 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> ktranscr </ci>
               <ci> indicator_foxo </ci>
-              <ci> tx_ratio_SOD2 </ci>
             </apply>
           </math>
           <listOfParameters>
