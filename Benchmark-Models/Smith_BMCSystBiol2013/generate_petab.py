@@ -100,8 +100,9 @@ tt = sbml_model.createParameter()
 tt.setId('t_ins')
 tt.setValue(15)
 tt.setConstant(True)
+
 event = sbml_model.createEvent()
-event.setId('insulin_stimulation')
+event.setId('insulin_stimulation_end')
 trigger = event.createTrigger()
 trigger.setMath(sbml.parseL3Formula('time >= t_ins'))
 event.setTrigger(trigger)
@@ -111,9 +112,31 @@ a.setMath(sbml.parseL3Formula('0.0'))
 event.addEventAssignment(a)
 sbml_model.addEvent(event)
 
+event = sbml_model.createEvent()
+event.setId('insulin_restimulation_start')
+trigger = event.createTrigger()
+trigger.setMath(sbml.parseL3Formula('time >= 2880'))
+event.setTrigger(trigger)
+a = event.createEventAssignment()
+a.setVariable('Ins')
+a.setMath(sbml.parseL3Formula('499999.0'))
+event.addEventAssignment(a)
+sbml_model.addEvent(event)
+
+event = sbml_model.createEvent()
+event.setId('insulin_restimulation_end')
+trigger = event.createTrigger()
+trigger.setMath(sbml.parseL3Formula('time >= 2895'))
+event.setTrigger(trigger)
+a = event.createEventAssignment()
+a.setVariable('Ins')
+a.setMath(sbml.parseL3Formula('0.0'))
+event.addEventAssignment(a)
+sbml_model.addEvent(event)
+
 # confirmed by inspection of simfiles, time of insulin stimulation
 t_ins = {
-    figname: 15.0 if 'e.6-t60' in simfile else df_sim.Time.max()*2
+    figname: 15.0 if 'e.6-t60' in simfile or 'fasting-t3000' in simfile else float(simulations[figname].Time.max()*2)
     for figname, simfile in simfiles.items()
 }
 
@@ -413,28 +436,53 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
 measurements_test = []
 conditions_test = []
 
-for (dataset, rosconc, sod2, nox, e2f1), df in df_sim.groupby([
-    'dataset', 'extracellular_ROS', 'cytoplasm_SOD2', 'NOX_total', 'E2F1'
+for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
+    'dataset', 'extracellular_ROS', 'NOX_total', 'E2F1'
 ], dropna=False):
-    if df.Time.min() < t_ins[dataset]:
+    if dataset == 'fig3A_right':
+        single_ins = True
+        insconc = df['Ins'].values[1]
+    elif df.Time.min() < t_ins[dataset]:
         single_ins = len(df.loc[df.Time < t_ins[dataset], 'Ins'].unique()) == 1
         insconc = df.loc[df.Time < t_ins[dataset], 'Ins'].values[0]
-
     else:
-        assert len(df.loc[:, 'Ins'].unique()) == 1
+        assert len(df['Ins'].unique()) == 1
         single_ins = True
-        insconc = df.loc[:, 'Ins'].values[0]
+        insconc = df['Ins'].values[0]
 
-    if single_ins:
-        conditions_ins = ((insconc, df),)
+    if not indicator_foxo[dataset]:
+        single_sod2 = len(df['cytoplasm_SOD2'].unique()) == 1
+        sod2 = df['cytoplasm_SOD2'].values[0]
     else:
-        conditions_ins = df.groupby('Ins')
+        single_sod2 = True
+        sod2 = np.NaN
 
-    if np.isnan(e2f1):
-        e2f1 = sbml_model.getSpecies('E2F1').getInitialAmount()
+    if not indicator_jnk[dataset]:
+        assert len(df['JNK_P'].unique()) == 1
+        jnk_p = df['JNK_P'].values[0]
+        assert len(df['IKK_P'].unique()) == 1
+        ikk_p = df['IKK_P'].values[0]
+    else:
+        jnk_p = np.NaN
+        ikk_p = np.NaN
 
-    for insconc, df_ins in conditions_ins:
-        m = df_ins.melt(
+    if single_ins and single_sod2:
+        conditions_ins_sod = ((insconc, sod2, df),)
+    elif not single_ins and single_sod2:
+        conditions_ins_sod = (
+            (insconc, sod2, df_ins)
+            for insconc, df_ins in df.groupby('Ins')
+        )
+    elif single_ins and not single_sod2:
+        conditions_ins_sod = (
+            (insconc, sod2, df_sod2)
+            for sod2, df_sod2 in df.groupby('cytoplasm_SOD2')
+        )
+    else:
+        conditions_ins_sod = df.groupby(['Ins', 'cytoplasm_SOD2'])
+
+    for insconc, sod2, df_ins_sod in conditions_ins_sod:
+        m = df_ins_sod.melt(
             id_vars=['Time'],
             value_vars=[c for c in df.columns if c != 'Time'],
             var_name=petab.OBSERVABLE_ID,
@@ -445,7 +493,7 @@ for (dataset, rosconc, sod2, nox, e2f1), df in df_sim.groupby([
             lambda obs_id: obs_id.replace('[', '_').replace('.', '_') + '_obs'
         )
         m = m.loc[m[petab.OBSERVABLE_ID].isin([o[petab.OBSERVABLE_ID] for o in observables_test]), :]
-        condition_id = f'{dataset}_{rosconc}__{insconc}__{sod2}__{nox}'.replace('.', '_').replace('-', 'm')
+        condition_id = f'{dataset}__{rosconc}__{insconc}__{nox}__{e2f1}'.replace('.', '_').replace('-', 'm')
         m.loc[:, petab.SIMULATION_CONDITION_ID] = condition_id
 
         assert len(m[petab.OBSERVABLE_ID].unique()) * len(m[petab.TIME].unique()) == len(m)
@@ -460,6 +508,8 @@ for (dataset, rosconc, sod2, nox, e2f1), df in df_sim.groupby([
                 'cytoplasm_SOD2': sod2,
                 'NOX_inact': nox,
                 'E2F1': e2f1,
+                'JNK_P': jnk_p,
+                'IKK_P': ikk_p,
                 't_ins': t_ins[dataset],
                 'indicator_jnk': float(indicator_jnk[dataset]),
                 'indicator_foxo': float(indicator_foxo[dataset]),
