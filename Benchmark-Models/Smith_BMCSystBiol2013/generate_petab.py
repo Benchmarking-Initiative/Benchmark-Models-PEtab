@@ -10,6 +10,8 @@ model_dir = Path(__file__).parent
 model_name = 'Smith_BMCSystBiol2013'
 source_dir = model_dir / "source"
 
+ATTEMPT_FIX_FIGURE_2H = False
+
 simulations = dict()
 data = dict()
 # -- figure 1 --
@@ -81,8 +83,8 @@ df_data = pd.concat(data.values(), ignore_index=True)
 # omitted as analysis was to check for stable cycles under physiological conditions
 # - Frayn 1996
 
-# use BIOMODELS model version instead of original model version as it's a bit more cleaned up and already went through
-# one round of curation
+# use original model version instead of BIOMODELS since it properly implements everything as amounts, which
+# results in more stable simulations. Need to fix some stuff though.
 model_file = source_dir / 'm8b2_rapijf.6.xml'
 import libsbml as sbml
 # read model using libsbml
@@ -121,6 +123,8 @@ a.setMath(sbml.parseL3Formula('0.0'))
 event.addEventAssignment(a)
 sbml_model.addEvent(event)
 
+
+# add event, only required for figure 3A right panel, no effect on any other condition since times are smaller
 event = sbml_model.createEvent()
 event.setId('insulin_restimulation_start')
 trigger = event.createTrigger()
@@ -158,7 +162,8 @@ t_ins = {
 # - i: m8b2_ins.6.mod
 # - j: m8b2_jnk.6.mod
 # - f: m8b2_foxo.6.mod
-# - e: m8b2_events.ins5d.mod (insulin events, giant mess, at least in the ins5d case)
+# - e: m8b2_events.ins5d.mod (insulin events, giant mess, at least in the ins5d case, but we can handle everything
+#                             else with the event code above)
 
 # this means that for some of the simulations, we need to disable jnk/foxo components. To emulate this, we can
 # add indicator variables to the rate laws of the respective reactions
@@ -190,17 +195,16 @@ i_f.setId('indicator_foxo')
 i_f.setValue(0)
 i_f.setConstant(True)
 
-# can be uncommented to fix some of the discrepancies
-# to reference simulations in AMICI
-# r_tx = sbml_model.createParameter()
-# r_tx.setId('tx_ratio_SOD2')
-# r_tx.setValue(1.0)
-# r_tx.setConstant(True)
+if ATTEMPT_FIX_FIGURE_2H:
+    r_tx = sbml_model.createParameter()
+    r_tx.setId('tx_ratio_SOD2')
+    r_tx.setValue(1.0)
+    r_tx.setConstant(True)
 
-# r_tx = sbml_model.createParameter()
-# r_tx.setId('tx_ratio_InR')
-# r_tx.setValue(1.0)
-# r_tx.setConstant(True)
+    r_tx = sbml_model.createParameter()
+    r_tx.setId('tx_ratio_InR')
+    r_tx.setValue(1.0)
+    r_tx.setConstant(True)
 
 
 for r_num in range(100, 407):
@@ -208,12 +212,11 @@ for r_num in range(100, 407):
     kin_law = r.getKineticLaw()
     formula = sbml.formulaToL3String(kin_law.getMath())
     formula += ' * indicator_foxo'
-    # can be uncommented to fix some of the discrepancies
-    # to reference simulations in AMICI
-    # if r.getName().startswith('transcription of SOD2'):
-    #     formula += ' * tx_ratio_SOD2'
-    # if r.getName().startswith('transcription of InR'):
-    #     formula += ' * tx_ratio_InR'
+    if ATTEMPT_FIX_FIGURE_2H:
+        if r.getName().startswith('transcription of SOD2'):
+            formula += ' * tx_ratio_SOD2'
+        if r.getName().startswith('transcription of InR'):
+            formula += ' * tx_ratio_InR'
     kin_law.setMath(sbml.parseL3Formula(formula))
 
 indicator_foxo = {
@@ -279,12 +282,9 @@ for p in pnames:
 # k1, kminus1 (stagsted, fig1)
 # k7, kminus7 (cedersund)
 # k8, kminus8 (stagsted, fig3)
-
 # k30f, k30r, k35f [19 (Mahadev 2001), 58 (Lee 1998)]
-
 # effect of ROS on activation of JNK and IKK (k32f, k32r, k42f, k42r, k43f, k43r, based on table in manuscript)  essers
-
-# SOD2 and InR transcriptional parameter were tuned such that stable cycles appear
+# SOD2 and InR transcriptional parameters were tuned such that stable cycles appear (ignored here)
 
 estimated_parameters = [
     'k1', 'kminus1', 'k7', 'kminus7a', 'kminus7b', 'k8', 'kminus8', 'k30f', 'k30r', 'k35f', 'k32f', 'k32r', 'k42f',
@@ -406,17 +406,19 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
 
     # Fig 2B: Insulin maps to insconc
     # Fig 2C/2D: only time?
-    # Fig 3B: Insulin "maps" to insconc (5-->0.0, 5e4-->5.0), H2O2 "maps" to extracellular_ROS (rosconc) (0-->0.0, 5e4-->60)
+    # Fig 3B:
+    # - Insulin "maps" to insconc (5-->0.0, 5e4-->5.0)
+    # - H2O2 "maps" to extracellular_ROS (0-->0.0, 5e4-->60)
     if panel == '3B':
         insconc = {0.0: 5, 5.0: 5e4}.get(insconc)
         rosconc = {0.0: 0, 60.0: 5e4}.get(rosconc)
     # maps: sim --> data
-    # Fig 3C: H2O2 maps to extracellular_ROS*2 (rosconc ?)
+    # Fig 3C: H2O2 maps to extracellular_ROS*2
     if panel == '3B':
         rosconc = rosconc / 2
 
     # the R scripts use `insconc`, which is computed using an assignment rule (concentration), instead of
-    # `Ins`, which is a species (with amounts?). To use values for initialization, we need to convert:
+    # `Ins`, which is a species (with amounts). To use values for initialization, we need to convert:
     #
     # insconc = (Ins [species] * extracellular [compartment]) / (navo [parameter] * vextracellular [parameter])
     # Ins = insconc * (navo * vextracellular) / extracellular
@@ -434,7 +436,7 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
 
     Ros = rosconc
     # check we are actually using the same values as in the supplementary material
-    # 2B + ins=1e-14/5e-8 not included in simulations/plot :shrug:
+    # 2B: insconc=1e-14/5e-8 not included in simulations/plot :shrug:
 
     if panel not in ['2B', '3C']:
         assert np.isclose(insconc, sim.insconc.unique(), atol=0, rtol=1e-2).any()
@@ -460,6 +462,7 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
             'k4': k4[data_mappings[dataset]],
             'kminus4': kminus4[data_mappings[dataset]],
             'k_irs1_basal_syn': k_irs1_basal_syn[data_mappings[dataset]],
+            # extracted from simulations, see below
             'E2F1': 150.0 if data_mappings[dataset] == 'fig2H' else np.NaN
         })
 
@@ -503,13 +506,14 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
         inr = np.NaN
         irs = np.NaN
 
-    # if dataset == 'fig2H':
-    #     # values inferred based on data mismatch
-    #     tx_inr = 1/0.4
-    #     tx_sod2 = 1/0.8
-    # else:
-    #     tx_inr = np.NaN
-    #     tx_sod2 = np.NaN
+    if ATTEMPT_FIX_FIGURE_2H:
+        if dataset == 'fig2H':
+            # values inferred based on data mismatch
+            tx_inr = 1/0.4
+            tx_sod2 = 1/0.8
+        else:
+            tx_inr = np.NaN
+            tx_sod2 = np.NaN
 
     if single_ins and single_sod2:
         conditions_ins_sod = ((insconc, sod2, df),)
@@ -546,7 +550,7 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
         measurements_test.append(m)
 
         if condition_id not in (c[petab.CONDITION_ID] for c in conditions_test):
-            conditions_test.append({
+            c = {
                 petab.CONDITION_ID: condition_id,
                 'extracellular_ROS': rosconc,
                 'Ins': insconc,
@@ -563,9 +567,12 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
                 'k4': k4[dataset],
                 'kminus4': kminus4[dataset],
                 'k_irs1_basal_syn': k_irs1_basal_syn[dataset],
-                # 'tx_ratio_InR': tx_inr,
-                # 'tx_ratio_SOD2': tx_sod2,
-            })
+            }
+            if ATTEMPT_FIX_FIGURE_2H:
+                c['tx_ratio_InR'] = tx_inr
+                c['tx_ratio_SOD2'] = tx_sod2
+            conditions_test.append(c)
+
 observable_table = pd.DataFrame(observables).set_index(petab.OBSERVABLE_ID)
 observable_table_test = pd.DataFrame(observables_test).set_index(petab.OBSERVABLE_ID)
 parameter_table = pd.DataFrame(parameters).set_index(petab.PARAMETER_ID)
@@ -615,7 +622,7 @@ petab_problem_test = petab.Problem(
     parameter_df=parameter_table_test,
 )
 
-# petab.lint_problem(petab_problem_test)
+petab.lint_problem(petab_problem_test)
 
 petab_problem.to_files(
     model_file=f'model_{model_name}.xml',
