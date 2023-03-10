@@ -6,6 +6,6 @@ problems:
   measurement_files:
   - measurementData_Smith_BMCSystBiol2013_test.tsv
   sbml_files:
-  - model_Smith_BMCSystBiol2013.xml
+  - ../model_Smith_BMCSystBiol2013.xml
   observable_files:
   - observables_Smith_BMCSystBiol2013_test.tsv

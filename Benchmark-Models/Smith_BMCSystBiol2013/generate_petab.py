@@ -2,13 +2,14 @@ import pandas as pd
 import numpy as np
 import petab
 import re
+import os
 import petab.models
 
 from pathlib import Path
+from urllib.request import urlopen
 
 model_dir = Path(__file__).parent
 model_name = 'Smith_BMCSystBiol2013'
-source_dir = model_dir / "source"
 
 ATTEMPT_FIX_FIGURE_2H = False
 
@@ -16,34 +17,34 @@ simulations = dict()
 data = dict()
 # -- figure 1 --
 simfiles = {
-    'fig1': 'm8b2_rapie.6-t60.txt',
-    'fig2A': 'm8b2_rapie.6-t60.txt',
+    # used in 1 2A figures, assuming equal name means equal data
+    'fig2A': 'https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/A/m8b2_rapie.6-t60.txt',
     # used in 2B 2E 3A figures, assuming equal name means equal data
-    'base': 'm8b2_rapi.6-insscan.txt',
-    'fig2E': 'm8b2_rapi.6-insscan-nox0.txt',
-    'fig2F': 'pj.6-t60-scanextROS-2SOD.txt',
-    'fig2H': 'm8b2_rapijf.6.InsROS_out.txt',
-    'fig3A_left': 'm8b2_rapi_sensitized-insscan.txt',
-    'fig3A_right': 'm8b2_rapijfe.6.fasting-t3000.txt',
+    'base': 'https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/B/m8b2_rapi.6-insscan.txt',
+    'fig2E': 'https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/E/m8b2_rapi.6-insscan-nox0.txt',
+    'fig2F': 'https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/F/pj.6-t60-scanextROS-2SOD.txt',
+    'fig2H': 'https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/H/m8b2_rapijf.6.InsROS_out.txt',
+    'fig3A_left': 'https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig3/A/m8b2_rapi_sensitized-insscan.txt',
+    'fig3A_right': 'https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig3/A/m8b2_rapijfe.6.fasting-t3000.txt',
 }
 
 # -- figure 2 data --
-data['pi3k_fig2B'] = pd.read_csv(source_dir / 'stagsted_93_fig3.txt', sep='\s+', skiprows=range(3))
+data['pi3k_fig2B'] = pd.read_csv('https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/B/stagsted_93_fig3.txt', sep='\s+', skiprows=range(3))
 data['pi3k_fig2B']['Time'] = 15  # 15 min according to simulation data (m8b2_rapi.6-insscan.txt)
-data['ins_fig2B'] = pd.read_csv(source_dir / 'stagsted_93_fig1_boundi.txt', sep='\s+', skiprows=range(2))
+data['ins_fig2B'] = pd.read_csv('https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/B/stagsted_93_fig1_boundi.txt', sep='\s+', skiprows=range(2))
 data['ins_fig2B']['Time'] = 15  # 15 min according to simulation data (m8b2_rapi.6-insscan.txt)
-data['glut4_fig2B'] = pd.read_csv(source_dir / 'stagsted_93_fig1_glut.txt', sep='\s+', skiprows=range(2))
+data['glut4_fig2B'] = pd.read_csv('https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/B/stagsted_93_fig1_glut.txt', sep='\s+', skiprows=range(2))
 data['glut4_fig2B']['Time'] = 15  # 15 min according to simulation data (m8b2_rapi.6-insscan.txt)
-data['p_irs_fig2C'] = pd.read_csv(source_dir / 'cedersund_irs_p_fig1c.dat.txt', sep='\t')
-data['ptp1b_fig2D'] = pd.read_csv(source_dir / 'mahadev_01b_fig2.txt', sep='\t', skiprows=range(1))
+data['p_irs_fig2C'] = pd.read_csv('https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/C/cedersund_irs_p_fig1c.dat', sep='\t')
+data['ptp1b_fig2D'] = pd.read_csv('https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig2/D/mahadev_01b_fig2.txt', sep='\t', skiprows=range(1))
 
 # -- figure 3 data --
-data['gluc_fig3B'] = pd.read_csv(source_dir / 'archuleta_09_fig1.txt', sep='\s+', skiprows=range(3))
-data['sod2_fig3C'] = pd.read_csv(source_dir / 'essers_emboj_04_fig4b.txt', sep='\s+', skiprows=range(2))
+data['gluc_fig3B'] = pd.read_csv('https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig3/B/archuleta_09_fig1.txt', sep='\s+', skiprows=range(3))
+data['sod2_fig3C'] = pd.read_csv('https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig3/C/essers_emboj_04_fig4b.txt', sep='\s+', skiprows=range(2))
 data['sod2_fig3C']['Time'] = 16 * 60  # 16h according to comment in source data, confirmed in panel in manuscript
 
 for figname, simfile in simfiles.items():
-    simulations[figname] = pd.read_csv(source_dir / simfile, sep='\t')
+    simulations[figname] = pd.read_csv(simfile, sep='\t')
 
 # cleanup
 for df in list(simulations.values()) + list(data.values()):
@@ -85,11 +86,11 @@ df_data = pd.concat(data.values(), ignore_index=True)
 
 # use original model version instead of BIOMODELS since it properly implements everything as amounts, which
 # results in more stable simulations. Need to fix some stuff though.
-model_file = source_dir / 'm8b2_rapijf.6.xml'
+model_file = 'https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/m8b2_complete_model/m8b2_rapijf.6.xml'
 import libsbml as sbml
 # read model using libsbml
 sbml_reader = sbml.SBMLReader()
-sbml_document = sbml_reader.readSBMLFromFile(str(model_file))
+sbml_document = sbml_reader.readSBMLFromString(urlopen(model_file).read().decode('utf-8'))
 sbml_model = sbml_document.getModel()
 
 sbml_document.setLevelAndVersion(2, 4)
@@ -149,7 +150,8 @@ sbml_model.addEvent(event)
 
 # confirmed by inspection of simfiles, time of insulin stimulation
 t_ins = {
-    figname: 15.0 if 'e.6-t60' in simfile or 'fasting-t3000' in simfile else float(simulations[figname].Time.max()*2)
+    figname: 15.0 if 'e.6-t60' in simfile or 'fasting-t3000' in simfile
+    else float(simulations[figname].Time.max()*2)
     for figname, simfile in simfiles.items()
 }
 
@@ -182,8 +184,8 @@ for r_id in ('R42f', 'R42r', 'R43f', 'R43r', 'R32f', 'R32r'):
     kin_law.setMath(sbml.parseL3Formula(formula))
 
 indicator_jnk = {
-    figname: 'j' in simfile.split('.')[0].split('_')[1]
-    if simfile.startswith('m8b2') else True
+    figname: 'j' in simfile.split('/')[-1].split('.')[0].split('_')[1]
+    if simfile.split('/')[-1].startswith('m8b2') else True
     for figname, simfile in simfiles.items()
 }
 
@@ -220,8 +222,8 @@ for r_num in range(100, 407):
     kin_law.setMath(sbml.parseL3Formula(formula))
 
 indicator_foxo = {
-    figname: 'f' in simfile.split('.')[0].split('_')[1]
-    if simfile.startswith('m8b2') else False
+    figname: 'f' in simfile.split('/')[-1].split('.')[0].split('_')[1]
+    if simfile.split('/')[-1].startswith('m8b2') else False
     for figname, simfile in simfiles.items()
 }
 
@@ -516,21 +518,21 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
             tx_sod2 = np.NaN
 
     if single_ins and single_sod2:
-        conditions_ins_sod = ((insconc, sod2, df),)
+        conditions_ins_sod = (((insconc, sod2), df),)
     elif not single_ins and single_sod2:
         conditions_ins_sod = (
-            (insconc, sod2, df_ins)
+            ((insconc, sod2), df_ins)
             for insconc, df_ins in df.groupby('Ins')
         )
     elif single_ins and not single_sod2:
         conditions_ins_sod = (
-            (insconc, sod2, df_sod2)
+            ((insconc, sod2), df_sod2)
             for sod2, df_sod2 in df.groupby('cytoplasm_SOD2')
         )
     else:
         conditions_ins_sod = df.groupby(['Ins', 'cytoplasm_SOD2'])
 
-    for insconc, sod2, df_ins_sod in conditions_ins_sod:
+    for (insconc, sod2), df_ins_sod in conditions_ins_sod:
         m = df_ins_sod.melt(
             id_vars=['Time'],
             value_vars=[c for c in df.columns if c != 'Time'],
@@ -637,11 +639,11 @@ petab_problem.to_files(
 
 petab_problem_test.to_files(
     model_file=f'model_{model_name}.xml',
-    observable_file=f'observables_{model_name}_test.tsv',
-    parameter_file=f'parameters_{model_name}.tsv',
-    condition_file=f'experimentalCondition_{model_name}_test.tsv',
-    measurement_file=f'measurementData_{model_name}_test.tsv',
-    yaml_file=f'{model_name}_test.yaml',
-    prefix_path=model_dir / 'sim_test',
+    observable_file=os.path.join('sim_test', f'observables_{model_name}_test.tsv'),
+    parameter_file=os.path.join('sim_test', f'parameters_{model_name}.tsv'),
+    condition_file=os.path.join('sim_test', f'experimentalCondition_{model_name}_test.tsv'),
+    measurement_file=os.path.join('sim_test', f'measurementData_{model_name}_test.tsv'),
+    yaml_file=os.path.join('sim_test', f'{model_name}_test.yaml'),
+    prefix_path=model_dir,
     relative_paths=True,
 )
