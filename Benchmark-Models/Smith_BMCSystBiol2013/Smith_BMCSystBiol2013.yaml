@@ -9,3 +9,5 @@ problems:
   - model_Smith_BMCSystBiol2013.xml
   observable_files:
   - observables_Smith_BMCSystBiol2013.tsv
+  visualization_files:
+  - visualizationSpecification_Smith_BMCSystBiol2013.tsv

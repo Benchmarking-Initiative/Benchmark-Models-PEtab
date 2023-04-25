@@ -256,6 +256,313 @@
       <parameter id="t_ins" value="15" constant="true"/>
       <parameter id="indicator_jnk" value="0" constant="true"/>
       <parameter id="indicator_foxo" value="0" constant="true"/>
+      <parameter id="R100_ksynth" value="0.0055"/>
+      <parameter id="R101_ktr" value="0.181818181818"/>
+      <parameter id="R102_ktr" value="0.055"/>
+      <parameter id="R103_ktr" value="0.25"/>
+      <parameter id="R104_ktr" value="0.125"/>
+      <parameter id="R105_ktr" value="0.181818181818"/>
+      <parameter id="R106_ktr" value="0.055"/>
+      <parameter id="R107_ktr" value="0.25"/>
+      <parameter id="R108_ktr" value="0.125"/>
+      <parameter id="R109_ktr" value="1.81818181818"/>
+      <parameter id="R110_ktr" value="0.0055"/>
+      <parameter id="R111_ktr" value="0.25"/>
+      <parameter id="R112_ktr" value="0.125"/>
+      <parameter id="R113_ktr" value="1.81818181818"/>
+      <parameter id="R114_ktr" value="0.0055"/>
+      <parameter id="R115_ktr" value="0.25"/>
+      <parameter id="R116_ktr" value="0.125"/>
+      <parameter id="R117_ktr" value="0.0909090909091"/>
+      <parameter id="R118_ktr" value="0.55"/>
+      <parameter id="R119_ktr" value="0.25"/>
+      <parameter id="R120_ktr" value="0.125"/>
+      <parameter id="R121_ktr" value="0.0909090909091"/>
+      <parameter id="R122_ktr" value="0.55"/>
+      <parameter id="R123_ktr" value="0.25"/>
+      <parameter id="R124_ktr" value="0.125"/>
+      <parameter id="R125_ktr" value="0.909090909091"/>
+      <parameter id="R126_ktr" value="0.055"/>
+      <parameter id="R127_ktr" value="0.25"/>
+      <parameter id="R128_ktr" value="0.125"/>
+      <parameter id="R129_ktr" value="0.909090909091"/>
+      <parameter id="R130_ktr" value="0.055"/>
+      <parameter id="R131_ktr" value="0.25"/>
+      <parameter id="R132_ktr" value="0.125"/>
+      <parameter id="R133_ktr" value="0.0181818181818"/>
+      <parameter id="R134_ktr" value="0.55"/>
+      <parameter id="R135_ktr" value="0.125"/>
+      <parameter id="R136_ktr" value="0.125"/>
+      <parameter id="R137_ktr" value="0.0181818181818"/>
+      <parameter id="R138_ktr" value="0.55"/>
+      <parameter id="R139_ktr" value="0.125"/>
+      <parameter id="R140_ktr" value="0.125"/>
+      <parameter id="R141_ktr" value="0.181818181818"/>
+      <parameter id="R142_ktr" value="0.055"/>
+      <parameter id="R143_ktr" value="0.125"/>
+      <parameter id="R144_ktr" value="0.125"/>
+      <parameter id="R145_ktr" value="0.181818181818"/>
+      <parameter id="R146_ktr" value="0.055"/>
+      <parameter id="R147_ktr" value="0.125"/>
+      <parameter id="R148_ktr" value="0.125"/>
+      <parameter id="R149_ktr" value="0.00909090909091"/>
+      <parameter id="R150_ktr" value="5.5"/>
+      <parameter id="R151_ktr" value="0.125"/>
+      <parameter id="R152_ktr" value="0.125"/>
+      <parameter id="R153_ktr" value="0.00909090909091"/>
+      <parameter id="R154_ktr" value="5.5"/>
+      <parameter id="R155_ktr" value="0.125"/>
+      <parameter id="R156_ktr" value="0.125"/>
+      <parameter id="R157_ktr" value="0.0909090909091"/>
+      <parameter id="R158_ktr" value="0.55"/>
+      <parameter id="R159_ktr" value="0.125"/>
+      <parameter id="R160_ktr" value="0.125"/>
+      <parameter id="R161_ktr" value="0.0909090909091"/>
+      <parameter id="R162_ktr" value="0.55"/>
+      <parameter id="R163_ktr" value="0.125"/>
+      <parameter id="R164_ktr" value="0.125"/>
+      <parameter id="R165_kkin" value="0.0003"/>
+      <parameter id="R166_kkin" value="0.0003"/>
+      <parameter id="R167_kkin" value="0.0003"/>
+      <parameter id="R168_kkin" value="0.0003"/>
+      <parameter id="R169_kkin" value="0.0003"/>
+      <parameter id="R170_kkin" value="0.0003"/>
+      <parameter id="R171_kkin" value="0.0003"/>
+      <parameter id="R172_kkin" value="0.0003"/>
+      <parameter id="R173_kkin" value="0.0003"/>
+      <parameter id="R174_kkin" value="0.0003"/>
+      <parameter id="R175_kkin" value="0.0003"/>
+      <parameter id="R176_kkin" value="0.0003"/>
+      <parameter id="R177_kkin" value="0.0003"/>
+      <parameter id="R178_kkin" value="0.0003"/>
+      <parameter id="R179_kkin" value="0.0003"/>
+      <parameter id="R180_kkin" value="0.0003"/>
+      <parameter id="R181_kkin" value="0.0003"/>
+      <parameter id="R182_kkin" value="0.0003"/>
+      <parameter id="R183_kkin" value="0.0003"/>
+      <parameter id="R184_kkin" value="0.0003"/>
+      <parameter id="R185_kkin" value="0.0003"/>
+      <parameter id="R186_kkin" value="0.0003"/>
+      <parameter id="R187_kkin" value="0.0003"/>
+      <parameter id="R188_kkin" value="0.0003"/>
+      <parameter id="R189_kkin" value="0.0003"/>
+      <parameter id="R190_kkin" value="0.0003"/>
+      <parameter id="R191_kkin" value="0.0003"/>
+      <parameter id="R192_kkin" value="0.0003"/>
+      <parameter id="R193_kkin" value="0.0003"/>
+      <parameter id="R194_kkin" value="0.0003"/>
+      <parameter id="R195_kkin" value="0.0003"/>
+      <parameter id="R196_kkin" value="0.0003"/>
+      <parameter id="R197_kkin" value="0.0003"/>
+      <parameter id="R198_kkin" value="0.0003"/>
+      <parameter id="R199_kkin" value="0.0003"/>
+      <parameter id="R200_kkin" value="0.0003"/>
+      <parameter id="R201_kkin" value="0.0003"/>
+      <parameter id="R202_kkin" value="0.0003"/>
+      <parameter id="R203_kkin" value="0.0003"/>
+      <parameter id="R204_kkin" value="0.0003"/>
+      <parameter id="R205_kkin" value="0.0003"/>
+      <parameter id="R206_kkin" value="0.0003"/>
+      <parameter id="R207_kkin" value="0.0003"/>
+      <parameter id="R208_kkin" value="0.0003"/>
+      <parameter id="R209_kkin" value="0.0003"/>
+      <parameter id="R210_kkin" value="0.0003"/>
+      <parameter id="R211_kkin" value="0.0003"/>
+      <parameter id="R212_kkin" value="0.0003"/>
+      <parameter id="R213_kdephos" value="1e-06"/>
+      <parameter id="R214_kdephos" value="1e-06"/>
+      <parameter id="R215_kdephos" value="1e-06"/>
+      <parameter id="R216_kdephos" value="1e-06"/>
+      <parameter id="R217_kdephos" value="1e-06"/>
+      <parameter id="R218_kdephos" value="1e-06"/>
+      <parameter id="R219_kdephos" value="1e-06"/>
+      <parameter id="R220_kdephos" value="1e-06"/>
+      <parameter id="R221_kdephos" value="1e-06"/>
+      <parameter id="R222_kdephos" value="1e-06"/>
+      <parameter id="R223_kdephos" value="1e-06"/>
+      <parameter id="R224_kdephos" value="1e-06"/>
+      <parameter id="R225_kdephos" value="1e-06"/>
+      <parameter id="R226_kdephos" value="1e-06"/>
+      <parameter id="R227_kdephos" value="1e-06"/>
+      <parameter id="R228_kdephos" value="1e-06"/>
+      <parameter id="R229_kdephos" value="1e-06"/>
+      <parameter id="R230_kdephos" value="1e-06"/>
+      <parameter id="R231_kdephos" value="1e-06"/>
+      <parameter id="R232_kdephos" value="1e-06"/>
+      <parameter id="R233_kdephos" value="1e-06"/>
+      <parameter id="R234_kdephos" value="1e-06"/>
+      <parameter id="R235_kdephos" value="1e-06"/>
+      <parameter id="R236_kdephos" value="1e-06"/>
+      <parameter id="R237_kkin" value="5e-05"/>
+      <parameter id="R238_kkin" value="5e-05"/>
+      <parameter id="R239_kkin" value="5e-05"/>
+      <parameter id="R240_kkin" value="5e-05"/>
+      <parameter id="R241_kkin" value="5e-05"/>
+      <parameter id="R242_kkin" value="5e-05"/>
+      <parameter id="R243_kkin" value="5e-05"/>
+      <parameter id="R244_kkin" value="5e-05"/>
+      <parameter id="R245_kkin" value="5e-05"/>
+      <parameter id="R246_kkin" value="5e-05"/>
+      <parameter id="R247_kkin" value="5e-05"/>
+      <parameter id="R248_kkin" value="5e-05"/>
+      <parameter id="R249_kdephos" value="1e-06"/>
+      <parameter id="R250_kdephos" value="1e-06"/>
+      <parameter id="R251_kdephos" value="1e-06"/>
+      <parameter id="R252_kdephos" value="1e-06"/>
+      <parameter id="R253_kdephos" value="1e-06"/>
+      <parameter id="R254_kdephos" value="1e-06"/>
+      <parameter id="R255_kdephos" value="1e-06"/>
+      <parameter id="R256_kdephos" value="1e-06"/>
+      <parameter id="R257_kdephos" value="1e-06"/>
+      <parameter id="R258_kdephos" value="1e-06"/>
+      <parameter id="R259_kdephos" value="1e-06"/>
+      <parameter id="R260_kdephos" value="1e-06"/>
+      <parameter id="R261_kkin" value="5e-05"/>
+      <parameter id="R262_kkin" value="5e-05"/>
+      <parameter id="R263_kkin" value="5e-05"/>
+      <parameter id="R264_kkin" value="5e-05"/>
+      <parameter id="R265_kkin" value="5e-05"/>
+      <parameter id="R266_kkin" value="5e-05"/>
+      <parameter id="R267_kkin" value="5e-05"/>
+      <parameter id="R268_kkin" value="5e-05"/>
+      <parameter id="R269_kkin" value="5e-05"/>
+      <parameter id="R270_kkin" value="5e-05"/>
+      <parameter id="R271_kkin" value="5e-05"/>
+      <parameter id="R272_kkin" value="5e-05"/>
+      <parameter id="R273_kdephos" value="1e-06"/>
+      <parameter id="R274_kdephos" value="1e-06"/>
+      <parameter id="R275_kdephos" value="1e-06"/>
+      <parameter id="R276_kdephos" value="1e-06"/>
+      <parameter id="R277_kdephos" value="1e-06"/>
+      <parameter id="R278_kdephos" value="1e-06"/>
+      <parameter id="R279_kdephos" value="1e-06"/>
+      <parameter id="R280_kdephos" value="1e-06"/>
+      <parameter id="R281_kdephos" value="1e-06"/>
+      <parameter id="R282_kdephos" value="1e-06"/>
+      <parameter id="R283_kdephos" value="1e-06"/>
+      <parameter id="R284_kdephos" value="1e-06"/>
+      <parameter id="R285_kkin" value="5e-05"/>
+      <parameter id="R286_kkin" value="5e-05"/>
+      <parameter id="R287_kkin" value="5e-05"/>
+      <parameter id="R288_kkin" value="5e-05"/>
+      <parameter id="R289_kkin" value="5e-05"/>
+      <parameter id="R290_kkin" value="5e-05"/>
+      <parameter id="R291_kdephos" value="1e-06"/>
+      <parameter id="R292_kdephos" value="1e-06"/>
+      <parameter id="R293_kdephos" value="1e-06"/>
+      <parameter id="R294_kdephos" value="1e-06"/>
+      <parameter id="R295_kdephos" value="1e-06"/>
+      <parameter id="R296_kdephos" value="1e-06"/>
+      <parameter id="R297_kkin" value="5e-05"/>
+      <parameter id="R298_kkin" value="5e-05"/>
+      <parameter id="R299_kkin" value="5e-05"/>
+      <parameter id="R300_kkin" value="5e-05"/>
+      <parameter id="R301_kkin" value="5e-05"/>
+      <parameter id="R302_kkin" value="5e-05"/>
+      <parameter id="R303_kdephos" value="1e-06"/>
+      <parameter id="R304_kdephos" value="1e-06"/>
+      <parameter id="R305_kdephos" value="1e-06"/>
+      <parameter id="R306_kdephos" value="1e-06"/>
+      <parameter id="R307_kdephos" value="1e-06"/>
+      <parameter id="R308_kdephos" value="1e-06"/>
+      <parameter id="R309_kkin" value="5e-05"/>
+      <parameter id="R310_kkin" value="5e-05"/>
+      <parameter id="R311_kkin" value="5e-05"/>
+      <parameter id="R312_kkin" value="5e-05"/>
+      <parameter id="R313_kkin" value="5e-05"/>
+      <parameter id="R314_kkin" value="5e-05"/>
+      <parameter id="R315_kdephos" value="1e-06"/>
+      <parameter id="R316_kdephos" value="1e-06"/>
+      <parameter id="R317_kdephos" value="1e-06"/>
+      <parameter id="R318_kdephos" value="1e-06"/>
+      <parameter id="R319_kdephos" value="1e-06"/>
+      <parameter id="R320_kdephos" value="1e-06"/>
+      <parameter id="R321_kkin" value="5e-05"/>
+      <parameter id="R322_kkin" value="5e-05"/>
+      <parameter id="R323_kkin" value="5e-05"/>
+      <parameter id="R324_kkin" value="5e-05"/>
+      <parameter id="R325_kkin" value="5e-05"/>
+      <parameter id="R326_kkin" value="5e-05"/>
+      <parameter id="R327_kdephos" value="1e-06"/>
+      <parameter id="R328_kdephos" value="1e-06"/>
+      <parameter id="R329_kdephos" value="1e-06"/>
+      <parameter id="R330_kdephos" value="1e-06"/>
+      <parameter id="R331_kdephos" value="1e-06"/>
+      <parameter id="R332_kdephos" value="1e-06"/>
+      <parameter id="R333_kub" value="1e-06"/>
+      <parameter id="R334_kub" value="1e-06"/>
+      <parameter id="R335_kub" value="1e-06"/>
+      <parameter id="R336_kub" value="1e-06"/>
+      <parameter id="R337_kub" value="1e-06"/>
+      <parameter id="R338_kub" value="1e-06"/>
+      <parameter id="R339_kub" value="2.2e-05"/>
+      <parameter id="R340_kub" value="2.2e-05"/>
+      <parameter id="R341_kub" value="2.2e-05"/>
+      <parameter id="R342_kub" value="2.2e-05"/>
+      <parameter id="R343_kub" value="2.2e-05"/>
+      <parameter id="R344_kub" value="2.2e-05"/>
+      <parameter id="R345_kub" value="3e-06"/>
+      <parameter id="R346_kub" value="3e-06"/>
+      <parameter id="R347_kub" value="3e-06"/>
+      <parameter id="R348_kub" value="3e-06"/>
+      <parameter id="R349_kub" value="3e-06"/>
+      <parameter id="R350_kub" value="3e-06"/>
+      <parameter id="R351_kub" value="6.6e-05"/>
+      <parameter id="R352_kub" value="6.6e-05"/>
+      <parameter id="R353_kub" value="6.6e-05"/>
+      <parameter id="R354_kub" value="6.6e-05"/>
+      <parameter id="R355_kub" value="6.6e-05"/>
+      <parameter id="R356_kub" value="6.6e-05"/>
+      <parameter id="R357_kdeg" value="0.0001"/>
+      <parameter id="R358_kdeg" value="0.0001"/>
+      <parameter id="R359_kdeg" value="0.0001"/>
+      <parameter id="R360_kdeg" value="0.0001"/>
+      <parameter id="R361_kdeg" value="0.0001"/>
+      <parameter id="R362_kdeg" value="0.0001"/>
+      <parameter id="R363_kdeg" value="0.0001"/>
+      <parameter id="R364_kdeg" value="0.0001"/>
+      <parameter id="R365_ktranscr" value="0.24"/>
+      <parameter id="R366_ktranscr" value="0.95"/>
+      <parameter id="R367_ktranscr" value="0.24"/>
+      <parameter id="R368_ktranscr" value="0.95"/>
+      <parameter id="R369_ktranscr" value="0.24"/>
+      <parameter id="R370_ktranscr" value="0.95"/>
+      <parameter id="R371_ktranscr" value="0.24"/>
+      <parameter id="R372_ktranscr" value="0.95"/>
+      <parameter id="R373_ktranscr" value="0.24"/>
+      <parameter id="R374_ktranscr" value="0.95"/>
+      <parameter id="R375_ktranscr" value="0.24"/>
+      <parameter id="R376_ktranscr" value="0.95"/>
+      <parameter id="R377_ktranscr" value="0.24"/>
+      <parameter id="R378_ktranscr" value="0.95"/>
+      <parameter id="R379_ktranscr" value="0.24"/>
+      <parameter id="R380_ktranscr" value="0.95"/>
+      <parameter id="R381_ktranscr" value="0.24"/>
+      <parameter id="R382_ktranscr" value="0.95"/>
+      <parameter id="R383_ktranscr" value="0.24"/>
+      <parameter id="R384_ktranscr" value="0.95"/>
+      <parameter id="R385_ktranscr" value="0.24"/>
+      <parameter id="R386_ktranscr" value="0.95"/>
+      <parameter id="R387_ktranscr" value="0.24"/>
+      <parameter id="R388_ktranscr" value="0.95"/>
+      <parameter id="R389_ktranscr" value="0.24"/>
+      <parameter id="R390_ktranscr" value="0.95"/>
+      <parameter id="R391_ktranscr" value="0.24"/>
+      <parameter id="R392_ktranscr" value="0.95"/>
+      <parameter id="R393_ktranscr" value="0.24"/>
+      <parameter id="R394_ktranscr" value="0.95"/>
+      <parameter id="R395_ktranscr" value="0.24"/>
+      <parameter id="R396_ktranscr" value="0.95"/>
+      <parameter id="R397_k_basal_transcr" value="5"/>
+      <parameter id="R398_kexp" value="0.22"/>
+      <parameter id="R399_kmdeg" value="5.622"/>
+      <parameter id="R400_ktransl" value="2.46"/>
+      <parameter id="R401_kpdeg" value="0.0044"/>
+      <parameter id="R402_k_basal_transcr" value="15"/>
+      <parameter id="R403_kexp" value="0.22"/>
+      <parameter id="R404_kmdeg" value="5.622"/>
+      <parameter id="R405_ktransl" value="1.23"/>
+      <parameter id="R406_kpdeg" value="0.0019"/>
     </listOfParameters>
     <listOfRules>
       <assignmentRule variable="InR_bound">
@@ -2041,13 +2348,10 @@
             <apply>
               <times/>
               <ci> E2F1 </ci>
-              <ci> ksynth </ci>
+              <ci> R100_ksynth </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ksynth" value="0.0055"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R101" name="transport cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0" reversible="false">
@@ -2062,13 +2366,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R101_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.181818181818"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R102" name="transport nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0" reversible="false">
@@ -2083,13 +2384,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R102_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.055"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R103" name="transport nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0" reversible="false">
@@ -2104,13 +2402,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R103_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.25"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R104" name="transport dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0" reversible="false">
@@ -2125,13 +2420,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R104_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R105" name="transport cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1" reversible="false">
@@ -2146,13 +2438,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R105_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.181818181818"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R106" name="transport nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 to cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1" reversible="false">
@@ -2167,13 +2456,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R106_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.055"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R107" name="transport nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 to dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1" reversible="false">
@@ -2188,13 +2474,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R107_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.25"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R108" name="transport dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1" reversible="false">
@@ -2209,13 +2492,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R108_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R109" name="transport cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0" reversible="false">
@@ -2230,13 +2510,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R109_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="1.81818181818"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R110" name="transport nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0" reversible="false">
@@ -2251,13 +2528,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R110_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.0055"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R111" name="transport nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0" reversible="false">
@@ -2272,13 +2546,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R111_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.25"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R112" name="transport dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0" reversible="false">
@@ -2293,13 +2564,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R112_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R113" name="transport cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1" reversible="false">
@@ -2314,13 +2582,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R113_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="1.81818181818"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R114" name="transport nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 to cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1" reversible="false">
@@ -2335,13 +2600,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R114_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.0055"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R115" name="transport nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 to dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1" reversible="false">
@@ -2356,13 +2618,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R115_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.25"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R116" name="transport dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1" reversible="false">
@@ -2377,13 +2636,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R116_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R117" name="transport cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0" reversible="false">
@@ -2398,13 +2654,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R117_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.0909090909091"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R118" name="transport nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0" reversible="false">
@@ -2419,13 +2672,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R118_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.55"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R119" name="transport nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0" reversible="false">
@@ -2440,13 +2690,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R119_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.25"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R120" name="transport dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0" reversible="false">
@@ -2461,13 +2708,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R120_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R121" name="transport cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1" reversible="false">
@@ -2482,13 +2726,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R121_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.0909090909091"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R122" name="transport nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 to cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1" reversible="false">
@@ -2503,13 +2744,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R122_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.55"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R123" name="transport nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 to dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1" reversible="false">
@@ -2524,13 +2762,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R123_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.25"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R124" name="transport dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1" reversible="false">
@@ -2545,13 +2780,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R124_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R125" name="transport cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0" reversible="false">
@@ -2566,13 +2798,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R125_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.909090909091"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R126" name="transport nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0" reversible="false">
@@ -2587,13 +2816,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R126_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.055"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R127" name="transport nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0" reversible="false">
@@ -2608,13 +2834,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R127_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.25"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R128" name="transport dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0" reversible="false">
@@ -2629,13 +2852,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R128_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R129" name="transport cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1" reversible="false">
@@ -2650,13 +2870,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R129_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.909090909091"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R130" name="transport nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 to cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1" reversible="false">
@@ -2671,13 +2888,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R130_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.055"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R131" name="transport nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 to dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1" reversible="false">
@@ -2692,13 +2906,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R131_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.25"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R132" name="transport dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1" reversible="false">
@@ -2713,13 +2924,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R132_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R133" name="transport cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0" reversible="false">
@@ -2734,13 +2942,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R133_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.0181818181818"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R134" name="transport nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0" reversible="false">
@@ -2755,13 +2960,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R134_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.55"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R135" name="transport nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0" reversible="false">
@@ -2776,13 +2978,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R135_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R136" name="transport dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0" reversible="false">
@@ -2797,13 +2996,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R136_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R137" name="transport cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1" reversible="false">
@@ -2818,13 +3014,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R137_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.0181818181818"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R138" name="transport nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1" reversible="false">
@@ -2839,13 +3032,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R138_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.55"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R139" name="transport nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1" reversible="false">
@@ -2860,13 +3050,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R139_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R140" name="transport dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1" reversible="false">
@@ -2881,13 +3068,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R140_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R141" name="transport cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0" reversible="false">
@@ -2902,13 +3086,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R141_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.181818181818"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R142" name="transport nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0" reversible="false">
@@ -2923,13 +3104,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R142_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.055"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R143" name="transport nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0" reversible="false">
@@ -2944,13 +3122,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R143_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R144" name="transport dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0" reversible="false">
@@ -2965,13 +3140,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R144_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R145" name="transport cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1" reversible="false">
@@ -2986,13 +3158,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R145_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.181818181818"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R146" name="transport nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1" reversible="false">
@@ -3007,13 +3176,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R146_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.055"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R147" name="transport nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1" reversible="false">
@@ -3028,13 +3194,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R147_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R148" name="transport dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1" reversible="false">
@@ -3049,13 +3212,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R148_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R149" name="transport cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0" reversible="false">
@@ -3070,13 +3230,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R149_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.00909090909091"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R150" name="transport nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0" reversible="false">
@@ -3091,13 +3248,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R150_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="5.5"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R151" name="transport nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0" reversible="false">
@@ -3112,13 +3266,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R151_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R152" name="transport dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0" reversible="false">
@@ -3133,13 +3284,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R152_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R153" name="transport cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1" reversible="false">
@@ -3154,13 +3302,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R153_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.00909090909091"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R154" name="transport nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1" reversible="false">
@@ -3175,13 +3320,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R154_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="5.5"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R155" name="transport nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1" reversible="false">
@@ -3196,13 +3338,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R155_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R156" name="transport dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1" reversible="false">
@@ -3217,13 +3356,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R156_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R157" name="transport cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0" reversible="false">
@@ -3238,13 +3374,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R157_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.0909090909091"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R158" name="transport nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0" reversible="false">
@@ -3259,13 +3392,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R158_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.55"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R159" name="transport nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0" reversible="false">
@@ -3280,13 +3410,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R159_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R160" name="transport dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0" reversible="false">
@@ -3301,13 +3428,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktr </ci>
+              <ci> R160_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R161" name="transport cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1" reversible="false">
@@ -3322,13 +3446,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R161_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.0909090909091"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R162" name="transport nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1" reversible="false">
@@ -3343,13 +3464,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R162_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.55"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R163" name="transport nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1" reversible="false">
@@ -3364,13 +3482,10 @@
             <apply>
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R163_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R164" name="transport dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1" reversible="false">
@@ -3385,13 +3500,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktr </ci>
+              <ci> R164_ktr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktr" value="0.125"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R165" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 by Akt_P2" reversible="false">
@@ -3410,13 +3522,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R165_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R166" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 by Akt_P2" reversible="false">
@@ -3435,13 +3544,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R166_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R167" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 by Akt_P2" reversible="false">
@@ -3460,13 +3566,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R167_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R168" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 by Akt_P2" reversible="false">
@@ -3485,13 +3588,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R168_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R169" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 by Akt_P2" reversible="false">
@@ -3510,13 +3610,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R169_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R170" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 by Akt_P2" reversible="false">
@@ -3535,13 +3632,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R170_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R171" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 by Akt_P2" reversible="false">
@@ -3560,13 +3654,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R171_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R172" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 by Akt_P2" reversible="false">
@@ -3585,13 +3676,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R172_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R173" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 by Akt_P2" reversible="false">
@@ -3610,13 +3698,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R173_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R174" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 by Akt_P2" reversible="false">
@@ -3635,13 +3720,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R174_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R175" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 by Akt_P2" reversible="false">
@@ -3660,13 +3742,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R175_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R176" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 by Akt_P2" reversible="false">
@@ -3685,13 +3764,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R176_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R177" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 by Akt_P2" reversible="false">
@@ -3710,13 +3786,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R177_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R178" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 by Akt_P2" reversible="false">
@@ -3735,13 +3808,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R178_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R179" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 by Akt_P2" reversible="false">
@@ -3760,13 +3830,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R179_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R180" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 by Akt_P2" reversible="false">
@@ -3785,13 +3852,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R180_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R181" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 by Akt_P2" reversible="false">
@@ -3810,13 +3874,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R181_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R182" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 by Akt_P2" reversible="false">
@@ -3835,13 +3896,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R182_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R183" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 by Akt_P2" reversible="false">
@@ -3860,13 +3918,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R183_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R184" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 by Akt_P2" reversible="false">
@@ -3885,13 +3940,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R184_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R185" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 by Akt_P2" reversible="false">
@@ -3910,13 +3962,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R185_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R186" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 by Akt_P2" reversible="false">
@@ -3935,13 +3984,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R186_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R187" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 by Akt_P2" reversible="false">
@@ -3960,13 +4006,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R187_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R188" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 by Akt_P2" reversible="false">
@@ -3985,13 +4028,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> Akt_P2 </ci>
-              <ci> kkin </ci>
+              <ci> R188_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R189" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 by SGK" reversible="false">
@@ -4010,13 +4050,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R189_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R190" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 by SGK" reversible="false">
@@ -4035,13 +4072,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R190_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R191" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 by SGK" reversible="false">
@@ -4060,13 +4094,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R191_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R192" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 by SGK" reversible="false">
@@ -4085,13 +4116,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R192_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R193" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 by SGK" reversible="false">
@@ -4110,13 +4138,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R193_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R194" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 by SGK" reversible="false">
@@ -4135,13 +4160,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R194_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R195" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 by SGK" reversible="false">
@@ -4160,13 +4182,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R195_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R196" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 by SGK" reversible="false">
@@ -4185,13 +4204,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R196_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R197" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 by SGK" reversible="false">
@@ -4210,13 +4226,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R197_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R198" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 by SGK" reversible="false">
@@ -4235,13 +4248,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R198_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R199" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 by SGK" reversible="false">
@@ -4260,13 +4270,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R199_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R200" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 by SGK" reversible="false">
@@ -4285,13 +4292,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R200_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R201" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 by SGK" reversible="false">
@@ -4310,13 +4314,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R201_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R202" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 by SGK" reversible="false">
@@ -4335,13 +4336,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R202_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R203" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 by SGK" reversible="false">
@@ -4360,13 +4358,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R203_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R204" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 by SGK" reversible="false">
@@ -4385,13 +4380,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R204_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R205" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 by SGK" reversible="false">
@@ -4410,13 +4402,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R205_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R206" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 by SGK" reversible="false">
@@ -4435,13 +4424,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R206_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R207" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 by SGK" reversible="false">
@@ -4460,13 +4446,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R207_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R208" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 by SGK" reversible="false">
@@ -4485,13 +4468,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R208_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R209" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 by SGK" reversible="false">
@@ -4510,13 +4490,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R209_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R210" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 by SGK" reversible="false">
@@ -4535,13 +4512,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R210_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R211" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 by SGK" reversible="false">
@@ -4560,13 +4534,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R211_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R212" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 by SGK" reversible="false">
@@ -4585,13 +4556,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> SGK </ci>
-              <ci> kkin </ci>
+              <ci> R212_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="0.0003"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R213" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -4610,13 +4578,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R213_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R214" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -4635,13 +4600,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R214_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R215" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -4660,13 +4622,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R215_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R216" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 to cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -4685,13 +4644,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R216_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R217" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -4710,13 +4666,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R217_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R218" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 to dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -4735,13 +4688,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R218_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R219" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 by PP2A" reversible="false">
@@ -4760,13 +4710,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R219_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R220" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 by PP2A" reversible="false">
@@ -4785,13 +4732,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R220_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R221" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 by PP2A" reversible="false">
@@ -4810,13 +4754,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R221_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R222" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 to cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 by PP2A" reversible="false">
@@ -4835,13 +4776,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R222_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R223" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 by PP2A" reversible="false">
@@ -4860,13 +4798,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R223_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R224" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 to dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 by PP2A" reversible="false">
@@ -4885,13 +4820,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R224_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R225" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 by PP2A" reversible="false">
@@ -4910,13 +4842,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R225_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R226" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 by PP2A" reversible="false">
@@ -4935,13 +4864,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R226_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R227" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 by PP2A" reversible="false">
@@ -4960,13 +4886,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R227_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R228" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 to cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 by PP2A" reversible="false">
@@ -4985,13 +4908,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R228_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R229" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 by PP2A" reversible="false">
@@ -5010,13 +4930,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R229_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R230" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 to dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 by PP2A" reversible="false">
@@ -5035,13 +4952,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R230_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R231" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 by PP2A" reversible="false">
@@ -5060,13 +4974,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R231_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R232" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 by PP2A" reversible="false">
@@ -5085,13 +4996,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R232_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R233" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 by PP2A" reversible="false">
@@ -5110,13 +5018,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R233_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R234" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 to cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 by PP2A" reversible="false">
@@ -5135,13 +5040,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R234_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R235" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 by PP2A" reversible="false">
@@ -5160,13 +5062,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R235_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R236" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 to dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 by PP2A" reversible="false">
@@ -5185,13 +5084,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R236_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R237" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 by IKK_P" reversible="false">
@@ -5211,13 +5107,10 @@
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R237_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R238" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 by IKK_P" reversible="false">
@@ -5237,13 +5130,10 @@
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R238_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R239" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 by IKK_P" reversible="false">
@@ -5263,13 +5153,10 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R239_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R240" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 to cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 by IKK_P" reversible="false">
@@ -5289,13 +5176,10 @@
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R240_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R241" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 by IKK_P" reversible="false">
@@ -5315,13 +5199,10 @@
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R241_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R242" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 to dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 by IKK_P" reversible="false">
@@ -5341,13 +5222,10 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R242_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R243" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 by IKK_P" reversible="false">
@@ -5367,13 +5245,10 @@
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R243_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R244" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 by IKK_P" reversible="false">
@@ -5393,13 +5268,10 @@
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R244_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R245" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 by IKK_P" reversible="false">
@@ -5419,13 +5291,10 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R245_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R246" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 to cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 by IKK_P" reversible="false">
@@ -5445,13 +5314,10 @@
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R246_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R247" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 by IKK_P" reversible="false">
@@ -5471,13 +5337,10 @@
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R247_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R248" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 to dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 by IKK_P" reversible="false">
@@ -5497,13 +5360,10 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R248_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R249" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -5522,13 +5382,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R249_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R250" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -5547,13 +5404,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R250_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R251" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -5572,13 +5426,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R251_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R252" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 to cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -5597,13 +5448,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R252_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R253" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -5622,13 +5470,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R253_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R254" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 to dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -5647,13 +5492,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R254_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R255" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 by PP2A" reversible="false">
@@ -5672,13 +5514,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R255_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R256" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 by PP2A" reversible="false">
@@ -5697,13 +5536,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R256_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R257" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 by PP2A" reversible="false">
@@ -5722,13 +5558,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R257_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R258" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 to cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 by PP2A" reversible="false">
@@ -5747,13 +5580,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R258_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R259" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 by PP2A" reversible="false">
@@ -5772,13 +5602,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R259_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R260" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 to dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 by PP2A" reversible="false">
@@ -5797,13 +5624,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R260_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R261" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 by IKK_P" reversible="false">
@@ -5823,13 +5647,10 @@
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R261_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R262" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 by IKK_P" reversible="false">
@@ -5849,13 +5670,10 @@
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R262_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R263" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 by IKK_P" reversible="false">
@@ -5875,13 +5693,10 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R263_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R264" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 by IKK_P" reversible="false">
@@ -5901,13 +5716,10 @@
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R264_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R265" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 by IKK_P" reversible="false">
@@ -5927,13 +5739,10 @@
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R265_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R266" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 by IKK_P" reversible="false">
@@ -5953,13 +5762,10 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R266_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R267" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 by IKK_P" reversible="false">
@@ -5979,13 +5785,10 @@
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R267_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R268" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 by IKK_P" reversible="false">
@@ -6005,13 +5808,10 @@
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R268_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R269" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 by IKK_P" reversible="false">
@@ -6031,13 +5831,10 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R269_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R270" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 by IKK_P" reversible="false">
@@ -6057,13 +5854,10 @@
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R270_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R271" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 by IKK_P" reversible="false">
@@ -6083,13 +5877,10 @@
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R271_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R272" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 by IKK_P" reversible="false">
@@ -6109,13 +5900,10 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> IKK_P </ci>
               <ci> by_ikk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R272_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R273" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -6134,13 +5922,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R273_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R274" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -6159,13 +5944,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R274_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R275" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -6184,13 +5966,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R275_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R276" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -6209,13 +5988,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R276_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R277" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -6234,13 +6010,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R277_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R278" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -6259,13 +6032,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R278_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R279" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 by PP2A" reversible="false">
@@ -6284,13 +6054,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R279_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R280" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 by PP2A" reversible="false">
@@ -6309,13 +6076,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R280_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R281" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 by PP2A" reversible="false">
@@ -6334,13 +6098,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R281_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R282" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 by PP2A" reversible="false">
@@ -6359,13 +6120,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R282_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R283" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 by PP2A" reversible="false">
@@ -6384,13 +6142,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R283_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R284" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 by PP2A" reversible="false">
@@ -6409,13 +6164,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R284_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R285" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 by JNK_P" reversible="false">
@@ -6435,13 +6187,10 @@
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R285_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R286" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 by JNK_P" reversible="false">
@@ -6461,13 +6210,10 @@
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R286_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R287" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 by JNK_P" reversible="false">
@@ -6487,13 +6233,10 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R287_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R288" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 to cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 by JNK_P" reversible="false">
@@ -6513,13 +6256,10 @@
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R288_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R289" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 by JNK_P" reversible="false">
@@ -6539,13 +6279,10 @@
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R289_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R290" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 to dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 by JNK_P" reversible="false">
@@ -6565,13 +6302,10 @@
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R290_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R291" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -6590,13 +6324,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R291_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R292" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -6615,13 +6346,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R292_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R293" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -6640,13 +6368,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R293_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R294" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 to cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -6665,13 +6390,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R294_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R295" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -6690,13 +6412,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R295_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R296" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 to dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -6715,13 +6434,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R296_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R297" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 by JNK_P" reversible="false">
@@ -6741,13 +6457,10 @@
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R297_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R298" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 by JNK_P" reversible="false">
@@ -6767,13 +6480,10 @@
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R298_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R299" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 by JNK_P" reversible="false">
@@ -6793,13 +6503,10 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R299_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R300" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 to cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 by JNK_P" reversible="false">
@@ -6819,13 +6526,10 @@
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R300_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R301" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 by JNK_P" reversible="false">
@@ -6845,13 +6549,10 @@
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R301_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R302" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 to dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 by JNK_P" reversible="false">
@@ -6871,13 +6572,10 @@
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R302_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R303" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 by PP2A" reversible="false">
@@ -6896,13 +6594,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R303_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R304" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 by PP2A" reversible="false">
@@ -6921,13 +6616,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R304_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R305" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 by PP2A" reversible="false">
@@ -6946,13 +6638,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R305_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R306" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 to cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 by PP2A" reversible="false">
@@ -6971,13 +6660,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R306_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R307" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 by PP2A" reversible="false">
@@ -6996,13 +6682,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R307_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R308" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 to dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 by PP2A" reversible="false">
@@ -7021,13 +6704,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R308_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R309" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 by JNK_P" reversible="false">
@@ -7047,13 +6727,10 @@
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R309_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R310" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 by JNK_P" reversible="false">
@@ -7073,13 +6750,10 @@
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R310_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R311" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 by JNK_P" reversible="false">
@@ -7099,13 +6773,10 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R311_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R312" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 by JNK_P" reversible="false">
@@ -7125,13 +6796,10 @@
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R312_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R313" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 by JNK_P" reversible="false">
@@ -7151,13 +6819,10 @@
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R313_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R314" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 by JNK_P" reversible="false">
@@ -7177,13 +6842,10 @@
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R314_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R315" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -7202,13 +6864,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R315_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R316" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -7227,13 +6886,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R316_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R317" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 by PP2A" reversible="false">
@@ -7252,13 +6908,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R317_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R318" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -7277,13 +6930,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R318_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R319" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -7302,13 +6952,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R319_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R320" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 by PP2A" reversible="false">
@@ -7327,13 +6974,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R320_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R321" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 by JNK_P" reversible="false">
@@ -7353,13 +6997,10 @@
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R321_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R322" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 by JNK_P" reversible="false">
@@ -7379,13 +7020,10 @@
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R322_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R323" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 by JNK_P" reversible="false">
@@ -7405,13 +7043,10 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R323_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R324" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 by JNK_P" reversible="false">
@@ -7431,13 +7066,10 @@
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R324_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R325" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 by JNK_P" reversible="false">
@@ -7457,13 +7089,10 @@
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R325_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R326" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 by JNK_P" reversible="false">
@@ -7483,13 +7112,10 @@
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> JNK_P </ci>
               <ci> by_jnk_phos_factor </ci>
-              <ci> kkin </ci>
+              <ci> R326_kkin </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kkin" value="5e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R327" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 by PP2A" reversible="false">
@@ -7508,13 +7134,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R327_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R328" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 by PP2A" reversible="false">
@@ -7533,13 +7156,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R328_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R329" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 by PP2A" reversible="false">
@@ -7558,13 +7178,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R329_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R330" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 by PP2A" reversible="false">
@@ -7583,13 +7200,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R330_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R331" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 by PP2A" reversible="false">
@@ -7608,13 +7222,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R331_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R332" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 by PP2A" reversible="false">
@@ -7633,13 +7244,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> PP2A </ci>
-              <ci> kdephos </ci>
+              <ci> R332_kdephos </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdephos" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R333" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 by SCF" reversible="false">
@@ -7658,13 +7266,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R333_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R334" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe0_pUb1 by SCF" reversible="false">
@@ -7683,13 +7288,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R334_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R335" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 by SCF" reversible="false">
@@ -7708,13 +7310,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R335_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R336" name="conversion of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 by SCF" reversible="false">
@@ -7733,13 +7332,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R336_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R337" name="conversion of nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd0_Pe1_pUb1 by SCF" reversible="false">
@@ -7758,13 +7354,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R337_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R338" name="conversion of dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 by SCF" reversible="false">
@@ -7783,13 +7376,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R338_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="1e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R339" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 by SCF" reversible="false">
@@ -7808,13 +7398,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R339_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="2.2e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R340" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe0_pUb1 by SCF" reversible="false">
@@ -7833,13 +7420,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R340_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="2.2e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R341" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 by SCF" reversible="false">
@@ -7858,13 +7442,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R341_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="2.2e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R342" name="conversion of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 by SCF" reversible="false">
@@ -7883,13 +7464,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R342_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="2.2e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R343" name="conversion of nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa0_Pd1_Pe1_pUb1 by SCF" reversible="false">
@@ -7908,13 +7486,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R343_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="2.2e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R344" name="conversion of dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 by SCF" reversible="false">
@@ -7933,13 +7508,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R344_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="2.2e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R345" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 by SCF" reversible="false">
@@ -7958,13 +7530,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R345_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="3e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R346" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe0_pUb1 by SCF" reversible="false">
@@ -7983,13 +7552,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R346_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="3e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R347" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 by SCF" reversible="false">
@@ -8008,13 +7574,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R347_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="3e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R348" name="conversion of cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 by SCF" reversible="false">
@@ -8033,13 +7596,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R348_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="3e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R349" name="conversion of nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd0_Pe1_pUb1 by SCF" reversible="false">
@@ -8058,13 +7618,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R349_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="3e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R350" name="conversion of dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 by SCF" reversible="false">
@@ -8083,13 +7640,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R350_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="3e-06"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R351" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 by SCF" reversible="false">
@@ -8108,13 +7662,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R351_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="6.6e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R352" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe0_pUb1 by SCF" reversible="false">
@@ -8133,13 +7684,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R352_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="6.6e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R353" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 by SCF" reversible="false">
@@ -8158,13 +7706,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R353_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="6.6e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R354" name="conversion of cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 to cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 by SCF" reversible="false">
@@ -8183,13 +7728,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R354_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="6.6e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R355" name="conversion of nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 to nucleus_Foxo1_Pa1_Pd1_Pe1_pUb1 by SCF" reversible="false">
@@ -8208,13 +7750,10 @@
               <times/>
               <ci> nucleus_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R355_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="6.6e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R356" name="conversion of dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 to dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 by SCF" reversible="false">
@@ -8233,13 +7772,10 @@
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
               <ci> SCF </ci>
-              <ci> kub </ci>
+              <ci> R356_kub </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kub" value="6.6e-05"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R357" name="degradation of cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1" reversible="false">
@@ -8258,13 +7794,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
               <ci> Proteasome </ci>
-              <ci> kdeg </ci>
+              <ci> R357_kdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdeg" value="0.0001"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R358" name="degradation of cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1" reversible="false">
@@ -8283,13 +7816,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
               <ci> Proteasome </ci>
-              <ci> kdeg </ci>
+              <ci> R358_kdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdeg" value="0.0001"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R359" name="degradation of cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1" reversible="false">
@@ -8308,13 +7838,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
               <ci> Proteasome </ci>
-              <ci> kdeg </ci>
+              <ci> R359_kdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdeg" value="0.0001"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R360" name="degradation of cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1" reversible="false">
@@ -8333,13 +7860,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
               <ci> Proteasome </ci>
-              <ci> kdeg </ci>
+              <ci> R360_kdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdeg" value="0.0001"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R361" name="degradation of cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1" reversible="false">
@@ -8358,13 +7882,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
               <ci> Proteasome </ci>
-              <ci> kdeg </ci>
+              <ci> R361_kdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdeg" value="0.0001"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R362" name="degradation of cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1" reversible="false">
@@ -8383,13 +7904,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
               <ci> Proteasome </ci>
-              <ci> kdeg </ci>
+              <ci> R362_kdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdeg" value="0.0001"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R363" name="degradation of cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1" reversible="false">
@@ -8408,13 +7926,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
               <ci> Proteasome </ci>
-              <ci> kdeg </ci>
+              <ci> R363_kdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdeg" value="0.0001"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R364" name="degradation of cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1" reversible="false">
@@ -8433,13 +7948,10 @@
               <times/>
               <ci> cytoplasm_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
               <ci> Proteasome </ci>
-              <ci> kdeg </ci>
+              <ci> R364_kdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kdeg" value="0.0001"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R365" name="transcription of InR by dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0" reversible="false">
@@ -8457,13 +7969,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R365_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R366" name="transcription of SOD2 by dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0" reversible="false">
@@ -8481,13 +7990,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R366_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R367" name="transcription of InR by dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1" reversible="false">
@@ -8505,13 +8011,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R367_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R368" name="transcription of SOD2 by dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1" reversible="false">
@@ -8529,13 +8032,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R368_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R369" name="transcription of InR by dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0" reversible="false">
@@ -8553,13 +8053,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R369_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R370" name="transcription of SOD2 by dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0" reversible="false">
@@ -8577,13 +8074,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R370_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R371" name="transcription of InR by dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1" reversible="false">
@@ -8601,13 +8095,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R371_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R372" name="transcription of SOD2 by dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1" reversible="false">
@@ -8625,13 +8116,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd0_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R372_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R373" name="transcription of InR by dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0" reversible="false">
@@ -8649,13 +8137,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R373_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R374" name="transcription of SOD2 by dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0" reversible="false">
@@ -8673,13 +8158,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R374_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R375" name="transcription of InR by dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1" reversible="false">
@@ -8697,13 +8179,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R375_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R376" name="transcription of SOD2 by dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1" reversible="false">
@@ -8721,13 +8200,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R376_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R377" name="transcription of InR by dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0" reversible="false">
@@ -8745,13 +8221,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R377_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R378" name="transcription of SOD2 by dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0" reversible="false">
@@ -8769,13 +8242,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R378_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R379" name="transcription of InR by dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1" reversible="false">
@@ -8793,13 +8263,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R379_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R380" name="transcription of SOD2 by dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1" reversible="false">
@@ -8817,13 +8284,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa0_Pd1_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R380_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R381" name="transcription of InR by dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0" reversible="false">
@@ -8841,13 +8305,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R381_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R382" name="transcription of SOD2 by dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0" reversible="false">
@@ -8865,13 +8326,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R382_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R383" name="transcription of InR by dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1" reversible="false">
@@ -8889,13 +8347,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R383_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R384" name="transcription of SOD2 by dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1" reversible="false">
@@ -8913,13 +8368,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R384_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R385" name="transcription of InR by dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0" reversible="false">
@@ -8937,13 +8389,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R385_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R386" name="transcription of SOD2 by dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0" reversible="false">
@@ -8961,13 +8410,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R386_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R387" name="transcription of InR by dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1" reversible="false">
@@ -8985,13 +8431,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R387_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R388" name="transcription of SOD2 by dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1" reversible="false">
@@ -9009,13 +8452,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd0_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R388_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R389" name="transcription of InR by dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0" reversible="false">
@@ -9033,13 +8473,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R389_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R390" name="transcription of SOD2 by dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0" reversible="false">
@@ -9057,13 +8494,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R390_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R391" name="transcription of InR by dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1" reversible="false">
@@ -9081,13 +8515,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R391_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R392" name="transcription of SOD2 by dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1" reversible="false">
@@ -9105,13 +8536,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe0_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R392_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R393" name="transcription of InR by dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0" reversible="false">
@@ -9129,13 +8557,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R393_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R394" name="transcription of SOD2 by dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0" reversible="false">
@@ -9153,13 +8578,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb0 </ci>
-              <ci> ktranscr </ci>
+              <ci> R394_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R395" name="transcription of InR by dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1" reversible="false">
@@ -9177,13 +8599,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R395_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.24"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R396" name="transcription of SOD2 by dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1" reversible="false">
@@ -9201,13 +8620,10 @@
             <apply>
               <times/>
               <ci> dnabound_Foxo1_Pa1_Pd1_Pe1_pUb1 </ci>
-              <ci> ktranscr </ci>
+              <ci> R396_ktranscr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktranscr" value="0.95"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R397" name="basal transcription of InR" reversible="false">
@@ -9221,13 +8637,10 @@
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> k_basal_transcr </ci>
+              <ci> R397_k_basal_transcr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="k_basal_transcr" value="5"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R398" name="export of InR RNA" reversible="false">
@@ -9242,13 +8655,10 @@
             <apply>
               <times/>
               <ci> nucleus_RNA_InR </ci>
-              <ci> kexp </ci>
+              <ci> R398_kexp </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kexp" value="0.22"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R399" name="cyto degr of InR RNA" reversible="false">
@@ -9263,13 +8673,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_RNA_InR </ci>
-              <ci> kmdeg </ci>
+              <ci> R399_kmdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kmdeg" value="5.622"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R400" name="translation of InR" reversible="false">
@@ -9287,13 +8694,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_RNA_InR </ci>
-              <ci> ktransl </ci>
+              <ci> R400_ktransl </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktransl" value="2.46"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R401" name="degradation of InR protein" reversible="false">
@@ -9308,13 +8712,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_InR </ci>
-              <ci> kpdeg </ci>
+              <ci> R401_kpdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kpdeg" value="0.0044"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R402" name="basal transcription of SOD2" reversible="false">
@@ -9328,13 +8729,10 @@
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> k_basal_transcr </ci>
+              <ci> R402_k_basal_transcr </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="k_basal_transcr" value="15"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R403" name="export of SOD2 RNA" reversible="false">
@@ -9349,13 +8747,10 @@
             <apply>
               <times/>
               <ci> nucleus_RNA_SOD2 </ci>
-              <ci> kexp </ci>
+              <ci> R403_kexp </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kexp" value="0.22"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R404" name="cyto degr of SOD2 RNA" reversible="false">
@@ -9370,13 +8765,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_RNA_SOD2 </ci>
-              <ci> kmdeg </ci>
+              <ci> R404_kmdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kmdeg" value="5.622"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R405" name="translation of SOD2" reversible="false">
@@ -9394,13 +8786,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_RNA_SOD2 </ci>
-              <ci> ktransl </ci>
+              <ci> R405_ktransl </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="ktransl" value="1.23"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R406" name="degradation of SOD2 protein" reversible="false">
@@ -9415,13 +8804,10 @@
             <apply>
               <times/>
               <ci> cytoplasm_SOD2 </ci>
-              <ci> kpdeg </ci>
+              <ci> R406_kpdeg </ci>
               <ci> indicator_foxo </ci>
             </apply>
           </math>
-          <listOfParameters>
-            <parameter id="kpdeg" value="0.0019"/>
-          </listOfParameters>
         </kineticLaw>
       </reaction>
     </listOfReactions>

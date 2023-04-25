@@ -1,0 +1,24 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xScale	xLabel	yValues	yLabel
+FOXO4__3C	FOXO4 Figure 3C	BarPlot	MeanAndSD	0.0	extracellular_ROS	lin	H2O2 (uM)	FOXO4__3C	fold-induction
+MnSOD_fold_induction__3C	MnSOD_fold_induction Figure 3C	BarPlot	MeanAndSD	0.0	extracellular_ROS	lin	H2O2 (uM)	MnSOD_fold_induction__3C	fold-induction
+FOXO4__3C	FOXO4 Figure 3C	BarPlot	MeanAndSD	10.0	extracellular_ROS	lin	H2O2 (uM)	FOXO4__3C	fold-induction
+MnSOD_fold_induction__3C	MnSOD_fold_induction Figure 3C	BarPlot	MeanAndSD	10.0	extracellular_ROS	lin	H2O2 (uM)	MnSOD_fold_induction__3C	fold-induction
+FOXO4__3C	FOXO4 Figure 3C	BarPlot	MeanAndSD	20.0	extracellular_ROS	lin	H2O2 (uM)	FOXO4__3C	fold-induction
+MnSOD_fold_induction__3C	MnSOD_fold_induction Figure 3C	BarPlot	MeanAndSD	20.0	extracellular_ROS	lin	H2O2 (uM)	MnSOD_fold_induction__3C	fold-induction
+FOXO4__3C	FOXO4 Figure 3C	BarPlot	MeanAndSD	5.0	extracellular_ROS	lin	H2O2 (uM)	FOXO4__3C	fold-induction
+MnSOD_fold_induction__3C	MnSOD_fold_induction Figure 3C	BarPlot	MeanAndSD	5.0	extracellular_ROS	lin	H2O2 (uM)	MnSOD_fold_induction__3C	fold-induction
+FOXO4__3C	FOXO4 Figure 3C	BarPlot	MeanAndSD	50.0	extracellular_ROS	lin	H2O2 (uM)	FOXO4__3C	fold-induction
+MnSOD_fold_induction__3C	MnSOD_fold_induction Figure 3C	BarPlot	MeanAndSD	50.0	extracellular_ROS	lin	H2O2 (uM)	MnSOD_fold_induction__3C	fold-induction
+figure3B	Figure 3B	BarPlot	MeanAndSD	Basal (time = 120)	extracellular_ROS	lin	condition	Glucose_uptake__120__3B	glucose uptake
+figure3B	Figure 3B	BarPlot	MeanAndSD	Basal (time = 240)	extracellular_ROS	lin	condition	Glucose_uptake__240__3B	glucose uptake
+figure3B	Figure 3B	BarPlot	MeanAndSD	H2O2 (time = 120)	extracellular_ROS	lin	condition	Glucose_uptake__120__3B	glucose uptake
+figure3B	Figure 3B	BarPlot	MeanAndSD	H2O2 (time = 240)	extracellular_ROS	lin	condition	Glucose_uptake__240__3B	glucose uptake
+figure3B	Figure 3B	BarPlot	MeanAndSD	Ins (time = 120)	extracellular_ROS	lin	condition	Glucose_uptake__120__3B	glucose uptake
+figure3B	Figure 3B	BarPlot	MeanAndSD	Ins (time = 240)	extracellular_ROS	lin	condition	Glucose_uptake__240__3B	glucose uptake
+figure3B	Figure 3B	BarPlot	MeanAndSD	Ins+H2O2 (time = 120)	extracellular_ROS	lin	condition	Glucose_uptake__120__3B	glucose uptake
+figure3B	Figure 3B	BarPlot	MeanAndSD	Ins+H2O2 (time = 240)	extracellular_ROS	lin	condition	Glucose_uptake__240__3B	glucose uptake
+figure2B	Figure 2B	LinePlot	MeanAndSD	base	Ins	log10	insulin (M)	Cell_Bound_Ins__2B	Active Enzyme [a.u.]
+figure2B	Figure 2B	LinePlot	MeanAndSD	base	Ins	log10	insulin (M)	Glucose_uptake__2B	Active Enzyme [a.u.]
+figure2B	Figure 2B	LinePlot	MeanAndSD	base	Ins	log10	insulin (M)	PI3K_activity__2B	Active Enzyme [a.u.]
+figure2C	Figure 2C	LinePlot	MeanAndSD	fig2A	time	lin	time [min]	IRSYp__2C	Active Enzyme [a.u.]
+figure2D	Figure 2D	LinePlot	MeanAndSD	fig2A	time	lin	time [min]	PTP_activ__2D	Active Enzyme [a.u.]

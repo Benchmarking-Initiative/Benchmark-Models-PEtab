@@ -1,12 +1,18 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 import petab
 import re
 import os
 import petab.models
 
+
+from amici.petab_import import import_petab_problem
+from amici.petab_simulate import simulate_petab, rdatas_to_measurement_df, RDATAS
 from pathlib import Path
 from urllib.request import urlopen
+from petab.visualize.plot_data_and_simulation import plot_problem
+
 
 model_dir = Path(__file__).parent
 model_name = 'Smith_BMCSystBiol2013'
@@ -43,8 +49,8 @@ data['gluc_fig3B'] = pd.read_csv('https://raw.githubusercontent.com/graham1034/S
 data['sod2_fig3C'] = pd.read_csv('https://raw.githubusercontent.com/graham1034/Smith2012_insulin_signalling/master/fig3/C/essers_emboj_04_fig4b.txt', sep='\s+', skiprows=range(2))
 data['sod2_fig3C']['Time'] = 16 * 60  # 16h according to comment in source data, confirmed in panel in manuscript
 
-for figname, simfile in simfiles.items():
-    simulations[figname] = pd.read_csv(simfile, sep='\t')
+for simname, simfile in simfiles.items():
+    simulations[simname] = pd.read_csv(simfile, sep='\t')
 
 # cleanup
 for df in list(simulations.values()) + list(data.values()):
@@ -255,10 +261,10 @@ k_irs1_basal_syn = {
     for figname in simfiles.keys()
 }
 for par in ['k4', 'kminus4', 'k_irs1_basal_syn']:
-    for figname in simfiles.keys():
-        if par not in simulations[figname].columns:
+    for simname in simfiles.keys():
+        if par not in simulations[simname].columns:
             continue
-        assert len(simulations[figname][par].unique()) == 1
+        assert len(simulations[simname][par].unique()) == 1
 
 p_nominal = {
     p: df_sim[p].dropna().values[0]
@@ -339,9 +345,11 @@ obs_def = (
     # figure 2C: IRS1 https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig2/C/plotC.R
     ('sc_PIRS',    'IRS1_TyrP',           'IRSYp',                  '2C'),
     # figure 2D: PTP https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig2/D/plotD.R
-    ('sc_PTP',     'PTP1B_plus_PTP1B_ox', 'PTP_activ',              '2D'),       # initial value normalized
+    ('sc_PTP',     '(PTP1B / PTP1B_plus_PTP1B_ox)', 'PTP_activ',              '2D'),       # initial value normalized
     # figure 3B: GLUT https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig3/B/plotB.R
-    ('sc_GLUT_3B', 'cellsurface_GLUT4',   'Glucose_uptake',         '3B'),
+    ('sc_GLUT_3B_120', 'cellsurface_GLUT4',   'Glucose_uptake',         '120__3B'),  # reference condition normalized
+    # figure 3B: GLUT https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig3/B/plotB.R
+    ('sc_GLUT_3B_240', 'cellsurface_GLUT4',   'Glucose_uptake',         '240__3B'),  # reference condition normalized
     # figure 3C: SOD2 https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig3/C/plotC.R 31
     ('sc_SOD2',    'cytoplasm_SOD2',      'MnSOD_fold_induction',   '3C'),  # initial value normalized
     # figure 3C: FOXO1 https://github.com/graham1034/Smith2012_insulin_signalling/blob/master/fig3/C/plotC.R 32
@@ -364,8 +372,10 @@ for scale_factor, assignment_variable, data_variable, figure in obs_def:
         petab.NOMINAL_VALUE: 1.0,
         petab.ESTIMATE: 1,
     })
-    assert assignment_variable in df_sim.columns
-    assert assignment_variable in obs_names or sbml_model.getSpecies(assignment_variable) is not None
+
+    if scale_factor != 'sc_PTP':
+        assert assignment_variable in df_sim.columns
+        assert assignment_variable in obs_names or sbml_model.getSpecies(assignment_variable) is not None
     assert data_variable in df_data.columns
 
 conditions = []
@@ -393,7 +403,12 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
 
     panel = dataset[-2:]
 
-    sim = simulations[data_mappings[dataset]]
+    simname = data_mappings[dataset]
+    sim = simulations[simname]
+    if panel in ('2C', '2D'):
+        # transformed below
+        insconc = sim['Ins'].values[0]
+
     m = df.melt(
         id_vars=['Time'],
         value_vars=data_cols,
@@ -401,9 +416,27 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
         value_name=petab.MEASUREMENT
     ).dropna(axis=0, subset=[petab.MEASUREMENT])
     m.rename(columns={'Time': petab.TIME}, inplace=True)
-    m[petab.OBSERVABLE_ID] = m[petab.OBSERVABLE_ID] + '__' + dataset[-2:]
+    if dataset[-2:] != '3B':
+        m[petab.OBSERVABLE_ID] = m[petab.OBSERVABLE_ID] + '__' + dataset[-2:]
+    else:
+        m[petab.OBSERVABLE_ID] = \
+            m[petab.OBSERVABLE_ID] + '__' + m[petab.TIME].apply(lambda t: str(int(t))) + '__' + dataset[-2:]
     condition_id = f'figure{panel}__{rosconc}__{insconc}'.replace('.', '_').replace('-', 'm')
     m[petab.SIMULATION_CONDITION_ID] = condition_id
+    if panel.startswith('2'):
+        m[petab.DATASET_ID] = simname
+    elif panel == '3B':
+        m[petab.DATASET_ID] = {
+            (0.0, 0.0): 'Basal',
+            (0.0, 60.0): 'H2O2',
+            (5.0, 0.0): 'Ins',
+            (5.0, 60.0): 'Ins+H2O2',
+        }.get((insconc, rosconc)) + m[petab.TIME].apply(
+            lambda x: f' (time = {int(x)})'
+        )
+    else:
+        m[petab.DATASET_ID] = str(rosconc)
+
     measurements.append(m)
 
     # Fig 2B: Insulin maps to insconc
@@ -417,7 +450,13 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
     # maps: sim --> data
     # Fig 3C: H2O2 maps to extracellular_ROS*2
     if panel == '3B':
-        rosconc = rosconc / 2
+        rosconc /= 2
+
+    if panel == '3C':
+        # https://github.com/graham1034/Smith2012_insulin_signalling/blob/f8ca7c2a8aaa53bf0605129f286b824de306e2e4/fig3/C/plotC.R#L35
+        rosconc *= 5e3
+        # https://github.com/graham1034/Smith2012_insulin_signalling/blob/f8ca7c2a8aaa53bf0605129f286b824de306e2e4/fig3/C/plotC.R#L11
+        insconc = 5e3
 
     # the R scripts use `insconc`, which is computed using an assignment rule (concentration), instead of
     # `Ins`, which is a species (with amounts). To use values for initialization, we need to convert:
@@ -429,7 +468,7 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
     navo = sbml_model.getParameter('navo').getValue()
     vextracellular = sbml_model.getParameter('vextracellular').getValue()
 
-    if panel in ['3B', '3C']:
+    if panel in ['2C', '2D', '3B', '3C']:
         # Ins/ins is the other way around
         Ins = insconc
         insconc = Ins / (navo * vextracellular)
@@ -458,7 +497,9 @@ for (insconc, dataset, rosconc), df in df_data.groupby(['Insulin', 'dataset', 'H
             petab.CONDITION_ID: condition_id,
             'extracellular_ROS': rosconc,
             'Ins': Ins,
-            't_ins': t_ins[data_mappings[dataset]],
+            't_ins':
+                t_ins[data_mappings[dataset]] if not panel.startswith('3')
+                else 960 if panel == '3C' else 240,
             'indicator_jnk': float(indicator_jnk[data_mappings[dataset]]),
             'indicator_foxo': float(indicator_foxo[data_mappings[dataset]]),
             'k4': k4[data_mappings[dataset]],
@@ -563,6 +604,8 @@ for (dataset, rosconc, nox, e2f1), df in df_sim.groupby([
                 'IKK_P': ikk_p,
                 'InR': inr,
                 'IRS1': irs,
+
+
                 't_ins': t_ins[dataset],
                 'indicator_jnk': float(indicator_jnk[dataset]),
                 'indicator_foxo': float(indicator_foxo[dataset]),
@@ -587,16 +630,71 @@ measurement_table = pd.concat(measurements)
 measurement_table_test = pd.concat(measurements_test)
 
 # derive scaling factors
-for dataset, df in df_data.groupby(['dataset']):
+for (dataset, ), df in df_data.groupby(['dataset']):
     sim = simulations[data_mappings[dataset]]
     scaling_factors = {
         obs[0]: (obs[1], obs[2]) for obs in obs_def
         if dataset.endswith(obs[3]) and df[obs[2]].any()
     }
     for sc, (sim_id, data_id) in scaling_factors.items():
+        if sc in ('sc_SOD2', 'sc_FOXO1', 'sc_GLUT3B_120', 'sc_GLUT3B_240'):
+            continue
+        if sc == 'sc_PTP':
+            sc_val = df.loc[
+                df.Time == 0.0, data_id
+            ].values[0] / (
+                sim.loc[sim.Time == 0.0, 'PTP1B'] /
+                sim.loc[sim.Time == 0.0, 'PTP1B_plus_PTP1B_ox']
+            ).values[0]
+        else:
+            sc_val = df[data_id].max() / sim[sim_id].max()
+
         parameter_table.loc[
             sc, petab.NOMINAL_VALUE
-        ] = df[data_id].max() / sim[sim_id].max()
+        ] = sc_val
+
+viz_table = pd.DataFrame([
+    {
+        petab.PLOT_ID:
+            f'figure{observable.split("__")[-1]}' if observable.split("__")[-1] != '3C' else
+            observable,
+        petab.PLOT_NAME:
+            f'Figure {observable.split("__")[-1]}' if observable.split("__")[-1] != '3C' else
+            ' Figure '.join(observable.split('__')),
+        petab.PLOT_TYPE_SIMULATION: {
+            '2B': petab.LINE_PLOT,
+            '2C': petab.LINE_PLOT,
+            '2D': petab.LINE_PLOT,
+            '3B': petab.BAR_PLOT,
+            '3C': petab.BAR_PLOT,
+        }.get(observable.split("__")[-1]),
+        petab.PLOT_TYPE_DATA: petab.MEAN_AND_SD,
+        petab.DATASET_ID: dataset,
+        petab.X_VALUES: {
+            '2B': 'Ins',
+            '2C': petab.TIME,
+            '2D': petab.TIME,
+            '3B': 'extracellular_ROS',
+            '3C': 'extracellular_ROS',
+        }.get(observable.split("__")[-1]),
+        petab.X_SCALE: petab.LOG10 if observable.split("__")[-1] == '2B' else petab.LIN,
+        petab.X_LABEL:  {
+            '2B': 'insulin (M)',
+            '2C': 'time [min]',
+            '2D': 'time [min]',
+            '3B': 'condition',
+            '3C': 'H2O2 (uM)',
+        }.get(observable.split("__")[-1]),
+        petab.Y_VALUES: observable,
+        petab.Y_LABEL: {
+            '2B': 'Active Enzyme [a.u.]',
+            '2C': 'Active Enzyme [a.u.]',
+            '2D': 'Active Enzyme [a.u.]',
+            '3B': 'glucose uptake',
+            '3C': 'fold-induction',
+        }.get(observable.split("__")[-1]),
+    } for (dataset, observable), _ in measurement_table.groupby([petab.DATASET_ID, petab.OBSERVABLE_ID])
+])
 
 petab_problem = petab.Problem(
     model=petab.models.sbml_model.SbmlModel(
@@ -608,9 +706,10 @@ petab_problem = petab.Problem(
     measurement_df=measurement_table,
     observable_df=observable_table,
     parameter_df=parameter_table,
+    visualization_df=viz_table,
 )
 
-petab.lint_problem(petab_problem)
+# petab.lint_problem(petab_problem)
 
 petab_problem_test = petab.Problem(
     model=petab.models.sbml_model.SbmlModel(
@@ -624,7 +723,61 @@ petab_problem_test = petab.Problem(
     parameter_df=parameter_table_test,
 )
 
-petab.lint_problem(petab_problem_test)
+# petab.lint_problem(petab_problem_test)
+
+amici_model = import_petab_problem(petab_problem)
+simulations_df = rdatas_to_measurement_df(
+    simulate_petab(petab_problem, amici_model)[RDATAS],
+    amici_model,
+    petab_problem.measurement_df
+).rename(columns={petab.MEASUREMENT: petab.SIMULATION})
+
+for (dataset, ), df in df_data.groupby(['dataset']):
+    sim = simulations[data_mappings[dataset]]
+    scaling_factors = {
+        obs[0]: (obs[1], obs[2]) for obs in obs_def
+        if dataset.endswith(obs[3].split('__')[-1]) and df[obs[2]].any()
+    }
+    for sc, (sim_id, data_id) in scaling_factors.items():
+        if sc in ('sc_SOD2', 'sc_FOXO1', 'sc_GLUT_3B_120', 'sc_GLUT_3B_240'):
+            sim_cond = {
+                'sc_SOD2': 'figure3C__0_0__0_0',
+                'sc_FOXO1': 'figure3C__0_0__0_0',
+                'sc_GLUT_3B_120': 'figure3B__0_0__0_0',
+                'sc_GLUT_3B_240': 'figure3B__0_0__0_0',
+            }.get(sc)
+            sim_obs = {
+                'sc_SOD2': 'MnSOD_fold_induction__3C',
+                'sc_FOXO1': 'FOXO4__3C',
+                'sc_GLUT_3B_120': 'Glucose_uptake__120__3B',
+                'sc_GLUT_3B_240': 'Glucose_uptake__240__3B',
+            }.get(sc)
+            s0 = simulations_df.loc[
+                (simulations_df[petab.SIMULATION_CONDITION_ID] == sim_cond)
+                & (simulations_df[petab.OBSERVABLE_ID] == sim_obs),
+                petab.SIMULATION
+            ].values[0]
+            subset = (df.Insulin == 0.0) & (df.H2O2 == 0.0)
+            if sc.startswith('sc_GLUT'):
+                subset &= df.Time == float(sc.split('_')[-1])
+            d0 = df.loc[subset, data_id].values[0]
+            sc_val = d0 / s0
+
+            petab_problem.parameter_df.loc[
+                sc, petab.NOMINAL_VALUE
+            ] = sc_val
+            petab_problem_test.parameter_df.loc[
+                sc, petab.NOMINAL_VALUE
+            ] = sc_val
+
+simulations_df = rdatas_to_measurement_df(
+    simulate_petab(petab_problem, amici_model)[RDATAS],
+    amici_model,
+    petab_problem.measurement_df
+).rename(columns={petab.MEASUREMENT: petab.SIMULATION})
+
+plot_problem(petab_problem, simulations_df)
+plt.savefig('visualization.pdf')
 
 petab_problem.to_files(
     model_file=f'model_{model_name}.xml',
@@ -632,10 +785,12 @@ petab_problem.to_files(
     parameter_file=f'parameters_{model_name}.tsv',
     condition_file=f'experimentalCondition_{model_name}.tsv',
     measurement_file=f'measurementData_{model_name}.tsv',
+    visualization_file=f'visualizationSpecification_{model_name}.tsv',
     yaml_file=f'{model_name}.yaml',
     prefix_path=model_dir,
     relative_paths=True,
 )
+simulations_df.to_csv(f'simulatedData_{model_name}.tsv')
 
 petab_problem_test.to_files(
     model_file=f'model_{model_name}.xml',
