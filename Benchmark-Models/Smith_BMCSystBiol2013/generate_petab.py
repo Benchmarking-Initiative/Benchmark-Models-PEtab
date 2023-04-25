@@ -709,7 +709,7 @@ petab_problem = petab.Problem(
     visualization_df=viz_table,
 )
 
-# petab.lint_problem(petab_problem)
+petab.lint_problem(petab_problem)
 
 petab_problem_test = petab.Problem(
     model=petab.models.sbml_model.SbmlModel(
@@ -723,7 +723,7 @@ petab_problem_test = petab.Problem(
     parameter_df=parameter_table_test,
 )
 
-# petab.lint_problem(petab_problem_test)
+petab.lint_problem(petab_problem_test)
 
 amici_model = import_petab_problem(petab_problem)
 simulations_df = rdatas_to_measurement_df(
