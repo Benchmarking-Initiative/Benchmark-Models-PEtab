@@ -1,4 +1,4 @@
-observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters	observableTransformation	noiseDistribution
+observableId	preequilibrationConditionId	simulationConditionId	simulation	time	observableParameters	noiseParameters	observableTransformation	noiseDistribution
 task0_model0_perelson1_V		condition1	1860000	0		1	log10	normal
 task0_model0_perelson1_V		condition1	1979067.19116451	0.105		1	log10	normal
 task0_model0_perelson1_V		condition1	2036200.82349015	0.169		1	log10	normal

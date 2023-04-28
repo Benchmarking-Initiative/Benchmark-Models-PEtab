@@ -1,4 +1,4 @@
-observableId	preequilibrationConditionId	simulationConditionId	simulatedData	time	observableParameters	noiseParameters	observableTransformation
+observableId	preequilibrationConditionId	simulationConditionId	simulation	time	observableParameters	noiseParameters	observableTransformation
 yPI4K3Bt		model1_data2	80032724.6249776	24			
 yPI4K3Bt		model1_data2	80032724.6249776	24			
 yPI4K3Bt		model1_data2	80032724.6249776	24			
