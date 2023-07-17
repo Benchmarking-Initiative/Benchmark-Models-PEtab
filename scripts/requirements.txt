@@ -1,6 +1,5 @@
 numpy
 pandas
-# "vis" until https://github.com/PEtab-dev/libpetab-python/issues/212 is fixed
-petab[vis]
+petab @ git+https://github.com/PEtab-dev/libpetab-python/@fix_212
 python-libsbml
 tabulate
