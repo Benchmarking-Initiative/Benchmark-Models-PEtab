@@ -47,3 +47,6 @@ that are referenced in the respective SBML files.
 ## Installation
 
 See [INSTALL.md](INSTALL.md).
+
+## How to Cite
+When using this work, please cite an appropriate version on Zenodo: https://doi.org/10.5281/zenodo.8155057
