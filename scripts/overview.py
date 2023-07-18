@@ -127,7 +127,7 @@ def get_noise_distributions(observable_df):
         else:
             noise_distrs = {(petab.LIN, petab.NORMAL)}
 
-    noise_distrs = set(noise_distrs)
+    noise_distrs = sorted(set(noise_distrs))
     noise_distrs = ['-'.join(nd) if nd[0] != petab.LIN else
                     nd[1] for nd in noise_distrs]
     return "; ".join(noise_distrs)
