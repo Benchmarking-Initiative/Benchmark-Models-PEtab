@@ -24,6 +24,7 @@ markdown_columns = {
     'species': 'Species',
     'noise_distributions': 'Noise distribution(s)',
     'reference_uris': 'References',
+    'sbml4humans_urls': 'SBML4Humans',
 }
 
 index_column = 'petab_problem_id'
@@ -34,6 +35,7 @@ def get_summary(
         petab_problem_id: str = None,
 ) -> Dict:
     """Get dictionary with stats for the given PEtab problem"""
+    print(petab_problem_id)
     return {
         'petab_problem_id':
             petab_problem_id,
@@ -68,6 +70,8 @@ def get_summary(
             len(petab_problem.sbml_model.getListOfSpecies()),
         'reference_uris':
             get_reference_uris(petab_problem.sbml_model),
+        'sbml4humans_urls':
+            get_sbml4humans_urls(petab_problem_id),
     }
 
 
@@ -85,13 +89,47 @@ def get_reference_uris(sbml_model: libsbml.Model) -> List[str]:
     return reference_uris
 
 
+def get_sbml4humans_urls(petab_problem_id: str) -> List[str]:
+    """Get URL to SBML4humans model"""
+    from petab.yaml import load_yaml
+    yaml_file = petab_yamls[petab_problem_id]
+    yaml_dict = load_yaml(yaml_file)
+    repo_root = "https://raw.githubusercontent.com/Benchmarking-Initiative/Benchmark-Models-PEtab/master"
+    urls = []
+    for problem_dict in yaml_dict[petab.PROBLEMS]:
+        for model_filename in problem_dict[petab.SBML_FILES]:
+            gh_raw_url = f"{repo_root}/Benchmark-Models/{petab_problem_id}/{model_filename}"
+            urls.append(f"https://sbml4humans.de/model_url?url={gh_raw_url}")
+    return urls
+
+
 def get_noise_distributions(observable_df):
+
     if petab.NOISE_DISTRIBUTION in observable_df.columns:
-        noise_distrs = ['normal' if dist is np.nan else dist for dist in
-                        observable_df[petab.NOISE_DISTRIBUTION]]
-        noise_distrs = set(noise_distrs)
+        observable_df = observable_df.fillna(
+            value={petab.NOISE_DISTRIBUTION: petab.NORMAL})
+        if petab.OBSERVABLE_TRANSFORMATION in observable_df.columns:
+            observable_df = observable_df.fillna(
+                value={petab.OBSERVABLE_TRANSFORMATION: petab.LIN})
+            noise_distrs = [tuple(e.values) for _, e in observable_df[
+                [petab.OBSERVABLE_TRANSFORMATION,
+                 petab.NOISE_DISTRIBUTION]].iterrows()]
+        else:
+            noise_distrs = [(petab.LIN, e) for e in
+                            observable_df[petab.NOISE_DISTRIBUTION]]
+
     else:
-        noise_distrs = {'normal'}
+        if petab.OBSERVABLE_TRANSFORMATION in observable_df.columns:
+            observable_df = observable_df.fillna(
+                value={petab.OBSERVABLE_TRANSFORMATION: petab.LIN})
+            noise_distrs = [(e, petab.NORMAL) for e in
+                            observable_df[petab.OBSERVABLE_TRANSFORMATION]]
+        else:
+            noise_distrs = {(petab.LIN, petab.NORMAL)}
+
+    noise_distrs = set(noise_distrs)
+    noise_distrs = ['-'.join(nd) if nd[0] != petab.LIN else
+                    nd[1] for nd in noise_distrs]
     return "; ".join(noise_distrs)
 
 
@@ -118,10 +156,11 @@ def main(
         df.rename(index=lambda x: f"[{x}](Benchmark-Models/{x}/)",
                   inplace=True)
         # references to markdown links
-        df['reference_uris'] = df['reference_uris'].apply(
-            lambda x: " ".join([f"[\\[{i + 1}\\]]({uri})"
-                                for i, uri in enumerate(x)])
-        )
+        for field in 'reference_uris', 'sbml4humans_urls':
+            df[field] = df[field].apply(
+                lambda x: " ".join([f"[\\[{i + 1}\\]]({uri})"
+                                    for i, uri in enumerate(x)])
+            )
         df.index.rename(markdown_columns[index_column], inplace=True)
         df.rename(columns=markdown_columns, inplace=True)
         print(df.to_markdown())
