@@ -21,10 +21,10 @@ observable_SOCS3mRNA		model1_data1	5.710282463	80	scaling_SOCS3mRNA	sd_SOCS3mRNA
 observable_SOCS3mRNA		model1_data1	1.24343046	90	scaling_SOCS3mRNA	sd_SOCS3mRNA_abs;sd_SOCS3mRNA_rel	lin	normal	model1_data1_SOCS3mRNA
 observable_SOCS3mRNA		model1_data1	0.659244766	100	scaling_SOCS3mRNA	sd_SOCS3mRNA_abs;sd_SOCS3mRNA_rel	lin	normal	model1_data1_SOCS3mRNA
 observable_SOCS3mRNA		model1_data1	14.54733886	120	scaling_SOCS3mRNA	sd_SOCS3mRNA_abs;sd_SOCS3mRNA_rel	lin	normal	model1_data1_SOCS3mRNA
-observable_CD274mRNA		model1_data1	0.01	30		sd_CD274mRNA_abs;sd_CD274mRNA_rel	lin	normal	model1_data1_CD274mRNA
-observable_CD274mRNA		model1_data1	0.042114502	60		sd_CD274mRNA_abs;sd_CD274mRNA_rel	lin	normal	model1_data1_CD274mRNA
-observable_CD274mRNA		model1_data1	0.01	90		sd_CD274mRNA_abs;sd_CD274mRNA_rel	lin	normal	model1_data1_CD274mRNA
-observable_CD274mRNA		model1_data1	0.009833619	120		sd_CD274mRNA_abs;sd_CD274mRNA_rel	lin	normal	model1_data1_CD274mRNA
+observable_CD274mRNA		model1_data1	0.01	30	scaling_CD274mRNA	sd_CD274mRNA_abs;sd_CD274mRNA_rel	lin	normal	model1_data1_CD274mRNA
+observable_CD274mRNA		model1_data1	0.042114502	60	scaling_CD274mRNA	sd_CD274mRNA_abs;sd_CD274mRNA_rel	lin	normal	model1_data1_CD274mRNA
+observable_CD274mRNA		model1_data1	0.01	90	scaling_CD274mRNA	sd_CD274mRNA_abs;sd_CD274mRNA_rel	lin	normal	model1_data1_CD274mRNA
+observable_CD274mRNA		model1_data1	0.009833619	120	scaling_CD274mRNA	sd_CD274mRNA_abs;sd_CD274mRNA_rel	lin	normal	model1_data1_CD274mRNA
 observable_SOCS3		model1_data1	8.334077674	0		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data1_SOCS3
 observable_SOCS3		model1_data1	6.442655791	20		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data1_SOCS3
 observable_SOCS3		model1_data1	7.624794468	40		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data1_SOCS3
@@ -85,7 +85,7 @@ observable_CD274mRNA		model1_data2	1.774992771	120	scaling_CD274mRNA	sd_CD274mRN
 observable_SOCS3		model1_data2	35.10201482	0		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	23.88158667	20		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	79.71985958	40		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
-observable_SOCS3		model1_data2	148.678	60		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
+observable_SOCS3		model1_data2	148678	60		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	259.1129009	80		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	271.9076533	90		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	255.3756956	100		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
