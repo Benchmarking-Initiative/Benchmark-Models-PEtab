@@ -9,3 +9,5 @@ problems:
   - observables_Raia_CancerResearch2011.tsv
   sbml_files:
   - model_Raia_CancerResearch2011.xml
+  visualization_files:
+  - visualizationSpecification_Raia_CancerResearch2011.tsv
