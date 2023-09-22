@@ -1,0 +1,9 @@
+plotId	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	yValues	xValues	xOffset	yOffset
+plot1	MeanAndSD	LinePlot	time	lin	values	lin	yPKDpN0	time	0	0
+plot2	MeanAndSD	LinePlot	time	lin	values	lin	yPKDpN24	time	0	0
+plot3	MeanAndSD	LinePlot	time	lin	values	lin	yPKDpN25	time	0	0
+plot4	MeanAndSD	LinePlot	time	lin	values	lin	yPI4K3BpRN24	time	0	0
+plot5	MeanAndSD	LinePlot	time	lin	values	lin	yPI4K3Bt	time	0	0
+plot6	MeanAndSD	LinePlot	time	lin	values	lin	yCERTt	time	0	0
+plot7	MeanAndSD	LinePlot	time	lin	values	lin	yCERTpRN24	time	0	0
+plot8	MeanAndSD	LinePlot	time	lin	values	lin	yPKDt	time	0	0

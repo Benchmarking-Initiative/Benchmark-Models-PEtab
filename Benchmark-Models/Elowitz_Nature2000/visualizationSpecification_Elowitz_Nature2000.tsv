@@ -1,0 +1,2 @@
+plotId	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset
+plot1	MeanAndSD	LinePlot	time	lin	values	lin	model1_data1 - fluorescence	fluorescence	time	0	0
