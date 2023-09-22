@@ -85,7 +85,7 @@ observable_CD274mRNA		model1_data2	1.774992771	120	scaling_CD274mRNA	sd_CD274mRN
 observable_SOCS3		model1_data2	35.10201482	0		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	23.88158667	20		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	79.71985958	40		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
-observable_SOCS3		model1_data2	148678	60		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
+observable_SOCS3		model1_data2	148.678	60		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	259.1129009	80		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	271.9076533	90		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
 observable_SOCS3		model1_data2	255.3756956	100		sd_SOCS3_abs;sd_SOCS3_rel	lin	normal	model1_data2_SOCS3
