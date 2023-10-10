@@ -30,6 +30,6 @@ plot4	JI09_151102_Drg421_418_Age	LinePlot	MeanAndSD	JI09_151102_Drg421_418_Age__
 plot5	JI09_160126_Drg449_444_CycNuc	BarPlot	MeanAndSD	JI09_160126_Drg449_444_CycNuc__ctrl	condition	0	Condition	pRII_Western	0	pRII_Western	Ctrl	lin	lin
 plot5	JI09_160126_Drg449_444_CycNuc	BarPlot	MeanAndSD	JI09_160126_Drg449_444_CycNuc__Fsk10_and_IBMX100	condition	0	Condition	pRII_Western	0	pRII_Western	IBMX(100)/Fsk(10)	lin	lin
 plot5	JI09_160126_Drg449_444_CycNuc	BarPlot	MeanAndSD	JI09_160126_Drg449_444_CycNuc__Sp8_Br_cAMPS_AM10	condition	0	Condition	pRII_Western	0	pRII_Western	Sp8-Br-cAMPS-AM(10)	lin	lin
-plot6	JI09_160201_Drg453-452_CycNuc	LinePlot	MeanAndSD	JI09_160201_Drg453-452_CycNuc__ctrl	time	0	Time [min]	Calpha_Microscopy	0	Calpha_Microscopy	Ctrl	lin	lin
-plot6	JI09_160201_Drg453-452_CycNuc	LinePlot	MeanAndSD	JI09_160201_Drg453-452_CycNuc__Fsk	time	0	Time [min]	Calpha_Microscopy	0	Calpha_Microscopy	Fsk(10)	lin	lin
-plot6	JI09_160201_Drg453-452_CycNuc	LinePlot	MeanAndSD	JI09_160201_Drg453-452_CycNuc__Sp8_Br_cAMPS_AM	time	0	Time [min]	Calpha_Microscopy	0	Calpha_Microscopy	Sp8-Br-cAMPS-AM(10)	lin	lin
+plot6	JI09_160201_Drg453_452_CycNuc	LinePlot	MeanAndSD	JI09_160201_Drg453_452_CycNuc__ctrl	time	0	Time [min]	Calpha_Microscopy	0	Calpha_Microscopy	Ctrl	lin	lin
+plot6	JI09_160201_Drg453_452_CycNuc	LinePlot	MeanAndSD	JI09_160201_Drg453_452_CycNuc__Fsk	time	0	Time [min]	Calpha_Microscopy	0	Calpha_Microscopy	Fsk(10)	lin	lin
+plot6	JI09_160201_Drg453_452_CycNuc	LinePlot	MeanAndSD	JI09_160201_Drg453_452_CycNuc__Sp8_Br_cAMPS_AM	time	0	Time [min]	Calpha_Microscopy	0	Calpha_Microscopy	Sp8-Br-cAMPS-AM(10)	lin	lin
