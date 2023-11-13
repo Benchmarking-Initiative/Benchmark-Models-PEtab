@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Schwen_PONE2014" name="Kreutz_IR_binding">
+  <model id="Schwen_PONE2014" name="Schwen_PONE2014">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Schwen et al. (2015), PLoS One, 10, e0133653</pre>

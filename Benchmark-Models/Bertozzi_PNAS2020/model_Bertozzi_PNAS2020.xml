@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Created by COPASI version 4.28 (Build 226) on 2020-11-30 20:43 with libSBML version 5.18.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="COPASI0" id="Bertozzi2020___SIR_model_of_scenarios_of_COVID_19_spread_in_CA" name="Bertozzi2020 - SIR model of scenarios of COVID-19 spread in CA">
+  <model metaid="COPASI0" id="Bertozzi_PNAS2020" name="Bertozzi_PNAS2020">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>Bertozzi2020 - SIR model of scenarios of COVID-19 spread in CA and NY

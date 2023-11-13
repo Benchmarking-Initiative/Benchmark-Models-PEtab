@@ -1,0 +1,16 @@
+plotId	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset
+plot1	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me0K36me0	observable_K27me0K36me0	time	0	0
+plot2	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me0K36me1	observable_K27me0K36me1	time	0	0
+plot3	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me1K36me0	observable_K27me1K36me0	time	0	0
+plot4	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me0K36me2	observable_K27me0K36me2	time	0	0
+plot5	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me1K36me1	observable_K27me1K36me1	time	0	0
+plot6	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me2K36me0	observable_K27me2K36me0	time	0	0
+plot7	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me0K36me3	observable_K27me0K36me3	time	0	0
+plot8	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me1K36me2	observable_K27me1K36me2	time	0	0
+plot9	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me2K36me1	observable_K27me2K36me1	time	0	0
+plot10	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me3K36me0	observable_K27me3K36me0	time	0	0
+plot11	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me1K36me3	observable_K27me1K36me3	time	0	0
+plot12	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me2K36me2	observable_K27me2K36me2	time	0	0
+plot13	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me3K36me1	observable_K27me3K36me1	time	0	0
+plot14	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me2K36me3	observable_K27me2K36me3	time	0	0
+plot15	MeanAndSD	LinePlot	time	lin	values	lin	simCondition - observable_K27me3K36me2	observable_K27me3K36me2	time	0	0

@@ -26,17 +26,12 @@ model1_data24	dose response 30 min	1	0	0	2.5E-08	0	0	0	0
 model1_data25	dose response 30 min	1	0	0	2.5E-09	0	0	0	0
 model1_data26	dose response 10 min	1	0	0	1.25E-07	0	0	0	0
 model1_data27	dose response 10 min	1	0	0	1.25E-08	0	0	0	0
-model1_data28	dose response 10 min	1	0	0	1.75E-08	0	0	0	0
-model1_data29	dose response 10 min	1	0	0	1.7675E-07	0	0	0	0
 model1_data30	dose response 10 min	1	0	0	2.5E-06	0	0	0	0
 model1_data31	dose response 10 min	1	0	0	2.5E-07	0	0	0	0
-model1_data32	dose response 90 min	1	0	0	2.5E-08	0	0	0	0
-model1_data33	dose response 90 min	1	0	0	2.5E-09	0	0	0	0
-model1_data34	dose response 90 min	1	0	0	3.95E-08	0	0	0	0
-model1_data35	dose response 90 min	1	0	0	7.905E-07	0	0	0	0
-model1_data36	dose response 90 min	1	0	0	7.905E-09	0	0	0	0
-model1_data38		1	0	0	1.25E-07	0	0	0	0
-model1_data39		1	0	0	2.5E-06	0	0	0	0
-model1_data40		1	0	0	2.5E-07	0	0	0	0
-model1_data41		1	0	0	2.5E-08	0	0	0	0
-model1_data42		1	0	0	2.5E-09	0	0	0	0
+model1_data32	dose response 10 min	1	0	0	2.5E-08	0	0	0	0
+model1_data33	dose response 10 min	1	0	0	2.5E-09	0	0	0	0
+model1_data38	dose response 90 min	1	0	0	1.25E-07	0	0	0	0
+model1_data39	dose response 90 min	1	0	0	2.5E-06	0	0	0	0
+model1_data40	dose response 90 min	1	0	0	2.5E-07	0	0	0	0
+model1_data41	dose response 90 min	1	0	0	2.5E-08	0	0	0	0
+model1_data42	dose response 90 min	1	0	0	2.5E-09	0	0	0	0

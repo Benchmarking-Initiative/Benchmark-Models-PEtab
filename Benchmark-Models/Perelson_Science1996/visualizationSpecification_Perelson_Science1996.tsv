@@ -1,0 +1,2 @@
+plotId	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset
+plot1	MeanAndSD	LinePlot	time	lin	values	lin	HIV-mRNA copies - task0_model0_perelson1_V	task0_model0_perelson1_V	time	0	0

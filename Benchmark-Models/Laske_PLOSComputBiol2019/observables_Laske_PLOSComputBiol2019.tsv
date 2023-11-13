@@ -1,0 +1,14 @@
+observableId	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+RM5	R_M5	noiseParameter1_RM5	log	normal
+RVSegTot	observableParameter1_RVSegTot + R_V_seg_tot	noiseParameter1_RVSegTot	log	normal
+RCSegTot	R_C_seg_tot	noiseParameter1_RCSegTot	log	normal
+Vrel	V_rel	noiseParameter1_Vrel	log	normal
+IntNucOffset	observableParameter1_IntNucOffset	13.0334748500416 * noiseParameter1_IntNucOffset	lin	normal
+FracNucInt_1	F_rnp_nuc + observableParameter1_FracNucInt_1	3.10956052629092 * noiseParameter1_FracNucInt_1	lin	normal
+FracNucInt_2	F_rnp_nuc + observableParameter1_FracNucInt_2	3.44650910342625 * noiseParameter1_FracNucInt_2	lin	normal
+FracNucInt_3	F_rnp_nuc + observableParameter1_FracNucInt_3	1.96540708251497 * noiseParameter1_FracNucInt_3	lin	normal
+FracNucInt_4	F_rnp_nuc + observableParameter1_FracNucInt_4	3.03676774438437 * noiseParameter1_FracNucInt_4	lin	normal
+FracNucInt_5	F_rnp_nuc + observableParameter1_FracNucInt_5	4.00311961683219 * noiseParameter1_FracNucInt_5	lin	normal
+FracNucInt_6	F_rnp_nuc + observableParameter1_FracNucInt_6	4.8783911282307 * noiseParameter1_FracNucInt_6	lin	normal
+FracNucInt_7	F_rnp_nuc + observableParameter1_FracNucInt_7	3.96353798182046 * noiseParameter1_FracNucInt_7	lin	normal
+FracNucInt_8	F_rnp_nuc + observableParameter1_FracNucInt_8	4.8820897165046 * noiseParameter1_FracNucInt_8	lin	normal

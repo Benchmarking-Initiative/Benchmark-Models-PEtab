@@ -4,7 +4,7 @@ problems:
 - condition_files:
   - experimentalCondition_Fujita_SciSignal2010.tsv
   measurement_files:
-  - measurementData_Fujita_SciSignal2010.tsv
+  - measurementData_step_Fujita_SciSignal2010.tsv
   observable_files:
   - observables_Fujita_SciSignal2010.tsv
   sbml_files:

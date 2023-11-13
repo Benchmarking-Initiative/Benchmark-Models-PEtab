@@ -1,0 +1,6 @@
+plotId	plotName	plotTypeData	datasetId	xValues	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+plot1	mRNA_abundance	MeanAndSD	dataset_RM5	time	Time [h]	RM5	1	Abundance of mRNA	mRNA	lin	log10
+plot2	cRNA_abundance	MeanAndSD	dataset_RC	time	Time [h]	RCSegTot	0	Abundance of cRNA molecules/cell	cRNA	lin	log10
+plot3	vRNA_abundance	MeanAndSD	dataset_RV	time	Time [h]	RVSegTot	0	Abundance of vRNA molecules/cell	vRNA	lin	log10
+plot4	Released_virions	MeanAndSD	dataset_Vrel	time	Time [h]	Vrel	1	Released virions/cell	VRel	lin	log10
+plot5	frac_FI_nucleus	MeanAndSD	dataset_FracNucInt	time	Time [h]	FracNucInt_1	0	Fraction of nuclear FI [%]	nuclear FI	lin	lin

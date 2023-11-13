@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Created by COPASI version 4.29 (Build 228) on 2020-12-11 16:38 with libSBML version 5.18.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model metaid="COPASI0" id="Okuonghae2020" name="Okuonghae2020">
+  <model metaid="COPASI0" id="Okuonghae_ChaosSolitonsFractals2020" name="Okuonghae_ChaosSolitonsFractals2020">
     <annotation>
       <COPASI xmlns="http://www.copasi.org/static/sbml">
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -14,6 +14,15 @@
           </rdf:Description>
         </rdf:RDF>
       </COPASI>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#COPASI0">
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1016/j.chaos.2020.110032"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
     </annotation>
     <listOfFunctionDefinitions>
       <functionDefinition metaid="COPASI41" id="Rate_Law_for_exposed_to_asymptopmatic" name="Rate Law for exposed_to_asymptopmatic">
@@ -321,7 +330,7 @@
           </COPASI>
         </annotation>
       </parameter>
-      <parameter metaid="COPASI15" id="gamma_i" name="gamma_i" value="0.0666666666666667" units="unit_0" constant="true">
+      <parameter metaid="COPASI15" id="gamma_i" name="gamma_i" value="0.06666666666666667" units="unit_0" constant="true">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -396,7 +405,7 @@
           </COPASI>
         </annotation>
       </parameter>
-      <parameter metaid="COPASI20" id="sigma" name="sigma" value="0.192307692307692" units="unit_0" constant="true">
+      <parameter metaid="COPASI20" id="sigma" name="sigma" value="0.1923076923076923" units="unit_0" constant="true">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -546,40 +555,6 @@
       <initialAssignment symbol="symptomatic">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> symptomatic_start </ci>
-        </math>
-      </initialAssignment>
-      <initialAssignment symbol="gamma_i">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <divide/>
-            <cn> 1 </cn>
-            <cn> 15 </cn>
-          </apply>
-        </math>
-      </initialAssignment>
-      <initialAssignment symbol="theta">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <times/>
-            <cn> 1.8999 </cn>
-            <apply>
-              <power/>
-              <cn> 10 </cn>
-              <apply>
-                <minus/>
-                <cn> 12 </cn>
-              </apply>
-            </apply>
-          </apply>
-        </math>
-      </initialAssignment>
-      <initialAssignment symbol="sigma">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <apply>
-            <divide/>
-            <cn> 1 </cn>
-            <cn> 5.2 </cn>
-          </apply>
         </math>
       </initialAssignment>
     </listOfInitialAssignments>

@@ -1,0 +1,5 @@
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset
+plot1	MeanAndSD		LinePlot	time	lin	values	lin	condition1 - observable_Naive	observable_Naive	time	0	0
+plot2	MeanAndSD		LinePlot	time	lin	values	lin	condition1 - observable_EarlyEffector	observable_EarlyEffector	time	0	0
+plot3	MeanAndSD		LinePlot	time	lin	values	lin	condition1 - observable_LateEffector	observable_LateEffector	time	0	0
+plot4	MeanAndSD		LinePlot	time	lin	values	lin	condition1 - observable_Memory	observable_Memory	time	0	0

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="perelson1" name="perelson1">
+  <model id="Perelson_Science1996" name="Perelson_Science1996">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Perelson et al. (1996), Science  15 Mar 1996: Vol. 271, Issue 5255, pp. 1582-1586</pre>
