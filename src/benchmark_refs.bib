@@ -1,0 +1,93 @@
+@article{RaimundezFed2023,
+	title = {Posterior marginalization accelerates Bayesian inference for dynamical models of biological processes},
+	journal = {iScience},
+	volume = {26},
+	number = {11},
+	pages = {108083},
+	year = {2023},
+	issn = {2589-0042},
+	doi = {https://doi.org/10.1016/j.isci.2023.108083},
+	url = {https://www.sciencedirect.com/science/article/pii/S2589004223021600},
+	author = {Elba Raimúndez and Michael Fedders and Jan Hasenauer},
+	keywords = {Biological sciences, Mathematical biosciences, Systems biology},
+	abstract = {Bayesian inference is an important method in the life and natural sciences for learning from data. It provides information about parameter and prediction uncertainties. Yet, generating representative samples from the posterior distribution is often computationally challenging. Here, we present an approach that lowers the computational complexity of sample generation for dynamical models with scaling, offset, and noise parameters. The proposed method is based on the marginalization of the posterior distribution. We provide analytical results for a broad class of problems with conjugate priors and show that the method is suitable for a large number of applications. Subsequently, we demonstrate the benefit of the approach for applications from the field of systems biology. We report an improvement up to 50 times in the effective sample size per unit of time. As the scheme is broadly applicable, it will facilitate Bayesian inference in different research fields.}
+}
+
+@article{EgertKre2023,
+	title = {Realistic simulation of time-course measurements in systems biology},
+	journal = {Mathematical Biosciences and Engineering},
+	volume = {20},
+	number = {6},
+	pages = {10570-10589},
+	year = {2023},
+	issn = {1551-0018},
+	doi = {10.3934/mbe.2023467},
+	url = {https://www.aimspress.com/article/doi/10.3934/mbe.2023467},
+	author = {Janine Egert and Clemens Kreutz},
+	keywords = {systems biology, simulation, method evaluation, benchmark, model dynamics},
+}
+
+@article{LakrisenkoSta2023,
+    doi = {10.1371/journal.pcbi.1010783},
+    author = {Lakrisenko, Polina AND Stapor, Paul AND Grein, Stephan AND Paszkowski, \L{}ukasz AND Pathirana, Dilan AND Fröhlich, Fabian AND Lines, Glenn Terje AND Weindl, Daniel AND Hasenauer, Jan},
+    journal = {PLOS Computational Biology},
+    publisher = {Public Library of Science},
+    title = {Efficient computation of adjoint sensitivities at steady-state in ODE models of biochemical reaction networks},
+    year = {2023},
+    month = {01},
+    volume = {19},
+    url = {https://doi.org/10.1371/journal.pcbi.1010783},
+    pages = {1-19},
+    abstract = {Dynamical models in the form of systems of ordinary differential equations have become a standard tool in systems biology. Many parameters of such models are usually unknown and have to be inferred from experimental data. Gradient-based optimization has proven to be effective for parameter estimation. However, computing gradients becomes increasingly costly for larger models, which are required for capturing the complex interactions of multiple biochemical pathways. Adjoint sensitivity analysis has been pivotal for working with such large models, but methods tailored for steady-state data are currently not available. We propose a new adjoint method for computing gradients, which is applicable if the experimental data include steady-state measurements. The method is based on a reformulation of the backward integration problem to a system of linear algebraic equations. The evaluation of the proposed method using real-world problems shows a speedup of total simulation time by a factor of up to 4.4. Our results demonstrate that the proposed approach can achieve a substantial improvement in computation time, in particular for large-scale models, where computational efficiency is critical.},
+    number = {1},
+}
+
+@article{StaporSch2022,
+	author={Stapor, Paul and Schmiester, Leonard and Wierling, Christoph and Merkt, Simon and Pathirana, Dilan and Lange, Bodo M. H. and Weindl, Daniel and Hasenauer, Jan},
+	title={Mini-batch optimization enables training of ODE models on large-scale datasets},
+	journal={Nature Communications},
+	year={2022},
+	month={Jan},
+	day={10},
+	volume={13},
+	number={1},
+	pages={34},
+	abstract={Quantitative dynamic models are widely used to study cellular signal processing. A critical step in modelling is the estimation of unknown model parameters from experimental data. As model sizes and datasets are steadily growing, established parameter optimization approaches for mechanistic models become computationally extremely challenging. Mini-batch optimization methods, as employed in deep learning, have better scaling properties. In this work, we adapt, apply, and benchmark mini-batch optimization for ordinary differential equation (ODE) models, thereby establishing a direct link between dynamic modelling and machine learning. On our main application example, a large-scale model of cancer signaling, we benchmark mini-batch optimization against established methods, achieving better optimization results and reducing computation by more than an order of magnitude. We expect that our work will serve as a first step towards mini-batch optimization tailored to ODE models and enable modelling of even larger and more complex systems than what is currently possible.},
+	issn={2041-1723},
+	doi={10.1038/s41467-021-27374-6},
+	url={https://doi.org/10.1038/s41467-021-27374-6}
+}
+
+@article{VillaverdePat2021,
+  author   = {Villaverde, Alejandro F and Pathirana, Dilan and Fröhlich, Fabian and Hasenauer, Jan and Banga, Julio R},
+  journal  = {Briefings in Bioinformatics},
+  title    = {{A protocol for dynamic model calibration}},
+  year     = {2021},
+  issn     = {1477-4054},
+  month    = {10},
+  note     = {bbab387},
+  abstract = {{Ordinary differential equation models are nowadays widely used for the mechanistic description of biological processes and their temporal evolution. These models typically have many unknown and nonmeasurable parameters, which have to be determined by fitting the model to experimental data. In order to perform this task, known as parameter estimation or model calibration, the modeller faces challenges such as poor parameter identifiability, lack of sufficiently informative experimental data and the existence of local minima in the objective function landscape. These issues tend to worsen with larger model sizes, increasing the computational complexity and the number of unknown parameters. An incorrectly calibrated model is problematic because it may result in inaccurate predictions and misleading conclusions. For nonexpert users, there are a large number of potential pitfalls. Here, we provide a protocol that guides the user through all the steps involved in the calibration of dynamic models. We illustrate the methodology with two models and provide all the code required to reproduce the results and perform the same analysis on new models. Our protocol provides practitioners and researchers in biological modelling with a one-stop guide that is at the same time compact and sufficiently comprehensive to cover all aspects of the problem.}},
+  doi      = {10.1093/bib/bbab387},
+  eprint   = {https://academic.oup.com/bib/advance-article-pdf/doi/10.1093/bib/bbab387/40534209/bbab387.pdf},
+  url      = {https://doi.org/10.1093/bib/bbab387},
+}
+
+@article{StaedterSch2021,
+	author={St{\"a}dter, Philipp
+	and Sch{\"a}lte, Yannik
+	and Schmiester, Leonard
+	and Hasenauer, Jan
+	and Stapor, Paul L.},
+	title={Benchmarking of numerical integration methods for ODE models of biological systems},
+	journal={Scientific Reports},
+	year={2021},
+	month={Jan},
+	day={29},
+	volume={11},
+	number={1},
+	pages={2696},
+	abstract={Ordinary differential equation (ODE) models are a key tool to understand complex mechanisms in systems biology. These models are studied using various approaches, including stability and bifurcation analysis, but most frequently by numerical simulations. The number of required simulations is often large, e.g., when unknown parameters need to be inferred. This renders efficient and reliable numerical integration methods essential. However, these methods depend on various hyperparameters, which strongly impact the ODE solution. Despite this, and although hundreds of published ODE models are freely available in public databases, a thorough study that quantifies the impact of hyperparameters on the ODE solver in terms of accuracy and computation time is still missing. In this manuscript, we investigate which choices of algorithms and hyperparameters are generally favorable when dealing with ODE models arising from biological processes. To ensure a representative evaluation, we considered 142 published models. Our study provides evidence that most ODEs in computational biology are stiff, and we give guidelines for the choice of algorithms and hyperparameters. We anticipate that our results will help researchers in systems biology to choose appropriate numerical methods when dealing with ODE models.},
+	issn={2045-2322},
+	doi={10.1038/s41598-021-82196-2},
+	url={https://doi.org/10.1038/s41598-021-82196-2}
+}
