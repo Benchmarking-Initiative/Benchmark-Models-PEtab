@@ -1,0 +1,7 @@
+parameterId	parameterScale	lowerBound	upperBound	estimate
+k				x
+m0				x
+scale	lin			x
+k_m0_scale	lin			502
+delta	lin			0.8
+gamma	lin			0.03
