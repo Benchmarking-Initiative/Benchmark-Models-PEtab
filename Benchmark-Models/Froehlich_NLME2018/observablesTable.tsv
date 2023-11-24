@@ -1,2 +1,2 @@
 observableId	observableName	observableFormula	noiseFormula	noiseDistribution
-GFP	GFPFluorescence	 log(p + offset)	unknown	normal
+GFP	GFPFluorescence	 log(p + offset)	sigma	normal
