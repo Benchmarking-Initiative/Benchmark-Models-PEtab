@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.40 (Build 278) (http://www.copasi.org) at 2023-11-15T17:22:26Z -->
+<!-- generated with COPASI 4.40 (Build 278) (http://www.copasi.org) at 2023-11-24T11:44:38Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="40" versionDevel="278" copasiSourcesModified="0">
   <Model key="Model_0" name="New Model" simulationType="time" timeUnit="h" volumeUnit="l" areaUnit="m²" lengthUnit="m" quantityUnit="mol" type="deterministic" avogadroConstant="6.0221407599999999e+23">
@@ -29,23 +29,11 @@
     </ListOfCompartments>
     <ListOfMetabolites>
       <Metabolite key="Metabolite_0" name="GFP" simulationType="ode" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_0">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <Expression>
-          &lt;CN=Root,Model=New Model,Vector=Values[k],Reference=InitialValue>*&lt;CN=Root,Model=New Model,Vector=Compartments[single cell],Vector=Metabolites[mRNA],Reference=Concentration>-&lt;CN=Root,Model=New Model,Vector=Values[gamma],Reference=InitialValue>*&lt;CN=Root,Model=New Model,Vector=Compartments[single cell],Vector=Metabolites[GFP],Reference=Concentration>
+          &lt;CN=Root,Model=New Model,Vector=Values[km0scale],Reference=InitialValue>*&lt;CN=Root,Model=New Model,Vector=Compartments[single cell],Vector=Metabolites[mRNA],Reference=Concentration>-&lt;CN=Root,Model=New Model,Vector=Values[gamma],Reference=InitialValue>*&lt;CN=Root,Model=New Model,Vector=Compartments[single cell],Vector=Metabolites[GFP],Reference=Concentration>
         </Expression>
       </Metabolite>
       <Metabolite key="Metabolite_1" name="mRNA" simulationType="ode" compartment="Compartment_0" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-<rdf:Description rdf:about="#Metabolite_1">
-</rdf:Description>
-</rdf:RDF>
-        </MiriamAnnotation>
         <Expression>
           -&lt;CN=Root,Model=New Model,Vector=Values[delta],Reference=InitialValue>*&lt;CN=Root,Model=New Model,Vector=Compartments[single cell],Vector=Metabolites[mRNA],Reference=Concentration>
         </Expression>
@@ -68,7 +56,7 @@
 </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2" name="k" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2" name="km0scale" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelValue_2">
@@ -100,7 +88,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[delta]" value="0.80000000000000004" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[gamma]" value="0.029999999999999999" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[k]" value="502" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[km0scale]" value="502" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
         </ModelParameterGroup>
