@@ -5,4 +5,4 @@ scale	lin			x
 k_m0_scale	log			502
 delta	log			0.8
 gamma	log			0.03
-sigma  log      5
+sigma	log			5
