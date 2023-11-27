@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.40 (Build 278) on 2023-11-15 18:21 with libSBML version 5.20.0. -->
+<!-- Created by COPASI version 4.40 (Build 278) on 2023-11-27 17:14 with libSBML version 5.20.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI0" id="New_Model" name="New Model">
     <annotation>
@@ -62,7 +62,7 @@
     <listOfParameters>
       <parameter id="delta" name="delta" value="0.8" constant="true"/>
       <parameter id="gamma" name="gamma" value="0.03" constant="true"/>
-      <parameter id="k" name="k" value="502" constant="true"/>
+      <parameter id="km0scale" name="km0scale" value="502" constant="true"/>
       <parameter id="ModelValue_0" name="Initial for delta" value="0.8">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="delta" type="InitialValue"/>
@@ -73,9 +73,9 @@
           <initialValue xmlns="http://copasi.org/initialValue" parent="gamma" type="InitialValue"/>
         </annotation>
       </parameter>
-      <parameter id="ModelValue_2" name="Initial for k" value="502">
+      <parameter id="ModelValue_2" name="Initial for km0scale" value="502">
         <annotation>
-          <initialValue xmlns="http://copasi.org/initialValue" parent="k" type="InitialValue"/>
+          <initialValue xmlns="http://copasi.org/initialValue" parent="km0scale" type="InitialValue"/>
         </annotation>
       </parameter>
     </listOfParameters>
@@ -92,7 +92,7 @@
       </initialAssignment>
       <initialAssignment symbol="ModelValue_2">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <ci> k </ci>
+          <ci> km0scale </ci>
         </math>
       </initialAssignment>
     </listOfInitialAssignments>
