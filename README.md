@@ -52,3 +52,9 @@ See [INSTALL.md](INSTALL.md).
 ## How to Cite
 
 When using this work, please cite an appropriate version on Zenodo: https://doi.org/10.5281/zenodo.8155057
+
+## References
+
+The model collection has been used in multiple [publications](src/benchmark_refs.bib).
+
+If you used the benchmark problems in your work and your publication is missing, please let us know via a new GitHub issue.
