@@ -1,8 +1,8 @@
 parameterId	parameterScale	lowerBound	upperBound	estimate
-k				x
-m0				x
-scale	lin			x
-k_m0_scale	log			502
-delta	log			0.8
-gamma	log			0.03
-sigma	log			5
+k		10^-5	10^5	x
+m0		10^-5	10^5	x
+scale	lin	10^-5	10^5	x
+k_m0_scale	log	10^-5	10^5	502
+delta	log	10^-5	10^5	0.8
+gamma	log	10^-5	10^5	0.03
+sigma	log	10^-5	10^5	5
