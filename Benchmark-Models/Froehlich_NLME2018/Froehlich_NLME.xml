@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.40 (Build 278) on 2023-11-27 17:14 with libSBML version 5.20.0. -->
+<!-- Created by COPASI version 4.40 (Build 278) on 2023-12-03 23:19 with libSBML version 5.20.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI0" id="New_Model" name="New Model">
     <annotation>
-      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-        <rdf:Description rdf:about="#COPASI0">
-          <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>2023-09-29T12:32:25Z</dcterms:W3CDTF>
-          </dcterms:created>
-          <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2023-09-29T12:32:25Z</dcterms:W3CDTF>
-          </dcterms:modified>
-        </rdf:Description>
-      </rdf:RDF>
       <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <rdf:Description rdf:about="#COPASI0">
@@ -24,6 +14,16 @@
           </rdf:Description>
         </rdf:RDF>
       </copasi:COPASI>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#COPASI0">
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2023-09-29T12:32:25Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2023-09-29T12:32:25Z</dcterms:W3CDTF>
+          </dcterms:modified>
+        </rdf:Description>
+      </rdf:RDF>
     </annotation>
     <listOfUnitDefinitions>
       <unitDefinition id="length" name="length">
@@ -63,34 +63,34 @@
       <parameter id="delta" name="delta" value="0.8" constant="true"/>
       <parameter id="gamma" name="gamma" value="0.03" constant="true"/>
       <parameter id="km0scale" name="km0scale" value="502" constant="true"/>
-      <parameter id="ModelValue_0" name="Initial for delta" value="0.8">
+      <parameter id="ModelValue_0_0" name="Initial for delta" value="0.8">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="delta" type="InitialValue"/>
         </annotation>
       </parameter>
-      <parameter id="ModelValue_1" name="Initial for gamma" value="0.03">
+      <parameter id="ModelValue_1_0" name="Initial for gamma" value="0.03">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="gamma" type="InitialValue"/>
         </annotation>
       </parameter>
-      <parameter id="ModelValue_2" name="Initial for km0scale" value="502">
+      <parameter id="ModelValue_2_0" name="Initial for km0scale" value="502">
         <annotation>
           <initialValue xmlns="http://copasi.org/initialValue" parent="km0scale" type="InitialValue"/>
         </annotation>
       </parameter>
     </listOfParameters>
     <listOfInitialAssignments>
-      <initialAssignment symbol="ModelValue_0">
+      <initialAssignment symbol="ModelValue_0_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> delta </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="ModelValue_1">
+      <initialAssignment symbol="ModelValue_1_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> gamma </ci>
         </math>
       </initialAssignment>
-      <initialAssignment symbol="ModelValue_2">
+      <initialAssignment symbol="ModelValue_2_0">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <ci> km0scale </ci>
         </math>
@@ -103,12 +103,12 @@
             <minus/>
             <apply>
               <times/>
-              <ci> ModelValue_2 </ci>
+              <ci> ModelValue_2_0 </ci>
               <ci> mRNA </ci>
             </apply>
             <apply>
               <times/>
-              <ci> ModelValue_1 </ci>
+              <ci> ModelValue_1_0 </ci>
               <ci> GFP </ci>
             </apply>
           </apply>
@@ -120,7 +120,7 @@
             <times/>
             <apply>
               <minus/>
-              <ci> ModelValue_0 </ci>
+              <ci> ModelValue_0_0 </ci>
             </apply>
             <ci> mRNA </ci>
           </apply>

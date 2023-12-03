@@ -1,0 +1,13 @@
+format_version: 1
+parameter_file: parameterTable.tsv
+problems:
+- measurement_files:
+  - measurementTable.tsv
+  condition_files:
+  - conditionTable.tsv
+  observable_files:
+  - observableTable.tsv
+  visualization_files:
+  - visualizationTable.tsv
+  sbml_files:
+  - Froehlich_NLME.xml
