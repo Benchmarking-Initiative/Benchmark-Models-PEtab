@@ -1,2 +1,2 @@
-observableId	observableName	observableFormula	noiseFormula	noiseDistribution
-GFP		log(observableParameter1_GFP+offset)	sigma	normal
+observableId	observableFormula	noiseFormula	noiseDistribution
+GFP_obs	log(GFP+offset)	sigma	normal
