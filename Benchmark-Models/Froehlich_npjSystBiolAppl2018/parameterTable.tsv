@@ -1,6 +1,6 @@
 parameterId	parameterScale	lowerBound	upperBound	nominalValue	estimate
-km0scale	log10	1E-05	1E05	502	0
-delta	log10	1E-05	1E05	0.8	0
-gamma	log10	1E-05	1E05	0.03	0
-sigma	log10	1E-05	1E05	5	0
-offset	log10	1E-05	1E05	5	0
+km0scale	log10	0.00001	100000	502	1
+delta	log10	0.00001	100000	0.8	1
+gamma	log10	0.00001	100000	0.03	1
+sigma	log10	0.00001	100000	5	1
+offset	log10	0.00001	100000	5	1
