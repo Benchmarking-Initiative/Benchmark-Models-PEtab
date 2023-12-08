@@ -1,2 +1,2 @@
-plotId	
-none	
+plotId	plotName	plotTypeSimulation	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+plot1	GFP	LinePlot	GFP	time	0	Time[s]	GFP_obs	0	GFP	GFP	lin	lin
