@@ -10,4 +10,4 @@ problems:
   visualization_files:
   - visualizationTable.tsv
   sbml_files:
-  - Froehlich_NLME.xml
+  - Froehlich_npjSystBiolAppl2018.xml
