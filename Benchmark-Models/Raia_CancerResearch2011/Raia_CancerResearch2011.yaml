@@ -1,4 +1,4 @@
-format_version: 1
+format_version: 2
 parameter_file: parameters_Raia_CancerResearch2011.tsv
 problems:
 - condition_files:
@@ -11,3 +11,4 @@ problems:
   - model_Raia_CancerResearch2011.xml
   visualization_files:
   - visualizationSpecification_Raia_CancerResearch2011.tsv
+
