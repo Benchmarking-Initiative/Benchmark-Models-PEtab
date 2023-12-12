@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Raia_CancerResearch2011" name="il13_jak2_stat5">
+  <model id="Raia_CancerResearch2011" name="Raia_CancerResearch2011">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Raia et al. (2011), Cancer Res February 1 2011 (71) (3) 693-704</pre>
