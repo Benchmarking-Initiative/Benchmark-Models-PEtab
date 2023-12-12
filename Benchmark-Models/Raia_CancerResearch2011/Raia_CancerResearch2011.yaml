@@ -1,4 +1,4 @@
-format_version: 2
+format_version: 1
 parameter_file: parameters_Raia_CancerResearch2011.tsv
 problems:
 - condition_files:
