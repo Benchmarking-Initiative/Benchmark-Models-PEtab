@@ -13,7 +13,7 @@ plot2	JI09_150330_Drg350_348_CycNuc	LinePlot	MeanAndSD	JI09_150330_Drg350_348_Cy
 plot2	JI09_150330_Drg350_348_CycNuc	LinePlot	MeanAndSD	JI09_150330_Drg350_348_CycNuc__IBMX100_and_Fsk10	time	0	Time [min]	pRII_Microscopy	0	pRII_Microscopy	IBMX(100)/Fsk(10)	lin	lin
 plot2	JI09_150330_Drg350_348_CycNuc	LinePlot	MeanAndSD	JI09_150330_Drg350_348_CycNuc__Sp8_Br_cAMPS_AM10	time	0	Time [min]	pRII_Microscopy	0	pRII_Microscopy	Sp8-Br-cAMPS-AM(10)	lin	lin
 plot3	JI09_150330_Drg353_351_CycNuc	LinePlot	MeanAndSD	JI09_150330_Drg353_351_CycNuc__4_ABnOH_and_ctrl	fourABnOH_level	0	Concentration [$\mu$M]	pRII_Microscopy	0	pRII_Microscopy	4-ABnOH/Ctrl	log10	lin
-plot3	JI09_150330_Drg353_351_CycNuc	LinePlot	MeanAndSD	JI09_150330_Drg353_351_CycNuc__4_AbnOH_and_Fsk	fourABnOH_level	0	Concentration [$\mu$M]	pRII_Microscopy	0	pRII_Microscopy	4-ABnOH/Fsk(10)	log10	lin
+plot3	JI09_150330_Drg353_351_CycNuc	LinePlot	MeanAndSD	JI09_150330_Drg353_351_CycNuc__4_ABnOH_and_Fsk	fourABnOH_level	0	Concentration [$\mu$M]	pRII_Microscopy	0	pRII_Microscopy	4-ABnOH/Fsk(10)	log10	lin
 plot3	JI09_150330_Drg353_351_CycNuc	LinePlot	MeanAndSD	JI09_150330_Drg353_351_CycNuc__Rp_cAMPS_pAB_and_ctrl	Rp_cAMPS_pAB_level	0	Concentration [$\mu$M]	pRII_Microscopy	0	pRII_Microscopy	Rp-cAMPS-pAB/Ctrl	log10	lin
 plot3	JI09_150330_Drg353_351_CycNuc	LinePlot	MeanAndSD	JI09_150330_Drg353_351_CycNuc__Rp_cAMPS_pAB_and_Fsk	Rp_cAMPS_pAB_level	0	Concentration [$\mu$M]	pRII_Microscopy	0	pRII_Microscopy	Rp-cAMPS-pAB/Fsk(10)	log10	lin
 plot3	JI09_150330_Drg353_351_CycNuc	LinePlot	MeanAndSD	JI09_150330_Drg353_351_CycNuc__Rp8_Br_cAMPS_pAB_and_ctrl	Rp8_Br_cAMPS_pAB_level	0	Concentration [$\mu$M]	pRII_Microscopy	0	pRII_Microscopy	Rp8-Br-cAMPS-pAB/Ctrl	log10	lin
