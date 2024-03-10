@@ -1,0 +1,13 @@
+format_version: 1
+parameter_file: parameters_Lang_PLOSComputBiol2024.tsv
+problems:
+  - condition_files:
+    - experimentalCondition_Lang_PLOSComputBiol2024.tsv
+    measurement_files:
+    - measurementData_Lang_PLOSComputBiol2024.tsv
+    observable_files:
+    - observables_Lang_PLOSComputBiol2024.tsv
+    sbml_files:
+    - model_Lang_PLOSComputBiol2024.xml
+    visualization_files:
+    - visualizationSpecification_Lang_PLOSComputBiol2024.tsv
