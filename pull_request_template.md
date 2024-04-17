@@ -19,5 +19,5 @@
 - [ ] The PEtab problem is based on a model that is
   - [ ] peer-reviewed and
   - [ ] published
-- [ ] The README has been updated with “python scripts/overview.py --update”
+- [ ] The README has been updated with `python scripts/overview.py --update`
   - [ ] The new PEtab problem row in the generated table has the correct reference (and other entries)
