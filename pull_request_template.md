@@ -10,7 +10,7 @@
   - [ ] Source of nominal parameters (e.g.: taken from the original publication, or from your own fitting)
 - [ ] The SBML file
   - [ ] Annotation with reference to the original publication ([example](https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/blob/3154d27edbfc4eb19b768465945bc81381a7c964/Benchmark-Models/Rahman_MBS2016/model_Rahman_MBS2016.xml#L4-L14))
-  - [ ] The model ID and model name attributes in the SBML model file match the problem name
+  - [ ] The model ID and model name attributes in the SBML model file match the problem name ([example](https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/blob/3154d27edbfc4eb19b768465945bc81381a7c964/Benchmark-Models/Rahman_MBS2016/model_Rahman_MBS2016.xml#L3))
 - [ ] PEtab files
   - [ ] A "simulated data" measurement table is included, using the nominal parameters
   - [ ] A visualization table is included, that can be used with the simulate data to reproduce figures from the original publication
