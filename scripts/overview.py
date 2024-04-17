@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import petab
 
-from _helpers import petab_yamls
+from _helpers import petab_yamls, readme_md
 
 
 markdown_columns = {
@@ -145,8 +145,12 @@ def get_overview_table() -> pd.DataFrame:
     return df
 
 
+start_overview_table = '\n<!-- START OVERVIEW TABLE -->\n'
+end_overview_table = '\n<!-- END OVERVIEW TABLE -->\n'
+
 def main(
-        markdown: bool = False,
+    markdown: bool = False,
+    update_readme: bool = False,
 ):
     df = get_overview_table()
     pd.options.display.width = 0
@@ -163,7 +167,24 @@ def main(
             )
         df.index.rename(markdown_columns[index_column], inplace=True)
         df.rename(columns=markdown_columns, inplace=True)
-        print(df.to_markdown())
+        markdown_overview = df.to_markdown()
+        if update_readme:
+            with open(readme_md, "r") as f:
+                readme_content = f.read()
+                before_table = readme_content.split(start_overview_table)[0]
+                after_table = readme_content.split(end_overview_table)[1]
+                new_readme_content = (
+                    before_table
+                    + start_overview_table
+                    + markdown_overview
+                    + end_overview_table
+                    + after_table
+                )
+            with open(readme_md, "w") as f:
+                f.write(new_readme_content)
+        else:
+            print(markdown_overview)
+
     else:
         print(df)
 
@@ -172,6 +193,10 @@ if __name__ == '__main__':
     import sys
 
     markdown = False
+    update_readme = False
     if '--markdown' in sys.argv:
         markdown = True
-    main(markdown)
+    if '--update' in sys.argv:
+        markdown = True
+        update_readme = True
+    main(markdown=markdown, update_readme=update_readme)
