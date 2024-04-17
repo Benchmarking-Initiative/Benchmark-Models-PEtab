@@ -171,20 +171,19 @@ def main(
         if update_readme:
             with open(readme_md, "r") as f:
                 readme_content = f.read()
-                before_table = readme_content.split(start_overview_table)[0]
-                after_table = readme_content.split(end_overview_table)[1]
-                new_readme_content = (
-                    before_table
-                    + start_overview_table
-                    + markdown_overview
-                    + end_overview_table
-                    + after_table
-                )
+            before_table = readme_content.split(start_overview_table)[0]
+            after_table = readme_content.split(end_overview_table)[1]
+            new_readme_content = (
+                before_table
+                + start_overview_table
+                + markdown_overview
+                + end_overview_table
+                + after_table
+            )
             with open(readme_md, "w") as f:
                 f.write(new_readme_content)
         else:
             print(markdown_overview)
-
     else:
         print(df)
 
