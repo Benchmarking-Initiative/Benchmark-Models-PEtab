@@ -1,7 +1,9 @@
 **Checklist for the submission of new PEtab problems**
+- [ ] The PEtab problem is based on a model that is peer-reviewed and published
 - [ ] The problem ID is in the format `{LAST_NAME_OF_FIRST_AUTHOR}_{ABBREVIATED_JOURNAL_NAME}{YEAR_OF_PUBLICATION}`
+- [ ] The problem ID is in the pull request title
 - [ ] There is a GitHub issue for this problem
-  - [ ] The problem ID is in the title
+  - [ ] The problem ID is in the issue title
   - [ ] A brief model description (one or two sentences)
   - [ ] A brief data description (one or two sentences)
   - [ ] The issue and PR are linked to each other
@@ -16,8 +18,5 @@
   - [ ] A visualization table is included, that can be used with the simulate data to reproduce figures from the original publication
   - [ ] The PEtab problem is valid (check with e.g. `petablint -vy problem.yaml`)
 - [ ] The PEtab problem author(s) are assigned to the GitHub issue
-- [ ] The PEtab problem is based on a model that is
-  - [ ] peer-reviewed and
-  - [ ] published
 - [ ] The README has been updated with `python scripts/overview.py --update`
   - [ ] The new PEtab problem row in the generated table has the correct reference (and other entries)
