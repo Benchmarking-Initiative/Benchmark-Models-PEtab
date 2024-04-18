@@ -1,1 +1,1 @@
-New submissions are very welcome! Please check `pull_request_template.md` for guidelines.
+New submissions are very welcome! Please check our [pull request template](https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/blob/master/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md)` for guidelines.
