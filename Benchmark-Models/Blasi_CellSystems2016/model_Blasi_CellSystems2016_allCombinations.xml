@@ -34,7 +34,6 @@
         </rdf:Description>
       </rdf:RDF>
     </annotation>
-<annotation/>
 <listOfUnitDefinitions>
 <unitDefinition metaid="substance" id="substance" name="substance">
 <listOfUnits>
