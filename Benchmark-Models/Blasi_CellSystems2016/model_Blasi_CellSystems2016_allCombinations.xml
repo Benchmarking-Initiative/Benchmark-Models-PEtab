@@ -34,7 +34,6 @@
         </rdf:Description>
       </rdf:RDF>
     </annotation>
-<annotation/>
 <listOfUnitDefinitions>
 <unitDefinition metaid="substance" id="substance" name="substance">
 <listOfUnits>
@@ -367,7 +366,6 @@
 </listOfRules>
 <listOfReactions>
 <reaction metaid="re1" id="re1" name="0ac-&gt;k5" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00006" species="x_0ac"/>
 </listOfReactants>
@@ -393,7 +391,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re2" id="re2" name="0ac-&gt;k8" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00009" species="x_0ac"/>
 </listOfReactants>
@@ -419,7 +416,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re3" id="re3" name="0ac-&gt;k12" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00012" species="x_0ac"/>
 </listOfReactants>
@@ -445,7 +441,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re4" id="re4" name="0ac-&gt;k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00015" species="x_0ac"/>
 </listOfReactants>
@@ -471,7 +466,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re5" id="re5" name="k5-&gt;k5k8" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00018" species="x_k5"/>
 </listOfReactants>
@@ -497,7 +491,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re6" id="re6" name="k5-&gt;k5k12" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00020" species="x_k5"/>
 </listOfReactants>
@@ -523,7 +516,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re7" id="re7" name="k5-&gt;k5k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00022" species="x_k5"/>
 </listOfReactants>
@@ -549,7 +541,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re8" id="re8" name="k8-&gt;k5k8" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00027" species="x_k8"/>
 </listOfReactants>
@@ -575,7 +566,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re9" id="re9" name="k8-&gt;k8k12" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00029" species="x_k8"/>
 </listOfReactants>
@@ -601,7 +591,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re10" id="re10" name="k8-&gt;k8k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00031" species="x_k8"/>
 </listOfReactants>
@@ -627,7 +616,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re11" id="re11" name="k12-&gt;k5k12" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00037" species="x_k12"/>
 </listOfReactants>
@@ -653,7 +641,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re12" id="re12" name="k12-&gt;k8k12" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00040" species="x_k12"/>
 </listOfReactants>
@@ -679,7 +666,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re13" id="re13" name="k12-&gt;k12k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00043" species="x_k12"/>
 </listOfReactants>
@@ -705,7 +691,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re14" id="re14" name="k16-&gt;k5k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00046" species="x_k16"/>
 </listOfReactants>
@@ -731,7 +716,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re15" id="re15" name="k16-&gt;k8k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00048" species="x_k16"/>
 </listOfReactants>
@@ -757,7 +741,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re16" id="re16" name="k16-&gt;k12k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00050" species="x_k16"/>
 </listOfReactants>
@@ -783,7 +766,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re17" id="re17" name="k5k8-&gt;k5k8k12" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00055" species="x_k5k8"/>
 </listOfReactants>
@@ -809,7 +791,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re18" id="re18" name="k5k8-&gt;k5k8k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00058" species="x_k5k8"/>
 </listOfReactants>
@@ -835,7 +816,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re19" id="re19" name="k5k12-&gt;k5k8k12" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00061" species="x_k5k12"/>
 </listOfReactants>
@@ -861,7 +841,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re20" id="re20" name="k5k12-&gt;k5k12k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00064" species="x_k5k12"/>
 </listOfReactants>
@@ -887,7 +866,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re21" id="re21" name="k5k16-&gt;k5k8k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00067" species="x_k5k16"/>
 </listOfReactants>
@@ -913,7 +891,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re22" id="re22" name="k5k16-&gt;k5k12k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00070" species="x_k5k16"/>
 </listOfReactants>
@@ -939,7 +916,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re23" id="re23" name="k8k12-&gt;k5k8k12" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00073" species="x_k8k12"/>
 </listOfReactants>
@@ -965,7 +941,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re24" id="re24" name="k8k12-&gt;k8k12k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00076" species="x_k8k12"/>
 </listOfReactants>
@@ -991,7 +966,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re25" id="re25" name="k8k16-&gt;k5k8k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00079" species="x_k8k16"/>
 </listOfReactants>
@@ -1017,7 +991,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re26" id="re26" name="k8k16-&gt;k8k12k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00082" species="x_k8k16"/>
 </listOfReactants>
@@ -1043,7 +1016,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re27" id="re27" name="k12k16-&gt;k5k12k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00085" species="x_k12k16"/>
 </listOfReactants>
@@ -1069,7 +1041,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re28" id="re28" name="k12k16&gt;k8k12k16" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00088" species="x_k12k16"/>
 </listOfReactants>
@@ -1095,7 +1066,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re29" id="re29" name="k5k8k12-&gt;4ac" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00091" species="x_k5k8k12"/>
 </listOfReactants>
@@ -1121,7 +1091,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re30" id="re30" name="k5k8k16-&gt;4ac" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00094" species="x_k5k8k16"/>
 </listOfReactants>
@@ -1147,7 +1116,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re31" id="re31" name="k5k12k16-&gt;4ac" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00097" species="x_k5k12k16"/>
 </listOfReactants>
@@ -1173,7 +1141,6 @@
 </kineticLaw>
 </reaction>
 <reaction metaid="re32" id="re32" name="k8k12k16-&gt;4ac" fast="false">
-<annotation/>
 <listOfReactants>
 <speciesReference metaid="CDMT00100" species="x_k8k12k16"/>
 </listOfReactants>
