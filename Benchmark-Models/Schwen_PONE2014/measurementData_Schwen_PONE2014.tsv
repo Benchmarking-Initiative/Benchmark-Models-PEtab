@@ -1,5 +1,5 @@
 observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters	datasetId
-observable_IRsum		model1_data1	2.35234490985703	0	offset;scale	IR_obs_std	model1_data1_IR_sum
+observable_IRsum		model1_data1	2.35234490985703	0	offset;scale	IR_obs_std	model1_data1_IRsum
 observable_Insulin		model1_data10	2850.76923100002	0.25	offset_nExpID1;scaleElisa_nExpID1;fragments;km_nExpID1	std	model1_data10_Insulin
 observable_Insulin		model1_data10	2762.307692	0.25	offset_nExpID1;scaleElisa_nExpID1;fragments;km_nExpID1	std	model1_data10_Insulin
 observable_Insulin		model1_data10	2250.76923099998	0.5	offset_nExpID1;scaleElisa_nExpID1;fragments;km_nExpID1	std	model1_data10_Insulin
