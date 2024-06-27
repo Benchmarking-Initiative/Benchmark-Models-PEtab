@@ -838,7 +838,7 @@ The coronavirus disease 2019 (COVID-19) pandemic has placed epidemic modeling at
       </assignmentRule>
     </listOfRules>
     <listOfReactions>
-      <reaction metaid="COPASI26" id="Susceptible_to_Infected" name="Susceptible_to_Infected" reversible="false">
+      <reaction metaid="COPASI26" id="Susceptible_to_Infected" name="Susceptible_to_Infected" reversible="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#COPASI26">
