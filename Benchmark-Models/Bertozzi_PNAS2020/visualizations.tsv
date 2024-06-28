@@ -1,0 +1,3 @@
+plotId	plotName	plotTypeSimulation	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
+conf_CA	Confirmed case data from California	LinePlot	data_CA	time	0	Time [d] after 2020-03-20	y_I_CA	0	Confirmed cases	Confirmed cases	lin	log10
+conf_NY	Confirmed case data from New York	LinePlot	data_NY	time	0	Time [d] after 2020-03-20	y_I_NY	0	Confirmed cases	Confirmed cases	lin	log10

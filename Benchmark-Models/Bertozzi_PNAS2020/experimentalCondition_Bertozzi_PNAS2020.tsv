@@ -1,5 +1,0 @@
-conditionId	conditionName	Trigger_NY	Trigger_Lockdown
-CA_with_lockdown	CA_with_lockdown	0	1
-CA_without_lockdown	CA_without_lockdown	0	0
-NY_with_lockdown	NY_with_lockdown	1	1
-NY_without_lockdown	NY_without_lockdown	1	0

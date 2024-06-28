@@ -1,9 +1,0 @@
-parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate
-gamma_NY	gamma_NY	log10	0.01	0.2	0.1	1
-gamma_CA	gamma_CA	log10	0.01	0.2	0.12	0
-Ro_NY	Ro_NY	log10	1.5	5	4.1	1
-Ro_CA	Ro_CA	log10	1.5	5	2.7	0
-Io_NY	Io_NY	log10	0.005	0.1	0.005	1
-Io_CA	Io_CA	log10	0.005	0.1	0.1	0
-sd_observable_infected_NY	sd_observable_infected_NY	log10	0.001	100	1	0
-sd_observable_infected_CA	sd_observable_infected_CA	log10	0.001	100	1	0

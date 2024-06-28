@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="Bertozzi_PNAS2020" name="Bertozzi_PNAS2020">
+    <listOfCompartments>
+	<compartment id="compartment" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="I_" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false"/>
+      <species id="R_" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false"/>
+      <species id="S_" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="N_"     value="0" constant="false"/>
+      <parameter id="beta_"  value="0" constant="false"/>
+      <parameter id="gamma_" value="0" constant="false"/>
+      <parameter id="I0_"    value="0" constant="false"/>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="I_">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	  <apply>
+            <times/>
+            <ci> I0_ </ci>
+	  </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="S_">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> N_ </ci>
+            <ci> I0_ </ci>
+          </apply>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfReactions>
+      <reaction id="infection" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S_" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="I_" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+              <times/>
+              <ci> beta_ </ci>
+              <ci> I_ </ci>
+              <ci> S_ </ci>
+              </apply>
+              <ci> N_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="recovery" reversible="false">
+        <listOfReactants>
+          <speciesReference species="I_" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> gamma_ </ci>
+              <ci> I_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
