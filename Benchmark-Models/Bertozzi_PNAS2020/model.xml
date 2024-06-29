@@ -1,19 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
   <model id="Bertozzi_PNAS2020" name="Bertozzi_PNAS2020">
     <listOfCompartments>
 	<compartment id="compartment" size="1" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="I_" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false"/>
-      <species id="R_" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false"/>
-      <species id="S_" compartment="compartment" initialConcentration="0" boundaryCondition="false" constant="false"/>
+      <species id="I_" compartment="compartment" initialConcentration="0.1" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="true"/>
+      <species id="R_" compartment="compartment" initialConcentration="0"   boundaryCondition="false" constant="false" hasOnlySubstanceUnits="true"/>
+      <species id="S_" compartment="compartment" initialConcentration="0.9" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="true"/>
     </listOfSpecies>
     <listOfParameters>
-      <parameter id="N_"     value="0" constant="false"/>
-      <parameter id="beta_"  value="0" constant="false"/>
-      <parameter id="gamma_" value="0" constant="false"/>
-      <parameter id="I0_"    value="0" constant="false"/>
+      <parameter id="N_"     value="1"   constant="true"/>
+      <parameter id="beta_N" value="0"   constant="true"/>
+      <parameter id="gamma_" value="0.1" constant="true"/>
+      <parameter id="I0_"    value="0.1" constant="true"/>
+      <parameter id="R0_"    value="0.1" constant="true"/>
     </listOfParameters>
     <listOfInitialAssignments>
       <initialAssignment symbol="I_">
@@ -33,36 +34,46 @@
           </apply>
         </math>
       </initialAssignment>
+      <initialAssignment symbol="beta_N">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> R0_ </ci>
+              <ci> gamma_ </ci>
+            </apply>
+            <ci> N_ </ci>
+          </apply>
+        </math>
+      </initialAssignment>
     </listOfInitialAssignments>
     <listOfReactions>
       <reaction id="infection" reversible="false">
         <listOfReactants>
-          <speciesReference species="S_" stoichiometry="1"/>
+          <speciesReference species="S_" stoichiometry="1" constant="true"/>
+          <speciesReference species="I_" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="I_" stoichiometry="1"/>
+          <speciesReference species="I_" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
-              <divide/>
-              <apply>
               <times/>
-              <ci> beta_ </ci>
+              <ci> beta_N </ci>
               <ci> I_ </ci>
               <ci> S_ </ci>
-              </apply>
-              <ci> N_ </ci>
             </apply>
           </math>
         </kineticLaw>
       </reaction>
       <reaction id="recovery" reversible="false">
         <listOfReactants>
-          <speciesReference species="I_" stoichiometry="1"/>
+          <speciesReference species="I_" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="R_" stoichiometry="1"/>
+          <speciesReference species="R_" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">

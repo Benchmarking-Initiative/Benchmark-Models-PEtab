@@ -1,9 +1,9 @@
 parameterId	parameterScale	lowerBound	upperBound	nominalValue	estimate
+R0_NY	log10	1.5	5	4.1	1
 gamma_NY	log10	0.01	0.2	0.1	1
+I0_NY	log10	1e3	1e4	0.005	1
+sd_I_NY	log10	1e2	1e3	1	1
+R0_CA	log10	1.5	5	2.7	1
 gamma_CA	log10	0.01	0.2	0.12	1
-beta_NY	log10	0.015	1	4.1	1
-beta_CA	log10	0.015	1	2.7	1
-I0_NY	log10	1	1e4	0.005	1
-I0_CA	log10	1	1e4	0.1	1
-sd_I_NY	log10	0.001	100	1	1
-sd_I_CA	log10	0.001	100	1	1
+I0_CA	log10	1e2	1e3	0.1	1
+sd_I_CA	log10	1e2	1e3	1	1
