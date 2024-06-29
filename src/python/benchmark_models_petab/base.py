@@ -18,7 +18,12 @@ def get_problem_yaml_path(id_: str) -> Path:
     -------
     The path to the PEtab problem YAML file.
     """
-    return Path(MODELS_DIR, id_, id_ + ".yaml")
+    yaml_path = Path(MODELS_DIR, id_, id_ + ".yaml")
+    if not yaml_path.exists():
+        yaml_path = Path(MODELS_DIR, id_, "problem.yaml") 
+    if not yaml_path.exists():
+        raise ValueError(f"Could not find YAML for problem with ID `{id_}`.")
+    return yaml_path
 
 
 def get_problem(id_: str) -> petab.Problem:
