@@ -1,8 +1,7 @@
 """Get a petab problem from the collection."""
-
 from pathlib import Path
 
-import petab
+import petab.v1 as petab
 
 from .C import MODELS_DIR
 
