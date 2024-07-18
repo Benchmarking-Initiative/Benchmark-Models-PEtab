@@ -11,7 +11,7 @@ num_failures = 0
 
 for petab_problem_id, petab_yaml in petab_yamls.items():
     print(petab_problem_id)
-    ret = os.system(f"petablint -vy {petab_yaml}")
+    ret = os.system(f"petablint -v {petab_yaml}")
     print('='*100)  # just for output readability
 
     if ret:
