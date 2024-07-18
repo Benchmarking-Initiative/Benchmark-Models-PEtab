@@ -7,7 +7,7 @@ from typing import Dict, List
 import libsbml
 import numpy as np
 import pandas as pd
-import petab
+import petab.v1 as petab
 
 from _helpers import petab_yamls, readme_md
 

@@ -9,4 +9,12 @@ petab_yamls = {
 }
 petab_yamls = {k: petab_yamls[k] for k in sorted(petab_yamls)}
 
+for problem_id, petab_yaml in petab_yamls.items():
+    if not petab_yaml.exists():
+        petab_yamls[problem_id] = petab_yaml.parent / "problem.yaml"
+        if not petab_yamls[problem_id].exists():
+            raise FileNotFoundError(
+                f"Could not find the YAML for problem `{problem_id}`."
+            )
+
 readme_md = Path(__file__).resolve().parent.parent / "README.md"

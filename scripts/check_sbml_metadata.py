@@ -3,7 +3,7 @@
 from pathlib import Path
 import sys
 
-import petab
+import petab.v1 as petab
 
 from overview import get_reference_uris
 from _helpers import petab_yamls
