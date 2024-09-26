@@ -23,16 +23,13 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install --upgrade setuptools wheel
-        pip install -r scripts/requirements.txt
+        cd src/python && pip install -e .
 
     - name: Check with petablint
-      run: ./check_petablint.py
-      working-directory: scripts/
+      run: bmp-petablint
 
     - name: Show overview
-      run: ./overview.py
-      working-directory: scripts/
+      run: bmp-create-overview
 
     - name: Check SBML metadata
-      run: ./check_sbml_metadata.py
-      working-directory: scripts/
+      run: bmp-check-sbml-metadata

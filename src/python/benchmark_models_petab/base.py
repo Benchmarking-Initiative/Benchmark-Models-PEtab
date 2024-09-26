@@ -1,4 +1,5 @@
 """Get a petab problem from the collection."""
+
 from pathlib import Path
 
 import petab.v1 as petab
@@ -26,7 +27,7 @@ def get_problem_yaml_path(id_: str) -> Path:
 
 
 def get_problem(id_: str) -> petab.Problem:
-    """Read PEtab problem from benchmark collection by name.
+    """Read PEtab problem from the benchmark collection by name.
 
     Parameters
     ----------
