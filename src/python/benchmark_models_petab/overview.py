@@ -25,6 +25,7 @@ markdown_columns = {
     "observables": "Observables",
     "species": "Species",
     "noise_distributions": "Noise distribution(s)",
+    "objective_prior_distributions": "Objective prior distribution(s)",
     "reference_uris": "References",
     "sbml4humans_urls": "SBML4Humans",
 }
@@ -73,6 +74,9 @@ def get_summary(
         ),
         "noise_distributions": get_noise_distributions(
             petab_problem.observable_df
+        ),
+        "objective_prior_distributions": get_prior_distributions(
+            petab_problem.parameter_df
         ),
         "species": len(petab_problem.sbml_model.getListOfSpecies()),
         "reference_uris": get_reference_uris(petab_problem.sbml_model),
@@ -144,6 +148,21 @@ def get_noise_distributions(observable_df):
         "-".join(nd) if nd[0] != petab.LIN else nd[1] for nd in noise_distrs
     ]
     return "; ".join(noise_distrs)
+
+
+def get_prior_distributions(parameter_df: pd.DataFrame) -> str:
+    """Get the list of prior distributions entering the objective function."""
+    df = parameter_df.loc[parameter_df[petab.ESTIMATE] == 1]
+    if (
+        petab.OBJECTIVE_PRIOR_TYPE not in df
+        or df.get(petab.OBJECTIVE_PRIOR_TYPE).isna().all()
+        or petab.OBJECTIVE_PRIOR_PARAMETERS not in df
+        or df.get(petab.OBJECTIVE_PRIOR_PARAMETERS).isna().all()
+    ):
+        # nothing to do
+        return ""
+    unique = map(str, df[petab.OBJECTIVE_PRIOR_TYPE].fillna("").unique())
+    return "; ".join(filter(None, unique))
 
 
 def get_overview_df() -> pd.DataFrame:
