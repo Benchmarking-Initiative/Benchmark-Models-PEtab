@@ -15,8 +15,8 @@
   - [ ] The model ID and model name attributes in the SBML model file match the problem name ([example](https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/blob/3154d27edbfc4eb19b768465945bc81381a7c964/Benchmark-Models/Rahman_MBS2016/model_Rahman_MBS2016.xml#L3))
 - [ ] PEtab files
   - [ ] A "simulated data" measurement table is included, using the nominal parameters
-  - [ ] A visualization table is included, that can be used with the simulate data to reproduce figures from the original publication
+  - [ ] A visualization table is included, that can be used with the simulated data to reproduce figures from the original publication
   - [ ] The PEtab problem is valid (check with e.g. `petablint -vy problem.yaml`)
 - [ ] The PEtab problem author(s) are assigned to the GitHub issue
-- [ ] The README has been updated with `python scripts/overview.py --update`
+- [ ] The README has been updated with `bmp-create-overview  --update` (requires `pip install -e src/python/bmp` from the repository root)
   - [ ] The new PEtab problem row in the generated table has the correct reference (and other entries)
