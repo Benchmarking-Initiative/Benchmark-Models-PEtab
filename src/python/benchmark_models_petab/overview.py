@@ -169,7 +169,7 @@ def show_overview_table(
     df = get_overview_df()
     pd.options.display.width = 0
 
-    if markdown:
+    if markdown or update_readme:
         # directory as markdown link
         df.rename(
             index=lambda x: f"[{x}](Benchmark-Models/{x}/)", inplace=True
