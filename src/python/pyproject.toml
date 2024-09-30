@@ -14,8 +14,12 @@ dynamic = ["version"]
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
+maintainers = [
+    { name = "Dilan Pathirana"},
+    { name = "Maren Philipps"}
+]
 authors = [
-    { name = "The Benchmark-Models-PEtab maintainers", email = "yannik.schaelte@gmail.com" }
+    { name = "The Benchmark-Models-PEtab contributors" }
 ]
 urls = { "Homepage" = "https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab" }
 dependencies = [
