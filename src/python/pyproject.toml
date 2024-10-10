@@ -3,6 +3,7 @@ requires = [
     "setuptools",
     "wheel",
     "petab",
+    "sbmlmath",
 ]
 build-backend = "setuptools.build_meta"
 
@@ -28,6 +29,7 @@ dependencies = [
     "pandas",
     "python-libsbml",
     "tabulate",
+    "sbmlmath",
 ]
 
 [project.optional-dependencies]
