@@ -9,8 +9,12 @@ import numpy as np
 import pandas as pd
 import petab.v1 as petab
 from petab.yaml import load_yaml
-
+from sbmlmath import sbml_math_to_sympy
+from sbmlmath.csymbol import TimeSymbol
 from . import MODELS, get_problem, get_problem_yaml_path
+import sympy as sp
+from sympy.core.relational import Relational
+
 
 readme_md = Path(__file__).resolve().parent.parent / "README.md"
 
@@ -28,6 +32,7 @@ markdown_columns = {
     "objective_prior_distributions": "Objective prior distribution(s)",
     "reference_uris": "References",
     "sbml4humans_urls": "SBML4Humans",
+    "discontinuities": "Discontinuities",
 }
 
 index_column = "petab_problem_id"
@@ -48,6 +53,7 @@ def get_summary(
             petab_problem.parameter_df[petab.ESTIMATE]
         ),
         "events": len(petab_problem.sbml_model.getListOfEvents()),
+        "discontinuities": has_discontinuities(petab_problem),
         "preequilibration": 0
         if petab.PREEQUILIBRATION_CONDITION_ID
         not in petab_problem.measurement_df.columns
@@ -165,6 +171,98 @@ def get_prior_distributions(parameter_df: pd.DataFrame) -> str:
     return "; ".join(filter(None, unique))
 
 
+def has_discontinuities(petab_problem: petab.Problem) -> bool:
+    """Guess whether the model has discontinuities.
+
+    Potential discontinuities in the model state or its derivative:
+
+    * SBML events with event assignments
+    * SBML kinetic laws or rules with discontinuous math
+      (piecewise, min, max, floor, ceiling, abs, logical operators, ...
+      with time-dependent arguments)
+
+    This is just an educated guess. The current list may be incomplete;
+    not all piecewise functions are necessarily discontinuous; not all
+    discontinuities might play a role in the simulation; the presence of
+    discontinuities might be parameter-dependent; ... .
+    """
+    model: libsbml.Model = petab_problem.sbml_model
+
+    for event in model.getListOfEvents():
+        for ea in event.getListOfEventAssignments():
+            if ea.getMath():
+                return True
+
+    # convert reactions to rate rules
+    sbml_doc = petab_problem.sbml_model.getSBMLDocument().clone()
+    model = sbml_doc.getModel()
+    conversion_config = libsbml.ConversionProperties()
+    conversion_config.addOption("replaceReactions")
+    sbml_doc.convert(conversion_config)
+    conversion_config = libsbml.ConversionProperties()
+    conversion_config.addOption("expandFunctionDefinitions")
+    sbml_doc.convert(conversion_config)
+    if model.getNumReactions() != 0 or model.getNumFunctionDefinitions() != 0:
+        raise AssertionError(
+            "Conversion to rate rules and function definitions failed"
+        )
+
+    # check whether any math contains discontinuous functions
+    disc_math = (
+        sp.Piecewise,
+        sp.Min,
+        sp.Max,
+        sp.floor,
+        sp.ceiling,
+        sp.Abs,
+        sp.factorial,
+        sp.Mod,
+        sp.And,
+        sp.Or,
+        sp.Xor,
+        sp.Not,
+        sp.Implies,
+        Relational,
+        sp.tan,
+        sp.sec,
+        sp.csc,
+        sp.cot,
+        sp.asec,
+        sp.acsc,
+        sp.acot,
+        sp.asech,
+        sp.acsch,
+        sp.acoth,
+    )
+
+    def expr_maybe_time_dependent(expr: sp.Expr) -> bool:
+        """Check if an expression might be time-dependent."""
+        for free_symbol in expr.free_symbols:
+            # explicitly time-dependent
+            if free_symbol == TimeSymbol("t"):
+                return True
+            if (ele := model.getElementBySId(free_symbol.name)) and not (
+                hasattr(ele, "getConstant") and ele.getConstant() is True
+            ):
+                # not explicitly constant – *might* be time-dependent
+                return True
+        return False
+
+    # after the conversion, the only relevant entities are the rules
+    for rule in model.getListOfRules():
+        expr = sbml_math_to_sympy(rule)
+        if not expr.has(*disc_math):
+            continue
+        # check whether the discontinuous function has time-dependent
+        #  arguments; otherwise it's not a discontinuity
+        for func in disc_math:
+            for occurrence in expr.find(func):
+                for arg in occurrence.args:
+                    if expr_maybe_time_dependent(arg):
+                        return True
+    return False
+
+
 def get_overview_df() -> pd.DataFrame:
     """Get overview table with stats for all benchmark PEtab problems"""
     data = []
@@ -200,6 +298,9 @@ def show_overview_table(
                     [f"[\\[{i + 1}\\]]({uri})" for i, uri in enumerate(x)]
                 )
             )
+        df["discontinuities"] = df["discontinuities"].apply(
+            lambda x: "✓" if x else ""
+        )
         df.index.rename(markdown_columns[index_column], inplace=True)
         df.rename(columns=markdown_columns, inplace=True)
         markdown_overview = df.to_markdown()

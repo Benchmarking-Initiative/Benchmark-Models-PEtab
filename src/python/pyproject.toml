@@ -23,6 +23,7 @@ dependencies = [
     "pandas",
     "python-libsbml",
     "tabulate",
+    "sbmlmath",
 ]
 
 [project.optional-dependencies]
