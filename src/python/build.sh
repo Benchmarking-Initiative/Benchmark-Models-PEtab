@@ -36,6 +36,9 @@ cp -r "../../$DATA_DIR" $BUILD_DIR/$CODE_DIR
 # Hop into
 cd $BUILD_DIR
 
+# update git root in setuptools_scm configuration
+sed -ri 's/root = "..\/.."/root = "..\/..\/.."/' pyproject.toml
+
 # Build
 pip install --upgrade build
 python -m build --sdist
