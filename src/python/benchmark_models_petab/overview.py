@@ -53,7 +53,7 @@ def get_summary(
             petab_problem.parameter_df[petab.ESTIMATE]
         ),
         "events": len(petab_problem.sbml_model.getListOfEvents()),
-        "discontinuities": has_discontinuities(petab_problem),
+        "possible discontinuities": guess_discontinuities(petab_problem),
         "preequilibration": 0
         if petab.PREEQUILIBRATION_CONDITION_ID
         not in petab_problem.measurement_df.columns
@@ -171,7 +171,7 @@ def get_prior_distributions(parameter_df: pd.DataFrame) -> str:
     return "; ".join(filter(None, unique))
 
 
-def has_discontinuities(petab_problem: petab.Problem) -> bool:
+def guess_discontinuities(petab_problem: petab.Problem) -> bool:
     """Guess whether the model has discontinuities.
 
     Potential discontinuities in the model state or its derivative:
