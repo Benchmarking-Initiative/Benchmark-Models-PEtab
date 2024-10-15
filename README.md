@@ -84,7 +84,6 @@ Example BibTeX (customize the Zenodo `year` and `version` to match your version)
     pages = {1-10},
     abstract = {Reproducibility and reusability of the results of data-based modeling studies are essential. Yet, there has been—so far—no broadly supported format for the specification of parameter estimation problems in systems biology. Here, we introduce PEtab, a format which facilitates the specification of parameter estimation problems using Systems Biology Markup Language (SBML) models and a set of tab-separated value files describing the observation model and experimental data as well as parameters to be estimated. We already implemented PEtab support into eight well-established model simulation and parameter estimation toolboxes with hundreds of users in total. We provide a Python library for validation and modification of a PEtab problem and currently 20 example parameter estimation problems based on recent studies.},
     number = {1},
-
 }
 ```
 
