@@ -55,7 +55,38 @@ See [INSTALL.md](INSTALL.md).
 
 ## How to Cite
 
-When using this work, please cite an appropriate version on Zenodo: https://doi.org/10.5281/zenodo.8155057
+Please cite the benchmark collection by citing:
+1. the PEtab paper, which first introduced this collection: https://doi.org/10.1371/journal.pcbi.1008646
+2. the Zenodo repository, where versions of this collection are deposited (doi:10.5281/zenodo.8155057)
+
+Example BibTeX (customize the Zenodo `year` and `version` to match your version):
+```bibtex
+@misc{petab_benchmark_collection,
+  author       = {The PEtab Benchmark Collection contributors},
+  title        = {{The PEtab Benchmark Collection of parameter estimation problems}},
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {2024.10.15},
+  doi          = {10.5281/zenodo.8155057},
+  url          = {https://doi.org/10.5281/zenodo.8155057}
+}
+
+@article{10.1371/journal.pcbi.1008646,
+    doi = {10.1371/journal.pcbi.1008646},
+    author = {Schmiester, Leonard AND Schälte, Yannik AND Bergmann, Frank T. AND Camba, Tacio AND Dudkin, Erika AND Egert, Janine AND Fröhlich, Fabian AND Fuhrmann, Lara AND Hauber, Adrian L. AND Kemmer, Svenja AND Lakrisenko, Polina AND Loos, Carolin AND Merkt, Simon AND Müller, Wolfgang AND Pathirana, Dilan AND Raimúndez, Elba AND Refisch, Lukas AND Rosenblatt, Marcus AND Stapor, Paul L. AND Städter, Philipp AND Wang, Dantong AND Wieland, Franz-Georg AND Banga, Julio R. AND Timmer, Jens AND Villaverde, Alejandro F. AND Sahle, Sven AND Kreutz, Clemens AND Hasenauer, Jan AND Weindl, Daniel},
+    journal = {PLOS Computational Biology},
+    publisher = {Public Library of Science},
+    title = {PEtab—Interoperable specification of parameter estimation problems in systems biology},
+    year = {2021},
+    month = {01},
+    volume = {17},
+    url = {https://doi.org/10.1371/journal.pcbi.1008646},
+    pages = {1-10},
+    abstract = {Reproducibility and reusability of the results of data-based modeling studies are essential. Yet, there has been—so far—no broadly supported format for the specification of parameter estimation problems in systems biology. Here, we introduce PEtab, a format which facilitates the specification of parameter estimation problems using Systems Biology Markup Language (SBML) models and a set of tab-separated value files describing the observation model and experimental data as well as parameters to be estimated. We already implemented PEtab support into eight well-established model simulation and parameter estimation toolboxes with hundreds of users in total. We provide a Python library for validation and modification of a PEtab problem and currently 20 example parameter estimation problems based on recent studies.},
+    number = {1},
+
+}
+```
 
 ## References
 
