@@ -32,7 +32,7 @@ markdown_columns = {
     "objective_prior_distributions": "Objective prior distribution(s)",
     "reference_uris": "References",
     "sbml4humans_urls": "SBML4Humans",
-    "discontinuities": "Discontinuities",
+    "possible_discontinuities": "Possible Discontinuities",
 }
 
 index_column = "petab_problem_id"
@@ -53,7 +53,7 @@ def get_summary(
             petab_problem.parameter_df[petab.ESTIMATE]
         ),
         "events": len(petab_problem.sbml_model.getListOfEvents()),
-        "possible discontinuities": guess_discontinuities(petab_problem),
+        "possible_discontinuities": guess_discontinuities(petab_problem),
         "preequilibration": 0
         if petab.PREEQUILIBRATION_CONDITION_ID
         not in petab_problem.measurement_df.columns
@@ -298,7 +298,7 @@ def show_overview_table(
                     [f"[\\[{i + 1}\\]]({uri})" for i, uri in enumerate(x)]
                 )
             )
-        df["discontinuities"] = df["discontinuities"].apply(
+        df["possible_discontinuities"] = df["possible_discontinuities"].apply(
             lambda x: "✓" if x else ""
         )
         df.index.rename(markdown_columns[index_column], inplace=True)
