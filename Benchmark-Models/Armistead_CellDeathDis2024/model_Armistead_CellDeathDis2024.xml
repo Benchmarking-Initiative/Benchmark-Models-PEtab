@@ -192,7 +192,7 @@
           </rdf:RDF>
         </annotation>
       </parameter>
-      <parameter metaid="meta_S_on" sboTerm="SBO:0000009" id="S_on" name="Boolean Paramter if Hai1a is active or not" value="1" constant="true">
+      <parameter metaid="meta_S_on" sboTerm="SBO:0000009" id="S_on" name="Boolean Parameter if Hai1a is active or not" value="1" constant="true">
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#meta_S_on">
