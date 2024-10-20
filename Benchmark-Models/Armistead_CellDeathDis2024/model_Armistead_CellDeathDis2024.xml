@@ -7,7 +7,7 @@
         <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5525390.svg" alt="DOI"/></a></p>
       </body>
     </notes>
-  <model metaid="meta_Sphingolipid_rheostat_Cer_activation" id="Sphingolipid_rheostat_Cer_activation" name="Model for the Sphingolipid rheostat with an assumed Cer activation feedback.">
+  <model metaid="meta_Sphingolipid_rheostat_Cer_activation" id="Armistead_CellDeathDis2024" name="Armistead_CellDeathDis2024">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <p>
@@ -44,6 +44,11 @@
           <dcterms:modified rdf:parseType="Resource">
             <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
           </dcterms:modified>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="https://doi.org/10.1038/s41419-024-07134-2"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
         </rdf:Description>
       </rdf:RDF>
     </annotation>

@@ -8,6 +8,6 @@ problems:
     observable_files:
     - Sphingolipid_rheostat_observables.tsv
     sbml_files:
-    - ../Sphingolipid_rheostat_Cer_activation.xml
+    - model_Armistead_CellDeathDis2024.xml
     visualization_files:
     - Sphingolipid_rheostat_visualization_specification.tsv
