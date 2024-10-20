@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: Sphingolipid_rheostat_parameters.tsv
+parameter_file: parameters_Armistead_CellDeathDis2024.tsv
 problems:
   - condition_files:
-    - Sphingolipid_rheostat_experimental_conditions.tsv
+    - experimentalConditions_Armistead_CellDeathDis2024.tsv
     measurement_files:
-    - Sphingolipid_rheostat_measurement_data.tsv
+    - measurementData_Armistead_CellDeathDis2024.tsv
     observable_files:
-    - Sphingolipid_rheostat_observables.tsv
+    - observables_Armistead_CellDeathDis2024.tsv
     sbml_files:
     - model_Armistead_CellDeathDis2024.xml
     visualization_files:
-    - Sphingolipid_rheostat_visualization_specification.tsv
+    - visualizationSpecification_Armistead_CellDeathDis2024.tsv
