@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1" level="3" version="2" comp:required="true">
+  <notes>
+    <body xmlns="http://www.w3.org/1999/xhtml">
+      <p>Created with <a href="https://github.com/matthiaskoenig/sbmlutils">https://github.com/matthiaskoenig/sbmlutils</a>.
+<a href="https://doi.org/10.5281/zenodo.5525390">
+        <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5525390.svg" alt="DOI"/></a></p>
+      </body>
+    </notes>
+  <model metaid="meta_Sphingolipid_rheostat_Cer_activation" id="Sphingolipid_rheostat_Cer_activation" name="Model for the Sphingolipid rheostat with an assumed Cer activation feedback.">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>
+          <a href="http://sbml.org">SBML</a> format.</p>
+          <p>
+            <strong>version:</strong> 1</p>
+            <h2>Changelog</h2>
+            <p>
+              <strong>version 1</strong>
+            </p>
+            <ul>
+              <li>initial model</li>
+            </ul>
+          </body>
+        </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#meta_Sphingolipid_rheostat_Cer_activation">
+          <dcterms:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard4:hasName rdf:parseType="Resource">
+                  <vCard4:family-name>Höpfl</vCard4:family-name>
+                  <vCard4:given-name>Sebastian</vCard4:given-name>
+                </vCard4:hasName>
+                <vCard4:hasEmail>sebastian.hoepfl@isa.uni-stuttgart.de</vCard4:hasEmail>
+                <vCard4:organization-name>University of Stuttgart, Institute for Stochastics and Applications</vCard4:organization-name>
+              </rdf:li>
+            </rdf:Bag>
+          </dcterms:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>1900-01-01T00:00:00Z</dcterms:W3CDTF>
+          </dcterms:modified>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfCompartments>
+      <compartment id="C" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="Cer" name="Ceramide" compartment="C" initialConcentration="0.988" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Sphingo" name="Sphingosine" compartment="C" initialConcentration="0.000395" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S1P" name="Sphingosine-1-Phosphate" compartment="C" initialConcentration="1.551" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Sphinga" name="Sphinganine" compartment="C" initialConcentration="0.000732" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter metaid="meta_k00" sboTerm="SBO:0000009" id="k00" name="Basal Sphinganine production rate" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_k00">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_k0" sboTerm="SBO:0000009" id="k0" name="Sphinganine to Ceramide conversion rate" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_k0">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_k1" sboTerm="SBO:0000009" id="k1" name="Ceramide to Sphingosine conversion rate" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_k1">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_k2" sboTerm="SBO:0000009" id="k2" name="Sphingosine to Ceramide conversion rate" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_k2">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_k3" sboTerm="SBO:0000009" id="k3" name="Sphingosine to S1P conversion rate" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_k3">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_k4" sboTerm="SBO:0000009" id="k4" name="S1P to Sphingosine conversion rate" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_k4">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_k5" sboTerm="SBO:0000009" id="k5" name="S1P degradation rate" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_k5">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_k_d" sboTerm="SBO:0000009" id="k_d" name="Ceramide degradation rate" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_k_d">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_alpha_cer" sboTerm="SBO:0000009" id="alpha_cer" name="feedback factor" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_alpha_cer">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_alpha_hai1a" sboTerm="SBO:0000009" id="alpha_hai1a" name="Rate of Hai1a inhibition" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_alpha_hai1a">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+      <parameter metaid="meta_S_on" sboTerm="SBO:0000009" id="S_on" name="Boolean Paramter if Hai1a is active or not" value="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#meta_S_on">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/SBO:0000009"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </parameter>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction id="R1" name="Sphinganine de novo production" reversible="false">
+        <listOfProducts>
+          <speciesReference species="Sphinga" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k00 </ci>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <ci> S_on </ci>
+                  <ci> alpha_cer </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R2" name="Sphinganine Ceramide conversion" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Sphinga" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cer" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k0 </ci>
+              <ci> Sphinga </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R3" name="Ceramide to Sphingosine conversion" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cer" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Sphingo" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k1 </ci>
+              <ci> Cer </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R4" name="Sphingosine to Ceramide conversion" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Sphingo" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Cer" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k2 </ci>
+              <ci> Sphingo </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R5" name="Ceramide degradation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Cer" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k_d </ci>
+              <ci> Cer </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R6" name="Sphingosine to S1P conversion" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Sphingo" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S1P" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k3 </ci>
+              <apply>
+                <minus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <times/>
+                  <ci> S_on </ci>
+                  <ci> alpha_hai1a </ci>
+                </apply>
+              </apply>
+              <ci> Sphingo </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R7" name="S1P to Sphingosine conversion" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S1P" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Sphingo" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k4 </ci>
+              <ci> S1P </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R8" name="S1P degradation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S1P" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> k5 </ci>
+              <ci> S1P </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

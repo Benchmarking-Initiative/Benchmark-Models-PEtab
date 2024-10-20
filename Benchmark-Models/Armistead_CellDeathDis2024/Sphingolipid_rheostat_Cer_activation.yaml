@@ -1,0 +1,13 @@
+format_version: 1
+parameter_file: Sphingolipid_rheostat_parameters.tsv
+problems:
+  - condition_files:
+    - Sphingolipid_rheostat_experimental_conditions.tsv
+    measurement_files:
+    - Sphingolipid_rheostat_measurement_data.tsv
+    observable_files:
+    - Sphingolipid_rheostat_observables.tsv
+    sbml_files:
+    - ../Sphingolipid_rheostat_Cer_activation.xml
+    visualization_files:
+    - Sphingolipid_rheostat_visualization_specification.tsv

@@ -1,0 +1,5 @@
+plotId	plotName	plotTypeData	xLabel	yValues	yLabel	yScale
+plot1	highandlow	MeanAndSD	Time	Sphinga_obs	Concentration [area ratio/Protein]	log10
+plot1	highandlow	MeanAndSD	Time	Cer_obs	Concentration [area ratio/Protein]	log10
+plot1	highandlow	MeanAndSD	Time	Sphingo_obs	Concentration [area ratio/Protein]	log10
+plot1	highandlow	MeanAndSD	Time	S1P_obs	Relative Concentration	log10
