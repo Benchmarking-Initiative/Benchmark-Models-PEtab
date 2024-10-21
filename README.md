@@ -56,8 +56,8 @@ See [INSTALL.md](INSTALL.md).
 ## How to Cite
 
 Please cite the benchmark collection by citing:
-1. the PEtab paper, which first introduced this collection: https://doi.org/10.1371/journal.pcbi.1008646
-2. the Zenodo repository, where versions of this collection are deposited (https://doi.org/10.5281/zenodo.8155057)
+1. the PEtab paper, which first introduced this collection in a peer-reviewed publication: https://doi.org/10.1371/journal.pcbi.1008646
+2. the Zenodo repository, where you can cite specific versions of the files: https://doi.org/10.5281/zenodo.8155057
 
 Example BibTeX (customize the Zenodo `year` and `version` to match your version):
 ```bibtex
