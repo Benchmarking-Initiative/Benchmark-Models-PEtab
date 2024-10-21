@@ -1,0 +1,13 @@
+format_version: 1
+parameter_file: parameters_Armistead_CellDeathDis2024.tsv
+problems:
+  - condition_files:
+    - experimentalConditions_Armistead_CellDeathDis2024.tsv
+    measurement_files:
+    - measurementData_Armistead_CellDeathDis2024.tsv
+    observable_files:
+    - observables_Armistead_CellDeathDis2024.tsv
+    sbml_files:
+    - model_Armistead_CellDeathDis2024.xml
+    visualization_files:
+    - visualizationSpecification_Armistead_CellDeathDis2024.tsv

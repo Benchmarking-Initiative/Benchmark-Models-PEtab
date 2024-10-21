@@ -1,0 +1,15 @@
+parameterId	parameterScale	lowerBound	upperBound	nominalValue	estimate	initializationPriorType
+k00	log10	0.001	1000.0	0.23808250425876593	1	parameterScaleUniform
+k0	log10	0.001	1000.0	999.9999277151477	1	parameterScaleUniform
+k_d	log10	0.001	1000.0	0.9067726310954474	1	parameterScaleUniform
+k1	log10	0.001	1000.0	0.30112832513704085	1	parameterScaleUniform
+k2	log10	0.001	1000.0	999.9972374722311	1	parameterScaleUniform
+k3	log10	0.001	1000.0	0.0010000471839981641	1	parameterScaleUniform
+k4	log10	0.001	1000.0	2.3616885412588227	1	parameterScaleUniform
+k5	log10	0.001	1000.0	0.0010007718402407393	1	parameterScaleUniform
+alpha_hai1a	lin	0.5	0.999	0.5000000538784732	1	parameterScaleUniform
+alpha_cer	lin	-0.999	-0.001	-0.32749379807106804	1	parameterScaleUniform
+sd_Sphinga_obs	log10	0.001	1000.0	0.08812927862352599	1	parameterScaleUniform
+sd_Cer_obs	log10	0.001	1000.0	0.09173161721376666	1	parameterScaleUniform
+sd_Sphingo_obs	log10	0.001	1000.0	0.13184193616921516	1	parameterScaleUniform
+sd_S1P_obs	log10	0.001	1000.0	0.0974467251675001	1	parameterScaleUniform
