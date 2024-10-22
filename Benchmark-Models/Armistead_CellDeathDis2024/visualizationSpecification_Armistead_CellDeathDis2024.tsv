@@ -7,3 +7,9 @@ Fig4k_Ceramide	Ceramide (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD
 Fig4k_Ceramide	Ceramide (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD	Genotype and days past fertilization (dpf=model time + 2)	Cer_obs	Concentration [area ratio/Protein]	mut_day2
 Fig4k_Ceramide	Ceramide (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD	Genotype and days past fertilization (dpf=model time + 2)	Cer_obs	Concentration [area ratio/Protein]	wt_day4
 Fig4k_Ceramide	Ceramide (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD	Genotype and days past fertilization (dpf=model time + 2)	Cer_obs	Concentration [area ratio/Protein]	mut_day4
+Sphingo	Sphingosine (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD	Genotype and days past fertilization (dpf=model time + 2)	Sphingo_obs	Concentration [area ratio/Protein]	wt_day2
+Sphingo	Sphingosine (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD	Genotype and days past fertilization (dpf=model time + 2)	Sphingo_obs	Concentration [area ratio/Protein]	mut_day2
+Sphingo	Sphingosine (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD	Genotype and days past fertilization (dpf=model time + 2)	Sphingo_obs	Concentration [area ratio/Protein]	wt_day4
+Sphingo	Sphingosine (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD	Genotype and days past fertilization (dpf=model time + 2)	Sphingo_obs	Concentration [area ratio/Protein]	mut_day4
+S1P	S1P (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD	Genotype and days past fertilization (dpf=model time + 2)	S1P_obs	Concentration [area ratio/Protein]	wt_day2
+S1P	S1P (with neg. feedback to $k_{00}$ (ODE))	BarPlot	MeanAndSD	Genotype and days past fertilization (dpf=model time + 2)	S1P_obs	Concentration [area ratio/Protein]	mut_day2
