@@ -1,59 +1,59 @@
-observableId	simulationConditionId	measurement	time	noiseParameters	replicateId
-Sphinga_obs	wild_type	0.000806	0	sd_Sphinga_obs	R1
-Sphinga_obs	wild_type	0.000618	0	sd_Sphinga_obs	R2
-Sphinga_obs	wild_type	0.000675	0	sd_Sphinga_obs	R3
-Sphinga_obs	wild_type	0.000828	0	sd_Sphinga_obs	R4
-Sphinga_obs	wild_type	0.000176620209326007	2	sd_Sphinga_obs	R1
-Sphinga_obs	wild_type	0.000144832895774474	2	sd_Sphinga_obs	R2
-Sphinga_obs	wild_type	0.000137134901470714	2	sd_Sphinga_obs	R3
-Sphinga_obs	wild_type	0.000181912527619117	2	sd_Sphinga_obs	R4
-Cer_obs	wild_type	1.02701422984826000	0	sd_Cer_obs	R1
-Cer_obs	wild_type	0.88628874050445800	0	sd_Cer_obs	R2
-Cer_obs	wild_type	0.94577625665744500	0	sd_Cer_obs	R3
-Cer_obs	wild_type	1.09426905460355000	0	sd_Cer_obs	R4
-Cer_obs	wild_type	0.61224453862955600	2	sd_Cer_obs	R1
-Cer_obs	wild_type	0.66579067622556900	2	sd_Cer_obs	R2
-Cer_obs	wild_type	0.71263462907337200	2	sd_Cer_obs	R3
-Cer_obs	wild_type	0.64198115909988600	2	sd_Cer_obs	R4
-Sphingo_obs	wild_type	0.000384239736109822	0	sd_Sphingo_obs	R1
-Sphingo_obs	wild_type	0.000391938220558207	0	sd_Sphingo_obs	R2
-Sphingo_obs	wild_type	0.000371485514201383	0	sd_Sphingo_obs	R3
-Sphingo_obs	wild_type	0.000431025477692304	0	sd_Sphingo_obs	R4
-Sphingo_obs	wild_type	0.000334877541530201	2	sd_Sphingo_obs	R1
-Sphingo_obs	wild_type	0.000231658738329562	2	sd_Sphingo_obs	R2
-Sphingo_obs	wild_type	0.000203229934963182	2	sd_Sphingo_obs	R3
-Sphingo_obs	wild_type	0.000227793942150799	2	sd_Sphingo_obs	R4
-S1P_obs	wild_type	1.421	0	sd_S1P_obs	R1
-S1P_obs	wild_type	1.682	0	sd_S1P_obs	R2
-S1P_obs	wild_type	1.614	0	sd_S1P_obs	R3
-S1P_obs	wild_type	1.498	0	sd_S1P_obs	R4
-S1P_obs	wild_type	1.541	0	sd_S1P_obs	R5
-Sphinga_obs	mutant	0.000818	0	sd_Sphinga_obs	R1
-Sphinga_obs	mutant	0.000761	0	sd_Sphinga_obs	R2
-Sphinga_obs	mutant	0.000766	0	sd_Sphinga_obs	R3
-Sphinga_obs	mutant	0.000835	0	sd_Sphinga_obs	R4
-Sphinga_obs	mutant	0.000243420646439453	2	sd_Sphinga_obs	R1
-Sphinga_obs	mutant	0.000239502545840865	2	sd_Sphinga_obs	R2
-Sphinga_obs	mutant	0.000234873603648106	2	sd_Sphinga_obs	R3
-Sphinga_obs	mutant	0.000233253355552097	2	sd_Sphinga_obs	R4
-Cer_obs	mutant	0.89279118366547800	0	sd_Cer_obs	R1
-Cer_obs	mutant	0.67780496378448300	0	sd_Cer_obs	R2
-Cer_obs	mutant	0.85764949213544200	0	sd_Cer_obs	R3
-Cer_obs	mutant	0.85781658904367100	0	sd_Cer_obs	R4
-Cer_obs	mutant	0.87778518228732400	2	sd_Cer_obs	R1
-Cer_obs	mutant	1.02057671816819000	2	sd_Cer_obs	R2
-Cer_obs	mutant	0.96666151369505000	2	sd_Cer_obs	R3
-Cer_obs	mutant	0.82729287460103200	2	sd_Cer_obs	R4
-Sphingo_obs	mutant	0.000417035014112306	0	sd_Sphingo_obs	R1
-Sphingo_obs	mutant	0.000366195755858261	0	sd_Sphingo_obs	R2
-Sphingo_obs	mutant	0.000329161089157800	0	sd_Sphingo_obs	R3
-Sphingo_obs	mutant	0.000341631934155604	0	sd_Sphingo_obs	R4
-Sphingo_obs	mutant	0.000323262438726203	2	sd_Sphingo_obs	R1
-Sphingo_obs	mutant	0.000316663676062039	2	sd_Sphingo_obs	R2
-Sphingo_obs	mutant	0.000279704837681421	2	sd_Sphingo_obs	E3
-Sphingo_obs	mutant	0.000242795904444989	2	sd_Sphingo_obs	E4
-S1P_obs	mutant	2.128	0	sd_S1P_obs	R1
-S1P_obs	mutant	2.143	0	sd_S1P_obs	R2
-S1P_obs	mutant	1.565	0	sd_S1P_obs	R3
-S1P_obs	mutant	2.275	0	sd_S1P_obs	R4
-S1P_obs	mutant	2.238	0	sd_S1P_obs	R5
+observableId	simulationConditionId	measurement	time	noiseParameters	replicateId	datasetId
+Sphinga_obs	wild_type	0.000806	0	sd_Sphinga_obs	R1	wt_day2
+Sphinga_obs	wild_type	0.000618	0	sd_Sphinga_obs	R2	wt_day2
+Sphinga_obs	wild_type	0.000675	0	sd_Sphinga_obs	R3	wt_day2
+Sphinga_obs	wild_type	0.000828	0	sd_Sphinga_obs	R4	wt_day2
+Sphinga_obs	wild_type	0.000176620209326007	2	sd_Sphinga_obs	R1	wt_day4
+Sphinga_obs	wild_type	0.000144832895774474	2	sd_Sphinga_obs	R2	wt_day4
+Sphinga_obs	wild_type	0.000137134901470714	2	sd_Sphinga_obs	R3	wt_day4
+Sphinga_obs	wild_type	0.000181912527619117	2	sd_Sphinga_obs	R4	wt_day4
+Cer_obs	wild_type	1.02701422984826	0	sd_Cer_obs	R1	wt_day2
+Cer_obs	wild_type	0.886288740504458	0	sd_Cer_obs	R2	wt_day2
+Cer_obs	wild_type	0.945776256657445	0	sd_Cer_obs	R3	wt_day2
+Cer_obs	wild_type	1.09426905460355	0	sd_Cer_obs	R4	wt_day2
+Cer_obs	wild_type	0.612244538629556	2	sd_Cer_obs	R1	wt_day4
+Cer_obs	wild_type	0.665790676225569	2	sd_Cer_obs	R2	wt_day4
+Cer_obs	wild_type	0.712634629073372	2	sd_Cer_obs	R3	wt_day4
+Cer_obs	wild_type	0.641981159099886	2	sd_Cer_obs	R4	wt_day4
+Sphingo_obs	wild_type	0.000384239736109822	0	sd_Sphingo_obs	R1	wt_day2
+Sphingo_obs	wild_type	0.000391938220558207	0	sd_Sphingo_obs	R2	wt_day2
+Sphingo_obs	wild_type	0.000371485514201383	0	sd_Sphingo_obs	R3	wt_day2
+Sphingo_obs	wild_type	0.000431025477692304	0	sd_Sphingo_obs	R4	wt_day2
+Sphingo_obs	wild_type	0.000334877541530201	2	sd_Sphingo_obs	R1	wt_day4
+Sphingo_obs	wild_type	0.000231658738329562	2	sd_Sphingo_obs	R2	wt_day4
+Sphingo_obs	wild_type	0.000203229934963182	2	sd_Sphingo_obs	R3	wt_day4
+Sphingo_obs	wild_type	0.000227793942150799	2	sd_Sphingo_obs	R4	wt_day4
+S1P_obs	wild_type	1.421	0	sd_S1P_obs	R1	wt_day2
+S1P_obs	wild_type	1.682	0	sd_S1P_obs	R2	wt_day2
+S1P_obs	wild_type	1.614	0	sd_S1P_obs	R3	wt_day2
+S1P_obs	wild_type	1.498	0	sd_S1P_obs	R4	wt_day2
+S1P_obs	wild_type	1.541	0	sd_S1P_obs	R5	wt_day2
+Sphinga_obs	mutant	0.000818	0	sd_Sphinga_obs	R1	mut_day2
+Sphinga_obs	mutant	0.000761	0	sd_Sphinga_obs	R2	mut_day2
+Sphinga_obs	mutant	0.000766	0	sd_Sphinga_obs	R3	mut_day2
+Sphinga_obs	mutant	0.000835	0	sd_Sphinga_obs	R4	mut_day2
+Sphinga_obs	mutant	0.000243420646439453	2	sd_Sphinga_obs	R1	mut_day4
+Sphinga_obs	mutant	0.000239502545840865	2	sd_Sphinga_obs	R2	mut_day4
+Sphinga_obs	mutant	0.000234873603648106	2	sd_Sphinga_obs	R3	mut_day4
+Sphinga_obs	mutant	0.000233253355552097	2	sd_Sphinga_obs	R4	mut_day4
+Cer_obs	mutant	0.892791183665478	0	sd_Cer_obs	R1	mut_day2
+Cer_obs	mutant	0.677804963784483	0	sd_Cer_obs	R2	mut_day2
+Cer_obs	mutant	0.857649492135442	0	sd_Cer_obs	R3	mut_day2
+Cer_obs	mutant	0.857816589043671	0	sd_Cer_obs	R4	mut_day2
+Cer_obs	mutant	0.877785182287324	2	sd_Cer_obs	R1	mut_day4
+Cer_obs	mutant	1.02057671816819	2	sd_Cer_obs	R2	mut_day4
+Cer_obs	mutant	0.96666151369505	2	sd_Cer_obs	R3	mut_day4
+Cer_obs	mutant	0.827292874601032	2	sd_Cer_obs	R4	mut_day4
+Sphingo_obs	mutant	0.000417035014112306	0	sd_Sphingo_obs	R1	mut_day2
+Sphingo_obs	mutant	0.000366195755858261	0	sd_Sphingo_obs	R2	mut_day2
+Sphingo_obs	mutant	0.0003291610891578	0	sd_Sphingo_obs	R3	mut_day2
+Sphingo_obs	mutant	0.000341631934155604	0	sd_Sphingo_obs	R4	mut_day2
+Sphingo_obs	mutant	0.000323262438726203	2	sd_Sphingo_obs	R1	mut_day4
+Sphingo_obs	mutant	0.000316663676062039	2	sd_Sphingo_obs	R2	mut_day4
+Sphingo_obs	mutant	0.000279704837681421	2	sd_Sphingo_obs	E3	mut_day4
+Sphingo_obs	mutant	0.000242795904444989	2	sd_Sphingo_obs	E4	mut_day4
+S1P_obs	mutant	2.128	0	sd_S1P_obs	R1	mut_day2
+S1P_obs	mutant	2.143	0	sd_S1P_obs	R2	mut_day2
+S1P_obs	mutant	1.565	0	sd_S1P_obs	R3	mut_day2
+S1P_obs	mutant	2.275	0	sd_S1P_obs	R4	mut_day2
+S1P_obs	mutant	2.238	0	sd_S1P_obs	R5	mut_day2
