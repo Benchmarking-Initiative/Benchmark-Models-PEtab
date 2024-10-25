@@ -196,7 +196,7 @@
           </COPASI>
         </annotation>
       </parameter>
-      <parameter metaid="COPASI19" id="sora" name="sora" value="0" constant="true">
+      <parameter metaid="COPASI19" id="Sorafenib" name="Sorafenib" value="0" constant="true">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -1590,7 +1590,7 @@
                 <apply>
                   <plus/>
                   <ci> K2 </ci>
-                  <ci> sora </ci>
+                  <ci> Sorafenib </ci>
                 </apply>
               </apply>
               <apply>
