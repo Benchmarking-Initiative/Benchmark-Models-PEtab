@@ -1,11 +1,6 @@
 [build-system]
-requires = [
-    "setuptools",
-    "wheel",
-    "petab",
-]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
-
 
 [project]
 name = "benchmark_models_petab"
@@ -28,22 +23,22 @@ dependencies = [
     "pandas",
     "python-libsbml",
     "tabulate",
+    "sbmlmath",
 ]
 
 [project.optional-dependencies]
 dev = ["ruff"]
-
-[tool.setuptools.dynamic]
-version = {attr = "benchmark_models_petab.__version__"}
 
 [project.scripts]
 bmp-petablint = "benchmark_models_petab.check_petablint:main"
 bmp-check-sbml-metadata = "benchmark_models_petab.check_sbml_metadata:main"
 bmp-create-overview = "benchmark_models_petab.overview:main"
 
+[tool.setuptools_scm]
+root = "../.."
+
 [tool.ruff]
 line-length = 79
-
 
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]
