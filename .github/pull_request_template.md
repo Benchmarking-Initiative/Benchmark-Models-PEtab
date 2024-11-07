@@ -1,0 +1,22 @@
+**Checklist for the submission of new PEtab problems**
+- [ ] The PEtab problem is based on a model that is peer-reviewed and published
+- [ ] The problem ID is in the format `{LAST_NAME_OF_FIRST_AUTHOR}_{ABBREVIATED_JOURNAL_NAME}{YEAR_OF_PUBLICATION}`
+- [ ] The problem ID is in the pull request title
+- [ ] There is a GitHub issue for this problem
+  - [ ] The problem ID is in the issue title
+  - [ ] A brief model description (one or two sentences)
+  - [ ] A brief data description (one or two sentences)
+  - [ ] The issue and PR are linked to each other
+  - [ ] Differences between the implementation and the original publication are described
+  - [ ] Experience of fitting / uncertainty analysis (e.g. optimizer used, hyperparameters, reproducibility of best fit)
+  - [ ] Source of nominal parameters (e.g.: taken from the original publication, or from your own fitting)
+- [ ] The SBML file
+  - [ ] Annotation with reference to the original publication ([example](https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/blob/3154d27edbfc4eb19b768465945bc81381a7c964/Benchmark-Models/Rahman_MBS2016/model_Rahman_MBS2016.xml#L4-L14))
+  - [ ] The model ID and model name attributes in the SBML model file match the problem name ([example](https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/blob/3154d27edbfc4eb19b768465945bc81381a7c964/Benchmark-Models/Rahman_MBS2016/model_Rahman_MBS2016.xml#L3))
+- [ ] PEtab files
+  - [ ] A "simulated data" measurement table is included, using the nominal parameters
+  - [ ] A visualization table is included, that can be used with the simulated data to reproduce figures from the original publication
+  - [ ] The PEtab problem is valid (check with e.g. `petablint -vy problem.yaml`)
+- [ ] The PEtab problem author(s) are assigned to the GitHub issue
+- [ ] The README has been updated with `bmp-create-overview  --update` (requires `pip install -e src/python/bmp` from the repository root)
+  - [ ] The new PEtab problem row in the generated table has the correct reference (and other entries)

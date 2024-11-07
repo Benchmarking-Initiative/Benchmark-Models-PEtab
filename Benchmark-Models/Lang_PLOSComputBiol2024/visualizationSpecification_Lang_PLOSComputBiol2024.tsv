@@ -1,0 +1,17 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale	color
+Fig7_a	wildtype Nucleus	LinePlot	MeanAndSD	Nucleus	time	Time [sec]	obs_cycA__nuc_median	0	Abundance (normalized)	CCNA (obs_cycA__nuc_median)	lin	lin	green
+Fig7_a	wildtype Nucleus	LinePlot	MeanAndSD	Nucleus	time	Time [sec]	obs_cycB1__nuc_median	0	Abundance (normalized)	CCNB1 (obs_cycB1__nuc_median)	lin	lin	orange
+Fig7_a	wildtype Nucleus	LinePlot	MeanAndSD	Nucleus	time	Time [sec]	obs_cycE__nuc_median	0	Abundance (normalized)	CCNE (obs_cycE__nuc_median)	lin	lin	blue
+Fig7_c	wildtype Nucleus	LinePlot	MeanAndSD	Nucleus	time	Time [sec]	obs_E2F1__nuc_median	0	Abundance (normalized)	E2F1 (obs_E2F1__nuc_median)	lin	lin	yellow
+Fig7_c	wildtype Nucleus	LinePlot	MeanAndSD	Nucleus	time	Time [sec]	obs_pRB__nuc_median	0	Abundance (normalized)	RB1 (obs_pRB__nuc_median)	lin	lin	red
+Fig7_c	wildtype Nucleus	LinePlot	MeanAndSD	Nucleus	time	Time [sec]	obs_Skp2__nuc_median	0	Abundance (normalized)	SKP2 (obs_Skp2__nuc_median)	lin	lin	dimgray
+Fig7_e	wildtype Nucleus	LinePlot	MeanAndSD	Nucleus	time	Time [sec]	obs_p21__nuc_median	0	Abundance (normalized)	CDKN1A (obs_p21__nuc_median)	lin	lin	darkviolet
+Fig7_e	wildtype Nucleus	LinePlot	MeanAndSD	Nucleus	time	Time [sec]	obs_p27__nuc_median	0	Abundance (normalized)	CDKN1B (obs_p27__nuc_median)	lin	lin	cyan
+Fig7_b	wildtype Cytoplasm	LinePlot	MeanAndSD	Cytoplasm	time	Time [sec]	obs_cycA__cyt_median	0	Abundance (normalized)	CCNA (obs_cycA__cyt_median)	lin	lin	green
+Fig7_b	wildtype Cytoplasm	LinePlot	MeanAndSD	Cytoplasm	time	Time [sec]	obs_cycB1__cyt_median	0	Abundance (normalized)	CCNB1 (obs_cycB1__cyt_median)	lin	lin	orange
+Fig7_b	wildtype Cytoplasm	LinePlot	MeanAndSD	Cytoplasm	time	Time [sec]	obs_cycE__cyt_median	0	Abundance (normalized)	CCNE (obs_cycE__cyt_median)	lin	lin	blue
+Fig7_d	wildtype Cytoplasm	LinePlot	MeanAndSD	Cytoplasm	time	Time [sec]	obs_E2F1__cyt_median	0	Abundance (normalized)	E2F1 (obs_E2F1__cyt_median)	lin	lin	yellow
+Fig7_d	wildtype Cytoplasm	LinePlot	MeanAndSD	Cytoplasm	time	Time [sec]	obs_pRB__cyt_median	0	Abundance (normalized)	RB1 (obs_pRB__cyt_median)	lin	lin	blue
+Fig7_d	wildtype Cytoplasm	LinePlot	MeanAndSD	Cytoplasm	time	Time [sec]	obs_Skp2__cyt_median	0	Abundance (normalized)	SKP2 (obs_Skp2__cyt_median)	lin	lin	dimgray
+Fig7_f	wildtype Cytoplasm	LinePlot	MeanAndSD	Cytoplasm	time	Time [sec]	obs_p21__cyt_median	0	Abundance (normalized)	CDKN1A (obs_p21__cyt_median)	lin	lin	darkviolet
+Fig7_f	wildtype Cytoplasm	LinePlot	MeanAndSD	Cytoplasm	time	Time [sec]	obs_p27__cyt_median	0	Abundance (normalized)	CDKN1B (obs_p27__cyt_median)	lin	lin	cyan

@@ -1,0 +1,5 @@
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	yValues	xValues	xOffset	yOffset
+plot1	MeanAndSD		ScatterPlot	simulation	lin	measurements	lin	IRS1_P_DosR	time	0	0
+plot4	MeanAndSD		LinePlot	time	lin	values	lin	IRS1_P_DosR	time	1	1
+plot2	MeanAndSD		LinePlot	time	lin	values	lin	IR1_P	time	0	0
+plot3	MeanAndSD		LinePlot	time	lin	values	lin	IRS1_P	time	0	0

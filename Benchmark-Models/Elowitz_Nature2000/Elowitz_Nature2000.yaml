@@ -9,3 +9,5 @@ problems:
   - observables_Elowitz_Nature2000.tsv
   sbml_files:
   - model_Elowitz_Nature2000.xml
+  visualization_files:
+  - visualizationSpecification_Elowitz_Nature2000.tsv

@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "benchmark_models_petab"
+description = "A collection of models with experimental data in the PEtab format"
+dynamic = ["version"]
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+maintainers = [
+    { name = "Dilan Pathirana"},
+    { name = "Maren Philipps"}
+]
+authors = [
+    { name = "The Benchmark-Models-PEtab contributors" }
+]
+urls = { "Homepage" = "https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab" }
+dependencies = [
+    "petab>=0.4.0",
+    "numpy",
+    "pandas",
+    "python-libsbml",
+    "tabulate",
+    "sbmlmath",
+]
+
+[project.optional-dependencies]
+dev = ["ruff"]
+
+[project.scripts]
+bmp-petablint = "benchmark_models_petab.check_petablint:main"
+bmp-check-sbml-metadata = "benchmark_models_petab.check_sbml_metadata:main"
+bmp-create-overview = "benchmark_models_petab.overview:main"
+
+[tool.setuptools_scm]
+root = "../.."
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]

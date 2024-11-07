@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Elowitz_Nature2000" name="model_Elowitz_Nature2000">
+  <model id="Elowitz_Nature2000" name="Elowitz_Nature2000">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Elowitz et al. (2000), Nature. 2000 Jan 20;403(6767):335-8</pre>

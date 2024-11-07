@@ -86,7 +86,7 @@ The original model is hosted on BioModels Database and identified by: MODEL13072
             <rdf:Bag>
               <rdf:li rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000463"/>
               <rdf:li rdf:resource="http://identifiers.org/biomodels.db/MODEL1307270000"/>
-              <rdf:li rdf:resource="http://identifiers.org/pubmed/22593159"/>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1371/journal.pcbi.1006944"/>
             </rdf:Bag>
           </bqbiol:isDescribedBy>
         </rdf:Description>

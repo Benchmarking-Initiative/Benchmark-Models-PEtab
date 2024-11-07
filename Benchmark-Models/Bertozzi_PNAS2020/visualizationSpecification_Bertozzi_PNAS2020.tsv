@@ -1,3 +1,0 @@
-plotId	plotName	plotTypeSimulation	datasetId	xValues	xOffset	xLabel	yValues	yOffset	yLabel	legendEntry	xScale	yScale
-CA	California	LinePlot	CA	time	0	Time [d] after 2020-01-22	observable_infected	0	confirmed infected	confirmed infected	lin	lin
-NY	New York	LinePlot	NY	time	0	Time [d] after 2020-01-22	observable_infected	0	confirmed infected	confirmed infected	lin	lin

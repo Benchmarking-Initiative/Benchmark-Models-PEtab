@@ -1,0 +1,63 @@
+,time,observableId,simulation,simulationConditionId,datasetId
+2,15.0,Glucose_uptake__2B,94.91500464909144,figure2B__0_0__1_3em10,base
+5,15.0,PI3K_activity__2B,473.8698413793524,figure2B__0_0__1_5em08,base
+5,15.0,PI3K_activity__2B,230.99842698611383,figure2B__0_0__1_5em09,base
+5,15.0,PI3K_activity__2B,33.879716807154765,figure2B__0_0__1_5em10,base
+2,15.0,Glucose_uptake__2B,40.16011524433328,figure2B__0_0__1_5em11,base
+5,15.0,PI3K_activity__2B,514.9996159307263,figure2B__0_0__1em06,base
+2,15.0,Glucose_uptake__2B,228.73007399487088,figure2B__0_0__1em07,base
+5,15.0,PI3K_activity__2B,509.2177670470764,figure2B__0_0__1em07,base
+2,15.0,Glucose_uptake__2B,225.4105513021212,figure2B__0_0__1em08,base
+0,15.0,Cell_Bound_Ins__2B,92.47938382869233,figure2B__0_0__1em08,base
+2,15.0,Glucose_uptake__2B,191.91403413334686,figure2B__0_0__1em09,base
+0,15.0,Cell_Bound_Ins__2B,15.905461920594918,figure2B__0_0__1em09,base
+2,15.0,Glucose_uptake__2B,40.00086599803474,figure2B__0_0__1em14,base
+5,15.0,PI3K_activity__2B,0.0023534342407404603,figure2B__0_0__1em14,base
+0,15.0,Cell_Bound_Ins__2B,31.136798157388277,figure2B__0_0__2em09,base
+0,15.0,Cell_Bound_Ins__2B,3.0127939691315655,figure2B__0_0__2em10,base
+0,15.0,Cell_Bound_Ins__2B,0.29167254246854996,figure2B__0_0__2em11,base
+2,15.0,Glucose_uptake__2B,139.78740642745532,figure2B__0_0__3_1em10,base
+5,15.0,PI3K_activity__2B,8.240138838336627,figure2B__0_0__3_5em11,base
+2,15.0,Glucose_uptake__2B,229.0079457277544,figure2B__0_0__3em07,base
+0,15.0,Cell_Bound_Ins__2B,140.35735018974614,figure2B__0_0__3em07,base
+5,15.0,PI3K_activity__2B,513.5136523321487,figure2B__0_0__3em07,base
+2,15.0,Glucose_uptake__2B,227.88871310641113,figure2B__0_0__3em08,base
+0,15.0,Cell_Bound_Ins__2B,122.10832991884763,figure2B__0_0__3em08,base
+2,15.0,Glucose_uptake__2B,216.18829389676606,figure2B__0_0__3em09,base
+2,15.0,Glucose_uptake__2B,56.467568456604866,figure2B__0_0__4_5em11,base
+0,15.0,Cell_Bound_Ins__2B,6.17612173920017,figure2B__0_0__4em10,base
+5,15.0,PI3K_activity__2B,502.79918321082994,figure2B__0_0__5em08,base
+5,15.0,PI3K_activity__2B,394.2378709554225,figure2B__0_0__5em09,base
+5,15.0,PI3K_activity__2B,101.09658482036407,figure2B__0_0__5em10,base
+0,15.0,Cell_Bound_Ins__2B,0.7337256961847068,figure2B__0_0__5em11,base
+30,0.0,IRSYp__2C,0.0,figure2C__0_0__500000,fig2A
+31,1.0,IRSYp__2C,220.00007254787616,figure2C__0_0__500000,fig2A
+32,1.25,IRSYp__2C,209.8607916814312,figure2C__0_0__500000,fig2A
+33,1.4,IRSYp__2C,197.06168921174046,figure2C__0_0__500000,fig2A
+34,2.2,IRSYp__2C,134.529271248975,figure2C__0_0__500000,fig2A
+35,3.3,IRSYp__2C,115.01746037724723,figure2C__0_0__500000,fig2A
+36,5.25,IRSYp__2C,114.18949547982302,figure2C__0_0__500000,fig2A
+37,7.2,IRSYp__2C,112.51771896456128,figure2C__0_0__500000,fig2A
+38,10.0,IRSYp__2C,109.72780416695367,figure2C__0_0__500000,fig2A
+39,15.0,IRSYp__2C,106.29788802282935,figure2C__0_0__500000,fig2A
+18,0.0,PTP_activ__2D,0.16,figure2D__0_0__500000,fig2A
+19,1.0,PTP_activ__2D,0.08837989163080154,figure2D__0_0__500000,fig2A
+20,5.0,PTP_activ__2D,0.06186331636255836,figure2D__0_0__500000,fig2A
+4,120.0,Glucose_uptake__120__3B,200.0,figure3B__0_0__0_0,Basal (time = 120)
+5,240.0,Glucose_uptake__240__3B,219.99999999999997,figure3B__0_0__0_0,Basal (time = 240)
+4,120.0,Glucose_uptake__120__3B,1082.6343477389623,figure3B__0_0__5_0,Ins (time = 120)
+5,240.0,Glucose_uptake__240__3B,1156.1218139768264,figure3B__0_0__5_0,Ins (time = 240)
+4,120.0,Glucose_uptake__120__3B,299.1418386833576,figure3B__60_0__0_0,H2O2 (time = 120)
+5,240.0,Glucose_uptake__240__3B,286.87311613351943,figure3B__60_0__0_0,H2O2 (time = 240)
+4,120.0,Glucose_uptake__120__3B,1097.7650232945,figure3B__60_0__5_0,Ins+H2O2 (time = 120)
+5,240.0,Glucose_uptake__240__3B,1126.3325581665342,figure3B__60_0__5_0,Ins+H2O2 (time = 240)
+1,960.0,FOXO4__3C,0.9999999999999999,figure3C__0_0__0_0,0.0
+4,960.0,MnSOD_fold_induction__3C,5.000000000000001,figure3C__0_0__0_0,0.0
+1,960.0,FOXO4__3C,0.9002414550750889,figure3C__10_0__0_0,10.0
+4,960.0,MnSOD_fold_induction__3C,6.621223246797953,figure3C__10_0__0_0,10.0
+1,960.0,FOXO4__3C,0.2089677871218716,figure3C__20_0__0_0,20.0
+4,960.0,MnSOD_fold_induction__3C,3.467095128988933,figure3C__20_0__0_0,20.0
+1,960.0,FOXO4__3C,0.11747686740168865,figure3C__50_0__0_0,50.0
+4,960.0,MnSOD_fold_induction__3C,2.1956596271789635,figure3C__50_0__0_0,50.0
+1,960.0,FOXO4__3C,1.0687059318438576,figure3C__5_0__0_0,5.0
+4,960.0,MnSOD_fold_induction__3C,6.620527063995212,figure3C__5_0__0_0,5.0

@@ -1,0 +1,9 @@
+observableId	observableName	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+observable_CD274mRNA		CD274mRNA * observableParameter1_observable_CD274mRNA	noiseParameter1_observable_CD274mRNA + noiseParameter2_observable_CD274mRNA * (CD274mRNA * observableParameter1_observable_CD274mRNA)	lin	normal
+observable_IL13_cell		observableParameter1_observable_IL13_cell * (IL13_Rec + IL13_DecoyR + p_IL13_Rec + p_IL13_Rec_i)	noiseParameter1_observable_IL13_cell + noiseParameter2_observable_IL13_cell * (observableParameter1_observable_IL13_cell * (IL13_Rec + IL13_DecoyR + p_IL13_Rec + p_IL13_Rec_i))	lin	normal
+observable_RecSurf		IL13_Rec + Rec + p_IL13_Rec	noiseParameter1_observable_RecSurf + noiseParameter2_observable_RecSurf * (IL13_Rec + Rec + p_IL13_Rec)	lin	normal
+observable_SOCS3		SOCS3	noiseParameter1_observable_SOCS3 + noiseParameter2_observable_SOCS3 * SOCS3	lin	normal
+observable_SOCS3mRNA		SOCS3mRNA * observableParameter1_observable_SOCS3mRNA	noiseParameter1_observable_SOCS3mRNA + noiseParameter2_observable_SOCS3mRNA * (SOCS3mRNA * observableParameter1_observable_SOCS3mRNA)	lin	normal
+observable_pIL4Ra		observableParameter1_observable_pIL4Ra * (p_IL13_Rec + p_IL13_Rec_i)	noiseParameter1_observable_pIL4Ra + noiseParameter2_observable_pIL4Ra * (observableParameter1_observable_pIL4Ra * (p_IL13_Rec + p_IL13_Rec_i))	lin	normal
+observable_pJAK2		pJAK2 * observableParameter1_observable_pJAK2	noiseParameter1_observable_pJAK2 + noiseParameter2_observable_pJAK2 * (pJAK2 * observableParameter1_observable_pJAK2)	lin	normal
+observable_pSTAT5		pSTAT5	noiseParameter1_observable_pSTAT5 + noiseParameter2_observable_pSTAT5 * pSTAT5	lin	normal
