@@ -27,7 +27,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["ruff"]
+dev = ["pre-commit", "pytest", "ruff"]
 
 [project.scripts]
 bmp-petablint = "benchmark_models_petab.check_petablint:main"

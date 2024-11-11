@@ -97,16 +97,13 @@
       <parameter metaid="KD_Fsk" id="KD_Fsk" value="14.2656743301721"/>
       <parameter metaid="KD_H89" id="KD_H89" value="0.0480736009761681"/>
       <parameter metaid="KD_IBMX" id="KD_IBMX" value="11.9768989891142"/>
-      <parameter metaid="KD_PDE_Csub" id="KD_PDE_Csub" value="0"/>
       <parameter metaid="KD_cAMP" id="KD_cAMP" value="2.84986906175302"/>
       <parameter metaid="PDE_total" id="PDE_total" value="1"/>
       <parameter metaid="RII2_total" id="RII2_total" value="1"/>
       <parameter metaid="kdeg_cAMP" id="kdeg_cAMP" value="1.00032978441703e-05"/>
       <parameter metaid="kdeg_cAMP_free" id="kdeg_cAMP_free" value="7.35892283451732"/>
-      <parameter metaid="kdp_AC" id="kdp_AC" value="0"/>
       <parameter metaid="kf_Fsk" id="kf_Fsk" value="999.991987450139"/>
       <parameter metaid="kf_H89" id="kf_H89" value="0.000741493422675392"/>
-      <parameter metaid="kf_PDE_Csub" id="kf_PDE_Csub" value="0"/>
       <parameter metaid="kf_RII_2__RII_C_2" id="kf_RII_2__RII_C_2" value="1.26077939273477"/>
       <parameter metaid="kf_RII_C_2__RII_2" id="kf_RII_C_2__RII_2" value="0.0187262534054505"/>
       <parameter metaid="kf_RII_C_2__RIIp_C_2" id="kf_RII_C_2__RIIp_C_2" value="0.0227841500487899"/>
@@ -119,25 +116,14 @@
       <parameter metaid="ki_Rp8_pCPT_cAMPS_pAB" id="ki_Rp8_pCPT_cAMPS_pAB" value="9.24294887100985"/>
       <parameter metaid="ki_Rp_cAMPS_pAB" id="ki_Rp_cAMPS_pAB" value="0.0163472838984393"/>
       <parameter metaid="ki_Sp8_Br_cAMPS_AM" id="ki_Sp8_Br_cAMPS_AM" value="0.131083036712545"/>
-      <parameter metaid="kp_AC" id="kp_AC" value="0"/>
       <parameter metaid="ks_AC_cAMP" id="ks_AC_cAMP" value="0.423299046028554"/>
       <parameter metaid="xi_AC_cAMP_Fsk" id="xi_AC_cAMP_Fsk" value="640.551657640036"/>
-      <parameter metaid="xi_KD_Rp8_Br_cAMPS" id="xi_KD_Rp8_Br_cAMPS" value="0.040150612333366"/>
-      <parameter metaid="xi_KD_Rp8_pCPT_cAMPS" id="xi_KD_Rp8_pCPT_cAMPS" value="0.194630402579553"/>
-      <parameter metaid="xi_KD_Rp_cAMPS" id="xi_KD_Rp_cAMPS" value="0.163369645426461"/>
-      <parameter metaid="xi_KD_Sp8_Br_cAMPS" id="xi_KD_Sp8_Br_cAMPS" value="0.222276461349335"/>
       <parameter metaid="xi_b_Rp8_Br_cAMPS" id="xi_b_Rp8_Br_cAMPS" value="0.0408695544562406"/>
       <parameter metaid="xi_b_Rp8_pCPT_cAMPS" id="xi_b_Rp8_pCPT_cAMPS" value="0.0268897774883765"/>
       <parameter metaid="xi_b_Rp_cAMPS" id="xi_b_Rp_cAMPS" value="0.607960299288444"/>
       <parameter metaid="xi_b_Sp8_Br_cAMPS" id="xi_b_Sp8_Br_cAMPS" value="21.7551956731725"/>
-      <parameter metaid="xi_i_Rp8_Br_cAMPS_pAB" id="xi_i_Rp8_Br_cAMPS_pAB" value="1"/>
-      <parameter metaid="xi_i_Rp8_pCPT_cAMPS_pAB" id="xi_i_Rp8_pCPT_cAMPS_pAB" value="1"/>
-      <parameter metaid="xi_i_Rp_cAMPS_pAB" id="xi_i_Rp_cAMPS_pAB" value="1"/>
-      <parameter metaid="xi_i_Sp8_Br_cAMPS_AM" id="xi_i_Sp8_Br_cAMPS_AM" value="1"/>
       <parameter metaid="xi_kf_RII_2__RII_C_2" id="xi_kf_RII_2__RII_C_2" value="0.0189295042137343"/>
       <parameter metaid="xi_kf_RII_C_2__RII_2" id="xi_kf_RII_C_2__RII_2" value="0.811223214879921"/>
-      <parameter metaid="xi_pAC" id="xi_pAC" value="1"/>
-      <parameter metaid="xi_pPDE" id="xi_pPDE" value="1"/>
       <parameter metaid="Fsk" id="Fsk" value="10" units="time" constant="false"/>
       <parameter metaid="IBMXex" id="IBMXex" value="0" constant="false"/>
       <parameter metaid="H89" id="H89" value="0" constant="false"/>
@@ -162,6 +148,24 @@
       <parameter metaid="Sp8_Br_cAMPS_AM_time" id="Sp8_Br_cAMPS_AM_time" value="0" units="time"/>
       <parameter metaid="fourABnOH_level" id="fourABnOH_level" value="0" units="substance"/>
       <parameter metaid="fourABnOH_time" id="fourABnOH_incubation_time" value="0" units="time"/>
+      <!-- H1: different KD -->
+      <parameter metaid="xi_KD_Rp8_Br_cAMPS"      id="xi_KD_Rp8_Br_cAMPS"      value="0"/>
+      <parameter metaid="xi_KD_Rp8_pCPT_cAMPS"    id="xi_KD_Rp8_pCPT_cAMPS"    value="0"/>
+      <parameter metaid="xi_KD_Rp_cAMPS"          id="xi_KD_Rp_cAMPS"          value="0"/>
+      <parameter metaid="xi_KD_Sp8_Br_cAMPS"      id="xi_KD_Sp8_Br_cAMPS"      value="0"/>
+      <!-- H2: AC inhibition -->
+      <parameter metaid="xi_pAC"                  id="xi_pAC"                  value="0"/>
+      <parameter metaid="kp_AC"                   id="kp_AC"                   value="0"/>
+      <parameter metaid="kdp_AC"                  id="kdp_AC"                  value="0"/>
+      <!-- H3: incomplete import -->
+      <parameter metaid="xi_i_Rp8_Br_cAMPS_pAB"   id="xi_i_Rp8_Br_cAMPS_pAB"   value="0"/>
+      <parameter metaid="xi_i_Rp8_pCPT_cAMPS_pAB" id="xi_i_Rp8_pCPT_cAMPS_pAB" value="0"/>
+      <parameter metaid="xi_i_Rp_cAMPS_pAB"       id="xi_i_Rp_cAMPS_pAB"       value="0"/>
+      <parameter metaid="xi_i_Sp8_Br_cAMPS_AM"    id="xi_i_Sp8_Br_cAMPS_AM"    value="0"/>
+      <!-- H4: PDE inhibition -->
+      <parameter metaid="xi_pPDE"                 id="xi_pPDE"                 value="0"/>
+      <parameter metaid="kf_PDE_Csub"             id="kf_PDE_Csub"             value="0"/>
+      <parameter metaid="KD_PDE_Csub"             id="KD_PDE_Csub"             value="0"/>
     </listOfParameters>
     <listOfRules>
       <assignmentRule metaid="CDMT00167" variable="Fsk">
