@@ -25,7 +25,7 @@ mkdir $BUILD_DIR
 # Copy code
 cp -r \
   $CODE_DIR \
-  "pyproject.toml" "MANIFEST.in" \
+  "pyproject.toml" "MANIFEST.in" ".git_archival.txt" \
   "../../LICENSE" "../../README.md" \
   $BUILD_DIR
 # Remove link
