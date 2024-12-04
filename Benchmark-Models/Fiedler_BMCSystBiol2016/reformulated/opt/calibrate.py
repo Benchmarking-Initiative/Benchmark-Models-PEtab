@@ -38,7 +38,7 @@ visualize_optimized_model_fit(
     result=result,
     pypesto_problem=pypesto_problem,
     return_dict=False,
-    start_index=n,
+    start_index=0,
     unflattened_petab_problem=petab_problem,
 )
 plt.savefig("fit.png")
@@ -57,12 +57,3 @@ for n in range(1, 20):
     )
     plt.savefig(FITS_PATH / f"fit_{str(n).rjust(2, '0')}.png")
     plt.close()
-
-
-vis.parameters(
-    result,
-    legends="optimizer",
-    start_indices=[0, 1, 2, 3],
-)
-plt.savefig('parameters.png')
-plt.close()
