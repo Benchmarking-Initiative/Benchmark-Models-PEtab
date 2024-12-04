@@ -1,0 +1,2 @@
+plotId	plotTypeData	plotTypeSimulation	xValues	xLabel	yValues	yLabel	legendEntry
+plot1	MeanAndSD	ScatterPlot	condition	Condition	tumor_num	Tumor Number	Model
