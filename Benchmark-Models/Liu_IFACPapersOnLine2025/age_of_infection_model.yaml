@@ -8,6 +8,6 @@ problems:
     observable_files:
     - observables.tsv
     sbml_files:
-    - baseline_model.xml
+    - age_of_infection_model.xml
     visualization_files:
     - visualizations.tsv
