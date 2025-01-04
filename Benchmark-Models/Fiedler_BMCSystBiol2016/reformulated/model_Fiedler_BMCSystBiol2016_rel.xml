@@ -2,17 +2,15 @@
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:render="http://www.sbml.org/sbml/level3/version1/render/version1" level="3" version="1" layout:required="false" render:required="false">
   <model metaid="COPASI0" id="Fiedler_BMCSystBiol2016_rel" name="Fiedler_BMCSystBiol2016_rel" substanceUnits="substance" timeUnits="time" volumeUnits="volume" areaUnits="area" lengthUnits="length" extentUnits="substance">
     <annotation>
-      <COPASI xmlns="http://www.copasi.org/static/sbml">
-        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-          <rdf:Description rdf:about="#COPASI0">
-            <dcterms:created>
-              <rdf:Description>
-                <dcterms:W3CDTF>2024-10-06T10:20:09Z</dcterms:W3CDTF>
-              </rdf:Description>
-            </dcterms:created>
-          </rdf:Description>
-        </rdf:RDF>
-      </COPASI>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#benchmark_models_petab">
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1186/s12918-016-0319-7"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
     </annotation>
     <listOfUnitDefinitions>
       <unitDefinition id="length" name="length">
