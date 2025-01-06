@@ -4,10 +4,10 @@ problems:
   - condition_files:
     - conditions.tsv
     measurement_files:
-    - measurements_scaled.tsv
+    - measurements.tsv
     observable_files:
     - observables.tsv
     sbml_files:
-    - individual_based_age_of_infection_model.xml
+    - model_individual.xml
     visualization_files:
-    - visualizations.tsv
+    - visualization.tsv
