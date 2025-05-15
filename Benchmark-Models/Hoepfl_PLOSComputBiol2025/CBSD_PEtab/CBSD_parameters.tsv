@@ -4,8 +4,8 @@ k_T	lin			1.2	0
 J_T	lin			0.06	0	
 kd_T	lin			0.6	0	
 k0_s	log10	1e-10	1e+10	0.0006	0	parameterScaleUniform
-k_s1	log10	1e-10	1e+10		1	parameterScaleUniform
-k_s2	log10	1e-10	1e+10		1	parameterScaleUniform
+k_s1	log10	1e-10	1e+10	0.0045138301273086635	1	parameterScaleUniform
+k_s2	log10	1e-10	1e+10	0.031222510354682223	1	parameterScaleUniform
 J1_s	lin	1e-10	1e+10	1.6	0	
 J2_s	lin	1e-10	1e+10	1.6	0	
 kd_s	lin			0.09	0	
@@ -40,15 +40,15 @@ k_n2	lin			0.6	0
 J2_n	lin			0.5	0	
 kd_n	lin			0.5	0	
 k0_d	log10	1e-10	1e+10	0.0006	0	parameterScaleUniform
-k_d1	log10	1e-10	1e+10		1	parameterScaleUniform
+k_d1	log10	1e-10	1e+10	0.03068090256183628	1	parameterScaleUniform
 k_d2	lin	1e-10	1e+10	1e-7	0	parameterScaleUniform
 J1_d	log10	1e-10	1e+10	1.6	1	parameterScaleUniform
 J2_d	lin	1e-10	1e+10	1.6	0	parameterScaleUniform
 kd_d	lin			0.09	0	
-k_D	log10	1e-10	1e+10		1	parameterScaleUniform
+k_D	log10	1e-10	1e+10	16.568196535356503	1	parameterScaleUniform
 kd_D	lin			1.66	0	
 n	lin			2.0	0	
-k_knockdown	log10	1e-10	1e+10		1	parameterScaleUniform
+k_knockdown	log10	1e-10	1e+10	0.5495646506538813	1	parameterScaleUniform
 sd_z	lin	0.1	100.0	0.1	0	parameterScaleUniform
 sd_s	lin	0.1	100.0	0.1	0	parameterScaleUniform
 sd_s_kd	lin	0.1	100.0	0.0248	0	parameterScaleUniform
