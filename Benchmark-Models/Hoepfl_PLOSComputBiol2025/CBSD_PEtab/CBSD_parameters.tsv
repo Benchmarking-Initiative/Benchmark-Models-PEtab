@@ -1,0 +1,58 @@
+parameterId	parameterScale	lowerBound	upperBound	nominalValue	estimate	initializationPriorType
+k0_T	lin			0.06	0	
+k_T	lin			1.2	0	
+J_T	lin			0.06	0	
+kd_T	lin			0.6	0	
+k0_s	log10	1e-10	1e+10	0.0006	0	parameterScaleUniform
+k_s1	log10	1e-10	1e+10		1	parameterScaleUniform
+k_s2	log10	1e-10	1e+10		1	parameterScaleUniform
+J1_s	lin	1e-10	1e+10	1.6	0	
+J2_s	lin	1e-10	1e+10	1.6	0	
+kd_s	lin			0.09	0	
+k_S	lin			17.0	0	
+J_S	lin			0.08	0	
+kd_S	lin			1.66	0	
+k0_34	lin			0.0012	0	
+k_34	lin			0.012	0	
+J1_34	lin			0.15	0	
+J2_34	lin			0.36	0	
+kd_34	lin			0.035	0	
+k0_z	lin	1e-10	1e+10	0.003	0	parameterScaleUniform
+k_z	lin	1e-10	1e+10	0.06	0	parameterScaleUniform
+J_z	lin			3.5	0	parameterScaleUniform
+kd_z	lin			0.09	0	
+k_Z	lin			17.0	0	
+J_Z	lin			0.06	0	
+kd_Z	lin			1.66	0	
+k0_200	lin			0.0002	0	
+k_200	lin			0.012	0	
+J1_200	lin			5.0	0	
+J2_200	lin			0.2	0	
+kd_200	lin			0.035	0	
+k_e1	lin			1.0	0	
+J1_e	lin			0.2	0	
+k_e2	lin			0.6	0	
+J2_e	lin			0.5	0	
+kd_e	lin			0.5	0	
+k_n1	lin			1.0	0	
+J1_n	lin			0.2	0	
+k_n2	lin			0.6	0	
+J2_n	lin			0.5	0	
+kd_n	lin			0.5	0	
+k0_d	log10	1e-10	1e+10	0.0006	0	parameterScaleUniform
+k_d1	log10	1e-10	1e+10		1	parameterScaleUniform
+k_d2	lin	1e-10	1e+10	1e-7	0	parameterScaleUniform
+J1_d	log10	1e-10	1e+10	1.6	1	parameterScaleUniform
+J2_d	lin	1e-10	1e+10	1.6	0	parameterScaleUniform
+kd_d	lin			0.09	0	
+k_D	log10	1e-10	1e+10		1	parameterScaleUniform
+kd_D	lin			1.66	0	
+n	lin			2.0	0	
+k_knockdown	log10	1e-10	1e+10		1	parameterScaleUniform
+sd_z	lin	0.1	100.0	0.1	0	parameterScaleUniform
+sd_s	lin	0.1	100.0	0.1	0	parameterScaleUniform
+sd_s_kd	lin	0.1	100.0	0.0248	0	parameterScaleUniform
+sd_d	lin	0.1	100.0	0.0991	0	parameterScaleUniform
+sd_d_kd	lin	0.1	100.0	0.0138	0	parameterScaleUniform
+sd_Z	lin	0.1	100.0	1.0	0	parameterScaleUniform
+sd_D	lin	0.1	100.0	0.991	0	parameterScaleUniform

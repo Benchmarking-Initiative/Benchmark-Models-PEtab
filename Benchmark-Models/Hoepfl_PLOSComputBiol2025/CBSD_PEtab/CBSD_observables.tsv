@@ -1,0 +1,6 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution
+z_obs	zeb1 concentration [µM]	z	noiseParameter1_z_obs	normal
+s_obs	snail1 concentration [µM]	s	noiseParameter1_s_obs	normal
+d_obs	dlc1 concentration [µM]	d	noiseParameter1_d_obs	normal
+Z_obs	ZEB1 concentration [µM]	Z	noiseParameter1_Z_obs	normal
+D_obs	DLC1 concentration [µM]	D	noiseParameter1_D_obs	normal

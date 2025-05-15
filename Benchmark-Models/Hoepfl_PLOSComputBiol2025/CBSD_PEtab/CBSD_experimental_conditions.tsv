@@ -1,0 +1,5 @@
+conditionId	conditionName	TGF0	S_on
+equilibration	Equilibration without exogenous TGF-beta	0	0
+wild_type	Wild-type simulation with 10 ng/ml TGFb	10	0
+wild_type_15TGF0	Wild-type simulation with 1.5 ng/ml TGFb	1.5	0
+knockdown	Simulation of dcl1 knockdown with 10 ng/ml TGFb	10	1

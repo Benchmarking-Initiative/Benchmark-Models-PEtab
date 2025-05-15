@@ -1,0 +1,11 @@
+format_version: 1
+parameter_file: CBSD_parameters.tsv
+problems:
+  - condition_files:
+    - CBSD_experimental_conditions.tsv
+    measurement_files:
+    - CBSD_measurement_data.tsv
+    observable_files:
+    - CBSD_observables.tsv
+    sbml_files:
+    - CBSD.xml

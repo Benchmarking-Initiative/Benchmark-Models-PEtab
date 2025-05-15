@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model substanceUnits="mole" timeUnits="second" extentUnits="mole">
+    <listOfUnitDefinitions>
+      <unitDefinition id="per_hour">
+        <listOfUnits>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="per_liter">
+        <listOfUnits>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="muMph">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-6" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="muM">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-6" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="3600"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="ngpml">
+        <listOfUnits>
+          <unit kind="gram" exponent="1" scale="-9" multiplier="1"/>
+          <unit kind="litre" exponent="-1" scale="-3" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment sboTerm="SBO:0000290" id="c1" spatialDimensions="3" size="1" units="litre" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species sboTerm="SBO:0000248" id="T" compartment="c1" initialAmount="0.16" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000635" id="s" compartment="c1" initialAmount="0.01" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000252" id="S" compartment="c1" initialAmount="0.01" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000635" id="R34" compartment="c1" initialAmount="0.38" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000635" id="z" compartment="c1" initialAmount="0.03" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000252" id="Z" compartment="c1" initialAmount="0.01" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000635" id="R200" compartment="c1" initialAmount="0.35" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000252" id="E" compartment="c1" initialAmount="3.2" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000252" id="N" compartment="c1" initialAmount="0" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000635" id="d" compartment="c1" initialAmount="0.01303" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species sboTerm="SBO:0000252" id="D" compartment="c1" initialAmount="0.01303" substanceUnits="muM" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter sboTerm="SBO:0000614" id="k0_T" value="0.06" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_T" value="1.2" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J_T" value="0.06" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_T" value="0.6" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k0_s" value="0.0006" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_s1" value="0.00451383012730866" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_s2" value="0.0312225103546822" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J1_s" value="1.6" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J2_s" value="1.6" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_s" value="0.09" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_S" value="17" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J_S" value="0.08" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_S" value="1.66" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k0_34" value="0.0012" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_34" value="0.012" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J1_34" value="0.15" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J2_34" value="0.36" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_34" value="0.035" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k0_z" value="0.003" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_z" value="0.06" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J_z" value="3.5" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_z" value="0.09" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_Z" value="17" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J_Z" value="0.06" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_Z" value="1.66" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k0_200" value="0.0002" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_200" value="0.012" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J1_200" value="5" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J2_200" value="0.2" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_200" value="0.035" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_e1" value="1" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J1_e" value="0.2" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_e2" value="0.6" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J2_e" value="0.5" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_e" value="0.5" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_n1" value="1" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J1_n" value="0.2" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_n2" value="0.6" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J2_n" value="0.5" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_n" value="0.5" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k0_d" value="0.0006" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_d1" value="0.0306809025618363" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_d2" value="1e-07" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J1_d" value="2.08215357108938" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000373" id="J2_d" value="1.6" units="muM" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_d" value="0.09" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="k_D" value="16.5681965353565" units="muMph" constant="true"/>
+      <parameter sboTerm="SBO:0000614" id="kd_D" value="1.66" units="per_hour" constant="true"/>
+      <parameter sboTerm="SBO:0000190" id="n" value="2" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="k_knockdown" value="0.549564650653881" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000002" id="sigma" value="1" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000390" id="S_on" value="0" units="dimensionless" constant="true"/>
+      <parameter sboTerm="SBO:0000509" id="TGF0" value="10" units="ngpml" constant="true"/>
+    </listOfParameters>
+    <listOfReactions>
+      <reaction sboTerm="SBO:0000393" id="rT" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="T" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="R200"/>
+          <modifierSpeciesReference species="T"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k0_T </ci>
+                  <ci> sigma </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_T </ci>
+                    <apply>
+                      <plus/>
+                      <cn> 1 </cn>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <divide/>
+                            <ci> R200 </ci>
+                            <ci> J_T </ci>
+                          </apply>
+                          <ci> sigma </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_T </ci>
+                <ci> T </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000183" id="rs" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="s" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="s"/>
+          <modifierSpeciesReference species="D"/>
+          <modifierSpeciesReference species="T"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k0_s </ci>
+                  <ci> sigma </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_s1 </ci>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> J1_s </ci>
+                            <ci> sigma </ci>
+                          </apply>
+                          <apply>
+                            <plus/>
+                            <ci> TGF0 </ci>
+                            <ci> T </ci>
+                          </apply>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_s2 </ci>
+                    <apply>
+                      <plus/>
+                      <cn> 1 </cn>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> J2_s </ci>
+                            <ci> sigma </ci>
+                          </apply>
+                          <ci> D </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_s </ci>
+                <ci> s </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000184" id="rS" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="S" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="R34"/>
+          <modifierSpeciesReference species="s"/>
+          <modifierSpeciesReference species="S"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> k_S </ci>
+                  <ci> s </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <divide/>
+                        <ci> R34 </ci>
+                        <ci> J_S </ci>
+                      </apply>
+                      <ci> sigma </ci>
+                    </apply>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_S </ci>
+                <ci> S </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000183" id="rR34" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="R34" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="S"/>
+          <modifierSpeciesReference species="Z"/>
+          <modifierSpeciesReference species="R34"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k0_34 </ci>
+                  <ci> sigma </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_34 </ci>
+                    <apply>
+                      <plus/>
+                      <cn> 1 </cn>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <divide/>
+                            <ci> S </ci>
+                            <ci> J1_34 </ci>
+                          </apply>
+                          <ci> sigma </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <divide/>
+                            <ci> Z </ci>
+                            <ci> J2_34 </ci>
+                          </apply>
+                          <ci> sigma </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_34 </ci>
+                <ci> R34 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000183" id="rz" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="z" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="S"/>
+          <modifierSpeciesReference species="z"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k0_z </ci>
+                  <ci> sigma </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_z </ci>
+                    <apply>
+                      <plus/>
+                      <cn> 1 </cn>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> J_z </ci>
+                            <ci> sigma </ci>
+                          </apply>
+                          <ci> S </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_z </ci>
+                <ci> z </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000184" id="rZ" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="Z" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="z"/>
+          <modifierSpeciesReference species="R200"/>
+          <modifierSpeciesReference species="Z"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> k_Z </ci>
+                  <ci> z </ci>
+                </apply>
+                <apply>
+                  <plus/>
+                  <cn> 1 </cn>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <divide/>
+                        <ci> R200 </ci>
+                        <ci> J_Z </ci>
+                      </apply>
+                      <ci> sigma </ci>
+                    </apply>
+                    <cn type="integer"> 2 </cn>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_Z </ci>
+                <ci> Z </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000183" id="rR200" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="R200" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="S"/>
+          <modifierSpeciesReference species="Z"/>
+          <modifierSpeciesReference species="R200"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> k0_200 </ci>
+                  <ci> sigma </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_200 </ci>
+                    <apply>
+                      <plus/>
+                      <cn> 1 </cn>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <divide/>
+                            <ci> S </ci>
+                            <ci> J1_200 </ci>
+                          </apply>
+                          <ci> sigma </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <divide/>
+                            <ci> Z </ci>
+                            <ci> J2_200 </ci>
+                          </apply>
+                          <ci> sigma </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_200 </ci>
+                <ci> R200 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000184" id="rE" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="E" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="S"/>
+          <modifierSpeciesReference species="Z"/>
+          <modifierSpeciesReference species="E"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_e1 </ci>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <divide/>
+                            <ci> S </ci>
+                            <ci> J1_e </ci>
+                          </apply>
+                          <ci> sigma </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                      <cn> 1 </cn>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_e2 </ci>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <divide/>
+                            <ci> Z </ci>
+                            <ci> J2_e </ci>
+                          </apply>
+                          <ci> sigma </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_e </ci>
+                <ci> E </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000184" id="rN" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="N" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="S"/>
+          <modifierSpeciesReference species="Z"/>
+          <modifierSpeciesReference species="N"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_n1 </ci>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> J1_n </ci>
+                            <ci> sigma </ci>
+                          </apply>
+                          <ci> S </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> k_n2 </ci>
+                    <apply>
+                      <plus/>
+                      <apply>
+                        <power/>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> J2_n </ci>
+                            <ci> sigma </ci>
+                          </apply>
+                          <ci> Z </ci>
+                        </apply>
+                        <cn type="integer"> 2 </cn>
+                      </apply>
+                      <cn type="integer"> 1 </cn>
+                    </apply>
+                  </apply>
+                  <ci> sigma </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_n </ci>
+                <ci> N </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000183" id="rd" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="d" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="T"/>
+          <modifierSpeciesReference species="Z"/>
+          <modifierSpeciesReference species="d"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000192">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <minus/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> k0_d </ci>
+                    <ci> sigma </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> k_d1 </ci>
+                      <apply>
+                        <plus/>
+                        <apply>
+                          <power/>
+                          <apply>
+                            <divide/>
+                            <apply>
+                              <times/>
+                              <ci> J1_d </ci>
+                              <ci> sigma </ci>
+                            </apply>
+                            <apply>
+                              <plus/>
+                              <ci> TGF0 </ci>
+                              <ci> T </ci>
+                            </apply>
+                          </apply>
+                          <cn type="integer"> 2 </cn>
+                        </apply>
+                        <cn type="integer"> 1 </cn>
+                      </apply>
+                    </apply>
+                    <ci> sigma </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <divide/>
+                      <ci> k_d2 </ci>
+                      <apply>
+                        <plus/>
+                        <cn> 1 </cn>
+                        <apply>
+                          <power/>
+                          <apply>
+                            <divide/>
+                            <apply>
+                              <times/>
+                              <ci> J2_d </ci>
+                              <ci> sigma </ci>
+                            </apply>
+                            <ci> Z </ci>
+                          </apply>
+                          <cn type="integer"> 2 </cn>
+                        </apply>
+                      </apply>
+                    </apply>
+                    <ci> sigma </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> kd_d </ci>
+                  <ci> d </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> S_on </ci>
+                <ci> k_knockdown </ci>
+                <ci> d </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000184" id="rD" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="D" constant="false"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="d"/>
+          <modifierSpeciesReference species="D"/>
+        </listOfModifiers>
+        <kineticLaw sboTerm="SBO:0000044">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <minus/>
+              <apply>
+                <times/>
+                <ci> k_D </ci>
+                <ci> d </ci>
+              </apply>
+              <apply>
+                <times/>
+                <ci> kd_D </ci>
+                <ci> D </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
