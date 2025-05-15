@@ -42,7 +42,7 @@ kd_n	lin			0.5	0
 k0_d	log10	1e-10	1e+10	0.0006	0	parameterScaleUniform
 k_d1	log10	1e-10	1e+10	0.03068090256183628	1	parameterScaleUniform
 k_d2	lin	1e-10	1e+10	1e-7	0	parameterScaleUniform
-J1_d	log10	1e-10	1e+10	1.6	1	parameterScaleUniform
+J1_d	log10	1e-10	1e+10	2.0821535710893775	1	parameterScaleUniform
 J2_d	lin	1e-10	1e+10	1.6	0	parameterScaleUniform
 kd_d	lin			0.09	0	
 k_D	log10	1e-10	1e+10	16.568196535356503	1	parameterScaleUniform
