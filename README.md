@@ -5,6 +5,11 @@ Contributions to the collection are very welcome. Please see [CONTRIBUTING.md](C
 
 ## Overview
 
+The following table summarizes the problems in the collection.
+The full set of PEtab files are available in the respective subfolders.
+A sortable version of the table is available
+[here](https://benchmarking-initiative.github.io/Benchmark-Models-PEtab/).
+
 <!-- START OVERVIEW TABLE -->
 | PEtab Problem ID                                                                             |   Conditions |   Estimated Parameters |   Events | Possible Discontinuities   |   Preequilibration |   Postequilibration |   Measurements |   Observables | Noise distribution(s)   | Objective prior distribution(s)   |   Species | References                                                                                                                                                                                 | SBML4Humans                                                                                                                                                                                                                              |
 |:---------------------------------------------------------------------------------------------|-------------:|-----------------------:|---------:|:---------------------------|-------------------:|--------------------:|---------------:|--------------:|:------------------------|:----------------------------------|----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
