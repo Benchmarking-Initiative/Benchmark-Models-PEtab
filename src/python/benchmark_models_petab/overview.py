@@ -15,6 +15,7 @@ from . import MODELS, get_problem, get_problem_yaml_path
 import sympy as sp
 from sympy.core.relational import Relational
 
+REPO_URL = "https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/"
 
 readme_md = Path(__file__).resolve().parent.parent / "README.md"
 
@@ -324,19 +325,130 @@ def show_overview_table(
         print(df)
 
 
+def create_html_table(dest: Path) -> None:
+    """Create HTML table with stats for all benchmark PEtab problems.
+
+    :param dest: Path to the output HTML file.
+    """
+    from bokeh.io import output_file, save
+    from bokeh.layouts import column
+    from bokeh.models import (
+        ColumnDataSource,
+        DataTable,
+        TableColumn,
+        Div,
+        StringFormatter,
+        NumberFormatter,
+        HTMLTemplateFormatter,
+        InlineStyleSheet,
+    )
+
+    dest.parent.mkdir(parents=True, exist_ok=True)
+
+    # get the overview dataframe and prettify it
+    df = get_overview_df()
+    df["possible_discontinuities"] = df["possible_discontinuities"].apply(
+        lambda x: "✓" if x else ""
+    )
+    df.fillna({"objective_prior_distributions": ""}, inplace=True)
+
+    def get_formatter(col: str):
+        """Get the appropriate formatter for the column."""
+        if col not in df.columns:
+            # index column
+            return HTMLTemplateFormatter(
+                template=f"""
+                <a href="{REPO_URL}tree/master/Benchmark-Models/<%= value %>"><%= value %></a>
+                """
+            )
+        if pd.api.types.is_integer_dtype(df[col].dtype):
+            return NumberFormatter(text_align="right")
+        if col in ["reference_uris", "sbml4humans_urls"]:
+            return HTMLTemplateFormatter(
+                template="""
+                <%
+                    if (Array.isArray(value)) {
+                        urls = value;
+                    } else {
+                        const sanitizedValue = value.replace(/'/g, '"');
+                        const urls = JSON.parse(sanitizedValue);
+                        console.log('Parsed JSON:', urls);
+                    }
+                    for (let i = 0; i < urls.length; i++) {
+                %>
+                    <a href="<%= urls[i] %>" target="_blank"><%= urls[i] %></a>
+                <% } %>
+                """
+            )
+
+        return StringFormatter()
+
+    columns = [
+        TableColumn(
+            field=col,
+            title=markdown_columns.get(col, col),
+            formatter=get_formatter(col),
+            width=len(col),
+        )
+        for col in df.reset_index().columns
+    ]
+
+    source = ColumnDataSource(df)
+
+    css = InlineStyleSheet(
+        css="""
+            .slick-header-column {
+            background-color: #f4f4f4;
+            font-weight: bold;
+    }
+    """
+    )
+
+    data_table = DataTable(
+        source=source,
+        columns=columns,
+        sortable=True,
+        sizing_mode="stretch_both",
+    )
+    data_table.stylesheets.append(css)
+
+    heading = Div(text="<h1>Benchmark Problems</h1>")
+    preamble = Div(
+        text=f"""
+        <p>
+        This table provides an overview of the benchmark problems
+        available in the <a href="{REPO_URL}">Benchmark-Models-PEtab</a>
+        repository.
+        </p>
+        """
+    )
+    layout = column(heading, preamble, data_table, sizing_mode="stretch_both")
+    output_file(dest, title="Benchmark Problems")
+    save(layout)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Show overview table for benchmark PEtab problems"
     )
-    parser.add_argument(
+    group1 = parser.add_mutually_exclusive_group()
+    group1.add_argument(
         "--markdown", action="store_true", help="Output in markdown format"
     )
-    parser.add_argument(
+    group1.add_argument(
         "--update",
         action="store_true",
         help="Update the README.md file with the overview table",
     )
 
+    group2 = parser.add_mutually_exclusive_group()
+    group2.add_argument(
+        "--html-file", help="Output the overview table to an HTML file"
+    )
+
     args = parser.parse_args()
 
-    show_overview_table(markdown=args.markdown, update_readme=args.update)
+    if args.html_file:
+        create_html_table(dest=Path(args.html_file))
+    else:
+        show_overview_table(markdown=args.markdown, update_readme=args.update)

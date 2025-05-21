@@ -29,8 +29,15 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: 3.13
+      - name: Install dependencies
+        run: |
+          cd src/python
+          pip install --upgrade pip
+          pip install -e .[site]
       - name: Build site
         run: src/python/build_site.py
+      - name: Create overview
+        run: bmp-create-overview --html-file=_site/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
