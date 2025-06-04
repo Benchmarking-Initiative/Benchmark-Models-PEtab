@@ -363,7 +363,8 @@ def create_html_table(dest: Path) -> None:
             )
         if pd.api.types.is_integer_dtype(df[col].dtype):
             return NumberFormatter(text_align="right")
-        if col in ["reference_uris", "sbml4humans_urls"]:
+        if col in ("reference_uris", "sbml4humans_urls"):
+            icon = "📚" if col == "reference_uris" else "🌠"
             return HTMLTemplateFormatter(
                 template="""
                 <%
@@ -376,9 +377,9 @@ def create_html_table(dest: Path) -> None:
                     }
                     for (let i = 0; i < urls.length; i++) {
                 %>
-                    <a href="<%= urls[i] %>" target="_blank"><%= urls[i] %></a>
+                    <a href="<%= urls[i] %>" target="_blank">LINK_TEXT</a>
                 <% } %>
-                """
+                """.replace("LINK_TEXT", icon)
             )
 
         return StringFormatter()
