@@ -1,202 +1,202 @@
-observableId	simulationConditionId	measurement	time	noiseParameters
-z_obs	equilibration	0.03	0	sd_z
-z_obs	equilibration	0.03	10	sd_z
-z_obs	equilibration	0.03	20	sd_z
-z_obs	equilibration	0.03	40	sd_z
-z_obs	equilibration	0.03	60	sd_z
-z_obs	equilibration	0.03	80	sd_z
-z_obs	equilibration	0.03	99	sd_z
-s_obs	equilibration	0.01	0	sd_s
-s_obs	equilibration	0.01	10	sd_s
-s_obs	equilibration	0.01	20	sd_s
-s_obs	equilibration	0.01	40	sd_s
-s_obs	equilibration	0.01	60	sd_s
-s_obs	equilibration	0.01	80	sd_s
-s_obs	equilibration	0.01	99	sd_s
-d_obs	equilibration	0.013040000000000001	0	sd_d
-d_obs	equilibration	0.013040000000000001	10	sd_d
-d_obs	equilibration	0.013040000000000001	20	sd_d
-d_obs	equilibration	0.013040000000000001	40	sd_d
-d_obs	equilibration	0.013040000000000001	60	sd_d
-d_obs	equilibration	0.013040000000000001	80	sd_d
-d_obs	equilibration	0.013040000000000001	99	sd_d
-z_obs	wild_type	0.03	0	sd_z
-z_obs	wild_type	0.03209534530261328	10	sd_z
-z_obs	wild_type	0.0333613340710412	20	sd_z
-z_obs	wild_type	0.036706205850645844	40	sd_z
-z_obs	wild_type	0.05045955056233942	60	sd_z
-z_obs	wild_type	0.09507582396589258	80	sd_z
-z_obs	wild_type	0.16509138044520544	100	sd_z
-z_obs	wild_type	0.22478453371051155	120	sd_z
-z_obs	wild_type	0.26101656728431666	140	sd_z
-z_obs	wild_type	0.28004318933261657	160	sd_z
-z_obs	wild_type	0.28959145451911106	180	sd_z
-z_obs	wild_type	0.29442548984909755	200	sd_z
-z_obs	wild_type	0.2970915858051302	220	sd_z
-z_obs	wild_type	0.2988306225682757	240	sd_z
-z_obs	wild_type	0.30001718819572365	260	sd_z
-z_obs	wild_type	0.3007370043685539	280	sd_z
-z_obs	wild_type	0.30112435317718966	300	sd_z
-z_obs	wild_type	0.30144632194012094	350	sd_z
-z_obs	wild_type	0.3015038629770457	400	sd_z
-z_obs	wild_type	0.3015146957235325	450	sd_z
-z_obs	wild_type	0.3015167725450447	500	sd_z
-z_obs	wild_type	0.30151717046868737	550	sd_z
-z_obs	wild_type	0.3015172462640693	600	sd_z
-z_obs	wild_type	0.30151726066653567	650	sd_z
-z_obs	wild_type	0.30151726333225926	700	sd_z
-z_obs	wild_type	0.30151726382985483	750	sd_z
-z_obs	wild_type	0.3015172638584188	800	sd_z
-z_obs	wild_type	0.30151726384957356	850	sd_z
-z_obs	wild_type	0.30151726385240696	900	sd_z
-z_obs	wild_type	0.30151726386038064	950	sd_z
-z_obs	wild_type	0.30151726386892574	1000	sd_z
-Z_obs	wild_type	0.01	0	sd_Z
-Z_obs	wild_type	0.00938818884726831	10	sd_Z
-Z_obs	wild_type	0.009795638268375213	20	sd_Z
-Z_obs	wild_type	0.01081273738628688	40	sd_Z
-Z_obs	wild_type	0.014914162834822582	60	sd_Z
-Z_obs	wild_type	0.029371966385504163	80	sd_Z
-Z_obs	wild_type	0.057731073701540916	100	sd_Z
-Z_obs	wild_type	0.09540391227341193	120	sd_Z
-Z_obs	wild_type	0.14246361036646255	140	sd_Z
-Z_obs	wild_type	0.21261990066888858	160	sd_Z
-Z_obs	wild_type	0.3563937050434353	180	sd_Z
-Z_obs	wild_type	0.7276219687468225	200	sd_Z
-Z_obs	wild_type	1.4744064140717923	220	sd_Z
-Z_obs	wild_type	2.2647925582709463	240	sd_Z
-Z_obs	wild_type	2.719504981407328	260	sd_Z
-Z_obs	wild_type	2.910603312392337	280	sd_Z
-Z_obs	wild_type	2.9861937807714702	300	sd_Z
-Z_obs	wild_type	3.0352955380002467	350	sd_Z
-Z_obs	wild_type	3.0426277621581432	400	sd_Z
-Z_obs	wild_type	3.0438911277553378	450	sd_Z
-Z_obs	wild_type	3.044115814324438	500	sd_Z
-Z_obs	wild_type	3.0441559914712912	550	sd_Z
-Z_obs	wild_type	3.0441631648344485	600	sd_Z
-Z_obs	wild_type	3.0441644487229707	650	sd_Z
-Z_obs	wild_type	3.044164671924423	700	sd_Z
-Z_obs	wild_type	3.044164711352368	750	sd_Z
-Z_obs	wild_type	3.0441647119918778	800	sd_Z
-Z_obs	wild_type	3.044164710780677	850	sd_Z
-Z_obs	wild_type	3.0441647112725665	900	sd_Z
-Z_obs	wild_type	3.0441647121668365	950	sd_Z
-Z_obs	wild_type	3.044164713044129	1000	sd_Z
-D_obs	wild_type	3.351104301697299	180	sd_D
-D_obs	wild_type	3.353319284669252	200	sd_D
-D_obs	wild_type	3.358085960497563	220	sd_D
-D_obs	wild_type	3.3642107691785768	240	sd_D
-D_obs	wild_type	3.3686813375715503	260	sd_D
-D_obs	wild_type	3.3709226700593153	280	sd_D
-D_obs	wild_type	3.371866542544967	300	sd_D
-D_obs	wild_type	3.3724466080471815	350	sd_D
-D_obs	wild_type	3.3725211614349817	400	sd_D
-D_obs	wild_type	3.372535337088241	500	sd_D
-D_obs	wild_type	3.3725357757670267	600	sd_D
-D_obs	wild_type	3.3725357895099553	700	sd_D
-D_obs	wild_type	3.372535789867559	800	sd_D
-D_obs	wild_type	3.3725357898773236	1000	sd_D
-d_obs	wild_type	0.3351104301697299	180	sd_d
-d_obs	wild_type	0.3353319284669252	200	sd_d
-d_obs	wild_type	0.33580859604975627	220	sd_d
-d_obs	wild_type	0.33642107691785766	240	sd_d
-d_obs	wild_type	0.336868133757155	260	sd_d
-d_obs	wild_type	0.33709226700593153	280	sd_d
-d_obs	wild_type	0.3371866542544967	300	sd_d
-d_obs	wild_type	0.33724466080471815	350	sd_d
-d_obs	wild_type	0.33725211614349815	400	sd_d
-d_obs	wild_type	0.3372535337088241	500	sd_d
-d_obs	wild_type	0.33725357757670266	600	sd_d
-d_obs	wild_type	0.3372535789509955	700	sd_d
-d_obs	wild_type	0.3372535789867559	800	sd_d
-d_obs	wild_type	0.33725357898773234	1000	sd_d
-z_obs	wild_type_15TGF0	0.03	0	sd_z
-z_obs	wild_type_15TGF0	0.03201331414696939	10	sd_z
-z_obs	wild_type_15TGF0	0.03292263853033714	20	sd_z
-z_obs	wild_type_15TGF0	0.033649036309445476	40	sd_z
-z_obs	wild_type_15TGF0	0.03405319972002937	60	sd_z
-z_obs	wild_type_15TGF0	0.034631980997206706	80	sd_z
-z_obs	wild_type_15TGF0	0.03601275772238608	100	sd_z
-z_obs	wild_type_15TGF0	0.04025045748645242	120	sd_z
-z_obs	wild_type_15TGF0	0.052086647569438205	140	sd_z
-z_obs	wild_type_15TGF0	0.0733812115623078	160	sd_z
-z_obs	wild_type_15TGF0	0.09657223968576872	180	sd_z
-z_obs	wild_type_15TGF0	0.11418921841102671	200	sd_z
-z_obs	wild_type_15TGF0	0.1251719435098757	220	sd_z
-z_obs	wild_type_15TGF0	0.13143016943214927	240	sd_z
-z_obs	wild_type_15TGF0	0.13487971019071016	260	sd_z
-z_obs	wild_type_15TGF0	0.13676723996403659	280	sd_z
-z_obs	wild_type_15TGF0	0.13780340925397525	300	sd_z
-z_obs	wild_type_15TGF0	0.13879800043965013	350	sd_z
-z_obs	wild_type_15TGF0	0.1390348361832804	400	sd_z
-z_obs	wild_type_15TGF0	0.13909412536198268	450	sd_z
-z_obs	wild_type_15TGF0	0.13910963838571283	500	sd_z
-z_obs	wild_type_15TGF0	0.13911384665835969	550	sd_z
-z_obs	wild_type_15TGF0	0.1391150211697932	600	sd_z
-z_obs	wild_type_15TGF0	0.13911535488968454	650	sd_z
-z_obs	wild_type_15TGF0	0.1391154520637022	700	sd_z
-z_obs	wild_type_15TGF0	0.13911547970086607	750	sd_z
-z_obs	wild_type_15TGF0	0.13911548876078364	800	sd_z
-z_obs	wild_type_15TGF0	0.13911549122472266	850	sd_z
-z_obs	wild_type_15TGF0	0.13911549137115764	900	sd_z
-z_obs	wild_type_15TGF0	0.1391154919251923	950	sd_z
-z_obs	wild_type_15TGF0	0.13911549257905353	1000	sd_z
-Z_obs	wild_type_15TGF0	0.01	0	sd_Z
-Z_obs	wild_type_15TGF0	0.009367043007665964	10	sd_Z
-Z_obs	wild_type_15TGF0	0.009672644334048904	20	sd_Z
-Z_obs	wild_type_15TGF0	0.009929034650517298	40	sd_Z
-Z_obs	wild_type_15TGF0	0.010069606311258965	60	sd_Z
-Z_obs	wild_type_15TGF0	0.010252968425258585	80	sd_Z
-Z_obs	wild_type_15TGF0	0.010669618630247842	100	sd_Z
-Z_obs	wild_type_15TGF0	0.011937180037095199	120	sd_Z
-Z_obs	wild_type_15TGF0	0.015567458203011334	140	sd_Z
-Z_obs	wild_type_15TGF0	0.022528065714254458	160	sd_Z
-Z_obs	wild_type_15TGF0	0.030969601759337977	180	sd_Z
-Z_obs	wild_type_15TGF0	0.03842258415199316	200	sd_Z
-Z_obs	wild_type_15TGF0	0.043991629400284234	220	sd_Z
-Z_obs	wild_type_15TGF0	0.04784548108046405	240	sd_Z
-Z_obs	wild_type_15TGF0	0.050418882977946874	260	sd_Z
-Z_obs	wild_type_15TGF0	0.052104250633317056	280	sd_Z
-Z_obs	wild_type_15TGF0	0.053193849395549254	300	sd_Z
-Z_obs	wild_type_15TGF0	0.05449048721108003	350	sd_Z
-Z_obs	wild_type_15TGF0	0.054899864359264694	400	sd_Z
-Z_obs	wild_type_15TGF0	0.055025873365210184	450	sd_Z
-Z_obs	wild_type_15TGF0	0.05506409964063091	500	sd_Z
-Z_obs	wild_type_15TGF0	0.05507559679662666	550	sd_Z
-Z_obs	wild_type_15TGF0	0.05507903804973523	600	sd_Z
-Z_obs	wild_type_15TGF0	0.055080063320672605	650	sd_Z
-Z_obs	wild_type_15TGF0	0.05508037039741805	700	sd_Z
-Z_obs	wild_type_15TGF0	0.05508046001312369	750	sd_Z
-Z_obs	wild_type_15TGF0	0.055080488780142454	800	sd_Z
-Z_obs	wild_type_15TGF0	0.05508049717221115	850	sd_Z
-Z_obs	wild_type_15TGF0	0.055080497866294736	900	sd_Z
-Z_obs	wild_type_15TGF0	0.05508049918534944	950	sd_Z
-Z_obs	wild_type_15TGF0	0.055080501230806315	1000	sd_Z
-s_obs	knockdown	0.08243269747495424	180	sd_s_kd
-s_obs	knockdown	0.08248718310261635	200	sd_s_kd
-s_obs	knockdown	0.08260443697212955	220	sd_s_kd
-s_obs	knockdown	0.08275509909889124	240	sd_s_kd
-s_obs	knockdown	0.0828650691203234	260	sd_s_kd
-s_obs	knockdown	0.08292020291094017	280	sd_s_kd
-s_obs	knockdown	0.08294342091553204	300	sd_s_kd
-s_obs	knockdown	0.0829576897534299	350	sd_s_kd
-s_obs	knockdown	0.08295952366736065	400	sd_s_kd
-s_obs	knockdown	0.08295987236952908	500	sd_s_kd
-s_obs	knockdown	0.08295988316044227	600	sd_s_kd
-s_obs	knockdown	0.08295988349849999	700	sd_s_kd
-s_obs	knockdown	0.08295988350729656	800	sd_s_kd
-s_obs	knockdown	0.08295988350753676	1000	sd_s_kd
-d_obs	knockdown	0.046737856369557865	180	sd_d_kd
-d_obs	knockdown	0.046768748740156935	200	sd_d_kd
-d_obs	knockdown	0.046835229574582464	220	sd_d_kd
-d_obs	knockdown	0.04692065228979884	240	sd_d_kd
-d_obs	knockdown	0.046983003313410744	260	sd_d_kd
-d_obs	knockdown	0.04701426318074359	280	sd_d_kd
-d_obs	knockdown	0.047027427371617386	300	sd_d_kd
-d_obs	knockdown	0.0470355175459858	350	sd_d_kd
-d_obs	knockdown	0.04703655734218942	400	sd_d_kd
-d_obs	knockdown	0.047036755050045204	500	sd_d_kd
-d_obs	knockdown	0.047036761168298837	600	sd_d_kd
-d_obs	knockdown	0.04703676135997148	700	sd_d_kd
-d_obs	knockdown	0.04703676136495898	800	sd_d_kd
-d_obs	knockdown	0.047036761365095166	1000	sd_d_kd
+observableId	simulationConditionId	measurement	time	noiseParameters	datasetId
+z_obs	equilibration	0.03	0	sd_z	plotS3B
+z_obs	equilibration	0.03	10	sd_z	plotS3B
+z_obs	equilibration	0.03	20	sd_z	plotS3B
+z_obs	equilibration	0.03	40	sd_z	plotS3B
+z_obs	equilibration	0.03	60	sd_z	plotS3B
+z_obs	equilibration	0.03	80	sd_z	plotS3B
+z_obs	equilibration	0.03	99	sd_z	plotS3B
+s_obs	equilibration	0.01	0	sd_s	plotS3B
+s_obs	equilibration	0.01	10	sd_s	plotS3B
+s_obs	equilibration	0.01	20	sd_s	plotS3B
+s_obs	equilibration	0.01	40	sd_s	plotS3B
+s_obs	equilibration	0.01	60	sd_s	plotS3B
+s_obs	equilibration	0.01	80	sd_s	plotS3B
+s_obs	equilibration	0.01	99	sd_s	plotS3B
+d_obs	equilibration	0.013040000000000001	0	sd_d	plotS3B
+d_obs	equilibration	0.013040000000000001	10	sd_d	plotS3B
+d_obs	equilibration	0.013040000000000001	20	sd_d	plotS3B
+d_obs	equilibration	0.013040000000000001	40	sd_d	plotS3B
+d_obs	equilibration	0.013040000000000001	60	sd_d	plotS3B
+d_obs	equilibration	0.013040000000000001	80	sd_d	plotS3B
+d_obs	equilibration	0.013040000000000001	99	sd_d	plotS3B
+z_obs	wild_type	0.03	0	sd_z	plotS3B
+z_obs	wild_type	0.03209534530261328	10	sd_z	plotS3B
+z_obs	wild_type	0.0333613340710412	20	sd_z	plotS3B
+z_obs	wild_type	0.036706205850645844	40	sd_z	plotS3B
+z_obs	wild_type	0.05045955056233942	60	sd_z	plotS3B
+z_obs	wild_type	0.09507582396589258	80	sd_z	plotS3B
+z_obs	wild_type	0.16509138044520544	100	sd_z	plotS3B
+z_obs	wild_type	0.22478453371051155	120	sd_z	plotS3B
+z_obs	wild_type	0.26101656728431666	140	sd_z	plotS3B
+z_obs	wild_type	0.28004318933261657	160	sd_z	plotS3B
+z_obs	wild_type	0.28959145451911106	180	sd_z	plotS3B
+z_obs	wild_type	0.29442548984909755	200	sd_z	plotS3B
+z_obs	wild_type	0.2970915858051302	220	sd_z	plotS3B
+z_obs	wild_type	0.2988306225682757	240	sd_z	plotS3B
+z_obs	wild_type	0.30001718819572365	260	sd_z	plotS3B
+z_obs	wild_type	0.3007370043685539	280	sd_z	plotS3B
+z_obs	wild_type	0.30112435317718966	300	sd_z	plotS3B
+z_obs	wild_type	0.30144632194012094	350	sd_z	plotS3B
+z_obs	wild_type	0.3015038629770457	400	sd_z	plotS3B
+z_obs	wild_type	0.3015146957235325	450	sd_z	plotS3B
+z_obs	wild_type	0.3015167725450447	500	sd_z	plotS3B
+z_obs	wild_type	0.30151717046868737	550	sd_z	plotS3B
+z_obs	wild_type	0.3015172462640693	600	sd_z	plotS3B
+z_obs	wild_type	0.30151726066653567	650	sd_z	plotS3B
+z_obs	wild_type	0.30151726333225926	700	sd_z	plotS3B
+z_obs	wild_type	0.30151726382985483	750	sd_z	plotS3B
+z_obs	wild_type	0.3015172638584188	800	sd_z	plotS3B
+z_obs	wild_type	0.30151726384957356	850	sd_z	plotS3B
+z_obs	wild_type	0.30151726385240696	900	sd_z	plotS3B
+z_obs	wild_type	0.30151726386038064	950	sd_z	plotS3B
+z_obs	wild_type	0.30151726386892574	1000	sd_z	plotS3B
+Z_obs	wild_type	0.01	0	sd_Z	plotS3B
+Z_obs	wild_type	0.00938818884726831	10	sd_Z	plotS3B
+Z_obs	wild_type	0.009795638268375213	20	sd_Z	plotS3B
+Z_obs	wild_type	0.01081273738628688	40	sd_Z	plotS3B
+Z_obs	wild_type	0.014914162834822582	60	sd_Z	plotS3B
+Z_obs	wild_type	0.029371966385504163	80	sd_Z	plotS3B
+Z_obs	wild_type	0.057731073701540916	100	sd_Z	plotS3B
+Z_obs	wild_type	0.09540391227341193	120	sd_Z	plotS3B
+Z_obs	wild_type	0.14246361036646255	140	sd_Z	plotS3B
+Z_obs	wild_type	0.21261990066888858	160	sd_Z	plotS3B
+Z_obs	wild_type	0.3563937050434353	180	sd_Z	plotS3B
+Z_obs	wild_type	0.7276219687468225	200	sd_Z	plotS3B
+Z_obs	wild_type	1.4744064140717923	220	sd_Z	plotS3B
+Z_obs	wild_type	2.2647925582709463	240	sd_Z	plotS3B
+Z_obs	wild_type	2.719504981407328	260	sd_Z	plotS3B
+Z_obs	wild_type	2.910603312392337	280	sd_Z	plotS3B
+Z_obs	wild_type	2.9861937807714702	300	sd_Z	plotS3B
+Z_obs	wild_type	3.0352955380002467	350	sd_Z	plotS3B
+Z_obs	wild_type	3.0426277621581432	400	sd_Z	plotS3B
+Z_obs	wild_type	3.0438911277553378	450	sd_Z	plotS3B
+Z_obs	wild_type	3.044115814324438	500	sd_Z	plotS3B
+Z_obs	wild_type	3.0441559914712912	550	sd_Z	plotS3B
+Z_obs	wild_type	3.0441631648344485	600	sd_Z	plotS3B
+Z_obs	wild_type	3.0441644487229707	650	sd_Z	plotS3B
+Z_obs	wild_type	3.044164671924423	700	sd_Z	plotS3B
+Z_obs	wild_type	3.044164711352368	750	sd_Z	plotS3B
+Z_obs	wild_type	3.0441647119918778	800	sd_Z	plotS3B
+Z_obs	wild_type	3.044164710780677	850	sd_Z	plotS3B
+Z_obs	wild_type	3.0441647112725665	900	sd_Z	plotS3B
+Z_obs	wild_type	3.0441647121668365	950	sd_Z	plotS3B
+Z_obs	wild_type	3.044164713044129	1000	sd_Z	plotS3B
+D_obs	wild_type	3.351104301697299	180	sd_D	plotS3B
+D_obs	wild_type	3.353319284669252	200	sd_D	plotS3B
+D_obs	wild_type	3.358085960497563	220	sd_D	plotS3B
+D_obs	wild_type	3.3642107691785768	240	sd_D	plotS3B
+D_obs	wild_type	3.3686813375715503	260	sd_D	plotS3B
+D_obs	wild_type	3.3709226700593153	280	sd_D	plotS3B
+D_obs	wild_type	3.371866542544967	300	sd_D	plotS3B
+D_obs	wild_type	3.3724466080471815	350	sd_D	plotS3B
+D_obs	wild_type	3.3725211614349817	400	sd_D	plotS3B
+D_obs	wild_type	3.372535337088241	500	sd_D	plotS3B
+D_obs	wild_type	3.3725357757670267	600	sd_D	plotS3B
+D_obs	wild_type	3.3725357895099553	700	sd_D	plotS3B
+D_obs	wild_type	3.372535789867559	800	sd_D	plotS3B
+D_obs	wild_type	3.3725357898773236	1000	sd_D	plotS3B
+d_obs	wild_type	0.3351104301697299	180	sd_d	plotS3B
+d_obs	wild_type	0.3353319284669252	200	sd_d	plotS3B
+d_obs	wild_type	0.33580859604975627	220	sd_d	plotS3B
+d_obs	wild_type	0.33642107691785766	240	sd_d	plotS3B
+d_obs	wild_type	0.336868133757155	260	sd_d	plotS3B
+d_obs	wild_type	0.33709226700593153	280	sd_d	plotS3B
+d_obs	wild_type	0.3371866542544967	300	sd_d	plotS3B
+d_obs	wild_type	0.33724466080471815	350	sd_d	plotS3B
+d_obs	wild_type	0.33725211614349815	400	sd_d	plotS3B
+d_obs	wild_type	0.3372535337088241	500	sd_d	plotS3B
+d_obs	wild_type	0.33725357757670266	600	sd_d	plotS3B
+d_obs	wild_type	0.3372535789509955	700	sd_d	plotS3B
+d_obs	wild_type	0.3372535789867559	800	sd_d	plotS3B
+d_obs	wild_type	0.33725357898773234	1000	sd_d	plotS3B
+z_obs	wild_type_15TGF0	0.03	0	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.03201331414696939	10	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.03292263853033714	20	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.033649036309445476	40	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.03405319972002937	60	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.034631980997206706	80	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.03601275772238608	100	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.04025045748645242	120	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.052086647569438205	140	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.0733812115623078	160	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.09657223968576872	180	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.11418921841102671	200	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.1251719435098757	220	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13143016943214927	240	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13487971019071016	260	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13676723996403659	280	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13780340925397525	300	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13879800043965013	350	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.1390348361832804	400	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13909412536198268	450	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13910963838571283	500	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13911384665835969	550	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.1391150211697932	600	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13911535488968454	650	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.1391154520637022	700	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13911547970086607	750	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13911548876078364	800	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13911549122472266	850	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13911549137115764	900	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.1391154919251923	950	sd_z	plotS3A
+z_obs	wild_type_15TGF0	0.13911549257905353	1000	sd_z	plotS3A
+Z_obs	wild_type_15TGF0	0.01	0	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.009367043007665964	10	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.009672644334048904	20	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.009929034650517298	40	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.010069606311258965	60	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.010252968425258585	80	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.010669618630247842	100	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.011937180037095199	120	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.015567458203011334	140	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.022528065714254458	160	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.030969601759337977	180	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.03842258415199316	200	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.043991629400284234	220	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.04784548108046405	240	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.050418882977946874	260	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.052104250633317056	280	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.053193849395549254	300	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.05449048721108003	350	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.054899864359264694	400	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.055025873365210184	450	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.05506409964063091	500	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.05507559679662666	550	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.05507903804973523	600	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.055080063320672605	650	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.05508037039741805	700	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.05508046001312369	750	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.055080488780142454	800	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.05508049717221115	850	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.055080497866294736	900	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.05508049918534944	950	sd_Z	plotS3A
+Z_obs	wild_type_15TGF0	0.055080501230806315	1000	sd_Z	plotS3A
+s_obs	knockdown	0.08243269747495424	180	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08248718310261635	200	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08260443697212955	220	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08275509909889124	240	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.0828650691203234	260	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08292020291094017	280	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08294342091553204	300	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.0829576897534299	350	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08295952366736065	400	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08295987236952908	500	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08295988316044227	600	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08295988349849999	700	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08295988350729656	800	sd_s_kd	dlc1-kd
+s_obs	knockdown	0.08295988350753676	1000	sd_s_kd	dlc1-kd
+d_obs	knockdown	0.046737856369557865	180	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.046768748740156935	200	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.046835229574582464	220	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.04692065228979884	240	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.046983003313410744	260	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.04701426318074359	280	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.047027427371617386	300	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.0470355175459858	350	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.04703655734218942	400	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.047036755050045204	500	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.047036761168298837	600	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.04703676135997148	700	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.04703676136495898	800	sd_d_kd	dlc1-kd
+d_obs	knockdown	0.047036761365095166	1000	sd_d_kd	dlc1-kd

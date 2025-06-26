@@ -9,3 +9,5 @@ problems:
     - CBSD_observables.tsv
     sbml_files:
     - CBSD.xml
+    visualization_files:
+    - visualizationSpecification.tsv

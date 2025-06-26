@@ -1,0 +1,10 @@
+plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xLabel	yValues	xOffset	yLabel	legendEntry	color
+FigS3A	zeb1/ZEB1 with 1.5 ng/ml TGFβ	LinePlot	MeanAndSD	plotS3A	time	Time	z_obs	0	Concentration (µM)	zeb1	yellow
+FigS3A	zeb1/ZEB1 with 1.5 ng/ml TGFβ	LinePlot	MeanAndSD	plotS3A	time	Time	Z_obs	0	Concentration (µM)	ZEB1	brown
+FigS3B_ZEB1	ZEB1 with 10 ng/ml exogenous TGFβ	LinePlot	MeanAndSD	plotS3B	time	Time	Z_obs	0	Concentration (µM)	ZEB1	black
+FigS3B_zeb1	zeb1 with 10 ng/ml exogenous TGFβ	LinePlot	MeanAndSD	plotS3B	time	Time	z_obs	0	Concentration (µM)	zeb1	brown
+FigS3B_snail1	snail1 with 10 ng/ml exogenous TGFβ	LinePlot	MeanAndSD	plotS3B	time	Time	s_obs	0	Concentration (µM)	snail1	grey
+FigS3B_dlc1	dlc1 with 10 ng/ml exogenous TGFβ	LinePlot	MeanAndSD	plotS3B	time	Time	d_obs	0	Concentration (µM)	dlc1	pink
+FigS3B_DLC1	DLC1 with 10 ng/ml exogenous TGFβ	LinePlot	MeanAndSD	plotS3B	time	Time	D_obs	0	Concentration (µM)	DLC1	purple
+FigS4	dlc1 kd condition	LinePlot	MeanAndSD	dlc1-kd	time	Time	s_obs	100	Concentration (µM)	snail1	grey
+FigS4	dlc1 kd condition	LinePlot	MeanAndSD	dlc1-kd	time	Time	d_obs	100	Concentration (µM)	dlc1	pink
