@@ -8,6 +8,6 @@ problems:
   observable_files:
   - observables_Giordano_Nature2020.tsv
   sbml_files:
-  - Giordano_Nature2020_model.xml
+  - model_Giordano_Nature2020.xml
   visualization_files:
   - visualizationSpecification_Giordano_Nature2020.tsv
