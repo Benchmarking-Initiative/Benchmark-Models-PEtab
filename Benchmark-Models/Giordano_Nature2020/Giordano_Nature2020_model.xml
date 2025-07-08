@@ -1314,7 +1314,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
           </COPASI>
         </annotation>
       </parameter>
-      <parameter metaid="COPASI56" id="initalTimeManual" name="initialTimeManual" value="0" units="unit_2" constant="true">
+      <parameter metaid="COPASI56" id="initialTimeManual" name="initialTimeManual" value="0" units="unit_2" constant="true">
         <annotation>
           <COPASI xmlns="http://www.copasi.org/static/sbml">
             <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -1805,7 +1805,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 4 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -1824,7 +1824,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 4 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -1832,7 +1832,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 22 </cn>
                     </apply>
                   </apply>
@@ -1853,7 +1853,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -1861,7 +1861,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 28 </cn>
                     </apply>
                   </apply>
@@ -1882,7 +1882,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 28 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -1890,7 +1890,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -1909,7 +1909,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -1933,7 +1933,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 4 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -1952,7 +1952,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 4 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -1960,7 +1960,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 22 </cn>
                     </apply>
                   </apply>
@@ -1981,7 +1981,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -1989,7 +1989,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2008,7 +2008,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2032,7 +2032,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 4 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2051,7 +2051,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 4 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2059,7 +2059,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 22 </cn>
                     </apply>
                   </apply>
@@ -2080,7 +2080,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2088,7 +2088,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 28 </cn>
                     </apply>
                   </apply>
@@ -2109,7 +2109,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 28 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2117,7 +2117,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2136,7 +2136,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2160,7 +2160,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 4 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2179,7 +2179,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 4 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2187,7 +2187,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 22 </cn>
                     </apply>
                   </apply>
@@ -2208,7 +2208,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2216,7 +2216,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2235,7 +2235,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2259,7 +2259,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 22 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2278,7 +2278,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2286,7 +2286,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 38 </cn>
                     </apply>
                   </apply>
@@ -2307,7 +2307,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 38 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2315,7 +2315,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2334,7 +2334,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2358,7 +2358,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 22 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2377,7 +2377,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2385,7 +2385,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 38 </cn>
                     </apply>
                   </apply>
@@ -2406,7 +2406,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 38 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2414,7 +2414,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2433,7 +2433,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2457,7 +2457,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 22 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2476,7 +2476,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2484,7 +2484,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2503,7 +2503,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2527,7 +2527,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 12 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2546,7 +2546,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 12 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2554,7 +2554,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 38 </cn>
                     </apply>
                   </apply>
@@ -2575,7 +2575,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 38 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2583,7 +2583,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2602,7 +2602,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2626,7 +2626,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 22 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2645,7 +2645,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2653,7 +2653,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2672,7 +2672,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2696,7 +2696,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 22 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2715,7 +2715,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2723,7 +2723,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 38 </cn>
                     </apply>
                   </apply>
@@ -2744,7 +2744,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 38 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2752,7 +2752,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2771,7 +2771,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2795,7 +2795,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 22 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2814,7 +2814,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2822,7 +2822,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 38 </cn>
                     </apply>
                   </apply>
@@ -2843,7 +2843,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 38 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2851,7 +2851,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2870,7 +2870,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2894,7 +2894,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 22 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2913,7 +2913,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2921,7 +2921,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 38 </cn>
                     </apply>
                   </apply>
@@ -2942,7 +2942,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 38 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -2950,7 +2950,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -2969,7 +2969,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -2993,7 +2993,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 22 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -3012,7 +3012,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -3020,7 +3020,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 38 </cn>
                     </apply>
                   </apply>
@@ -3041,7 +3041,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 38 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -3049,7 +3049,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -3068,7 +3068,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -3124,7 +3124,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 22 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>
@@ -3143,7 +3143,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <apply>
                       <plus/>
                       <cn> 22 </cn>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                     </apply>
                   </apply>
                   <apply>
@@ -3151,7 +3151,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
                     <apply>
                       <plus/>
-                      <ci> initalTimeManual </ci>
+                      <ci> initialTimeManual </ci>
                       <cn> 50 </cn>
                     </apply>
                   </apply>
@@ -3170,7 +3170,7 @@ In Italy, 128,948 confirmed cases and 15,887 deaths of people who tested positiv
                   <apply>
                     <plus/>
                     <cn> 50 </cn>
-                    <ci> initalTimeManual </ci>
+                    <ci> initialTimeManual </ci>
                   </apply>
                 </apply>
               </piece>

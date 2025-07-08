@@ -1,18 +1,40 @@
 files: src/python
 repos:
-- repo: https://github.com/psf/black
-  rev: 23.7.0
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.6.0
   hooks:
-  - id: black
-    description: The uncompromising code formatter
-- repo: https://github.com/pycqa/isort
-  rev: 5.12.0
+  - id: check-yaml
+    description: Check yaml files for parseable syntax
+  - id: check-added-large-files
+    description: Prevent large files from being committed
+  - id: check-merge-conflict
+    description: Check for files that contain merge conflict strings
+  - id: check-symlinks
+    description: Check for symlinks which do not point to anything
+  - id: check-executables-have-shebangs
+    description: Check that (non-binary) executables have shebangs
+  - id: detect-private-key
+    description: Detects the presence of private keys
+  - id: end-of-file-fixer
+    description: Fix empty lines at ends of files
+  - id: mixed-line-ending
+    description: Replace or check mixed line endings
+  - id: trailing-whitespace
+    description: Trim trailing whitespaces
+
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  # Ruff version.
+  rev: v0.6.7
   hooks:
-  - id: isort
-    name: isort
-- repo: https://github.com/pycqa/flake8
-  rev: 6.0.0
-  hooks:
-  - id: flake8
-    args: [--config, src/python/setup.cfg]
-    additional_dependencies: [flake8-docstrings]
+    # Run the linter.
+    - id: ruff
+      args:
+        - --fix
+        - --config
+        - src/python/pyproject.toml
+
+    # Run the formatter.
+    - id: ruff-format
+      args:
+        - --config
+        - src/python/pyproject.toml

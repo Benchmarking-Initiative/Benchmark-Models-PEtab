@@ -1,0 +1,3 @@
+conditionId	conditionName	S_on	Cer	Sphinga	Sphingo	S1P
+wild_type	wild-type	1	0.988	0.000732	0.000395	1.551
+mutant	Hai1a deletion mutant	0	0.822	0.000795	0.000364	2.07

@@ -1,0 +1,11 @@
+parameterId	parameterName	parameterScale	lowerBound	upperBound	nominalValue	estimate	objectivePriorType	objectivePriorParameters	model_selection_group
+xi_pAC	\xi_{pAC}	log10	0.001	1	1	1	parameterScaleNormal	0;3	H2: AC inhibition
+kp_AC	kp_{AC}	log10	1E-5	1E3	0	1			H2: AC inhibition
+kdp_AC	kdp_{AC}	log10	1E-5	1E3	0	1			H2: AC inhibition
+xi_i_Rp8_Br_cAMPS_pAB	\xi_{i,Rp8,Br,cAMPS,pAB}	log10	1E-05	1	1	1	parameterScaleNormal	0;3	H3: incomplete import
+xi_i_Rp8_pCPT_cAMPS_pAB	\xi_{i,Rp8,pCPT,cAMPS,pAB}	log10	1E-05	1	1	1	parameterScaleNormal	0;3	H3: incomplete import
+xi_i_Rp_cAMPS_pAB	\xi_{i,Rp,cAMPS,pAB}	log10	1E-05	1	1	1	parameterScaleNormal	0;3	H3: incomplete import
+xi_i_Sp8_Br_cAMPS_AM	\xi_{i,Sp8,Br,cAMPS,AM}	log10	1E-05	1	1	1	parameterScaleNormal	0;3	H3: incomplete import
+xi_pPDE	\xi_{pPDE}	log10	1	1000	1	1	parameterScaleNormal	0.397940008672038;3	H4: PDE inhibition
+kf_PDE_Csub	kf_{PDE,Csub}	log10	1E-5	1E3	0	1			H4: PDE inhibition
+KD_PDE_Csub	KD_{PDE,Csub}	log10	1E-5	1E3	0	1			H4: PDE inhibition

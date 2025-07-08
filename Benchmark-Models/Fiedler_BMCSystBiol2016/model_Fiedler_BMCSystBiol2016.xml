@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
-  <model id="Fiedler_BMC2016" name="Fiedler_BMC2016">
+  <model id="Fiedler_BMCSystBiol2016" name="Fiedler_BMCSystBiol2016">
     <notes>
       <body xmlns="http://www.w3.org/1999/xhtml">
         <pre>PEtab implementation of the model from Fiedler et al. (2016), BMC Systems Biology volume 10, Article number: 80</pre>

@@ -1,3 +1,4 @@
+#!/bin/env bash
 # Build library as source distribution with included model files
 
 # Either, call `./build.sh` followed by `pip install build/dist/*`
@@ -24,7 +25,7 @@ mkdir $BUILD_DIR
 # Copy code
 cp -r \
   $CODE_DIR \
-  "setup.cfg" "setup.py" "pyproject.toml" "MANIFEST.in" \
+  "pyproject.toml" "MANIFEST.in" ".git_archival.txt" \
   "../../LICENSE" "../../README.md" \
   $BUILD_DIR
 # Remove link
@@ -34,6 +35,9 @@ cp -r "../../$DATA_DIR" $BUILD_DIR/$CODE_DIR
 
 # Hop into
 cd $BUILD_DIR
+
+# update git root in setuptools_scm configuration
+sed -ri 's/root = "..\/.."/root = "..\/..\/.."/' pyproject.toml
 
 # Build
 pip install --upgrade build
