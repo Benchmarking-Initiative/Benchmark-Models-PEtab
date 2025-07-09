@@ -8,6 +8,6 @@ problems:
   observable_files:
   - observables_Okuonghae_ChaosSolitonsFractals2020.tsv
   sbml_files:
-  - Okuonghae_ChaosSolitonsFractals2020_model.xml
+  - model_Okuonghae_ChaosSolitonsFractals2020.xml
   visualization_files:
   - visualizationSpecification_Okuonghae_ChaosSolitonsFractals2020.tsv
