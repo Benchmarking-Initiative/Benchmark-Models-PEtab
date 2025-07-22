@@ -1,0 +1,9 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
+yCERTpRN24		CERT * observableParameter1_yCERTpRN24 / (CERT + CERTERa + CERTTGNa)	noiseParameter1_yCERTpRN24		observableParameter1_yCERTpRN24	noiseParameter1_yCERTpRN24
+yCERTt		CERT + CERTERa + CERTTGNa	noiseParameter1_yCERTt			noiseParameter1_yCERTt
+yPI4K3BpRN24		PI4K3Ba * observableParameter1_yPI4K3BpRN24 / (PI4K3B + PI4K3Ba)	noiseParameter1_yPI4K3BpRN24		observableParameter1_yPI4K3BpRN24	noiseParameter1_yPI4K3BpRN24
+yPI4K3Bt		PI4K3B + PI4K3Ba	noiseParameter1_yPI4K3Bt			noiseParameter1_yPI4K3Bt
+yPKDpN0		PKDDAGa * observableParameter1_yPKDpN0	noiseParameter1_yPKDpN0		observableParameter1_yPKDpN0	noiseParameter1_yPKDpN0
+yPKDpN24		PKDDAGa * observableParameter1_yPKDpN24	noiseParameter1_yPKDpN24		observableParameter1_yPKDpN24	noiseParameter1_yPKDpN24
+yPKDpN25		PKDDAGa * observableParameter1_yPKDpN25	noiseParameter1_yPKDpN25		observableParameter1_yPKDpN25	noiseParameter1_yPKDpN25
+yPKDt		PKD + PKDDAGa	noiseParameter1_yPKDt			noiseParameter1_yPKDt
