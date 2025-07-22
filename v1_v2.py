@@ -11,6 +11,11 @@ def main():
     v2_root = Path(__file__).resolve().parent / "v2"
 
     for problem_id in benchmark_models_petab.MODELS:
+        if problem_id == "Froehlich_CellSystems2018":
+            # naive conversion generates huge condition table
+            logging.warning("Skipping Froehlich_CellSystems2018 due to performance issues.")
+            continue
+
         convert(problem_id, output_dir=v2_root / problem_id)
 
 def convert(problem_id: str, output_dir: Path):
