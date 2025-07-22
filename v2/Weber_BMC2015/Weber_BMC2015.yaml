@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Weber_BMC2015.tsv
+model_files:
+  model_Weber_BMC2015:
+    location: model_Weber_BMC2015.xml
+    language: sbml
+measurement_files:
+- measurementData_Weber_BMC2015.tsv
+condition_files:
+- experimentalCondition_Weber_BMC2015.tsv
+experiment_files:
+- experiments.tsv
+observable_files:
+- observables_Weber_BMC2015.tsv
+mapping_files: []
+extensions: {}

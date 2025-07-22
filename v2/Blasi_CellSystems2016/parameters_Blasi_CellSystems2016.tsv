@@ -1,0 +1,11 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorParameters
+a_basal	a_basal	1e-12	1000	0.066799999926855	true	
+a_k8	a_k8	1e-12	1000	0.027299999997438	true	
+a_k5_k5k12	a_k5_k5k12	1e-12	1000	2.06200000024928	true	
+a_k12_k5k12	a_k12_k5k12	1e-12	1000	0.551899999917063	true	
+a_k16_k12k16	a_k16_k12k16	1e-12	1000	0.695899999206803	true	
+a_k5k12_k5k8k12	a_k5k12_k5k8k12	1e-12	1000	0.325299999788883	true	
+a_k12k16_k8k12k16	a_k12k16_k8k12k16	1e-12	1000	2.2054999994189	true	
+a_k8k12k16_4ac	a_k8k12k16_4ac	1e-12	1000	3.59170000273213	true	
+d	d	1e-12	1000	1.0	false	
+sigma	sigma	1e-12	1000	0.1	true	
