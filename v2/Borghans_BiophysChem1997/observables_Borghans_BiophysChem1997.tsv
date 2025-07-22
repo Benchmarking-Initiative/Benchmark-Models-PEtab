@@ -1,0 +1,2 @@
+observableId	observableFormula	observableName	noiseDistribution	noiseFormula	observablePlaceholders	noisePlaceholders
+Ca	observableParameter1_Ca + Z_state * observableParameter2_Ca			noiseParameter1_Ca	observableParameter1_Ca;observableParameter2_Ca	noiseParameter1_Ca

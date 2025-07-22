@@ -1,0 +1,2 @@
+observableId	observableFormula	observableName	noiseDistribution	noiseFormula	observablePlaceholders	noisePlaceholders
+open_probability	(0.9 * IPR_A + 0.1 * IPR_O)^4			noiseParameter1_open_probability		noiseParameter1_open_probability

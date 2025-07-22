@@ -1,0 +1,3 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
+Bacnorm		Bac	noiseParameter1_Bacnorm			noiseParameter1_Bacnorm
+IndconcNormRange		Ind	noiseParameter1_IndconcNormRange			noiseParameter1_IndconcNormRange
