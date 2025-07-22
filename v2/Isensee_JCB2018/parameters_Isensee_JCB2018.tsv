@@ -1,0 +1,51 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorDistribution	priorParameters	model_selection_group
+AC_total	AC_{total}	1e-05	1000.0	1.0	false	uniform	1e-05;1000.0	
+KD_Fsk	KD_{Fsk}	1e-05	1000.0	14.2805171742694	true	log10-normal	0.845098040014257;0.2	
+KD_H89	KD_{H89}	1e-05	1000.0	0.048074027232332	true	log10-normal	-1.318758762624413;0.2	
+KD_IBMX	KD_{IBMX}	1e-05	1000.0	11.960772655864	true	log10-normal	1.0;0.2	
+KD_cAMP	KD_{cAMP}	1e-05	1000.0	2.85002019924967	true	log10-normal	0.462397997898956;0.2	
+PDE_total	PDE_{total}	1e-05	1000.0	1.0	false	uniform	1e-05;1000.0	
+RII2_total	RII2_{total}	1e-05	1000.0	1.0	false	uniform	1e-05;1000.0	
+b_Calpha_global	b_{Calpha,global}	0.001	1000.0	101.662732662228	true	log10-normal	2;0.1	
+b_pRII_global	b_{pRII,global}	0.001	1000.0	99.7184671220999	true	log10-normal	2;0.1	
+kdeg_cAMP	kdeg_{cAMP}	1e-05	1000.0	1.00000660182181e-05	true	uniform	1e-05;1000.0	
+kdeg_cAMP_free	kdeg_{cAMP,free}	1e-05	1000.0	7.38363782272545	true	uniform	1e-05;1000.0	
+kf_Fsk	kf_{Fsk}	1e-05	1000.0	999.999958296064	true	uniform	1e-05;1000.0	
+kf_H89	kf_{H89}	1e-05	1000.0	0.000742716621349	true	uniform	1e-05;1000.0	
+kf_RII_2__RII_C_2	kf_{RII_2,RII_C_2}	1e-05	100000.0	1.26446106685121	true	uniform	1e-05;100000.0	
+kf_RII_C_2__RII_2	kf_{RII_C_2,RII_2}	1e-05	1000.0	0.018746739843535	true	uniform	1e-05;1000.0	
+kf_RII_C_2__RIIp_C_2	kf_{RII_C_2,RIIp_C_2}	1e-05	1000.0	0.022767932816744	true	uniform	1e-05;1000.0	
+kf_RIIp_2__RII_2	kf_{RIIp_2,RII_2}	1e-05	1000.0	0.03230162532087	true	uniform	1e-05;1000.0	
+kf_RIIp_C_2__RII_C_2	kf_{RIIp_C_2,RII_C_2}	1e-05	1000.0	0.025703919542656	true	uniform	1e-05;1000.0	
+kf_RIIp_cAMP_C_2__RIIp_2	kf_{RIIp_cAMP_C_2,RIIp_2}	1e-05	1000.0	0.105283748414996	true	uniform	1e-05;1000.0	
+kf_cAMP	kf_{cAMP}	1e-05	1000.0	0.501542412469253	true	uniform	1e-05;1000.0	
+ki_IBMX	ki_{IBMX}	1e-05	1000.0	999.99999999947	true	uniform	1e-05;1000.0	
+ki_Rp8_Br_cAMPS_pAB	ki_{Rp8,Br,cAMPS,pAB}	1e-05	1000.0	6.44560005260773	true	uniform	1e-05;1000.0	
+ki_Rp8_pCPT_cAMPS_pAB	ki_{Rp8,pCPT,cAMPS,pAB}	1e-05	1000.0	9.3898794585472	true	uniform	1e-05;1000.0	
+ki_Rp_cAMPS_pAB	ki_{Rp,cAMPS,pAB}	1e-05	1000.0	0.016320587381729	true	uniform	1e-05;1000.0	
+ki_Sp8_Br_cAMPS_AM	ki_{Sp8,Br,cAMPS,AM}	1e-05	1000.0	0.131657936881857	true	uniform	1e-05;1000.0	
+ks_AC_cAMP	ks_{AC,cAMP}	1e-05	1000.0	0.423150583624568	true	uniform	1e-05;1000.0	
+rel_open	rel_{open}	1e-05	1.0	0.232684484588385	true	uniform	1e-05;1.0	
+s_Calpha_JI09_160201_Drg453_452_CycNuc	s_{Calpha,JI09,160201,Drg453,452,CycNuc}	1e-05	1000.0	1.0	false	uniform	1e-05;1000.0	
+s_Calpha_global	s_{Calpha,global}	1000.0	3162.27766016838	1758.15501421399	true	uniform	1000.0;3162.27766016838	
+s_pRII_JI09_150302_Drg345_343_CycNuc	s_{pRII,JI09,150302,Drg345,343,CycNuc}	0.001	1000.0	1.1029976101468	true	log10-normal	0;0.1	
+s_pRII_JI09_150330_Drg350_348_CycNuc	s_{pRII,JI09,150330,Drg350,348,CycNuc}	0.001	1000.0	0.9067516915655	true	log10-normal	0;0.1	
+s_pRII_JI09_150330_Drg353_351_CycNuc	s_{pRII,JI09,150330,Drg353,351,CycNuc}	0.001	1000.0	0.934506349283962	true	log10-normal	0;0.1	
+s_pRII_JI09_151102_Drg421_418_Age	s_{pRII,JI09,151102,Drg421,418,Age}	0.001	1000.0	1.06693094665605	true	log10-normal	0;0.1	
+s_pRII_Western	s_{pRII,Western}	0.1	100000.0	1.14849828435972	true	uniform	0.1;100000.0	
+s_pRII_global	s_{pRII,global}	1000.0	3162.27766016838	2206.77137565008	true	uniform	1000.0;3162.27766016838	
+rho_Calpha_Microscopy	\rho_{Calpha,Microscopy}	1e-05	1000.0	0.049753182233122	true	uniform	1e-05;1000.0	
+rho_pRII_Microscopy	\rho_{pRII,Microscopy}	1e-05	1000.0	0.040685236621013	true	uniform	1e-05;1000.0	
+rho_pRII_Western	\rho_{pRII,Western}	1e-05	1000.0	0.099334983213923	true	uniform	1e-05;1000.0	
+xi_AC_cAMP_Fsk	\xi_{AC_{cAMP,Fsk}	1e-05	1000.0	642.370332155571	true	uniform	1e-05;1000.0	
+xi_b_Rp8_Br_cAMPS	\xi_{b,Rp8,Br,cAMPS}	1e-05	100000.0	0.040559301141753	true	log10-normal	0;3	
+xi_b_Rp8_pCPT_cAMPS	\xi_{b,Rp8,pCPT,cAMPS}	1e-05	100000.0	0.026684466293791	true	log10-normal	0;3	
+xi_b_Rp_cAMPS	\xi_{b,Rp,cAMPS}	1e-05	100000.0	0.603928050380137	true	log10-normal	0;3	
+xi_b_Sp8_Br_cAMPS	\xi_{b,Sp8,Br,cAMPS}	1e-05	100000.0	21.6150210996832	true	log10-normal	0;3	
+xi_kf_RII_2__RII_C_2	\xi_{kf_RII_2,RII_C_2}	1e-05	1.0	0.01893099823943	true	log10-normal	-1.742435698117109;0.1	
+xi_kf_RII_C_2__RII_2	\xi_{kf_RII_C_2,RII_2}	1e-05	100000.0	0.810991675177056	true	log10-normal	-0.062147906748844;0.1	
+xi_rel_open	\xi_{rel,open}	1e-05	1.0	0.749424660751357	true	uniform	1e-05;1.0	
+xi_KD_Rp8_Br_cAMPS	\xi_{KD,Rp8,Br,cAMPS}	1e-05	100000.0	0.039962383560766	true	log10-normal	0;3	H1: different KD
+xi_KD_Rp8_pCPT_cAMPS	\xi_{KD,Rp8,pCPT,cAMPS}	1e-05	100000.0	0.194212924719718	true	log10-normal	0;3	H1: different KD
+xi_KD_Rp_cAMPS	\xi_{KD,Rp,cAMPS}	1e-05	100000.0	0.163047074866588	true	log10-normal	0;3	H1: different KD
+xi_KD_Sp8_Br_cAMPS	\xi_{KD,Sp8,Br,cAMPS}	1e-05	100000.0	0.22324026500667	true	log10-normal	0;3	H1: different KD

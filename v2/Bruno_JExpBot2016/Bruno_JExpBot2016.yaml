@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Bruno_JExpBot2016.tsv
+model_files:
+  model_Bruno_JExpBot2016:
+    location: model_Bruno_JExpBot2016.xml
+    language: sbml
+measurement_files:
+- measurementData_Bruno_JExpBot2016.tsv
+condition_files:
+- experimentalCondition_Bruno_JExpBot2016.tsv
+experiment_files:
+- experiments.tsv
+observable_files:
+- observables_Bruno_JExpBot2016.tsv
+mapping_files: []
+extensions: {}
