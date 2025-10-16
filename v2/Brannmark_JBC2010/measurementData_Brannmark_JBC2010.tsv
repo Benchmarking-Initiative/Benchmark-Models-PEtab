@@ -1,4 +1,4 @@
-experimentId	observableId	measurement	time	observableParameters	noiseParameters	experiment_id_49153f7b-5405-4cd6-ac86-bac6addcccf0	independentVariableId
+experimentId	observableId	measurement	time	observableParameters	noiseParameters	experiment_id_2ca5faf0-b135-4795-9e20-c3e3c30e6c07	independentVariableId
 experiment__Dose_0___Dose_0	IRS1_P_DosR	18.385	10.0	k_IRSiP_DosR	sigmaYDosR	dose_response	insulin_dose_1
 experiment__Dose_0___Dose_001	IRS1_P_DosR	29.115	10.0	k_IRSiP_DosR	sigmaYDosR	dose_response	insulin_dose_1
 experiment__Dose_0___Dose_01	IRS1_P_DosR	26.365	10.0	k_IRSiP_DosR	sigmaYDosR	dose_response	insulin_dose_1
