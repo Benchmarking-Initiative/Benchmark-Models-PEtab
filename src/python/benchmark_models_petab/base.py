@@ -56,7 +56,8 @@ def get_simulation_df(id_: str) -> pd.DataFrame | None:
     -------
     The simulation dataframe if it exists, else None.
     """
-    path = Path(MODELS_DIR, id_, f"simulatedData_{id_}.tsv")
-    if path.is_file():
-        return petab.get_simulation_df(path)
+    for filename in (f"simulatedData_{id_}.tsv", "simulations.tsv"):
+        if (path := Path(MODELS_DIR, id_, filename)).is_file():
+            return petab.get_simulation_df(path)
+
     return None
