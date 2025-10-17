@@ -1,0 +1,10 @@
+parameterId	lowerBound	upperBound	nominalValue	estimate	priorParameters
+infected_normal_transmission_rate_relative	0.1	1000.0	427.47	true	
+infected_moderate_transmission_rate	0.0001	1.0	0.0029273	true	
+infected_weak_transmission_rate_relative	0.1	1000.0	992.96	true	
+infected_weak_treatment_rate	0.0001	1.0	0.0001	true	
+infected_normal_worsen_rate	0.0001	1.0	0.66545	true	
+infected_moderate_worsen_rate	0.0001	1.0	0.0079757	true	
+treated_moderate_improve_rate	0.0001	1.0	0.13636	true	
+treated_weak_improve_rate	0.0001	1.0	0.77557	true	
+behavioural_change_rate	1e-09	1e-05	1.338e-07	true	
