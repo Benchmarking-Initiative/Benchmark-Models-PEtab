@@ -6,6 +6,8 @@ import petab.v1 as petab
 
 from .C import MODELS_DIR
 
+import pandas as pd
+
 
 def get_problem_yaml_path(id_: str) -> Path:
     """Get the path to the PEtab problem YAML file.
@@ -40,3 +42,21 @@ def get_problem(id_: str) -> petab.Problem:
     yaml_file = get_problem_yaml_path(id_)
     petab_problem = petab.Problem.from_yaml(yaml_file)
     return petab_problem
+
+
+def get_simulation_df(id_: str) -> pd.DataFrame | None:
+    """Get the simulation dataframe for the benchmark collection problem with
+    the given name.
+
+    Parameters
+    ----------
+    id_: Problem name, as in `benchmark_models_petab.MODELS`.
+
+    Returns
+    -------
+    The simulation dataframe if it exists, else None.
+    """
+    path = Path(MODELS_DIR, id_, f"simulatedData_{id_}.tsv")
+    if path.is_file():
+        return petab.get_simulation_df(path)
+    return None
