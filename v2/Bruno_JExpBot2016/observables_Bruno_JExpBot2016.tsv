@@ -1,0 +1,7 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
+ob10		b10	noiseParameter1_ob10			noiseParameter1_ob10
+obcar		bcar	noiseParameter1_obcar			noiseParameter1_obcar
+obcry		bcry	noiseParameter1_obcry			noiseParameter1_obcry
+obio		bio	noiseParameter1_obio			noiseParameter1_obio
+oohb10		ohb10	noiseParameter1_oohb10			noiseParameter1_oohb10
+ozea		zea	noiseParameter1_ozea			noiseParameter1_ozea

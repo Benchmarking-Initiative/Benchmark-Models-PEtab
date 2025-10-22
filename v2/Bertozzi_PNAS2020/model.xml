@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" version="2">
+  <model id="Bertozzi_PNAS2020" name="Bertozzi_PNAS2020">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#benchmark_models_petab">
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1073/pnas.2006520117"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfCompartments>
+	<compartment id="compartment" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="I_" compartment="compartment" initialConcentration="0.1" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="true"/>
+      <species id="R_" compartment="compartment" initialConcentration="0"   boundaryCondition="false" constant="false" hasOnlySubstanceUnits="true"/>
+      <species id="S_" compartment="compartment" initialConcentration="0.9" boundaryCondition="false" constant="false" hasOnlySubstanceUnits="true"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="N_"     value="1"   constant="true"/>
+      <parameter id="beta_N" value="0"   constant="true"/>
+      <parameter id="gamma_" value="0.1" constant="true"/>
+      <parameter id="I0_"    value="0.1" constant="true"/>
+      <parameter id="R0_"    value="0.1" constant="true"/>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="I_">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+	  <apply>
+            <times/>
+            <ci> I0_ </ci>
+	  </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="S_">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> N_ </ci>
+            <ci> I0_ </ci>
+          </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="beta_N">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> R0_ </ci>
+              <ci> gamma_ </ci>
+            </apply>
+            <ci> N_ </ci>
+          </apply>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfReactions>
+      <reaction id="infection" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S_" stoichiometry="1" constant="true"/>
+          <speciesReference species="I_" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="I_" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> beta_N </ci>
+              <ci> I_ </ci>
+              <ci> S_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="recovery" reversible="false">
+        <listOfReactants>
+          <speciesReference species="I_" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="R_" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> gamma_ </ci>
+              <ci> I_ </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

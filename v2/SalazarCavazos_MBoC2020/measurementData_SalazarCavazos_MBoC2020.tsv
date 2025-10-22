@@ -1,0 +1,19 @@
+experimentId	observableId	measurement	time	observableParameters	noiseParameters	datasetId
+experiment____EGF25nM	observable_pY1068_percent	9.35	60		0.67	model1_data1_EGF25nM
+experiment____EGF25nM	observable_pY1068_percent	9.47	120		0.69	model1_data1_EGF25nM
+experiment____EGF25nM	observable_pY1068_percent	12.07	300		0.85	model1_data1_EGF25nM
+experiment____EGF25nM	observable_pY1173_percent	17.96	60		0.79	model1_data1_EGF25nM
+experiment____EGF25nM	observable_pY1173_percent	19.15	120		0.88	model1_data1_EGF25nM
+experiment____EGF25nM	observable_pY1173_percent	21.38	300		1.02	model1_data1_EGF25nM
+experiment____EGF25nM	observable_phosR_per	41.92	60		0.2	model1_data1_EGF25nM
+experiment____EGF25nM	observable_phosR_per	42.64	120		0.26	model1_data1_EGF25nM
+experiment____EGF25nM	observable_phosR_per	50.59	300		0.34	model1_data1_EGF25nM
+experiment____dose1	observable_pY1068_percent	3.3	300		0.29	model1_data1_dosing
+experiment____dose2	observable_pY1068_percent	12.42	300		0.66	model1_data1_dosing
+experiment____dose3	observable_pY1068_percent	19.62	300		0.98	model1_data1_dosing
+experiment____dose1	observable_pY1173_percent	4.19	300		0.31	model1_data1_dosing
+experiment____dose2	observable_pY1173_percent	17.68	300		0.66	model1_data1_dosing
+experiment____dose3	observable_pY1173_percent	23.5	300		0.8	model1_data1_dosing
+experiment____dose1	observable_phosR_per	6.29	300		0.61	model1_data1_dosing
+experiment____dose2	observable_phosR_per	26.09	300		0.97	model1_data1_dosing
+experiment____dose3	observable_phosR_per	40.83	300		1.3	model1_data1_dosing

@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Raia_CancerResearch2011.tsv
+model_files:
+  model_Raia_CancerResearch2011:
+    location: model_Raia_CancerResearch2011.xml
+    language: sbml
+measurement_files:
+- measurementData_Raia_CancerResearch2011.tsv
+condition_files:
+- experimentalCondition_Raia_CancerResearch2011.tsv
+experiment_files:
+- experiments.tsv
+observable_files:
+- observables_Raia_CancerResearch2011.tsv
+mapping_files: []
+extensions: {}
