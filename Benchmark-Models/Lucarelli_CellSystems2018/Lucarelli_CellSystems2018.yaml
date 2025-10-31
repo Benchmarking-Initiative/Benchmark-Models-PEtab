@@ -10,4 +10,4 @@ problems:
   sbml_files:
   - model_Lucarelli_CellSystems2018.xml
   visualization_files:
-  - visualizationSpecification_.tsv
+  - visualizationSpecification_Lucarelli_CellSystems2018.tsv
