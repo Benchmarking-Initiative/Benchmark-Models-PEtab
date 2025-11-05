@@ -38,6 +38,8 @@ jobs:
         run: src/python/build_site.py
       - name: Create overview
         run: bmp-create-overview --html-file=_site/index.html
+      - name: Create reports
+        run: python3 vis/generate_petab_reports.py --output-dir=_site/reports
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
