@@ -9,15 +9,15 @@ Fig1C_1	MeanAndSD	Smad2 phosphorylation	LinePlot	time [min]	lin	molecules/cell (
 Fig1C_2	MeanAndSD	Smad3 phosphorylation	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	nSmad3	S23IP_S3_MSPL2_PL_hepa16_pS2_pS3_time_course_nExpID5	time	0	0	smad3_phosphorylation	fig1, C
 Fig1C_2	MeanAndSD	Smad3 phosphorylation	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	pSmad3	S23IP_pS3_MSPL2_PL_hepa16_pS2_pS3_time_course_nExpID5	time	0	0	smad3_phosphorylation	fig1, C
 Fig1C_2	MeanAndSD	Smad3 phosphorylation	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	ppSmad3	S23IP_ppS3_MSPL2_PL_hepa16_pS2_pS3_time_course_nExpID5	time	0	0	smad3_phosphorylation	fig1, C
-Fig1D_1	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	nSmad2	S2IP_S2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
-Fig1D_1	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	pSmad2	S2IP_pS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
-Fig1D_1	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	ppSmad2	S2IP_ppS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
-Fig1D_1	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	nSmad3	S2IP_S3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
-Fig1D_1	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	pSmad3	S2IP_pS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
-Fig1D_1	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	ppSmad3	S2IP_ppS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
-Fig1D_2	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	nSmad3	S3IP_S3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
-Fig1D_2	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	pSmad3	S3IP_pS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
-Fig1D_2	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	ppSmad3	S3IP_ppS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
-Fig1D_2	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	nSmad2	S3IP_S2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
-Fig1D_2	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	pSmad2	S3IP_pS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
-Fig1D_2	MeanAndSD		BarPlot	 	lin	molecules/cell (x10$^4$)	lin	ppSmad2	S3IP_ppS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+Fig1D_1	MeanAndSD	Smad2 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	nSmad2	S2IP_S2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+Fig1D_1	MeanAndSD	Smad2 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	pSmad2	S2IP_pS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+Fig1D_1	MeanAndSD	Smad2 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	ppSmad2	S2IP_ppS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+Fig1D_1	MeanAndSD	Smad2 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	nSmad3	S2IP_S3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+Fig1D_1	MeanAndSD	Smad2 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	pSmad3	S2IP_pS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+Fig1D_1	MeanAndSD	Smad2 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	ppSmad3	S2IP_ppS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+Fig1D_2	MeanAndSD	Smad3 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	nSmad3	S3IP_S3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+Fig1D_2	MeanAndSD	Smad3 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	pSmad3	S3IP_pS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+Fig1D_2	MeanAndSD	Smad3 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	ppSmad3	S3IP_ppS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+Fig1D_2	MeanAndSD	Smad3 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	nSmad2	S3IP_S2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+Fig1D_2	MeanAndSD	Smad3 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	pSmad2	S3IP_pS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+Fig1D_2	MeanAndSD	Smad3 IP	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	ppSmad2	S3IP_ppS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
