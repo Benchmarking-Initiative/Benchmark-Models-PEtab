@@ -1,0 +1,436 @@
+plotId	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId
+plot1	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data10 - EGFR_ID3_HS746T_FM	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF
+plot1	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data11 - EGFR_ID3_HS746T_FM	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF
+plot1	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data12 - EGFR_ID3_HS746T_FM	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF
+plot1	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data7 - EGFR_ID3_HS746T_FM	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot1	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data8 - EGFR_ID3_HS746T_FM	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot1	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data9 - EGFR_ID3_HS746T_FM	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot2	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data10 - pEGFR_ID3_HS746T_FM	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF
+plot2	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data11 - pEGFR_ID3_HS746T_FM	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF
+plot2	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data12 - pEGFR_ID3_HS746T_FM	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF
+plot2	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data7 - pEGFR_ID3_HS746T_FM	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot2	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data8 - pEGFR_ID3_HS746T_FM	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot2	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data9 - pEGFR_ID3_HS746T_FM	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data100 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__30EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data91 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__0EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data92 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__0EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data93 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__0EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data94 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__0EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data95 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__0EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data96 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__30EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data97 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__30EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data98 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__30EGF
+plot3	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data99 - pEGFR_ID6_MKN1_HM_15min	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__30EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data101 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__0EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data102 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__0EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data103 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__0EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data104 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__0EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data105 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__0EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data106 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__30EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data107 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__30EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data108 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__30EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data109 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__30EGF
+plot4	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data110 - pEGFR_ID6_MKN1_HM_240min	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__30EGF
+plot5	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data111 - pAKT_ID7_HS746T_FM_1min	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot5	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data112 - pAKT_ID7_HS746T_FM_1min	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot5	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data113 - pAKT_ID7_HS746T_FM_1min	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot5	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data114 - pAKT_ID7_HS746T_FM_1min	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot5	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data115 - pAKT_ID7_HS746T_FM_1min	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot5	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data116 - pAKT_ID7_HS746T_FM_1min	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot6	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data111 - pEGFR_ID7_HS746T_FM_1min	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot6	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data112 - pEGFR_ID7_HS746T_FM_1min	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot6	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data113 - pEGFR_ID7_HS746T_FM_1min	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot6	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data114 - pEGFR_ID7_HS746T_FM_1min	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot6	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data115 - pEGFR_ID7_HS746T_FM_1min	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot6	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data116 - pEGFR_ID7_HS746T_FM_1min	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot7	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data111 - pMAPK_ID7_HS746T_FM_1min	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot7	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data112 - pMAPK_ID7_HS746T_FM_1min	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot7	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data113 - pMAPK_ID7_HS746T_FM_1min	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot7	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data114 - pMAPK_ID7_HS746T_FM_1min	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot7	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data115 - pMAPK_ID7_HS746T_FM_1min	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot7	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data116 - pMAPK_ID7_HS746T_FM_1min	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot8	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data117 - pAKT_ID7_HS746T_FM_3min	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot8	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data118 - pAKT_ID7_HS746T_FM_3min	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot8	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data119 - pAKT_ID7_HS746T_FM_3min	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot8	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data120 - pAKT_ID7_HS746T_FM_3min	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot8	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data121 - pAKT_ID7_HS746T_FM_3min	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot8	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data122 - pAKT_ID7_HS746T_FM_3min	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot9	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data117 - pEGFR_ID7_HS746T_FM_3min	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot9	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data118 - pEGFR_ID7_HS746T_FM_3min	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot9	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data119 - pEGFR_ID7_HS746T_FM_3min	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot9	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data120 - pEGFR_ID7_HS746T_FM_3min	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot9	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data121 - pEGFR_ID7_HS746T_FM_3min	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot9	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data122 - pEGFR_ID7_HS746T_FM_3min	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot10	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data117 - pMAPK_ID7_HS746T_FM_3min	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot10	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data118 - pMAPK_ID7_HS746T_FM_3min	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot10	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data119 - pMAPK_ID7_HS746T_FM_3min	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot10	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data120 - pMAPK_ID7_HS746T_FM_3min	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot10	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data121 - pMAPK_ID7_HS746T_FM_3min	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot10	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data122 - pMAPK_ID7_HS746T_FM_3min	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot11	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data123 - pAKT_ID7_HS746T_FM_15min	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot11	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data124 - pAKT_ID7_HS746T_FM_15min	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot11	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data125 - pAKT_ID7_HS746T_FM_15min	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot11	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data126 - pAKT_ID7_HS746T_FM_15min	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot11	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data127 - pAKT_ID7_HS746T_FM_15min	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot11	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data128 - pAKT_ID7_HS746T_FM_15min	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot12	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data123 - pEGFR_ID7_HS746T_FM_15min	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot12	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data124 - pEGFR_ID7_HS746T_FM_15min	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot12	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data125 - pEGFR_ID7_HS746T_FM_15min	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot12	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data126 - pEGFR_ID7_HS746T_FM_15min	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot12	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data127 - pEGFR_ID7_HS746T_FM_15min	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot12	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data128 - pEGFR_ID7_HS746T_FM_15min	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot13	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data123 - pMAPK_ID7_HS746T_FM_15min	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot13	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data124 - pMAPK_ID7_HS746T_FM_15min	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot13	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data125 - pMAPK_ID7_HS746T_FM_15min	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot13	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data126 - pMAPK_ID7_HS746T_FM_15min	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot13	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data127 - pMAPK_ID7_HS746T_FM_15min	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot13	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data128 - pMAPK_ID7_HS746T_FM_15min	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot14	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data129 - pAKT_ID7_HS746T_FM_240min	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot14	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data130 - pAKT_ID7_HS746T_FM_240min	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot14	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data131 - pAKT_ID7_HS746T_FM_240min	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot14	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data132 - pAKT_ID7_HS746T_FM_240min	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot14	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data133 - pAKT_ID7_HS746T_FM_240min	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot14	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data134 - pAKT_ID7_HS746T_FM_240min	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot15	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data129 - pEGFR_ID7_HS746T_FM_240min	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot15	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data130 - pEGFR_ID7_HS746T_FM_240min	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot15	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data131 - pEGFR_ID7_HS746T_FM_240min	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot15	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data132 - pEGFR_ID7_HS746T_FM_240min	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot15	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data133 - pEGFR_ID7_HS746T_FM_240min	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot15	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data134 - pEGFR_ID7_HS746T_FM_240min	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot16	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data129 - pMAPK_ID7_HS746T_FM_240min	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot16	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data130 - pMAPK_ID7_HS746T_FM_240min	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot16	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data131 - pMAPK_ID7_HS746T_FM_240min	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot16	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data132 - pMAPK_ID7_HS746T_FM_240min	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot16	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data133 - pMAPK_ID7_HS746T_FM_240min	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot16	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data134 - pMAPK_ID7_HS746T_FM_240min	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot17	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data13 - EGFR_ID3_MKN1_FM	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot17	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data14 - EGFR_ID3_MKN1_FM	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot17	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data15 - EGFR_ID3_MKN1_FM	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot17	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data16 - EGFR_ID3_MKN1_FM	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot17	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data17 - EGFR_ID3_MKN1_FM	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot17	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	model1_data18 - EGFR_ID3_MKN1_FM	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot18	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data13 - pEGFR_ID3_MKN1_FM	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot18	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data14 - pEGFR_ID3_MKN1_FM	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot18	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data15 - pEGFR_ID3_MKN1_FM	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot18	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data16 - pEGFR_ID3_MKN1_FM	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot18	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data17 - pEGFR_ID3_MKN1_FM	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot18	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data18 - pEGFR_ID3_MKN1_FM	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot19	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data135 - pAKT_ID8_HS746T_HM_1min	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot19	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data136 - pAKT_ID8_HS746T_HM_1min	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot19	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data137 - pAKT_ID8_HS746T_HM_1min	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot19	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data138 - pAKT_ID8_HS746T_HM_1min	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot19	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data139 - pAKT_ID8_HS746T_HM_1min	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot19	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data140 - pAKT_ID8_HS746T_HM_1min	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot20	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data135 - pEGFR_ID8_HS746T_HM_1min	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot20	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data136 - pEGFR_ID8_HS746T_HM_1min	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot20	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data137 - pEGFR_ID8_HS746T_HM_1min	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot20	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data138 - pEGFR_ID8_HS746T_HM_1min	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot20	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data139 - pEGFR_ID8_HS746T_HM_1min	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot20	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data140 - pEGFR_ID8_HS746T_HM_1min	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot21	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data135 - pMAPK_ID8_HS746T_HM_1min	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot21	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data136 - pMAPK_ID8_HS746T_HM_1min	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot21	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data137 - pMAPK_ID8_HS746T_HM_1min	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot21	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data138 - pMAPK_ID8_HS746T_HM_1min	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot21	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data139 - pMAPK_ID8_HS746T_HM_1min	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot21	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data140 - pMAPK_ID8_HS746T_HM_1min	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot22	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data141 - pAKT_ID8_HS746T_HM_3min	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot22	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data142 - pAKT_ID8_HS746T_HM_3min	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot22	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data143 - pAKT_ID8_HS746T_HM_3min	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot22	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data144 - pAKT_ID8_HS746T_HM_3min	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot22	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data145 - pAKT_ID8_HS746T_HM_3min	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot22	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data146 - pAKT_ID8_HS746T_HM_3min	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot23	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data141 - pEGFR_ID8_HS746T_HM_3min	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot23	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data142 - pEGFR_ID8_HS746T_HM_3min	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot23	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data143 - pEGFR_ID8_HS746T_HM_3min	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot23	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data144 - pEGFR_ID8_HS746T_HM_3min	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot23	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data145 - pEGFR_ID8_HS746T_HM_3min	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot23	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data146 - pEGFR_ID8_HS746T_HM_3min	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot24	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data141 - pMAPK_ID8_HS746T_HM_3min	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot24	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data142 - pMAPK_ID8_HS746T_HM_3min	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot24	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data143 - pMAPK_ID8_HS746T_HM_3min	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot24	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data144 - pMAPK_ID8_HS746T_HM_3min	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot24	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data145 - pMAPK_ID8_HS746T_HM_3min	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot24	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data146 - pMAPK_ID8_HS746T_HM_3min	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot25	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data147 - pAKT_ID8_HS746T_HM_15min	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot25	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data148 - pAKT_ID8_HS746T_HM_15min	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot25	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data149 - pAKT_ID8_HS746T_HM_15min	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot25	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data150 - pAKT_ID8_HS746T_HM_15min	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot25	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data151 - pAKT_ID8_HS746T_HM_15min	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot25	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data152 - pAKT_ID8_HS746T_HM_15min	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot26	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data147 - pEGFR_ID8_HS746T_HM_15min	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot26	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data148 - pEGFR_ID8_HS746T_HM_15min	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot26	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data149 - pEGFR_ID8_HS746T_HM_15min	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot26	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data150 - pEGFR_ID8_HS746T_HM_15min	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot26	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data151 - pEGFR_ID8_HS746T_HM_15min	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot26	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data152 - pEGFR_ID8_HS746T_HM_15min	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot27	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data147 - pMAPK_ID8_HS746T_HM_15min	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot27	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data148 - pMAPK_ID8_HS746T_HM_15min	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot27	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data149 - pMAPK_ID8_HS746T_HM_15min	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot27	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data150 - pMAPK_ID8_HS746T_HM_15min	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot27	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data151 - pMAPK_ID8_HS746T_HM_15min	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot27	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data152 - pMAPK_ID8_HS746T_HM_15min	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot28	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data153 - pAKT_ID8_HS746T_HM_240min	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot28	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data154 - pAKT_ID8_HS746T_HM_240min	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot28	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data155 - pAKT_ID8_HS746T_HM_240min	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot28	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data156 - pAKT_ID8_HS746T_HM_240min	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot28	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data157 - pAKT_ID8_HS746T_HM_240min	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot28	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data158 - pAKT_ID8_HS746T_HM_240min	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot29	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data153 - pEGFR_ID8_HS746T_HM_240min	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot29	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data154 - pEGFR_ID8_HS746T_HM_240min	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot29	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data155 - pEGFR_ID8_HS746T_HM_240min	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot29	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data156 - pEGFR_ID8_HS746T_HM_240min	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot29	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data157 - pEGFR_ID8_HS746T_HM_240min	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot29	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data158 - pEGFR_ID8_HS746T_HM_240min	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot30	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data153 - pMAPK_ID8_HS746T_HM_240min	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot30	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data154 - pMAPK_ID8_HS746T_HM_240min	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot30	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data155 - pMAPK_ID8_HS746T_HM_240min	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot30	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data156 - pMAPK_ID8_HS746T_HM_240min	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot30	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data157 - pMAPK_ID8_HS746T_HM_240min	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot30	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data158 - pMAPK_ID8_HS746T_HM_240min	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot31	MeanAndSD	LinePlot	time	lin	pAKT	lin	model1_data159 - pAKT_ID9_HS746T_FM	pAKT_ID9_HS746T_FM	time	0	0	ID9_HS746T_FM
+plot32	MeanAndSD	LinePlot	time	lin	pEGFR	lin	model1_data159 - pEGFR_ID9_HS746T_FM	pEGFR_ID9_HS746T_FM	time	0	0	ID9_HS746T_FM
+plot33	MeanAndSD	LinePlot	time	lin	pMAPK	lin	model1_data159 - pMAPK_ID9_HS746T_FM	pMAPK_ID9_HS746T_FM	time	0	0	ID9_HS746T_FM
+plot34	MeanAndSD	LinePlot	time	lin	pAKT	lin	model1_data160 - pAKT_ID9_HS746T_HM_5EGF	pAKT_ID9_HS746T_HM_5EGF	time	0	0	ID9_HS746T_HM_5EGF
+plot35	MeanAndSD	LinePlot	time	lin	pEGFR	lin	model1_data160 - pEGFR_ID9_HS746T_HM_5EGF	pEGFR_ID9_HS746T_HM_5EGF	time	0	0	ID9_HS746T_HM_5EGF
+plot36	MeanAndSD	LinePlot	time	lin	pMAPK	lin	model1_data160 - pMAPK_ID9_HS746T_HM_5EGF	pMAPK_ID9_HS746T_HM_5EGF	time	0	0	ID9_HS746T_HM_5EGF
+plot37	MeanAndSD	LinePlot	time	lin	pAKT	lin	model1_data161 - pAKT_ID9_HS746T_HM_30EGF	pAKT_ID9_HS746T_HM_30EGF	time	0	0	ID9_HS746T_HM_30EGF
+plot38	MeanAndSD	LinePlot	time	lin	pEGFR	lin	model1_data161 - pEGFR_ID9_HS746T_HM_30EGF	pEGFR_ID9_HS746T_HM_30EGF	time	0	0	ID9_HS746T_HM_30EGF
+plot39	MeanAndSD	LinePlot	time	lin	pMAPK	lin	model1_data161 - pMAPK_ID9_HS746T_HM_30EGF	pMAPK_ID9_HS746T_HM_30EGF	time	0	0	ID9_HS746T_HM_30EGF
+plot40	MeanAndSD	LinePlot	time	lin	pEGFR	lin	model1_data162 - pEGFR_ID9b_MKN1_HM_1EGF	pEGFR_ID9b_MKN1_HM_1EGF	time	0	0	MKN1_HM_1EGF
+plot41	MeanAndSD	LinePlot	time	lin	pMAPK	lin	model1_data162 - pMAPK_ID9b_MKN1_HM_1EGF	pMAPK_ID9b_MKN1_HM_1EGF	time	0	0	MKN1_HM_1EGF
+plot42	MeanAndSD	LinePlot	time	lin	pEGFR	lin	model1_data163 - pEGFR_ID9b_MKN1_HM_5EGF	pEGFR_ID9b_MKN1_HM_5EGF	time	0	0	ID9b_MKN1_HM_5EGF
+plot43	MeanAndSD	LinePlot	time	lin	pMAPK	lin	model1_data163 - pMAPK_ID9b_MKN1_HM_5EGF	pMAPK_ID9b_MKN1_HM_5EGF	time	0	0	ID9b_MKN1_HM_5EGF
+plot44	MeanAndSD	LinePlot	time	lin	EGFR	lin	model1_data164 - EGFR_ID10_HS746T_FM_EGF	EGFR_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot45	MeanAndSD	LinePlot	time	lin	MMET	lin	model1_data164 - MMET_ID10_HS746T_FM_EGF	MMET_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot46	MeanAndSD	LinePlot	time	lin	pEGFR	lin	model1_data164 - pEGFR_ID10_HS746T_FM_EGF	pEGFR_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot47	MeanAndSD	LinePlot	time	lin	pMAPK	lin	model1_data164 - pMAPK_ID10_HS746T_FM_EGF	pMAPK_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot48	MeanAndSD	LinePlot	time	lin	EGFR	lin	model1_data165 - EGFR_ID10_HS746T_FM_EGF_CET	EGFR_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot49	MeanAndSD	LinePlot	time	lin	MMET	lin	model1_data165 - MMET_ID10_HS746T_FM_EGF_CET	MMET_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot50	MeanAndSD	LinePlot	time	lin	pEGFR	lin	model1_data165 - pEGFR_ID10_HS746T_FM_EGF_CET	pEGFR_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot51	MeanAndSD	LinePlot	time	lin	pMAPK	lin	model1_data165 - pMAPK_ID10_HS746T_FM_EGF_CET	pMAPK_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data166 - EGFR_ID12_MKN1_FM_HM	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_1
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data167 - EGFR_ID12_MKN1_FM_HM	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_2
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data168 – EGFR_ID12_MKN1_FM_HM_1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_3
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data168 – EGFR_ID12_MKN1_FM_HM_5	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_4
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data168 – EGFR_ID12_MKN1_FM_HM_30	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_5
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data169 - EGFR_ID12_MKN1_FM_HM	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_6
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data170 - EGFR_ID12_MKN1_FM_HM	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_7
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data171 - EGFR_ID12_MKN1_FM_HM	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_8
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data172 – EGFR_ID12_MKN1_FM_HM_1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_9
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data172 – EGFR_ID12_MKN1_FM_HM_15	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_10
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data173 – EGFR_ID12_MKN1_FM_HM_1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_11
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data173 – EGFR_ID12_MKN1_FM_HM_15	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_12
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data174 – EGFR_ID12_MKN1_FM_HM_1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_13
+plot52	MeanAndSD	BarPlot	time	lin	EGFR	lin	model1_data174 – EGFR_ID12_MKN1_FM_HM_15	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_14
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data166 - pAKT_ID12_MKN1_FM_HM	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_1
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data167 - pAKT_ID12_MKN1_FM_HM	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_2
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data168 – pAKT_ID12_MKN1_FM_HM_1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_3
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data168 – pAKT_ID12_MKN1_FM_HM_5	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_4
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data168 – pAKT_ID12_MKN1_FM_HM_30	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_5
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data169 - pAKT_ID12_MKN1_FM_HM	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_6
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data170 - pAKT_ID12_MKN1_FM_HM	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_7
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data171 - pAKT_ID12_MKN1_FM_HM	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_8
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data172 – pAKT_ID12_MKN1_FM_HM_1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_9
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data172 – pAKT_ID12_MKN1_FM_HM_15	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_10
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data173 – pAKT_ID12_MKN1_FM_HM_1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_11
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data173 – pAKT_ID12_MKN1_FM_HM_15	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_12
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data174 – pAKT_ID12_MKN1_FM_HM_1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_13
+plot53	MeanAndSD	BarPlot	time	lin	pAKT	lin	model1_data174 – pAKT_ID12_MKN1_FM_HM_15	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_14
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data166 - pEGFR_ID12_MKN1_FM_HM	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_1
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data167 - pEGFR_ID12_MKN1_FM_HM	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_2
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data168 – pEGFR_ID12_MKN1_FM_HM_1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_3
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data168 – pEGFR_ID12_MKN1_FM_HM_5	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_4
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data168 – pEGFR_ID12_MKN1_FM_HM_30	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_5
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data169 - pEGFR_ID12_MKN1_FM_HM	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_6
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data170 - pEGFR_ID12_MKN1_FM_HM	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_7
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data171 - pEGFR_ID12_MKN1_FM_HM	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_8
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data172 – pEGFR_ID12_MKN1_FM_HM_1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_9
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data172 – pEGFR_ID12_MKN1_FM_HM_15	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_10
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data173 – pEGFR_ID12_MKN1_FM_HM_1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_11
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data173 – pEGFR_ID12_MKN1_FM_HM_15	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_12
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data174 – pEGFR_ID12_MKN1_FM_HM_1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_13
+plot54	MeanAndSD	BarPlot	time	lin	pEGFR	lin	model1_data174 – pEGFR_ID12_MKN1_FM_HM_15	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_14
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data166 - pMAPK_ID12_MKN1_FM_HM	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_1
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data167 - pMAPK_ID12_MKN1_FM_HM	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_2
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data168 – pMAPK_ID12_MKN1_FM_HM_1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_3
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data168 – pMAPK_ID12_MKN1_FM_HM_5	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_4
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data168 – pMAPK_ID12_MKN1_FM_HM_30	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_5
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data169 - pMAPK_ID12_MKN1_FM_HM	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_6
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data170 - pMAPK_ID12_MKN1_FM_HM	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_7
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data171 - pMAPK_ID12_MKN1_FM_HM	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_8
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data172 – pMAPK_ID12_MKN1_FM_HM_1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_9
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data172 – pMAPK_ID12_MKN1_FM_HM_15	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_10
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data173 – pMAPK_ID12_MKN1_FM_HM_1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_11
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data173 – pMAPK_ID12_MKN1_FM_HM_15	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_12
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data174 – pMAPK_ID12_MKN1_FM_HM_1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_13
+plot55	MeanAndSD	BarPlot	time	lin	pMAPK	lin	model1_data174 – pMAPK_ID12_MKN1_FM_HM_15	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_14
+plot56	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data19 - EGFR_ID4_HS746T_HM_3min	EGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__0EGF
+plot56	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data20 - EGFR_ID4_HS746T_HM_3min	EGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__0EGF
+plot56	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data21 - EGFR_ID4_HS746T_HM_3min	EGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__0EGF
+plot56	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data22 - EGFR_ID4_HS746T_HM_3min	EGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__30EGF
+plot56	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data23 - EGFR_ID4_HS746T_HM_3min	EGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__30EGF
+plot56	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data24 - EGFR_ID4_HS746T_HM_3min	EGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__30EGF
+plot57	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data19 - pEGFR_ID4_HS746T_HM_3min	pEGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__0EGF
+plot57	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data20 - pEGFR_ID4_HS746T_HM_3min	pEGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__0EGF
+plot57	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data21 - pEGFR_ID4_HS746T_HM_3min	pEGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__0EGF
+plot57	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data22 - pEGFR_ID4_HS746T_HM_3min	pEGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__30EGF
+plot57	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data23 - pEGFR_ID4_HS746T_HM_3min	pEGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__30EGF
+plot57	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data24 - pEGFR_ID4_HS746T_HM_3min	pEGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__30EGF
+plot58	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data25 - EGFR_ID4_MKN1_HM_3min	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot58	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data26 - EGFR_ID4_MKN1_HM_3min	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot58	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data27 - EGFR_ID4_MKN1_HM_3min	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot58	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data28 - EGFR_ID4_MKN1_HM_3min	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF
+plot58	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data29 - EGFR_ID4_MKN1_HM_3min	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF
+plot58	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data30 - EGFR_ID4_MKN1_HM_3min	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF
+plot59	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data25 - pEGFR_ID4_MKN1_HM_3min	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot59	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data26 - pEGFR_ID4_MKN1_HM_3min	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot59	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data27 - pEGFR_ID4_MKN1_HM_3min	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot59	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data28 - pEGFR_ID4_MKN1_HM_3min	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF
+plot59	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data29 - pEGFR_ID4_MKN1_HM_3min	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF
+plot59	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data30 - pEGFR_ID4_MKN1_HM_3min	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data31 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data32 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data33 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data34 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data35 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data36 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data37 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data38 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data39 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot60	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data40 - pAKT_ID5_MKN1_FM_1min	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data31 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data32 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data33 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data34 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data35 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data36 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data37 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data38 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data39 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot61	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data40 - pEGFR_ID5_MKN1_FM_1min	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data31 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data32 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data33 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data34 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data35 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data36 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data37 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data38 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data39 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot62	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data40 - pMAPK_ID5_MKN1_FM_1min	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data41 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data42 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data43 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data44 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data45 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data46 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data47 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data48 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data49 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot63	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data50 - pAKT_ID5_MKN1_FM_3min	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data41 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data42 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data43 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data44 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data45 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data46 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data47 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data48 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data49 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot64	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data50 - pEGFR_ID5_MKN1_FM_3min	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data41 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data42 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data43 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data44 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data45 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data46 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data47 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data48 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data49 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot65	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	values	lin	model1_data50 - pMAPK_ID5_MKN1_FM_3min	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot66	MeanAndSD	LinePlot	time	lin	pAKT	lin	model1_data5 - pAKT_ID2_HS746T_HM	pAKT_ID2_HS746T_HM	time	0	0	ID2_HS746T_HM
+plot67	MeanAndSD	LinePlot	time	lin	pEGFR	lin	model1_data5 - pEGFR_ID2_HS746T_HM	pEGFR_ID2_HS746T_HM	time	0	0	ID2_HS746T_HM
+plot68	MeanAndSD	LinePlot	time	lin	pMAPK	lin	model1_data5 - pMAPK_ID2_HS746T_HM	pMAPK_ID2_HS746T_HM	time	0	0	ID2_HS746T_HM
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data51 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data52 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data53 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data54 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data55 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data56 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data57 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data58 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data59 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot69	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data60 - pAKT_ID5_MKN1_FM_15min	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data51 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data52 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data53 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data54 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data55 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data56 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data57 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data58 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data59 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot70	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data60 - pEGFR_ID5_MKN1_FM_15min	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data51 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data52 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data53 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data54 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data55 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data56 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data57 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data58 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data59 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot71	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data60 - pMAPK_ID5_MKN1_FM_15min	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__15EGF
+plot72	MeanAndSD	LinePlot	time	lin	pAKT	lin	model1_data6 - pAKT_ID2_MKN1_HM	pAKT_ID2_MKN1_HM	time	0	0	ID2_MKN1_HM
+plot73	MeanAndSD	LinePlot	time	lin	pEGFR	lin	model1_data6 - pEGFR_ID2_MKN1_HM	pEGFR_ID2_MKN1_HM	time	0	0	ID2_MKN1_HM
+plot74	MeanAndSD	LinePlot	time	lin	pMAPK	lin	model1_data6 - pMAPK_ID2_MKN1_HM	pMAPK_ID2_MKN1_HM	time	0	0	ID2_MKN1_HM
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data61 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data62 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data63 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data64 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data65 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data66 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data67 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data68 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data69 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot75	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	model1_data70 - pAKT_ID5_MKN1_FM_240min	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data61 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data62 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data63 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data64 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data65 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data66 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data67 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data68 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data69 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot76	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data70 - pEGFR_ID5_MKN1_FM_240min	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data61 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data62 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data63 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data64 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data65 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data66 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data67 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data68 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data69 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot77	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	model1_data70 - pMAPK_ID5_MKN1_FM_240min	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data71 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__0EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data72 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__0EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data73 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__0EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data74 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__0EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data75 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__0EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data76 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__30EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data77 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__30EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data78 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__30EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data79 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__30EGF
+plot78	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data80 - pEGFR_ID6_MKN1_HM_1min	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__30EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data81 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__0EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data82 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__0EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data83 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__0EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data84 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__0EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data85 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__0EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data86 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__30EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data87 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__30EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data88 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__30EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data89 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__30EGF
+plot79	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	model1_data90 - pEGFR_ID6_MKN1_HM_3min	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__30EGF
