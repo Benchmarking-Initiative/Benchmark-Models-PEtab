@@ -1,4 +1,4 @@
-plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId	
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId	paperFigure
 Fig1A	MeanAndSD	Smad2/4 abundance	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	Smad2	S23IP_tS2_MSPL2_PL_PN_molecules_per_cell_hepa16_nExpID1	time	0	0	smad24_abundance	fig1, A
 Fig1A	MeanAndSD	Smad2/4 abundance	BarPlot	 	lin	molecules/cell (x10$^4$)	lin	Smad4	S4IP_tS4_MSPL2_PL_PN_molecules_per_cell_hepa16_nExpID1	time	0	0	smad24_abundance	fig1, A
 Fig1B	MeanAndSD	Smad2/3 isoform abundance	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	Smad2	S23IP_tS2_MSPL2_PL_PN_molecules_per_cell_hepa16_ratios_nExpID10	time	0	0	isoform_abundance	fig1, B

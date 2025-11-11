@@ -1,4 +1,4 @@
-plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId	
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId	paperFigure
 Fig2D_right_1	MeanAndSD	Smad2 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad2	S2IP_tS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset1	fig2, D, right
 Fig2D_right_1	MeanAndSD	Smad2 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad3	S2IP_tS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset2	fig2, D, right
 Fig2D_right_1	MeanAndSD	Smad2 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad4	S2IP_tS4_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset3	fig2, D, right

@@ -1,4 +1,4 @@
-plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId	
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId	paperFigure
 Fig3F_Ski_4	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression4	fig3, F
 Fig3F_Ski_4	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression4_tgf	fig3, F
 Fig3F_Skil_4	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression4	fig3, F
