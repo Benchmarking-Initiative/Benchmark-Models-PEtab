@@ -1,0 +1,25 @@
+plotId	plotName	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId
+plot61	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot61	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot64	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot64	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot70	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot70	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__5EGF
+plot76	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot76	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot62	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot62	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot65	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot65	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot71	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot71	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__5EGF
+plot77	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot77	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot60	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot60	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot63	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot63	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot69	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot69	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__5EGF
+plot75	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot75	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF

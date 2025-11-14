@@ -1,0 +1,16 @@
+plotId	plotName	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId
+plot73	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID2_MKN1_HM	time	0	0	ID2_MKN1_HM
+plot74	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID2_MKN1_HM	time	0	0	ID2_MKN1_HM
+plot72	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID2_MKN1_HM	time	0	0	ID2_MKN1_HM
+plot40	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9b_MKN1_HM_1EGF	time	0	0	MKN1_HM_1EGF
+plot40	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9b_MKN1_HM_5EGF	time	0	0	ID9b_MKN1_HM_5EGF
+plot41	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9b_MKN1_HM_1EGF	time	0	0	MKN1_HM_1EGF
+plot41	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9b_MKN1_HM_5EGF	time	0	0	ID9b_MKN1_HM_5EGF
+plot17	Full medium, MKN1 cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	0 ng/ml EGF	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot17	Full medium, MKN1 cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	5 ng/ml EGF	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot18	Full medium, MKN1 cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot18	Full medium, MKN1 cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot58	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	0 ng/ml EGF	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot58	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	30 ng/ml EGF	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF
+plot59	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot59	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF

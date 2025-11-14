@@ -1,0 +1,25 @@
+plotId	plotName	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId
+plot66	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID2_HS746T_HM	time	0	0	ID2_HS746T_HM
+plot67	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID2_HS746T_HM	time	0	0	ID2_HS746T_HM
+plot68	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID2_HS746T_HM	time	0	0	ID2_HS746T_HM
+plot32	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9_HS746T_FM	time	0	0	ID9_HS746T_FM
+plot32	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9_HS746T_HM_5EGF	time	0	0	ID9_HS746T_HM_5EGF
+plot32	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9_HS746T_HM_30EGF	time	0	0	ID9_HS746T_HM_30EGF
+plot33	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9_HS746T_FM	time	0	0	ID9_HS746T_FM
+plot33	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9_HS746T_HM_5EGF	time	0	0	ID9_HS746T_HM_5EGF
+plot33	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9_HS746T_HM_30EGF	time	0	0	ID9_HS746T_HM_30EGF
+plot31	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID9_HS746T_FM	time	0	0	ID9_HS746T_FM
+plot31	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID9_HS746T_HM_5EGF	time	0	0	ID9_HS746T_HM_5EGF
+plot31	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID9_HS746T_HM_30EGF	time	0	0	ID9_HS746T_HM_30EGF
+plot44	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	EGFR	lin	EGF(5)/CET(0)	EGFR_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot44	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	EGFR	lin	EGF(5)/CET(1)	EGFR_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot46	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	EGF(5)/CET(0)	pEGFR_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot46	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	EGF(5)/CET(1)	pEGFR_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot45	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	MMET	lin	EGF(5)/CET(0)	MMET_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot45	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	MMET	lin	EGF(5)/CET(1)	MMET_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot47	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	EGF(5)/CET(0)	pMAPK_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot47	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	EGF(5)/CET(1)	pMAPK_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot1	Full medium, Hs746T cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	0 ng/ml EGF	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot1	Full medium, Hs746T cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	5 ng/ml EGF	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF
+plot2	Full medium, Hs746T cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot2	Full medium, Hs746T cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF

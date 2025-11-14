@@ -1,0 +1,25 @@
+plotId	plotName	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId
+plot20	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot20	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot23	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot23	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot26	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot26	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot29	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot29	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot21	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot21	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	30 ng/ml EGF	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot24	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot24	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	30 ng/ml EGF	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot27	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot27	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	30 ng/ml EGF	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot30	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot30	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	30 ng/ml EGF	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot19	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot19	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	30 ng/ml EGF	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot22	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot22	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	30 ng/ml EGF	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot25	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot25	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	30 ng/ml EGF	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot28	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot28	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	30 ng/ml EGF	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
