@@ -1,0 +1,156 @@
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId	paperFigure
+plot1	MeanAndSD	Smad2 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad2	S2IP_tS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset1	fig2, D, right
+plot1	MeanAndSD	Smad2 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad3	S2IP_tS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset2	fig2, D, right
+plot1	MeanAndSD	Smad2 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad4	S2IP_tS4_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset3	fig2, D, right
+plot2	MeanAndSD	Smad3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad2	S3IP_tS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset4	fig2, D, right
+plot2	MeanAndSD	Smad3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad3	S3IP_tS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset5	fig2, D, right
+plot2	MeanAndSD	Smad3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad4	S3IP_tS4_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset6	fig2, D, right
+plot3	MeanAndSD	Smad4 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad2	S4IP_tS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset7	fig2, D, right
+plot3	MeanAndSD	Smad4 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad3	S4IP_tS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset8	fig2, D, right
+plot3	MeanAndSD	Smad4 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad4	S4IP_tS4_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset9	fig2, D, right
+plot4	MeanAndSD	Smad2/3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad2	S23IP_tS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset10	fig2, D, right
+plot4	MeanAndSD	Smad2/3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad3	S23IP_tS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset11	fig2, D, right
+plot4	MeanAndSD	Smad2/3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad4	S23IP_tS4_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset12	fig2, D, right
+plot5	MeanAndSD	Smad2	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	nSmad2	S2IP_S2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset19	
+plot5	MeanAndSD	Smad2	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	pSmad2	S2IP_pS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset20	
+plot5	MeanAndSD	Smad2	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	ppSmad2	S2IP_ppS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset21	
+plot6	MeanAndSD	Smad2/3	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	nSmad2	S23IP_S2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset13	
+plot6	MeanAndSD	Smad2/3	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	pSmad2	S23IP_pS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset14	
+plot6	MeanAndSD	Smad2/3	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	ppSmad2	S23IP_ppS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset15	
+plot7	MeanAndSD	Smad3	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	nSmad3	S3IP_S3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset22	
+plot7	MeanAndSD	Smad3	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	pSmad3	S3IP_pS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset23	
+plot7	MeanAndSD	Smad3	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	ppSmad3	S3IP_ppS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset24	
+plot8	MeanAndSD	Smad2/3	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	nSmad3	S23IP_S3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset16	
+plot8	MeanAndSD	Smad2/3	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	pSmad3	S23IP_pS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset17	
+plot8	MeanAndSD	Smad2/3	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	ppSmad3	S23IP_ppS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset18	
+plot9	MeanAndSD	Smad3	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	nSmad3	S3IP_S3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+plot9	MeanAndSD	Smad3	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	pSmad3	S3IP_pS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+plot9	MeanAndSD	Smad3	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	ppSmad3	S3IP_ppS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+plot9	MeanAndSD	Smad3	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	nSmad2	S3IP_S2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+plot9	MeanAndSD	Smad3	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	pSmad2	S3IP_pS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+plot9	MeanAndSD	Smad3	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	ppSmad2	S3IP_ppS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad3IP	fig1, right
+plot10	MeanAndSD	Smad2	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	nSmad2	S2IP_S2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+plot10	MeanAndSD	Smad2	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	pSmad2	S2IP_pS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+plot10	MeanAndSD	Smad2	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	ppSmad2	S2IP_ppS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+plot10	MeanAndSD	Smad2	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	nSmad3	S2IP_S3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+plot10	MeanAndSD	Smad2	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	pSmad3	S2IP_pS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+plot10	MeanAndSD	Smad2	BarPlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	ppSmad3	S2IP_ppS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	time	0	0	Smad2IP	fig1, left
+plot11	MeanAndSD	Smad2/3	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	nSmad2	S23IP_S2_MSPL2_PL_hepa16_pS2_pS3_time_course_nExpID5	time	0	0	smad2_phosphorylation	fig1, C
+plot11	MeanAndSD	Smad2/3	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	pSmad2	S23IP_pS2_MSPL2_PL_hepa16_pS2_pS3_time_course_nExpID5	time	0	0	smad2_phosphorylation	fig1, C
+plot11	MeanAndSD	Smad2/3	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	ppSmad2	S23IP_ppS2_MSPL2_PL_hepa16_pS2_pS3_time_course_nExpID5	time	0	0	smad2_phosphorylation	fig1, C
+plot12	MeanAndSD	Smad2/3	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	nSmad3	S23IP_S3_MSPL2_PL_hepa16_pS2_pS3_time_course_nExpID5	time	0	0	smad3_phosphorylation	fig1, C
+plot12	MeanAndSD	Smad2/3	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	pSmad3	S23IP_pS3_MSPL2_PL_hepa16_pS2_pS3_time_course_nExpID5	time	0	0	smad3_phosphorylation	fig1, C
+plot12	MeanAndSD	Smad2/3	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	ppSmad3	S23IP_ppS3_MSPL2_PL_hepa16_pS2_pS3_time_course_nExpID5	time	0	0	smad3_phosphorylation	fig1, C
+plot13	MeanAndSD	Smad2/4 abundance	BarPlot		lin	molecules/cell (x10$^4$)	lin	Smad2	S23IP_tS2_MSPL2_PL_PN_molecules_per_cell_hepa16_nExpID1	time	0	0	smad24_abundance	fig1, A
+plot13	MeanAndSD	Smad2/4 abundance	BarPlot		lin	molecules/cell (x10$^4$)	lin	Smad4	S4IP_tS4_MSPL2_PL_PN_molecules_per_cell_hepa16_nExpID1	time	0	0	smad24_abundance	fig1, A
+plot14	MeanAndSD	Smad2/3 isoform abundance	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	Smad2	S23IP_tS2_MSPL2_PL_PN_molecules_per_cell_hepa16_ratios_nExpID10	time	0	0	isoform_abundance	fig1, B
+plot14	MeanAndSD	Smad2/3 isoform abundance	LinePlot	time [min]	lin	molecules/cell (x10$^4$)	lin	Smad3	S23IP_tS3_MSPL2_PL_PN_molecules_per_cell_hepa16_ratios_nExpID10	time	0	0	isoform_abundance	fig1, B
+plot15	MeanAndSD		BarPlot		lin	signal intensities (a.u., $10^7$)	lin	model1_data7 - TGFbR_PL_PN_TGFbR_hepa16_nExpID11	TGFbR_PL_PN_TGFbR_hepa16_nExpID11	time	0	0	TGF	
+plot16_1	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 – Ski_OE_nExpID100	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression1	fig3, F
+plot16_2	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Ski_OE_nExpID100	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression2	fig3, F
+plot16_3	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Ski_OE_nExpID100	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression3	fig3, F
+plot16_4	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Ski_OE_nExpID100	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression4	fig3, F
+plot16_1	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Ski_OE_nExpID100	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression1_tgf	fig3, F
+plot16_2	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Ski_OE_nExpID100	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression2_tgf	fig3, F
+plot16_3	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Ski_OE_nExpID100	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression3_tgf	fig3, F
+plot16_4	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Ski_OE_nExpID100	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression4_tgf	fig3, F
+plot17_1	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Skil_OE_nExpID100	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression1	fig3, F
+plot17_2	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Skil_OE_nExpID100	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression2	fig3, F
+plot17_3	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Skil_OE_nExpID100	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression3	fig3, F
+plot17_4	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Skil_OE_nExpID100	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression4	fig3, F
+plot17_1	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Skil_OE_nExpID100	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression1_tgf	fig3, F
+plot17_2	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Skil_OE_nExpID100	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression2_tgf	fig3, F
+plot17_3	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Skil_OE_nExpID100	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression3_tgf	fig3, F
+plot17_4	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Skil_OE_nExpID100	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression4_tgf	fig3, F
+plot18_1	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Dnmt3a_OE_nExpID100	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression1	fig3, F
+plot18_2	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Dnmt3a_OE_nExpID100	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression2	fig3, F
+plot18_3	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Dnmt3a_OE_nExpID100	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression3	fig3, F
+plot18_4	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Dnmt3a_OE_nExpID100	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression4	fig3, F
+plot18_1	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Dnmt3a_OE_nExpID100	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression1_tgf	fig3, F
+plot18_2	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Dnmt3a_OE_nExpID100	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression2_tgf	fig3, F
+plot18_3	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Dnmt3a_OE_nExpID100	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression3_tgf	fig3, F
+plot18_4	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Dnmt3a_OE_nExpID100	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression4_tgf	fig3, F
+plot19_1	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Sox4_OE_nExpID100	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression1	fig3, F
+plot19_2	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Sox4_OE_nExpID100	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression2	fig3, F
+plot19_3	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Sox4_OE_nExpID100	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression3	fig3, F
+plot19_4	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Sox4_OE_nExpID100	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression4	fig3, F
+plot19_1	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Sox4_OE_nExpID100	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression1_tgf	fig3, F
+plot19_2	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Sox4_OE_nExpID100	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression2_tgf	fig3, F
+plot19_3	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Sox4_OE_nExpID100	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression3_tgf	fig3, F
+plot19_4	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Sox4_OE_nExpID100	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression4_tgf	fig3, F
+plot20_1	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Jun_OE_nExpID100	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression1	fig3, F
+plot20_2	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Jun_OE_nExpID100	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression2	fig3, F
+plot20_3	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Jun_OE_nExpID100	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression3	fig3, F
+plot20_4	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Jun_OE_nExpID100	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression4	fig3, F
+plot20_1	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Jun_OE_nExpID100	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression1_tgf	fig3, F
+plot20_2	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Jun_OE_nExpID100	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression2_tgf	fig3, F
+plot20_3	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Jun_OE_nExpID100	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression3_tgf	fig3, F
+plot20_4	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Jun_OE_nExpID100	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression4_tgf	fig3, F
+plot21_1	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Smad7_OE_nExpID100	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression1	fig3, F
+plot21_2	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Smad7_OE_nExpID100	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression2	fig3, F
+plot21_3	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Smad7_OE_nExpID100	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression3	fig3, F
+plot21_4	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Smad7_OE_nExpID100	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression4	fig3, F
+plot21_1	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Smad7_OE_nExpID100	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression1_tgf	fig3, F
+plot21_2	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Smad7_OE_nExpID100	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression2_tgf	fig3, F
+plot21_3	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Smad7_OE_nExpID100	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression3_tgf	fig3, F
+plot21_4	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Smad7_OE_nExpID100	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression4_tgf	fig3, F
+plot22_1	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Klf10_OE_nExpID100	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression1	fig3, F
+plot22_2	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Klf10_OE_nExpID100	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression2	fig3, F
+plot22_3	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Klf10_OE_nExpID100	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression3	fig3, F
+plot22_4	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Klf10_OE_nExpID100	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression4	fig3, F
+plot22_1	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Klf10_OE_nExpID100	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression1_tgf	fig3, F
+plot22_2	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Klf10_OE_nExpID100	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression2_tgf	fig3, F
+plot22_3	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Klf10_OE_nExpID100	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression3_tgf	fig3, F
+plot22_4	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Klf10_OE_nExpID100	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression4_tgf	fig3, F
+plot23_1	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Bmp4_OE_nExpID100	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression1	fig3, F
+plot23_2	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Bmp4_OE_nExpID100	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression2	fig3, F
+plot23_3	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Bmp4_OE_nExpID100	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression3	fig3, F
+plot23_4	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Bmp4_OE_nExpID100	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression4	fig3, F
+plot23_1	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Bmp4_OE_nExpID100	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression1_tgf	fig3, F
+plot23_2	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Bmp4_OE_nExpID100	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression2_tgf	fig3, F
+plot23_3	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Bmp4_OE_nExpID100	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression3_tgf	fig3, F
+plot23_4	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Bmp4_OE_nExpID100	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression4_tgf	fig3, F
+plot24_1	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Cxcl15_OE_nExpID100	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression1	fig3, F
+plot24_2	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Cxcl15_OE_nExpID100	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression2	fig3, F
+plot24_3	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Cxcl15_OE_nExpID100	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression3	fig3, F
+plot24_4	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Cxcl15_OE_nExpID100	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression4	fig3, F
+plot24_1	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Cxcl15_OE_nExpID100	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression1_tgf	fig3, F
+plot24_2	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Cxcl15_OE_nExpID100	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression2_tgf	fig3, F
+plot24_3	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Cxcl15_OE_nExpID100	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression3_tgf	fig3, F
+plot24_4	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Cxcl15_OE_nExpID100	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression4_tgf	fig3, F
+plot25_1	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Dusp5_OE_nExpID100	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression1	fig3, F
+plot25_2	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Dusp5_OE_nExpID100	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression2	fig3, F
+plot25_3	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Dusp5_OE_nExpID100	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression3	fig3, F
+plot25_4	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Dusp5_OE_nExpID100	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression4	fig3, F
+plot25_1	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Dusp5_OE_nExpID100	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression1_tgf	fig3, F
+plot25_2	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Dusp5_OE_nExpID100	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression2_tgf	fig3, F
+plot25_3	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Dusp5_OE_nExpID100	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression3_tgf	fig3, F
+plot25_4	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Dusp5_OE_nExpID100	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression4_tgf	fig3, F
+plot26_1	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Tgfa_OE_nExpID100	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression1	fig3, F
+plot26_2	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Tgfa_OE_nExpID100	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression2	fig3, F
+plot26_3	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Tgfa_OE_nExpID100	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression3	fig3, F
+plot26_4	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Tgfa_OE_nExpID100	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression4	fig3, F
+plot26_1	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Tgfa_OE_nExpID100	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression1_tgf	fig3, F
+plot26_2	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Tgfa_OE_nExpID100	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression2_tgf	fig3, F
+plot26_3	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Tgfa_OE_nExpID100	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression3_tgf	fig3, F
+plot26_4	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Tgfa_OE_nExpID100	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression4_tgf	fig3, F
+plot27_1	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data8 - Pdk4_OE_nExpID100	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression1	fig3, F
+plot27_2	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data9 - Pdk4_OE_nExpID100	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression2	fig3, F
+plot27_3	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data10 - Pdk4_OE_nExpID100	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression3	fig3, F
+plot27_4	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data11 - Pdk4_OE_nExpID100	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression4	fig3, F
+plot27_1	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data12 - Pdk4_OE_nExpID100	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression1_tgf	fig3, F
+plot27_2	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data13 - Pdk4_OE_nExpID100	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression2_tgf	fig3, F
+plot27_3	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data14 - Pdk4_OE_nExpID100	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression3_tgf	fig3, F
+plot27_4	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	model1_data15 - Pdk4_OE_nExpID100	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression4_tgf	fig3, F
+plot28	MeanAndSD	Smad2 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	S2IP_tS2_MSPL2_complexes_all_nExpID6	S2IP_tS2_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+plot28	MeanAndSD	Smad2 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	S2IP_tS3_MSPL2_complexes_all_nExpID6	S2IP_tS3_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+plot28	MeanAndSD	Smad2 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	S2IP_tS4_MSPL2_complexes_all_nExpID6	S2IP_tS4_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+plot29	MeanAndSD	Smad3 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	S3IP_tS2_MSPL2_complexes_all_nExpID6	S3IP_tS2_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+plot29	MeanAndSD	Smad3 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	S3IP_tS3_MSPL2_complexes_all_nExpID6	S3IP_tS3_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+plot29	MeanAndSD	Smad3 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	S3IP_tS4_MSPL2_complexes_all_nExpID6	S3IP_tS4_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+plot30	MeanAndSD	Smad4 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	S4IP_tS2_MSPL2_complexes_all_nExpID6	S4IP_tS2_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+plot30	MeanAndSD	Smad4 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	S4IP_tS3_MSPL2_complexes_all_nExpID6	S4IP_tS3_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+plot30	MeanAndSD	Smad4 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	S4IP_tS4_MSPL2_complexes_all_nExpID6	S4IP_tS4_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+plot31	MeanAndSD	Smad2 phosphorylation	LinePlot	time [min]	lin	relative abundance [%]	lin	nSmad2	S2IP_S2_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	dataset25	
+plot31	MeanAndSD	Smad2 phosphorylation	LinePlot	time [min]	lin	relative abundance [%]	lin	pSmad2	S2IP_pS2_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	dataset25	
+plot31	MeanAndSD	Smad2 phosphorylation	LinePlot	time [min]	lin	relative abundance [%]	lin	ppSmad2	S2IP_ppS2_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	dataset25	

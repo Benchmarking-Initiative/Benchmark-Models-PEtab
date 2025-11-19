@@ -1,0 +1,25 @@
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId	paperFigure
+Fig3F_Ski_1	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression1	fig3, F
+Fig3F_Ski_1	MeanAndSD	Ski	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Ski_gene_expression_OE_nExpID100	time	0	0	Ski_gene_expression1_tgf	fig3, F
+Fig3F_Skil_1	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression1	fig3, F
+Fig3F_Skil_1	MeanAndSD	Skil	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Skil_gene_expression_OE_nExpID100	time	0	0	Skil_gene_expression1_tgf	fig3, F
+Fig3F_Dnmt3a_1	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression1	fig3, F
+Fig3F_Dnmt3a_1	MeanAndSD	Dnmt3a	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Dnmt3a_gene_expression_OE_nExpID100	time	0	0	Dnmt3a_gene_expression1_tgf	fig3, F
+Fig3F_Sox4_1	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression1	fig3, F
+Fig3F_Sox4_1	MeanAndSD	Sox4	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Sox4_gene_expression_OE_nExpID100	time	0	0	Sox4_gene_expression1_tgf	fig3, F
+Fig3F_Jun_1	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression1	fig3, F
+Fig3F_Jun_1	MeanAndSD	Jun	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Jun_gene_expression_OE_nExpID100	time	0	0	Jun_gene_expression1_tgf	fig3, F
+Fig3F_Smad7_1	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression1	fig3, F
+Fig3F_Smad7_1	MeanAndSD	Smad7	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Smad7_gene_expression_OE_nExpID100	time	0	0	Smad7_gene_expression1_tgf	fig3, F
+Fig3F_Klf10_1	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression1	fig3, F
+Fig3F_Klf10_1	MeanAndSD	Klf10	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Klf10_gene_expression_OE_nExpID100	time	0	0	Klf10_gene_expression1_tgf	fig3, F
+Fig3F_Bmp4_1	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression1	fig3, F
+Fig3F_Bmp4_1	MeanAndSD	Bmp4	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Bmp4_gene_expression_OE_nExpID100	time	0	0	Bmp4_gene_expression1_tgf	fig3, F
+Fig3F_Cxcl15_1	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression1	fig3, F
+Fig3F_Cxcl15_1	MeanAndSD	Cxcl15	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Cxcl15_gene_expression_OE_nExpID100	time	0	0	Cxcl15_gene_expression1_tgf	fig3, F
+Fig3F_Dusp5_1	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression1	fig3, F
+Fig3F_Dusp5_1	MeanAndSD	Dusp5	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Dusp5_gene_expression_OE_nExpID100	time	0	0	Dusp5_gene_expression1_tgf	fig3, F
+Fig3F_Tgfa_1	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression1	fig3, F
+Fig3F_Tgfa_1	MeanAndSD	Tgfa	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Tgfa_gene_expression_OE_nExpID100	time	0	0	Tgfa_gene_expression1_tgf	fig3, F
+Fig3F_Pdk4_1	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	untreated	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression1	fig3, F
+Fig3F_Pdk4_1	MeanAndSD	Pdk4	LinePlot	time [min]	lin	gene expression (log)	log10	TGF$\beta$-treated	Pdk4_gene_expression_OE_nExpID100	time	0	0	Pdk4_gene_expression1_tgf	fig3, F
