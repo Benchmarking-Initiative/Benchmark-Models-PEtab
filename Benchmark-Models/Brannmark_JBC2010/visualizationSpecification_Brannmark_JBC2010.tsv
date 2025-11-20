@@ -1,5 +1,5 @@
 plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	yValues	xValues	xOffset	yOffset	datasetId
-plot1	MeanAndSD		LinePlot	time [min]	lin	IR phosphorylation	lin	IR1_P	time	0	0	Dose_100
-plot2	MeanAndSD		LinePlot	time [min]	lin	IRS1 phosphorylation	lin	IRS1_P	time	0	0	Dose_100
+plot1	MeanAndSD		LinePlot	Time [min]	lin	IR phosphorylation	lin	IR1_P	time	0	0	Dose_100
+plot2	MeanAndSD		LinePlot	Time [min]	lin	IRS1 phosphorylation	lin	IRS1_P	time	0	0	Dose_100
 plot3	MeanAndSD		LinePlot	Insulin [nM]	log10	IRS1 phosphorylation	lin	IRS1_P_DosR	insulin_dose_1	0	0	DosR
-plot4	MeanAndSD		LinePlot	time [min]	lin	IRS1 phosphorylation	lin	IRS1_P	time	0	0	TwoSteps
+plot4	MeanAndSD		LinePlot	Time [min]	lin	IRS1 phosphorylation	lin	IRS1_P	time	0	0	TwoSteps
