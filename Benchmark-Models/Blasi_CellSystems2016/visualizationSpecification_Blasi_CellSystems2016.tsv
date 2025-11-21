@@ -1,0 +1,16 @@
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	0ac	observable_0ac	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K5	observable_k5	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K8	observable_k8	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K12	observable_k12	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K16	observable_k16	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K5K8	observable_k5k8	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K5K12	observable_k5k12	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K8K12	observable_k8k12	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K8K16	observable_k8k16	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K12K16	observable_k12k16	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K5K8K12	observable_k5k8k12	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K5K8K16	observable_k5k8k16	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K5K12K16	observable_k5k12k16	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	K8K12K16	observable_k8k12k16	time	0	0
+plot1	MeanAndSD		BarPlot	acetylation motifs	lin	log$_{10}$ motif abundance x$_m$ [a. u.]	log10	4ac	observable_4ac	time	0	0

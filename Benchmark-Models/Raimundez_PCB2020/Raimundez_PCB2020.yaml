@@ -9,3 +9,5 @@ problems:
   - observables_Raimundez_PCB2020.tsv
   sbml_files:
   - model_Raimundez_PCB2020.xml
+  visualization_files:
+  - visualizationSpecification_Raimundez_PCB2020.tsv
