@@ -1,0 +1,41 @@
+name: Simulate
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+  merge_group:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  simulate_amici:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v5
+
+    - name: Prepare Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: "3.13"
+
+    - name: Install AMICI
+      env:
+        AMICI_PARALLEL_COMPILE: ""
+      run: |
+        pip install --upgrade pip
+        # TODO: once amici 1.0 is released, replace with:
+        # pip install amici[petab]
+        pip install petab
+        pip install "git+https://github.com/dweindl/amici.git@6a85422ad233fc268fb71272bba39f5b82db387a#egg=amici&subdirectory=python/sdist"
+
+    - name: Simulate with nominal parameters
+      env:
+        AMICI_PARALLEL_COMPILE: ""
+      run: |
+        for problem in `ls -1 Benchmark-Models/`; do
+            python src/python/simulate.py "$problem" -j
+            echo
+            echo
+        done
