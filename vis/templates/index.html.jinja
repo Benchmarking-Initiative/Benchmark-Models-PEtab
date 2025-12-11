@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>PEtab problems overview</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 20px; }
+      ul { list-style: none; padding: 0; }
+      li { margin: 6px 0; }
+      a { text-decoration: none; color: #0366d6; }
+      a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <h1>PEtab problems ({{ count }})</h1>
+    {% if models %}
+      <ul>
+        {% for m in models %}
+          <li><a href="{{ m }}.html">{{ m }}</a></li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No problems found.</p>
+    {% endif %}
+  </body>
+</html>
