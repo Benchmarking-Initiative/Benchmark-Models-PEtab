@@ -1,0 +1,180 @@
+plotId	plotName	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId
+plot1	Full medium, Hs746T cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	0 ng/ml EGF	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot1	Full medium, Hs746T cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	5 ng/ml EGF	EGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF
+plot2	Full medium, Hs746T cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__0EGF
+plot2	Full medium, Hs746T cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID3_HS746T_FM	CET_level	0	0	ID3_HS746T_FM__5EGF
+plot3	Starvation medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__0EGF
+plot3	Starvation medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID6_MKN1_HM_15min	CET_level	0	0	ID6_MKN1_HM_15min__30EGF
+plot4	Starvation medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__0EGF
+plot4	Starvation medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID6_MKN1_HM_240min	CET_level	0	0	ID6_MKN1_HM_240min__30EGF
+plot5	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot5	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot6	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot6	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot7	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot7	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot8	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot8	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot9	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot9	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot10	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot10	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot11	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot11	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot12	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot12	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot13	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot13	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot14	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot14	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot15	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot15	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot16	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot16	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot17	Full medium, MKN1 cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	0 ng/ml EGF	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot17	Full medium, MKN1 cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	5 ng/ml EGF	EGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot18	Full medium, MKN1 cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__0EGF
+plot18	Full medium, MKN1 cell line	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID3_MKN1_FM	CET_level	0	0	ID3_MKN1_FM__5EGF
+plot19	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot19	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	30 ng/ml EGF	pAKT_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot20	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot20	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot21	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__0EGF
+plot21	Starvation medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	30 ng/ml EGF	pMAPK_ID8_HS746T_HM_1min	CET_level	0	0	ID8_HS746T_HM_1min__30EGF
+plot22	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot22	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	30 ng/ml EGF	pAKT_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot23	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot23	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot24	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__0EGF
+plot24	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	30 ng/ml EGF	pMAPK_ID8_HS746T_HM_3min	CET_level	0	0	ID8_HS746T_HM_3min__30EGF
+plot25	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot25	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	30 ng/ml EGF	pAKT_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot26	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot26	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot27	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__0EGF
+plot27	Starvation medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	30 ng/ml EGF	pMAPK_ID8_HS746T_HM_15min	CET_level	0	0	ID8_HS746T_HM_15min__30EGF
+plot28	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot28	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	30 ng/ml EGF	pAKT_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot29	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot29	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot30	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__0EGF
+plot30	Starvation medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	30 ng/ml EGF	pMAPK_ID8_HS746T_HM_240min	CET_level	0	0	ID8_HS746T_HM_240min__30EGF
+plot31	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID9_HS746T_FM	time	0	0	ID9_HS746T_FM
+plot32	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9_HS746T_FM	time	0	0	ID9_HS746T_FM
+plot33	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9_HS746T_FM	time	0	0	ID9_HS746T_FM
+plot34	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID9_HS746T_HM_5EGF	time	0	0	ID9_HS746T_HM_5EGF
+plot35	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9_HS746T_HM_5EGF	time	0	0	ID9_HS746T_HM_5EGF
+plot36	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9_HS746T_HM_5EGF	time	0	0	ID9_HS746T_HM_5EGF
+plot37	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID9_HS746T_HM_30EGF	time	0	0	ID9_HS746T_HM_30EGF
+plot38	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9_HS746T_HM_30EGF	time	0	0	ID9_HS746T_HM_30EGF
+plot39	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9_HS746T_HM_30EGF	time	0	0	ID9_HS746T_HM_30EGF
+plot40	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9b_MKN1_HM_1EGF	time	0	0	MKN1_HM_1EGF
+plot41	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9b_MKN1_HM_1EGF	time	0	0	MKN1_HM_1EGF
+plot42	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID9b_MKN1_HM_5EGF	time	0	0	ID9b_MKN1_HM_5EGF
+plot43	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID9b_MKN1_HM_5EGF	time	0	0	ID9b_MKN1_HM_5EGF
+plot44	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	EGFR	lin	EGFR	EGFR_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot45	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	MMET	lin	MMET	MMET_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot46	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot47	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID10_HS746T_FM_EGF	time	0	0	ID10_HS746T_FM_EGF
+plot48	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	EGFR	lin	EGFR	EGFR_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot49	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	MMET	lin	MMET	MMET_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot50	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot51	Full medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID10_HS746T_FM_EGF_CET	time	0	0	ID10_HS746T_FM_EGF_CET
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	HM, EGF 0, CET 0, Time [min] 0	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_1
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	HM, EGF 0, CET 1, Time [min] 1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_2
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	HM, EGF 100, CET 0, Time [min] 1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_3
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	HM, EGF 100, CET 0, Time [min] 5	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_4
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	HM, EGF 100, CET 0, Time [min] 30	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_5
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	HM, EGF 30, CET 0, Time [min] 1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_6
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	HM, EGF 30, CET 1, Time [min] 1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_7
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	FM, EGF 0, CET 0, Time [min] 0	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_8
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	FM, EGF 0, CET 1, Time [min] 1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_9
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	FM, EGF 0, CET 1, Time [min] 15	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_10
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	FM, EGF 5, CET 0, Time [min] 1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_11
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	FM, EGF 5, CET 0, Time [min] 15	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_12
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	FM, EGF 5, CET 1, Time [min] 1	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_13
+plot52	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	EGFR	lin	FM, EGF 5, CET 1, Time [min] 15	EGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_14
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	HM, EGF 0, CET 0, Time [min] 0	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_1
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	HM, EGF 0, CET 1, Time [min] 1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_2
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	HM, EGF 100, CET 0, Time [min] 1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_3
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	HM, EGF 100, CET 0, Time [min] 5	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_4
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	HM, EGF 100, CET 0, Time [min] 30	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_5
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	HM, EGF 30, CET 0, Time [min] 1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_6
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	HM, EGF 30, CET 1, Time [min] 1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_7
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	FM, EGF 0, CET 0, Time [min] 0	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_8
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	FM, EGF 0, CET 1, Time [min] 1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_9
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	FM, EGF 0, CET 1, Time [min] 15	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_10
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	FM, EGF 5, CET 0, Time [min] 1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_11
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	FM, EGF 5, CET 0, Time [min] 15	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_12
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	FM, EGF 5, CET 1, Time [min] 1	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_13
+plot53	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pAKT	lin	FM, EGF 5, CET 1, Time [min] 15	pAKT_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_14
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	HM, EGF 0, CET 0, Time [min] 0	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_1
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	HM, EGF 0, CET 1, Time [min] 1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_2
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	HM, EGF 100, CET 0, Time [min] 1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_3
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	HM, EGF 100, CET 0, Time [min] 5	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_4
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	HM, EGF 100, CET 0, Time [min] 30	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_5
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	HM, EGF 30, CET 0, Time [min] 1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_6
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	HM, EGF 30, CET 1, Time [min] 1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_7
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	FM, EGF 0, CET 0, Time [min] 0	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_8
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	FM, EGF 0, CET 1, Time [min] 1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_9
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	FM, EGF 0, CET 1, Time [min] 15	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_10
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	FM, EGF 5, CET 0, Time [min] 1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_11
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	FM, EGF 5, CET 0, Time [min] 15	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_12
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	FM, EGF 5, CET 1, Time [min] 1	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_13
+plot54	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pEGFR	lin	FM, EGF 5, CET 1, Time [min] 15	pEGFR_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_14
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	HM, EGF 0, CET 0, Time [min] 0	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_1
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	HM, EGF 0, CET 1, Time [min] 1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_2
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	HM, EGF 100, CET 0, Time [min] 1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_3
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	HM, EGF 100, CET 0, Time [min] 5	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_4
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	HM, EGF 100, CET 0, Time [min] 30	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_5
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	HM, EGF 30, CET 0, Time [min] 1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_6
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	HM, EGF 30, CET 1, Time [min] 1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_7
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	FM, EGF 0, CET 0, Time [min] 0	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_8
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	FM, EGF 0, CET 1, Time [min] 1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_9
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	FM, EGF 0, CET 1, Time [min] 15	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_10
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	FM, EGF 5, CET 0, Time [min] 1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_11
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	FM, EGF 5, CET 0, Time [min] 15	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_12
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	FM, EGF 5, CET 1, Time [min] 1	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_13
+plot55	MKN1 cell line	MeanAndSD	BarPlot	time [min]	lin	pMAPK	lin	FM, EGF 5, CET 1, Time [min] 15	pMAPK_ID12_MKN1_FM_HM	condition	0	0	ID12_MKN1_FM_HM_14
+plot56	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	0 ng/ml EGF	EGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__0EGF
+plot56	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	30 ng/ml EGF	EGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__30EGF
+plot57	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__0EGF
+plot57	Starvation medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID4_HS746T_HM_3min	CET_level	0	0	ID4_HS746T_HM_3min__30EGF
+plot58	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	0 ng/ml EGF	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot58	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	EGFR	lin	30 ng/ml EGF	EGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF
+plot59	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__0EGF
+plot59	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID4_MKN1_HM_3min	CET_level	0	0	ID4_MKN1_HM_3min__30EGF
+plot60	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot60	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot61	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot61	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot62	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__0EGF
+plot62	Full medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID5_MKN1_FM_1min	CET_level	0	0	ID5_MKN1_FM_1min__5EGF
+plot63	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot63	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot64	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot64	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot65	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__0EGF
+plot65	Full medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID5_MKN1_FM_3min	CET_level	0	0	ID5_MKN1_FM_3min__5EGF
+plot66	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID2_HS746T_HM	time	0	0	ID2_HS746T_HM
+plot67	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID2_HS746T_HM	time	0	0	ID2_HS746T_HM
+plot68	Starvation medium, Hs746T cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID2_HS746T_HM	time	0	0	ID2_HS746T_HM
+plot69	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot69	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__5EGF
+plot70	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot70	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__5EGF
+plot71	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__0EGF
+plot71	Full medium, MKN1 cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID5_MKN1_FM_15min	CET_level	0	0	ID5_MKN1_FM_15min__5EGF
+plot72	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pAKT	lin	pAKT	pAKT_ID2_MKN1_HM	time	0	0	ID2_MKN1_HM
+plot73	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pEGFR	lin	pEGFR	pEGFR_ID2_MKN1_HM	time	0	0	ID2_MKN1_HM
+plot74	Starvation medium, MKN1 cell line	MeanAndSD	LinePlot	time [min]	lin	pMAPK	lin	pMAPK	pMAPK_ID2_MKN1_HM	time	0	0	ID2_MKN1_HM
+plot75	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot75	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot76	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot76	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot77	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__0EGF
+plot77	Full medium, MKN1 cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID5_MKN1_FM_240min	CET_level	0	0	ID5_MKN1_FM_240min__5EGF
+plot78	Starvation medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__0EGF
+plot78	Starvation medium, MKN1 cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID6_MKN1_HM_1min	CET_level	0	0	ID6_MKN1_HM_1min__30EGF
+plot79	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__0EGF
+plot79	Starvation medium, MKN1 cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	30 ng/ml EGF	pEGFR_ID6_MKN1_HM_3min	CET_level	0	0	ID6_MKN1_HM_3min__30EGF

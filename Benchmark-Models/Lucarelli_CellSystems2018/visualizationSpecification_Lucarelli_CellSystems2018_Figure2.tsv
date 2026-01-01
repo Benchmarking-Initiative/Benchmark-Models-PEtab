@@ -1,0 +1,22 @@
+plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId	paperFigure
+Fig2D_right_1	MeanAndSD	Smad2 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad2	S2IP_tS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset1	fig2, D, right
+Fig2D_right_1	MeanAndSD	Smad2 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad3	S2IP_tS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset2	fig2, D, right
+Fig2D_right_1	MeanAndSD	Smad2 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad4	S2IP_tS4_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset3	fig2, D, right
+Fig2D_right_2	MeanAndSD	Smad3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad2	S3IP_tS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset4	fig2, D, right
+Fig2D_right_2	MeanAndSD	Smad3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad3	S3IP_tS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset5	fig2, D, right
+Fig2D_right_2	MeanAndSD	Smad3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad4	S3IP_tS4_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset6	fig2, D, right
+Fig2D_right_3	MeanAndSD	Smad4 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad2	S4IP_tS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset7	fig2, D, right
+Fig2D_right_3	MeanAndSD	Smad4 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad3	S4IP_tS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset8	fig2, D, right
+Fig2D_right_3	MeanAndSD	Smad4 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad4	S4IP_tS4_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset9	fig2, D, right
+Fig2D_right_4	MeanAndSD	Smad2/3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad2	S23IP_tS2_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset10	fig2, D, right
+Fig2D_right_4	MeanAndSD	Smad2/3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad3	S23IP_tS3_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset11	fig2, D, right
+Fig2D_right_4	MeanAndSD	Smad2/3 IP	LinePlot	TGF$\beta$ (ng/ml)	lin	relative abundance [%]	lin	Smad4	S23IP_tS4_MSPL2_complexes_all_hepa16_no_single_complex_nExpID2	init_TGFb	0	0	dataset12	fig2, D, right
+Fig2D_left_1	MeanAndSD	Smad2 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	Smad2	S2IP_tS2_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+Fig2D_left_1	MeanAndSD	Smad2 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	Smad3	S2IP_tS3_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+Fig2D_left_1	MeanAndSD	Smad2 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	Smad4	S2IP_tS4_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+Fig2D_left_2	MeanAndSD	Smad3 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	Smad2	S3IP_tS2_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+Fig2D_left_2	MeanAndSD	Smad3 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	Smad3	S3IP_tS3_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+Fig2D_left_2	MeanAndSD	Smad3 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	Smad4	S3IP_tS4_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+Fig2D_left_3	MeanAndSD	Smad4 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	Smad2	S4IP_tS2_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+Fig2D_left_3	MeanAndSD	Smad4 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	Smad3	S4IP_tS3_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left
+Fig2D_left_3	MeanAndSD	Smad4 IP	LinePlot	time [min]	lin	relative abundance [%]	lin	Smad4	S4IP_tS4_MSPL2_complexes_all_hepa16_time_course_nExpID6	time	0	0	fig2Dleft	fig2, D, left

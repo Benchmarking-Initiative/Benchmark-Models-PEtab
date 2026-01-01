@@ -28,6 +28,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pre-commit", "pytest", "ruff"]
+site = ["bokeh>=3.7.3"]
 
 [project.scripts]
 bmp-petablint = "benchmark_models_petab.check_petablint:main"

@@ -9,3 +9,5 @@ problems:
   - observables_SalazarCavazos_MBoC2020.tsv
   sbml_files:
   - model_SalazarCavazos_MBoC2020.xml
+  visualization_files:
+  - visualizationSpecification_SalazarCavazos_MBoC2020.tsv

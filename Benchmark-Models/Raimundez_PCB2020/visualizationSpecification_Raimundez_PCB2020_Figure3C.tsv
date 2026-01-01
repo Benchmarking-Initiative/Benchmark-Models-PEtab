@@ -1,0 +1,25 @@
+plotId	plotName	plotTypeData	plotTypeSimulation	xLabel	xScale	yLabel	yScale	legendEntry	yValues	xValues	xOffset	yOffset	datasetId
+plot6	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot6	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot9	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot9	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot12	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot12	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot15	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	0 ng/ml EGF	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot15	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pEGFR	lin	5 ng/ml EGF	pEGFR_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot7	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot7	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot10	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot10	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot13	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot13	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot16	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	0 ng/ml EGF	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot16	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pMAPK	lin	5 ng/ml EGF	pMAPK_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
+plot5	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__0EGF
+plot5	Full medium, Hs746T cell line, t = 1 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID7_HS746T_FM_1min	CET_level	0	0	ID7_HS746T_FM_1min__5EGF
+plot8	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__0EGF
+plot8	Full medium, Hs746T cell line, t = 3 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID7_HS746T_FM_3min	CET_level	0	0	ID7_HS746T_FM_3min__5EGF
+plot11	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__0EGF
+plot11	Full medium, Hs746T cell line, t = 15 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID7_HS746T_FM_15min	CET_level	0	0	ID7_HS746T_FM_15min__5EGF
+plot14	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	0 ng/ml EGF	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__0EGF
+plot14	Full medium, Hs746T cell line, t = 240 min	MeanAndSD	LinePlot	CET [$\mu$g/ml]	lin	pAKT	lin	5 ng/ml EGF	pAKT_ID7_HS746T_FM_240min	CET_level	0	0	ID7_HS746T_FM_240min__5EGF
