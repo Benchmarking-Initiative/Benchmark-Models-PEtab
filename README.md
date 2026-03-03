@@ -1,4 +1,5 @@
-# Benchmark-Models-PEtab
+<img src="gfx/logo.png" alt="Benchmark-Models-PEtab logo" width="250"/>
+
 A collection of mathematical models with experimental data in the [PEtab](https://github.com/PEtab-dev) format as benchmark problems in order to evaluate new and existing methodologies for data-based modelling. The publication for the introduction and analysis of the benchmark problem collection is available at https://academic.oup.com/bioinformatics/article/35/17/3073/5280731.
 
 Contributions to the collection are very welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
