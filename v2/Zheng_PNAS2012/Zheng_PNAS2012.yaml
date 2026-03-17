@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Zheng_PNAS2012.tsv
+model_files:
+  model_Zheng_PNAS2012:
+    location: model_Zheng_PNAS2012.xml
+    language: sbml
+measurement_files:
+- measurementData_Zheng_PNAS2012.tsv
+condition_files:
+- experimentalCondition_Zheng_PNAS2012.tsv
+experiment_files:
+- experiments.tsv
+observable_files:
+- observables_Zheng_PNAS2012.tsv
+mapping_files: []
+extensions: {}

@@ -1,0 +1,16 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Boehm_JProteomeRes2014.tsv
+model_files:
+  model_Boehm_JProteomeRes2014:
+    location: model_Boehm_JProteomeRes2014.xml
+    language: sbml
+measurement_files:
+- measurementData_Boehm_JProteomeRes2014.tsv
+condition_files:
+- experimentalCondition_Boehm_JProteomeRes2014.tsv
+experiment_files: []
+observable_files:
+- observables_Boehm_JProteomeRes2014.tsv
+mapping_files: []
+extensions: {}

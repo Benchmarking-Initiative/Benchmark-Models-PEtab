@@ -1,0 +1,2 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
+observable_prevalence	prevalence	prevalence	noiseParameter1_observable_prevalence			noiseParameter1_observable_prevalence

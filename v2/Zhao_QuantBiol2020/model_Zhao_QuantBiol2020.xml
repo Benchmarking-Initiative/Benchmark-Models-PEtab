@@ -1,0 +1,1585 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created by COPASI version 4.29 (Build 228) on 2020-09-16 12:03 with libSBML version 5.18.0. -->
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model metaid="COPASI0" id="Zhao_QuantBiol2020" name="Zhao_QuantBiol2020">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <pre>Background - The coronavirus disease 2019 (COVID-19) is rapidly spreading in China and more than 30 countries over last two months. COVID-19 has multiple characteristics distinct from other infectious diseases, including high infectivity during incubation, time delay between real dynamics and daily observed number of confirmed cases, and the intervention effects of implemented quarantine and control measures. Methods - We develop a Susceptible, Un-quanrantined infected, Quarantined infected, Confirmed infected (SUQC) model to characterize the dynamics of COVID-19 and explicitly parameterize the intervention effects of control measures, which is more suitable for analysis than other existing epidemic models. Results - The SUQC model is applied to the daily released data of the confirmed infections to analyze the outbreak of COVID-19 in Wuhan, Hubei (excluding Wuhan), China (excluding Hubei) and four first-tier cities of China. We found that, before January 30, 2020, all these regions except Beijing had a reproductive number R &gt; 1, and after January 30, all regions had a reproductive number R lesser than 1, indicating that the quarantine and control measures are effective in preventing the spread of COVID-19. The confirmation rate of Wuhan estimated by our model is 0.0643, substantially lower than that of Hubei excluding Wuhan (0.1914), and that of China excluding Hubei (0.2189), but it jumps to 0.3229 after February 12 when clinical evidence was adopted in new diagnosis guidelines. The number of unquarantined infected cases in Wuhan on February 12, 2020 is estimated to be 3,509 and declines to 334 on February 21, 2020. After fitting the model with data as of February 21, 2020, we predict that the end time of COVID-19 in Wuhan and Hubei is around late March, around mid March for China excluding Hubei, and before early March 2020 for the four tier-one cities. A total of 80,511 individuals are estimated to be infected in China, among which 49,510 are from Wuhan, 17,679 from Hubei (excluding Wuhan), and the rest 13,322 from other regions of China (excluding Hubei). Note that the estimates are from a deterministic ODE model and should be interpreted with some uncertainty. Conclusions - We suggest that rigorous quarantine and control measures should be kept before early March in Beijing, Shanghai, Guangzhou and Shenzhen, and before late March in Hubei. The model can also be useful to predict the trend of epidemic and provide quantitative guide for other countries at high risk of outbreak, such as South Korea, Japan, Italy and Iran.</pre>
+      </body>
+    </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#COPASI0">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Ramachandran</vCard:Family>
+                  <vCard:Given>Kausthubh</vCard:Given>
+                </vCard:N>
+                <vCard:EMAIL>kramachandran@ebi.ac.uk</vCard:EMAIL>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-08-26T10:14:39Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-08-26T10:14:39Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doid/DOID:0080600"/>
+            </rdf:Bag>
+          </bqbiol:isVersionOf>
+          <bqbiol:hasProperty>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000046"/>
+            </rdf:Bag>
+          </bqbiol:hasProperty>
+          <bqbiol:hasProperty>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000028"/>
+            </rdf:Bag>
+          </bqbiol:hasProperty>
+          <bqbiol:hasTaxon>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/taxonomy/9606"/>
+            </rdf:Bag>
+          </bqbiol:hasTaxon>
+          <bqbiol:hasTaxon>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/taxonomy/2697049"/>
+            </rdf:Bag>
+          </bqbiol:hasTaxon>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/pubmed/32219006"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+      <COPASI xmlns="http://www.copasi.org/static/sbml">
+        <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
+          <rdf:Description rdf:about="#COPASI0">
+            <bqbiol:hasProperty rdf:resource="urn:miriam:mamo:MAMO_0000028"/>
+            <bqbiol:hasProperty rdf:resource="urn:miriam:mamo:MAMO_0000046"/>
+            <bqbiol:hasTaxon rdf:resource="urn:miriam:taxonomy:2697049"/>
+            <bqbiol:hasTaxon rdf:resource="urn:miriam:taxonomy:9606"/>
+            <dcterms:bibliographicCitation>
+              <rdf:Description>
+                <CopasiMT:isDescribedBy rdf:resource="urn:miriam:pubmed:32219006"/>
+              </rdf:Description>
+            </dcterms:bibliographicCitation>
+            <dcterms:created>
+              <rdf:Description>
+                <dcterms:W3CDTF>2020-08-26T10:14:39Z</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:created>
+            <dcterms:creator>
+              <rdf:Description>
+                <vCard:EMAIL>kramachandran@ebi.ac.uk</vCard:EMAIL>
+                <vCard:N>
+                  <rdf:Description>
+                    <vCard:Family>Ramachandran</vCard:Family>
+                    <vCard:Given>Kausthubh</vCard:Given>
+                  </rdf:Description>
+                </vCard:N>
+                <vCard:ORG>
+                  <rdf:Description>
+                    <vCard:Orgname>EMBL-EBI</vCard:Orgname>
+                  </rdf:Description>
+                </vCard:ORG>
+              </rdf:Description>
+            </dcterms:creator>
+            <CopasiMT:isVersionOf rdf:resource="urn:miriam:doid:DOID:0080600"/>
+          </rdf:Description>
+        </rdf:RDF>
+      </COPASI>
+    </annotation>
+    <listOfFunctionDefinitions>
+      <functionDefinition metaid="COPASI47" id="Rate_Law_for_R1" name="Rate Law for R1">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI47">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T09:17:34Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <lambda>
+            <bvar>
+              <ci> alpha </ci>
+            </bvar>
+            <bvar>
+              <ci> S </ci>
+            </bvar>
+            <bvar>
+              <ci> U </ci>
+            </bvar>
+            <bvar>
+              <ci> N </ci>
+            </bvar>
+            <apply>
+              <divide/>
+              <apply>
+                <times/>
+                <ci> alpha </ci>
+                <ci> S </ci>
+                <ci> U </ci>
+              </apply>
+              <ci> N </ci>
+            </apply>
+          </lambda>
+        </math>
+      </functionDefinition>
+    </listOfFunctionDefinitions>
+    <listOfUnitDefinitions>
+      <unitDefinition id="length" name="length">
+        <listOfUnits>
+          <unit kind="metre" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="area" name="area">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume" name="volume">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="-3" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="time" name="time">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="86400"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance" name="substance">
+        <listOfUnits>
+          <unit kind="item" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="unit_0" name="dimensionless">
+        <listOfUnits>
+          <unit kind="dimensionless" exponent="0" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment metaid="COPASI1" id="China" name="China" spatialDimensions="3" size="1" constant="true">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI1">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C16428"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C25632"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI1">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:14:57Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C16428"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C25632"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="COPASI2" id="Susceptible" name="Susceptible" compartment="China" initialConcentration="9010000" boundaryCondition="false" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI2">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ido/0000514"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C171133"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI2">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:15:02Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ido:0000514"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C171133"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </species>
+      <species metaid="COPASI3" id="Unquarantined_Infected" name="Unquarantined_Infected" compartment="China" initialConcentration="258" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Wuhan - initial values
+Stage I - 258
+Stage II - 15270
+Stage III - 4000
+
+Hubei - initial values
+Stage I - 270
+Stage II - 5700
+
+China - initial values
+Stage I - 291 (Set model initial time to -30. Keep it at 0 for everything else)
+Stage II - 2800</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI3">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ido/0000511"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C171133"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI3">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:15:04Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ido:0000511"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C171133"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </species>
+      <species metaid="COPASI4" id="Quarantined_Infected" name="Quarantined_Infected" compartment="China" initialConcentration="0" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Wuhan - initial values
+Stage I - 0
+Stage II - 0
+Stage III - 5000
+
+Hubei - initial values
+Stage I - 0
+Stage II - 1500
+
+China - initial values
+Stage I - 0 (Set model initial time to -30 for Stage I alone. Keep it at 0 for everything else)
+Stage II - 2000</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI4">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C171133"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ido/0000511"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C25549"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI4">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:15:06Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ido:0000511"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C171133"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C25549"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </species>
+      <species metaid="COPASI5" id="Confirmed_Infected" name="Confirmed_Infected" compartment="China" initialConcentration="258" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <pre>Wuhan - initial values
+Stage I - 258
+Stage II - 2000
+Stage III - 36000
+
+Hubei - initial values
+Stage I - 0
+Stage II - 1600
+
+China - initial values
+Stage I - 0 (Set model initial time to -30. Keep it at 0 for everything else)
+Stage II - 4000</pre>
+          </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI5">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ido/0000511"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C171133"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C72159"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C25297"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI5">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:15:07Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ido:0000511"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C171133"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C25297"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C72159"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </species>
+      <species metaid="COPASI6" id="Cumulative_Infected" name="Cumulative_Infected" compartment="China" initialConcentration="516" boundaryCondition="true" constant="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI6">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ido/0000511"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C171133"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI6">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:15:08Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ido:0000511"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C171133"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </species>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter metaid="COPASI7" id="Trigger_Stage_I" name="Trigger_Stage_I" value="1" units="unit_0" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI7">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:18:00Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI8" id="Trigger_Stage_II" name="Trigger_Stage_II" value="0" units="unit_0" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI8">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:18:02Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI9" id="Trigger_Stage_III" name="Trigger_Stage_III" value="0" units="unit_0" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI9">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:18:06Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI10" id="Trigger_Wuhan" name="Trigger_Wuhan" value="1" units="unit_0" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI10">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:18:16Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI11" id="Trigger_Hubei" name="Trigger_Hubei" value="0" units="unit_0" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI11">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:18:46Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI12" id="Trigger_China" name="Trigger_China" value="0" units="unit_0" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI12">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:18:54Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI13" id="R" name="R" value="4.7092" constant="false">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI13">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:19:34Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI14" id="gamma_1" name="gamma_1" value="0.063" constant="false">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI14">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:19:38Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI15" id="gamma_2" name="gamma_2" value="0.05" constant="false">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI15">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:19:41Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI16" id="sigma" name="sigma" value="0" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI16">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:19:43Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI17" id="alpha" name="alpha" value="0.2966796" constant="false">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI17">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:20:05Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI18" id="beta" name="beta" value="0.05" constant="false">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI18">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:20:06Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI19" id="Total_Pop" name="Total_Pop" value="9010000" constant="false">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI19">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:22:44Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI20" id="Total_Pop_Wuhan" name="Total_Pop_Wuhan" value="9010000" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI20">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:23:01Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI21" id="Total_Pop_Hubei" name="Total_Pop_Hubei" value="48000000" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI21">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:23:32Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI22" id="Total_Pop_China" name="Total_Pop_China" value="1335000000" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI22">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:23:39Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI23" id="R_Stage_I_Wuhan" name="R_Stage_I_Wuhan" value="4.7092" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI23">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:24:00Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI24" id="gamma_1_Stage_I_Wuhan" name="gamma_1_Stage_I_Wuhan" value="0.063" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI24">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:24:05Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI25" id="gamma_2_Stage_I_Wuhan" name="gamma_2_Stage_I_Wuhan" value="0.05" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI25">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:24:10Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI26" id="R_Stage_II_Wuhan" name="R_Stage_II_Wuhan" value="0.7575" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI26">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:24:18Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI27" id="gamma_1_Stage_II_Wuhan" name="gamma_1_Stage_II_Wuhan" value="0.3917" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI27">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:24:23Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI28" id="gamma_2_Stage_II_Wuhan" name="gamma_2_Stage_II_Wuhan" value="0.0643" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI28">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:24:27Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI29" id="R_Stage_III_Wuhan" name="R_Stage_III_Wuhan" value="0.4797" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI29">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:24:35Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI30" id="gamma_1_Stage_III_Wuhan" name="gamma_1_Stage_III_Wuhan" value="0.6185" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI30">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:24:40Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI31" id="gamma_2_Stage_III_Wuhan" name="gamma_2_Stage_III_Wuhan" value="0.322" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI31">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:24:47Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI32" id="R_Stage_I_Hubei" name="R_Stage_I_Hubei" value="5.934" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI32">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:14:42Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI33" id="gamma_1_Stage_I_Hubei" name="gamma_1_Stage_I_Hubei" value="0.05" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI33">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:14:51Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI34" id="gamma_2_Stage_I_Hubei" name="gamma_2_Stage_I_Hubei" value="0.05" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI34">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:14:56Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI35" id="R_Stage_II_Hubei" name="R_Stage_II_Hubei" value="0.6079" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI35">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:15:05Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI36" id="gamma_1_Stage_II_Hubei" name="gamma_1_Stage_II_Hubei" value="0.488" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI36">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:15:11Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI37" id="gamma_2_Stage_II_Hubei" name="gamma_2_Stage_II_Hubei" value="0.1914" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI37">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:15:15Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI38" id="R_Stage_I_China" name="R_Stage_I_China" value="1.5283" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI38">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:42:27Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI39" id="gamma_1_Stage_I_China" name="gamma_1_Stage_I_China" value="0.1941" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI39">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:42:30Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI40" id="gamma_2_Stage_I_China" name="gamma_2_Stage_I_China" value="0.05" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI40">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:42:37Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI41" id="R_Stage_II_China" name="R_Stage_II_China" value="0.5753" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI41">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:42:44Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI42" id="gamma_1_Stage_II_China" name="gamma_1_Stage_II_China" value="0.5157" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI42">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:42:49Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+      <parameter metaid="COPASI43" id="gamma_2_Stage_II_China" name="gamma_2_Stage_II_China" value="0.2189" constant="true">
+        <annotation>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI43">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T12:42:54Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+      </parameter>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="Susceptible">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> Total_Pop </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Unquarantined_Infected">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> Trigger_Wuhan </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <cn> 258 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <cn> 15270 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_III </ci>
+                  <cn> 4000 </cn>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_Hubei </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <cn> 270 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <cn> 5700 </cn>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_China </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <cn> 291 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <cn> 2800 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Quarantined_Infected">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> Trigger_Wuhan </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_III </ci>
+                  <cn> 5000 </cn>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_Hubei </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <cn> 1500 </cn>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_China </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <cn> 2000 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Confirmed_Infected">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> Trigger_Wuhan </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <cn> 258 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <cn> 2000 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_III </ci>
+                  <cn> 36000 </cn>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_Hubei </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <cn> 1600 </cn>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_China </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <cn> 0 </cn>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <cn> 4000 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfRules>
+      <assignmentRule variable="Cumulative_Infected">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> Confirmed_Infected </ci>
+            <ci> Quarantined_Infected </ci>
+            <ci> Unquarantined_Infected </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="gamma_1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> Trigger_Wuhan </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <ci> gamma_1_Stage_I_Wuhan </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <ci> gamma_1_Stage_II_Wuhan </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_III </ci>
+                  <ci> gamma_1_Stage_III_Wuhan </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_Hubei </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <ci> gamma_1_Stage_I_Hubei </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <ci> gamma_1_Stage_II_Hubei </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_China </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <ci> gamma_1_Stage_I_China </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <ci> gamma_1_Stage_II_China </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="Total_Pop">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> Trigger_Wuhan </ci>
+              <ci> Total_Pop_Wuhan </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_Hubei </ci>
+              <ci> Total_Pop_Hubei </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_China </ci>
+              <ci> Total_Pop_China </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="gamma_2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> Trigger_Wuhan </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <ci> gamma_2_Stage_I_Wuhan </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <ci> gamma_2_Stage_II_Wuhan </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_III </ci>
+                  <ci> gamma_2_Stage_III_Wuhan </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_Hubei </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <ci> gamma_2_Stage_I_Hubei </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <ci> gamma_2_Stage_II_Hubei </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_China </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <ci> gamma_2_Stage_I_China </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <ci> gamma_2_Stage_II_China </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="beta">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <ci> gamma_2 </ci>
+            <apply>
+              <times/>
+              <apply>
+                <minus/>
+                <cn> 1 </cn>
+                <ci> gamma_2 </ci>
+              </apply>
+              <ci> sigma </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="R">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <plus/>
+            <apply>
+              <times/>
+              <ci> Trigger_Wuhan </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <ci> R_Stage_I_Wuhan </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <ci> R_Stage_II_Wuhan </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_III </ci>
+                  <ci> R_Stage_III_Wuhan </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_Hubei </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <ci> R_Stage_I_Hubei </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <ci> R_Stage_II_Hubei </ci>
+                </apply>
+              </apply>
+            </apply>
+            <apply>
+              <times/>
+              <ci> Trigger_China </ci>
+              <apply>
+                <plus/>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_I </ci>
+                  <ci> R_Stage_I_China </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> Trigger_Stage_II </ci>
+                  <ci> R_Stage_II_China </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule variable="alpha">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <times/>
+            <ci> R </ci>
+            <ci> gamma_1 </ci>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction metaid="COPASI44" id="Susceptible_to_Unquarantined" name="Susceptible_to_Unquarantined" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI44">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C128320"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C171133"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI44">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:15:35Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C128320"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C171133"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="Susceptible" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Unquarantined_Infected" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> China </ci>
+              <apply>
+                <ci> Rate_Law_for_R1 </ci>
+                <ci> alpha </ci>
+                <ci> Susceptible </ci>
+                <ci> Unquarantined_Infected </ci>
+                <ci> Total_Pop </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI45" id="Unquarantined_to_Quarantined" name="Unquarantined_to_Quarantined" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI45">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C171133"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C25458"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI45">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:15:37Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C171133"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C25458"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="Unquarantined_Infected" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Quarantined_Infected" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> China </ci>
+              <ci> gamma_1 </ci>
+              <ci> Unquarantined_Infected </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="COPASI46" id="Quarantined_to_Confirmed" name="Quarantined_to_Confirmed" reversible="false">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI46">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C171133"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ncit/C25458"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
+          <COPASI xmlns="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI46">
+                <dcterms:created>
+                  <rdf:Description>
+                    <dcterms:W3CDTF>2020-08-26T10:15:38Z</dcterms:W3CDTF>
+                  </rdf:Description>
+                </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C171133"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:ncit:C25458"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </COPASI>
+        </annotation>
+        <listOfReactants>
+          <speciesReference species="Quarantined_Infected" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Confirmed_Infected" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> China </ci>
+              <ci> beta </ci>
+              <ci> Quarantined_Infected </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
