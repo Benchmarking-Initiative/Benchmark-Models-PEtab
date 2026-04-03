@@ -137,17 +137,17 @@
       <parameter metaid="H89_level" id="H89_level" value="0" units="substance"/>
       <parameter metaid="IBMX_level" id="IBMX_level" value="0" units="substance"/>
       <parameter metaid="Rp8_Br_cAMPS_pAB_level" id="Rp8_Br_cAMPS_pAB_level" value="0" units="substance"/>
-      <parameter metaid="Rp8_Br_cAMPS_pAB_time" id="Rp8_Br_cAMPS_pAB_incubation_time" value="0" units="time"/>
+      <parameter metaid="Rp8_Br_cAMPS_pAB_time" id="Rp8_Br_cAMPS_pAB_time" value="0" units="time"/>
       <parameter metaid="H89_time" id="H89_time" value="0" units="time"/>
       <parameter metaid="IBMX_time" id="IBMX_time" value="0" units="time"/>
       <parameter metaid="Rp8_pCPT_cAMPS_pAB_level" id="Rp8_pCPT_cAMPS_pAB_level" value="0" units="substance"/>
-      <parameter metaid="Rp8_pCPT_cAMPS_pAB_time" id="Rp8_pCPT_cAMPS_pAB_incubation_time" value="0" units="time"/>
+      <parameter metaid="Rp8_pCPT_cAMPS_pAB_time" id="Rp8_pCPT_cAMPS_pAB_time" value="0" units="time"/>
       <parameter metaid="Rp_cAMPS_pAB_level" id="Rp_cAMPS_pAB_level" value="0" units="substance"/>
-      <parameter metaid="Rp_cAMPS_pAB_time" id="Rp_cAMPS_pAB_incubation_time" value="0" units="time"/>
+      <parameter metaid="Rp_cAMPS_pAB_time" id="Rp_cAMPS_pAB_time" value="0" units="time"/>
       <parameter metaid="Sp8_Br_cAMPS_AM_level" id="Sp8_Br_cAMPS_AM_level" value="0" units="substance"/>
       <parameter metaid="Sp8_Br_cAMPS_AM_time" id="Sp8_Br_cAMPS_AM_time" value="0" units="time"/>
       <parameter metaid="fourABnOH_level" id="fourABnOH_level" value="0" units="substance"/>
-      <parameter metaid="fourABnOH_time" id="fourABnOH_incubation_time" value="0" units="time"/>
+      <parameter metaid="fourABnOH_time" id="fourABnOH_time" value="0" units="time"/>
       <!-- H1: different KD -->
       <parameter metaid="xi_KD_Rp8_Br_cAMPS"      id="xi_KD_Rp8_Br_cAMPS"      value="0"/>
       <parameter metaid="xi_KD_Rp8_pCPT_cAMPS"    id="xi_KD_Rp8_pCPT_cAMPS"    value="0"/>
@@ -256,7 +256,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <ci> Rp8_Br_cAMPS_pAB_incubation_time </ci>
+                    <ci> Rp8_Br_cAMPS_pAB_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
@@ -281,7 +281,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <ci> Rp8_pCPT_cAMPS_pAB_incubation_time </ci>
+                    <ci> Rp8_pCPT_cAMPS_pAB_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
@@ -306,7 +306,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <ci> Rp_cAMPS_pAB_incubation_time </ci>
+                    <ci> Rp_cAMPS_pAB_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
@@ -356,7 +356,7 @@
                   <apply>
                     <minus/>
                     <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
-                    <ci> fourABnOH_incubation_time </ci>
+                    <ci> fourABnOH_time </ci>
                   </apply>
                   <cn type="integer"> 0 </cn>
                 </apply>
