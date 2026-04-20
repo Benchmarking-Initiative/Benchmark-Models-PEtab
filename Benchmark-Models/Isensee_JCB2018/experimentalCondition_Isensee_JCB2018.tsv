@@ -1,4 +1,4 @@
-conditionId	conditionName	Fsk_level	Fsk_time	H89_level	H89_time	IBMX_level	IBMX_time	Rp8_Br_cAMPS_pAB_level	Rp8_Br_cAMPS_pAB_incubation_time	Rp8_pCPT_cAMPS_pAB_level	Rp8_pCPT_cAMPS_pAB_incubation_time	Rp_cAMPS_pAB_level	Rp_cAMPS_pAB_incubation_time	Sp8_Br_cAMPS_AM_level	Sp8_Br_cAMPS_AM_time	fourABnOH_level	fourABnOH_incubation_time
+conditionId	conditionName	Fsk_level	Fsk_time	H89_level	H89_time	IBMX_level	IBMX_time	Rp8_Br_cAMPS_pAB_level	Rp8_Br_cAMPS_pAB_time	Rp8_pCPT_cAMPS_pAB_level	Rp8_pCPT_cAMPS_pAB_time	Rp_cAMPS_pAB_level	Rp_cAMPS_pAB_time	Sp8_Br_cAMPS_AM_level	Sp8_Br_cAMPS_AM_time	fourABnOH_level	fourABnOH_time
 model1_data1	JI09_150302_Drg345_343_CycNuc__4_ABnOH_and_ctrl	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
 model1_data2	JI09_150302_Drg345_343_CycNuc__4_ABnOH_and_ctrl	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	30
 model1_data3	JI09_150302_Drg345_343_CycNuc__4_ABnOH_and_ctrl	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	45
