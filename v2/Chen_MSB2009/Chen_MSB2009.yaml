@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Chen_MSB2009.tsv
+model_files:
+  model_Chen_MSB2009:
+    location: model_Chen_MSB2009.xml
+    language: sbml
+measurement_files:
+- measurementData_Chen_MSB2009.tsv
+condition_files:
+- experimentalCondition_Chen_MSB2009.tsv
+experiment_files:
+- experiments.tsv
+observable_files:
+- observables_Chen_MSB2009.tsv
+mapping_files: []
+extensions: {}

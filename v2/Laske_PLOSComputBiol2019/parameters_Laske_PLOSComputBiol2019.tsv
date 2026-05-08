@@ -1,0 +1,14 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorParameters
+k_imp	k_{Imp}	1e-10	10000000000	0.296	true	
+k_syn_R_M	R^{Syn}_{R_M}	1e-10	10000000000	30600.0	true	
+k_syn_R_C	{R^{Syn}}_{R_C}	1e-10	10000000000	1.53	true	
+k_syn_R_V	R^{Syn}_{R_V}	1e-10	10000000000	100.93	true	
+k_bind_M1	k^{Bind}_{M1}	1e-10	10000000000	1.82e-06	true	
+k_rel	k^{Release}	1e-10	10000000000	0.0011	true	
+vRNA_offset	vRNA_{offset}	1e-10	10000000000	535.0	true	
+Int_nuc_off	Int^{nuc}_offset	1e-10	10000000000	45.8	true	
+scale_sigma_FracNucInt	Stdev frac^{Int}_{nuc}	0.001	1000	1.0	true	
+sigma_RM5	Stdev R_{M5}	0.001	1000	1.0	true	
+sigma_RV	Stdev R^{SegTot}_{V}	0.001	1000	1.0	true	
+sigma_RC	Stdev R^{SegTot}_{C}	0.001	1000	1.0	true	
+sigma_Vrel	Stdev V_{rel}	0.001	1000	1.0	true	
