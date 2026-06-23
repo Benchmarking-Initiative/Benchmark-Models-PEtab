@@ -38,6 +38,9 @@ bmp-create-overview = "benchmark_models_petab.overview:main"
 [tool.setuptools_scm]
 root = "../.."
 
+[tool.setuptools_scm.tag]
+strict = true  # only consider tags with at least one dot
+
 [tool.ruff]
 line-length = 79
 
