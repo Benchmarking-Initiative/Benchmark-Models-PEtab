@@ -1,0 +1,17 @@
+experimentId	observableId	measurement	time	observableParameters	noiseParameters
+	task0_model0_perelson1_V	1029000.0	0.0		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	1087000.0	0.105		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	2158000.0	0.169		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	1860000.0	0.282		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	2195000.0	0.492		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	1567000.0	0.757		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	3208000.0	1.029		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	2293000.0	1.253		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	1342000.0	1.533		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	1197000.0	1.75		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	987100.0	2.038		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	697300.0	3.013		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	503800.0	3.987		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	282200.0	4.968		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	172700.0	5.972		sd_task0_model0_perelson1_V
+	task0_model0_perelson1_V	91618.242	6.973		sd_task0_model0_perelson1_V

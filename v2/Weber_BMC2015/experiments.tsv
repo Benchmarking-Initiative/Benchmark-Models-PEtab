@@ -1,0 +1,5 @@
+experimentId	conditionId	time
+experiment__model1_data1___model1_data2	model1_data1	-inf
+experiment__model1_data1___model1_data2	model1_data2	0.0
+experiment__model1_data1___model1_data3	model1_data1	-inf
+experiment__model1_data1___model1_data3	model1_data3	0.0
