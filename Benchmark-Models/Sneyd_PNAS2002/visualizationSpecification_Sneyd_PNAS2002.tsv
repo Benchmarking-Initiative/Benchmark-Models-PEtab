@@ -1,10 +1,10 @@
 plotId	plotTypeData	plotName	plotTypeSimulation	xLabel	xScale	yLabel	yScale	datasetId	legendEntry	yValues	xValues	xOffset	yOffset
-plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__1_open_probability	10 μM IP₃,  0.1 μM Ca²⁺	open_probability	time	0	0
-plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__2_open_probability	10 μM IP₃,  0.2 μM Ca²⁺	open_probability	time	0	0
-plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__3_open_probability	10 μM IP₃,  0.4 μM Ca²⁺	open_probability	time	0	0
-plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__4_open_probability	10 μM IP₃,  1 μM Ca²⁺	open_probability	time	0	0
-plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__5_open_probability	10 μM IP₃,  3 μM Ca²⁺	open_probability	time	0	0
-plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__6_open_probability	10 μM IP₃,  10 μM Ca²⁺	open_probability	time	0	0
-plot2	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	IP3_dose_response__1_open_probability	3 μM IP₃,  0.4 μM Ca²⁺	open_probability	time	0	0
-plot2	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	IP3_dose_response__2_open_probability	5 μM IP₃,  0.4 μM Ca²⁺	open_probability	time	0	0
-plot2	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	IP3_dose_response__3_open_probability	10 μM IP₃,  0.4 μM Ca²⁺	open_probability	time	0	0
+plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__1_open_probability	10 μM IP$_3$,  0.1 μM Ca$^{2{+}}$	open_probability	time	0	0
+plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__2_open_probability	10 μM IP$_3$,  0.2 μM Ca$^{2{+}}$	open_probability	time	0	0
+plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__3_open_probability	10 μM IP$_3$,  0.4 μM Ca$^{2{+}}$	open_probability	time	0	0
+plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__4_open_probability	10 μM IP$_3$,  1 μM Ca$^{2{+}}$	open_probability	time	0	0
+plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__5_open_probability	10 μM IP$_3$,  3 μM Ca$^{2{+}}$	open_probability	time	0	0
+plot1	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	Ca_dose_response__6_open_probability	10 μM IP$_3$,  10 μM Ca$^{2{+}}$	open_probability	time	0	0
+plot2	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	IP3_dose_response__1_open_probability	3 μM IP$_3$,  0.4 μM Ca$^{2{+}}$	open_probability	time	0	0
+plot2	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	IP3_dose_response__2_open_probability	5 μM IP$_3$,  0.4 μM Ca$^{2{+}}$	open_probability	time	0	0
+plot2	MeanAndSD		LinePlot	time [s]	lin	open probability	lin	IP3_dose_response__3_open_probability	10 μM IP$_3$,  0.4 μM Ca$^{2{+}}$	open_probability	time	0	0
