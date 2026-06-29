@@ -3,6 +3,7 @@
 from pathlib import Path
 from typing import Dict, List
 import argparse
+from warnings import warn
 
 import libsbml
 import numpy as np
@@ -13,7 +14,9 @@ from sbmlmath import sbml_math_to_sympy
 from sbmlmath.csymbol import TimeSymbol
 from . import MODELS, get_problem, get_problem_yaml_path
 import sympy as sp
+import re
 from sympy.core.relational import Relational
+import requests
 
 REPO_URL = "https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/"
 
@@ -426,6 +429,95 @@ def create_html_table(dest: Path) -> None:
     layout = column(heading, preamble, data_table, sizing_mode="stretch_both")
     output_file(dest, title="Benchmark Problems")
     save(layout)
+
+
+def bib_for_doi(doi: str) -> str:
+    """
+    Get bibtex entry for a DOI.
+    """
+    r = requests.get(
+        f"https://doi.org/{doi}",
+        headers={"Accept": "application/x-bibtex"},
+        allow_redirects=True,
+    )
+    r.raise_for_status()
+    return r.text
+
+
+def pmid_to_doi(pmid: str) -> str | None:
+    """
+    Convert a PubMed ID (PMID) to a DOI using the NCBI E-utilities API.
+    """
+    r = requests.get(
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+        params={"db": "pubmed", "id": pmid, "retmode": "json"},
+    )
+    r.raise_for_status()
+    article_ids = r.json()["result"][pmid]["articleids"]
+    for id_obj in article_ids:
+        if id_obj["idtype"] == "doi":
+            return id_obj["value"]
+    return None
+
+
+def generate_bibtex(stream) -> None:
+    """Fetch BibTeX entries for all benchmark models and write them to a stream.
+
+    For each problem, looks up the paper DOI from the model's reference URIs,
+    fetch the BibTeX entry from doi.org, and rename the citation key to the
+    PEtab problem ID. If a model has multiple DOIs, the first one is used.
+
+    :param stream: A writable text stream (e.g. an opened file or sys.stdout).
+
+    Example::
+
+        with open("references.bib", "w") as f:
+            generate_bibtex(f)
+    """
+
+    for petab_problem_id in MODELS:
+        petab_problem = get_problem(petab_problem_id)
+        reference_uris = get_reference_uris(petab_problem.sbml_model)
+        reference_uris = [x for x in reference_uris if "biomodels" not in x]
+        # let's assume there is only one DOI per model, or the first one
+        #  is the most important one
+        if not reference_uris:
+            warn(
+                f"No usable reference found for {petab_problem_id}, "
+                "skipping BibTeX entry"
+            )
+            continue
+        if len(reference_uris) > 1:
+            warn(
+                f"Multiple reference found for {petab_problem_id}, "
+                f"using the first one: {reference_uris}"
+            )
+
+        reference_uri = reference_uris[0]
+        doi = None
+        for doi_prefix in ("http://identifiers.org/doi/", "https://doi.org/"):
+            if reference_uri.startswith(doi_prefix):
+                doi = reference_uri.removeprefix(doi_prefix)
+                break
+        else:
+            if reference_uri.startswith("http://identifiers.org/pubmed/"):
+                pmid = reference_uri.removeprefix(
+                    "http://identifiers.org/pubmed/"
+                )
+                doi = pmid_to_doi(pmid)
+
+        if not doi:
+            warn(
+                f"Could not find DOI for {petab_problem_id}, "
+                "skipping BibTeX entry"
+            )
+            continue
+
+        entry = bib_for_doi(doi)
+        entry = re.sub(
+            r"(@\w+\{)[^,]+", rf"\g<1>{petab_problem_id}", entry, count=1
+        )
+        stream.write(entry + "\n\n")
 
 
 def main():
