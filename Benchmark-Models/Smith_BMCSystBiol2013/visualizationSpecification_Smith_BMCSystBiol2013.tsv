@@ -17,8 +17,8 @@ figure3B	Figure 3B	BarPlot	MeanAndSD	Ins (time = 120)	extracellular_ROS	lin	cond
 figure3B	Figure 3B	BarPlot	MeanAndSD	Ins (time = 240)	extracellular_ROS	lin	condition	Glucose_uptake__240__3B	glucose uptake	Ins (time = 240)
 figure3B	Figure 3B	BarPlot	MeanAndSD	Ins+H2O2 (time = 120)	extracellular_ROS	lin	condition	Glucose_uptake__120__3B	glucose uptake	Ins+H₂O₂ (time = 120)
 figure3B	Figure 3B	BarPlot	MeanAndSD	Ins+H2O2 (time = 240)	extracellular_ROS	lin	condition	Glucose_uptake__240__3B	glucose uptake	Ins+H₂O₂ (time = 240)
-figure2B	Figure 2B	LinePlot	MeanAndSD	base	Ins	log10	insulin (M)	Cell_Bound_Ins__2B	Active Enzyme [a.u.]	Cell_Bound_Ins__2B
-figure2B	Figure 2B	LinePlot	MeanAndSD	base	Ins	log10	insulin (M)	Glucose_uptake__2B	Active Enzyme [a.u.]	Glucose_uptake__2B
-figure2B	Figure 2B	LinePlot	MeanAndSD	base	Ins	log10	insulin (M)	PI3K_activity__2B	Active Enzyme [a.u.]	PI3K_activity__2B
+figure2B	Figure 2B	LinePlot	MeanAndSD	base	Ins	log10	insulin (number of molecules)	Cell_Bound_Ins__2B	Active Enzyme [a.u.]	Cell_Bound_Ins__2B
+figure2B	Figure 2B	LinePlot	MeanAndSD	base	Ins	log10	insulin (number of molecules)	Glucose_uptake__2B	Active Enzyme [a.u.]	Glucose_uptake__2B
+figure2B	Figure 2B	LinePlot	MeanAndSD	base	Ins	log10	insulin (number of molecules)	PI3K_activity__2B	Active Enzyme [a.u.]	PI3K_activity__2B
 figure2C	Figure 2C	LinePlot	MeanAndSD	fig2C	time	lin	time [min]	IRSYp__2C	Active Enzyme [a.u.]	IRS-Yp
 figure2D	Figure 2D	LinePlot	MeanAndSD	fig2D	time	lin	time [min]	PTP_activ__2D	Active Enzyme [a.u.]	PTP1B
