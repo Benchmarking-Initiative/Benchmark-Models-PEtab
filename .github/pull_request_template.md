@@ -17,6 +17,7 @@
   - [ ] A "simulated data" measurement table is included, using the nominal parameters
   - [ ] A visualization table is included, that can be used with the simulated data to reproduce figures from the original publication
   - [ ] The PEtab problem is valid (check with e.g. `petablint -vy problem.yaml`)
+  - [ ] Labels (e.g. `parameterName` in the parameter table or `xLabel` in the visualization table) encode special characters with tex-style strings instead of unicode, e.g. use `H$_2$O` for water.
 - [ ] The PEtab problem author(s) are assigned to the GitHub issue
 - [ ] The README has been updated with `bmp-create-overview  --update` (requires `pip install -e src/python` from the repository root)
   - [ ] The new PEtab problem row in the generated table has the correct reference (and other entries)
