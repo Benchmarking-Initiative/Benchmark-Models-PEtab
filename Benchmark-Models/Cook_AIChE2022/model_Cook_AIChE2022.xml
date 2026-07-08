@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <annotation>
+    <SimBiology xmlns="http://www.mathworks.com">
+      <Version Major="6" Minor="1" Point="0"/>
+    </SimBiology>
+  </annotation>
+  <model metaid="Cook_AIChE2022" id="Cook_AIChE2022" name="Cook_AIChE2022">
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#Cook_AIChE2022">
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1002/aic.17809"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfCompartments>
+      <compartment id="Bone" name="Bone" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="Osteocytes__S" name="Osteocytes (S)" compartment="Bone" initialConcentration="180" boundaryCondition="false" constant="false"/>
+      <species id="Pre_Osteoblasts__P" name="Pre-Osteoblasts (P)" compartment="Bone" initialConcentration="0" boundaryCondition="false" constant="false"/>
+      <species id="Osteoblasts__B" name="Osteoblasts (B)" compartment="Bone" initialConcentration="0" boundaryCondition="false" constant="false"/>
+      <species id="Osteoclasts__C" name="Osteoclasts (C)" compartment="Bone" initialConcentration="0" boundaryCondition="false" constant="false"/>
+      <species id="Bone_volume__z" name="Bone volume (z)" compartment="Bone" initialConcentration="100" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="alpha_1" name="alpha_1" value="0.5" constant="true"/>
+      <parameter id="alpha_2" name="alpha_2" value="0.1" constant="true"/>
+      <parameter id="alpha_3" name="alpha_3" value="0.1" constant="true"/>
+      <parameter id="beta_1" name="beta_1" value="0.1" constant="true"/>
+      <parameter id="delta" name="delta" value="0.1" constant="true"/>
+      <parameter id="beta_2" name="beta_2" value="0.1" constant="true"/>
+      <parameter id="alpha_4" name="alpha_4" value="0.1" constant="true"/>
+      <parameter id="K_S" name="K_S" value="200" constant="true"/>
+      <parameter id="k1" name="k1" value="0.6983" constant="true"/>
+      <parameter id="k2" name="k2" value="0.015445" constant="true"/>
+      <parameter id="g_31" name="g_31" value="1" constant="true"/>
+      <parameter id="g_21" name="g_21" value="2" constant="true"/>
+      <parameter id="g_22" name="g_22" value="1" constant="true"/>
+      <parameter id="g_32" name="g_32" value="1" constant="true"/>
+      <parameter id="g_41" name="g_41" value="1" constant="true"/>
+      <parameter id="g_42" name="g_42" value="1" constant="true"/>
+      <parameter id="g_43" name="g_43" value="-1" constant="true"/>
+      <parameter id="g_44" name="g_44" value="1" constant="true"/>
+      <parameter id="f_12" name="f_12" value="1" constant="true"/>
+      <parameter id="f_14" name="f_14" value="1" constant="true"/>
+      <parameter id="f_23" name="f_23" value="1" constant="true"/>
+      <parameter id="f_34" name="f_34" value="1" constant="true"/>
+      <parameter id="epsilon" name="epsilon" value="1" constant="true"/>
+      <parameter id="beta_3" name="beta_3" value="0.1" constant="true"/>
+      <parameter id="rho" name="rho" value="20" constant="true"/>
+      <parameter id="beta1adj" name="beta1adj" value="0.177617716487146" constant="true"/>
+      <parameter id="alpha3adj" name="alpha3adj" value="0.260931032760533" constant="true"/>
+      <parameter id="beta2adj" name="beta2adj" value="0.000709650034656732" constant="true"/>
+      <parameter id="K" name="K" value="6.26349707992014" constant="true"/>
+      <parameter id="piwnta" name="piwnta" value="1" constant="false"/>
+      <parameter id="Wnt" name="Wnt" value="50" constant="true"/>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="Osteocytes__S">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <minus/>
+            <ci> K_S </ci>
+            <ci> rho </ci>
+          </apply>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfRules>
+      <assignmentRule variable="piwnta">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> Wnt </ci>
+            <apply>
+              <plus/>
+              <ci> Wnt </ci>
+              <ci> K </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction id="Differentiation_of_Osteoblast_to_Osteocytes" name="Differentiation of Osteoblast to Osteocytes" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Osteoblasts__B" stoichiometry="1"/>
+          <speciesReference species="Osteocytes__S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Osteocytes__S" stoichiometry="1"/>
+          <speciesReference species="Osteocytes__S" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Bone </ci>
+              <ci> alpha_1 </ci>
+              <apply>
+                <power/>
+                <ci> Osteoblasts__B </ci>
+                <ci> g_31 </ci>
+              </apply>
+              <apply>
+                <minus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> Osteocytes__S </ci>
+                  <ci> K_S </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Differentiation_of_MSC_cells_to_Pre_Osteoblast_cells" name="Differentiation of MSC cells to Pre-Osteoblast cells" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Osteocytes__S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Pre_Osteoblasts__P" stoichiometry="1"/>
+          <speciesReference species="Osteocytes__S" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Bone </ci>
+              <ci> alpha_2 </ci>
+              <apply>
+                <power/>
+                <ci> Osteocytes__S </ci>
+                <ci> g_21 </ci>
+              </apply>
+              <apply>
+                <minus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <ci> Osteocytes__S </ci>
+                  <ci> K_S </ci>
+                </apply>
+              </apply>
+              <ci> g_22 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Proliferation_of_pre_osteoblasts" name="Proliferation of pre-osteoblasts" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Osteocytes__S" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Pre_Osteoblasts__P" stoichiometry="1"/>
+          <speciesReference species="Osteocytes__S" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> Bone </ci>
+                <ci> alpha_3 </ci>
+                <apply>
+                  <power/>
+                  <ci> Pre_Osteoblasts__P </ci>
+                  <ci> g_32 </ci>
+                </apply>
+                <apply>
+                  <minus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> Osteocytes__S </ci>
+                    <ci> K_S </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> alpha3adj </ci>
+                <ci> piwnta </ci>
+                <apply>
+                  <power/>
+                  <ci> Pre_Osteoblasts__P </ci>
+                  <ci> f_12 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Differentiation_of_Pre_Osteoblast_to_mature_osteoblast" name="Differentiation of Pre-Osteoblast to mature osteoblast" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Pre_Osteoblasts__P" stoichiometry="1"/>
+          <speciesReference species="Osteoclasts__C" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Osteoblasts__B" stoichiometry="1"/>
+          <speciesReference species="Osteoclasts__C" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <plus/>
+              <apply>
+                <times/>
+                <ci> Bone </ci>
+                <ci> beta_1 </ci>
+                <apply>
+                  <power/>
+                  <ci> Pre_Osteoblasts__P </ci>
+                  <ci> f_12 </ci>
+                </apply>
+                <apply>
+                  <power/>
+                  <ci> Osteoclasts__C </ci>
+                  <ci> f_14 </ci>
+                </apply>
+              </apply>
+              <apply>
+                <times/>
+                <ci> beta1adj </ci>
+                <ci> piwnta </ci>
+                <apply>
+                  <power/>
+                  <ci> Pre_Osteoblasts__P </ci>
+                  <ci> f_12 </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Apoptosis_of_pre_osteoblast" name="Apoptosis of pre-osteoblast" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Pre_Osteoblasts__P" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Bone </ci>
+              <ci> delta </ci>
+              <ci> Pre_Osteoblasts__P </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Apoptosis_of_osteoblasts" name="Apoptosis of osteoblasts" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Osteoblasts__B" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Bone </ci>
+              <apply>
+                <minus/>
+                <ci> beta_2 </ci>
+                <apply>
+                  <times/>
+                  <ci> beta2adj </ci>
+                  <ci> piwnta </ci>
+                </apply>
+              </apply>
+              <apply>
+                <power/>
+                <ci> Osteoblasts__B </ci>
+                <ci> f_23 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Differentiation_of_pre_osteoclast_to_osteoclasts" name="Differentiation of pre-osteoclast to osteoclasts" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Osteocytes__S" stoichiometry="1"/>
+          <speciesReference species="Pre_Osteoblasts__P" stoichiometry="1"/>
+          <speciesReference species="Osteoblasts__B" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Osteoclasts__C" stoichiometry="1"/>
+          <speciesReference species="Osteocytes__S" stoichiometry="1"/>
+          <speciesReference species="Pre_Osteoblasts__P" stoichiometry="1"/>
+          <speciesReference species="Osteoblasts__B" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Bone </ci>
+              <ci> alpha_4 </ci>
+              <apply>
+                <power/>
+                <ci> Osteocytes__S </ci>
+                <ci> g_41 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <ci> Pre_Osteoblasts__P </ci>
+                <ci> g_42 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <plus/>
+                  <ci> epsilon </ci>
+                  <ci> Osteoblasts__B </ci>
+                </apply>
+                <ci> g_43 </ci>
+              </apply>
+              <apply>
+                <power/>
+                <apply>
+                  <minus/>
+                  <cn type="integer"> 1 </cn>
+                  <apply>
+                    <divide/>
+                    <ci> Osteocytes__S </ci>
+                    <ci> K_S </ci>
+                  </apply>
+                </apply>
+                <ci> g_44 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Apoptosis_of_osteoclasts" name="Apoptosis of osteoclasts" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Osteoclasts__C" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Bone </ci>
+              <ci> beta_3 </ci>
+              <apply>
+                <power/>
+                <ci> Osteoclasts__C </ci>
+                <ci> f_34 </ci>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Resorption_of_bone" name="Resorption of bone" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Bone_volume__z" stoichiometry="1"/>
+          <speciesReference species="Osteoclasts__C" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Osteoclasts__C" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Bone </ci>
+              <ci> k1 </ci>
+              <ci> Osteoclasts__C </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="Formation_of_bone" name="Formation of bone" reversible="false">
+        <listOfReactants>
+          <speciesReference species="Osteoblasts__B" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Bone_volume__z" stoichiometry="1"/>
+          <speciesReference species="Osteoblasts__B" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> Bone </ci>
+              <ci> k2 </ci>
+              <ci> Osteoblasts__B </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+    <listOfEvents>
+      <event id="cycle_reset_1" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 100 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_2" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 200 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_3" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 300 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_4" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 400 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_5" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 500 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_6" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 600 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_7" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 700 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_8" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 800 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_9" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 900 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_10" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 1000 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event id="cycle_reset_11" useValuesFromTriggerTime="true">
+        <trigger>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <geq/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn> 1100 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <listOfEventAssignments>
+          <eventAssignment variable="Osteocytes__S">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <minus/>
+                <ci> Osteocytes__S </ci>
+                <cn type="integer"> 20 </cn>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Pre_Osteoblasts__P">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Pre_Osteoblasts__P </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Pre_Osteoblasts__P </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoblasts__B">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoblasts__B </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoblasts__B </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+          <eventAssignment variable="Osteoclasts__C">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <piecewise>
+                <piece>
+                  <cn type="integer"> 0 </cn>
+                  <apply>
+                    <lt/>
+                    <ci> Osteoclasts__C </ci>
+                    <cn type="integer"> 1 </cn>
+                  </apply>
+                </piece>
+                <otherwise>
+                  <ci> Osteoclasts__C </ci>
+                </otherwise>
+              </piecewise>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+    </listOfEvents>
+  </model>
+</sbml>

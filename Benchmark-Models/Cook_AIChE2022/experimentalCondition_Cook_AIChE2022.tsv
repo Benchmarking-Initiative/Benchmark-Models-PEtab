@@ -1,0 +1,4 @@
+conditionId	conditionName	Wnt
+Wnt_m1	Wnt-10b fold change -1	-1
+Wnt_5	Wnt-10b fold change 5	5
+Wnt_50	Wnt-10b fold change 50	50

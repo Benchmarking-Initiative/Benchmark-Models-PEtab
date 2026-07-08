@@ -1,0 +1,5 @@
+observableId	simulationConditionId	measurement	time	noiseParameters	datasetId
+obs_BV	Wnt_m1	-29.7	400	1	Bennett2005_4cycles
+obs_BV	Wnt_m1	-41.9	600	1	Bennett2007_6cycles_Wnt_m1
+obs_BV	Wnt_5	69.2	600	1	Bennett2007_6cycles_Wnt_5
+obs_BV	Wnt_50	339.0	1200	1	Bennett2005_12cycles
