@@ -1,32 +1,31 @@
 #!/usr/bin/env python3
-"""Reproduce figures from Cook et al. (2022) using PEtab visualization.
+"""Reproduce figures from Cook et al. (2022) from the PEtab v2 problem.
 
-The script simulates the PEtab model in this directory (via libroadrunner)
-and plots the results with ``petab.v1.visualize``. It produces:
+The multiple remodeling cycles are encoded in the PEtab **experiment** and
+**condition** tables rather than in the SBML model. This script therefore
+simulates the event-free model cycle-by-cycle with libroadrunner, applying the
+``cycle_reset`` condition (osteocytes ``S -> S - 20``; any of ``P``, ``B``,
+``C`` below 1 set to 0) at each 100-day boundary -- exactly the semantics of
+the ``experiments_Cook_AIChE2022.tsv`` table. The nominal parameters and the
+measured data are read from the PEtab v2 problem.
+
+Figures (using the numbering of the original publication where applicable):
 
 1. ``fig1_validation_doseresponse.png`` -- BV/TV change vs Wnt-10b fold change,
-   model fit vs the Bennett 2005/2007 data (the committed PEtab visualization),
-   now also overlaying the Roser-Page 2014 validation points.
-2. ``fig2_bone_volume_vs_time.png`` -- relative bone volume over the multiple
-   remodeling cycles for Wnt-10b fold changes -1, 5 and 50.
+   simulation vs the Bennett 2005/2007 fitting data and the Roser-Page 2014
+   validation data.
+2. ``fig2_bone_volume_vs_time.png`` -- relative bone volume over the remodeling
+   cycles for Wnt-10b fold changes -1, 5 and 50.
 3. ``fig3_cell_populations_Wnt50.png`` -- osteocyte / pre-osteoblast /
    osteoblast / osteoclast dynamics for a Wnt-10b fold change of 50.
-
-It additionally reproduces three figures using the paper's figure numbering:
-
-4. ``fig4_validation_roserpage.png`` -- Figure 4: model validation against the
-   Roser-Page (2014) data. Relative bone volume over 12 remodeling cycles at a
-   Wnt-10b fold change of 1.8, with the 1.2-2.4 fold-change envelope shaded, vs
-   the two Roser-Page BV/TV data points (126.6 +/- 19.2 % at 600 d / 6 cycles
-   and 136.6 +/- 40.6 % at 1200 d / 12 cycles).
+4. ``fig4_validation_roserpage.png`` -- Figure 4: validation against Roser-Page
+   2014 (bone volume at fold change 1.8, 1.2-2.4 envelope shaded).
 5. ``fig5_cell_dynamics_single_cycle.png`` -- Figure 5: activated cell-population
-   dynamics over a single remodeling cycle for Wnt-10b fold changes -1, 5 and 50.
-   (A) osteocytes, (B) pre-osteoblasts, (C) osteoblasts, (D) osteoclasts.
+   dynamics over a single remodeling cycle for fold changes -1, 5 and 50.
 6. ``fig6_auc_ratios.png`` -- Figure 6: pre-osteoblast:osteoblast and
-   osteoclast:osteoblast area-under-curve ratios over a single remodeling cycle
-   as a function of the Wnt-10b fold change.
+   osteoclast:osteoblast AUC ratios over a single cycle vs Wnt-10b fold change.
 
-Requirements: petab, libroadrunner, matplotlib, numpy, pandas.
+Requirements: petab>=0.6 (v2 support), libroadrunner, matplotlib, numpy.
 Run from anywhere: ``python make_figures.py`` (figures are written next to it).
 """
 from pathlib import Path
@@ -35,51 +34,74 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 import roadrunner
-import petab.v1 as petab
-from petab.v1.visualize import plot_problem, plot_with_vis_spec
+import petab.v2 as petab
 
 HERE = Path(__file__).resolve().parent
 PID = "Cook_AIChE2022"
 SBML = str(HERE / f"model_{PID}.xml")
+CYCLE = 100.0  # days per remodeling cycle
+trapz = getattr(np, "trapezoid", None) or np.trapz  # numpy>=2 renamed trapz
+
+STATES = ["Osteocytes__S", "Pre_Osteoblasts__P", "Osteoblasts__B",
+          "Osteoclasts__C", "Bone_volume__z"]
+Z = STATES.index("Bone_volume__z")
 
 problem = petab.Problem.from_yaml(str(HERE / f"{PID}.yaml"))
-nominal = dict(zip(problem.parameter_df.index, problem.parameter_df["nominalValue"]))
-conditions = problem.condition_df
+nominal = {p.id: p.nominal_value for p in problem.parameters}
+meas_df = problem.measurement_df
 
-# state id -> short observable name used for the figures
-STATES = {
-    "Osteocytes__S": "osteocytes",
-    "Pre_Osteoblasts__P": "pre_osteoblasts",
-    "Osteoblasts__B": "osteoblasts",
-    "Osteoclasts__C": "osteoclasts",
-    "Bone_volume__z": "bone_volume",
-}
-DOSES = [
-    ("Wnt_m1", -1, "Wnt-10b fold change -1"),
-    ("Wnt_5", 5, "Wnt-10b fold change 5"),
-    ("Wnt_50", 50, "Wnt-10b fold change 50"),
-]
+# experiment id -> Wnt-10b fold change (from the condition table)
+EXP_WNT = {"exp_Wnt_m1": -1.0, "exp_Wnt_5": 5.0, "exp_Wnt_50": 50.0,
+           "exp_Wnt_1_8": 1.8}
+# doses shown as trajectories, with the number of cycles simulated
+DOSES = [("exp_Wnt_m1", -1.0, 6, "Wnt-10b fold change -1"),
+         ("exp_Wnt_5", 5.0, 6, "Wnt-10b fold change 5"),
+         ("exp_Wnt_50", 50.0, 12, "Wnt-10b fold change 50")]
 
 
-def simulate(wnt, t_end, n_points=2400):
-    """Densely simulate the SBML model for a given Wnt-10b fold change."""
+def _cycle_reset(state):
+    """The ``cycle_reset`` condition applied at a 100-day boundary."""
+    s, p, b, c, z = state
+    return np.array([s - 20.0,
+                     0.0 if p < 1 else p,
+                     0.0 if b < 1 else b,
+                     0.0 if c < 1 else c,
+                     z])
+
+
+def simulate_cycles(wnt, ncyc, n_per_cycle=551):
+    """Integrate the event-free model over ``ncyc`` remodeling cycles, applying
+    ``cycle_reset`` at each boundary. Returns dense ``(t, Y)`` with columns in
+    the order of ``STATES``."""
     rr = roadrunner.RoadRunner(SBML)
-    for pid, val in nominal.items():
-        rr.setValue(pid, float(val))
-    rr.setValue("Wnt", float(wnt))
-    rr.selections = ["time"] + list(STATES)
-    return np.array(rr.simulate(0, t_end, n_points))
+    state = np.array([180.0, 0.0, 0.0, 0.0, 100.0])
+    t_all, y_all = [], []
+    for cyc in range(ncyc):
+        rr.reset()
+        rr.setValue("Wnt", float(wnt))
+        for pid, val in nominal.items():
+            rr.setValue(pid, float(val))
+        for nm, val in zip(STATES, state):
+            rr.setValue(nm, float(val))
+        rr.selections = ["time"] + STATES
+        arr = np.array(rr.simulate(0, CYCLE, n_per_cycle))
+        t = arr[:, 0] + cyc * CYCLE
+        y = arr[:, 1:]
+        if cyc > 0:  # drop duplicated boundary sample
+            t, y = t[1:], y[1:]
+        t_all.append(t)
+        y_all.append(y)
+        state = arr[-1, 1:].copy()
+        if cyc < ncyc - 1:
+            state = _cycle_reset(state)
+    return np.concatenate(t_all), np.concatenate(y_all)
 
 
-def clean_lines(axes_dict):
-    """Suppress the per-point markers PEtab draws on dense simulation lines."""
-    for ax in axes_dict.values():
-        for line in ax.get_lines():
-            if len(line.get_xdata()) > 50:
-                line.set_marker("None")
-                line.set_linewidth(1.6)
+def obs_bv(wnt, ncyc):
+    """Simulated relative BV/TV change (z - 100) after ``ncyc`` cycles."""
+    _, y = simulate_cycles(wnt, ncyc)
+    return y[-1, Z] - 100.0
 
 
 def save(name):
@@ -89,74 +111,61 @@ def save(name):
     print("wrote", name)
 
 
-# --- Figure 1: dose-response validation (committed PEtab visualization) -----
-plot_problem(problem, simulations_df=petab.get_simulation_df(str(HERE / f"simulatedData_{PID}.tsv")))
-plt.gcf().set_size_inches(7, 6)
-plt.title("Cook et al. 2022 - BV/TV change vs Wnt-10b (fit vs Bennett data)")
+# --- Figure 1: dose-response, simulation vs data ----------------------------
+fig, ax = plt.subplots(figsize=(7, 6))
+colors = plt.cm.tab10.colors
+for i, (_, row) in enumerate(meas_df.iterrows()):
+    wnt = EXP_WNT[row["experimentId"]]
+    ncyc = int(round(row["time"] / CYCLE))
+    sim = obs_bv(wnt, ncyc)
+    lbl = str(row["datasetId"]).replace("_", " ")
+    ax.plot(wnt, row["measurement"], "x", color=colors[i % 10], ms=9, mew=2)
+    ax.plot(wnt, sim, "o", color=colors[i % 10], ms=9, label=lbl)
+ax.set_xlabel("Wnt-10b (fold change)")
+ax.set_ylabel("BV/TV (% change from normal)")
+ax.set_title("Cook et al. 2022 - BV/TV change vs Wnt-10b (x: data, o: simulation)")
+ax.legend(loc="best", fontsize=8)
 save("fig1_validation_doseresponse.png")
 
 # --- Figure 2: relative bone volume over remodeling cycles ------------------
-z_idx = 1 + list(STATES).index("Bone_volume__z")
 data_points = {  # relative bone volume = 100 + BV/TV % change
-    "Wnt_m1": [(400, 100 - 29.7), (600, 100 - 41.9)],
-    "Wnt_5": [(600, 100 + 69.2)],
-    "Wnt_50": [(1200, 100 + 339)],
+    -1.0: [(400, 100 - 29.7), (600, 100 - 41.9)],
+    5.0: [(600, 100 + 69.2)],
+    50.0: [(1200, 100 + 339)],
 }
-sim_rows, meas_rows, vis_rows = [], [], []
-for cond_id, wnt, name in DOSES:
-    t_end = 1200 if cond_id == "Wnt_50" else 600
-    arr = simulate(wnt, t_end)
-    ds = f"ds_{cond_id}"
-    for ti, zi in zip(arr[:, 0], arr[:, z_idx]):
-        sim_rows.append(dict(observableId="bone_volume", simulationConditionId=cond_id,
-                             time=ti, simulation=zi, noiseParameters=0, datasetId=ds))
-    for ti, zi in data_points[cond_id]:
-        meas_rows.append(dict(observableId="bone_volume", simulationConditionId=cond_id,
-                              time=ti, measurement=zi, noiseParameters=0, datasetId=ds))
-    vis_rows.append(dict(plotId="bone_volume", plotName="Relative bone volume over remodeling cycles",
-                         plotTypeSimulation="LinePlot", plotTypeData="provided", datasetId=ds,
-                         xValues="time", xLabel="time (days)", yValues="bone_volume",
-                         yLabel="relative bone volume (%)", legendEntry=name))
-clean_lines(plot_with_vis_spec(pd.DataFrame(vis_rows), conditions,
-                               measurements_df=pd.DataFrame(meas_rows),
-                               simulations_df=pd.DataFrame(sim_rows)))
-plt.gcf().set_size_inches(8, 6)
+fig, ax = plt.subplots(figsize=(8, 6))
+for i, (_, wnt, ncyc, name) in enumerate(DOSES):
+    t, y = simulate_cycles(wnt, ncyc)
+    ax.plot(t, y[:, Z], lw=1.6, color=f"C{i}", label=name)
+    for tt, zz in data_points[wnt]:
+        ax.plot(tt, zz, "x", color=f"C{i}", ms=9, mew=2)
+ax.set_xlabel("time (days)")
+ax.set_ylabel("relative bone volume (%)")
+ax.set_title("Relative bone volume over remodeling cycles")
+ax.legend(loc="best")
 save("fig2_bone_volume_vs_time.png")
 
 # --- Figure 3: cell-population dynamics for Wnt-10b fold change 50 ----------
-arr = simulate(50, 1200)
-labels = {
-    "Osteocytes__S": "osteocytes (S)",
-    "Pre_Osteoblasts__P": "pre-osteoblasts (P)",
-    "Osteoblasts__B": "osteoblasts (B)",
-    "Osteoclasts__C": "osteoclasts (C)",
-}
-sim_rows, vis_rows = [], []
-for state in labels:
-    col = 1 + list(STATES).index(state)
-    ds = f"ds_{state}"
-    for ti, yi in zip(arr[:, 0], arr[:, col]):
-        sim_rows.append(dict(observableId=STATES[state], simulationConditionId="Wnt_50",
-                             time=ti, simulation=yi, noiseParameters=0, datasetId=ds))
-    vis_rows.append(dict(plotId=STATES[state], plotName=labels[state],
-                         plotTypeSimulation="LinePlot", plotTypeData="provided", datasetId=ds,
-                         xValues="time", xLabel="time (days)", yValues=STATES[state],
-                         yLabel=labels[state] + " (cells)", legendEntry="Wnt-10b fold change 50"))
-clean_lines(plot_with_vis_spec(pd.DataFrame(vis_rows), conditions, simulations_df=pd.DataFrame(sim_rows)))
-plt.gcf().set_size_inches(10, 7)
+t, y = simulate_cycles(50.0, 12)
+labels = ["osteocytes (S)", "pre-osteoblasts (P)", "osteoblasts (B)",
+          "osteoclasts (C)"]
+fig, axes = plt.subplots(2, 2, figsize=(10, 7))
+for ax, idx, lbl in zip(axes.flat, range(4), labels):
+    ax.plot(t, y[:, idx], color="C0", lw=1.2)
+    ax.set_xlabel("time (days)")
+    ax.set_ylabel(lbl + " (cells)")
+    ax.set_title(lbl)
+fig.suptitle("Cell-population dynamics (Wnt-10b fold change 50)")
 save("fig3_cell_populations_Wnt50.png")
 
 # --- Figure 4 (paper): model validation against Roser-Page 2014 data --------
-# Relative bone volume over 12 remodeling cycles at Wnt-10b fold change 1.8,
-# with the 1.2-2.4 fold-change envelope shaded, vs the Roser-Page BV/TV data.
-central = simulate(1.8, 1200)
-low = simulate(1.2, 1200)
-high = simulate(2.4, 1200)
-tt = central[:, 0]
+tt, y_c = simulate_cycles(1.8, 12)
+_, y_lo = simulate_cycles(1.2, 12)
+_, y_hi = simulate_cycles(2.4, 12)
 fig, ax = plt.subplots(figsize=(8, 6))
-ax.fill_between(tt, low[:, z_idx], high[:, z_idx], color="0.8",
+ax.fill_between(tt, y_lo[:, Z], y_hi[:, Z], color="0.8",
                 label="Wnt-10b fold change 1.2-2.4")
-ax.plot(tt, central[:, z_idx], color="C0", lw=1.8,
+ax.plot(tt, y_c[:, Z], color="C0", lw=1.8,
         label="simulation (Wnt-10b fold change 1.8)")
 ax.errorbar(600, 126.6, 19.2, fmt="o", color="C1", capsize=4, lw=2,
             label="Roser-Page 2014 (6 remodeling cycles)")
@@ -169,24 +178,15 @@ ax.set_title("Cook et al. 2022 Fig. 4 - validation vs Roser-Page data")
 ax.legend(loc="best")
 save("fig4_validation_roserpage.png")
 
-# state-vector column indices reused by Figures 5 and 6
-s_idx = 1 + list(STATES).index("Osteocytes__S")
-p_idx = 1 + list(STATES).index("Pre_Osteoblasts__P")
-b_idx = 1 + list(STATES).index("Osteoblasts__B")
-c_idx = 1 + list(STATES).index("Osteoclasts__C")
-
 # --- Figure 5 (paper): activated cell-population dynamics, single cycle ------
-# Osteocyte / pre-osteoblast / osteoblast / osteoclast time courses over a
-# single remodeling cycle for Wnt-10b fold changes -1, 5 and 50. The cycle
-# runs to 100 days; populations settle well before then.
-cyc_by_dose = {wnt: simulate(wnt, 100, n_points=1101) for _, wnt, _ in DOSES}
-panels = [(s_idx, "osteocytes (S)", "A"), (p_idx, "pre-osteoblasts (P)", "B"),
-          (b_idx, "osteoblasts (B)", "C"), (c_idx, "osteoclasts (C)", "D")]
+panels = [(0, "osteocytes (S)", "A"), (1, "pre-osteoblasts (P)", "B"),
+          (2, "osteoblasts (B)", "C"), (3, "osteoclasts (C)", "D")]
+single = {wnt: simulate_cycles(wnt, 1) for _, wnt, _, _ in DOSES}
 fig, axes = plt.subplots(2, 2, figsize=(10, 7))
 for ax, (idx, lbl, ttl) in zip(axes.flat, panels):
-    for cond_id, wnt, name in DOSES:
-        arr = cyc_by_dose[wnt][:-1]  # drop the t=100 cycle-boundary reset point
-        ax.plot(arr[:, 0], arr[:, idx], lw=2, label=f"Wnt-10b fold change {wnt}")
+    for _, wnt, _, _ in DOSES:
+        t, y = single[wnt]
+        ax.plot(t, y[:, idx], lw=2, label=f"Wnt-10b fold change {wnt:g}")
     ax.set_xlabel("time (days)")
     ax.set_ylabel(lbl + " (cells)")
     ax.set_title(ttl)
@@ -195,17 +195,13 @@ fig.suptitle("Cook et al. 2022 Fig. 5 - cell-population dynamics over a single c
 save("fig5_cell_dynamics_single_cycle.png")
 
 # --- Figure 6 (paper): area-under-curve ratios vs Wnt-10b -------------------
-# Pre-osteoblast:osteoblast and osteoclast:osteoblast AUC ratios over a single
-# remodeling cycle as a function of the Wnt-10b fold change.
-trapz = getattr(np, "trapezoid", None) or np.trapz  # numpy>=2 renamed trapz
 wnts = np.linspace(-1, 50, 100)
 ratio_po_ob, ratio_oc_ob = [], []
 for w in wnts:
-    cyc = simulate(w, 100, n_points=1101)
-    t = cyc[:, 0]
-    a_po = trapz(cyc[:, p_idx], t)
-    a_ob = trapz(cyc[:, b_idx], t)
-    a_oc = trapz(cyc[:, c_idx], t)
+    t, y = simulate_cycles(w, 1)
+    a_po = trapz(y[:, 1], t)
+    a_ob = trapz(y[:, 2], t)
+    a_oc = trapz(y[:, 3], t)
     ratio_po_ob.append(a_po / a_ob)
     ratio_oc_ob.append(a_oc / a_ob)
 fig, axes = plt.subplots(1, 2, figsize=(11, 4.5))

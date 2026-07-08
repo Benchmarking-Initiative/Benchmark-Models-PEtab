@@ -1,0 +1,9 @@
+conditionId	targetId	targetValue
+Wnt_m1	Wnt	-1
+Wnt_5	Wnt	5
+Wnt_50	Wnt	50
+Wnt_1_8	Wnt	1.8
+cycle_reset	Osteocytes__S	Osteocytes__S - 20
+cycle_reset	Pre_Osteoblasts__P	piecewise(0, Pre_Osteoblasts__P < 1, Pre_Osteoblasts__P)
+cycle_reset	Osteoblasts__B	piecewise(0, Osteoblasts__B < 1, Osteoblasts__B)
+cycle_reset	Osteoclasts__C	piecewise(0, Osteoclasts__C < 1, Osteoclasts__C)

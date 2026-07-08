@@ -1,7 +1,0 @@
-plotId	plotName	plotTypeSimulation	plotTypeData	datasetId	xValues	xLabel	yValues	yLabel	legendEntry
-plot1	Bone volume change vs Wnt-10b fold change	LinePlot	provided	Bennett2005_4cycles	Wnt	Wnt-10b (fold change)	obs_BV	BV/TV (% change from normal)	Bennett 2005 (4 remodeling cycles)
-plot1	Bone volume change vs Wnt-10b fold change	LinePlot	provided	Bennett2007_6cycles_Wnt_m1	Wnt	Wnt-10b (fold change)	obs_BV	BV/TV (% change from normal)	Bennett 2007 (6 remodeling cycles)
-plot1	Bone volume change vs Wnt-10b fold change	LinePlot	provided	Bennett2007_6cycles_Wnt_5	Wnt	Wnt-10b (fold change)	obs_BV	BV/TV (% change from normal)	Bennett 2007 (6 remodeling cycles)
-plot1	Bone volume change vs Wnt-10b fold change	LinePlot	provided	Bennett2005_12cycles	Wnt	Wnt-10b (fold change)	obs_BV	BV/TV (% change from normal)	Bennett 2005 (12 remodeling cycles)
-plot1	Bone volume change vs Wnt-10b fold change	LinePlot	provided	RoserPage2014_6cycles	Wnt	Wnt-10b (fold change)	obs_BV	BV/TV (% change from normal)	Roser-Page 2014 (6 remodeling cycles, validation)
-plot1	Bone volume change vs Wnt-10b fold change	LinePlot	provided	RoserPage2014_12cycles	Wnt	Wnt-10b (fold change)	obs_BV	BV/TV (% change from normal)	Roser-Page 2014 (12 remodeling cycles, validation)

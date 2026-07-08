@@ -10,6 +10,10 @@ Original model, data and MATLAB code: https://github.com/ashleefv/Wnt10bBoneComp
 Additional background: C. V. Cook, *Mathematical Modeling to Connect Bone
 Responses to Systemic Mechanisms* (PhD thesis).
 
+This is a **PEtab v2** problem (`format_version: 2.0.0`). The repeated
+remodeling cycles are encoded in the PEtab experiment/condition tables rather
+than in the SBML model (see below).
+
 ## Model
 
 A compartmental ODE model of a bone multicellular unit over repeated
@@ -51,8 +55,8 @@ original `GraphsforPaper.m`):
 > Wnt-10b production and bone formation in a mouse model*, Arthritis &
 > Rheumatology, 2014, 66(4), 990–999. doi:[10.1002/art.38319](https://doi.org/10.1002/art.38319)
 
-These two points are included in the PEtab measurement table (condition
-`Wnt_1_8`, dataset ids `RoserPage2014_*`) so the validation figure can be
+These two points are included in the PEtab measurement table (experiment
+`exp_Wnt_1_8`, dataset ids `RoserPage2014_*`) so the validation figure can be
 reproduced. Unlike the Bennett fitting data (fixed unit noise), the validation
 points carry their **reported standard deviations** (19.2, 40.6) as
 `noiseParameters`. Because these SDs are large relative to the unit-noise
@@ -63,17 +67,25 @@ validation.
 
 ## PEtab problem
 
-* **Conditions** (`experimentalCondition`): the three Wnt-10b fold changes used
-  for fitting (-1, 5, 50) plus the validation fold change (1.8, `Wnt_1_8`).
+PEtab v2 (`format_version: 2.0.0`). The files are:
+
+* **Conditions** (`conditions_Cook_AIChE2022.tsv`): the Wnt-10b dose conditions
+  `Wnt_m1`, `Wnt_5`, `Wnt_50`, `Wnt_1_8` (each sets the `Wnt` parameter) and the
+  `cycle_reset` condition that performs the cycle-boundary state reset (below).
+* **Experiments** (`experiments_Cook_AIChE2022.tsv`): one timecourse per Wnt-10b
+  dose (`exp_Wnt_m1`, `exp_Wnt_5`, `exp_Wnt_50`, `exp_Wnt_1_8`). Each starts at
+  `t = 0` with the dose condition and then applies `cycle_reset` at every 100-day
+  boundary (`t = 100, 200, ...`) up to the number of cycles required by that
+  experiment's measurements.
 * **Observable** (`observables`): `obs_BV = Bone_volume__z - 100`, the relative
   BV/TV change. The paper fits with unweighted least squares; this is
   reproduced with a fixed unit noise (`normal`), so the objective equals the
   residual sum of squares up to a constant.
 * **Estimated parameters** (`parameters`): the four Wnt-10b-related parameters
-  `beta1adj`, `alpha3adj`, `beta2adj`, `K`.
-* **Visualization**: BV/TV change vs Wnt-10b fold change (dose-response).
+  `beta1adj`, `alpha3adj`, `beta2adj`, `K`. (PEtab v2 has no `parameterScale`
+  column; the bounds are given on linear scale.)
 
-### Multiple remodeling cycles as SBML events
+### Multiple remodeling cycles as PEtab experiments
 
 The number of remodeling cycles is the key feature of the original model, and
 the SBML export shipped with the paper explicitly *does not* support it. In the
@@ -81,13 +93,26 @@ MATLAB code each 100-day cycle is integrated separately and the state is reset
 at the cycle boundary: cell populations that have decayed below 1 are set to 0
 and the osteocyte count is reduced by 20 to initiate the next cycle.
 
-Here this is encoded as **11 time-triggered SBML events** at
-`t = 100, 200, ..., 1100` (supporting up to 12 cycles), each performing that
-reset. Crucially, bone volume `z` is **not** reset, so it is continuous across
-cycle boundaries and the `z`-based observable is unambiguous at the measurement
-times even when they coincide with a cycle boundary. A single trajectory per
-Wnt-10b dose therefore reproduces all cycle counts: the measurement is simply
-read at `t = cycles x 100`.
+Here this reset is expressed as the PEtab `cycle_reset` **condition**
+
+```
+cycle_reset  Osteocytes__S      Osteocytes__S - 20
+cycle_reset  Pre_Osteoblasts__P piecewise(0, Pre_Osteoblasts__P < 1, Pre_Osteoblasts__P)
+cycle_reset  Osteoblasts__B     piecewise(0, Osteoblasts__B < 1, Osteoblasts__B)
+cycle_reset  Osteoclasts__C     piecewise(0, Osteoclasts__C < 1, Osteoclasts__C)
+```
+
+which each experiment applies at `t = 100, 200, ...` via the experiment table.
+The SBML model contains **no events**; the periods of the experiment define the
+cycle boundaries. Crucially, bone volume `z` is **not** reset, so it is
+continuous across cycle boundaries and the `z`-based observable is unambiguous
+at the measurement times. This period-wise formulation is numerically identical
+(to solver tolerance) to the earlier SBML-event encoding.
+
+> Earlier revisions of this problem (PEtab v1) encoded the same reset as 11
+> time-triggered SBML events at `t = 100, ..., 1100`. Moving it into the
+> experiment/condition tables is the PEtab v2 idiom and keeps the model itself
+> a plain, reusable ODE system.
 
 ## Nominal parameters
 
@@ -107,8 +132,9 @@ paper figures in `GraphsforPaper.m`, "after the 4th data point was added"):
   `alpha3adj = k1 + k2`. Here `beta1adj, alpha3adj, beta2adj, K` are estimated
   directly (they are already SBML parameters); this is an equivalent
   parameterization of the same 4-parameter space.
-* **Multiple cycles via events** (see above) rather than sequential
-  re-initialized integrations.
+* **Multiple cycles via PEtab experiments** (see above): the cycle-boundary
+  reset is applied through the experiment/condition tables rather than the
+  sequential re-initialized integrations of the MATLAB code.
 * The `parameters` values in the shipped SBML export are corrected: its
   `beta1adj = 0.0833` is in fact the value of `k2`; the nominal values here use
   the published `k1..k4`.
@@ -126,15 +152,17 @@ exact interpolation (residual sum of squares ~278 in BV/TV-% units). The
 
 ## Reproducing the figures
 
-`make_figures.py` simulates the model (libroadrunner) and plots with
-`petab.v1.visualize`:
+`make_figures.py` reads the PEtab v2 problem and simulates the event-free model
+cycle-by-cycle with libroadrunner, applying the `cycle_reset` condition at each
+100-day boundary exactly as the experiment table prescribes:
 
 ```bash
-python make_figures.py   # requires petab, libroadrunner, matplotlib, numpy, pandas
+python make_figures.py   # requires petab (v2), libroadrunner, matplotlib, numpy
 ```
 
-### Figure 1 — dose-response validation
-Model fit (filled circles) vs Bennett 2005/2007 data (crosses).
+### Figure 1 — dose-response
+Simulation (filled circles) vs Bennett 2005/2007 fitting data and Roser-Page
+2014 validation data (crosses).
 
 ![dose-response validation](fig1_validation_doseresponse.png)
 

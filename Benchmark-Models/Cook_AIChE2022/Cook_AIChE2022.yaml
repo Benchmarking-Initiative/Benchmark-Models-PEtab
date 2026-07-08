@@ -1,13 +1,17 @@
-format_version: 1
-parameter_file: parameters_Cook_AIChE2022.tsv
-problems:
-- condition_files:
-  - experimentalCondition_Cook_AIChE2022.tsv
-  measurement_files:
-  - measurementData_Cook_AIChE2022.tsv
-  observable_files:
-  - observables_Cook_AIChE2022.tsv
-  sbml_files:
-  - model_Cook_AIChE2022.xml
-  visualization_files:
-  - visualizationSpecification_Cook_AIChE2022.tsv
+format_version: 2.0.0
+parameter_files:
+- parameters_Cook_AIChE2022.tsv
+model_files:
+  model_Cook_AIChE2022:
+    location: model_Cook_AIChE2022.xml
+    language: sbml
+measurement_files:
+- measurementData_Cook_AIChE2022.tsv
+condition_files:
+- conditions_Cook_AIChE2022.tsv
+experiment_files:
+- experiments_Cook_AIChE2022.tsv
+observable_files:
+- observables_Cook_AIChE2022.tsv
+mapping_files: []
+extensions: {}
