@@ -3,3 +3,5 @@ obs_BV	Wnt_m1	-22.010297746290036	400	1	Bennett2005_4cycles
 obs_BV	Wnt_m1	-33.01544769375809	600	1	Bennett2007_6cycles_Wnt_m1
 obs_BV	Wnt_5	80.99411880030644	600	1	Bennett2007_6cycles_Wnt_5
 obs_BV	Wnt_50	337.50370478451725	1200	1	Bennett2005_12cycles
+obs_BV	Wnt_1_8	40.0391611119	600	19.2	RoserPage2014_6cycles
+obs_BV	Wnt_1_8	80.0787840913	1200	40.6	RoserPage2014_12cycles

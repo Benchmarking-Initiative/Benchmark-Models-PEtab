@@ -2,14 +2,26 @@
 """Reproduce figures from Cook et al. (2022) using PEtab visualization.
 
 The script simulates the PEtab model in this directory (via libroadrunner)
-and plots the results with ``petab.v1.visualize``. It produces three figures:
+and plots the results with ``petab.v1.visualize``. It produces:
 
 1. ``fig1_validation_doseresponse.png`` -- BV/TV change vs Wnt-10b fold change,
-   model fit vs the Bennett 2005/2007 data (the committed PEtab visualization).
+   model fit vs the Bennett 2005/2007 data (the committed PEtab visualization),
+   now also overlaying the Roser-Page 2014 validation points.
 2. ``fig2_bone_volume_vs_time.png`` -- relative bone volume over the multiple
    remodeling cycles for Wnt-10b fold changes -1, 5 and 50.
 3. ``fig3_cell_populations_Wnt50.png`` -- osteocyte / pre-osteoblast /
    osteoblast / osteoclast dynamics for a Wnt-10b fold change of 50.
+
+It additionally reproduces two figures using the paper's figure numbering:
+
+5. ``fig5_validation_roserpage.png`` -- Figure 5: model validation against the
+   Roser-Page (2014) data. Relative bone volume over 12 remodeling cycles at a
+   Wnt-10b fold change of 1.8, with the 1.2-2.4 fold-change envelope shaded, vs
+   the two Roser-Page BV/TV data points (126.6 +/- 19.2 % at 600 d / 6 cycles
+   and 136.6 +/- 40.6 % at 1200 d / 12 cycles).
+6. ``fig6_cellpopulations_vs_wnt.png`` -- Figure 6: cell-population response to
+   Wnt-10b. Maximum pre-osteoblast, osteoblast and osteoclast counts within a
+   remodeling cycle as a function of the Wnt-10b fold change.
 
 Requirements: petab, libroadrunner, matplotlib, numpy, pandas.
 Run from anywhere: ``python make_figures.py`` (figures are written next to it).
@@ -130,3 +142,52 @@ for state in labels:
 clean_lines(plot_with_vis_spec(pd.DataFrame(vis_rows), conditions, simulations_df=pd.DataFrame(sim_rows)))
 plt.gcf().set_size_inches(10, 7)
 save("fig3_cell_populations_Wnt50.png")
+
+# --- Figure 5 (paper): model validation against Roser-Page 2014 data --------
+# Relative bone volume over 12 remodeling cycles at Wnt-10b fold change 1.8,
+# with the 1.2-2.4 fold-change envelope shaded, vs the Roser-Page BV/TV data.
+central = simulate(1.8, 1200)
+low = simulate(1.2, 1200)
+high = simulate(2.4, 1200)
+tt = central[:, 0]
+fig, ax = plt.subplots(figsize=(8, 6))
+ax.fill_between(tt, low[:, z_idx], high[:, z_idx], color="0.8",
+                label="Wnt-10b fold change 1.2-2.4")
+ax.plot(tt, central[:, z_idx], color="C0", lw=1.8,
+        label="simulation (Wnt-10b fold change 1.8)")
+ax.errorbar(600, 126.6, 19.2, fmt="o", color="C1", capsize=4, lw=2,
+            label="Roser-Page 2014 (6 remodeling cycles)")
+ax.errorbar(1200, 136.6, 40.6, fmt="s", color="C3", capsize=4, lw=2,
+            label="Roser-Page 2014 (12 remodeling cycles)")
+ax.set_xlabel("time (days)")
+ax.set_ylabel("relative bone volume (%)")
+ax.set_xlim(-10, 1210)
+ax.set_title("Cook et al. 2022 Fig. 5 - validation vs Roser-Page data")
+ax.legend(loc="best")
+save("fig5_validation_roserpage.png")
+
+# --- Figure 6 (paper): cell-population response to Wnt-10b ------------------
+# Maximum cell counts within a single remodeling cycle as a function of the
+# Wnt-10b fold change (pre-osteoblasts and osteoblasts increase, osteoclasts
+# decrease with increasing Wnt-10b).
+c_idx = 1 + list(STATES).index("Osteoclasts__C")
+p_idx = 1 + list(STATES).index("Pre_Osteoblasts__P")
+b_idx = 1 + list(STATES).index("Osteoblasts__B")
+wnts = np.linspace(-1, 50, 60)
+max_po, max_ob, max_oc = [], [], []
+for w in wnts:
+    cyc = simulate(w, 100, n_points=1101)  # first remodeling cycle
+    max_po.append(cyc[:, p_idx].max())
+    max_ob.append(cyc[:, b_idx].max())
+    max_oc.append(cyc[:, c_idx].max())
+fig, axes = plt.subplots(1, 3, figsize=(13, 4))
+for ax, ys, lbl, ttl, col in zip(
+        axes, [max_po, max_ob, max_oc],
+        ["max pre-osteoblasts (cells)", "max osteoblasts (cells)",
+         "max osteoclasts (cells)"], ["A", "B", "C"], ["C0", "C2", "C3"]):
+    ax.plot(wnts, ys, color=col, lw=2)
+    ax.set_xlabel("Wnt-10b (fold change)")
+    ax.set_ylabel(lbl)
+    ax.set_title(ttl)
+fig.suptitle("Cook et al. 2022 Fig. 6 - cell-population response to Wnt-10b")
+save("fig6_cellpopulations_vs_wnt.png")

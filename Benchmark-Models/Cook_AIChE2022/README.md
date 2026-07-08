@@ -33,9 +33,38 @@ expressed as percentage change relative to normal Wnt-10b:
 | `Wnt_5`   | 5   | 6  | 600  |  69.2 | Bennett 2007 |
 | `Wnt_50`  | 50  | 12 | 1200 | 339.0 | Bennett 2005 |
 
+### Validation data (Roser-Page 2014)
+
+The paper additionally *validates* the fitted model against an independent
+dataset that was **not** used for parameter estimation: the CTLA-4Ig
+(abatacept) mouse experiments of Roser-Page et al. 2014, which correspond to a
+Wnt-10b fold change of ~1.8 (with a 1.2–2.4 range). The two BV/TV endpoints are
+reproduced here from the paper's validation figure (`ValidationResults` in the
+original `GraphsforPaper.m`):
+
+| condition | Wnt-10b fold change | remodeling cycles | time [d] | BV/TV change [%] | SD  | source |
+|-----------|--------------------:|------------------:|---------:|-----------------:|----:|--------|
+| `Wnt_1_8` | 1.8 | 6  | 600  | 26.6 | 19.2 | Roser-Page 2014 |
+| `Wnt_1_8` | 1.8 | 12 | 1200 | 36.6 | 40.6 | Roser-Page 2014 |
+
+> Reference: S. Roser-Page et al., *CTLA-4Ig-induced T cell anergy promotes
+> Wnt-10b production and bone formation in a mouse model*, Arthritis &
+> Rheumatology, 2014, 66(4), 990–999. doi:[10.1002/art.38319](https://doi.org/10.1002/art.38319)
+
+These two points are included in the PEtab measurement table (condition
+`Wnt_1_8`, dataset ids `RoserPage2014_*`) so the validation figure can be
+reproduced. Unlike the Bennett fitting data (fixed unit noise), the validation
+points carry their **reported standard deviations** (19.2, 40.6) as
+`noiseParameters`. Because these SDs are large relative to the unit-noise
+Bennett residuals, the validation points contribute negligibly to the objective
+and the fit (see below) is still effectively determined by the Bennett data
+alone, matching the original study where Roser-Page was held out for
+validation.
+
 ## PEtab problem
 
-* **Conditions** (`experimentalCondition`): three Wnt-10b fold changes (-1, 5, 50).
+* **Conditions** (`experimentalCondition`): the three Wnt-10b fold changes used
+  for fitting (-1, 5, 50) plus the validation fold change (1.8, `Wnt_1_8`).
 * **Observable** (`observables`): `obs_BV = Bone_volume__z - 100`, the relative
   BV/TV change. The paper fits with unweighted least squares; this is
   reproduced with a fixed unit noise (`normal`), so the objective equals the
@@ -119,3 +148,21 @@ Wnt-10b fold changes -1, 5 and 50, with the literature endpoints overlaid.
 Osteocyte, pre-osteoblast, osteoblast and osteoclast counts across the 12 cycles.
 
 ![cell populations](fig3_cell_populations_Wnt50.png)
+
+The following two figures use the **numbering of the original publication**.
+
+### Figure 5 — model validation against Roser-Page 2014 data
+Relative bone volume over 12 remodeling cycles at a Wnt-10b fold change of 1.8,
+with the 1.2–2.4 fold-change envelope shaded, compared with the two independent
+Roser-Page BV/TV endpoints (held out from the fit). Both data points lie on the
+simulated trajectory.
+
+![validation vs Roser-Page](fig5_validation_roserpage.png)
+
+### Figure 6 — cell-population response to Wnt-10b
+Maximum pre-osteoblast, osteoblast and osteoclast counts within a remodeling
+cycle as a function of the Wnt-10b fold change: pre-osteoblasts and osteoblasts
+increase while osteoclasts decrease with increasing Wnt-10b, the paper's central
+mechanistic result.
+
+![cell populations vs Wnt-10b](fig6_cellpopulations_vs_wnt.png)
