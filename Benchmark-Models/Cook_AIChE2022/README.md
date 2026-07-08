@@ -162,17 +162,20 @@ exact interpolation (residual sum of squares ~278 in BV/TV-% units). The
 
 ## Reproducing the figures
 
-`make_figures.py` uses **AMICI** as the simulator. It compiles the event-free
-SBML model and integrates it cycle-by-cycle, applying the `cycle_reset` state
-change at each 100-day boundary exactly as the experiment table prescribes.
-(The dose experiments are also simulated end-to-end through the PEtab route by
-`src/python/simulate.py`; the figures additionally need Wnt-10b fold changes
-that are not part of the problem — the 1.2–2.4 envelope and the Figure 6 sweep
-— hence the direct model integration.)
+`make_figures.py` simulates the PEtab problem itself with **AMICI**: the problem
+is imported with AMICI's PEtab importer (which encodes the experiment periods as
+events) and each of the four dose experiments is simulated with dense output so
+that AMICI applies the `cycle_reset` condition at every 100-day boundary. Every
+figure is derived from those four experiments.
 
 ```bash
 python make_figures.py   # requires petab (v2), amici, matplotlib, numpy
 ```
+
+Because the problem only contains the four fold changes -1, 1.8, 5 and 50, two
+figures are reduced relative to the publication: Figure 4 omits the 1.2–2.4
+envelope, and Figure 6 shows the AUC ratios at the four available fold changes
+as discrete points rather than a continuous sweep.
 
 ### Figure 1 — dose-response
 Simulation (filled circles) vs Bennett 2005/2007 fitting data and Roser-Page
@@ -195,9 +198,10 @@ The following three figures use the **numbering of the original publication**.
 
 ### Figure 4 — model validation against Roser-Page 2014 data
 Relative bone volume over 12 remodeling cycles at a Wnt-10b fold change of 1.8,
-with the 1.2–2.4 fold-change envelope shaded, compared with the two independent
-Roser-Page BV/TV endpoints (held out from the fit). Both data points lie on the
-simulated trajectory.
+compared with the two independent Roser-Page BV/TV endpoints (held out from the
+fit). Both data points lie on the simulated trajectory. (The publication's
+1.2–2.4 fold-change envelope is omitted: those fold changes are not experiments
+in the PEtab problem.)
 
 ![validation vs Roser-Page](fig4_validation_roserpage.png)
 
@@ -212,7 +216,9 @@ cycle boundary.
 
 ### Figure 6 — cell-population AUC ratios vs Wnt-10b
 Pre-osteoblast:osteoblast (A) and osteoclast:osteoblast (B) area-under-curve
-ratios over a single remodeling cycle as a function of the Wnt-10b fold change;
-both ratios decrease with increasing Wnt-10b.
+ratios over a single remodeling cycle, at the four fold changes present in the
+problem (-1, 1.8, 5, 50); both ratios decrease with increasing Wnt-10b. (The
+publication shows a continuous fold-change sweep, which is not available from
+the problem's discrete experiments.)
 
 ![AUC ratios](fig6_auc_ratios.png)

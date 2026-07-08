@@ -1,39 +1,30 @@
 #!/usr/bin/env python3
 """Reproduce figures from Cook et al. (2022) from the PEtab v2 problem.
 
-The remodeling cycles are encoded in the PEtab **experiment**/**condition**
-tables, not in the SBML model. The four dose experiments are simulated with
-AMICI through the regular PEtab route in ``simulate.py``/``simulatedData``; for
-the figures we additionally need trajectories at Wnt-10b fold changes that are
-*not* part of the problem (the 1.2-2.4 validation envelope and the fold-change
-sweep of Figure 6). We therefore compile the event-free SBML model with AMICI
-and integrate it cycle-by-cycle, applying the ``cycle_reset`` state change
-(``S -> S - 20``; ``P``, ``B``, ``C`` set to 0 once they fall below 1) at each
-100-day boundary -- i.e. AMICI is the integrator and the reset is exactly the
-one defined by the PEtab ``cycle_reset`` condition.
+Every trajectory here is obtained by simulating the PEtab v2 problem itself
+with AMICI: the problem is imported with
+:class:`amici.importers.petab._petab_importer.PetabImporter` (which encodes the
+experiment periods as events), and each experiment is simulated with dense
+output timepoints so that AMICI applies the ``cycle_reset`` condition at every
+100-day boundary. All figures are derived from the four dose experiments
+(``exp_Wnt_m1``, ``exp_Wnt_5``, ``exp_Wnt_50``, ``exp_Wnt_1_8``).
 
-Because the cycle-boundary state change makes the system stiff, the AMICI
-absolute tolerance is loosened from its very tight default (1e-16) to 1e-12.
+Because only these four Wnt-10b fold changes exist in the problem, some figures
+are necessarily reduced relative to the publication:
 
-Figures (using the numbering of the original publication where applicable):
+* Figure 4 shows the fold-change-1.8 trajectory and the Roser-Page data, but
+  not the 1.2-2.4 envelope (those fold changes are not part of the problem).
+* Figure 6 shows the AUC ratios at the four available fold changes as discrete
+  points rather than a continuous sweep.
 
-1. ``fig1_validation_doseresponse.png`` -- BV/TV change vs Wnt-10b fold change,
-   simulation vs the Bennett 2005/2007 fitting data and the Roser-Page 2014
-   validation data.
-2. ``fig2_bone_volume_vs_time.png`` -- relative bone volume over the cycles for
-   Wnt-10b fold changes -1, 5 and 50.
-3. ``fig3_cell_populations_Wnt50.png`` -- cell dynamics for fold change 50.
-4. ``fig4_validation_roserpage.png`` -- Figure 4: validation vs Roser-Page 2014
-   (fold change 1.8, 1.2-2.4 envelope shaded).
-5. ``fig5_cell_dynamics_single_cycle.png`` -- Figure 5: cell dynamics over a
-   single cycle for fold changes -1, 5 and 50.
-6. ``fig6_auc_ratios.png`` -- Figure 6: pre-osteoblast:osteoblast and
-   osteoclast:osteoblast AUC ratios over a single cycle vs Wnt-10b fold change.
+The cycle-boundary state change makes the system stiff, so the AMICI absolute
+tolerance is loosened from its very tight default (1e-16) to 1e-12.
 
 Requirements: petab (v2), amici, matplotlib, numpy (a C++ compiler is needed
 the first time, to build the AMICI model).
 Run from anywhere: ``python make_figures.py`` (figures are written next to it).
 """
+import logging
 import tempfile
 from pathlib import Path
 
@@ -41,80 +32,60 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
-import amici
 import amici.sim.sundials as ass
 import petab.v2 as petab
+from amici.importers.petab._petab_importer import PetabImporter
 
 HERE = Path(__file__).resolve().parent
 PID = "Cook_AIChE2022"
-CYCLE = 100.0  # days per remodeling cycle
+CYCLE = 100.0
 trapz = getattr(np, "trapezoid", None) or np.trapz  # numpy>=2 renamed trapz
 
+# experiment id -> (Wnt-10b fold change, number of remodeling cycles)
+EXP = {"exp_Wnt_m1": (-1.0, 6), "exp_Wnt_5": (5.0, 6),
+       "exp_Wnt_50": (50.0, 12), "exp_Wnt_1_8": (1.8, 12)}
+
 problem = petab.Problem.from_yaml(str(HERE / f"{PID}.yaml"))
-nominal = {p.id: p.nominal_value for p in problem.parameters}
+nominal = problem.get_x_nominal_dict()
 meas_df = problem.measurement_df
 
-# experiment id -> Wnt-10b fold change (from the condition table)
-EXP_WNT = {"exp_Wnt_m1": -1.0, "exp_Wnt_5": 5.0, "exp_Wnt_50": 50.0,
-           "exp_Wnt_1_8": 1.8}
-DOSES = [(-1.0, 6, "Wnt-10b fold change -1"),
-         (5.0, 6, "Wnt-10b fold change 5"),
-         (50.0, 12, "Wnt-10b fold change 50")]
-
-# --- compile the event-free SBML model with AMICI --------------------------
-_build_dir = Path(tempfile.mkdtemp(prefix="cook_amici_"))
-amici.SbmlImporter(str(HERE / f"model_{PID}.xml")).sbml2amici(
-    model_name="cook_plain", output_dir=str(_build_dir),
-    generate_sensitivity_code=False, verbose=False,
+# --- import & compile the PEtab problem with AMICI -------------------------
+_importer = PetabImporter(
+    problem,
+    output_dir=str(Path(tempfile.mkdtemp(prefix="cook_amici_")) / PID),
+    verbose=logging.WARNING,
 )
-_model = amici.import_model_module("cook_plain", str(_build_dir)).get_model()
-_solver = _model.create_solver()
+_sim = _importer.create_simulator()
+_model, _em, _solver = _sim.model, _sim._exp_man, _sim._solver
 _solver.set_relative_tolerance(1e-10)
 _solver.set_absolute_tolerance(1e-12)  # default 1e-16 is too tight for the reset
 _solver.set_max_steps(10 ** 6)
+_solver.set_return_data_reporting_mode(ass.RDataReporting.full)
 STATES = list(_model.get_state_ids())  # S, P, B, C, z
 Z = STATES.index("Bone_volume__z")
 
 
-def _cycle_reset(x):
-    """The PEtab ``cycle_reset`` condition applied at a 100-day boundary."""
-    s, p, b, c, z = x
-    return np.array([s - 20.0,
-                     0.0 if p < 1 else p,
-                     0.0 if b < 1 else b,
-                     0.0 if c < 1 else c,
-                     z])
+def trajectory(exp_id, n_per_cycle=401):
+    """Dense state trajectory of a PEtab experiment simulated with AMICI.
+
+    Returns ``(t, Y)`` with the state columns ordered as ``STATES``. AMICI
+    applies the ``cycle_reset`` condition at each 100-day period boundary."""
+    _, ncyc = EXP[exp_id]
+    edata = _em.create_edata(exp_id, problem_parameters=nominal)
+    edata.set_timepoints(np.linspace(0, ncyc * CYCLE, ncyc * (n_per_cycle - 1) + 1))
+    rdata = ass.run_simulation(_model, _solver, edata)
+    assert rdata.status == 0, f"{exp_id} failed with status {rdata.status}"
+    return np.asarray(rdata.ts), np.asarray(rdata.x)
 
 
-def simulate_cycles(wnt, ncyc, n_per_cycle=401):
-    """Integrate the event-free model over ``ncyc`` cycles with AMICI, applying
-    ``cycle_reset`` at each boundary. Returns dense ``(t, Y)`` with the state
-    columns ordered as ``STATES``."""
-    for pid, val in nominal.items():
-        _model.set_free_parameter_by_id(pid, float(val))
-    _model.set_free_parameter_by_id("Wnt", float(wnt))
-    x = np.array([180.0, 0.0, 0.0, 0.0, 100.0])
-    t_all, y_all = [], []
-    for cyc in range(ncyc):
-        _model.set_initial_state(x)
-        _model.set_timepoints(np.linspace(0, CYCLE, n_per_cycle))
-        rdata = ass.run_simulation(_model, _solver)
-        t = np.asarray(rdata.ts) + cyc * CYCLE
-        y = np.asarray(rdata.x)
-        if cyc > 0:  # drop duplicated boundary sample
-            t, y = t[1:], y[1:]
-        t_all.append(t)
-        y_all.append(y)
-        x = y[-1].copy()
-        if cyc < ncyc - 1:
-            x = _cycle_reset(x)
-    return np.concatenate(t_all), np.concatenate(y_all)
+TRAJ = {exp_id: trajectory(exp_id) for exp_id in EXP}
 
 
-def obs_bv(wnt, ncyc):
-    """Simulated relative BV/TV change (z - 100) after ``ncyc`` cycles."""
-    _, y = simulate_cycles(wnt, ncyc)
-    return y[-1, Z] - 100.0
+def first_cycle(exp_id):
+    """The first remodeling cycle (t < 100, before the first reset)."""
+    t, y = TRAJ[exp_id]
+    m = t < CYCLE
+    return t[m], y[m]
 
 
 def save(name):
@@ -125,14 +96,23 @@ def save(name):
 
 
 # --- Figure 1: dose-response, simulation vs data ----------------------------
+# Simulated observables at the measurement timepoints, straight from the PEtab
+# simulator.
+_res = _sim.simulate()
+print("total llh:", _res.llh)
+sim_obs = {}
+for rd in _res.rdatas:
+    for t, y in zip(np.atleast_1d(np.asarray(rd.ts)),
+                    np.atleast_1d(np.asarray(rd.y).ravel())):
+        sim_obs[(rd.id, round(float(t)))] = float(y)
+
 fig, ax = plt.subplots(figsize=(7, 6))
 colors = plt.cm.tab10.colors
 for i, (_, row) in enumerate(meas_df.iterrows()):
-    wnt = EXP_WNT[row["experimentId"]]
-    ncyc = int(round(row["time"] / CYCLE))
+    wnt = EXP[row["experimentId"]][0]
     ax.plot(wnt, row["measurement"], "x", color=colors[i % 10], ms=9, mew=2)
-    ax.plot(wnt, obs_bv(wnt, ncyc), "o", color=colors[i % 10], ms=9,
-            label=str(row["datasetId"]).replace("_", " "))
+    ax.plot(wnt, sim_obs[(row["experimentId"], round(float(row["time"])))], "o",
+            color=colors[i % 10], ms=9, label=str(row["datasetId"]).replace("_", " "))
 ax.set_xlabel("Wnt-10b (fold change)")
 ax.set_ylabel("BV/TV (% change from normal)")
 ax.set_title("Cook et al. 2022 - BV/TV change vs Wnt-10b (x: data, o: simulation)")
@@ -141,15 +121,16 @@ save("fig1_validation_doseresponse.png")
 
 # --- Figure 2: relative bone volume over remodeling cycles ------------------
 data_points = {  # relative bone volume = 100 + BV/TV % change
-    -1.0: [(400, 100 - 29.7), (600, 100 - 41.9)],
-    5.0: [(600, 100 + 69.2)],
-    50.0: [(1200, 100 + 339)],
+    "exp_Wnt_m1": [(400, 100 - 29.7), (600, 100 - 41.9)],
+    "exp_Wnt_5": [(600, 100 + 69.2)],
+    "exp_Wnt_50": [(1200, 100 + 339)],
 }
 fig, ax = plt.subplots(figsize=(8, 6))
-for i, (wnt, ncyc, name) in enumerate(DOSES):
-    t, y = simulate_cycles(wnt, ncyc)
-    ax.plot(t, y[:, Z], lw=1.6, color=f"C{i}", label=name)
-    for tt, zz in data_points[wnt]:
+for i, exp_id in enumerate(["exp_Wnt_m1", "exp_Wnt_5", "exp_Wnt_50"]):
+    t, y = TRAJ[exp_id]
+    ax.plot(t, y[:, Z], lw=1.6, color=f"C{i}",
+            label=f"Wnt-10b fold change {EXP[exp_id][0]:g}")
+    for tt, zz in data_points[exp_id]:
         ax.plot(tt, zz, "x", color=f"C{i}", ms=9, mew=2)
 ax.set_xlabel("time (days)")
 ax.set_ylabel("relative bone volume (%)")
@@ -158,7 +139,7 @@ ax.legend(loc="best")
 save("fig2_bone_volume_vs_time.png")
 
 # --- Figure 3: cell-population dynamics for Wnt-10b fold change 50 ----------
-t, y = simulate_cycles(50.0, 12)
+t, y = TRAJ["exp_Wnt_50"]
 labels = ["osteocytes (S)", "pre-osteoblasts (P)", "osteoblasts (B)",
           "osteoclasts (C)"]
 fig, axes = plt.subplots(2, 2, figsize=(10, 7))
@@ -171,13 +152,11 @@ fig.suptitle("Cell-population dynamics (Wnt-10b fold change 50)")
 save("fig3_cell_populations_Wnt50.png")
 
 # --- Figure 4 (paper): model validation against Roser-Page 2014 data --------
-tt, y_c = simulate_cycles(1.8, 12)
-_, y_lo = simulate_cycles(1.2, 12)
-_, y_hi = simulate_cycles(2.4, 12)
+# The 1.2-2.4 envelope of the publication is omitted: those fold changes are
+# not experiments in the PEtab problem.
+t, y = TRAJ["exp_Wnt_1_8"]
 fig, ax = plt.subplots(figsize=(8, 6))
-ax.fill_between(tt, y_lo[:, Z], y_hi[:, Z], color="0.8",
-                label="Wnt-10b fold change 1.2-2.4")
-ax.plot(tt, y_c[:, Z], color="C0", lw=1.8,
+ax.plot(t, y[:, Z], color="C0", lw=1.8,
         label="simulation (Wnt-10b fold change 1.8)")
 ax.errorbar(600, 126.6, 19.2, fmt="o", color="C1", capsize=4, lw=2,
             label="Roser-Page 2014 (6 remodeling cycles)")
@@ -193,12 +172,11 @@ save("fig4_validation_roserpage.png")
 # --- Figure 5 (paper): activated cell-population dynamics, single cycle ------
 panels = [(0, "osteocytes (S)", "A"), (1, "pre-osteoblasts (P)", "B"),
           (2, "osteoblasts (B)", "C"), (3, "osteoclasts (C)", "D")]
-single = {wnt: simulate_cycles(wnt, 1) for wnt, _, _ in DOSES}
 fig, axes = plt.subplots(2, 2, figsize=(10, 7))
 for ax, (idx, lbl, ttl) in zip(axes.flat, panels):
-    for wnt, _, _ in DOSES:
-        t, y = single[wnt]
-        ax.plot(t, y[:, idx], lw=2, label=f"Wnt-10b fold change {wnt:g}")
+    for exp_id in ["exp_Wnt_m1", "exp_Wnt_5", "exp_Wnt_50"]:
+        tc, yc = first_cycle(exp_id)
+        ax.plot(tc, yc[:, idx], lw=2, label=f"Wnt-10b fold change {EXP[exp_id][0]:g}")
     ax.set_xlabel("time (days)")
     ax.set_ylabel(lbl + " (cells)")
     ax.set_title(ttl)
@@ -206,21 +184,21 @@ axes.flat[0].legend(loc="best", fontsize=8)
 fig.suptitle("Cook et al. 2022 Fig. 5 - cell-population dynamics over a single cycle")
 save("fig5_cell_dynamics_single_cycle.png")
 
-# --- Figure 6 (paper): area-under-curve ratios vs Wnt-10b -------------------
-wnts = np.linspace(-1, 50, 100)
-ratio_po_ob, ratio_oc_ob = [], []
-for w in wnts:
-    t, y = simulate_cycles(w, 1)
-    a_po = trapz(y[:, 1], t)
-    a_ob = trapz(y[:, 2], t)
-    a_oc = trapz(y[:, 3], t)
-    ratio_po_ob.append(a_po / a_ob)
-    ratio_oc_ob.append(a_oc / a_ob)
+# --- Figure 6 (paper): AUC ratios vs Wnt-10b (at the available fold changes) -
+# A continuous sweep is not available from the problem; the ratios are shown at
+# the four experiment fold changes.
+rows = []
+for exp_id, (wnt, _) in EXP.items():
+    tc, yc = first_cycle(exp_id)
+    a_po, a_ob, a_oc = (trapz(yc[:, k], tc) for k in (1, 2, 3))
+    rows.append((wnt, a_po / a_ob, a_oc / a_ob))
+rows.sort()
+wnts = [r[0] for r in rows]
 fig, axes = plt.subplots(1, 2, figsize=(11, 4.5))
-axes[0].plot(wnts, ratio_po_ob, color="C0", lw=2)
+axes[0].plot(wnts, [r[1] for r in rows], "o-", color="C0", lw=1.5)
 axes[0].set_ylabel("pre-osteoblast : osteoblast AUC")
 axes[0].set_title("A")
-axes[1].plot(wnts, ratio_oc_ob, color="C3", lw=2)
+axes[1].plot(wnts, [r[2] for r in rows], "o-", color="C3", lw=1.5)
 axes[1].set_ylabel("osteoclast : osteoblast AUC")
 axes[1].set_title("B")
 for ax in axes:
