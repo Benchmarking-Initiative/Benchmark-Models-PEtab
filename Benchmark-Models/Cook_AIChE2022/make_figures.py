@@ -12,16 +12,19 @@ and plots the results with ``petab.v1.visualize``. It produces:
 3. ``fig3_cell_populations_Wnt50.png`` -- osteocyte / pre-osteoblast /
    osteoblast / osteoclast dynamics for a Wnt-10b fold change of 50.
 
-It additionally reproduces two figures using the paper's figure numbering:
+It additionally reproduces three figures using the paper's figure numbering:
 
-5. ``fig5_validation_roserpage.png`` -- Figure 5: model validation against the
+4. ``fig4_validation_roserpage.png`` -- Figure 4: model validation against the
    Roser-Page (2014) data. Relative bone volume over 12 remodeling cycles at a
    Wnt-10b fold change of 1.8, with the 1.2-2.4 fold-change envelope shaded, vs
    the two Roser-Page BV/TV data points (126.6 +/- 19.2 % at 600 d / 6 cycles
    and 136.6 +/- 40.6 % at 1200 d / 12 cycles).
-6. ``fig6_cellpopulations_vs_wnt.png`` -- Figure 6: cell-population response to
-   Wnt-10b. Maximum pre-osteoblast, osteoblast and osteoclast counts within a
-   remodeling cycle as a function of the Wnt-10b fold change.
+5. ``fig5_cell_dynamics_single_cycle.png`` -- Figure 5: activated cell-population
+   dynamics over a single remodeling cycle for Wnt-10b fold changes -1, 5 and 50.
+   (A) osteocytes, (B) pre-osteoblasts, (C) osteoblasts, (D) osteoclasts.
+6. ``fig6_auc_ratios.png`` -- Figure 6: pre-osteoblast:osteoblast and
+   osteoclast:osteoblast area-under-curve ratios over a single remodeling cycle
+   as a function of the Wnt-10b fold change.
 
 Requirements: petab, libroadrunner, matplotlib, numpy, pandas.
 Run from anywhere: ``python make_figures.py`` (figures are written next to it).
@@ -143,7 +146,7 @@ clean_lines(plot_with_vis_spec(pd.DataFrame(vis_rows), conditions, simulations_d
 plt.gcf().set_size_inches(10, 7)
 save("fig3_cell_populations_Wnt50.png")
 
-# --- Figure 5 (paper): model validation against Roser-Page 2014 data --------
+# --- Figure 4 (paper): model validation against Roser-Page 2014 data --------
 # Relative bone volume over 12 remodeling cycles at Wnt-10b fold change 1.8,
 # with the 1.2-2.4 fold-change envelope shaded, vs the Roser-Page BV/TV data.
 central = simulate(1.8, 1200)
@@ -162,32 +165,57 @@ ax.errorbar(1200, 136.6, 40.6, fmt="s", color="C3", capsize=4, lw=2,
 ax.set_xlabel("time (days)")
 ax.set_ylabel("relative bone volume (%)")
 ax.set_xlim(-10, 1210)
-ax.set_title("Cook et al. 2022 Fig. 5 - validation vs Roser-Page data")
+ax.set_title("Cook et al. 2022 Fig. 4 - validation vs Roser-Page data")
 ax.legend(loc="best")
-save("fig5_validation_roserpage.png")
+save("fig4_validation_roserpage.png")
 
-# --- Figure 6 (paper): cell-population response to Wnt-10b ------------------
-# Maximum cell counts within a single remodeling cycle as a function of the
-# Wnt-10b fold change (pre-osteoblasts and osteoblasts increase, osteoclasts
-# decrease with increasing Wnt-10b).
-c_idx = 1 + list(STATES).index("Osteoclasts__C")
+# state-vector column indices reused by Figures 5 and 6
+s_idx = 1 + list(STATES).index("Osteocytes__S")
 p_idx = 1 + list(STATES).index("Pre_Osteoblasts__P")
 b_idx = 1 + list(STATES).index("Osteoblasts__B")
-wnts = np.linspace(-1, 50, 60)
-max_po, max_ob, max_oc = [], [], []
-for w in wnts:
-    cyc = simulate(w, 100, n_points=1101)  # first remodeling cycle
-    max_po.append(cyc[:, p_idx].max())
-    max_ob.append(cyc[:, b_idx].max())
-    max_oc.append(cyc[:, c_idx].max())
-fig, axes = plt.subplots(1, 3, figsize=(13, 4))
-for ax, ys, lbl, ttl, col in zip(
-        axes, [max_po, max_ob, max_oc],
-        ["max pre-osteoblasts (cells)", "max osteoblasts (cells)",
-         "max osteoclasts (cells)"], ["A", "B", "C"], ["C0", "C2", "C3"]):
-    ax.plot(wnts, ys, color=col, lw=2)
-    ax.set_xlabel("Wnt-10b (fold change)")
-    ax.set_ylabel(lbl)
+c_idx = 1 + list(STATES).index("Osteoclasts__C")
+
+# --- Figure 5 (paper): activated cell-population dynamics, single cycle ------
+# Osteocyte / pre-osteoblast / osteoblast / osteoclast time courses over a
+# single remodeling cycle for Wnt-10b fold changes -1, 5 and 50. The cycle
+# runs to 100 days; populations settle well before then.
+cyc_by_dose = {wnt: simulate(wnt, 100, n_points=1101) for _, wnt, _ in DOSES}
+panels = [(s_idx, "osteocytes (S)", "A"), (p_idx, "pre-osteoblasts (P)", "B"),
+          (b_idx, "osteoblasts (B)", "C"), (c_idx, "osteoclasts (C)", "D")]
+fig, axes = plt.subplots(2, 2, figsize=(10, 7))
+for ax, (idx, lbl, ttl) in zip(axes.flat, panels):
+    for cond_id, wnt, name in DOSES:
+        arr = cyc_by_dose[wnt][:-1]  # drop the t=100 cycle-boundary reset point
+        ax.plot(arr[:, 0], arr[:, idx], lw=2, label=f"Wnt-10b fold change {wnt}")
+    ax.set_xlabel("time (days)")
+    ax.set_ylabel(lbl + " (cells)")
     ax.set_title(ttl)
-fig.suptitle("Cook et al. 2022 Fig. 6 - cell-population response to Wnt-10b")
-save("fig6_cellpopulations_vs_wnt.png")
+axes.flat[0].legend(loc="best", fontsize=8)
+fig.suptitle("Cook et al. 2022 Fig. 5 - cell-population dynamics over a single cycle")
+save("fig5_cell_dynamics_single_cycle.png")
+
+# --- Figure 6 (paper): area-under-curve ratios vs Wnt-10b -------------------
+# Pre-osteoblast:osteoblast and osteoclast:osteoblast AUC ratios over a single
+# remodeling cycle as a function of the Wnt-10b fold change.
+trapz = getattr(np, "trapezoid", None) or np.trapz  # numpy>=2 renamed trapz
+wnts = np.linspace(-1, 50, 100)
+ratio_po_ob, ratio_oc_ob = [], []
+for w in wnts:
+    cyc = simulate(w, 100, n_points=1101)
+    t = cyc[:, 0]
+    a_po = trapz(cyc[:, p_idx], t)
+    a_ob = trapz(cyc[:, b_idx], t)
+    a_oc = trapz(cyc[:, c_idx], t)
+    ratio_po_ob.append(a_po / a_ob)
+    ratio_oc_ob.append(a_oc / a_ob)
+fig, axes = plt.subplots(1, 2, figsize=(11, 4.5))
+axes[0].plot(wnts, ratio_po_ob, color="C0", lw=2)
+axes[0].set_ylabel("pre-osteoblast : osteoblast AUC")
+axes[0].set_title("A")
+axes[1].plot(wnts, ratio_oc_ob, color="C3", lw=2)
+axes[1].set_ylabel("osteoclast : osteoblast AUC")
+axes[1].set_title("B")
+for ax in axes:
+    ax.set_xlabel("Wnt-10b (fold change)")
+fig.suptitle("Cook et al. 2022 Fig. 6 - cell-population AUC ratios vs Wnt-10b")
+save("fig6_auc_ratios.png")

@@ -149,20 +149,28 @@ Osteocyte, pre-osteoblast, osteoblast and osteoclast counts across the 12 cycles
 
 ![cell populations](fig3_cell_populations_Wnt50.png)
 
-The following two figures use the **numbering of the original publication**.
+The following three figures use the **numbering of the original publication**.
 
-### Figure 5 — model validation against Roser-Page 2014 data
+### Figure 4 — model validation against Roser-Page 2014 data
 Relative bone volume over 12 remodeling cycles at a Wnt-10b fold change of 1.8,
 with the 1.2–2.4 fold-change envelope shaded, compared with the two independent
 Roser-Page BV/TV endpoints (held out from the fit). Both data points lie on the
 simulated trajectory.
 
-![validation vs Roser-Page](fig5_validation_roserpage.png)
+![validation vs Roser-Page](fig4_validation_roserpage.png)
 
-### Figure 6 — cell-population response to Wnt-10b
-Maximum pre-osteoblast, osteoblast and osteoclast counts within a remodeling
-cycle as a function of the Wnt-10b fold change: pre-osteoblasts and osteoblasts
-increase while osteoclasts decrease with increasing Wnt-10b, the paper's central
-mechanistic result.
+### Figure 5 — activated cell-population dynamics over a single remodeling cycle
+Osteocyte, pre-osteoblast, osteoblast and osteoclast time courses for Wnt-10b
+fold changes -1, 5 and 50: (A) osteocytes change little with Wnt-10b, (B)
+pre-osteoblasts increase slightly, (C) osteoblasts increase, and (D) osteoclasts
+decrease with increasing Wnt-10b. Populations settle well before the 100-day
+cycle boundary.
 
-![cell populations vs Wnt-10b](fig6_cellpopulations_vs_wnt.png)
+![cell dynamics over a single cycle](fig5_cell_dynamics_single_cycle.png)
+
+### Figure 6 — cell-population AUC ratios vs Wnt-10b
+Pre-osteoblast:osteoblast (A) and osteoclast:osteoblast (B) area-under-curve
+ratios over a single remodeling cycle as a function of the Wnt-10b fold change;
+both ratios decrease with increasing Wnt-10b.
+
+![AUC ratios](fig6_auc_ratios.png)
