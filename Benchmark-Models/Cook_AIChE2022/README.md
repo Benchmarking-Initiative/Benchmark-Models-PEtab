@@ -114,6 +114,16 @@ at the measurement times. This period-wise formulation is numerically identical
 > experiment/condition tables is the PEtab v2 idiom and keeps the model itself
 > a plain, reusable ODE system.
 
+### Simulation
+
+The problem imports and simulates with AMICI (`src/python/simulate.py`); AMICI
+encodes the experiment periods as events internally. The cycle-boundary state
+change makes the system stiff, so the AMICI **absolute tolerance must be
+loosened from its very tight default (`1e-16`) to about `1e-12`** — with the
+default `atol` the solver reports a too-small step after the reset. The
+`simulatedData` table was generated with AMICI at `rtol = 1e-10`, `atol = 1e-12`
+(total log-likelihood ≈ -152.69 at the nominal parameters).
+
 ## Nominal parameters
 
 Taken from the publication's final fit (the parameter set used to generate the
@@ -152,12 +162,16 @@ exact interpolation (residual sum of squares ~278 in BV/TV-% units). The
 
 ## Reproducing the figures
 
-`make_figures.py` reads the PEtab v2 problem and simulates the event-free model
-cycle-by-cycle with libroadrunner, applying the `cycle_reset` condition at each
-100-day boundary exactly as the experiment table prescribes:
+`make_figures.py` uses **AMICI** as the simulator. It compiles the event-free
+SBML model and integrates it cycle-by-cycle, applying the `cycle_reset` state
+change at each 100-day boundary exactly as the experiment table prescribes.
+(The dose experiments are also simulated end-to-end through the PEtab route by
+`src/python/simulate.py`; the figures additionally need Wnt-10b fold changes
+that are not part of the problem — the 1.2–2.4 envelope and the Figure 6 sweep
+— hence the direct model integration.)
 
 ```bash
-python make_figures.py   # requires petab (v2), libroadrunner, matplotlib, numpy
+python make_figures.py   # requires petab (v2), amici, matplotlib, numpy
 ```
 
 ### Figure 1 — dose-response
