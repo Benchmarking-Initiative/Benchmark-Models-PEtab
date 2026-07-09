@@ -40,11 +40,7 @@ def create_v2_simulator(
     num_threads: int = 1,
     verbose: int = logging.INFO,
 ):
-    """Create an AMICI PEtab simulator for a PEtab v2 problem.
-
-    The importer encodes the experiment periods (e.g. cycle resets) as events,
-    so simulating the problem applies them automatically.
-    """
+    """Create an AMICI PEtab simulator for a PEtab v2 problem."""
     importer = PetabImporter(problem, verbose=verbose)
     simulator = importer.create_simulator()
     simulator.num_threads = num_threads
