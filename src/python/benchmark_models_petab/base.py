@@ -2,11 +2,15 @@
 
 from pathlib import Path
 
-import petab.v1 as petab
+import petab.v1
+import petab.v2
+from petab.v1.yaml import load_yaml
 
 from .C import MODELS_DIR
 
 import pandas as pd
+
+Problem = petab.v1.Problem | petab.v2.Problem
 
 
 def get_problem_yaml_path(id_: str) -> Path:
@@ -28,7 +32,13 @@ def get_problem_yaml_path(id_: str) -> Path:
     return yaml_path
 
 
-def get_problem(id_: str) -> petab.Problem:
+def _format_major_version(yaml_file: Path) -> int:
+    """Get the major PEtab format version of a problem YAML file."""
+    version = load_yaml(yaml_file).get("format_version", "1")
+    return int(str(version).split(".")[0])
+
+
+def get_problem(id_: str) -> Problem:
     """Read PEtab problem from the benchmark collection by name.
 
     Parameters
@@ -37,11 +47,13 @@ def get_problem(id_: str) -> petab.Problem:
 
     Returns
     -------
-    The PEtab problem.
+    The PEtab problem (a ``petab.v1`` or ``petab.v2`` problem, depending on
+    the problem's ``format_version``).
     """
     yaml_file = get_problem_yaml_path(id_)
-    petab_problem = petab.Problem.from_yaml(yaml_file)
-    return petab_problem
+    if _format_major_version(yaml_file) >= 2:
+        return petab.v2.Problem.from_yaml(yaml_file)
+    return petab.v1.Problem.from_yaml(yaml_file)
 
 
 def get_simulation_df(id_: str) -> pd.DataFrame | None:
@@ -58,6 +70,6 @@ def get_simulation_df(id_: str) -> pd.DataFrame | None:
     """
     for filename in (f"simulatedData_{id_}.tsv", "simulations.tsv"):
         if (path := Path(MODELS_DIR, id_, filename)).is_file():
-            return petab.get_simulation_df(path)
+            return petab.v1.get_simulation_df(path)
 
     return None

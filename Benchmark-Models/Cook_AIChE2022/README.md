@@ -106,13 +106,8 @@ which each experiment applies at `t = 100, 200, ...` via the experiment table.
 The SBML model contains **no events**; the periods of the experiment define the
 cycle boundaries. Crucially, bone volume `z` is **not** reset, so it is
 continuous across cycle boundaries and the `z`-based observable is unambiguous
-at the measurement times. This period-wise formulation is numerically identical
-(to solver tolerance) to the earlier SBML-event encoding.
-
-> Earlier revisions of this problem (PEtab v1) encoded the same reset as 11
-> time-triggered SBML events at `t = 100, ..., 1100`. Moving it into the
-> experiment/condition tables is the PEtab v2 idiom and keeps the model itself
-> a plain, reusable ODE system.
+at the measurement times. Keeping the reset in the experiment/condition tables
+leaves the model itself a plain, reusable ODE system.
 
 ### Simulation
 

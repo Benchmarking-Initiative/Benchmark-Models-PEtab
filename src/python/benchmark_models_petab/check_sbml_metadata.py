@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 from . import MODELS, get_problem
-from .overview import get_reference_uris
+from .overview import get_reference_uris, get_sbml_model
 
 
 def main():
@@ -14,11 +14,10 @@ def main():
     for petab_problem_id in MODELS:
         petab_problem = get_problem(petab_problem_id)
 
-        model_id = petab_problem.sbml_model.getId()
-        model_name = petab_problem.sbml_model.getName()
-        reference_uris = get_reference_uris(
-            sbml_model=petab_problem.sbml_model
-        )
+        sbml_model = get_sbml_model(petab_problem)
+        model_id = sbml_model.getId()
+        model_name = sbml_model.getName()
+        reference_uris = get_reference_uris(sbml_model=sbml_model)
 
         errors = []
 
