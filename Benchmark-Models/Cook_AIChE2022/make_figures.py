@@ -2,11 +2,11 @@
 """Reproduce figures from Cook et al. (2022) from the PEtab v2 problem.
 
 Every trajectory here is obtained by simulating the PEtab v2 problem itself
-with AMICI: the problem is imported with
-:class:`amici.importers.petab._petab_importer.PetabImporter` (which encodes the
-experiment periods as events), and each experiment is simulated with dense
-output timepoints so that AMICI applies the ``cycle_reset`` condition at every
-100-day boundary. All figures are derived from the four dose experiments
+with AMICI, reusing the collection's simulation code
+(``src/python/simulate.py``:``create_v2_simulator``, which encodes the
+experiment periods as events). Each experiment is simulated with dense output
+timepoints so that AMICI applies the ``cycle_reset`` condition at every 100-day
+boundary. All figures are derived from the four dose experiments
 (``exp_Wnt_m1``, ``exp_Wnt_5``, ``exp_Wnt_50``, ``exp_Wnt_1_8``).
 
 Because only these four Wnt-10b fold changes exist in the problem, some figures
@@ -25,7 +25,7 @@ the first time, to build the AMICI model).
 Run from anywhere: ``python make_figures.py`` (figures are written next to it).
 """
 import logging
-import tempfile
+import sys
 from pathlib import Path
 
 import matplotlib
@@ -34,12 +34,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 import amici.sim.sundials as ass
 import petab.v2 as petab
-from amici.importers.petab._petab_importer import PetabImporter
 
 HERE = Path(__file__).resolve().parent
 PID = "Cook_AIChE2022"
 CYCLE = 100.0
 trapz = getattr(np, "trapezoid", None) or np.trapz  # numpy>=2 renamed trapz
+
+# reuse the collection's AMICI PEtab simulation code
+sys.path.insert(0, str(HERE.parents[1] / "src" / "python"))
+from simulate import create_v2_simulator  # noqa: E402
 
 # experiment id -> (Wnt-10b fold change, number of remodeling cycles)
 EXP = {"exp_Wnt_m1": (-1.0, 6), "exp_Wnt_5": (5.0, 6),
@@ -50,16 +53,9 @@ nominal = problem.get_x_nominal_dict()
 meas_df = problem.measurement_df
 
 # --- import & compile the PEtab problem with AMICI -------------------------
-_importer = PetabImporter(
-    problem,
-    output_dir=str(Path(tempfile.mkdtemp(prefix="cook_amici_")) / PID),
-    verbose=logging.WARNING,
-)
-_sim = _importer.create_simulator()
-_model, _em, _solver = _sim.model, _sim._exp_man, _sim._solver
-_solver.set_relative_tolerance(1e-10)
-_solver.set_absolute_tolerance(1e-12)  # default 1e-16 is too tight for the reset
-_solver.set_max_steps(10 ** 6)
+_sim = create_v2_simulator(problem, verbose=logging.WARNING)
+_model, _em, _solver = _sim.model, _sim.exp_man, _sim.solver
+# states are needed for the trajectory figures
 _solver.set_return_data_reporting_mode(ass.RDataReporting.full)
 STATES = list(_model.get_state_ids())  # S, P, B, C, z
 Z = STATES.index("Bone_volume__z")

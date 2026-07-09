@@ -20,15 +20,18 @@ jobs:
       with:
         python-version: "3.13"
 
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y swig libopenblas-dev libhdf5-dev
+
     - name: Install AMICI
       env:
         AMICI_PARALLEL_COMPILE: ""
       run: |
         pip install --upgrade pip
-        # TODO: once amici 1.0 is released, replace with:
-        # pip install amici[petab]
-        pip install petab
-        pip install "git+https://github.com/dweindl/amici.git@6a85422ad233fc268fb71272bba39f5b82db387a#egg=amici&subdirectory=python/sdist"
+        pip install "amici[petab]"
+        pip install -e src/python
 
     - name: Simulate with nominal parameters
       env:
