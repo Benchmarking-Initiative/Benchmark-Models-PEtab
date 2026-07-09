@@ -30,8 +30,7 @@ jobs:
         AMICI_PARALLEL_COMPILE: ""
       run: |
         pip install --upgrade pip
-        pip install "amici[petab]"
-        pip install -e src/python
+        pip install -e "src/python[simulate]"
 
     - name: Simulate with nominal parameters
       env:

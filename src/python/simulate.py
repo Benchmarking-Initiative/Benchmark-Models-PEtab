@@ -15,15 +15,11 @@ import os
 import amici.sim.sundials as ass
 import benchmark_models_petab
 import petab.v2
-from amici.importers.petab._petab_importer import PetabImporter
+from amici.importers.petab import PetabImporter
 from amici.importers.petab.v1 import import_petab_problem
+from amici.sim.sundials.petab.v1 import LLH, RDATAS, simulate_petab
 from petab.v1.core import flatten_timepoint_specific_output_overrides
 from petab.v1.lint import measurement_table_has_timepoint_specific_mappings
-
-try:  # location in released amici
-    from amici.sim.sundials.petab.v1 import LLH, RDATAS, simulate_petab
-except ImportError:  # older/dev amici layout
-    from amici.importers.petab.v1 import LLH, RDATAS, simulate_petab
 
 
 def _relax_tolerances(solver) -> None:
