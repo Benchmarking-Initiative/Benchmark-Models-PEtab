@@ -1,2 +1,2 @@
-experimentId	conditionId	time
-experiment____cond1	cond1	0
+experimentId	time	conditionId
+experiment____cond1	0	cond1

@@ -1,2 +1,2 @@
-experimentId	conditionId	time
-experiment____wt	wt	0
+experimentId	time	conditionId
+experiment____wt	0	wt
