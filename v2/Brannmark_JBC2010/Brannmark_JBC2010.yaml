@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Brannmark_JBC2010.tsv
+model_files:
+  model_Brannmark_JBC2010:
+    location: model_Brannmark_JBC2010.xml
+    language: sbml
+measurement_files:
+- measurementData_Brannmark_JBC2010.tsv
+condition_files:
+- experimentalCondition_Brannmark_JBC2010.tsv
+experiment_files:
+- experiments.tsv
+observable_files:
+- observables_Brannmark_JBC2010.tsv
+mapping_files: []
+extensions: {}

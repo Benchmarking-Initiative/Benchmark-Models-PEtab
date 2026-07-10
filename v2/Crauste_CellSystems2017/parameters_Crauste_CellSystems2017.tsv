@@ -1,0 +1,13 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorParameters
+delta_EL	delta_{EL}	1e-05	1000	0.517945937424841	true	
+delta_LM	delta_{LM}	1e-05	1000	0.022580636941607	true	
+delta_NE	delta_{NE}	1e-05	1000	0.011930787933602	true	
+mu_EE	mu_{EE}	1e-05	1000	3.91359465940441e-05	true	
+mu_LE	mu_{LE}	1e-10	1000	1.00000000000007e-10	true	
+mu_LL	mu_{LL}	1e-10	1000	8.11520130499257e-06	true	
+mu_N	mu_{N}	1e-05	1000	0.739907304399124	true	
+mu_P	mu_{P}	1e-05	1000	1.00000003522094e-05	true	
+mu_PE	mu_{PE}	1e-10	1000	1.41248724084794e-10	true	
+mu_PL	mu_{PL}	1e-05	1000	3.63403086241783e-05	true	
+rho_E	rho_{E}	1e-05	1000	0.507415649004014	true	
+rho_P	rho_{P}	1e-05	1000	0.126382292625502	true	

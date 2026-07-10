@@ -1,0 +1,16 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Rahman_MBS2016.tsv
+model_files:
+  model_Rahman_MBS2016:
+    location: model_Rahman_MBS2016.xml
+    language: sbml
+measurement_files:
+- measurementData_Rahman_MBS2016.tsv
+condition_files:
+- experimentalCondition_Rahman_MBS2016.tsv
+experiment_files: []
+observable_files:
+- observables_Rahman_MBS2016.tsv
+mapping_files: []
+extensions: {}

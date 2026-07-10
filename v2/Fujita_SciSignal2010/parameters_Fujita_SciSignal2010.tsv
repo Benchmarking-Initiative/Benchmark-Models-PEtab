@@ -1,0 +1,20 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorType	priorParameters	hierarchicalOptimization (optional)
+EGFR_turnover	EGFR_{turnover}	1e-08	100000000	0.001479614562719	true			
+init_AKT	init_{AKT}	1e-08	100000000	0.026930923029049	true			
+init_EGFR	init_{EGFR}	1e-08	100000000	37536153.8059105	true			
+init_S6	init_{S6}	1e-08	100000000	188.063148677911	true			
+reaction_1_k1	reaction_{1,k1}	1e-08	100000000	0.003690766129111	true			
+reaction_1_k2	reaction_{1,k2}	1e-08	100000000	0.002301175486005	true			
+reaction_2_k1	reaction_{2,k1}	1e-08	100000000	0.000936500808211	true			
+reaction_2_k2	reaction_{2,k2}	1e-08	100000000	60965.2066642586	true			
+reaction_3_k1	reaction_{3,k1}	1e-08	100000000	0.433225051651771	true			
+reaction_4_k1	reaction_{4,k1}	1e-08	100000000	0.030155177423024	true			
+reaction_5_k1	reaction_{5,k1}	1e-08	100000000	3.27310803801897e-06	true			
+reaction_5_k2	reaction_{5,k2}	1e-08	100000000	0.000398546299782	true			
+reaction_6_k1	reaction_{6,k1}	1e-08	100000000	5.46319692934546e-06	true			
+reaction_7_k1	reaction_{7,k1}	1e-08	100000000	0.011803208311735	true			
+reaction_8_k1	reaction_{8,k1}	1e-08	100000000	0.000944761775113	true			
+reaction_9_k1	reaction_{9,k1}	1e-08	100000000	0.028510798479438	true			
+scaling_pAkt_tot	scaling_{pAkt}_tot	1e-08	100000000	41.3771031603841	true			
+scaling_pEGFR_tot	scaling_{pEGFR}_tot	1e-08	100000000	5.64785460492811e-08	true			
+scaling_pS6_tot	scaling_{pS6}_tot	1e-08	100000000	78521.9513232784	true			
