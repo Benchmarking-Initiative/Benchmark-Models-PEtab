@@ -24,7 +24,6 @@ dependencies = [
     "python-libsbml",
     "tabulate",
     "sbmlmath",
-    # required by petab.v2 (petab.v1.distributions), which the tooling imports
     "scipy",
 ]
 
