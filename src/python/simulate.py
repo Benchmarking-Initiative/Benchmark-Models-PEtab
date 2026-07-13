@@ -22,16 +22,30 @@ from petab.v1.core import flatten_timepoint_specific_output_overrides
 from petab.v1.lint import measurement_table_has_timepoint_specific_mappings
 
 
-def _relax_tolerances(solver) -> None:
-    """Loosen AMICI's very tight default absolute tolerance.
+# Per-problem AMICI solver overrides for PEtab v2 problems that need looser
+# tolerances than AMICI's very tight defaults. Problems not listed here keep
+# the AMICI defaults, so this is not applied globally to all v2 problems.
+_V2_SOLVER_OVERRIDES = {
+    # The cycle-reset state change makes this system stiff; the default
+    # atol=1e-16 triggers a too-small step size right after a reset.
+    "Cook_AIChE2022": dict(rtol=1e-10, atol=1e-12, max_steps=10**6),
+}
 
-    The default ``atol`` (1e-16) can trigger a too-small step size right after
-    a PEtab experiment-period state change; 1e-12 is robust while remaining
-    accurate.
+
+def _apply_solver_settings(solver, solver_settings: dict | None) -> None:
+    """Apply optional AMICI solver tolerance overrides.
+
+    Leaves AMICI's defaults untouched when ``solver_settings`` is ``None``.
+    Recognized keys: ``rtol``, ``atol``, ``max_steps``.
     """
-    solver.set_relative_tolerance(1e-10)
-    solver.set_absolute_tolerance(1e-12)
-    solver.set_max_steps(10**6)
+    if not solver_settings:
+        return
+    if "rtol" in solver_settings:
+        solver.set_relative_tolerance(solver_settings["rtol"])
+    if "atol" in solver_settings:
+        solver.set_absolute_tolerance(solver_settings["atol"])
+    if "max_steps" in solver_settings:
+        solver.set_max_steps(solver_settings["max_steps"])
 
 
 def create_v2_simulator(
@@ -39,12 +53,18 @@ def create_v2_simulator(
     *,
     num_threads: int = 1,
     verbose: int = logging.INFO,
+    solver_settings: dict | None = None,
 ):
-    """Create an AMICI PEtab simulator for a PEtab v2 problem."""
+    """Create an AMICI PEtab simulator for a PEtab v2 problem.
+
+    ``solver_settings`` optionally overrides the AMICI solver tolerances
+    (keys ``rtol``, ``atol``, ``max_steps``); AMICI defaults are used when it
+    is ``None``.
+    """
     importer = PetabImporter(problem, verbose=verbose)
     simulator = importer.create_simulator()
     simulator.num_threads = num_threads
-    _relax_tolerances(simulator.solver)
+    _apply_solver_settings(simulator.solver, solver_settings)
     return simulator
 
 
@@ -68,21 +88,26 @@ def _simulate_v1(problem, num_threads):
     return res[LLH], res[RDATAS]
 
 
-def _simulate_v2(problem, num_threads):
+def _simulate_v2(problem, num_threads, solver_settings=None):
     """Simulate a PEtab v2 problem; returns (total_llh, rdatas)."""
-    simulator = create_v2_simulator(problem, num_threads=num_threads)
+    simulator = create_v2_simulator(
+        problem, num_threads=num_threads, solver_settings=solver_settings
+    )
     res = simulator.simulate()
     return res.llh, res.rdatas
 
 
-def simulate(problem, num_threads: int = 1):
+def simulate(
+    problem, num_threads: int = 1, solver_settings: dict | None = None
+):
     """Simulate a PEtab problem at its nominal parameters with AMICI.
 
     Dispatches to the PEtab v1 or v2 simulation route depending on the type of
-    ``problem``. Returns ``(total_log_likelihood, rdatas)``.
+    ``problem``. ``solver_settings`` (v2 only) optionally overrides the AMICI
+    solver tolerances. Returns ``(total_log_likelihood, rdatas)``.
     """
     if isinstance(problem, petab.v2.Problem):
-        return _simulate_v2(problem, num_threads)
+        return _simulate_v2(problem, num_threads, solver_settings)
     return _simulate_v1(problem, num_threads)
 
 
@@ -131,7 +156,11 @@ def main():
 
     problem = benchmark_models_petab.get_problem(args.problem_id)
 
-    total_llh, rdatas = simulate(problem, num_threads=args.num_threads)
+    total_llh, rdatas = simulate(
+        problem,
+        num_threads=args.num_threads,
+        solver_settings=_V2_SOLVER_OVERRIDES.get(args.problem_id),
+    )
 
     for rdata in rdatas:
         chi2 = getattr(rdata, "chi2", None)

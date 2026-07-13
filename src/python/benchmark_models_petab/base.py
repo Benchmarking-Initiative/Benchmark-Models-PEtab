@@ -4,7 +4,7 @@ from pathlib import Path
 
 import petab.v1
 import petab.v2
-from petab.v1.yaml import load_yaml
+from petab.versions import get_major_version
 
 from .C import MODELS_DIR
 
@@ -32,12 +32,6 @@ def get_problem_yaml_path(id_: str) -> Path:
     return yaml_path
 
 
-def _format_major_version(yaml_file: Path) -> int:
-    """Get the major PEtab format version of a problem YAML file."""
-    version = load_yaml(yaml_file).get("format_version", "1")
-    return int(str(version).split(".")[0])
-
-
 def get_problem(id_: str) -> Problem:
     """Read PEtab problem from the benchmark collection by name.
 
@@ -51,7 +45,7 @@ def get_problem(id_: str) -> Problem:
     the problem's ``format_version``).
     """
     yaml_file = get_problem_yaml_path(id_)
-    if _format_major_version(yaml_file) >= 2:
+    if get_major_version(yaml_file) >= 2:
         return petab.v2.Problem.from_yaml(yaml_file)
     return petab.v1.Problem.from_yaml(yaml_file)
 

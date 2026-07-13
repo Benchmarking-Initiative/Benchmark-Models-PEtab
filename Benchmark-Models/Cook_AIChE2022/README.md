@@ -55,23 +55,22 @@ original `GraphsforPaper.m`):
 > Wnt-10b production and bone formation in a mouse model*, Arthritis &
 > Rheumatology, 2014, 66(4), 990–999. doi:[10.1002/art.38319](https://doi.org/10.1002/art.38319)
 
-These two points are included in the PEtab measurement table (experiment
-`exp_Wnt_1_8`, dataset ids `RoserPage2014_*`) so the validation figure can be
-reproduced. Unlike the Bennett fitting data (fixed unit noise), the validation
-points carry their **reported standard deviations** (19.2, 40.6) as
-`noiseParameters`. Because these SDs are large relative to the unit-noise
-Bennett residuals, the validation points contribute negligibly to the objective
-and the fit (see below) is still effectively determined by the Bennett data
-alone, matching the original study where Roser-Page was held out for
-validation.
+These two points are kept in a **separate** measurement table
+(`measurementData_validation_Cook_AIChE2022.tsv`, experiment `exp_Wnt_1_8`,
+dataset ids `RoserPage2014_*`) that is **not** referenced by the problem YAML,
+so they are held out of parameter estimation — matching the original study,
+where Roser-Page was used only for validation. Their reported standard
+deviations (19.2, 40.6) are carried in that table purely as error bars for the
+validation figure; they are not used as PEtab noise.
 
 ## PEtab problem
 
 PEtab v2 (`format_version: 2.0.0`). The files are:
 
 * **Conditions** (`conditions_Cook_AIChE2022.tsv`): the Wnt-10b dose conditions
-  `Wnt_m1`, `Wnt_5`, `Wnt_50`, `Wnt_1_8` (each sets the `Wnt` parameter) and the
-  `cycle_reset` condition that performs the cycle-boundary state reset (below).
+  `Wnt_m1`, `Wnt_5`, `Wnt_50`, `Wnt_1_8` (each sets the `Wnt` parameter and
+  `alpha3adj = beta1adj + k2adj`, see *Differences* below) and the `cycle_reset`
+  condition that performs the cycle-boundary state reset (below).
 * **Experiments** (`experiments_Cook_AIChE2022.tsv`): one timecourse per Wnt-10b
   dose (`exp_Wnt_m1`, `exp_Wnt_5`, `exp_Wnt_50`, `exp_Wnt_1_8`). Each starts at
   `t = 0` with the dose condition and then applies `cycle_reset` at every 100-day
@@ -79,11 +78,13 @@ PEtab v2 (`format_version: 2.0.0`). The files are:
   experiment's measurements.
 * **Observable** (`observables`): `obs_BV = Bone_volume__z - 100`, the relative
   BV/TV change. The paper fits with unweighted least squares; this is
-  reproduced with a fixed unit noise (`normal`), so the objective equals the
-  residual sum of squares up to a constant.
+  reproduced with a fixed unit noise (`noiseFormula = 1`, `normal`), so the
+  objective equals the residual sum of squares up to a constant.
 * **Estimated parameters** (`parameters`): the four Wnt-10b-related parameters
-  `beta1adj`, `alpha3adj`, `beta2adj`, `K`. (PEtab v2 has no `parameterScale`
-  column; the bounds are given on linear scale.)
+  `beta1adj`, `k2adj`, `beta2adj`, `K`, with `alpha3adj = beta1adj + k2adj`
+  derived via the condition table so that `alpha3adj > beta1adj` holds during
+  fitting (see *Differences from the original publication*). (PEtab v2 has no
+  `parameterScale` column; the bounds are given on linear scale.)
 
 ### Multiple remodeling cycles as PEtab experiments
 
@@ -117,7 +118,8 @@ change makes the system stiff, so the AMICI **absolute tolerance must be
 loosened from its very tight default (`1e-16`) to about `1e-12`** — with the
 default `atol` the solver reports a too-small step after the reset. The
 `simulatedData` table was generated with AMICI at `rtol = 1e-10`, `atol = 1e-12`
-(total log-likelihood ≈ -152.69 at the nominal parameters).
+(total log-likelihood ≈ -143.38 over the four fitting measurements at the
+nominal parameters).
 
 ## Nominal parameters
 
@@ -127,33 +129,35 @@ paper figures in `GraphsforPaper.m`, "after the 4th data point was added"):
 | parameter | nominal | note |
 |-----------|--------:|------|
 | `beta1adj`  | 0.177617716487146    | `= k1` |
-| `alpha3adj` | 0.260931032760533    | `= k1 + k2` |
+| `k2adj`     | 0.083313316273387    | `= k2`; `alpha3adj = beta1adj + k2adj = k1 + k2` |
 | `beta2adj`  | 0.000709650034656732 | `= k3` |
 | `K`         | 6.26349707992014     | `= k4` |
 
 ## Differences from the original publication
 
-* **Reparameterization.** The MATLAB code estimates `k1..k4` with
-  `alpha3adj = k1 + k2`. Here `beta1adj, alpha3adj, beta2adj, K` are estimated
-  directly (they are already SBML parameters); this is an equivalent
-  parameterization of the same 4-parameter space.
-* **Multiple cycles via PEtab experiments** (see above): the cycle-boundary
-  reset is applied through the experiment/condition tables rather than the
-  sequential re-initialized integrations of the MATLAB code.
-* The `parameters` values in the shipped SBML export are corrected: its
-  `beta1adj = 0.0833` is in fact the value of `k2`; the nominal values here use
-  the published `k1..k4`.
+* **Estimated parameters and the `alpha3adj > beta1adj` constraint.** The MATLAB
+  code estimates `k1..k4` with `beta1adj = k1`, `beta2adj = k3`, `K = k4` and
+  `alpha3adj = k1 + k2`, so `alpha3adj > beta1adj` (because `k2 > 0`). To keep
+  that constraint during fitting, the estimated parameters here are `beta1adj`,
+  `k2adj` (`= k2`, lower bound > 0), `beta2adj` and `K`, and `alpha3adj` is
+  derived as `alpha3adj = beta1adj + k2adj` via the condition table rather than
+  estimated independently. This also corrects the shipped SBML export, whose
+  `beta1adj = 0.0833` is in fact the value of `k2` (the nominal `k2adj` here).
+* **Multiple remodeling cycles** are applied through the experiment/condition
+  tables rather than the MATLAB code's sequential re-initialized integrations
+  (see *Multiple remodeling cycles as PEtab experiments* above).
 * The reaction kinetics match the shipped SBML export, which omits the
-  `max(1 - S/K_S, 0)` clamp present in the MATLAB code; the two agree because
-  `S < K_S` throughout the simulated trajectories.
+  `max(1 - S/K_S, 0)` clamp present in the MATLAB code. It has no effect on the
+  nominal trajectories (`S` stays below `K_S`); whether it matters under fitting,
+  where the parameters vary and `S` could exceed `K_S`, remains to be verified.
 
 ## Fitting notes
 
 The nominal fit was obtained in the original study with MATLAB `lsqcurvefit`
 (Levenberg-Marquardt) from Latin-hypercube / normally-distributed multistarts.
-It is a least-squares compromise across the four data points rather than an
-exact interpolation (residual sum of squares ~278 in BV/TV-% units). The
-`Wnt_50 / 12-cycle` point is reproduced almost exactly.
+It is a least-squares compromise across the four data points (residual sum of
+squares ~279 in BV/TV-% units); the `Wnt_50 / 12-cycle` point is reproduced
+almost exactly.
 
 ## Reproducing the figures
 
@@ -164,7 +168,7 @@ that AMICI applies the `cycle_reset` condition at every 100-day boundary. Every
 figure is derived from those four experiments.
 
 ```bash
-python make_figures.py   # requires petab (v2), amici, matplotlib, numpy
+python make_figures.py   # requires petab (v2), amici, matplotlib, numpy>=2
 ```
 
 Because the problem only contains the four fold changes -1, 1.8, 5 and 50, two

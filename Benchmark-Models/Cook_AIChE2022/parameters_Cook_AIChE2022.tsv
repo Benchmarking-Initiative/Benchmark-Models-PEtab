@@ -1,5 +1,5 @@
-parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorParameters
-beta1adj	$\beta_1^{\mathrm{adj}}$	0.0001	1.0	0.177617716487146	true	
-alpha3adj	$\alpha_3^{\mathrm{adj}}$	0.0001	1.1	0.260931032760533	true	
-beta2adj	$\beta_2^{\mathrm{adj}}$	1e-07	1.0	0.000709650034656732	true	
-K	$K$	1.0	10.0	6.26349707992014	true	
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate
+beta1adj	$\beta_1^{\mathrm{adj}}$	0.0001	1.0	0.177617716487146	true
+k2adj	$k_2$	0.0001	1.1	0.083313316273387	true
+beta2adj	$\beta_2^{\mathrm{adj}}$	1e-07	1.0	0.000709650034656732	true
+K	$K$	1.0	10.0	6.26349707992014	true

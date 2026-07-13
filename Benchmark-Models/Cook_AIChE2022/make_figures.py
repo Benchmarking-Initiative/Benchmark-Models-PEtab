@@ -18,9 +18,10 @@ are necessarily reduced relative to the publication:
   points rather than a continuous sweep.
 
 The cycle-boundary state change makes the system stiff, so the AMICI absolute
-tolerance is loosened from its very tight default (1e-16) to 1e-12.
+tolerance is loosened from its very tight default (1e-16) to 1e-12; these
+solver settings are passed explicitly to the simulator (see ``COOK_SOLVER``).
 
-Requirements: petab (v2), amici, matplotlib, numpy (a C++ compiler is needed
+Requirements: petab (v2), amici, matplotlib, numpy>=2 (a C++ compiler is needed
 the first time, to build the AMICI model).
 Run from anywhere: ``python make_figures.py`` (figures are written next to it).
 """
@@ -32,13 +33,16 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 import amici.sim.sundials as ass
 import petab.v2 as petab
 
 HERE = Path(__file__).resolve().parent
 PID = "Cook_AIChE2022"
 CYCLE = 100.0
-trapz = getattr(np, "trapezoid", None) or np.trapz  # numpy>=2 renamed trapz
+# the cycle-reset state change makes the system stiff; loosen AMICI's very
+# tight default absolute tolerance (see the module docstring).
+COOK_SOLVER = dict(rtol=1e-10, atol=1e-12, max_steps=10**6)
 
 # reuse the collection's AMICI PEtab simulation code
 sys.path.insert(0, str(HERE.parents[1] / "src" / "python"))
@@ -50,10 +54,13 @@ EXP = {"exp_Wnt_m1": (-1.0, 6), "exp_Wnt_5": (5.0, 6),
 
 problem = petab.Problem.from_yaml(str(HERE / f"{PID}.yaml"))
 nominal = problem.get_x_nominal_dict()
-meas_df = problem.measurement_df
+meas_df = problem.measurement_df  # Bennett fitting data (in the problem YAML)
+# Roser-Page validation data, held out of the fit (separate table, not in YAML)
+val_df = pd.read_csv(HERE / f"measurementData_validation_{PID}.tsv", sep="\t")
 
 # --- import & compile the PEtab problem with AMICI -------------------------
-_sim = create_v2_simulator(problem, verbose=logging.WARNING)
+_sim = create_v2_simulator(problem, verbose=logging.WARNING,
+                           solver_settings=COOK_SOLVER)
 _model, _em, _solver = _sim.model, _sim.exp_man, _sim.solver
 # states are needed for the trajectory figures
 _solver.set_return_data_reporting_mode(ass.RDataReporting.full)
@@ -98,17 +105,35 @@ _res = _sim.simulate()
 print("total llh:", _res.llh)
 sim_obs = {}
 for rd in _res.rdatas:
+    if rd.y is None or np.asarray(rd.y).size == 0:
+        continue  # e.g. the validation experiment, which has no measurements
     for t, y in zip(np.atleast_1d(np.asarray(rd.ts)),
                     np.atleast_1d(np.asarray(rd.y).ravel())):
         sim_obs[(rd.id, round(float(t)))] = float(y)
 
+
+def _sim_obs(exp_id, time):
+    """Simulated observable (z - 100) for an experiment at a given time.
+
+    Fitting experiments come straight from the PEtab simulator; the held-out
+    validation experiment is not in the fitted problem, so its value is taken
+    from the dense trajectory (z is continuous across the cycle resets)."""
+    key = (exp_id, round(float(time)))
+    if key in sim_obs:
+        return sim_obs[key]
+    t, y = TRAJ[exp_id]
+    return float(np.interp(float(time), t, y[:, Z])) - 100.0
+
+
 fig, ax = plt.subplots(figsize=(7, 6))
 colors = plt.cm.tab10.colors
-for i, (_, row) in enumerate(meas_df.iterrows()):
+i = 0
+for _, row in pd.concat([meas_df, val_df], ignore_index=True).iterrows():
     wnt = EXP[row["experimentId"]][0]
     ax.plot(wnt, row["measurement"], "x", color=colors[i % 10], ms=9, mew=2)
-    ax.plot(wnt, sim_obs[(row["experimentId"], round(float(row["time"])))], "o",
+    ax.plot(wnt, _sim_obs(row["experimentId"], row["time"]), "o",
             color=colors[i % 10], ms=9, label=str(row["datasetId"]).replace("_", " "))
+    i += 1
 ax.set_xlabel("Wnt-10b (fold change)")
 ax.set_ylabel("BV/TV (% change from normal)")
 ax.set_title("Cook et al. 2022 - BV/TV change vs Wnt-10b (x: data, o: simulation)")
@@ -154,10 +179,15 @@ t, y = TRAJ["exp_Wnt_1_8"]
 fig, ax = plt.subplots(figsize=(8, 6))
 ax.plot(t, y[:, Z], color="C0", lw=1.8,
         label="simulation (Wnt-10b fold change 1.8)")
-ax.errorbar(600, 126.6, 19.2, fmt="o", color="C1", capsize=4, lw=2,
-            label="Roser-Page 2014 (6 remodeling cycles)")
-ax.errorbar(1200, 136.6, 40.6, fmt="s", color="C3", capsize=4, lw=2,
-            label="Roser-Page 2014 (12 remodeling cycles)")
+# validation points and their reported SDs come from the validation table;
+# measurements are BV/TV % change, plotted as relative bone volume (100 + %).
+val_styles = {600: ("o", "C1"), 1200: ("s", "C3")}
+for _, row in val_df.iterrows():
+    tt = float(row["time"])
+    fmt, col = val_styles.get(round(tt), ("o", "C1"))
+    ax.errorbar(tt, 100 + row["measurement"], row["noiseParameters"],
+                fmt=fmt, color=col, capsize=4, lw=2,
+                label=f"Roser-Page 2014 ({round(tt / CYCLE)} remodeling cycles)")
 ax.set_xlabel("time (days)")
 ax.set_ylabel("relative bone volume (%)")
 ax.set_xlim(-10, 1210)
@@ -186,7 +216,7 @@ save("fig5_cell_dynamics_single_cycle.png")
 rows = []
 for exp_id, (wnt, _) in EXP.items():
     tc, yc = first_cycle(exp_id)
-    a_po, a_ob, a_oc = (trapz(yc[:, k], tc) for k in (1, 2, 3))
+    a_po, a_ob, a_oc = (np.trapezoid(yc[:, k], tc) for k in (1, 2, 3))
     rows.append((wnt, a_po / a_ob, a_oc / a_ob))
 rows.sort()
 wnts = [r[0] for r in rows]

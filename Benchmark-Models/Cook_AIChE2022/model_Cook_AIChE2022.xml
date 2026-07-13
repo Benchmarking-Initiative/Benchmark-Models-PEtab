@@ -54,6 +54,7 @@
       <parameter id="beta_3" name="beta_3" value="0.1" constant="true"/>
       <parameter id="rho" name="rho" value="20" constant="true"/>
       <parameter id="beta1adj" name="beta1adj" value="0.177617716487146" constant="true"/>
+      <parameter id="k2adj" name="k2adj" value="0.083313316273387" constant="true"/>
       <parameter id="alpha3adj" name="alpha3adj" value="0.260931032760533" constant="true"/>
       <parameter id="beta2adj" name="beta2adj" value="0.000709650034656732" constant="true"/>
       <parameter id="K" name="K" value="6.26349707992014" constant="true"/>

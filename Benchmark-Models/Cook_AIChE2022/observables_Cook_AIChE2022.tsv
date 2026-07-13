@@ -1,2 +1,2 @@
-observableId	observableName	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
-obs_BV	relative bone volume change	Bone_volume__z - 100	noiseParameter1_obs_BV			noiseParameter1_obs_BV
+observableId	observableName	observableFormula	noiseFormula
+obs_BV	relative bone volume change	Bone_volume__z - 100	1
