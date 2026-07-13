@@ -1,0 +1,5 @@
+experimentId	observableId	measurement	time	datasetId
+exp_Wnt_m1	obs_BV	-29.7	400	Bennett2005_4cycles
+exp_Wnt_m1	obs_BV	-41.9	600	Bennett2007_6cycles_Wnt_m1
+exp_Wnt_5	obs_BV	69.2	600	Bennett2007_6cycles_Wnt_5
+exp_Wnt_50	obs_BV	339.0	1200	Bennett2005_12cycles

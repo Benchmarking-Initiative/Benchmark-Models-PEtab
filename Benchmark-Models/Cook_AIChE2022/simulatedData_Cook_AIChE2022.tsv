@@ -1,0 +1,5 @@
+experimentId	observableId	simulation	time	datasetId
+exp_Wnt_m1	obs_BV	-22.0103479953	400	Bennett2005_4cycles
+exp_Wnt_m1	obs_BV	-33.0155221687	600	Bennett2007_6cycles_Wnt_m1
+exp_Wnt_5	obs_BV	80.9940457566	600	Bennett2007_6cycles_Wnt_5
+exp_Wnt_50	obs_BV	337.5034729186	1200	Bennett2005_12cycles
