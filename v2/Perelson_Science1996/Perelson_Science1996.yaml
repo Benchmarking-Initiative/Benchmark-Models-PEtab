@@ -1,0 +1,16 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Perelson_Science1996.tsv
+model_files:
+  model_Perelson_Science1996:
+    location: model_Perelson_Science1996.xml
+    language: sbml
+measurement_files:
+- measurementData_Perelson_Science1996.tsv
+condition_files:
+- experimentalCondition_Perelson_Science1996.tsv
+experiment_files: []
+observable_files:
+- observables_Perelson_Science1996.tsv
+mapping_files: []
+extensions: {}

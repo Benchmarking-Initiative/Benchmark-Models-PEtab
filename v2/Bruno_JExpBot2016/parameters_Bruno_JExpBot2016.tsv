@@ -1,0 +1,14 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorParameters
+init_b10_1	init_{b10}	1e-05	1000	4.22228991356159	true	
+init_bcar1	init_{bcar1}	1e-05	1000	4.44029572277168	true	
+init_bcar2	init_{bcar2}	1e-05	1000	3.30171980495163	true	
+init_bcry_1	init_{bcry}	1e-05	1000	5.21693865661801	true	
+init_ohb10_1	init_{ohb10}	1e-05	1000	1.73724675926262	true	
+init_zea_1	init_{zea}	1e-05	1000	2.95812301577671	true	
+k5	k5	1e-05	1000	0.003086673219173	true	
+kb1	kb1	1e-05	1000	0.016628409992721	true	
+kb2	kb2	1e-05	1000	0.005843831819271	true	
+kc1	kc1	1e-05	1000	0.001678825242274	true	
+kc2	kc2	1e-05	1000	0.006975989070463	true	
+kc4	kc4	1e-05	1000	0.006082700899195	true	
+szea	szea	1e-05	1000	0.516831766210391	true	

@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="Lucarelli_CellSystems2018" name="Lucarelli_CellSystems2018">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <pre>PEtab implementation of the model from Lucarelli et al. (2018), Cell Syst. 2018 Jan 24;6(1):75-89.e11</pre>
+      </body>
+    </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#arFramework3">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Lucarelli</vCard:Family>
+                  <vCard:Given>Philippe</vCard:Given>
+                </vCard:N>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2019-11-29T09:41:48Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/doi/10.1016/j.cels.2017.11.010"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfUnitDefinitions>
+      <unitDefinition id="time" name="time">
+        <listOfUnits>
+          <unit kind="second" exponent="1" scale="0" multiplier="60"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="cell" spatialDimensions="3" size="13.17" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="TGFb" name="TGFb" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Rec" name="Rec" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="TGFb_pRec" name="TGFb_pRec" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S2" name="S2" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S3" name="S3" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S4" name="S4" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S2_S4_S4" name="S2_S4_S4" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS2_ppS2_ppS2" name="ppS2_ppS2_ppS2" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS3_ppS3_ppS3" name="ppS3_ppS3_ppS3" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="S4_S4_S4" name="S4_S4_S4" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pS2" name="pS2" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="pS3" name="pS3" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS2" name="ppS2" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS3" name="ppS3" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS2_ppS2_S4" name="ppS2_ppS2_S4" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS2_ppS2_ppS3" name="ppS2_ppS2_ppS3" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS2_ppS3_ppS3" name="ppS2_ppS3_ppS3" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS3_ppS3_S4" name="ppS3_ppS3_S4" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS2_ppS3_S4" name="ppS2_ppS3_S4" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS3_S4_S4" name="ppS3_S4_S4" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="ppS2_S4_S4" name="ppS2_S4_S4" compartment="cell" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneA" name="geneA" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneB" name="geneB" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneC" name="geneC" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneD" name="geneD" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneE" name="geneE" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneF" name="geneF" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneG" name="geneG" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneH" name="geneH" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneI" name="geneI" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneJ" name="geneJ" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneK" name="geneK" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="geneL" name="geneL" compartment="cell" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter id="Rec_act" value="0.00598343088790046" constant="true"/>
+      <parameter id="init_TGFb" value="0" constant="true"/>
+      <parameter id="init_S2" value="0" constant="true"/>
+      <parameter id="init_S3" value="0" constant="true"/>
+      <parameter id="init_S4" value="0" constant="true"/>
+      <parameter id="S_dephos" value="0.286397320264704" constant="true"/>
+      <parameter id="S_dephosphos" value="0.0489949146416608" constant="true"/>
+      <parameter id="S_phos" value="0.379720142751521" constant="true"/>
+      <parameter id="geneA_act1" value="0.0141389661164018" constant="true"/>
+      <parameter id="geneA_act2" value="0.000797280887701997" constant="true"/>
+      <parameter id="geneA_act3" value="0" constant="true"/>
+      <parameter id="geneA_inh1" value="0" constant="true"/>
+      <parameter id="geneA_inh2" value="0.0462523981984203" constant="true"/>
+      <parameter id="geneA_inh3" value="0.026381058989095" constant="true"/>
+      <parameter id="geneA_turn" value="0.00455788978022206" constant="true"/>
+      <parameter id="geneB_act1" value="0.461699170803527" constant="true"/>
+      <parameter id="geneB_act2" value="0.073852775177442" constant="true"/>
+      <parameter id="geneB_act3" value="0.0304255473876269" constant="true"/>
+      <parameter id="geneB_inh1" value="0" constant="true"/>
+      <parameter id="geneB_inh2" value="0.747200749545747" constant="true"/>
+      <parameter id="geneB_inh3" value="0.407329851468312" constant="true"/>
+      <parameter id="geneB_turn" value="0.0112459404708192" constant="true"/>
+      <parameter id="geneC_act1" value="0.00714636599139809" constant="true"/>
+      <parameter id="geneC_act2" value="0" constant="true"/>
+      <parameter id="geneC_act3" value="0" constant="true"/>
+      <parameter id="geneC_inh1" value="0" constant="true"/>
+      <parameter id="geneC_inh2" value="0.018441582221635" constant="true"/>
+      <parameter id="geneC_inh3" value="0.035379693264711" constant="true"/>
+      <parameter id="geneC_turn" value="0.00378630404521753" constant="true"/>
+      <parameter id="geneD_act1" value="0.0111673720417551" constant="true"/>
+      <parameter id="geneD_act2" value="0.000268942132758932" constant="true"/>
+      <parameter id="geneD_act3" value="0" constant="true"/>
+      <parameter id="geneD_inh1" value="0" constant="true"/>
+      <parameter id="geneD_inh2" value="0.0868803385899104" constant="true"/>
+      <parameter id="geneD_inh3" value="0.101419105775767" constant="true"/>
+      <parameter id="geneD_turn" value="0.000802160834341515" constant="true"/>
+      <parameter id="geneE_act1" value="0" constant="true"/>
+      <parameter id="geneE_act2" value="1.03661055568903" constant="true"/>
+      <parameter id="geneE_act3" value="6.10224669858575" constant="true"/>
+      <parameter id="geneE_inh1" value="8.20035989079744" constant="true"/>
+      <parameter id="geneE_inh2" value="1.4392548717489" constant="true"/>
+      <parameter id="geneE_inh3" value="9.67035015330535" constant="true"/>
+      <parameter id="geneE_turn" value="0.124380538819967" constant="true"/>
+      <parameter id="geneF_act1" value="998.299919973209" constant="true"/>
+      <parameter id="geneF_act2" value="0.135655043663672" constant="true"/>
+      <parameter id="geneF_act3" value="20.6442242166861" constant="true"/>
+      <parameter id="geneF_inh1" value="3.63157061548523" constant="true"/>
+      <parameter id="geneF_inh2" value="0" constant="true"/>
+      <parameter id="geneF_inh3" value="0" constant="true"/>
+      <parameter id="geneF_turn" value="36.6724104315148" constant="true"/>
+      <parameter id="geneG_act1" value="626.768522107231" constant="true"/>
+      <parameter id="geneG_act2" value="55.9534537604082" constant="true"/>
+      <parameter id="geneG_act3" value="0" constant="true"/>
+      <parameter id="geneG_inh1" value="0" constant="true"/>
+      <parameter id="geneG_inh2" value="0.0175854489108708" constant="true"/>
+      <parameter id="geneG_inh3" value="0.000815621975867545" constant="true"/>
+      <parameter id="geneG_turn" value="295.971427530835" constant="true"/>
+      <parameter id="geneH_act1" value="0" constant="true"/>
+      <parameter id="geneH_act2" value="89.9866382703511" constant="true"/>
+      <parameter id="geneH_act3" value="999.921986303898" constant="true"/>
+      <parameter id="geneH_inh1" value="999.998960700206" constant="true"/>
+      <parameter id="geneH_inh2" value="19.0317907364409" constant="true"/>
+      <parameter id="geneH_inh3" value="218.356690800299" constant="true"/>
+      <parameter id="geneH_turn" value="0.992827361229694" constant="true"/>
+      <parameter id="geneI_act1" value="9.30152789301652" constant="true"/>
+      <parameter id="geneI_act2" value="0" constant="true"/>
+      <parameter id="geneI_act3" value="0" constant="true"/>
+      <parameter id="geneI_inh1" value="0" constant="true"/>
+      <parameter id="geneI_inh2" value="320.763519415643" constant="true"/>
+      <parameter id="geneI_inh3" value="999.981624754706" constant="true"/>
+      <parameter id="geneI_turn" value="0.00328197841814657" constant="true"/>
+      <parameter id="geneJ_act1" value="0" constant="true"/>
+      <parameter id="geneJ_act2" value="0" constant="true"/>
+      <parameter id="geneJ_act3" value="0" constant="true"/>
+      <parameter id="geneJ_inh1" value="0.47739150796461" constant="true"/>
+      <parameter id="geneJ_inh2" value="0.00985305306597475" constant="true"/>
+      <parameter id="geneJ_inh3" value="0.00851371884219428" constant="true"/>
+      <parameter id="geneJ_turn" value="0.0140190729281921" constant="true"/>
+      <parameter id="geneK_act1" value="0.0125133830064198" constant="true"/>
+      <parameter id="geneK_act2" value="0.000284224503418874" constant="true"/>
+      <parameter id="geneK_act3" value="0" constant="true"/>
+      <parameter id="geneK_inh1" value="0" constant="true"/>
+      <parameter id="geneK_inh2" value="1.36603583936842" constant="true"/>
+      <parameter id="geneK_inh3" value="2.43594567888689" constant="true"/>
+      <parameter id="geneK_turn" value="0.00359915570352007" constant="true"/>
+      <parameter id="geneL_act1" value="0" constant="true"/>
+      <parameter id="geneL_act2" value="0.000474849473374749" constant="true"/>
+      <parameter id="geneL_act3" value="0" constant="true"/>
+      <parameter id="geneL_inh1" value="1.29976503414042" constant="true"/>
+      <parameter id="geneL_inh2" value="0.062323573525662" constant="true"/>
+      <parameter id="geneL_inh3" value="0.13414856027346" constant="true"/>
+      <parameter id="geneL_turn" value="0.0149504509077553" constant="true"/>
+      <parameter id="init_Rec" value="1.83614829885072" constant="true"/>
+      <parameter id="k_223" value="0" constant="true"/>
+      <parameter id="k_224" value="0" constant="true"/>
+      <parameter id="k_233" value="0.148655616115831" constant="true"/>
+      <parameter id="k_234" value="0.000403100938582095" constant="true"/>
+      <parameter id="k_244" value="8.56307475687022e-06" constant="true"/>
+      <parameter id="k_334" value="0" constant="true"/>
+      <parameter id="k_344" value="0" constant="true"/>
+      <parameter id="k_on_u" value="0" constant="true"/>
+      <parameter id="kdiss_SS" value="0" constant="true"/>
+      <parameter id="khomo2" value="0" constant="true"/>
+      <parameter id="khomo3" value="0" constant="true"/>
+      <parameter id="khomo4" value="0" constant="true"/>
+      <parameter id="pRec_degind" value="0.0404498417896043" constant="true"/>
+    </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="Rec">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_Rec </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="TGFb">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_TGFb </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="S2">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_S2 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="S3">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_S3 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="S4">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> init_S4 </ci>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
+    <listOfReactions>
+      <reaction id="v1_v_0" name="v_0" reversible="false">
+        <listOfReactants>
+          <speciesReference species="TGFb" stoichiometry="1"/>
+          <speciesReference species="Rec" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="TGFb_pRec" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> Rec </ci>
+              <ci> Rec_act </ci>
+              <ci> TGFb </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v2_v_1" name="v_1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="TGFb_pRec" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> TGFb_pRec </ci>
+              <ci> pRec_degind </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v3_v_2" name="v_2" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S2" stoichiometry="1"/>
+          <speciesReference species="S4" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S2_S4_S4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S2 </ci>
+              <apply>
+                <power/>
+                <ci> S4 </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+              <ci> k_on_u </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v4_v_3" name="v_3" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S2_S4_S4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S2" stoichiometry="1"/>
+          <speciesReference species="S4" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S2_S4_S4 </ci>
+              <ci> kdiss_SS </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v5_v_4" name="v_4" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2" stoichiometry="3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS2_ppS2_ppS2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> khomo2 </ci>
+              <apply>
+                <power/>
+                <ci> ppS2 </ci>
+                <cn type="integer"> 3 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v6_v_5" name="v_5" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2_ppS2_ppS2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="pS2" stoichiometry="1"/>
+          <speciesReference species="ppS2" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <cn type="integer"> 3 </cn>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2_ppS2_ppS2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v7_v_6" name="v_6" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS3" stoichiometry="3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS3_ppS3_ppS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> khomo3 </ci>
+              <apply>
+                <power/>
+                <ci> ppS3 </ci>
+                <cn type="integer"> 3 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v8_v_7" name="v_7" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS3_ppS3_ppS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="pS3" stoichiometry="1"/>
+          <speciesReference species="ppS3" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <cn type="integer"> 3 </cn>
+              <ci> S_dephosphos </ci>
+              <ci> ppS3_ppS3_ppS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v9_v_8" name="v_8" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S4" stoichiometry="3"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4_S4_S4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <power/>
+                <ci> S4 </ci>
+                <cn type="integer"> 3 </cn>
+              </apply>
+              <ci> khomo4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v10_v_9" name="v_9" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S4_S4_S4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4" stoichiometry="3"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S4_S4_S4 </ci>
+              <ci> kdiss_SS </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v11_v_10" name="v_10" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS2" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="TGFb_pRec"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S2 </ci>
+              <ci> S_phos </ci>
+              <ci> TGFb_pRec </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v12_v_11" name="v_11" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="pS2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v13_v_12" name="v_12" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pS2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephos </ci>
+              <ci> pS2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v14_v_13" name="v_13" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS3" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="TGFb_pRec"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S3 </ci>
+              <ci> S_phos </ci>
+              <ci> TGFb_pRec </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v15_v_14" name="v_14" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="pS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephosphos </ci>
+              <ci> ppS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v16_v_15" name="v_15" reversible="false">
+        <listOfReactants>
+          <speciesReference species="pS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephos </ci>
+              <ci> pS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v17_v_16" name="v_16" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2" stoichiometry="2"/>
+          <speciesReference species="ppS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS2_ppS2_ppS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> k_223 </ci>
+              <apply>
+                <power/>
+                <ci> ppS2 </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+              <ci> ppS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v18_v_17" name="v_17" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2_ppS2_ppS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="pS2" stoichiometry="1"/>
+          <speciesReference species="ppS2" stoichiometry="1"/>
+          <speciesReference species="ppS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <cn type="integer"> 2 </cn>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2_ppS2_ppS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v19_v_18" name="v_18" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2_ppS2_ppS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="pS3" stoichiometry="1"/>
+          <speciesReference species="ppS2" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2_ppS2_ppS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v20_v_19" name="v_19" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S4" stoichiometry="1"/>
+          <speciesReference species="ppS2" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS2_ppS2_S4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S4 </ci>
+              <ci> k_224 </ci>
+              <apply>
+                <power/>
+                <ci> ppS2 </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v21_v_20" name="v_20" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2_ppS2_S4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4" stoichiometry="1"/>
+          <speciesReference species="pS2" stoichiometry="1"/>
+          <speciesReference species="ppS2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <cn type="integer"> 2 </cn>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2_ppS2_S4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v22_v_21" name="v_21" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2" stoichiometry="1"/>
+          <speciesReference species="ppS3" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS2_ppS3_ppS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> k_233 </ci>
+              <ci> ppS2 </ci>
+              <apply>
+                <power/>
+                <ci> ppS3 </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v23_v_22" name="v_22" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2_ppS3_ppS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="pS2" stoichiometry="1"/>
+          <speciesReference species="ppS3" stoichiometry="2"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2_ppS3_ppS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v24_v_23" name="v_23" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2_ppS3_ppS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="pS3" stoichiometry="1"/>
+          <speciesReference species="ppS2" stoichiometry="1"/>
+          <speciesReference species="ppS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <cn type="integer"> 2 </cn>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2_ppS3_ppS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v25_v_24" name="v_24" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S4" stoichiometry="1"/>
+          <speciesReference species="ppS3" stoichiometry="2"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS3_ppS3_S4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S4 </ci>
+              <ci> k_334 </ci>
+              <apply>
+                <power/>
+                <ci> ppS3 </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v26_v_25" name="v_25" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS3_ppS3_S4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4" stoichiometry="1"/>
+          <speciesReference species="pS3" stoichiometry="1"/>
+          <speciesReference species="ppS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <cn type="integer"> 2 </cn>
+              <ci> S_dephosphos </ci>
+              <ci> ppS3_ppS3_S4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v27_v_26" name="v_26" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S4" stoichiometry="2"/>
+          <speciesReference species="ppS2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS2_S4_S4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <power/>
+                <ci> S4 </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+              <ci> k_244 </ci>
+              <ci> ppS2 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v28_v_27" name="v_27" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2_S4_S4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4" stoichiometry="2"/>
+          <speciesReference species="pS2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2_S4_S4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v29_v_28" name="v_28" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S4" stoichiometry="2"/>
+          <speciesReference species="ppS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS3_S4_S4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <power/>
+                <ci> S4 </ci>
+                <cn type="integer"> 2 </cn>
+              </apply>
+              <ci> k_344 </ci>
+              <ci> ppS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v30_v_29" name="v_29" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS3_S4_S4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4" stoichiometry="2"/>
+          <speciesReference species="pS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephosphos </ci>
+              <ci> ppS3_S4_S4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v31_v_30" name="v_30" reversible="false">
+        <listOfReactants>
+          <speciesReference species="S4" stoichiometry="1"/>
+          <speciesReference species="ppS2" stoichiometry="1"/>
+          <speciesReference species="ppS3" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="ppS2_ppS3_S4" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S4 </ci>
+              <ci> k_234 </ci>
+              <ci> ppS2 </ci>
+              <ci> ppS3 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v32_v_31" name="v_31" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2_ppS3_S4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4" stoichiometry="1"/>
+          <speciesReference species="pS2" stoichiometry="1"/>
+          <speciesReference species="ppS3" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2_ppS3_S4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v33_v_32" name="v_32" reversible="false">
+        <listOfReactants>
+          <speciesReference species="ppS2_ppS3_S4" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="S4" stoichiometry="1"/>
+          <speciesReference species="pS3" stoichiometry="1"/>
+          <speciesReference species="ppS2" stoichiometry="1"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> S_dephosphos </ci>
+              <ci> ppS2_ppS3_S4 </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v34_v_33" name="v_33" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneA" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneA_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneA_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneA_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneA_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneA_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneA_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneA_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v35_v_34" name="v_34" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneA" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneA </ci>
+              <ci> geneA_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v36_v_35" name="v_35" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneB" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneB_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneB_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneB_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneB_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneB_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneB_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneB_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v37_v_36" name="v_36" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneB" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneB </ci>
+              <ci> geneB_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v38_v_37" name="v_37" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneC" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneC_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneC_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneC_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneC_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneC_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneC_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneC_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v39_v_38" name="v_38" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneC" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneC </ci>
+              <ci> geneC_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v40_v_39" name="v_39" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneD" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneD_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneD_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneD_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneD_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneD_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneD_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneD_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v41_v_40" name="v_40" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneD" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneD </ci>
+              <ci> geneD_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v42_v_41" name="v_41" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneE" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneE_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneE_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneE_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneE_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneE_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneE_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneE_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v43_v_42" name="v_42" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneE" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneE </ci>
+              <ci> geneE_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v44_v_43" name="v_43" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneF" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneF_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneF_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneF_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneF_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneF_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneF_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneF_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v45_v_44" name="v_44" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneF" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneF </ci>
+              <ci> geneF_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v46_v_45" name="v_45" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneG" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneG_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneG_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneG_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneG_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneG_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneG_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneG_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v47_v_46" name="v_46" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneG" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneG </ci>
+              <ci> geneG_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v48_v_47" name="v_47" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneH" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneH_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneH_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneH_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneH_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneH_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneH_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneH_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v49_v_48" name="v_48" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneH" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneH </ci>
+              <ci> geneH_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v50_v_49" name="v_49" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneI" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneI_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneI_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneI_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneI_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneI_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneI_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneI_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v51_v_50" name="v_50" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneI" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneI </ci>
+              <ci> geneI_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v52_v_51" name="v_51" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneJ" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneJ_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneJ_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneJ_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneJ_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneJ_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneJ_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneJ_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v53_v_52" name="v_52" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneJ" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneJ </ci>
+              <ci> geneJ_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v54_v_53" name="v_53" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneK" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneK_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneK_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneK_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneK_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneK_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneK_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneK_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v55_v_54" name="v_54" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneK" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneK </ci>
+              <ci> geneK_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v56_v_55" name="v_55" reversible="false">
+        <listOfProducts>
+          <speciesReference species="geneL" stoichiometry="1"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference species="ppS2_S4_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_S4"/>
+          <modifierSpeciesReference species="ppS2_ppS3_ppS3"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <apply>
+                <divide/>
+                <apply>
+                  <plus/>
+                  <ci> geneL_turn </ci>
+                  <apply>
+                    <times/>
+                    <ci> geneL_act2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneL_act1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneL_act3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <ci> geneL_inh2 </ci>
+                    <ci> ppS2_S4_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneL_inh1 </ci>
+                    <ci> ppS2_ppS3_S4 </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> geneL_inh3 </ci>
+                    <ci> ppS2_ppS3_ppS3 </ci>
+                  </apply>
+                  <cn type="integer"> 1 </cn>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="v57_v_56" name="v_56" reversible="false">
+        <listOfReactants>
+          <speciesReference species="geneL" stoichiometry="1"/>
+        </listOfReactants>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> cell </ci>
+              <ci> geneL </ci>
+              <ci> geneL_turn </ci>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

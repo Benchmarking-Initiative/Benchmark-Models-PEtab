@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Fiedler_BMCSystBiol2016.tsv
+model_files:
+  model_Fiedler_BMCSystBiol2016:
+    location: model_Fiedler_BMCSystBiol2016.xml
+    language: sbml
+measurement_files:
+- measurementData_Fiedler_BMCSystBiol2016.tsv
+condition_files:
+- experimentalCondition_Fiedler_BMCSystBiol2016.tsv
+experiment_files:
+- experiments.tsv
+observable_files:
+- observables_Fiedler_BMCSystBiol2016.tsv
+mapping_files: []
+extensions: {}

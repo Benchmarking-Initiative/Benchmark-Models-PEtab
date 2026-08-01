@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Zhao_QuantBiol2020.tsv
+model_files:
+  model_Zhao_QuantBiol2020:
+    location: model_Zhao_QuantBiol2020.xml
+    language: sbml
+measurement_files:
+- measurementData_training_Zhao_QuantBiol2020.tsv
+condition_files:
+- experimentalCondition_Zhao_QuantBiol2020.tsv
+experiment_files:
+- experiments.tsv
+observable_files:
+- observable_Zhao_QuantBiol2020.tsv
+mapping_files: []
+extensions: {}

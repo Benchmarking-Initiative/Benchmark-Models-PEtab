@@ -1,0 +1,5 @@
+conditionId	targetId	targetValue
+dose1	EGFconc	5e-10
+dose2	EGFconc	5e-09
+dose3	EGFconc	5e-08
+EGF25nM	EGFconc	2.5e-08

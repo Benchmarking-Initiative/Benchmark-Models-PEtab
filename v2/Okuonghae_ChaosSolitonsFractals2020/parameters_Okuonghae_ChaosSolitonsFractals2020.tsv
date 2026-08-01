@@ -1,0 +1,17 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorParameters
+alpha	alpha	1e-05	1000	0.5	true	
+d_0	d_0	1e-05	1000	0.015	true	
+d_D	d_D	1e-05	1000	0.015	true	
+gamma_0	gamma_0	1e-05	1000	0.13978	true	
+gamma_a	gamma_a	1e-05	1000	0.13978	true	
+gamma_i	gamma_i	1e-05	1000	0.06666667	true	
+nu	nu	1e-05	1000	0.5	true	
+psi	psi	1e-05	1000	0.0135	true	
+sigma	sigma	1e-05	1000	0.1923077	true	
+theta	theta	1e-13	1000	2e-12	true	
+asymptomatic_start	asymptomatic_start	1.0	10000	188.0	true	
+symptomatic_start	symptomatic_start	1.0	10000	212.0	true	
+exposed_start	exposed_start	1.0	1000	441.0	true	
+transmission_rate_effective	transmissionRate_effective	1e-05	1000	0.4236	true	
+sd_Cumulative	sd_Cumulative	1e-05	1000	1.0	true	
+sd_ActiveCases	sd_ActiveCases	1e-05	1000	1.0	true	

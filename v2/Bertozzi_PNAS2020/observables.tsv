@@ -1,0 +1,3 @@
+observableId	observableName	observableFormula	noiseFormula	observablePlaceholders	noisePlaceholders
+y_I_NY	Confirmed infected in NY	I_	sd_I_NY		
+y_I_CA	Confirmed infected in CA	I_	sd_I_CA		

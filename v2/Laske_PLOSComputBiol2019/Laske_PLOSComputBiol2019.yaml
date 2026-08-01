@@ -1,0 +1,17 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Laske_PLOSComputBiol2019.tsv
+model_files:
+  model_Laske_PLOSComputBiol2019:
+    location: model_Laske_PLOSComputBiol2019.xml
+    language: sbml
+measurement_files:
+- measurementData_Laske_PLOSComputBiol2019.tsv
+condition_files:
+- experimentalCondition_Laske_PLOSComputBiol2019.tsv
+experiment_files:
+- experiments.tsv
+observable_files:
+- observables_Laske_PLOSComputBiol2019.tsv
+mapping_files: []
+extensions: {}
