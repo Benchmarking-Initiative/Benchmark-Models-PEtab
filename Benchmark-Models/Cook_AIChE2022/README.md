@@ -83,8 +83,13 @@ PEtab v2 (`format_version: 2.0.0`). The files are:
 * **Estimated parameters** (`parameters`): the four Wnt-10b-related parameters
   `beta1adj`, `k2adj`, `beta2adj`, `K`, with `alpha3adj = beta1adj + k2adj`
   derived via the condition table so that `alpha3adj > beta1adj` holds during
-  fitting (see *Differences from the original publication*). (PEtab v2 has no
-  `parameterScale` column; the bounds are given on linear scale.)
+  fitting (see *Differences from the original publication*). The bounds are
+  those of the original multistart (`BoneCompartmentUp4Para.m`, the `ParamG == 7`
+  configuration that produced the published fit): `k1 = beta1adj` in
+  `[1e-4, 1]`, `k2 = k2adj` in `[1e-5, 0.1]`, `k3 = beta2adj` in `[1e-7, 1]`,
+  `k4 = K` in `[1, 10]`. (PEtab v2 has no `parameterScale` column; the bounds
+  are given on linear scale. See *Fitting* below -- tools should still estimate
+  these parameters on log scale.)
 
 ### Multiple remodeling cycles as PEtab experiments
 
@@ -147,17 +152,90 @@ paper figures in `GraphsforPaper.m`, "after the 4th data point was added"):
   tables rather than the MATLAB code's sequential re-initialized integrations
   (see *Multiple remodeling cycles as PEtab experiments* above).
 * The reaction kinetics match the shipped SBML export, which omits the
-  `max(1 - S/K_S, 0)` clamp present in the MATLAB code. It has no effect on the
-  nominal trajectories (`S` stays below `K_S`); whether it matters under fitting,
-  where the parameters vary and `S` could exceed `K_S`, remains to be verified.
+  `max(1 - S/K_S, 0)` clamp present in the MATLAB code. The clamp can never
+  become active: `dS/dt = alpha_1 * B * (1 - S/K_S)` vanishes at `S = K_S` and
+  is non-negative for `B >= 0` (and `B >= 0` is preserved, since `dB/dt >= 0` at
+  `B = 0`), while `cycle_reset` only *lowers* `S`. So `S <= K_S` is invariant for
+  any parameter values, and `1 - S/K_S >= 0` throughout. This was also checked
+  numerically at the nominal parameters and at the refitted optima below
+  (`max S/K_S = 1.0000` in every experiment).
 
-## Fitting notes
+## Fitting
+
+### The original fit
 
 The nominal fit was obtained in the original study with MATLAB `lsqcurvefit`
 (Levenberg-Marquardt) from Latin-hypercube / normally-distributed multistarts.
 It is a least-squares compromise across the four data points (residual sum of
-squares ~279 in BV/TV-% units); the `Wnt_50 / 12-cycle` point is reproduced
-almost exactly.
+squares ~279 in BV/TV-% units, negative log-likelihood 143.378 with the unit
+noise used here); the `Wnt_50 / 12-cycle` point is reproduced almost exactly.
+
+### Refitting the PEtab problem (pyPESTO + AMICI)
+
+Setup: pyPESTO (`develop`, PEtab v2 support from ICB-DCM/pyPESTO#1730) with
+AMICI 1.0.1, libpetab-python 0.8.2 and fides 0.8.0 (BFGS Hessian
+approximation, `maxiter = 500`), AMICI forward sensitivities at
+`rtol = 1e-10`, `atol = 1e-12`, `max_steps = 1e6`; 500 multistarts with
+startpoints drawn uniformly on log10 scale over the parameter bounds.
+
+| | negative log-likelihood | RSS |
+|---|---:|---:|
+| nominal (published) parameters | 143.378 | 279.40 |
+| best of 500 starts | **142.154** | 276.96 |
+
+* 407 of 500 starts returned a finite objective value; 232 of them (46 %)
+  converged to the best value within `1e-3`, so the optimum is easy to find.
+  Median 115 objective evaluations per converged start; ~26 min wall time on
+  16 cores.
+* Best parameters: `beta1adj = 0.1720`, `k2adj = 0.1000` (at its upper bound,
+  and within 1 % of the unconstrained local optimum of a 1-D slice),
+  `beta2adj = 1.0e-7` (at its lower bound, see below), `K = 6.056`. Compared
+  with the published fit this trades a slightly worse `Wnt_5` / `Wnt_50`
+  residual for better `Wnt_m1` residuals; it differs mainly in `k2adj`
+  (0.100 vs 0.083) and in the non-identifiable `beta2adj`. All four published
+  values lie inside the 95 % confidence intervals below.
+* Profile likelihoods (`pypesto.profile`) at the optimum, 95 % threshold:
+
+  | parameter | MLE | 95 % CI |
+  |---|---:|---|
+  | `beta1adj` | 0.172 | [0.104, 0.209] |
+  | `k2adj` | 0.100 | [0.042, 0.1] (upper bound) |
+  | `beta2adj` | 1e-7 | [1e-7, 7.9e-3] (practically non-identifiable, only an upper limit) |
+  | `K` | 6.06 | [5.85, 6.42] |
+
+  With four data points and four estimated parameters this is the expected
+  picture: `K` and `beta1adj` are well determined, `beta2adj` only bounded from
+  above, and `k2adj` runs into the upper bound of the original search space.
+* Widening `K` to the `[1, 100]` range quoted in the publication text (the code
+  used `[1, 10]`) yields exactly the same optimum, so that bound does not
+  matter here.
+
+### Practical notes for tools
+
+* **Solver tolerances.** AMICI's default `atol = 1e-16` fails right after a
+  cycle reset (see *Simulation*); `rtol = 1e-10`, `atol = 1e-12` works. Even
+  tighter settings (`atol = 1e-14`) fail again. Objective values at the nominal
+  parameters and at the optimum agree to <2e-3 between `rtol = 1e-8` and
+  `rtol = 1e-10`.
+* **Estimate on log scale.** PEtab v2 has no `parameterScale`, and the bounds
+  span up to seven orders of magnitude. With startpoints drawn uniformly on
+  *linear* scale, only 15 of 1000 starts produced a finite objective value at
+  all; on log10 scale 407 of 500 (81 %) do.
+* **Failed simulations are normal here.** About one in five log-uniform
+  parameter draws cannot be integrated (too-small step size after a cycle
+  reset); optimizers must tolerate `inf` objective values.
+* **The objective is discontinuous by construction.** `cycle_reset` zeroes a
+  cell population when it is below 1 at a cycle boundary, so the objective jumps
+  where a population crosses that threshold. For the `Wnt_50` experiment such a
+  jump sits at `k2adj ~ 0.17508` (with the other parameters at their optimum):
+  the negative log-likelihood changes from ~135 to ~3.3e4 over a parameter
+  change of 1.5e-4, and which side of the jump a given parameter vector lands on
+  can depend on the solver tolerances. Outside the parameter bounds used here
+  (which are those of the original study) optimizers are attracted to this
+  cliff edge and report objective values below 135 that do not reproduce when
+  re-evaluated with different solver settings. The same threshold rule is used
+  in the original MATLAB code, so this is a property of the model, not of the
+  PEtab encoding.
 
 ## Reproducing the figures
 
