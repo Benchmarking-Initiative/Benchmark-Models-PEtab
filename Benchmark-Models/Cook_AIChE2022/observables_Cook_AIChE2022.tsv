@@ -1,0 +1,2 @@
+observableId	observableName	observableFormula	noiseFormula
+obs_BV	relative bone volume change	Bone_volume__z - 100	1

@@ -1,0 +1,3 @@
+experimentId	observableId	measurement	time	noiseParameters	datasetId
+exp_Wnt_1_8	obs_BV	26.6	600	19.2	RoserPage2014_6cycles
+exp_Wnt_1_8	obs_BV	36.6	1200	40.6	RoserPage2014_12cycles
