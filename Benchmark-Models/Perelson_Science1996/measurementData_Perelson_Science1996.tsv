@@ -1,17 +1,14 @@
-observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters	noiseParameters
-patient_105		condition1	1022000	0		sd_patient_105
-patient_105		condition1	1079000	0.083		sd_patient_105
-patient_105		condition1	2148000	0.166		sd_patient_105
-patient_105		condition1	1043000	0.25		sd_patient_105
-patient_105		condition1	2170000	0.5		sd_patient_105
-patient_105		condition1	1538000	0.75		sd_patient_105
-patient_105		condition1	3098000	1		sd_patient_105
-patient_105		condition1	2262000	1.25		sd_patient_105
-patient_105		condition1	1315000	1.5		sd_patient_105
-patient_105		condition1	1200000	1.75		sd_patient_105
-patient_105		condition1	980000	2		sd_patient_105
-patient_105		condition1	710000	3		sd_patient_105
-patient_105		condition1	500000	4		sd_patient_105
-patient_105		condition1	280000	5		sd_patient_105
-patient_105		condition1	170000	6		sd_patient_105
-patient_105		condition1	89000	7		sd_patient_105
+observableId	preequilibrationConditionId	simulationConditionId	measurement	time	observableParameters
+patient_105		condition1	1043000	0	
+patient_105		condition1	2170000	0.25	
+patient_105		condition1	1538000	0.5	
+patient_105		condition1	3098000	0.75	
+patient_105		condition1	2262000	1	
+patient_105		condition1	1315000	1.25	
+patient_105		condition1	1200000	1.5	
+patient_105		condition1	980000	1.75	
+patient_105		condition1	710000	2.75	
+patient_105		condition1	500000	3.75	
+patient_105		condition1	280000	4.75	
+patient_105		condition1	170000	5.75	
+patient_105		condition1	89000	6.75	

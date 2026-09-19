@@ -1,2 +1,2 @@
 observableId	observableFormula	observableName	noiseDistribution	noiseFormula	observableTransformation
-patient_105	V		normal	noiseParameter1_patient_105	log10
+patient_105	V		normal	1	log10
