@@ -1,0 +1,16 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Elowitz_Nature2000.tsv
+model_files:
+  model_Elowitz_Nature2000:
+    location: model_Elowitz_Nature2000.xml
+    language: sbml
+measurement_files:
+- measurementData_Elowitz_Nature2000.tsv
+condition_files:
+- experimentalCondition_Elowitz_Nature2000.tsv
+experiment_files: []
+observable_files:
+- observables_Elowitz_Nature2000.tsv
+mapping_files: []
+extensions: {}

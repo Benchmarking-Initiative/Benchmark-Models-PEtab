@@ -1,0 +1,16 @@
+format_version: 2.0.0
+parameter_files:
+- parameters_Crauste_CellSystems2017.tsv
+model_files:
+  model_Crauste_CellSystems2017:
+    location: model_Crauste_CellSystems2017.xml
+    language: sbml
+measurement_files:
+- measurementData_Crauste_CellSystems2017.tsv
+condition_files:
+- experimentalCondition_Crauste_CellSystems2017.tsv
+experiment_files: []
+observable_files:
+- observables_Crauste_CellSystems2017.tsv
+mapping_files: []
+extensions: {}

@@ -1,0 +1,17 @@
+experimentId	time	conditionId
+experiment__Dose_0___Dose_0	-inf	Dose_0
+experiment__Dose_0___Dose_0	0.0	Dose_0
+experiment__Dose_0___Dose_001	-inf	Dose_0
+experiment__Dose_0___Dose_001	0.0	Dose_001
+experiment__Dose_0___Dose_01	-inf	Dose_0
+experiment__Dose_0___Dose_01	0.0	Dose_01
+experiment__Dose_0___Dose_1	-inf	Dose_0
+experiment__Dose_0___Dose_1	0.0	Dose_1
+experiment__Dose_0___Dose_10	-inf	Dose_0
+experiment__Dose_0___Dose_10	0.0	Dose_10
+experiment__Dose_0___Dose_100	-inf	Dose_0
+experiment__Dose_0___Dose_100	0.0	Dose_100
+experiment__Dose_0___Dose_3	-inf	Dose_0
+experiment__Dose_0___Dose_3	0.0	Dose_3
+experiment__Dose_0___TwoSteps	-inf	Dose_0
+experiment__Dose_0___TwoSteps	0.0	TwoSteps

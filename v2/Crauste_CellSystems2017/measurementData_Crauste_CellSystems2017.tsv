@@ -1,0 +1,22 @@
+experimentId	observableId	measurement	time	observableParameters	noiseParameters
+	observable_Naive	459	4		290
+	observable_Naive	74	6		64
+	observable_EarlyEffector	386	4		266
+	observable_EarlyEffector	1172	6		526
+	observable_EarlyEffector	47470	7		23855
+	observable_EarlyEffector	175825	8		19722
+	observable_EarlyEffector	4911	13		3048
+	observable_EarlyEffector	7417	15		2924
+	observable_EarlyEffector	3359	22		1540
+	observable_LateEffector	888	6		182
+	observable_LateEffector	4577	7		1976
+	observable_LateEffector	32860	8		4105
+	observable_LateEffector	46727	13		23601
+	observable_LateEffector	27586	15		6841
+	observable_LateEffector	13650	22		7266
+	observable_LateEffector	3936	28		2705
+	observable_Memory	289	8		80
+	observable_Memory	9564	13		4206
+	observable_Memory	15631	15		5745
+	observable_Memory	41744	22		15987
+	observable_Memory	32705	28		7909
