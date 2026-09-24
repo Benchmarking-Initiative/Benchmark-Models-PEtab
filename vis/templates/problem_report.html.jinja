@@ -1,0 +1,38 @@
+<!-- html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ model_name }} - PEtab report</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 20px; }
+      .figure { margin-bottom: 24px; }
+      img { max-width: 100%; height: auto; border: 1px solid #ccc; }
+      .top-nav { margin-bottom: 12px; }
+      .top-nav a { text-decoration: none; color: #0366d6; margin-right: 12px; }
+      .top-nav a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <div class="top-nav">
+      <a href="index.html">&larr; Back to index</a>
+      <a href="https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/tree/master/Benchmark-Models/{{ model_name|urlencode }}" target="_blank" rel="noopener noreferrer">
+        View PEtab files on GitHub
+      </a>
+    </div>
+
+    <h1>{{ model_name }}</h1>
+    {% if images %}
+      {% for img in images %}
+        <div class="figure">
+          {% if images|length > 1 %}
+            <h3>{{ img.id }}</h3>
+          {% endif %}
+          <img src="data:image/png;base64,{{ img.img }}" alt="{{ img.id }}">
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>No observables or data available for this problem.</p>
+    {% endif %}
+  </body>
+</html>
