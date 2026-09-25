@@ -28,6 +28,9 @@ jobs:
     - name: Check with petablint
       run: bmp-petablint
 
+    - name: Check TSV format
+      run: bmp-check-tsv-format
+
     - name: Show overview
       run: bmp-create-overview
 
