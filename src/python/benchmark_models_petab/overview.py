@@ -113,7 +113,9 @@ def get_sbml4humans_urls(petab_problem_id: str) -> List[str]:
     urls = []
     for problem_dict in yaml_dict[petab.PROBLEMS]:
         for model_filename in problem_dict[petab.SBML_FILES]:
-            gh_raw_url = f"{repo_root}/Benchmark-Models/{petab_problem_id}/{model_filename}"
+            gh_raw_url = (
+                f"{repo_root}/problems/{petab_problem_id}/v1/{model_filename}"
+            )
             urls.append(f"https://sbml4humans.de/model_url?url={gh_raw_url}")
     return urls
 
@@ -289,9 +291,7 @@ def show_overview_table(
 
     if markdown or update_readme:
         # directory as markdown link
-        df.rename(
-            index=lambda x: f"[{x}](Benchmark-Models/{x}/)", inplace=True
-        )
+        df.rename(index=lambda x: f"[{x}](problems/{x}/v1/)", inplace=True)
         # references to markdown links
         for field in "reference_uris", "sbml4humans_urls":
             df[field] = df[field].apply(
@@ -358,7 +358,7 @@ def create_html_table(dest: Path) -> None:
             # index column
             return HTMLTemplateFormatter(
                 template=f"""
-                <a href="{REPO_URL}tree/master/Benchmark-Models/<%= value %>"><%= value %></a>
+                <a href="{REPO_URL}tree/master/problems/<%= value %>/v1"><%= value %></a>
                 """
             )
         if pd.api.types.is_integer_dtype(df[col].dtype):
