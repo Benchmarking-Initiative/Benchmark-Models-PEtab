@@ -37,33 +37,76 @@
       <compartment metaid="metaid_0" sboTerm="SBO:0000410" id="default" size="1" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species metaid="metaid_1" id="Tstar" compartment="default" initialConcentration="15061.32075" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species metaid="metaid_2" id="V" compartment="default" initialConcentration="1860000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species metaid="metaid_3" id="Vin" compartment="default" initialConcentration="1860000" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species metaid="metaid_4" id="Vni" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_1" id="Tstar" compartment="default" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_2" id="V" compartment="default" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_3" id="V_I" compartment="default" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_4" id="V_NI" compartment="default" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
-      <parameter metaid="metaid_5" id="NN" value="480" constant="true"/>
+      <parameter metaid="metaid_5" id="N_virions" value="480" constant="true"/>
       <parameter metaid="metaid_6" id="T0" value="11000" constant="true"/>
       <parameter metaid="metaid_7" id="c" value="2.06" constant="true"/>
       <parameter metaid="metaid_8" id="delta" value="0.53" constant="true"/>
-      <parameter metaid="metaid_9" id="K0" value="3.9e-07" constant="true"/>
+      <parameter metaid="metaid_9" id="k" constant="true"/>
+      <parameter metaid="metaid_25" id="V0" value="1860000" constant="true"/>
     </listOfParameters>
+    <listOfInitialAssignments>
+      <initialAssignment symbol="k">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> c </ci>
+            <apply>
+              <times/>
+              <ci> N_virions </ci>
+              <ci> T0 </ci>
+            </apply>
+          </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="Tstar">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <apply>
+              <times/>
+              <ci> c </ci>
+              <ci> V0 </ci>
+            </apply>
+            <apply>
+              <times/>
+              <ci> N_virions </ci>
+              <ci> delta </ci>
+            </apply>
+          </apply>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="V_I">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> V0 </ci>
+        </math>
+      </initialAssignment>
+      <initialAssignment symbol="V">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <ci> V0 </ci>
+        </math>
+      </initialAssignment>
+    </listOfInitialAssignments>
     <listOfReactions>
       <reaction metaid="metaid_12" id="v1" reversible="true" fast="false">
         <listOfProducts>
           <speciesReference metaid="metaid_10" species="Tstar" stoichiometry="1"/>
         </listOfProducts>
         <listOfModifiers>
-          <modifierSpeciesReference metaid="metaid_11" species="Vin"/>
+          <modifierSpeciesReference metaid="metaid_11" species="V_I"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
-              <ci> K0 </ci>
+              <ci> k </ci>
               <ci> T0 </ci>
-              <ci> Vin </ci>
+              <ci> V_I </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -85,14 +128,14 @@
       <reaction metaid="metaid_17" id="v3" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference metaid="metaid_15" species="V" stoichiometry="1"/>
-          <speciesReference metaid="metaid_16" species="Vin" stoichiometry="1"/>
+          <speciesReference metaid="metaid_16" species="V_I" stoichiometry="1"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> c </ci>
-              <ci> Vin </ci>
+              <ci> V_I </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -100,14 +143,14 @@
       <reaction metaid="metaid_20" id="v4" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference metaid="metaid_18" species="V" stoichiometry="1"/>
-          <speciesReference metaid="metaid_19" species="Vni" stoichiometry="1"/>
+          <speciesReference metaid="metaid_19" species="V_NI" stoichiometry="1"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
             <apply>
               <times/>
               <ci> c </ci>
-              <ci> Vni </ci>
+              <ci> V_NI </ci>
             </apply>
           </math>
         </kineticLaw>
@@ -115,7 +158,7 @@
       <reaction metaid="metaid_24" id="v5" reversible="true" fast="false">
         <listOfProducts>
           <speciesReference metaid="metaid_21" species="V" stoichiometry="1"/>
-          <speciesReference metaid="metaid_22" species="Vni" stoichiometry="1"/>
+          <speciesReference metaid="metaid_22" species="V_NI" stoichiometry="1"/>
         </listOfProducts>
         <listOfModifiers>
           <modifierSpeciesReference metaid="metaid_23" species="Tstar"/>
@@ -125,7 +168,7 @@
             <apply>
               <times/>
               <ci> delta </ci>
-              <ci> NN </ci>
+              <ci> N_virions </ci>
               <ci> Tstar </ci>
             </apply>
           </math>
