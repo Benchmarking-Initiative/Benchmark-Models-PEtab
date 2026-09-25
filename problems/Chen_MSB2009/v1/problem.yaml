@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Chen_MSB2009.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Chen_MSB2009.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Chen_MSB2009.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Chen_MSB2009.tsv
+  - observables.tsv
   sbml_files:
-  - model_Chen_MSB2009.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Chen_MSB2009.tsv
+  - visualizations.tsv

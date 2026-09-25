@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Brannmark_JBC2010.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Brannmark_JBC2010.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Brannmark_JBC2010.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Brannmark_JBC2010.tsv
+  - observables.tsv
   sbml_files:
-  - model_Brannmark_JBC2010.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Brannmark_JBC2010.tsv
+  - visualizations.tsv

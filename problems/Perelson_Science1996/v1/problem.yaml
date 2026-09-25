@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Perelson_Science1996.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Perelson_Science1996.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Perelson_Science1996.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Perelson_Science1996.tsv
+  - observables.tsv
   sbml_files:
-  - model_Perelson_Science1996.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Perelson_Science1996.tsv
+  - visualizations.tsv

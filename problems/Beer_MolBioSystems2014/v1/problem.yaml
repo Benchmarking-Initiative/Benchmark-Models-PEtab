@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Beer_MolBioSystems2014.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Beer_MolBioSystems2014.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Beer_MolBioSystems2014.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Beer_MolBioSystems2014.tsv
+  - observables.tsv
   sbml_files:
-  - model_Beer_MolBioSystems2014.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Beer_MolBioSystems2014.tsv
+  - visualizations.tsv

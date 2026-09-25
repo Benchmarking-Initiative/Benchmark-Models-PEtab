@@ -1,14 +1,13 @@
 format_version: 1
-parameter_file: parameters_Zhao_QuantBiol2020.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Zhao_QuantBiol2020.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_training_Zhao_QuantBiol2020.tsv
+  - measurements.tsv
   observable_files:
-  - observable_Zhao_QuantBiol2020.tsv
+  - observables.tsv
   sbml_files:
-  - model_Zhao_QuantBiol2020.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Zhao_QuantBiol2020.tsv
- 
+  - visualizations.tsv

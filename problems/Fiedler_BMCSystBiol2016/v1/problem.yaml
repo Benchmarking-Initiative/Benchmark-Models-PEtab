@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Fiedler_BMCSystBiol2016.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Fiedler_BMCSystBiol2016.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Fiedler_BMCSystBiol2016.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Fiedler_BMCSystBiol2016.tsv
+  - observables.tsv
   sbml_files:
-  - model_Fiedler_BMCSystBiol2016.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Fiedler_BMCSystBiol2016.tsv
+  - visualizations.tsv

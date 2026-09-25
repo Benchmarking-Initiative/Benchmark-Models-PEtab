@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Bruno_JExpBot2016.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Bruno_JExpBot2016.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Bruno_JExpBot2016.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Bruno_JExpBot2016.tsv
+  - observables.tsv
   sbml_files:
-  - model_Bruno_JExpBot2016.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Bruno_JExpBot2016.tsv
+  - visualizations.tsv

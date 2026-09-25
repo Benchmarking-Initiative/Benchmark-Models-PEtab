@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Elowitz_Nature2000.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Elowitz_Nature2000.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Elowitz_Nature2000.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Elowitz_Nature2000.tsv
+  - observables.tsv
   sbml_files:
-  - model_Elowitz_Nature2000.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Elowitz_Nature2000.tsv
+  - visualizations.tsv

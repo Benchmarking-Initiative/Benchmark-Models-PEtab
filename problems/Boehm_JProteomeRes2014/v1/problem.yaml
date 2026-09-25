@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Boehm_JProteomeRes2014.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Boehm_JProteomeRes2014.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Boehm_JProteomeRes2014.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Boehm_JProteomeRes2014.tsv
+  - observables.tsv
   sbml_files:
-  - model_Boehm_JProteomeRes2014.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Boehm_JProteomeRes2014.tsv
+  - visualizations.tsv

@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Zheng_PNAS2012.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Zheng_PNAS2012.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Zheng_PNAS2012.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Zheng_PNAS2012.tsv
+  - observables.tsv
   sbml_files:
-  - model_Zheng_PNAS2012.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Zheng_PNAS2012.tsv
+  - visualizations.tsv

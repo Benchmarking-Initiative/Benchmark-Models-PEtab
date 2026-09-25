@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Isensee_JCB2018.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Isensee_JCB2018.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_Isensee_JCB2018.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Isensee_JCB2018.tsv
+  - observables.tsv
   sbml_files:
-  - model_Isensee_JCB2018.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Isensee_JCB2018.tsv
+  - visualizations.tsv

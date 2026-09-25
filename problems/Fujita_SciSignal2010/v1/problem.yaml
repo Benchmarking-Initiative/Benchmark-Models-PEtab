@@ -1,13 +1,13 @@
 format_version: 1
-parameter_file: parameters_Fujita_SciSignal2010.tsv
+parameter_file: parameters.tsv
 problems:
 - condition_files:
-  - experimentalCondition_Fujita_SciSignal2010.tsv
+  - conditions.tsv
   measurement_files:
-  - measurementData_step_Fujita_SciSignal2010.tsv
+  - measurements.tsv
   observable_files:
-  - observables_Fujita_SciSignal2010.tsv
+  - observables.tsv
   sbml_files:
-  - model_Fujita_SciSignal2010.xml
+  - model.xml
   visualization_files:
-  - visualizationSpecification_Fujita_SciSignal2010.tsv
+  - visualizations.tsv
