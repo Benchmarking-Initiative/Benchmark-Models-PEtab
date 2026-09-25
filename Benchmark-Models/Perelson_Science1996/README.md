@@ -120,12 +120,9 @@ clearer written with it.
 
 ## Validation
 
-`simulate_Perelson_Science1996.py` in this directory simulates the problem with
-AMICI at the nominal parameter values and writes
-`simulatedData_Perelson_Science1996.tsv`, so the simulated-data table can be
-regenerated rather than taken on trust. Those simulations agree with the
-closed-form solution, Eq. 6 of [[1]], to a relative 2e-8 at AMICI's default
-tolerances.
+`simulatedData_Perelson_Science1996.tsv` holds the trajectory at the nominal
+parameter values, simulated with AMICI. It agrees with the closed-form solution,
+Eq. 6 of [[1]], to a relative 2e-8 at AMICI's default tolerances.
 
 Re-estimating `c`, `delta` and `V0` from the measurement table recovers the
 values published for patient 105:
