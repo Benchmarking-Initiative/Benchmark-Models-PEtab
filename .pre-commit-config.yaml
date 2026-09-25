@@ -1,26 +1,39 @@
-files: src/python
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v4.6.0
   hooks:
   - id: check-yaml
     description: Check yaml files for parseable syntax
+    files: ^src/python/
   - id: check-added-large-files
     description: Prevent large files from being committed
+    files: ^src/python/
   - id: check-merge-conflict
     description: Check for files that contain merge conflict strings
+    files: ^src/python/
   - id: check-symlinks
     description: Check for symlinks which do not point to anything
+    files: ^src/python/
   - id: check-executables-have-shebangs
     description: Check that (non-binary) executables have shebangs
+    files: ^src/python/
   - id: detect-private-key
     description: Detects the presence of private keys
+    files: ^src/python/
   - id: end-of-file-fixer
     description: Fix empty lines at ends of files
+    # also cover the PEtab TSV data files, not just src/python
+    files: (^src/python/|\.tsv$)
   - id: mixed-line-ending
     description: Replace or check mixed line endings
+    args: [--fix=lf]
+    files: (^src/python/|\.tsv$)
   - id: trailing-whitespace
     description: Trim trailing whitespaces
+    # not extended to *.tsv: a trailing tab there is a legitimate empty
+    # last field, not whitespace to strip (checked by bmp-check-tsv-format
+    # instead, which is field-aware)
+    files: ^src/python/
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
   # Ruff version.
@@ -28,6 +41,7 @@ repos:
   hooks:
     # Run the linter.
     - id: ruff
+      files: ^src/python/
       args:
         - --fix
         - --config
@@ -35,6 +49,7 @@ repos:
 
     # Run the formatter.
     - id: ruff-format
+      files: ^src/python/
       args:
         - --config
         - src/python/pyproject.toml
