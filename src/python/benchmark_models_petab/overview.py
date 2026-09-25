@@ -39,21 +39,32 @@ markdown_columns = {
 index_column = "petab_problem_id"
 
 
+def get_sbml_model(petab_problem) -> libsbml.Model:
+    """Get the libSBML model of a v1 or v2 PEtab problem."""
+    return getattr(petab_problem, "sbml_model", None) or (
+        petab_problem.model.sbml_model
+    )
+
+
+def _num_conditions(petab_problem) -> int:
+    """Number of simulation conditions (v1) or experiments (v2)."""
+    if hasattr(petab_problem, "get_simulation_conditions_from_measurement_df"):
+        df = petab_problem.get_simulation_conditions_from_measurement_df()
+        return df.shape[0]
+    return len(petab_problem.experiments)
+
+
 def get_summary(
-    petab_problem: petab.Problem,
+    petab_problem,
     petab_problem_id: str = None,
 ) -> Dict:
     """Get dictionary with stats for the given PEtab problem"""
     print(petab_problem_id)
     return {
         "petab_problem_id": petab_problem_id,
-        "conditions": petab_problem.get_simulation_conditions_from_measurement_df().shape[
-            0
-        ],
-        "estimated_parameters": np.sum(
-            petab_problem.parameter_df[petab.ESTIMATE]
-        ),
-        "events": len(petab_problem.sbml_model.getListOfEvents()),
+        "conditions": _num_conditions(petab_problem),
+        "estimated_parameters": len(petab_problem.x_free_ids),
+        "events": len(get_sbml_model(petab_problem).getListOfEvents()),
         "possible_discontinuities": guess_discontinuities(petab_problem),
         "preequilibration": 0
         if petab.PREEQUILIBRATION_CONDITION_ID
@@ -85,8 +96,8 @@ def get_summary(
         "objective_prior_distributions": get_prior_distributions(
             petab_problem.parameter_df
         ),
-        "species": len(petab_problem.sbml_model.getListOfSpecies()),
-        "reference_uris": get_reference_uris(petab_problem.sbml_model),
+        "species": len(get_sbml_model(petab_problem).getListOfSpecies()),
+        "reference_uris": get_reference_uris(get_sbml_model(petab_problem)),
         "sbml4humans_urls": get_sbml4humans_urls(petab_problem_id),
     }
 
@@ -110,11 +121,21 @@ def get_sbml4humans_urls(petab_problem_id: str) -> List[str]:
     yaml_file = get_problem_yaml_path(petab_problem_id)
     yaml_dict = load_yaml(yaml_file)
     repo_root = "https://raw.githubusercontent.com/Benchmarking-Initiative/Benchmark-Models-PEtab/master"
+    # collect model files across PEtab v1 (problems/sbml_files) and
+    # v2 (model_files/<id>/location) layouts
+    model_filenames = []
+    if petab.PROBLEMS in yaml_dict:
+        for problem_dict in yaml_dict[petab.PROBLEMS]:
+            model_filenames.extend(problem_dict.get(petab.SBML_FILES, []))
+    else:
+        for model_dict in yaml_dict.get("model_files", {}).values():
+            model_filenames.append(model_dict["location"])
     urls = []
-    for problem_dict in yaml_dict[petab.PROBLEMS]:
-        for model_filename in problem_dict[petab.SBML_FILES]:
-            gh_raw_url = f"{repo_root}/Benchmark-Models/{petab_problem_id}/{model_filename}"
-            urls.append(f"https://sbml4humans.de/model_url?url={gh_raw_url}")
+    for model_filename in model_filenames:
+        gh_raw_url = (
+            f"{repo_root}/Benchmark-Models/{petab_problem_id}/{model_filename}"
+        )
+        urls.append(f"https://sbml4humans.de/model_url?url={gh_raw_url}")
     return urls
 
 
@@ -187,7 +208,7 @@ def guess_discontinuities(petab_problem: petab.Problem) -> bool:
     discontinuities might play a role in the simulation; the presence of
     discontinuities might be parameter-dependent; ... .
     """
-    model: libsbml.Model = petab_problem.sbml_model
+    model: libsbml.Model = get_sbml_model(petab_problem)
 
     for event in model.getListOfEvents():
         for ea in event.getListOfEventAssignments():
@@ -195,7 +216,7 @@ def guess_discontinuities(petab_problem: petab.Problem) -> bool:
                 return True
 
     # convert reactions to rate rules
-    sbml_doc = petab_problem.sbml_model.getSBMLDocument().clone()
+    sbml_doc = get_sbml_model(petab_problem).getSBMLDocument().clone()
     model = sbml_doc.getModel()
     conversion_config = libsbml.ConversionProperties()
     conversion_config.addOption("replaceReactions")
