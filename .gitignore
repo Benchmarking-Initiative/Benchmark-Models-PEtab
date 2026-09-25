@@ -4,5 +4,5 @@
 __pycache__
 *egg-info
 src/python/build
-Benchmark-Models/Smith_BMCSystBiol2013/amici_models/*
+problems/Smith_BMCSystBiol2013/v1/amici_models/*
 /_site/

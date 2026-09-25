@@ -14,6 +14,9 @@
   - [ ] Annotation with reference to the original publication ([example](https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/blob/3154d27edbfc4eb19b768465945bc81381a7c964/Benchmark-Models/Rahman_MBS2016/model_Rahman_MBS2016.xml#L4-L14))
   - [ ] The model ID and model name attributes in the SBML model file match the problem name ([example](https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/blob/3154d27edbfc4eb19b768465945bc81381a7c964/Benchmark-Models/Rahman_MBS2016/model_Rahman_MBS2016.xml#L3))
 - [ ] PEtab files
+  - [ ] Files are placed under `problems/<ProblemID>/v1/` (`problem.yaml`, `model.xml`, `conditions.tsv`,
+    `measurements.tsv`, `observables.tsv`, `parameters.tsv`, `simulations.tsv`, `visualizations.tsv`);
+    any other material (raw data, scripts, notebooks, ...) goes in `problems/<ProblemID>/resources/`
   - [ ] A "simulated data" measurement table is included, using the nominal parameters
   - [ ] A visualization table is included, that can be used with the simulated data to reproduce figures from the original publication
   - [ ] The PEtab problem is valid (check with e.g. `petablint -vy problem.yaml`)
