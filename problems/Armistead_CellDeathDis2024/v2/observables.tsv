@@ -1,0 +1,5 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
+Sphinga_obs	Sphinganine concentration [area ratio/Protein] - indication of Cer de novo production	Sphinga	noiseParameter1_Sphinga_obs*Sphinga	normal		noiseParameter1_Sphinga_obs
+Cer_obs	Ceramide concentration [area ratio/Protein]	Cer	noiseParameter1_Cer_obs*Cer	normal		noiseParameter1_Cer_obs
+Sphingo_obs	Sphingosine concentration [area ratio/Protein]	Sphingo	noiseParameter1_Sphingo_obs*Sphingo	normal		noiseParameter1_Sphingo_obs
+S1P_obs	Sphingosine-1-phosphate indirect measurement	S1P	noiseParameter1_S1P_obs*S1P	normal		noiseParameter1_S1P_obs
