@@ -4,7 +4,7 @@ from pathlib import Path
 
 import petab.v1 as petab
 
-from .C import MODELS_DIR
+from .C import MODELS_DIR, PROBLEM_FILENAME, SIMULATIONS_FILENAME, V1_DIRNAME
 
 import pandas as pd
 
@@ -20,9 +20,7 @@ def get_problem_yaml_path(id_: str) -> Path:
     -------
     The path to the PEtab problem YAML file.
     """
-    yaml_path = Path(MODELS_DIR, id_, id_ + ".yaml")
-    if not yaml_path.exists():
-        yaml_path = Path(MODELS_DIR, id_, "problem.yaml")
+    yaml_path = Path(MODELS_DIR, id_, V1_DIRNAME, PROBLEM_FILENAME)
     if not yaml_path.exists():
         raise ValueError(f"Could not find YAML for problem with ID `{id_}`.")
     return yaml_path
@@ -56,8 +54,8 @@ def get_simulation_df(id_: str) -> pd.DataFrame | None:
     -------
     The simulation dataframe if it exists, else None.
     """
-    for filename in (f"simulatedData_{id_}.tsv", "simulations.tsv"):
-        if (path := Path(MODELS_DIR, id_, filename)).is_file():
-            return petab.get_simulation_df(path)
+    path = Path(MODELS_DIR, id_, V1_DIRNAME, SIMULATIONS_FILENAME)
+    if path.is_file():
+        return petab.get_simulation_df(path)
 
     return None

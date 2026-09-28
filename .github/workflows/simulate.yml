@@ -34,7 +34,7 @@ jobs:
       env:
         AMICI_PARALLEL_COMPILE: ""
       run: |
-        for problem in `ls -1 Benchmark-Models/`; do
+        for problem in `ls -1 problems/`; do
             python src/python/simulate.py "$problem" -j
             echo
             echo

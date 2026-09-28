@@ -12,10 +12,11 @@ from petab.yaml import load_yaml
 from sbmlmath import sbml_math_to_sympy
 from sbmlmath.csymbol import TimeSymbol
 from . import MODELS, get_problem, get_problem_yaml_path
+from .C import GITHUB_DEFAULT_BRANCH, GITHUB_REPO, PROBLEMS_DIRNAME, V1_DIRNAME
 import sympy as sp
 from sympy.core.relational import Relational
 
-REPO_URL = "https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab/"
+REPO_URL = f"https://github.com/{GITHUB_REPO}/"
 
 readme_md = Path(__file__).resolve().parent.parent / "README.md"
 
@@ -109,11 +110,14 @@ def get_sbml4humans_urls(petab_problem_id: str) -> List[str]:
     """Get URL to SBML4humans model"""
     yaml_file = get_problem_yaml_path(petab_problem_id)
     yaml_dict = load_yaml(yaml_file)
-    repo_root = "https://raw.githubusercontent.com/Benchmarking-Initiative/Benchmark-Models-PEtab/master"
+    repo_root = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_DEFAULT_BRANCH}"
     urls = []
     for problem_dict in yaml_dict[petab.PROBLEMS]:
         for model_filename in problem_dict[petab.SBML_FILES]:
-            gh_raw_url = f"{repo_root}/Benchmark-Models/{petab_problem_id}/{model_filename}"
+            gh_raw_url = (
+                f"{repo_root}/{PROBLEMS_DIRNAME}/{petab_problem_id}"
+                f"/{V1_DIRNAME}/{model_filename}"
+            )
             urls.append(f"https://sbml4humans.de/model_url?url={gh_raw_url}")
     return urls
 
@@ -290,7 +294,8 @@ def show_overview_table(
     if markdown or update_readme:
         # directory as markdown link
         df.rename(
-            index=lambda x: f"[{x}](Benchmark-Models/{x}/)", inplace=True
+            index=lambda x: f"[{x}]({PROBLEMS_DIRNAME}/{x}/{V1_DIRNAME}/)",
+            inplace=True,
         )
         # references to markdown links
         for field in "reference_uris", "sbml4humans_urls":
@@ -358,7 +363,7 @@ def create_html_table(dest: Path) -> None:
             # index column
             return HTMLTemplateFormatter(
                 template=f"""
-                <a href="{REPO_URL}tree/master/Benchmark-Models/<%= value %>"><%= value %></a>
+                <a href="{REPO_URL}tree/{GITHUB_DEFAULT_BRANCH}/{PROBLEMS_DIRNAME}/<%= value %>/{V1_DIRNAME}"><%= value %></a>
                 """
             )
         if pd.api.types.is_integer_dtype(df[col].dtype):

@@ -13,7 +13,7 @@ cd $DIR
 
 BUILD_DIR="build"
 CODE_DIR="benchmark_models_petab"
-DATA_DIR="Benchmark-Models"
+DATA_DIR="problems"
 
 # Create build folder
 if [ -e $BUILD_DIR ]; then

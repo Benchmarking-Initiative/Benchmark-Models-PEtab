@@ -1,0 +1,14 @@
+format_version: 1
+parameter_file: ../../v1/parameters.tsv
+problems:
+- condition_files:
+  - ../../v1/conditions.tsv
+  measurement_files:
+  - measurementData_pulse_Fujita_SciSignal2010.tsv
+  - measurementData_ramp_Fujita_SciSignal2010.tsv
+  observable_files:
+  - ../../v1/observables.tsv
+  sbml_files:
+  - ../../v1/model.xml
+  visualization_files:
+  - ../../v1/visualizations.tsv
