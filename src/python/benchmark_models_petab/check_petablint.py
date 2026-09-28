@@ -10,10 +10,10 @@ def main():
     num_failures = 0
 
     for petab_problem_id in MODELS:
-        print(petab_problem_id)
+        print(petab_problem_id, flush=True)
         petab_yaml = get_problem_yaml_path(petab_problem_id)
         ret = os.system(f"petablint -v {petab_yaml}")
-        print("=" * 100)  # just for output readability
+        print("=" * 100, flush=True)  # just for output readability
 
         if ret:
             num_failures += 1

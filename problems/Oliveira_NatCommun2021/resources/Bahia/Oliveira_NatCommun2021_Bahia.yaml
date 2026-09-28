@@ -8,7 +8,7 @@ problems:
     observable_files:
     - observables_Oliveira_NatCommun2021.tsv
     sbml_files:
-    - ../Oliveira_NatCommun2021_model.xml
+    - ../../v1/model.xml
     visualization_files:
     - visualizationSpecification_Oliveira_NatCommun2021.tsv
 
