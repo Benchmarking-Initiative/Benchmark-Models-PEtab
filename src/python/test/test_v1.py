@@ -19,3 +19,10 @@ def test_get_problem():
 def test_get_simulation_df():
     assert models.get_simulation_df("Elowitz_Nature2000").empty is False
     assert models.get_simulation_df("not a problem name") is None
+
+
+def test_v1_submodule_matches_top_level():
+    """The top-level functions are the v1 ones, unchanged."""
+    assert models.get_problem is models.v1.get_problem
+    assert models.get_problem_yaml_path is models.v1.get_problem_yaml_path
+    assert models.get_simulation_df is models.v1.get_simulation_df

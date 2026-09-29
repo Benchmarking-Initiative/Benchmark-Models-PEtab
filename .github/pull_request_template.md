@@ -24,3 +24,4 @@
 - [ ] The PEtab problem author(s) are assigned to the GitHub issue
 - [ ] The README has been updated with `bmp-create-overview  --update` (requires `pip install -e src/python` from the repository root)
   - [ ] The new PEtab problem row in the generated table has the correct reference (and other entries)
+- [ ] If this PR results in a problem having both `v1/` and `v2/` encodings, I've confirmed they satisfy the v1/v2 equivalence policy in [CONTRIBUTING.md](../CONTRIBUTING.md#v1v2-equivalence)
