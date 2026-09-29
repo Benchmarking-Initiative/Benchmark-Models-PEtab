@@ -12,6 +12,7 @@ MODEL_DIRS: List[str] = [os.path.join(MODELS_DIR, d) for d in MODELS]
 
 # layout of a single problem directory (`<MODELS_DIR>/<ProblemID>/...`)
 V1_DIRNAME: str = "v1"
+V2_DIRNAME: str = "v2"
 PROBLEM_FILENAME: str = "problem.yaml"
 SIMULATIONS_FILENAME: str = "simulations.tsv"
 

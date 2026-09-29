@@ -1,4 +1,4 @@
-"""Get a petab problem from the collection."""
+"""Get a PEtab v1 problem from the collection."""
 
 from pathlib import Path
 
