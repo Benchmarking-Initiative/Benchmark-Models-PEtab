@@ -1,0 +1,9 @@
+parameterId	lowerBound	upperBound	nominalValue	estimate	priorParameters
+R0_NY	1.5	5.0	1.5	true	
+gamma_NY	0.01	0.2	0.15974646749068355	true	
+I0_NY	1000.0	10000.0	3631.9734930511822	true	
+sd_I_NY	100.0	1000.0	638.7370177109516	true	
+R0_CA	1.5	5.0	4.92721680123473	true	
+gamma_CA	0.01	0.2	0.039032488375217576	true	
+I0_CA	100.0	1000.0	232.90259817432732	true	
+sd_I_CA	100.0	1000.0	171.5520042582738	true	
