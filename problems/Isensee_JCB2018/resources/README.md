@@ -3,7 +3,7 @@ The paper describes a model selection problem with four hypotheses. Each hypothe
 This benchmark problem is the parameter estimation problem for the H1-only model. The parameters for the other hypotheses are specified in `parameters_Isensee_JCB2018_model_selection.tsv`. For example, this Python code will create the PEtab problem for the H2+H3 model.
 ```python
 import pandas as pd
-import petab
+import petab.v1 as petab
 
 petab_problem = petab.Problem.from_yaml("Isensee_JCB2018.yaml")
 model_selection_parameter_df = petab.get_parameter_df("parameters_Isensee_JCB2018_model_selection.tsv")

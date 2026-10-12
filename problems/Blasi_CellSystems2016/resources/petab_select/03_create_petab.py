@@ -1,8 +1,8 @@
 import pandas as pd
-import petab
+import petab.v1 as petab
 import shutil
 
-from petab import (
+from petab.v1 import (
     CONDITION_ID,
     OBSERVABLE_ID,
     MEASUREMENT,

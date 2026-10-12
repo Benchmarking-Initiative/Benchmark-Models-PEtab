@@ -1,17 +1,17 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import petab
+import petab.v1 as petab
 import re
 import os
-import petab.models
+from petab.v1.models import sbml_model  # noqa: F401
 
 
 from amici.petab_import import import_petab_problem
 from amici.petab_simulate import simulate_petab, rdatas_to_measurement_df, RDATAS
 from pathlib import Path
 from urllib.request import urlopen
-from petab.visualize.plot_data_and_simulation import plot_problem
+from petab.v1.visualize.plot_data_and_simulation import plot_problem
 
 
 model_dir = Path(__file__).parent
