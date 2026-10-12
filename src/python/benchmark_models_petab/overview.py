@@ -8,7 +8,7 @@ import libsbml
 import numpy as np
 import pandas as pd
 import petab.v1 as petab
-from petab.yaml import load_yaml
+from petab.v1.yaml import load_yaml
 from sbmlmath import sbml_math_to_sympy
 from sbmlmath.csymbol import TimeSymbol
 from . import MODELS, get_problem, get_problem_yaml_path
