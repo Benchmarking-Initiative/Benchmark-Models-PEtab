@@ -118,7 +118,7 @@ def get_sbml4humans_urls(petab_problem_id: str) -> List[str]:
                 f"{repo_root}/{PROBLEMS_DIRNAME}/{petab_problem_id}"
                 f"/{V1_DIRNAME}/{model_filename}"
             )
-            urls.append(f"https://sbml4humans.de/model_url?url={gh_raw_url}")
+            urls.append(f"https://sbml4humans.de/report?url={gh_raw_url}")
     return urls
 
 
