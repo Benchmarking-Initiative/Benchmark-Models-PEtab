@@ -37,6 +37,9 @@ jobs:
     - name: Check SBML metadata
       run: bmp-check-sbml-metadata
 
+    - name: Check problem metadata files
+      run: bmp-check-metadata
+
     - name: Check all PEtab YAML files under problems/
       # informational only for now -- some pre-existing, unrelated problems
       # are known to fail this check

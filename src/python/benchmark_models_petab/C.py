@@ -14,6 +14,7 @@ MODEL_DIRS: List[str] = [os.path.join(MODELS_DIR, d) for d in MODELS]
 V1_DIRNAME: str = "v1"
 PROBLEM_FILENAME: str = "problem.yaml"
 SIMULATIONS_FILENAME: str = "simulations.tsv"
+METADATA_FILENAME: str = "metadata.yaml"
 
 GITHUB_REPO: str = "Benchmarking-Initiative/Benchmark-Models-PEtab"
 GITHUB_DEFAULT_BRANCH: str = "master"

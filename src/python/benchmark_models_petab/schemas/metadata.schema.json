@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Version-independent metadata of a benchmark problem.",
+  "properties": {
+    "short_description": {
+      "description": "Single-sentence summary of the problem: the type of model (e.g., biochemical reaction network, compartmental epidemiological model), the biological system, and, where informative, the data. Plain ASCII text, no line breaks, ending with a period.",
+      "maxLength": 160,
+      "minLength": 20,
+      "pattern": "^[A-Z][\\x20-\\x7E]*\\.$",
+      "title": "Short Description",
+      "type": "string"
+    }
+  },
+  "required": [
+    "short_description"
+  ],
+  "title": "Benchmark problem metadata",
+  "type": "object"
+}
