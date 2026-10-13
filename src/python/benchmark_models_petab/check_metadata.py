@@ -3,11 +3,11 @@
 import sys
 from pathlib import Path
 
-import jsonschema
+import pydantic
 import yaml
 
 from .C import MODELS
-from .metadata import get_metadata_path, validate_metadata
+from .metadata import ProblemMetadata, get_metadata_path
 
 
 def check_metadata_file(path: Path) -> list[str]:
@@ -21,16 +21,14 @@ def check_metadata_file(path: Path) -> list[str]:
         return [f"Missing metadata file `{path.name}`."]
 
     try:
-        with open(path, encoding="utf-8") as f:
-            metadata = yaml.safe_load(f)
+        ProblemMetadata.from_yaml(path)
     except yaml.YAMLError as e:
         return [f"Invalid YAML: {e}"]
-
-    try:
-        validate_metadata(metadata)
-    except jsonschema.ValidationError as e:
-        location = "/".join(map(str, e.absolute_path)) or "<root>"
-        return [f"{location}: {e.message}"]
+    except pydantic.ValidationError as e:
+        return [
+            f"{'/'.join(map(str, error['loc'])) or '<root>'}: {error['msg']}"
+            for error in e.errors()
+        ]
 
     return []
 

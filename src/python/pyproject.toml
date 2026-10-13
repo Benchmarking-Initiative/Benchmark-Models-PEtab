@@ -18,8 +18,8 @@ authors = [
 ]
 urls = { "Homepage" = "https://github.com/Benchmarking-Initiative/Benchmark-Models-PEtab" }
 dependencies = [
-    "jsonschema",
     "petab>=0.4.0",
+    "pydantic>=2",
     "pyyaml",
     "numpy",
     "pandas",

@@ -1,17 +1,20 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Benchmark problem metadata",
-  "description": "Version-independent metadata of a benchmark problem, stored in `problems/<ProblemID>/metadata.yaml`.",
-  "type": "object",
+  "additionalProperties": false,
+  "description": "Version-independent metadata of a benchmark problem.",
   "properties": {
-    "description": {
+    "short_description": {
       "description": "Single-sentence summary of the problem: the type of model (e.g., biochemical reaction network, compartmental epidemiological model), the biological system, and, where informative, the data. Plain ASCII text, no line breaks, ending with a period.",
-      "type": "string",
-      "minLength": 20,
       "maxLength": 160,
-      "pattern": "^[A-Z][\\x20-\\x7E]*\\.$"
+      "minLength": 20,
+      "pattern": "^[A-Z][\\x20-\\x7E]*\\.$",
+      "title": "Short Description",
+      "type": "string"
     }
   },
-  "required": ["description"],
-  "additionalProperties": false
+  "required": [
+    "short_description"
+  ],
+  "title": "Benchmark problem metadata",
+  "type": "object"
 }
