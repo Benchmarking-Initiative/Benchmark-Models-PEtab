@@ -41,7 +41,7 @@ the v1 prior distribution), estimated `log`/`log10`-scaled v1 parameters are rep
 formulas, condition and measurement table overrides). A v1 `parameterScale*` prior becomes the
 corresponding prior on the new parameter; the v1 default prior (uniform on parameter scale)
 becomes the v2 default prior (uniform within the transformed bounds).
-Parameters with a prior on linear scale (`normal`, `laplace`, ...) are not reparametrized;
+Parameters with a prior on linear scale (e.g. a v1 `objectivePriorType` of `normal`, `laplace`, ...) are not reparametrized;
 their prior is already the same in both encodings.
 
 Measurement table overrides cannot be expressions. Therefore, for a reparametrized parameter
