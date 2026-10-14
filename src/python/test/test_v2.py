@@ -1,25 +1,33 @@
-"""Tests for the v2 accessors.
-
-No problem in the collection has a `v2/` encoding yet, so only the
-"not found" error path can be tested here. Once real `problems/<id>/v2/`
-directories exist, add a happy-path test (`get_problem`/`get_simulation_df`
-on an actual v2 problem) alongside these.
-"""
+"""Tests for the v2 accessors."""
 
 import pytest
 
 import benchmark_models_petab as models
 
+NO_V2_PROBLEM_ID = "NotAProblem_2000"
+
 
 def test_get_problem_yaml_path_raises_for_missing_v2():
     with pytest.raises(ValueError, match="v2"):
-        models.v2.get_problem_yaml_path(models.MODELS[0])
+        models.v2.get_problem_yaml_path(NO_V2_PROBLEM_ID)
 
 
 def test_get_problem_raises_for_missing_v2():
     with pytest.raises(ValueError, match="v2"):
-        models.v2.get_problem(models.MODELS[0])
+        models.v2.get_problem(NO_V2_PROBLEM_ID)
 
 
 def test_get_simulation_df_returns_none_for_missing_v2():
-    assert models.v2.get_simulation_df(models.MODELS[0]) is None
+    assert models.v2.get_simulation_df(NO_V2_PROBLEM_ID) is None
+
+
+def test_get_problem_yaml_path():
+    path = models.v2.get_problem_yaml_path("Boehm_JProteomeRes2014")
+    assert path.is_file()
+
+
+def test_get_problem():
+    problem = models.v2.get_problem("Boehm_JProteomeRes2014")
+    assert "log10_k_phos" in problem.parameter_df.index
+    assert "k_phos" not in problem.parameter_df.index
+    assert len(problem.measurement_df) > 0

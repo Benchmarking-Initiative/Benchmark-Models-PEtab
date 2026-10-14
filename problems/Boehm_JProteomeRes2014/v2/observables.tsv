@@ -1,0 +1,4 @@
+observableId	observableFormula	noiseFormula	noiseDistribution	noisePlaceholders
+pSTAT5A_rel	(200*pApA*specC17 + 100*pApB)/(STAT5A*specC17 + 2*pApA*specC17 + pApB)	10 ^ noiseParameter1_pSTAT5A_rel	normal	noiseParameter1_pSTAT5A_rel
+pSTAT5B_rel	(-100*pApB + 200*pBpB*(specC17 - 1))/(STAT5B*(specC17 - 1) - pApB + 2*pBpB*(specC17 - 1))	10 ^ noiseParameter1_pSTAT5B_rel	normal	noiseParameter1_pSTAT5B_rel
+rSTAT5A_rel	(100*STAT5A*specC17 + 200*pApA*specC17 + 100*pApB)/(STAT5A*specC17 - STAT5B*(specC17 - 1) + 2*pApA*specC17 + 2*pApB - 2*pBpB*(specC17 - 1))	10 ^ noiseParameter1_rSTAT5A_rel	normal	noiseParameter1_rSTAT5A_rel
