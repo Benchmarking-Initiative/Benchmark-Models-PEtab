@@ -1,0 +1,9 @@
+conditionId	targetId	targetValue
+u_CA	N_	39560000
+u_NY	N_	19540000
+u_CA	I0_	I0_CA
+u_NY	I0_	I0_NY
+u_CA	R0_	R0_CA
+u_NY	R0_	R0_NY
+u_CA	gamma_	gamma_CA
+u_NY	gamma_	gamma_NY

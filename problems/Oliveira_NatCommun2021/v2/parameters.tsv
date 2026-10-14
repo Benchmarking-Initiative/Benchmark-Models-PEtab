@@ -1,0 +1,25 @@
+parameterId	lowerBound	upperBound	nominalValue	estimate	priorParameters
+p_symp_rate			0.2	false	
+kappa			0.25	false	
+gamma_a			0.28571429	false	
+gamma_s			0.25	false	
+xi			0.53	false	
+mu_h			0.15	false	
+mu_u			0.4	false	
+omega_h			0.14	false	
+omega_u			0.29	false	
+beta_0	1e-08	2.0	0.97	true	
+beta_1	1e-08	2.0	0.57	true	
+beta_2	1e-08	2.0	0.57	true	
+t_1	9.0	40.0	29.0	true	
+t_2	40.0	191.0	100.0	true	
+delta_	1e-08	0.75	0.62	true	
+h_hosp_rate	0.05	0.25	0.2	true	
+gamma_h	0.0833333333	0.25	0.1	true	
+gamma_u	0.0833333333	0.3333333333	0.1	true	
+sd_cumulative_deaths			1.0	false	
+sd_cumulative_cases			1.0	false	
+population			12098867.0	false	
+exposed_init_concentration	1e-12	1.0	6.37e-08	true	
+asymptomatic_init_concentration	1e-12	1.0	6.3e-07	true	
+symptomatic_init_concentration	1e-12	1.0	3.32e-07	true	

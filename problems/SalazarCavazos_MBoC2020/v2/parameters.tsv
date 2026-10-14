@@ -1,0 +1,7 @@
+parameterId	lowerBound	upperBound	nominalValue	estimate	priorParameters
+GRB2_total__FREE	10000.0	1000000.0	169853.19422230462	true	
+SHC1_total__FREE	10000.0	1000000.0	649425.6012099041	true	
+kdephosY1068__FREE	0.1	100.0	1.6588142136877735	true	
+kdephosYN__FREE	0.001	100.0	0.01718186979848268	true	
+ratio_kpkd_Y1068__FREE	0.01	100.0	0.15754585734593093	true	
+ratio_kpkd_YN__FREE	0.01	100.0	0.44476356871177164	true	

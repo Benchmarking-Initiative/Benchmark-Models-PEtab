@@ -1,0 +1,22 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorParameters
+KM	KM	1e-05	1000	1.00013184764193e-05	true	
+background	background	1e-05	1000	1.04454130394407e-05	true	
+eff	eff	1e-05	1000	0.030159280362287	true	
+eff_GFP	eff_{GFP}	1e-05	1000	0.001952121970966	true	
+init_GFP	init_{GFP}	1e-05	1000	3.38716998236184e-05	true	
+init_GFP_mRNA	init_{GFP,mRNA}	1e-05	1000	131.43573778956	true	
+init_X_mRNA	init_{X,mRNA}	1e-05	1000	2.55665758135759	true	
+init_X_protein	init_{X,protein}	1e-05	1000	30.8087735629583	true	
+init_Y_mRNA	init_{Y,mRNA}	1e-05	1000	999.999945990865	true	
+init_Y_protein	init_{Y,protein}	1e-05	1000	0.000818268062901	true	
+init_Z_mRNA	init_{Z,mRNA}	1e-05	1000	19.3670294497273	true	
+init_Z_protein	init_{Z,protein}	1e-05	1000	994.381959318229	true	
+n_Hill	n_{Hill}	1e-05	1000	1.52254567553984	true	
+scale	scale	1e-05	1000	0.52599663700947	true	
+sigma	\sigma	1e-05	1000	0.071841413831614	true	
+tau_mRNA	tau_{mRNA}	1e-05	1000	12.6248245707722	true	
+tau_mRNA_GFP	tau_{mRNA,GFP}	1e-05	1000	0.000404064377463	true	
+tau_prot	tau_{prot}	1e-05	1000	5.35926527470062	true	
+tau_prot_GFP	tau_{prot,GFP}	1e-05	1000	71.9312640934976	true	
+tps_active	tps_{active}	1e-05	1000	0.612278991244992	true	
+tps_repr	tps_{repr}	1e-05	1000	1.00000000000882e-05	true	

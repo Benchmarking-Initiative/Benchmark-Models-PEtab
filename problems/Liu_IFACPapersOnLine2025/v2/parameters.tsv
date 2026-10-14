@@ -1,0 +1,10 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate	priorParameters
+rho	rho	0.42	1.66	1.3719998890173604	true	
+kappa	kappa	100.0	100000.0	1138.1028737412514	true	
+psi	psi	1e-10	0.01	3.0451973420634607e-09	true	
+phi	phi	1e-08	100000000.0	2.9021941106845426	true	
+beta	beta	1.0	10000.0	1.0541567420359819	true	
+alpha	alpha	0.0001	1000.0	2.9016154167675983	true	
+delta	delta	0.01	100.0	0.37236432467696445	true	
+sigma_a	sigma_a	10.0	100000.0	166.4831321759065	true	
+sigma_b	sigma_b	0.0001	100.0	0.35929982754367545	true	

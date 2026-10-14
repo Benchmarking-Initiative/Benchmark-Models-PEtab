@@ -1,0 +1,11 @@
+conditionId	targetId	targetValue
+wild_type	S_on	1.0
+mutant	S_on	0.0
+wild_type	Cer	0.988
+mutant	Cer	0.822
+wild_type	Sphinga	0.000732
+mutant	Sphinga	0.000795
+wild_type	Sphingo	0.000395
+mutant	Sphingo	0.000364
+wild_type	S1P	1.551
+mutant	S1P	2.07
