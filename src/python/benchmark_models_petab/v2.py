@@ -23,8 +23,6 @@ def get_problem_yaml_path(id_: str) -> Path:
     if not yaml_path.exists():
         raise ValueError(
             f"Could not find a v2 YAML for problem with ID `{id_}`. "
-            "Most problems in this collection do not have a v2 encoding "
-            "yet; see `benchmark_models_petab.v1` for the v1 problem."
         )
     return yaml_path
 
