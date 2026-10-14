@@ -22,7 +22,7 @@ def get_problem_yaml_path(id_: str) -> Path:
     yaml_path = Path(MODELS_DIR, id_, V2_DIRNAME, PROBLEM_FILENAME)
     if not yaml_path.exists():
         raise ValueError(
-            f"Could not find a v2 YAML for problem with ID `{id_}`. "
+            f"Could not find a v2 YAML for problem with ID `{id_}`."
         )
     return yaml_path
 
