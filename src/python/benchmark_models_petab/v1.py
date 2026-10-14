@@ -1,4 +1,4 @@
-"""Get a petab problem from the collection."""
+"""Get a PEtab v1 problem from the collection."""
 
 from pathlib import Path
 
@@ -22,7 +22,9 @@ def get_problem_yaml_path(id_: str) -> Path:
     """
     yaml_path = Path(MODELS_DIR, id_, V1_DIRNAME, PROBLEM_FILENAME)
     if not yaml_path.exists():
-        raise ValueError(f"Could not find YAML for problem with ID `{id_}`.")
+        raise ValueError(
+            f"Could not find a v1 YAML for problem with ID `{id_}`."
+        )
     return yaml_path
 
 
