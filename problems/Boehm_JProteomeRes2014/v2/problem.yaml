@@ -7,9 +7,5 @@ model_files:
     language: sbml
 measurement_files:
 - measurements.tsv
-condition_files: []
-experiment_files: []
 observable_files:
 - observables.tsv
-mapping_files: []
-extensions: {}
