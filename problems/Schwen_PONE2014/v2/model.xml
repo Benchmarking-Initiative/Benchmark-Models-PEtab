@@ -57,20 +57,20 @@
       <species id="BoundUnspec" name="BoundUnspec" compartment="ExtracellularMedium" initialConcentration="0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
     </listOfSpecies>
     <listOfParameters>
-      <parameter id="ini_R1" value="47.2370172820096" constant="false"/>
+      <parameter id="ini_R1" value="47.2370172820096" constant="true"/>
       <parameter id="init_Ins" value="0" constant="true"/>
-      <parameter id="ini_R2fold" value="16.457631927604" constant="false"/>
-      <parameter id="ka1" value="0.00937980436663883" constant="false"/>
-      <parameter id="ka2fold" value="2.0907692381484" constant="false"/>
-      <parameter id="kd1" value="6.72269169161034" constant="false"/>
-      <parameter id="kd2fold" value="9.61850107655493" constant="false"/>
-      <parameter id="kin" value="3.75654890101743" constant="false"/>
-      <parameter id="kin2" value="0.545304029714509" constant="false"/>
-      <parameter id="koff_unspec" value="9.6457882009227" constant="false"/>
-      <parameter id="kon_unspec" value="19.941427249128" constant="false"/>
-      <parameter id="kout" value="324.725838145278" constant="false"/>
-      <parameter id="kout2" value="0.0529079560976487" constant="false"/>
-      <parameter id="kout_frag" value="0.0100421669378689" constant="false"/>
+      <parameter id="ini_R2fold" value="16.457631927604" constant="true"/>
+      <parameter id="ka1" value="0.00937980436663883" constant="true"/>
+      <parameter id="ka2fold" value="2.0907692381484" constant="true"/>
+      <parameter id="kd1" value="6.72269169161034" constant="true"/>
+      <parameter id="kd2fold" value="9.61850107655493" constant="true"/>
+      <parameter id="kin" value="3.75654890101743" constant="true"/>
+      <parameter id="kin2" value="0.545304029714509" constant="true"/>
+      <parameter id="koff_unspec" value="9.6457882009227" constant="true"/>
+      <parameter id="kon_unspec" value="19.941427249128" constant="true"/>
+      <parameter id="kout" value="324.725838145278" constant="true"/>
+      <parameter id="kout2" value="0.0529079560976487" constant="true"/>
+      <parameter id="kout_frag" value="0.0100421669378689" constant="true"/>
       <parameter id="log10_ini_R1" value="1.76974916555649" constant="true"/>
       <parameter id="log10_ini_R2fold" value="1.19337957381128" constant="true"/>
       <parameter id="log10_ka1" value="-2.42026674135755" constant="true"/>
@@ -105,9 +105,7 @@
           </apply>
         </math>
       </initialAssignment>
-    </listOfInitialAssignments>
-    <listOfRules>
-      <assignmentRule variable="ini_R1">
+      <initialAssignment symbol="ini_R1">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -115,8 +113,8 @@
             <ci> log10_ini_R1 </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="ini_R2fold">
+      </initialAssignment>
+      <initialAssignment symbol="ini_R2fold">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -124,8 +122,8 @@
             <ci> log10_ini_R2fold </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="ka1">
+      </initialAssignment>
+      <initialAssignment symbol="ka1">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -133,8 +131,8 @@
             <ci> log10_ka1 </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="ka2fold">
+      </initialAssignment>
+      <initialAssignment symbol="ka2fold">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -142,8 +140,8 @@
             <ci> log10_ka2fold </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="kd1">
+      </initialAssignment>
+      <initialAssignment symbol="kd1">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -151,8 +149,8 @@
             <ci> log10_kd1 </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="kd2fold">
+      </initialAssignment>
+      <initialAssignment symbol="kd2fold">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -160,8 +158,8 @@
             <ci> log10_kd2fold </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="kin">
+      </initialAssignment>
+      <initialAssignment symbol="kin">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -169,8 +167,8 @@
             <ci> log10_kin </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="kin2">
+      </initialAssignment>
+      <initialAssignment symbol="kin2">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -178,8 +176,8 @@
             <ci> log10_kin2 </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="koff_unspec">
+      </initialAssignment>
+      <initialAssignment symbol="koff_unspec">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -187,8 +185,8 @@
             <ci> log10_koff_unspec </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="kon_unspec">
+      </initialAssignment>
+      <initialAssignment symbol="kon_unspec">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -196,8 +194,8 @@
             <ci> log10_kon_unspec </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="kout">
+      </initialAssignment>
+      <initialAssignment symbol="kout">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -205,8 +203,8 @@
             <ci> log10_kout </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="kout2">
+      </initialAssignment>
+      <initialAssignment symbol="kout2">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -214,8 +212,8 @@
             <ci> log10_kout2 </ci>
           </apply>
         </math>
-      </assignmentRule>
-      <assignmentRule variable="kout_frag">
+      </initialAssignment>
+      <initialAssignment symbol="kout_frag">
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <apply>
             <power/>
@@ -223,8 +221,8 @@
             <ci> log10_kout_frag </ci>
           </apply>
         </math>
-      </assignmentRule>
-    </listOfRules>
+      </initialAssignment>
+    </listOfInitialAssignments>
     <listOfReactions>
       <reaction id="v1_ka1" name="ka1" reversible="false">
         <listOfReactants>
