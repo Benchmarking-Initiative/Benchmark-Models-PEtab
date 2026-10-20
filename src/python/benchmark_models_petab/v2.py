@@ -5,7 +5,20 @@ from pathlib import Path
 import pandas as pd
 import petab.v2 as petab
 
-from .C import MODELS_DIR, PROBLEM_FILENAME, SIMULATIONS_FILENAME, V2_DIRNAME
+from .C import (
+    MODELS as ALL_MODELS,
+    MODELS_DIR,
+    PROBLEM_FILENAME,
+    SIMULATIONS_FILENAME,
+    V2_DIRNAME,
+)
+
+#: IDs of the problems that have a PEtab v2 encoding.
+MODELS: list[str] = [
+    id_
+    for id_ in ALL_MODELS
+    if Path(MODELS_DIR, id_, V2_DIRNAME, PROBLEM_FILENAME).is_file()
+]
 
 
 def get_problem_yaml_path(id_: str) -> Path:
