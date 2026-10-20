@@ -11,23 +11,29 @@ import petab.v1 as petab
 from petab.v1.yaml import load_yaml
 from sbmlmath import sbml_math_to_sympy
 from sbmlmath.csymbol import TimeSymbol
-from . import MODELS, get_problem, get_problem_yaml_path
-from .C import GITHUB_DEFAULT_BRANCH, GITHUB_REPO, PROBLEMS_DIRNAME, V1_DIRNAME
+from . import MODELS, get_problem, get_problem_yaml_path, v1, v2
+from .C import (
+    GITHUB_DEFAULT_BRANCH,
+    GITHUB_REPO,
+    PROBLEMS_DIRNAME,
+    V1_DIRNAME,
+    V2_DIRNAME,
+)
+from .metadata import get_metadata
 import sympy as sp
 from sympy.core.relational import Relational
 
-REPO_URL = f"https://github.com/{GITHUB_REPO}/"
-
 readme_md = Path(__file__).resolve().parent.parent / "README.md"
 
-markdown_columns = {
+#: Column labels for the overview table.
+columns = {
     "conditions": "Conditions",
     "estimated_parameters": "Estimated Parameters",
     "events": "Events",
     "preequilibration": "Preequilibration",
     "postequilibration": "Postequilibration",
     "measurements": "Measurements",
-    "petab_problem_id": "PEtab Problem ID",
+    "petab_problem_id": "ID",
     "observables": "Observables",
     "species": "Species",
     "noise_distributions": "Noise distribution(s)",
@@ -35,6 +41,42 @@ markdown_columns = {
     "reference_uris": "References",
     "sbml4humans_urls": "SBML4Humans",
     "possible_discontinuities": "Possible Discontinuities",
+}
+
+#: Column descriptions for the overview table.
+#:  Shown as HTML on the site, so they must not contain markup characters.
+column_descriptions = {
+    "petab_problem_id": (
+        "Problem ID: first author, journal, and year of the publication."
+    ),
+    "conditions": (
+        "Number of simulation conditions (combinations of preequilibration "
+        "and simulation condition) in the measurement table."
+    ),
+    "estimated_parameters": "Number of estimated parameters.",
+    "events": "Number of SBML events.",
+    "preequilibration": "Number of distinct preequilibration conditions.",
+    "postequilibration": (
+        "Number of simulation conditions with steady-state measurements "
+        "(time = inf)."
+    ),
+    "measurements": "Number of measurements (data points).",
+    "observables": "Number of observables with measurements.",
+    "species": "Number of species in the SBML model.",
+    "noise_distributions": (
+        "Noise distributions, including the observable transformation."
+    ),
+    "objective_prior_distributions": (
+        "Prior distributions of estimated parameters that enter the "
+        "objective function."
+    ),
+    "reference_uris": "Publications, from the SBML model annotation.",
+    "sbml4humans_urls": "The SBML model rendered by SBML4Humans.",
+    "possible_discontinuities": (
+        "Heuristic: events with assignments, or discontinuous functions "
+        "(piecewise, min, max, ...) with time-dependent arguments in the "
+        "model."
+    ),
 }
 
 index_column = "petab_problem_id"
@@ -110,16 +152,29 @@ def get_sbml4humans_urls(petab_problem_id: str) -> List[str]:
     """Get URL to SBML4humans model"""
     yaml_file = get_problem_yaml_path(petab_problem_id)
     yaml_dict = load_yaml(yaml_file)
+    model_filenames = [
+        model_filename
+        for problem_dict in yaml_dict[petab.PROBLEMS]
+        for model_filename in problem_dict[petab.SBML_FILES]
+    ]
+    return make_sbml4humans_urls(petab_problem_id, V1_DIRNAME, model_filenames)
+
+
+def make_sbml4humans_urls(
+    petab_problem_id: str, version_dirname: str, model_filenames: list[str]
+) -> list[str]:
+    """Get SBML4humans URLs for the given model files of a problem.
+
+    :param petab_problem_id: Problem ID.
+    :param version_dirname: The encoding's directory (`v1`, `v2`).
+    :param model_filenames: Model file paths relative to that directory.
+    """
     repo_root = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_DEFAULT_BRANCH}"
-    urls = []
-    for problem_dict in yaml_dict[petab.PROBLEMS]:
-        for model_filename in problem_dict[petab.SBML_FILES]:
-            gh_raw_url = (
-                f"{repo_root}/{PROBLEMS_DIRNAME}/{petab_problem_id}"
-                f"/{V1_DIRNAME}/{model_filename}"
-            )
-            urls.append(f"https://sbml4humans.de/report?url={gh_raw_url}")
-    return urls
+    return [
+        f"https://sbml4humans.de/report?url={repo_root}/{PROBLEMS_DIRNAME}"
+        f"/{petab_problem_id}/{version_dirname}/{model_filename}"
+        for model_filename in model_filenames
+    ]
 
 
 def get_noise_distributions(observable_df):
@@ -191,15 +246,21 @@ def guess_discontinuities(petab_problem: petab.Problem) -> bool:
     discontinuities might play a role in the simulation; the presence of
     discontinuities might be parameter-dependent; ... .
     """
-    model: libsbml.Model = petab_problem.sbml_model
+    return sbml_model_has_discontinuities(petab_problem.sbml_model)
 
+
+def sbml_model_has_discontinuities(model: libsbml.Model) -> bool:
+    """Guess whether the SBML model has discontinuities.
+
+    See :func:`guess_discontinuities`.
+    """
     for event in model.getListOfEvents():
         for ea in event.getListOfEventAssignments():
             if ea.getMath():
                 return True
 
     # convert reactions to rate rules
-    sbml_doc = petab_problem.sbml_model.getSBMLDocument().clone()
+    sbml_doc = model.getSBMLDocument().clone()
     model = sbml_doc.getModel()
     conversion_config = libsbml.ConversionProperties()
     conversion_config.addOption("replaceReactions")
@@ -271,7 +332,7 @@ def guess_discontinuities(petab_problem: petab.Problem) -> bool:
 def get_overview_df() -> pd.DataFrame:
     """Get overview table with stats for all benchmark PEtab problems"""
     data = []
-    for petab_problem_id in MODELS:
+    for petab_problem_id in v1.MODELS:
         petab_problem = get_problem(petab_problem_id)
         summary = get_summary(petab_problem, petab_problem_id)
         data.append(summary)
@@ -284,153 +345,58 @@ start_overview_table = "\n<!-- START OVERVIEW TABLE -->\n"
 end_overview_table = "\n<!-- END OVERVIEW TABLE -->\n"
 
 
+def get_readme_table() -> str:
+    """Get the version-independent overview table for the README.
+
+    Lists each problem's short description and links to its PEtab v1 and
+    v2 encodings, where available.
+    """
+    rows = []
+    for petab_problem_id in MODELS:
+        problem_dir = f"{PROBLEMS_DIRNAME}/{petab_problem_id}"
+        row = {"ID": f"[{petab_problem_id}]({problem_dir}/)"}
+        for label, version, dirname in (
+            ("PEtab v1", v1, V1_DIRNAME),
+            ("PEtab v2", v2, V2_DIRNAME),
+        ):
+            row[label] = (
+                f"[{dirname}]({problem_dir}/{dirname}/)"
+                if petab_problem_id in version.MODELS
+                else ""
+            )
+        row["Description"] = get_metadata(petab_problem_id).short_description
+        rows.append(row)
+    return pd.DataFrame(rows).to_markdown(index=False)
+
+
 def show_overview_table(
     markdown: bool = False,
     update_readme: bool = False,
 ):
-    df = get_overview_df()
-    pd.options.display.width = 0
+    """Print the overview table or write the README table.
 
-    if markdown or update_readme:
-        # directory as markdown link
-        df.rename(
-            index=lambda x: f"[{x}]({PROBLEMS_DIRNAME}/{x}/{V1_DIRNAME}/)",
-            inplace=True,
+    :param markdown: Print the README table instead of the v1 statistics.
+    :param update_readme: Write the README table to `README.md`.
+    """
+    if update_readme:
+        with open(readme_md) as f:
+            readme_content = f.read()
+        before_table = readme_content.split(start_overview_table)[0]
+        after_table = readme_content.split(end_overview_table)[1]
+        new_readme_content = (
+            before_table
+            + start_overview_table
+            + get_readme_table()
+            + end_overview_table
+            + after_table
         )
-        # references to markdown links
-        for field in "reference_uris", "sbml4humans_urls":
-            df[field] = df[field].apply(
-                lambda x: " ".join(
-                    [f"[\\[{i + 1}\\]]({uri})" for i, uri in enumerate(x)]
-                )
-            )
-        df["possible_discontinuities"] = df["possible_discontinuities"].apply(
-            lambda x: "✓" if x else ""
-        )
-        df.index.rename(markdown_columns[index_column], inplace=True)
-        df.rename(columns=markdown_columns, inplace=True)
-        markdown_overview = df.to_markdown()
-        if update_readme:
-            with open(readme_md, "r") as f:
-                readme_content = f.read()
-            before_table = readme_content.split(start_overview_table)[0]
-            after_table = readme_content.split(end_overview_table)[1]
-            new_readme_content = (
-                before_table
-                + start_overview_table
-                + markdown_overview
-                + end_overview_table
-                + after_table
-            )
-            with open(readme_md, "w") as f:
-                f.write(new_readme_content)
-        else:
-            print(markdown_overview)
+        with open(readme_md, "w") as f:
+            f.write(new_readme_content)
+    elif markdown:
+        print(get_readme_table())
     else:
-        print(df)
-
-
-def create_html_table(dest: Path) -> None:
-    """Create HTML table with stats for all benchmark PEtab problems.
-
-    :param dest: Path to the output HTML file.
-    """
-    from bokeh.io import output_file, save
-    from bokeh.layouts import column
-    from bokeh.models import (
-        ColumnDataSource,
-        DataTable,
-        TableColumn,
-        Div,
-        StringFormatter,
-        NumberFormatter,
-        HTMLTemplateFormatter,
-        InlineStyleSheet,
-    )
-
-    dest.parent.mkdir(parents=True, exist_ok=True)
-
-    # get the overview dataframe and prettify it
-    df = get_overview_df()
-    df["possible_discontinuities"] = df["possible_discontinuities"].apply(
-        lambda x: "✓" if x else ""
-    )
-    df.fillna({"objective_prior_distributions": ""}, inplace=True)
-
-    def get_formatter(col: str):
-        """Get the appropriate formatter for the column."""
-        if col not in df.columns:
-            # index column
-            return HTMLTemplateFormatter(
-                template=f"""
-                <a href="{REPO_URL}tree/{GITHUB_DEFAULT_BRANCH}/{PROBLEMS_DIRNAME}/<%= value %>/{V1_DIRNAME}"><%= value %></a>
-                """
-            )
-        if pd.api.types.is_integer_dtype(df[col].dtype):
-            return NumberFormatter(text_align="right")
-        if col in ("reference_uris", "sbml4humans_urls"):
-            icon = "📚" if col == "reference_uris" else "🌠"
-            return HTMLTemplateFormatter(
-                template="""
-                <%
-                    if (Array.isArray(value)) {
-                        urls = value;
-                    } else {
-                        const sanitizedValue = value.replace(/'/g, '"');
-                        const urls = JSON.parse(sanitizedValue);
-                        console.log('Parsed JSON:', urls);
-                    }
-                    for (let i = 0; i < urls.length; i++) {
-                %>
-                    <a href="<%= urls[i] %>" target="_blank">LINK_TEXT</a>
-                <% } %>
-                """.replace("LINK_TEXT", icon)
-            )
-
-        return StringFormatter()
-
-    columns = [
-        TableColumn(
-            field=col,
-            title=markdown_columns.get(col, col),
-            formatter=get_formatter(col),
-            width=len(col),
-        )
-        for col in df.reset_index().columns
-    ]
-
-    source = ColumnDataSource(df)
-
-    css = InlineStyleSheet(
-        css="""
-            .slick-header-column {
-            background-color: #f4f4f4;
-            font-weight: bold;
-    }
-    """
-    )
-
-    data_table = DataTable(
-        source=source,
-        columns=columns,
-        sortable=True,
-        sizing_mode="stretch_both",
-    )
-    data_table.stylesheets.append(css)
-
-    heading = Div(text="<h1>Benchmark Problems</h1>")
-    preamble = Div(
-        text=f"""
-        <p>
-        This table provides an overview of the benchmark problems
-        available in the <a href="{REPO_URL}">Benchmark-Models-PEtab</a>
-        repository.
-        </p>
-        """
-    )
-    layout = column(heading, preamble, data_table, sizing_mode="stretch_both")
-    output_file(dest, title="Benchmark Problems")
-    save(layout)
+        pd.options.display.width = 0
+        print(get_overview_df())
 
 
 def main():
@@ -439,7 +405,9 @@ def main():
     )
     group1 = parser.add_mutually_exclusive_group()
     group1.add_argument(
-        "--markdown", action="store_true", help="Output in markdown format"
+        "--markdown",
+        action="store_true",
+        help="Print the README overview table (markdown)",
     )
     group1.add_argument(
         "--update",
@@ -449,12 +417,15 @@ def main():
 
     group2 = parser.add_mutually_exclusive_group()
     group2.add_argument(
-        "--html-file", help="Output the overview table to an HTML file"
+        "--html-file",
+        help="Write the v1 and v2 overview tables to an HTML file",
     )
 
     args = parser.parse_args()
 
     if args.html_file:
-        create_html_table(dest=Path(args.html_file))
+        from ._site import create_overview_page
+
+        create_overview_page(dest=Path(args.html_file))
     else:
         show_overview_table(markdown=args.markdown, update_readme=args.update)

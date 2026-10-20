@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benchmark Problems</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tabulator-tables@6.6.1/dist/css/tabulator_simple.min.css">
+<script src="https://cdn.jsdelivr.net/npm/tabulator-tables@6.6.1/dist/js/tabulator.min.js"></script>
+<script>
+// Apply the stored theme choice before rendering to avoid a flash.
+try {
+  const theme = localStorage.getItem("theme");
+  if (theme === "light" || theme === "dark") {
+    document.documentElement.dataset.theme = theme;
+  }
+} catch (e) {}
+</script>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --fg: #1f2328;
+  --muted: #59636e;
+  --border: #d8dee4;
+  --header-bg: #f6f8fa;
+  --row-alt: #fafbfc;
+  --row-hover: #eaf1fd;
+  --link: #1257d6;
+  --accent: #1257d6;
+  --accent-soft: #eaf1fd;
+  --hero-bg: linear-gradient(135deg, #eef4ff 0%, #f7faff 55%, #f3fbf1 100%);
+  --input-bg: #ffffff;
+  --tile-bg: #ffffff;
+  --shadow: 0 1px 2px rgba(31, 35, 40, 0.06), 0 1px 3px rgba(31, 35, 40, 0.08);
+  --group-size: #1257d6;
+  --group-features: #3a8f2f;
+  --group-distributions: #c26a00;
+  --group-links: #8c959f;
+  --check: #2f8a26;
+  --tag-bg: #eff2f5;
+  --tag-fg: #3d4651;
+  --tag-normal-bg: #e3edfd;
+  --tag-normal-fg: #0f4bb8;
+  --tag-laplace-bg: #fdefdc;
+  --tag-laplace-fg: #9a4f00;
+  --tag-uniform-bg: #e5f4e1;
+  --tag-uniform-fg: #276b1f;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #9198a1;
+    --border: #30363d;
+    --header-bg: #151b23;
+    --row-alt: #10151c;
+    --row-hover: #16233a;
+    --link: #6ea8ff;
+    --accent: #6ea8ff;
+    --accent-soft: #16233a;
+    --hero-bg: linear-gradient(135deg, #111c30 0%, #0f1622 55%, #12201a 100%);
+    --input-bg: #0d1117;
+    --tile-bg: #151b23;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --group-size: #6ea8ff;
+    --group-features: #6cc35f;
+    --group-distributions: #f0a03c;
+    --group-links: #6e7681;
+    --check: #6cc35f;
+    --tag-bg: #212830;
+    --tag-fg: #c9d1d9;
+    --tag-normal-bg: #15284a;
+    --tag-normal-fg: #9cc3ff;
+    --tag-laplace-bg: #3a2610;
+    --tag-laplace-fg: #f5bb73;
+    --tag-uniform-bg: #183019;
+    --tag-uniform-fg: #8fd585;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --fg: #e6edf3;
+  --muted: #9198a1;
+  --border: #30363d;
+  --header-bg: #151b23;
+  --row-alt: #10151c;
+  --row-hover: #16233a;
+  --link: #6ea8ff;
+  --accent: #6ea8ff;
+  --accent-soft: #16233a;
+  --hero-bg: linear-gradient(135deg, #111c30 0%, #0f1622 55%, #12201a 100%);
+  --input-bg: #0d1117;
+  --tile-bg: #151b23;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --group-size: #6ea8ff;
+  --group-features: #6cc35f;
+  --group-distributions: #f0a03c;
+  --group-links: #6e7681;
+  --check: #6cc35f;
+  --tag-bg: #212830;
+  --tag-fg: #c9d1d9;
+  --tag-normal-bg: #15284a;
+  --tag-normal-fg: #9cc3ff;
+  --tag-laplace-bg: #3a2610;
+  --tag-laplace-fg: #f5bb73;
+  --tag-uniform-bg: #183019;
+  --tag-uniform-fg: #8fd585;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.wrap { max-width: 1600px; margin: 0 auto; padding: 0 16px; }
+a { color: var(--link); text-underline-offset: 3px; }
+code, kbd {
+  padding: 0 4px;
+  border-radius: 4px;
+  background: var(--header-bg);
+  font-size: 0.85em;
+}
+kbd { border: 1px solid var(--border); border-bottom-width: 2px; }
+
+/* hero */
+.hero {
+  background: var(--hero-bg);
+  border-bottom: 1px solid var(--border);
+  padding: 24px 0 20px;
+}
+.hero-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.brand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+}
+.brand img { height: 76px; width: auto; }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 0.25rem; letter-spacing: -0.01em; }
+.lead { margin: 0; max-width: 70ch; color: var(--muted); }
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 20px 0 0;
+}
+.tile {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  background: var(--tile-bg);
+  box-shadow: var(--shadow);
+  cursor: help;
+}
+.tile-value {
+  color: var(--accent);
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+.tile-label { color: var(--muted); font-size: 0.85rem; }
+
+/* controls */
+#theme-toggle,
+.download-button {
+  flex: none;
+  background: var(--tile-bg);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 12px;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+#theme-toggle:hover,
+.download-button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.help { margin: 20px 0 8px; max-width: 90ch; color: var(--muted); font-size: 0.9rem; }
+nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; }
+nav a {
+  padding: 3px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--tile-bg);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav a:hover { border-color: var(--accent); background: var(--accent-soft); }
+h2 {
+  margin: 2.25rem 0 0.25rem;
+  padding-left: 10px;
+  border-left: 4px solid var(--accent);
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+.table-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0.25rem 0 0.75rem;
+}
+.table-bar p { margin: 0; }
+.muted { color: var(--muted); font-size: 0.9rem; }
+footer {
+  margin-top: 3rem;
+  padding: 16px 0 32px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* table */
+.tabulator {
+  background: var(--bg);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.875rem;
+  box-shadow: var(--shadow);
+}
+.tabulator .tabulator-header,
+.tabulator .tabulator-header .tabulator-col {
+  background: var(--header-bg);
+  color: var(--fg);
+  border-color: var(--border);
+}
+.tabulator .tabulator-header { border-bottom: 2px solid var(--border); }
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title {
+  white-space: normal;
+}
+.tabulator .tabulator-header .tabulator-col input {
+  background: var(--input-bg);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+.tabulator .tabulator-header .tabulator-col input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+.tabulator .tabulator-tableholder .tabulator-table { background: var(--bg); color: var(--fg); }
+.tabulator-row { background: var(--bg); border-color: var(--border); }
+.tabulator-row.tabulator-row-even { background: var(--row-alt); }
+.tabulator-row .tabulator-cell { border-color: var(--border); font-variant-numeric: tabular-nums; }
+.tabulator-row.tabulator-selectable:hover,
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable.tabulator-col-sorter-element:hover {
+  background: var(--row-hover);
+  color: var(--fg);
+}
+.tabulator-row .tabulator-cell.tabulator-frozen { background: inherit; }
+.tabulator .tabulator-header .tabulator-col.tabulator-frozen.tabulator-frozen-left,
+.tabulator-row .tabulator-cell.tabulator-frozen.tabulator-frozen-left {
+  border-right: 2px solid var(--border);
+}
+.tabulator-row .tabulator-cell.tabulator-frozen a { font-weight: 600; }
+.tabulator .tabulator-tableholder .tabulator-placeholder span { color: var(--muted); }
+.tabulator-cell a { margin-right: 0.35em; }
+.tabulator .tabulator-header .tabulator-col.tabulator-col-group {
+  border-top: 3px solid var(--group-color, var(--border));
+}
+.tabulator .tabulator-header .tabulator-col.tabulator-col-group > .tabulator-col-content .tabulator-col-title {
+  text-align: center;
+  color: var(--group-color, var(--muted));
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.group-size { --group-color: var(--group-size); }
+.group-features { --group-color: var(--group-features); }
+.group-distributions { --group-color: var(--group-distributions); }
+.group-links { --group-color: var(--group-links); }
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort="ascending"] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow {
+  border-bottom-color: var(--accent);
+}
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort="descending"] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow {
+  border-top-color: var(--accent);
+}
+.check { color: var(--check); font-weight: 700; }
+.tabulator-popup-container.tabulator-tooltip {
+  max-width: 320px;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 6px;
+  background: var(--fg);
+  color: var(--bg);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.tag {
+  display: inline-block;
+  margin: 1px 4px 1px 0;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--tag-fg);
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+.tag-normal { background: var(--tag-normal-bg); color: var(--tag-normal-fg); }
+.tag-laplace { background: var(--tag-laplace-bg); color: var(--tag-laplace-fg); }
+.tag-uniform { background: var(--tag-uniform-bg); color: var(--tag-uniform-fg); }
+@media (max-width: 640px) {
+  .brand img { height: 56px; }
+  h1 { font-size: 1.5rem; }
+}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="wrap">
+  <div class="hero-top">
+    <div class="brand">
+      <img src="{{ logo_url }}" alt="PEtab Benchmark Collection logo">
+      <div>
+        <h1>Benchmark Problems</h1>
+        <p class="lead">
+          Parameter estimation problems with published models and experimental
+          data in the <a href="https://petab.readthedocs.io">PEtab</a> format,
+          from the <a href="{{ repo_url }}">Benchmark-Models-PEtab</a>
+          collection.
+        </p>
+      </div>
+    </div>
+    <button id="theme-toggle" type="button"></button>
+  </div>
+  <div class="tiles">
+{%- for value, label, tooltip in summary_tiles %}
+    <div class="tile" title="{{ tooltip }}">
+      <div class="tile-value">{{ value }}</div>
+      <div class="tile-label">{{ label }}</div>
+    </div>
+{%- endfor %}
+  </div>
+</div>
+</header>
+<main class="wrap">
+<p class="help">
+  Click a column header to sort; hover over it for a definition. Filter with
+  the fields below the headers; numeric columns accept, e.g., <code>10</code>,
+  <code>&gt;10</code>, <code>&lt;=5</code>, or <code>10-100</code>.
+  Click a table and press <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy its visible
+  rows, including the column headers.
+</p>
+<nav>
+  <a href="#v2">PEtab v2</a>
+  <a href="#v1">PEtab v1</a>
+</nav>
+
+<h2 id="v2">PEtab v2</h2>
+<div class="table-bar">
+  <p class="muted" id="count-v2"></p>
+  <button class="download-button" type="button" data-table="v2">Download CSV</button>
+</div>
+<div id="table-v2"></div>
+
+<h2 id="v1">PEtab v1</h2>
+<div class="table-bar">
+  <p class="muted" id="count-v1"></p>
+  <button class="download-button" type="button" data-table="v1">Download CSV</button>
+</div>
+<div id="table-v1"></div>
+</main>
+<footer>
+<div class="wrap">
+  <a href="{{ repo_url }}">Benchmark-Models-PEtab on GitHub</a> ·
+  <a href="https://petab.readthedocs.io">PEtab documentation</a> ·
+  <a href="{{ contributing_url }}">Contribute a problem</a>
+</div>
+</footer>
+
+<script id="tables-data" type="application/json">{{ tables | tojson }}</script>
+<script>
+"use strict";
+
+// Parse numeric filter expressions: "10", ">10", ">=10", "<10", "<=10",
+//  "=10", "10-100".
+function numberFilter(expr, value) {
+  expr = String(expr).trim();
+  if (expr === "") return true;
+  if (value === null || value === undefined) return false;
+  let m = expr.match(/^(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)$/);
+  if (m) return value >= +m[1] && value <= +m[2];
+  m = expr.match(/^(<=|>=|<|>|=)?\s*(\d+(?:\.\d+)?)$/);
+  if (!m) return true;
+  const x = +m[2];
+  switch (m[1]) {
+    case "<": return value < x;
+    case "<=": return value <= x;
+    case ">": return value > x;
+    case ">=": return value >= x;
+    default: return value === x;
+  }
+}
+
+function escapeHtml(s) {
+  const div = document.createElement("div");
+  div.textContent = s;
+  return div.innerHTML;
+}
+
+function linksFormatter(cell) {
+  return (cell.getValue() || []).map((url, i) => {
+    const a = document.createElement("a");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = `[${i + 1}]`;
+    return a.outerHTML;
+  }).join("");
+}
+
+// Color tags by distribution family.
+function tagClass(tag) {
+  const t = tag.toLowerCase();
+  if (t.includes("laplace")) return "tag-laplace";
+  if (t.includes("normal")) return "tag-normal";
+  if (t.includes("uniform")) return "tag-uniform";
+  return "";
+}
+
+// Nest consecutive columns of the same group under a group header.
+function groupColumns(columns, treeUrl) {
+  const result = [];
+  for (const col of columns) {
+    const def = columnDefinition(col, treeUrl);
+    const last = result[result.length - 1];
+    if (!col.group) {
+      result.push(def);
+    } else if (last && last.title === col.group && last.columns) {
+      last.columns.push(def);
+    } else {
+      result.push({
+        title: col.group,
+        cssClass: `group-${col.group.toLowerCase()}`,
+        columns: [def],
+      });
+    }
+  }
+  return result;
+}
+
+function problemCount(n) {
+  return `${n} problem${n === 1 ? "" : "s"}`;
+}
+
+function columnDefinition(col, treeUrl) {
+  const def = {
+    field: col.field,
+    title: col.title,
+    headerTooltip: col.tooltip || false,
+    headerSortTristate: true,
+  };
+  switch (col.kind) {
+    case "id":
+      return Object.assign(def, {
+        frozen: true,
+        minWidth: 180,
+        headerFilter: "input",
+        formatter: cell => {
+          const id = cell.getValue();
+          const href = treeUrl.replace("{id}", encodeURIComponent(id));
+          return `<a href="${href}">${escapeHtml(id)}</a>`;
+        },
+      });
+    case "description":
+      return Object.assign(def, {
+        width: 340,
+        formatter: "textarea",
+        headerFilter: "input",
+      });
+    case "int":
+      return Object.assign(def, {
+        hozAlign: "right",
+        sorter: "number",
+        headerFilter: "input",
+        headerFilterFunc: (expr, value) => numberFilter(expr, value),
+      });
+    case "bool":
+      return Object.assign(def, {
+        hozAlign: "center",
+        formatter: cell => (
+          cell.getValue() ? '<span class="check">✓</span>' : ""
+        ),
+        sorter: "boolean",
+        headerFilter: "tickCross",
+        headerFilterParams: { tristate: true },
+      });
+    case "tags":
+      return Object.assign(def, {
+        headerFilter: "input",
+        formatter: cell => (cell.getValue() || "")
+          .split("; ")
+          .filter(Boolean)
+          .map(tag => (
+            `<span class="tag ${tagClass(tag)}">${escapeHtml(tag)}</span>`
+          ))
+          .join(""),
+      });
+    case "links":
+      return Object.assign(def, {
+        headerSort: false,
+        formatter: linksFormatter,
+        accessorDownload: value => (value || []).join(" "),
+        accessorClipboard: value => (value || []).join(" "),
+      });
+    default:
+      return Object.assign(def, {
+        headerFilter: "input",
+        formatter: cell => escapeHtml(cell.getValue() ?? ""),
+      });
+  }
+}
+
+const themeToggle = document.getElementById("theme-toggle");
+function currentTheme() {
+  return document.documentElement.dataset.theme
+    || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+}
+function updateThemeToggle() {
+  const next = currentTheme() === "dark" ? "light" : "dark";
+  themeToggle.textContent = next === "dark" ? "Dark mode" : "Light mode";
+  themeToggle.setAttribute("aria-label", `Switch to ${next} mode`);
+}
+themeToggle.addEventListener("click", () => {
+  const next = currentTheme() === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem("theme", next); } catch (e) {}
+  updateThemeToggle();
+});
+matchMedia("(prefers-color-scheme: dark)")
+  .addEventListener("change", updateThemeToggle);
+updateThemeToggle();
+
+const tables = JSON.parse(document.getElementById("tables-data").textContent);
+for (const [version, table] of Object.entries(tables)) {
+  const count = document.getElementById(`count-${version}`);
+  const total = table.rows.length;
+  const t = new Tabulator(`#table-${version}`, {
+    data: table.rows,
+    columns: groupColumns(table.columns, table.tree_url),
+    layout: "fitDataFill",
+    placeholder: "No matching problems",
+    initialSort: [{ column: "petab_problem_id", dir: "asc" }],
+    clipboard: "copy",
+    clipboardCopyConfig: {
+      columnGroups: false,
+      columnHeaders: true,
+      formatCells: false,
+    },
+    clipboardCopyStyled: false,
+  });
+  document.querySelector(`.download-button[data-table="${version}"]`)
+    .addEventListener("click", () => t.download(
+      "csv", `benchmark-problems-petab-${version}.csv`
+    ));
+  t.on("dataFiltered", (filters, rows) => {
+    count.textContent = `Showing ${rows.length} of ${problemCount(total)}.`;
+  });
+  count.textContent = `${problemCount(total)}.`;
+}
+</script>
+</body>
+</html>

@@ -31,3 +31,8 @@ def test_get_problem():
     assert "log10_k_phos" in problem.parameter_df.index
     assert "k_phos" not in problem.parameter_df.index
     assert len(problem.measurement_df) > 0
+
+
+def test_models():
+    assert "Boehm_JProteomeRes2014" in models.v2.MODELS
+    assert set(models.v2.MODELS) <= set(models.MODELS)
