@@ -1,0 +1,14 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate
+log10_init_b10_1	log10(init_{b10})	-5.0	3.0	0.6255480497999999	true
+log10_init_bcar1	log10(init_{bcar1})	-5.0	3.0	0.6474118949999998	true
+log10_init_bcar2	log10(init_{bcar2})	-5.0	3.0	0.5187402148000005	true
+log10_init_bcry_1	log10(init_{bcry})	-5.0	3.0	0.7174157301000003	true
+log10_init_ohb10_1	log10(init_{ohb10})	-5.0	3.0	0.23986151019999952	true
+log10_init_zea_1	log10(init_{zea})	-5.0	3.0	0.4710162305000001	true
+log10_k5	log10(k5)	-5.0	3.0	-2.5105093461000427	true
+log10_kb1	log10(kb1)	-5.0	3.0	-1.7791492760000047	true
+log10_kb2	log10(kb2)	-5.0	3.0	-2.2333022912000224	true
+log10_kc1	log10(kc1)	-5.0	3.0	-2.774994509499925	true
+log10_kc2	log10(kc2)	-5.0	3.0	-2.156394208499991	true
+log10_kc4	log10(kc4)	-5.0	3.0	-2.215903538299987	true
+log10_szea	log10(szea)	-5.0	3.0	-0.2866508009999996	true

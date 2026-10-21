@@ -1,0 +1,2 @@
+observableId	observableFormula	noiseFormula	noiseDistribution	noisePlaceholders
+task0_model0_perelson1_V	V	2.302585092994046*10 ^ noiseParameter1_task0_model0_perelson1_V	log-normal	noiseParameter1_task0_model0_perelson1_V

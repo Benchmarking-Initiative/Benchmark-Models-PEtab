@@ -1,0 +1,17 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate
+log10_alpha	log10(alpha)	-5.0	3.0	-0.3010299956639812	true
+log10_d_0	log10(d_0)	-5.0	3.0	-1.8239087409443189	true
+log10_d_D	log10(d_D)	-5.0	3.0	-1.8239087409443189	true
+log10_gamma_0	log10(gamma_0)	-5.0	3.0	-0.8545549638621943	true
+log10_gamma_a	log10(gamma_a)	-5.0	3.0	-0.8545549638621943	true
+log10_gamma_i	log10(gamma_i)	-5.0	3.0	-1.1760912373409578	true
+log10_nu	log10(nu)	-5.0	3.0	-0.3010299956639812	true
+log10_psi	log10(psi)	-5.0	3.0	-1.869666231504994	true
+log10_sigma	log10(sigma)	-5.0	3.0	-0.7160033262630202	true
+log10_theta	log10(theta)	-13.0	3.0	-11.698970004336019	true
+log10_asymptomatic_start	log10(asymptomatic_start)	0.0	4.0	2.27415784926368	true
+log10_symptomatic_start	log10(symptomatic_start)	0.0	4.0	2.3263358609287517	true
+log10_exposed_start	log10(exposed_start)	0.0	3.0	2.6444385894678386	true
+log10_transmission_rate_effective	log10(transmissionRate_effective)	-5.0	3.0	-0.37304404856455264	true
+log10_sd_Cumulative	log10(sd_Cumulative)	-5.0	3.0	0.0	true
+log10_sd_ActiveCases	log10(sd_ActiveCases)	-5.0	3.0	0.0	true

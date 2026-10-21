@@ -1,0 +1,2 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution
+tumor_num	tumor_number	I_1 + I_2 + I_3 + I_4 + I_5 + U	(10 ^ (2*log10_sigma_a) + 10 ^ (2*log10_sigma_b)*(I_1 + I_2 + I_3 + I_4 + I_5 + U) ^ 2) ^ (1/2)	normal

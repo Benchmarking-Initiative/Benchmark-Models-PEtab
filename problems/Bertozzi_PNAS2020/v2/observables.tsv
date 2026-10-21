@@ -1,0 +1,3 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution
+y_I_NY	Confirmed infected in NY	I_	10 ^ log10_sd_I_NY	normal
+y_I_CA	Confirmed infected in CA	I_	10 ^ log10_sd_I_CA	normal

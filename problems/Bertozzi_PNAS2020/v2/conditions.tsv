@@ -1,0 +1,9 @@
+conditionId	targetId	targetValue
+u_CA	N_	39560000.0
+u_CA	I0_	10 ^ log10_I0_CA
+u_CA	R0_	10 ^ log10_R0_CA
+u_CA	gamma_	10 ^ log10_gamma_CA
+u_NY	N_	19540000.0
+u_NY	I0_	10 ^ log10_I0_NY
+u_NY	R0_	10 ^ log10_R0_NY
+u_NY	gamma_	10 ^ log10_gamma_NY

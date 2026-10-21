@@ -1,0 +1,2 @@
+observableId	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
+Ca	10 ^ observableParameter1_Ca + 10 ^ observableParameter2_Ca*Z_state	2.302585092994046*10 ^ noiseParameter1_Ca	log-normal	observableParameter1_Ca;observableParameter2_Ca	noiseParameter1_Ca

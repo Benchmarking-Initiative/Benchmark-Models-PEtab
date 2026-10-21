@@ -1,0 +1,7 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate
+NN	NN	1e-05	100000.0	480.000000026982	false
+T0	T0	1e-05	100000.0	11000.0000010581	false
+log10_c	log10(c)	-5.0	5.0	0.3138672204000009	true
+log10_delta	log10(delta)	-5.0	5.0	-0.27572413040000004	true
+K0	K0	1e-05	100000.0	3.89999999976204e-07	false
+log10_sd_task0_model0_perelson1_V	log10(sigma_task0_model0_perelson1_V)	-10.0	10.0	5.0	true

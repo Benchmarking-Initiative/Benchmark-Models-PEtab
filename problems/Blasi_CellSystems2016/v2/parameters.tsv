@@ -1,0 +1,11 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate
+log10_a_basal	log10(a_basal)	-12.0	3.0	-1.1752235380000002	true
+log10_a_k8	log10(a_k8)	-12.0	3.0	-1.563837353000001	true
+log10_a_k5_k5k12	log10(a_k5_k5k12)	-12.0	3.0	0.31428866100000064	true
+log10_a_k12_k5k12	log10(a_k12_k5k12)	-12.0	3.0	-0.2581396060000003	true
+log10_a_k16_k12k16	log10(a_k16_k12k16)	-12.0	3.0	-0.15745316400000023	true
+log10_a_k5k12_k5k8k12	log10(a_k5k12_k5k8k12)	-12.0	3.0	-0.48771593699999993	true
+log10_a_k12k16_k8k12k16	log10(a_k12k16_k8k12k16)	-12.0	3.0	0.3435070619999993	true
+log10_a_k8k12k16_4ac	log10(a_k8k12k16_4ac)	-12.0	3.0	0.5553000550000002	true
+d	d	1e-12	1000.0	1.0	false
+log10_sigma	log10(sigma)	-12.0	3.0	-1.0	true
