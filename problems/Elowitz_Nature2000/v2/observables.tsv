@@ -1,0 +1,2 @@
+observableId	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
+fluorescence	10 ^ observableParameter1_fluorescence + 10 ^ observableParameter2_fluorescence*GFP	2.302585092994046*10 ^ noiseParameter1_fluorescence	log-normal	observableParameter1_fluorescence;observableParameter2_fluorescence	noiseParameter1_fluorescence

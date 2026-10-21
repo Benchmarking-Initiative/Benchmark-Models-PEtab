@@ -1,0 +1,7 @@
+parameterId	lowerBound	upperBound	nominalValue	estimate
+log10_GRB2_total__FREE	4.0	6.0	5.230073718530608	true
+log10_SHC1_total__FREE	4.0	6.0	5.812529405086158	true
+log10_kdephosY1068__FREE	-1.0	2.0	0.21979774799636953	true
+log10_kdephosYN__FREE	-3.0	2.0	-1.7649295763035657	true
+log10_ratio_kpkd_Y1068__FREE	-2.0	2.0	-0.8025930120739639	true
+log10_ratio_kpkd_YN__FREE	-2.0	2.0	-0.35187079371787683	true

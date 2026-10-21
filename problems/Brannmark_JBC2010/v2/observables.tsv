@@ -1,0 +1,4 @@
+observableId	observableName	observableFormula	noiseFormula	noiseDistribution	observablePlaceholders	noisePlaceholders
+IR1_P	IR1_P	10 ^ observableParameter1_IR1_P*(IRiP + IRp)	10 ^ noiseParameter1_IR1_P	normal	observableParameter1_IR1_P	noiseParameter1_IR1_P
+IRS1_P	IRS1_P	10 ^ observableParameter1_IRS1_P*IRSiP	10 ^ noiseParameter1_IRS1_P	normal	observableParameter1_IRS1_P	noiseParameter1_IRS1_P
+IRS1_P_DosR	IRS1_P_DosR	10 ^ observableParameter1_IRS1_P_DosR*IRSiP	10 ^ noiseParameter1_IRS1_P_DosR	normal	observableParameter1_IRS1_P_DosR	noiseParameter1_IRS1_P_DosR

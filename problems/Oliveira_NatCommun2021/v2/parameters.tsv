@@ -1,0 +1,25 @@
+parameterId	lowerBound	upperBound	nominalValue	estimate
+p_symp_rate			0.2	false
+kappa			0.25	false
+gamma_a			0.28571429	false
+gamma_s			0.25	false
+xi			0.53	false
+mu_h			0.15	false
+mu_u			0.4	false
+omega_h			0.14	false
+omega_u			0.29	false
+log10_beta_0	-8.0	0.3010299956639812	-0.01322826573375516	true
+log10_beta_1	-8.0	0.3010299956639812	-0.24412514432750865	true
+log10_beta_2	-8.0	0.3010299956639812	-0.24412514432750865	true
+log10_t_1	0.9542425094393249	1.6020599913279625	1.462397997898956	true
+log10_t_2	1.6020599913279625	2.2810333672477277	2.0	true
+log10_delta_	-8.0	-0.12493873660829993	-0.2076083105017461	true
+log10_h_hosp_rate	-1.3010299956639813	-0.6020599913279624	-0.6989700043360187	true
+log10_gamma_h	-1.0791812462213426	-0.6020599913279624	-1.0	true
+log10_gamma_u	-1.0791812462213426	-0.4771212547630919	-1.0	true
+sd_cumulative_deaths			1.0	false
+sd_cumulative_cases			1.0	false
+population			12098867.0	false
+log10_exposed_init_concentration	-12.0	0.0	-7.195860567664649	true
+log10_asymptomatic_init_concentration	-12.0	0.0	-6.200659450546418	true
+log10_symptomatic_init_concentration	-12.0	0.0	-6.478861916295964	true

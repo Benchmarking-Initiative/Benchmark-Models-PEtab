@@ -1,0 +1,14 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate
+log10_k_imp	log10(k_{Imp})	-10.0	10.0	-0.5287082889410615	true
+log10_k_syn_R_M	log10(R^{Syn}_{R_M})	-10.0	10.0	4.48572142648158	true
+log10_k_syn_R_C	log10({R^{Syn}}_{R_C})	-10.0	10.0	0.1846914308175988	true
+log10_k_syn_R_V	log10(R^{Syn}_{R_V})	-10.0	10.0	2.0040202732532415	true
+log10_k_bind_M1	log10(k^{Bind}_{M1})	-10.0	10.0	-5.739928612014925	true
+log10_k_rel	log10(k^{Release})	-10.0	10.0	-2.958607314841775	true
+log10_vRNA_offset	log10(vRNA_{offset})	-10.0	10.0	2.7283537820212285	true
+log10_Int_nuc_off	log10(Int^{nuc}_offset)	-10.0	10.0	1.6608654780038692	true
+log10_scale_sigma_FracNucInt	log10(Stdev frac^{Int}_{nuc})	-3.0	3.0	0.0	true
+log10_sigma_RM5	log10(Stdev R_{M5})	-3.0	3.0	0.0	true
+log10_sigma_RV	log10(Stdev R^{SegTot}_{V})	-3.0	3.0	0.0	true
+log10_sigma_RC	log10(Stdev R^{SegTot}_{C})	-3.0	3.0	0.0	true
+log10_sigma_Vrel	log10(Stdev V_{rel})	-3.0	3.0	0.0	true

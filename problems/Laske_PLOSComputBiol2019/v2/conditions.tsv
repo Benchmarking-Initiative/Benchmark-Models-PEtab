@@ -1,0 +1,7 @@
+conditionId	targetId	targetValue
+virus_infection	V_ex	50.0
+virus_infection	k_syn_P	64800.0
+virus_infection_2	V_ex	1.0
+virus_infection_2	k_syn_P	64800.0
+virus_infection_3	V_ex	50.0
+virus_infection_3	k_syn_P	0.0

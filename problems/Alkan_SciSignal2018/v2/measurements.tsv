@@ -1,0 +1,1734 @@
+observableId	experimentId	time	measurement	observableParameters	noiseParameters	datasetId
+Cells_count	experiment____model1_data1	0.0	1.0		sd_count_abs	
+Cells_count	experiment____model1_data1	4.0	1.07519665183444		sd_count_abs	
+Cells_count	experiment____model1_data1	8.0	1.2239063371840502		sd_count_abs	
+Cells_count	experiment____model1_data1	12.0	1.42480372064749		sd_count_abs	
+Cells_count	experiment____model1_data1	16.0	1.68911391763829		sd_count_abs	
+Cells_count	experiment____model1_data1	20.0	1.92312047481016		sd_count_abs	
+Cells_count	experiment____model1_data1	24.0	2.18855258737122		sd_count_abs	
+Cells_count	experiment____model1_data1	28.0	2.56677967768394		sd_count_abs	
+Cells_count	experiment____model1_data1	32.0	3.01739714097771		sd_count_abs	
+Cells_count	experiment____model1_data1	36.0	3.33726227272084		sd_count_abs	
+Cells_count	experiment____model1_data1	40.0	3.70763297418626		sd_count_abs	
+Cells_count	experiment____model1_data1	44.0	4.16217863190367		sd_count_abs	
+Cells_count	experiment____model1_data1	48.0	4.69023657817241		sd_count_abs	
+CellsCasp_count	experiment____model1_data1	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	4.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data2	0.0	0.963064691916472		sd_count_abs	
+Cells_count	experiment____model1_data2	4.0	1.04129260168943		sd_count_abs	
+Cells_count	experiment____model1_data2	8.0	1.18773163719962		sd_count_abs	
+Cells_count	experiment____model1_data2	12.0	1.40476717272062		sd_count_abs	
+Cells_count	experiment____model1_data2	16.0	1.64231305318222		sd_count_abs	
+Cells_count	experiment____model1_data2	20.0	1.8335907183463		sd_count_abs	
+Cells_count	experiment____model1_data2	24.0	2.1121587786168603		sd_count_abs	
+Cells_count	experiment____model1_data2	28.0	2.49900659069525		sd_count_abs	
+Cells_count	experiment____model1_data2	32.0	2.90207226596402		sd_count_abs	
+Cells_count	experiment____model1_data2	36.0	3.21784680116244		sd_count_abs	
+Cells_count	experiment____model1_data2	40.0	3.54411489726576		sd_count_abs	
+Cells_count	experiment____model1_data2	44.0	4.0172995507123		sd_count_abs	
+Cells_count	experiment____model1_data2	48.0	4.52148959993206		sd_count_abs	
+CellsCasp_count	experiment____model1_data2	0.0	0.000954298702198		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	4.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	8.0	0.004293226714106		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	12.0	0.002385374273567		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data2	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data3	0.0	0.948324837020532		sd_count_abs	
+Cells_count	experiment____model1_data3	4.0	1.05235382505418		sd_count_abs	
+Cells_count	experiment____model1_data3	8.0	1.16894737351817		sd_count_abs	
+Cells_count	experiment____model1_data3	12.0	1.3719798233988705		sd_count_abs	
+Cells_count	experiment____model1_data3	16.0	1.56445911526602		sd_count_abs	
+Cells_count	experiment____model1_data3	20.0	1.66497038396182		sd_count_abs	
+Cells_count	experiment____model1_data3	24.0	1.76095897707523		sd_count_abs	
+Cells_count	experiment____model1_data3	28.0	1.85041423715328		sd_count_abs	
+Cells_count	experiment____model1_data3	32.0	1.95394037458273		sd_count_abs	
+Cells_count	experiment____model1_data3	36.0	2.07304668614002		sd_count_abs	
+Cells_count	experiment____model1_data3	40.0	2.2665309342517204		sd_count_abs	
+Cells_count	experiment____model1_data3	44.0	2.53288605703294		sd_count_abs	
+Cells_count	experiment____model1_data3	48.0	2.81381490776975		sd_count_abs	
+CellsCasp_count	experiment____model1_data3	0.0	0.015579429163994		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	4.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data3	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data4	0.0	0.962620693457057		sd_count_abs	
+Cells_count	experiment____model1_data4	4.0	1.04300452863529		sd_count_abs	
+Cells_count	experiment____model1_data4	8.0	1.1854125647094198		sd_count_abs	
+Cells_count	experiment____model1_data4	12.0	1.33824115523035		sd_count_abs	
+Cells_count	experiment____model1_data4	16.0	1.3809141749488		sd_count_abs	
+Cells_count	experiment____model1_data4	20.0	1.3943108600086298		sd_count_abs	
+Cells_count	experiment____model1_data4	24.0	1.41316664022045		sd_count_abs	
+Cells_count	experiment____model1_data4	28.0	1.43301471229123		sd_count_abs	
+Cells_count	experiment____model1_data4	32.0	1.44343452177418		sd_count_abs	
+Cells_count	experiment____model1_data4	36.0	1.43847231751552		sd_count_abs	
+Cells_count	experiment____model1_data4	40.0	1.4449229595626203		sd_count_abs	
+Cells_count	experiment____model1_data4	44.0	1.43996150026781		sd_count_abs	
+Cells_count	experiment____model1_data4	48.0	1.4240825956328702		sd_count_abs	
+CellsCasp_count	experiment____model1_data4	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	4.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	36.0	0.002480729647401		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	40.0	0.008435225765022		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	44.0	0.024313385436106		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data4	48.0	0.022328801718185		sd_count_casp_abs	
+Cells_count	experiment____model1_data5	0.0	0.963120564205828		sd_count_abs	
+Cells_count	experiment____model1_data5	4.0	1.02192652123482		sd_count_abs	
+Cells_count	experiment____model1_data5	8.0	1.14957756824428		sd_count_abs	
+Cells_count	experiment____model1_data5	12.0	1.2413720148367		sd_count_abs	
+Cells_count	experiment____model1_data5	16.0	1.26001771524055		sd_count_abs	
+Cells_count	experiment____model1_data5	20.0	1.27292570400947		sd_count_abs	
+Cells_count	experiment____model1_data5	24.0	1.26718873733841		sd_count_abs	
+Cells_count	experiment____model1_data5	28.0	1.26934019296054		sd_count_abs	
+Cells_count	experiment____model1_data5	32.0	1.27149164858267		sd_count_abs	
+Cells_count	experiment____model1_data5	36.0	1.2700575931558702		sd_count_abs	
+Cells_count	experiment____model1_data5	40.0	1.27149164858267		sd_count_abs	
+Cells_count	experiment____model1_data5	44.0	1.2442401256903		sd_count_abs	
+Cells_count	experiment____model1_data5	48.0	1.22918068129925		sd_count_abs	
+CellsCasp_count	experiment____model1_data5	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	4.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	44.0	0.020079755830646		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data5	48.0	0.023486475553639		sd_count_casp_abs	
+Cells_count	experiment____model1_data6	0.0	0.976842053507774		sd_count_abs	
+Cells_count	experiment____model1_data6	4.0	1.06578626837919		sd_count_abs	
+Cells_count	experiment____model1_data6	8.0	1.21420020307715		sd_count_abs	
+Cells_count	experiment____model1_data6	12.0	1.4143258039836202		sd_count_abs	
+Cells_count	experiment____model1_data6	16.0	1.66874958561385		sd_count_abs	
+Cells_count	experiment____model1_data6	20.0	1.877149500092		sd_count_abs	
+Cells_count	experiment____model1_data6	24.0	2.14139861004643		sd_count_abs	
+Cells_count	experiment____model1_data6	28.0	2.54578734112715		sd_count_abs	
+Cells_count	experiment____model1_data6	32.0	2.97241175344378		sd_count_abs	
+Cells_count	experiment____model1_data6	36.0	3.3307766173724103		sd_count_abs	
+Cells_count	experiment____model1_data6	40.0	3.72844279459782		sd_count_abs	
+Cells_count	experiment____model1_data6	44.0	4.234187583389391		sd_count_abs	
+Cells_count	experiment____model1_data6	48.0	4.76785659743718		sd_count_abs	
+CellsCasp_count	experiment____model1_data6	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	4.0	0.003102774468897		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	8.0	0.00258576955139		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data6	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data1	0.0	1.0		sd_count_abs	
+Cells_count	experiment____model1_data1	4.0	1.11103929942632		sd_count_abs	
+Cells_count	experiment____model1_data1	8.0	1.26251603507997		sd_count_abs	
+Cells_count	experiment____model1_data1	12.0	1.48202751284126		sd_count_abs	
+Cells_count	experiment____model1_data1	16.0	1.70603296080917		sd_count_abs	
+Cells_count	experiment____model1_data1	20.0	1.9480097647132504		sd_count_abs	
+Cells_count	experiment____model1_data1	24.0	2.2785620501976203		sd_count_abs	
+Cells_count	experiment____model1_data1	28.0	2.67714983193803		sd_count_abs	
+Cells_count	experiment____model1_data1	32.0	3.02824059444992		sd_count_abs	
+Cells_count	experiment____model1_data1	36.0	3.3889595693511096		sd_count_abs	
+Cells_count	experiment____model1_data1	40.0	3.82541615793074		sd_count_abs	
+Cells_count	experiment____model1_data1	44.0	4.3780477964161415		sd_count_abs	
+Cells_count	experiment____model1_data1	48.0	4.870987082192371		sd_count_abs	
+CellsCasp_count	experiment____model1_data1	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	4.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data8	0.0	0.996017342396186		sd_count_abs	
+Cells_count	experiment____model1_data8	4.0	1.0943771450808		sd_count_abs	
+Cells_count	experiment____model1_data8	8.0	1.2170785950819		sd_count_abs	
+Cells_count	experiment____model1_data8	12.0	1.4123080032488702		sd_count_abs	
+Cells_count	experiment____model1_data8	16.0	1.59213770146131		sd_count_abs	
+Cells_count	experiment____model1_data8	20.0	1.78985127439764		sd_count_abs	
+Cells_count	experiment____model1_data8	24.0	1.9895512741714		sd_count_abs	
+Cells_count	experiment____model1_data8	28.0	2.23396096075487		sd_count_abs	
+Cells_count	experiment____model1_data8	32.0	2.51662105325871		sd_count_abs	
+Cells_count	experiment____model1_data8	36.0	2.7620239532609		sd_count_abs	
+Cells_count	experiment____model1_data8	40.0	3.0302783033773		sd_count_abs	
+Cells_count	experiment____model1_data8	44.0	3.36013149331183		sd_count_abs	
+Cells_count	experiment____model1_data8	48.0	3.63186322161631		sd_count_abs	
+CellsCasp_count	experiment____model1_data8	0.0	0.004470591606781		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	4.0	0.022354466330668		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	8.0	0.022354466330668		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	12.0	0.009935150780657		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	16.0	0.005464559173876		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	20.0	0.019374071926148		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data8	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data9	0.0	0.9847925978828042		sd_count_abs	
+Cells_count	experiment____model1_data9	4.0	1.09257397630013		sd_count_abs	
+Cells_count	experiment____model1_data9	8.0	1.19789381439956		sd_count_abs	
+Cells_count	experiment____model1_data9	12.0	1.2904180169065		sd_count_abs	
+Cells_count	experiment____model1_data9	16.0	1.34603118101899		sd_count_abs	
+Cells_count	experiment____model1_data9	20.0	1.3770364834362598		sd_count_abs	
+Cells_count	experiment____model1_data9	24.0	1.40804178585353		sd_count_abs	
+Cells_count	experiment____model1_data9	28.0	1.4420003333335802		sd_count_abs	
+Cells_count	experiment____model1_data9	32.0	1.4759588808136397		sd_count_abs	
+Cells_count	experiment____model1_data9	36.0	1.49367608874516		sd_count_abs	
+Cells_count	experiment____model1_data9	40.0	1.51237821446321		sd_count_abs	
+Cells_count	experiment____model1_data9	44.0	1.5207447366099098		sd_count_abs	
+Cells_count	experiment____model1_data9	48.0	1.5360011583719098		sd_count_abs	
+CellsCasp_count	experiment____model1_data9	0.0	0.000984163638132		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	4.0	0.000984163638132		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data9	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data10	0.0	0.95730011862754		sd_count_abs	
+Cells_count	experiment____model1_data10	4.0	1.03719535233435		sd_count_abs	
+Cells_count	experiment____model1_data10	8.0	1.07521725129506		sd_count_abs	
+Cells_count	experiment____model1_data10	12.0	1.08339976123662		sd_count_abs	
+Cells_count	experiment____model1_data10	16.0	1.08147442041812		sd_count_abs	
+Cells_count	experiment____model1_data10	20.0	1.08388090790415		sd_count_abs	
+Cells_count	experiment____model1_data10	24.0	1.08917502954376		sd_count_abs	
+Cells_count	experiment____model1_data10	28.0	1.08291861456909		sd_count_abs	
+Cells_count	experiment____model1_data10	32.0	1.08051212708305		sd_count_abs	
+Cells_count	experiment____model1_data10	36.0	1.07425495796		sd_count_abs	
+Cells_count	experiment____model1_data10	40.0	1.08436205457169		sd_count_abs	
+Cells_count	experiment____model1_data10	44.0	1.0761802987785098		sd_count_abs	
+Cells_count	experiment____model1_data10	48.0	1.06270366719734		sd_count_abs	
+CellsCasp_count	experiment____model1_data10	0.0	0.000481146667531		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	4.0	0.014438924916233		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data10	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data11	0.0	0.97459424931693		sd_count_abs	
+Cells_count	experiment____model1_data11	4.0	1.0392383403004102		sd_count_abs	
+Cells_count	experiment____model1_data11	8.0	1.0520686667184498		sd_count_abs	
+Cells_count	experiment____model1_data11	12.0	1.04861466713022		sd_count_abs	
+Cells_count	experiment____model1_data11	16.0	1.05947063308494		sd_count_abs	
+Cells_count	experiment____model1_data11	20.0	1.05404227303339		sd_count_abs	
+Cells_count	experiment____model1_data11	24.0	1.05749702677001		sd_count_abs	
+Cells_count	experiment____model1_data11	28.0	1.0436795201203		sd_count_abs	
+Cells_count	experiment____model1_data11	32.0	1.04614709362526		sd_count_abs	
+Cells_count	experiment____model1_data11	36.0	1.03479716048051		sd_count_abs	
+Cells_count	experiment____model1_data11	40.0	1.03479716048051		sd_count_abs	
+Cells_count	experiment____model1_data11	44.0	1.02196758821085		sd_count_abs	
+Cells_count	experiment____model1_data11	48.0	1.02887558738732		sd_count_abs	
+CellsCasp_count	experiment____model1_data11	0.0	0.002960786546596		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	4.0	0.084876383768012		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	8.0	0.057735337658626		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data11	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data12	0.0	0.9653008788091092		sd_count_abs	
+Cells_count	experiment____model1_data12	4.0	1.02313199331221		sd_count_abs	
+Cells_count	experiment____model1_data12	8.0	1.0130113220296502		sd_count_abs	
+Cells_count	experiment____model1_data12	12.0	0.980240558250798		sd_count_abs	
+Cells_count	experiment____model1_data12	16.0	0.946987139507647		sd_count_abs	
+Cells_count	experiment____model1_data12	20.0	0.8949395889438829		sd_count_abs	
+Cells_count	experiment____model1_data12	24.0	0.834698216212833		sd_count_abs	
+Cells_count	experiment____model1_data12	28.0	0.7609636206362149		sd_count_abs	
+Cells_count	experiment____model1_data12	32.0	0.7031317519847299		sd_count_abs	
+Cells_count	experiment____model1_data12	36.0	0.6554213087641851		sd_count_abs	
+Cells_count	experiment____model1_data12	40.0	0.606264408947518		sd_count_abs	
+Cells_count	experiment____model1_data12	44.0	0.5561444616474069		sd_count_abs	
+Cells_count	experiment____model1_data12	48.0	0.4867469734140071		sd_count_abs	
+CellsCasp_count	experiment____model1_data12	0.0	0.004819008159131		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	4.0	0.571566041905009		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	8.0	0.596626392629255		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	12.0	0.561927271438365		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	16.0	0.493011684020878		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	20.0	0.4154211277685729		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	24.0	0.351325302658599		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	28.0	0.3243373486707		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	32.0	0.328192555198005		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	36.0	0.3175899830995349		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	40.0	0.2877106242161569		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	44.0	0.235180418688099		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data12	48.0	0.179276907448648		sd_count_casp_abs	
+Cells_count	experiment____model1_data1	0.0	1.0		sd_count_abs	
+Cells_count	experiment____model1_data1	4.0	1.10948456081302		sd_count_abs	
+Cells_count	experiment____model1_data1	8.0	1.26607293574505		sd_count_abs	
+Cells_count	experiment____model1_data1	12.0	1.46276279878173		sd_count_abs	
+Cells_count	experiment____model1_data1	16.0	1.7275619822852		sd_count_abs	
+Cells_count	experiment____model1_data1	20.0	1.94589459571428		sd_count_abs	
+Cells_count	experiment____model1_data1	24.0	2.2431571689587098		sd_count_abs	
+Cells_count	experiment____model1_data1	28.0	2.6390836636676003		sd_count_abs	
+Cells_count	experiment____model1_data1	32.0	3.0369189471197795		sd_count_abs	
+Cells_count	experiment____model1_data1	36.0	3.43984703199539		sd_count_abs	
+Cells_count	experiment____model1_data1	40.0	3.840865592280081		sd_count_abs	
+Cells_count	experiment____model1_data1	44.0	4.31890532363682		sd_count_abs	
+Cells_count	experiment____model1_data1	48.0	4.8873328982021		sd_count_abs	
+CellsCasp_count	experiment____model1_data1	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	4.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	24.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	28.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	32.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data1	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data14	0.0	0.970163586285861		sd_count_abs	
+Cells_count	experiment____model1_data14	4.0	1.0564983807673		sd_count_abs	
+Cells_count	experiment____model1_data14	8.0	1.1935595672332902		sd_count_abs	
+Cells_count	experiment____model1_data14	12.0	1.38671441827198		sd_count_abs	
+Cells_count	experiment____model1_data14	16.0	1.60767180018499		sd_count_abs	
+Cells_count	experiment____model1_data14	20.0	1.8310685169800496		sd_count_abs	
+Cells_count	experiment____model1_data14	24.0	2.06617109781843		sd_count_abs	
+Cells_count	experiment____model1_data14	28.0	2.39638713532311		sd_count_abs	
+Cells_count	experiment____model1_data14	32.0	2.81342583428564		sd_count_abs	
+Cells_count	experiment____model1_data14	36.0	3.1509591405888395		sd_count_abs	
+Cells_count	experiment____model1_data14	40.0	3.53336664270256		sd_count_abs	
+Cells_count	experiment____model1_data14	44.0	3.9411380766561903		sd_count_abs	
+Cells_count	experiment____model1_data14	48.0	4.420610503341849		sd_count_abs	
+CellsCasp_count	experiment____model1_data14	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	4.0	0.001950732058011		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	24.0	0.001463600929228		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	28.0	0.001950732058011		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	32.0	0.004390066940059		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	36.0	0.003902199963649		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	40.0	0.00292646601083		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	44.0	0.003902199963649		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data14	48.0	0.00585293202166		sd_count_casp_abs	
+Cells_count	experiment____model1_data15	0.0	0.9594260977190928		sd_count_abs	
+Cells_count	experiment____model1_data15	4.0	1.03956358348964		sd_count_abs	
+Cells_count	experiment____model1_data15	8.0	1.16155093132555		sd_count_abs	
+Cells_count	experiment____model1_data15	12.0	1.28977090855842		sd_count_abs	
+Cells_count	experiment____model1_data15	16.0	1.41888199726706		sd_count_abs	
+Cells_count	experiment____model1_data15	20.0	1.54131453291704		sd_count_abs	
+Cells_count	experiment____model1_data15	24.0	1.66597300763736		sd_count_abs	
+Cells_count	experiment____model1_data15	28.0	1.85963927277651		sd_count_abs	
+Cells_count	experiment____model1_data15	32.0	2.13967565308316		sd_count_abs	
+Cells_count	experiment____model1_data15	36.0	2.41837646994761		sd_count_abs	
+Cells_count	experiment____model1_data15	40.0	2.67837866277354		sd_count_abs	
+Cells_count	experiment____model1_data15	44.0	2.93971641904168		sd_count_abs	
+Cells_count	experiment____model1_data15	48.0	3.21708167246392		sd_count_abs	
+CellsCasp_count	experiment____model1_data15	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	4.0	0.001335563442207		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	12.0	0.000445187814069		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	20.0	0.001335563442207		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	24.0	0.00445187814069		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	28.0	0.006677817211034		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	32.0	0.007123005025103		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	36.0	0.005342253768828		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	40.0	0.005787441582897		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	44.0	0.021369750922937		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data15	48.0	0.0489728670904659		sd_count_casp_abs	
+Cells_count	experiment____model1_data16	0.0	0.9709016414553008		sd_count_abs	
+Cells_count	experiment____model1_data16	4.0	1.05985605348729		sd_count_abs	
+Cells_count	experiment____model1_data16	8.0	1.19217028691435		sd_count_abs	
+Cells_count	experiment____model1_data16	12.0	1.27307894099753		sd_count_abs	
+Cells_count	experiment____model1_data16	16.0	1.30973371881938		sd_count_abs	
+Cells_count	experiment____model1_data16	20.0	1.35041137561563		sd_count_abs	
+Cells_count	experiment____model1_data16	24.0	1.37007984682596		sd_count_abs	
+Cells_count	experiment____model1_data16	28.0	1.3843839888386598		sd_count_abs	
+Cells_count	experiment____model1_data16	32.0	1.3843839888386598		sd_count_abs	
+Cells_count	experiment____model1_data16	36.0	1.38348993397239		sd_count_abs	
+Cells_count	experiment____model1_data16	40.0	1.38706615343748		sd_count_abs	
+Cells_count	experiment____model1_data16	44.0	1.38393659348171		sd_count_abs	
+Cells_count	experiment____model1_data16	48.0	1.3875128129468		sd_count_abs	
+CellsCasp_count	experiment____model1_data16	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	4.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	8.0	0.003128824108134		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	12.0	0.004470274331354		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	20.0	0.003576219465083		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	24.0	0.008939812815081		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	28.0	0.005810988706946		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	32.0	0.004022878974405		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	36.0	0.002234769241864		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	44.0	0.002234769241864		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data16	48.0	0.003576219465083		sd_count_casp_abs	
+Cells_count	experiment____model1_data17	0.0	0.951144132682157		sd_count_abs	
+Cells_count	experiment____model1_data17	4.0	1.03865260412796		sd_count_abs	
+Cells_count	experiment____model1_data17	8.0	1.1463210929986298		sd_count_abs	
+Cells_count	experiment____model1_data17	12.0	1.20267524763112		sd_count_abs	
+Cells_count	experiment____model1_data17	16.0	1.22512448702222		sd_count_abs	
+Cells_count	experiment____model1_data17	20.0	1.22924817712147		sd_count_abs	
+Cells_count	experiment____model1_data17	24.0	1.24161851157157		sd_count_abs	
+Cells_count	experiment____model1_data17	28.0	1.2558218424594398		sd_count_abs	
+Cells_count	experiment____model1_data17	32.0	1.25536340938809		sd_count_abs	
+Cells_count	experiment____model1_data17	36.0	1.25123971928885		sd_count_abs	
+Cells_count	experiment____model1_data17	40.0	1.2530727157266102		sd_count_abs	
+Cells_count	experiment____model1_data17	44.0	1.24619989889454		sd_count_abs	
+Cells_count	experiment____model1_data17	48.0	1.2457422016708202		sd_count_abs	
+CellsCasp_count	experiment____model1_data17	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	4.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	8.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	12.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	24.0	0.002749126732829		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	28.0	0.001374563366415		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	32.0	0.002290693661482		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	36.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	40.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	44.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data17	48.0	0.0		sd_count_casp_abs	
+Cells_count	experiment____model1_data18	0.0	0.9615931689793128		sd_count_abs	
+Cells_count	experiment____model1_data18	4.0	1.0598258837346		sd_count_abs	
+Cells_count	experiment____model1_data18	8.0	1.19635946745236		sd_count_abs	
+Cells_count	experiment____model1_data18	12.0	1.38291008604266		sd_count_abs	
+Cells_count	experiment____model1_data18	16.0	1.60956513612813		sd_count_abs	
+Cells_count	experiment____model1_data18	20.0	1.81819559860101		sd_count_abs	
+Cells_count	experiment____model1_data18	24.0	2.10658384946912		sd_count_abs	
+Cells_count	experiment____model1_data18	28.0	2.49680826091979		sd_count_abs	
+Cells_count	experiment____model1_data18	32.0	2.85684305179558		sd_count_abs	
+Cells_count	experiment____model1_data18	36.0	3.1862356758061403		sd_count_abs	
+Cells_count	experiment____model1_data18	40.0	3.5431158879068603		sd_count_abs	
+Cells_count	experiment____model1_data18	44.0	3.99327140930273		sd_count_abs	
+Cells_count	experiment____model1_data18	48.0	4.42630375642855		sd_count_abs	
+CellsCasp_count	experiment____model1_data18	0.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	4.0	0.001351752089991		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	8.0	0.001351752089991		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	12.0	0.001802090837446		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	16.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	20.0	0.0		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	24.0	0.001802090837446		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	28.0	0.002703504179982		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	32.0	0.00495666961251		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	36.0	0.001351752089991		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	40.0	0.003154578775064		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	44.0	0.021178430540031		sd_count_casp_abs	
+CellsCasp_count	experiment____model1_data18	48.0	0.019376339702585		sd_count_casp_abs	
+pATM_au	experiment____model1_data1	0.25	-0.026176899232086	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	1.0	-0.014319636582128	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	3.0	-0.014319636582128	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	6.0	-0.038034161882043	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	12.0	-0.026176899232086	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	24.0	0.009394888717787	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	0.25	0.003105336954622	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	1.0	0.003105336954622	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	3.0	0.014480377337741	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	6.0	0.014480377337741	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	12.0	0.014480377337741	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	24.0	0.059980538870217	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data1	0.25	-0.0219235209632	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	1.0	-0.011804972826338	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	3.0	0.028669219721108	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	6.0	0.048906315994831	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	12.0	-0.011804972826338	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	24.0	-0.032042069100061	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data1	0.25	0.0143726007626719	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	1.0	0.0143726007626719	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	3.0	0.0031164927606259	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	6.0	0.0031164927606259	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	12.0	-0.030651831245513	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	24.0	-0.019395723243467	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	0.25	0.105015369731258	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	1.0	-0.0028833760485949	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	3.0	-0.0028833760485949	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	6.0	-0.024463125204566	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	12.0	-0.035252999782551	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	24.0	-0.024463125204566	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data1	0.25	-0.182817314646333	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	1.0	0.477471185541678	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	3.0	-0.006740381262863	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	6.0	-0.094778847954598	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	12.0	-0.138798081300466	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	24.0	-0.006740381262863	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	0.25	0.026737656296584	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	1.0	-0.0426030493347699	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	3.0	-0.007932696519092	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	6.0	0.026737656296584	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	12.0	-0.0426030493347699	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	24.0	-0.007932696519092	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data1	0.25	-0.050416155802726	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	1.0	-0.036613748259773	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	3.0	-0.022811340716819	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	6.0	-0.036613748259773	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	12.0	-0.036613748259773	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	24.0	-0.050416155802726	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	0.25	0.036683033702965	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	1.0	0.036683033702965	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	3.0	0.050069728586765	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	6.0	0.050069728586765	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	12.0	0.036683033702965	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	24.0	0.023296338819164	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data1	0.25	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	1.0	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	3.0	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	6.0	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	12.0	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	24.0	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	0.25	-0.0353030033978949	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	1.0	-0.013751283610071	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	3.0	-0.013751283610071	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	6.0	-0.0353030033978949	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	12.0	-0.0353030033978949	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	24.0	-0.0353030033978949	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data1	0.25	-0.024204977869099	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	1.0	-0.024204977869099	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	3.0	0.033550649766957	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	6.0	-0.024204977869099	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	12.0	0.033550649766957	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	24.0	0.091306277403013	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	0.25	0.004615768059854	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	1.0	-0.033213315836398	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	3.0	-0.089956941680777	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	6.0	0.004615768059854	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	12.0	-0.033213315836398	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	24.0	0.061359393904233	log10_scale_tp21_au	sd_tp21_au	
+pATM_au	experiment____model1_data20	0.25	-0.014319636582128	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	1.0	0.056823939317617	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	3.0	0.3532555055665539	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	6.0	0.531114445315917	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	12.0	0.6378298091655339	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	24.0	0.946118638064429	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	0.25	0.037230458103979	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	1.0	0.071355579253336	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	3.0	0.332981508065072	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	6.0	0.5377322349612129	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	12.0	0.696982800324879	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pATM_au	experiment____model1_data20	24.0	1.0723591329678	log10_scale_patm_au	sd_patm_au	model1_data20_patm_au
+pDNAPK_au	experiment____model1_data20	0.25	-0.0219235209632	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
+pDNAPK_au	experiment____model1_data20	1.0	0.038787767857969	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
+pDNAPK_au	experiment____model1_data20	3.0	0.048906315994831	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
+pDNAPK_au	experiment____model1_data20	6.0	0.099499056679138	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
+pDNAPK_au	experiment____model1_data20	12.0	0.190565989910891	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
+pDNAPK_au	experiment____model1_data20	24.0	0.139973249226584	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data20_pdnapk_au
+pChk1_au	experiment____model1_data20	0.25	-0.019395723243467	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	1.0	0.036884816766764	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	3.0	0.0143726007626719	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	6.0	0.048140924768811	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	12.0	0.194470328795411	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	24.0	0.2282386528015489	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	0.25	0.040276122263346	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	1.0	0.018696373107375	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	3.0	0.00790649852939	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	6.0	0.0510659968413309	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	12.0	0.137384993465214	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk1_au	experiment____model1_data20	24.0	0.212914115511111	log10_scale_pchk1_au	sd_pchk1_au	model1_data20_pchk1_au
+pChk2_au	experiment____model1_data20	0.25	-0.050759614608731	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	1.0	0.609528885579281	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	3.0	0.565509652233413	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	6.0	0.8736442856544849	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	12.0	0.653548118925148	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	24.0	1.31383661911316	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	0.25	0.304100478822	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	1.0	0.685474359794446	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	3.0	0.7201447126101228	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	6.0	0.477452242900384	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	12.0	0.3734411844533541	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+pChk2_au	experiment____model1_data20	24.0	0.789485418241477	log10_scale_pchk2_au	sd_pchk2_au	model1_data20_pchk2_au
+tp53_au	experiment____model1_data20	0.25	-0.036613748259773	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	1.0	-0.022811340716819	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	3.0	0.032398289454995	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	6.0	0.1980271799704369	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	12.0	0.501680145915414	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	24.0	0.612099406259042	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	0.25	0.036683033702965	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	1.0	0.036683033702965	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	3.0	0.076843118354367	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	6.0	0.264256846727576	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	12.0	0.384737100681781	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+tp53_au	experiment____model1_data20	24.0	0.4248971853331829	log10_scale_tp53_au	sd_tp53_au	model1_data20_tp53_au
+pp53_au	experiment____model1_data20	0.25	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	1.0	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	3.0	0.054238252716451	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	6.0	0.1587148763744419	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	12.0	0.2893106559469299	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	24.0	0.2893106559469299	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	0.25	-0.0353030033978949	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	1.0	0.029352155965578	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	3.0	0.158662474692524	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	6.0	0.158662474692524	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	12.0	0.2664210736316449	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+pp53_au	experiment____model1_data20	24.0	0.331076232995118	log10_scale_pp53_au	sd_pp53_au	model1_data20_pp53_au
+tp21_au	experiment____model1_data20	0.25	-0.024204977869099	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	1.0	0.033550649766957	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	3.0	0.091306277403013	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	6.0	0.26457316031118	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	12.0	2.34377575520918	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	24.0	4.07644458429085	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	0.25	-0.033213315836398	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	1.0	-0.033213315836398	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	3.0	-0.089956941680777	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	6.0	0.515308400659265	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	12.0	2.10412992430187	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+tp21_au	experiment____model1_data20	24.0	3.7118659898926096	log10_scale_tp21_au	sd_tp21_au	model1_data20_tp21_au
+pATM_au	experiment____model1_data21	0.25	0.021252151367744	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	1.0	0.424399081466299	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	3.0	0.9342613754144709	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	6.0	0.756402435665109	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	12.0	0.7445451730151509	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	24.0	1.0409767392640898	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	0.25	0.048605498487098	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	1.0	0.207856063850764	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	3.0	0.68560775994176	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	6.0	0.765233042623593	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	12.0	0.810733204156068	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pATM_au	experiment____model1_data21	24.0	1.25435977909771	log10_scale_patm_au	sd_patm_au	model1_data21_patm_au
+pDNAPK_au	experiment____model1_data21	0.25	-0.011804972826338	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
+pDNAPK_au	experiment____model1_data21	1.0	0.008432123447385	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
+pDNAPK_au	experiment____model1_data21	3.0	0.129854701089722	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
+pDNAPK_au	experiment____model1_data21	6.0	0.696493396753966	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
+pDNAPK_au	experiment____model1_data21	12.0	1.07087967781784	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
+pDNAPK_au	experiment____model1_data21	24.0	0.7268490411645501	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data21_pdnapk_au
+pChk1_au	experiment____model1_data21	0.25	0.036884816766764	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	1.0	0.059397032770857	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	3.0	0.171958112791318	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	6.0	0.430848596838381	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	12.0	0.307031408815873	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	24.0	0.1832142207933649	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	0.25	0.083435620575287	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	1.0	0.018696373107375	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	3.0	0.115805244309243	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	6.0	0.3963419833368621	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	12.0	0.320812861290964	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk1_au	experiment____model1_data21	24.0	0.234493864667082	log10_scale_pchk1_au	sd_pchk1_au	model1_data21_pchk1_au
+pChk2_au	experiment____model1_data21	0.25	-0.094778847954598	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	1.0	1.4018750858048898	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	3.0	2.6344136194891803	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	6.0	1.35785585245903	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	12.0	0.609528885579281	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	24.0	0.917663519000353	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	0.25	0.408111537269031	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	1.0	1.93360706115882	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	3.0	1.37888141610798	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	6.0	0.997507535135539	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	12.0	0.8241557710571541	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+pChk2_au	experiment____model1_data21	24.0	1.44822212173934	log10_scale_pchk2_au	sd_pchk2_au	model1_data21_pchk2_au
+tp53_au	experiment____model1_data21	0.25	-0.050416155802726	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	1.0	0.018595881912041	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	3.0	0.432668108200647	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	6.0	0.9295547797469732	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	12.0	1.50925589655102	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	24.0	2.07515460581211	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	0.25	0.023296338819164	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	1.0	0.050069728586765	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	3.0	0.304416931378977	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	6.0	0.8398847267310029	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	12.0	1.46905938626963	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+tp53_au	experiment____model1_data21	24.0	1.7234065890618402	log10_scale_tp53_au	sd_tp53_au	model1_data21_tp53_au
+pp53_au	experiment____model1_data21	0.25	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	1.0	0.054238252716451	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	3.0	0.263191500032432	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	6.0	0.472144747348413	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	12.0	0.6810979946643929	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	24.0	1.1512428011253502	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	0.25	-0.013751283610071	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	1.0	0.137110754904699	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	3.0	0.374179672570767	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	6.0	0.719007189175956	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	12.0	0.848317507902902	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+pp53_au	experiment____model1_data21	24.0	1.0207312662055	log10_scale_pp53_au	sd_pp53_au	model1_data21_pp53_au
+tp21_au	experiment____model1_data21	0.25	-0.024204977869099	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	1.0	0.033550649766957	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	3.0	0.091306277403013	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	6.0	0.899885064307792	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	12.0	1.4774413406683502	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	24.0	4.36522272247113	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	0.25	0.004615768059854	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	1.0	-0.033213315836398	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	3.0	-0.089956941680777	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	6.0	1.19623191079181	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	12.0	1.44212095611745	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+tp21_au	experiment____model1_data21	24.0	4.37387495807703	log10_scale_tp21_au	sd_tp21_au	model1_data21_tp21_au
+pATM_au	experiment____model1_data22	0.25	-0.026176899232086	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	1.0	0.4125418188163421	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	3.0	1.00540495131422	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	6.0	0.946118638064429	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	12.0	0.9342613754144709	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	24.0	1.18326389106358	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	0.25	0.048605498487098	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	1.0	0.3898567099806671	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	3.0	0.7879831233898309	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	6.0	0.7993581637729491	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	12.0	0.969983769519734	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pATM_au	experiment____model1_data22	24.0	1.15198441564964	log10_scale_patm_au	sd_patm_au	model1_data22_patm_au
+pDNAPK_au	experiment____model1_data22	0.25	-0.032042069100061	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
+pDNAPK_au	experiment____model1_data22	1.0	0.028669219721108	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
+pDNAPK_au	experiment____model1_data22	3.0	0.301870019416368	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
+pDNAPK_au	experiment____model1_data22	6.0	1.0000498408598102	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
+pDNAPK_au	experiment____model1_data22	12.0	1.02028693713353	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
+pDNAPK_au	experiment____model1_data22	24.0	0.969694196449226	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data22_pdnapk_au
+pChk1_au	experiment____model1_data22	0.25	0.048140924768811	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	1.0	0.070653140772903	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	3.0	0.273263084809734	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	6.0	0.6447146488772579	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	12.0	0.565921892862935	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	24.0	0.352055840824057	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	0.25	0.105015369731258	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	1.0	0.0510659968413309	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	3.0	0.2452837392450669	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	6.0	0.547400227428656	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	12.0	0.601349600318583	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk1_au	experiment____model1_data22	24.0	0.428711607070818	log10_scale_pchk1_au	sd_pchk1_au	model1_data22_pchk1_au
+pChk2_au	experiment____model1_data22	0.25	0.169336552120606	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	1.0	1.6659904858801002	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	3.0	2.85450978621852	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	6.0	0.8736442856544849	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	12.0	0.609528885579281	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	24.0	1.13775968572969	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	0.25	0.9628371823198622	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	1.0	2.1762995308685498	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	3.0	1.7602552970804295	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	6.0	1.17085929921392	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	12.0	0.6508040069787691	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+pChk2_au	experiment____model1_data22	24.0	1.13618894639825	log10_scale_pchk2_au	sd_pchk2_au	model1_data22_pchk2_au
+tp53_au	experiment____model1_data22	0.25	-0.050416155802726	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	1.0	0.018595881912041	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	3.0	0.598296998716089	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	6.0	1.12278848534832	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	12.0	2.14416664352688	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	24.0	2.3926099793000497	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	0.25	0.036683033702965	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	1.0	0.076843118354367	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	3.0	0.4248971853331829	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	6.0	0.9335915909176072	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	12.0	1.9509804020864496	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+tp53_au	experiment____model1_data22	24.0	2.9014357388363	log10_scale_tp53_au	sd_tp53_au	model1_data22_tp53_au
+pp53_au	experiment____model1_data22	0.25	0.028119096801954	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	1.0	0.054238252716451	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	3.0	0.263191500032432	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	6.0	0.576621371006403	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	12.0	1.04676617746736	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	24.0	1.9870557903892696	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	0.25	-0.013751283610071	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	1.0	0.180214194480348	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	3.0	0.5681451506611861	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	6.0	0.977627826629848	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	12.0	1.15004158493244	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+pp53_au	experiment____model1_data22	24.0	0.9345243870542	log10_scale_pp53_au	sd_pp53_au	model1_data22_pp53_au
+tp21_au	experiment____model1_data22	0.25	-0.024204977869099	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	1.0	0.033550649766957	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	3.0	0.149061905039068	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	6.0	0.8421294366717359	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	12.0	0.726618181399625	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	24.0	0.7843738090356809	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	0.25	0.061359393904233	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	1.0	0.004615768059854	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	3.0	0.118103019748612	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	6.0	0.836855613777412	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	12.0	0.572052026503643	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+tp21_au	experiment____model1_data22	24.0	1.65018091754684	log10_scale_tp21_au	sd_tp21_au	model1_data22_tp21_au
+pATM_au	experiment____model1_data1	0.25	-0.03403459893681	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	1.0	-0.000445502814711	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	3.0	-0.024209217077964	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	6.0	-0.038947289866232	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	12.0	-0.029121908007387	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	24.0	0.007437652397619	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	0.25	0.014335083098106	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	1.0	0.000752428218495	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	3.0	-0.040203657745106	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	6.0	0.0075437556583	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	12.0	0.0394191796096449	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	24.0	0.097474075466046	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data1	0.25	-0.0413094321419939	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	1.0	-0.030601440200482	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	3.0	0.014568871863345	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	6.0	0.049304335490644	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	12.0	0.008155097564927	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	24.0	-0.00011743257644	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data1	0.25	0.100635850622685	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	1.0	0.030289195188535	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	3.0	-0.087113667447673	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	6.0	-0.100204957884969	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	12.0	-0.060652069504803	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	24.0	-0.090216615614644	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	0.25	0.196885291130008	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	1.0	0.01089215107391	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	3.0	0.044336808384678	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	6.0	0.04516702375842	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	12.0	-0.031647995356479	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	24.0	-0.058371014349668	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data1	0.25	-0.537645370330218	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	1.0	-0.051946914897168	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	3.0	-0.404400801251255	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	6.0	-0.486010371420964	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	12.0	-0.2320963226754989	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	24.0	-0.267170471650972	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	0.25	0.321675987644462	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	1.0	0.339827084304301	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	3.0	0.309936769488875	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	6.0	0.332611978632047	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	12.0	0.338035870097593	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	24.0	0.337182562058794	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data1	0.25	-0.039935701513171	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	1.0	0.007764897719408	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	3.0	-0.014546010790263	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	6.0	-0.013910038906387	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	12.0	-0.053531913818561	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	24.0	-0.05953918594624	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	0.25	0.024967026046863	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	1.0	0.047004816438561	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	3.0	0.020991707025313	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	6.0	0.03270239264281	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	12.0	0.023178967391808	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	24.0	0.024853043709859	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data1	0.25	-0.036577823374182	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	1.0	-0.070949156587366	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	3.0	-0.071747143428759	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	6.0	-0.078062488685597	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	12.0	-0.077034158985147	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	24.0	-0.08029879306273	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	0.25	0.062951949186784	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	1.0	0.066916148827403	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	3.0	0.0675530026578599	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	6.0	0.068887702024682	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	12.0	0.07316860466161	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	24.0	0.075192156765439	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data1	0.25	0.06000916884602	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	1.0	0.042519771913068	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	3.0	-0.063664895005316	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	6.0	-0.067378416496977	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	12.0	-0.068296915541251	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	24.0	0.05171235602026	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	0.25	-0.023359136308322	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	1.0	0.027235740281896	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	3.0	-0.122996074328027	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	6.0	-0.035786601907454	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	12.0	0.050015180133613	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	24.0	0.1499898223924899	log10_scale_tp21_au	sd_tp21_au	
+pATM_au	experiment____model1_data16	0.25	0.048670768789924	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	1.0	0.43336319980825	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	3.0	0.532243290521358	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	6.0	0.437525809661706	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	12.0	0.573963114058959	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	24.0	0.916376156902932	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	0.25	0.078070223317652	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	1.0	0.3798106409243321	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	3.0	0.529815540409557	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	6.0	0.3835629391556071	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	12.0	0.7752166522456669	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pATM_au	experiment____model1_data16	24.0	1.05265898405268	log10_scale_patm_au	sd_patm_au	model1_data24_SN38_pATM
+pDNAPK_au	experiment____model1_data16	0.25	-0.023060941882972	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+pDNAPK_au	experiment____model1_data16	1.0	0.020092852413494	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+pDNAPK_au	experiment____model1_data16	3.0	0.06654203830865	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+pDNAPK_au	experiment____model1_data16	6.0	0.086365456144508	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+pDNAPK_au	experiment____model1_data16	12.0	0.0702932410263049	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+pDNAPK_au	experiment____model1_data16	24.0	-0.049542896390269	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data24_SN38_pDNAPK
+pChk1_au	experiment____model1_data16	0.25	0.253502111164832	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	1.0	0.279995468423617	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	3.0	0.371878073254277	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	6.0	0.478626265937212	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	12.0	0.272752275706533	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	24.0	0.35661161848132	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	0.25	0.292195985329333	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	1.0	0.16720697353352	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	3.0	0.392004876168729	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	6.0	0.368306441420125	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	12.0	0.38256236934607	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk1_au	experiment____model1_data16	24.0	0.464898263829725	log10_scale_pchk1_au	sd_pchk1_au	model1_data24_SN38_pChk1
+pChk2_au	experiment____model1_data16	0.25	-0.572897754298846	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	1.0	1.70686980845667	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	3.0	0.336201903455434	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	6.0	0.136880268936349	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	12.0	0.183052094417604	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	24.0	0.691949656963287	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	0.25	0.335296811733371	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	1.0	0.3467530934313089	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	3.0	0.503521077149735	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	6.0	0.7217886847794001	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	12.0	0.7686970829791769	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+pChk2_au	experiment____model1_data16	24.0	0.780473521257488	log10_scale_pchk2_au	sd_pchk2_au	model1_data24_SN38_pChk2
+tp53_au	experiment____model1_data16	0.25	-0.035588696287005	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	1.0	0.052167575529992	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	3.0	0.307323474705694	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	6.0	0.297948093982352	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	12.0	0.316937108625936	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	24.0	0.2465872117112989	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	0.25	0.0830681882897359	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	1.0	0.08102675939066	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	3.0	0.18421306181948	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	6.0	0.239778421559446	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	12.0	0.215978861529109	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+tp53_au	experiment____model1_data16	24.0	0.310403937212639	log10_scale_tp53_au	sd_tp53_au	model1_data24_SN38_tp53
+pp53_au	experiment____model1_data16	0.25	-0.057193723447	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	1.0	0.029046854782354	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	3.0	0.1644653204999	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	6.0	0.251449486786967	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	12.0	0.296336850161547	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	24.0	0.415894164106891	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	0.25	0.062951949186784	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	1.0	0.066749646393709	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	3.0	0.088530860981738	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	6.0	0.20999772152016	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	12.0	0.31798881121648	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+pp53_au	experiment____model1_data16	24.0	0.324114331498765	log10_scale_pp53_au	sd_pp53_au	model1_data24_SN38_pp53
+tp21_au	experiment____model1_data16	0.25	0.109091177489767	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	1.0	-0.048371103429704	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	3.0	-0.027562980701067	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	6.0	0.048481295878497	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	12.0	-0.071118428482911	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	24.0	0.488020765781624	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	0.25	0.048596877609146	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	1.0	-0.047213687086785	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	3.0	-0.039513121564495	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	6.0	0.130577381846939	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	12.0	0.170180163892873	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+tp21_au	experiment____model1_data16	24.0	0.994173150185197	log10_scale_tp21_au	sd_tp21_au	model1_data24_SN38_tp21
+pATM_au	experiment____model1_data25	0.25	0.252186329873008	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	1.0	0.7370432849303159	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	3.0	0.7157807095906741	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	6.0	0.5942830971024039	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	12.0	0.7370152151853292	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	24.0	1.05211817843532	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	0.25	0.2064623837370589	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	1.0	0.6360415419669521	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	3.0	0.7375438926831109	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	6.0	0.6650844883615961	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	12.0	0.806483896394146	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pATM_au	experiment____model1_data25	24.0	1.08914007815238	log10_scale_patm_au	sd_patm_au	model1_data25_pATM
+pDNAPK_au	experiment____model1_data25	0.25	-0.037261677169621	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
+pDNAPK_au	experiment____model1_data25	1.0	0.1703610691760889	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
+pDNAPK_au	experiment____model1_data25	3.0	0.262206431348769	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
+pDNAPK_au	experiment____model1_data25	6.0	0.196792075477296	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
+pDNAPK_au	experiment____model1_data25	12.0	0.208550556246243	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
+pDNAPK_au	experiment____model1_data25	24.0	0.125884299223642	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data25_pDNAPK
+pChk1_au	experiment____model1_data25	0.25	0.51522607381689	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	1.0	0.498873142429549	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	3.0	0.5645208288095971	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	6.0	0.541848937730547	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	12.0	0.416316735426709	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	24.0	0.65006524745685	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	0.25	0.304359375238259	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	1.0	0.374299707715944	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	3.0	0.7059098209889141	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	6.0	0.518482768947324	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	12.0	0.541186233391281	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk1_au	experiment____model1_data25	24.0	0.7739856152437109	log10_scale_pchk1_au	sd_pchk1_au	model1_data25_pChk1
+pChk2_au	experiment____model1_data25	0.25	0.352957866070027	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	1.0	2.5015650797020803	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	3.0	0.425324450483435	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	6.0	0.218109347340145	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	12.0	0.454557542134036	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	24.0	0.941155179792728	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	0.25	0.344197008298603	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	1.0	0.416593277432184	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	3.0	0.8963695283995201	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	6.0	0.830022205688148	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	12.0	0.7323351914779229	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+pChk2_au	experiment____model1_data25	24.0	0.6733225418306661	log10_scale_pchk2_au	sd_pchk2_au	model1_data25_pChk2
+tp53_au	experiment____model1_data25	0.25	-0.017821062439671	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	1.0	0.222691048423143	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	3.0	0.536984163282754	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	6.0	0.703960556684096	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	12.0	0.7826808025492209	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	24.0	0.712620847319896	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	0.25	0.1338839121302009	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	1.0	0.119461523959274	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	3.0	0.3185438881254749	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	6.0	0.8028722980706221	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	12.0	0.8306321598990871	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+tp53_au	experiment____model1_data25	24.0	1.14537593357056	log10_scale_tp53_au	sd_tp53_au	model1_data25_tp53
+pp53_au	experiment____model1_data25	0.25	-0.03439669809115	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	1.0	0.172604929604431	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	3.0	0.420180062094432	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	6.0	0.722094481983362	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	12.0	0.901022271723585	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	24.0	1.05787700652468	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	0.25	0.062951949186784	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	1.0	0.075489072732356	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	3.0	0.268386139046221	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	6.0	0.682835071087545	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	12.0	1.03615142821375	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+pp53_au	experiment____model1_data25	24.0	1.0018123212351602	log10_scale_pp53_au	sd_pp53_au	model1_data25_pp53
+tp21_au	experiment____model1_data25	0.25	0.141762778222075	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	1.0	-0.092083908906166	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	3.0	-0.02935245392799	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	6.0	0.388298294002166	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	12.0	0.574306605128373	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	24.0	1.90766534055809	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	0.25	0.075438730122284	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	1.0	-0.049258652460966	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	3.0	-0.202509823108904	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	6.0	0.51037181050073	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	12.0	0.6615549802497739	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+tp21_au	experiment____model1_data25	24.0	1.53911396406928	log10_scale_tp21_au	sd_tp21_au	model1_data25_tp21
+pATM_au	experiment____model1_data26	0.25	0.443892425181526	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	1.0	0.9132779043890608	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	3.0	0.977874862567718	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	6.0	0.7905047322657199	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	12.0	0.7022165368673399	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	24.0	0.961093081790654	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	0.25	0.3619626117883729	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	1.0	0.70293075648186	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	3.0	0.8885080781229631	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	6.0	0.802834922732991	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	12.0	0.7992575899086981	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pATM_au	experiment____model1_data26	24.0	0.68540174885701	log10_scale_patm_au	sd_patm_au	model1_data26_pATM
+pDNAPK_au	experiment____model1_data26	0.25	-0.019289592614658	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
+pDNAPK_au	experiment____model1_data26	1.0	0.480984126214608	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
+pDNAPK_au	experiment____model1_data26	3.0	0.7569460257421871	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
+pDNAPK_au	experiment____model1_data26	6.0	0.563406663073244	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
+pDNAPK_au	experiment____model1_data26	12.0	0.326967306608166	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
+pDNAPK_au	experiment____model1_data26	24.0	0.134498418325674	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data26_pDNAPK
+pChk1_au	experiment____model1_data26	0.25	0.791125201366447	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	1.0	0.754672729001364	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	3.0	0.464431355565502	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	6.0	0.3923428017084079	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	12.0	0.267233567738683	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	24.0	0.330116178050867	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	0.25	0.49290373375528	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	1.0	0.4488350621738421	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	3.0	0.496336462127755	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	6.0	0.330554940570882	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	12.0	0.251440497205653	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk1_au	experiment____model1_data26	24.0	0.4801449564289729	log10_scale_pchk1_au	sd_pchk1_au	model1_data26_pChk1
+pChk2_au	experiment____model1_data26	0.25	0.8342893897006741	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	1.0	3.37851621350712	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	3.0	1.6339892534591898	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	6.0	0.927421902682346	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	12.0	0.268892987199665	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	24.0	0.8129397025036178	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	0.25	0.334957735102102	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	1.0	0.517442685763675	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	3.0	0.977584193510245	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	6.0	0.7212153354662679	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	12.0	0.6836275193435429	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+pChk2_au	experiment____model1_data26	24.0	0.689037001640383	log10_scale_pchk2_au	sd_pchk2_au	model1_data26_pChk2
+tp53_au	experiment____model1_data26	0.25	-0.026739836639262	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	1.0	0.3145079705094461	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	3.0	0.7966405187413002	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	6.0	1.16054837005018	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	12.0	1.4760894181577802	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	24.0	0.815669266111789	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	0.25	0.179430648283297	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	1.0	0.184822593413104	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	3.0	0.3955988331370151	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	6.0	0.989943876566508	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	12.0	1.08674716402674	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+tp53_au	experiment____model1_data26	24.0	1.01402886351974	log10_scale_tp53_au	sd_tp53_au	model1_data26_tp53
+pp53_au	experiment____model1_data26	0.25	0.017467444650345	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	1.0	0.251985507495114	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	3.0	0.5794646230346391	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	6.0	1.25650519474683	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	12.0	1.54256584874057	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	24.0	1.15445133599341	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	0.25	0.066467552397449	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	1.0	0.078602296616614	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	3.0	0.320953153673415	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	6.0	0.7260477916123159	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	12.0	1.309957769676	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+pp53_au	experiment____model1_data26	24.0	1.61249396777105	log10_scale_pp53_au	sd_pp53_au	model1_data26_pp53
+tp21_au	experiment____model1_data26	0.25	0.176537522921851	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	1.0	-0.035799155662604	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	3.0	0.001414635798936	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	6.0	0.722172842979736	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	12.0	1.94254555984314	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	24.0	3.23186049086252	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	0.25	0.051775503619309	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	1.0	-0.056265378483727	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	3.0	-0.170884847449712	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	6.0	0.725238710919614	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	12.0	1.6937273800126398	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+tp21_au	experiment____model1_data26	24.0	3.30256827478608	log10_scale_tp21_au	sd_tp21_au	model1_data26_tp21
+pATM_au	experiment____model1_data1	0.25	-0.002657931657479	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	1.0	-0.00607131692267	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	3.0	-0.015052269083084	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	6.0	-0.003980487495651	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	12.0	0.002313419416308	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	24.0	-0.001421389033312	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	0.25	0.013097623489506	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	1.0	-0.039234271496718	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	3.0	-0.00206369557533	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	6.0	0.000948017395909	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	12.0	0.019022272363452	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data1	24.0	0.035100028599068	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data1	0.25	-0.025895483651145	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	1.0	-0.017544001656501	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	3.0	-0.0293616694733679	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	6.0	-0.05194172836902	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	12.0	0.146628557176334	log10_scale_pdnapk_au	sd_pdnapk_au	
+pDNAPK_au	experiment____model1_data1	24.0	-0.0218856740263	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data1	0.25	0.061779490388122	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	1.0	-0.000137920833419	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	3.0	-0.042664035762982	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	6.0	0.00626031580995	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	12.0	-0.019174117375484	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	24.0	-0.027628465298405	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	0.25	0.1755205925761969	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	1.0	-0.100434596459176	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	3.0	-0.005069693529343	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	6.0	-0.00597936803403	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	12.0	-0.01529964934538	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data1	24.0	-0.02717255213605	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data1	0.25	-0.097270480620447	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	1.0	0.1697306950785199	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	3.0	0.004884554207949	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	6.0	-0.0065404203418809	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	12.0	-0.070722647267823	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	24.0	0.002862554572475	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	0.25	0.019866744510172	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	1.0	-0.053852939502518	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	3.0	-0.004419833514246	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	6.0	0.008048128170275	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	12.0	0.013669626417371	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data1	24.0	0.013744018290152	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data1	0.25	0.002227924851168	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	1.0	-2.56047173549566e-05	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	3.0	0.0014070926678979	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	6.0	0.001940894051519	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	12.0	0.002894328766623	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	24.0	0.000683504107798	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	0.25	-0.003648446174959	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	1.0	-0.015575245895568	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	3.0	0.000615423237909	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	6.0	0.004501214053386	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	12.0	0.005409375097113	log10_scale_tp53_au	sd_tp53_au	
+tp53_au	experiment____model1_data1	24.0	-0.0004304600455319	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data1	0.25	-0.000644601459312	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	1.0	0.0013893477280559	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	3.0	0.000491786727302	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	6.0	-0.001131367278634	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	12.0	-0.001270379587085	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	24.0	0.000242662282838	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	0.25	-0.000437405470618	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	1.0	-0.002293366597498	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	3.0	0.000991518068866	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	6.0	0.000385034434618	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	12.0	0.001419556417916	log10_scale_pp53_au	sd_pp53_au	
+pp53_au	experiment____model1_data1	24.0	0.000857214733551	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data1	0.25	-0.00674596469318	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	1.0	-0.002692881917966	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	3.0	0.040477189012098	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	6.0	-0.102821368082776	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	12.0	-0.067067722752554	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	24.0	-0.044651694582552	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	0.25	0.025095043217489	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	1.0	0.037617516499327	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	3.0	0.032012110372488	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	6.0	0.031390683839785	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	12.0	0.030765395647363	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data1	24.0	0.026621693440478	log10_scale_tp21_au	sd_tp21_au	
+pATM_au	experiment____model1_data4	0.25	-0.005816564638708	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	1.0	-0.009706014627184	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	3.0	0.024027381271832	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	6.0	0.076930361276099	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	12.0	0.15803948198366	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	24.0	0.295332403695463	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	0.25	0.018330813009346	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	1.0	0.001279450866142	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	3.0	0.022908769049699	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	6.0	0.05750365912017	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	12.0	0.2253383924702769	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pATM_au	experiment____model1_data4	24.0	0.3703737383493049	log10_scale_patm_au	sd_patm_au	model1_data28_patm_au
+pDNAPK_au	experiment____model1_data4	0.25	-0.05194172836902	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
+pDNAPK_au	experiment____model1_data4	1.0	0.021911894495117	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
+pDNAPK_au	experiment____model1_data4	3.0	-0.01799520155958	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
+pDNAPK_au	experiment____model1_data4	6.0	-0.05194172836902	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
+pDNAPK_au	experiment____model1_data4	12.0	-0.05194172836902	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
+pDNAPK_au	experiment____model1_data4	24.0	0.3624329380647299	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data28_pdnapk_au
+pChk1_au	experiment____model1_data4	0.25	0.034527087908237	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	1.0	0.020564607644433	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	3.0	0.5287559450939899	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	6.0	0.982983234652664	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	12.0	-0.1420686828522769	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	24.0	0.610725490559653	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	0.25	0.184860614364176	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	1.0	0.051227400938557	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	3.0	0.4016616954255779	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	6.0	0.979849186316897	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	12.0	0.72240975467751	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk1_au	experiment____model1_data4	24.0	0.6147276017095781	log10_scale_pchk1_au	sd_pchk1_au	model1_data28_pchk1_au
+pChk2_au	experiment____model1_data4	0.25	-0.086857704113185	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	1.0	0.15612122275188	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	3.0	0.003026745330572	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	6.0	0.069293002048194	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	12.0	0.0538801754561959	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	24.0	0.3789581234219349	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	0.25	0.0050799474313409	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	1.0	0.009743349821105	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	3.0	0.018120041024758	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	6.0	0.074546613690839	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	12.0	0.249064339255222	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+pChk2_au	experiment____model1_data4	24.0	0.315799161433157	log10_scale_pchk2_au	sd_pchk2_au	model1_data28_pchk2_au
+tp53_au	experiment____model1_data4	0.25	-0.00095997674799	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	1.0	0.000970671061944	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	3.0	0.010517243657012	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	6.0	0.025224369782316	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	12.0	-0.002114011496965	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	24.0	0.108172762484574	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	0.25	-0.000167862599107	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	1.0	0.002208845778419	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	3.0	0.008071666550122	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	6.0	0.030304173911174	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	12.0	0.093535744673766	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+tp53_au	experiment____model1_data4	24.0	0.128118595661865	log10_scale_tp53_au	sd_tp53_au	model1_data28_tp53_au
+pp53_au	experiment____model1_data4	0.25	-0.003291427830644	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	1.0	0.000561186999091	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	3.0	0.007116624234624	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	6.0	0.016882407580088	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	12.0	0.05355853865629	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	24.0	0.101466204359131	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	0.25	0.0008826096621519	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	1.0	-0.001254782579086	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	3.0	0.0048895054269739	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	6.0	0.025971677977446	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	12.0	0.085690484165118	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+pp53_au	experiment____model1_data4	24.0	0.118719320560306	log10_scale_pp53_au	sd_pp53_au	model1_data28_pp53_au
+tp21_au	experiment____model1_data4	0.25	0.0125046635020719	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	1.0	0.085922025542018	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	3.0	0.0467694023653609	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	6.0	0.101980121083216	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	12.0	0.124719925821853	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	24.0	0.086338923616258	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	0.25	0.027988166356151	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	1.0	0.030761668809774	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	3.0	0.030567001328772	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	6.0	0.029916460320805	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	12.0	0.031762634114252	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+tp21_au	experiment____model1_data4	24.0	0.029419868663297	log10_scale_tp21_au	sd_tp21_au	model1_data28_tp21_au
+pATM_au	experiment____model1_data29	0.25	-0.004224301625629	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	1.0	-0.007105550543273	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	3.0	0.037782499002826	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	6.0	0.158557910130107	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	12.0	0.2460916680742589	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	24.0	0.3639525775856111	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	0.25	0.01401763854453	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	1.0	0.006857706693577	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	3.0	0.029795618021173	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	6.0	0.113215847858345	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	12.0	0.26581115128726	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pATM_au	experiment____model1_data29	24.0	0.3748393151440701	log10_scale_patm_au	sd_patm_au	model1_data29_patm_au
+pDNAPK_au	experiment____model1_data29	0.25	0.036382341808472	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
+pDNAPK_au	experiment____model1_data29	1.0	0.043222346867921	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
+pDNAPK_au	experiment____model1_data29	3.0	-0.05194172836902	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
+pDNAPK_au	experiment____model1_data29	6.0	-0.05194172836902	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
+pDNAPK_au	experiment____model1_data29	12.0	0.2448548309219649	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
+pDNAPK_au	experiment____model1_data29	24.0	0.318656045049883	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data29_pdnapk_au
+pChk1_au	experiment____model1_data29	0.25	0.007047353058427	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	1.0	0.194628337927643	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	3.0	0.874348149496012	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	6.0	1.3379861226966	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	12.0	0.880459413189685	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	24.0	0.879757052775754	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	0.25	0.087807959806355	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	1.0	0.107706046468037	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	3.0	0.677153315486491	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	6.0	1.24409323076035	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	12.0	0.752352780841285	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk1_au	experiment____model1_data29	24.0	0.555504489782729	log10_scale_pchk1_au	sd_pchk1_au	model1_data29_pchk1_au
+pChk2_au	experiment____model1_data29	0.25	-0.037375053471222	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	1.0	0.114317045944181	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	3.0	-0.024895067299436	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	6.0	0.092200202833653	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	12.0	0.201931260542695	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	24.0	0.569227164498776	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	0.25	0.003624918587818	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	1.0	0.016445280901656	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	3.0	0.0318688215462	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	6.0	0.203063117796448	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	12.0	0.309348423467411	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+pChk2_au	experiment____model1_data29	24.0	0.329606382722348	log10_scale_pchk2_au	sd_pchk2_au	model1_data29_pchk2_au
+tp53_au	experiment____model1_data29	0.25	-0.00044386888729	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	1.0	0.003036097251007	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	3.0	0.013502750130443	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	6.0	0.051690825293079	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	12.0	0.117116342093698	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	24.0	0.166233010824608	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	0.25	0.0016595551952779	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	1.0	0.00392106180168	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	3.0	0.010007320689237	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	6.0	0.055156968876123	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	12.0	0.125043866861932	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+tp53_au	experiment____model1_data29	24.0	0.132130138007696	log10_scale_tp53_au	sd_tp53_au	model1_data29_tp53_au
+pp53_au	experiment____model1_data29	0.25	-0.003618148735026	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	1.0	0.002331126517924	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	3.0	0.011507936544525	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	6.0	0.046919666777927	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	12.0	0.097348105612471	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	24.0	0.125269952901739	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	0.25	0.000944707760115	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	1.0	0.000243176687839	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	3.0	0.008979495967168	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	6.0	0.046745495040069	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	12.0	0.135683299447238	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+pp53_au	experiment____model1_data29	24.0	0.124981796978719	log10_scale_pp53_au	sd_pp53_au	model1_data29_pp53_au
+tp21_au	experiment____model1_data29	0.25	0.018900340685974	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	1.0	0.023841470456964	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	3.0	0.027223544812293	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	6.0	0.08866143219108	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	12.0	0.093386339486748	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	24.0	-0.209333293647062	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	0.25	0.031247907989519	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	1.0	0.029935675719447	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	3.0	0.028951101760457	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	6.0	0.029930220512286	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	12.0	0.032171910970014	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+tp21_au	experiment____model1_data29	24.0	0.03033434615705	log10_scale_tp21_au	sd_tp21_au	model1_data29_tp21_au
+pATM_au	experiment____model1_data30	0.25	-0.003412433476364	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	1.0	0.024452087226672	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	3.0	0.110699884150965	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	6.0	0.228989688837941	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	12.0	0.322766170922817	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	24.0	0.433697124711812	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	0.25	0.00704411526185	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	1.0	0.0234724474653	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	3.0	0.061258303094615	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	6.0	0.154990222884974	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	12.0	0.276781528972778	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pATM_au	experiment____model1_data30	24.0	0.373495693610105	log10_scale_patm_au	sd_patm_au	model1_data30_patm_au
+pDNAPK_au	experiment____model1_data30	0.25	0.037491685196406	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
+pDNAPK_au	experiment____model1_data30	1.0	0.027759159953334	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
+pDNAPK_au	experiment____model1_data30	3.0	-0.05194172836902	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
+pDNAPK_au	experiment____model1_data30	6.0	-0.031936764405906	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
+pDNAPK_au	experiment____model1_data30	12.0	0.364053939490198	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
+pDNAPK_au	experiment____model1_data30	24.0	0.6134230540862691	log10_scale_pdnapk_au	sd_pdnapk_au	model1_data30_pdnapk_au
+pChk1_au	experiment____model1_data30	0.25	-0.028026041810982	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	1.0	0.675546106464469	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	3.0	1.05190375230824	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	6.0	0.950749169246664	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	12.0	0.8698755415744929	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	24.0	0.8743219412760909	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	0.25	0.072939331703762	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	1.0	0.677127288382006	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	3.0	1.07611940070691	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	6.0	1.08878681019508	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	12.0	0.546391490813211	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk1_au	experiment____model1_data30	24.0	0.720236707940598	log10_scale_pchk1_au	sd_pchk1_au	model1_data30_pchk1_au
+pChk2_au	experiment____model1_data30	0.25	-0.060478822456719	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	1.0	0.111314849185893	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	3.0	0.097547695275826	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	6.0	0.36055551123765	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	12.0	0.155398986654401	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	24.0	0.411854585600085	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	0.25	0.019665272993989	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	1.0	0.019158827977197	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	3.0	0.085892822248238	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	6.0	0.279063935783539	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	12.0	0.251632593284994	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+pChk2_au	experiment____model1_data30	24.0	0.350184581604226	log10_scale_pchk2_au	sd_pchk2_au	model1_data30_pchk2_au
+tp53_au	experiment____model1_data30	0.25	0.000549524429183	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	1.0	0.008005043456064	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	3.0	0.027932845420516	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	6.0	0.092327211255672	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	12.0	0.141394642011169	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	24.0	0.164181383573988	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	0.25	0.0014600375657	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	1.0	0.007932128120662	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	3.0	0.025383609393659	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	6.0	0.084456750999137	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	12.0	0.126569696477265	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+tp53_au	experiment____model1_data30	24.0	0.109800849358355	log10_scale_tp53_au	sd_tp53_au	model1_data30_tp53_au
+pp53_au	experiment____model1_data30	0.25	-0.002032051436239	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	1.0	0.0068996286838	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	3.0	0.023982413792899	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	6.0	0.097878352069286	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	12.0	0.155051694932591	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	24.0	0.149486325078995	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	0.25	-0.001291480098737	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	1.0	0.004483311051864	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	3.0	0.022233513488223	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	6.0	0.077068440987005	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	12.0	0.114909912804345	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+pp53_au	experiment____model1_data30	24.0	0.115592948531587	log10_scale_pp53_au	sd_pp53_au	model1_data30_pp53_au
+tp21_au	experiment____model1_data30	0.25	0.001268784751419	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	1.0	0.079614606520727	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	3.0	0.113281851252209	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	6.0	0.154392658243814	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	12.0	0.110880567462151	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	24.0	-0.052272164716385	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	0.25	0.029692125791528	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	1.0	0.028517615567213	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	3.0	0.028470902227612	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	6.0	0.030647498774003	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	12.0	0.030560546262898	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+tp21_au	experiment____model1_data30	24.0	0.030200656387843	log10_scale_tp21_au	sd_tp21_au	model1_data30_tp21_au
+pATM_au	experiment____model1_data1	6.0	-0.0069999999999999	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data1	6.0	-0.0139199999999999	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data1	6.0	0.010588235294118	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data1	6.0	0.0148	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data1	6.0	0.009	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data1	6.0	-0.019925925925926	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data32	6.0	0.040448025	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data32	6.0	0.008703568	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data32	6.0	0.05518175	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data32	6.0	0.012982487	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data32	6.0	-0.00465469	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data32	6.0	0.01537557	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data32	6.0	0.015896	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data33	6.0	0.031	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data33	6.0	-0.03312	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data33	6.0	0.016588235294118	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data33	6.0	0.054	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data33	6.0	0.028	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data33	6.0	0.016296296296296	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data34	6.0	0.16761225	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data34	6.0	0.017674192	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data34	6.0	0.2025569	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data34	6.0	0.027523922	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data34	6.0	0.00771569	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data34	6.0	0.01465164	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data34	6.0	0.013624508	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data35	6.0	0.339383825	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data35	6.0	0.020934352	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data35	6.0	0.38825135	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data35	6.0	0.055542731	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data35	6.0	0.032884845	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data35	6.0	0.04721103	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data35	6.0	0.076855428	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data36	6.0	0.088	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data36	6.0	0.0024	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data36	6.0	0.022941176470588	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data36	6.0	0.1345	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data36	6.0	0.027	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data36	6.0	0.0233333333333329	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data37	6.0	0.418327125	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data37	6.0	0.06116976	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data37	6.0	0.67293605	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data37	6.0	0.18990311	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data37	6.0	0.120775175	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data37	6.0	0.26195241	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data37	6.0	0.168854828	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data38	6.0	0.341	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data38	6.0	-0.01872	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data38	6.0	0.056823529411765	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data38	6.0	0.4747	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data38	6.0	0.1355	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data38	6.0	0.049259259259259	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data39	6.0	0.598719875	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data39	6.0	0.122591488	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data39	6.0	1.01598785	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data39	6.0	0.415412726	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data39	6.0	0.26625881	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data39	6.0	0.42143853	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data39	6.0	0.389169648	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data40	6.0	0.6463561	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data40	6.0	0.215906336	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data40	6.0	1.0428872	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data40	6.0	0.6856818440000001	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data40	6.0	0.51336017	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data40	6.0	0.68789274	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data40	6.0	0.725268708	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data41	6.0	0.693	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data41	6.0	0.12	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data41	6.0	0.205294117647059	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data41	6.0	0.985	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data41	6.0	0.505	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data41	6.0	0.284814814814815	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data21	6.0	0.7425440999999999	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data21	6.0	0.46421104	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data21	6.0	0.8753984	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data21	6.0	0.8868795979999999	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data21	6.0	0.6892087	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data21	6.0	1.00330479	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data21	6.0	0.834909756	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data22	6.0	0.784763925	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data22	6.0	0.88	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data22	6.0	1.016	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data22	6.0	0.671972688	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data22	6.0	0.5723529411764711	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data22	6.0	0.83442425	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data22	6.0	1.069	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data22	6.0	1.02166322	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data22	6.0	0.806212015	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data22	6.0	0.76171155	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data22	6.0	1.005	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data22	6.0	0.884276884	log10_scale_yh2ax_au	sd_yh2ax_au	
+yH2AX_au	experiment____model1_data22	6.0	0.75	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data44	6.0	0.93	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data44	6.0	0.938235294117647	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data44	6.0	0.922	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data44	6.0	0.3315	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data44	6.0	0.9648148148148148	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data1	6.0	-0.005	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data1	6.0	-0.0548	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data1	6.0	0.021882352941177	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data1	6.0	0.0491	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data1	6.0	0.025	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data1	6.0	-0.013851851851852	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data46	6.0	0.02675	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data46	6.0	-0.027471856	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data46	6.0	0.0129875	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data46	6.0	0.003012206	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data46	6.0	-0.02089102	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data46	6.0	-0.07241313	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data46	6.0	-0.022838364	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data47	6.0	0.404	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data47	6.0	0.2408	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data47	6.0	0.337058823529412	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data47	6.0	0.3802	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data47	6.0	0.0555	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data47	6.0	0.036666666666667	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data48	6.0	0.4525	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data48	6.0	0.266457808	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data48	6.0	0.2172218	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data48	6.0	0.190871474	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data48	6.0	0.14698482	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data48	6.0	-0.01528473	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data48	6.0	0.094847636	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data49	6.0	0.56	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data49	6.0	0.282672144	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data49	6.0	0.30758105	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data49	6.0	0.351701177	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data49	6.0	0.194914295	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data49	6.0	0.09118557	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data49	6.0	0.119106756	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data50	6.0	0.56	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data50	6.0	0.6176	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data50	6.0	0.394705882352941	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data50	6.0	0.5797	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data50	6.0	0.0825	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data50	6.0	0.106666666666667	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data51	6.0	0.5775	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data51	6.0	0.3896693120000001	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data51	6.0	0.41381195	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data51	6.0	0.458842307	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data51	6.0	0.40649308	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data51	6.0	0.16595502	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data51	6.0	0.188245912	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data52	6.0	0.619	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data52	6.0	0.76	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data52	6.0	0.395882352941176	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data52	6.0	0.607	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data52	6.0	0.2255	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data52	6.0	0.211111111111111	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data53	6.0	0.5775	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data53	6.0	0.378973008	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data53	6.0	0.6414758	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data53	6.0	0.649629437	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data53	6.0	0.54960407	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data53	6.0	0.34004472	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data53	6.0	0.272608784	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data54	6.0	0.64	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data54	6.0	0.376375904	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data54	6.0	0.6721024999999999	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data54	6.0	0.57813827	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data54	6.0	0.656159805	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data54	6.0	0.67659675	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data54	6.0	0.185201468	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data55	6.0	0.632	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data55	6.0	0.5296	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data55	6.0	0.277058823529412	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data55	6.0	0.593	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data55	6.0	0.64	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data55	6.0	0.372222222222222	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data25	6.0	0.7043754	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data25	6.0	0.35377896	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data25	6.0	0.79788305	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data25	6.0	0.94052156	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data25	6.0	0.858353335	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data25	6.0	0.76538799	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data25	6.0	0.361340624	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data26	6.0	0.795775775	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data26	6.0	0.654	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data26	6.0	0.2448	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data26	6.0	0.282170576	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data26	6.0	0.241764705882353	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data26	6.0	0.8236625	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data26	6.0	0.705	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data26	6.0	0.986115425	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data26	6.0	1.007687575	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data26	6.0	0.88273374	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data26	6.0	0.645	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data26	6.0	0.600477168	log10_scale_yh2ax_au	sd_yh2ax_au	
+yH2AX_au	experiment____model1_data26	6.0	0.461111111111111	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data58	6.0	0.706	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data58	6.0	0.3464	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data58	6.0	0.220588235294118	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data58	6.0	0.873	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data58	6.0	0.64	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data58	6.0	0.572222222222222	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data1	6.0	-0.008	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data1	6.0	-0.04	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data1	6.0	0.018941176470588	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data1	6.0	0.0358	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data1	6.0	0.0305	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data1	6.0	-0.00962962962963	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data60	6.0	0.007693525	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data60	6.0	-0.001664016	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data60	6.0	0.08614895	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data60	6.0	0.031444592	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data60	6.0	-0.00740359	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data60	6.0	0.00687228	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data60	6.0	0.0539465159999999	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data61	6.0	-0.013	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data61	6.0	0.072	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data61	6.0	0.178235294117647	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data61	6.0	0.0022	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data61	6.0	0.016	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data61	6.0	0.004444444444444	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data62	6.0	0.022673175	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data62	6.0	0.07666104	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data62	6.0	0.0765695	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data62	6.0	0.025724462	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data62	6.0	-0.008032295	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data62	6.0	-0.02306352	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data62	6.0	0.0249684	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data63	6.0	0.03552575	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data63	6.0	0.240907184	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data63	6.0	0.10153205	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data63	6.0	0.02428925	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data63	6.0	0.002783895	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data63	6.0	-0.04464885	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data63	6.0	0.063230336	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data64	6.0	0.077	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data64	6.0	-0.12	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data64	6.0	0.554705882352941	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data64	6.0	0.0617	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data64	6.0	0.0085	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data64	6.0	0.037777777777778	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data65	6.0	0.0994097	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data65	6.0	0.533046128	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data65	6.0	0.1372303999999999	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data65	6.0	0.046266089	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data65	6.0	0.02659521	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data65	6.0	-0.04985436	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data65	6.0	0.10792968	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data66	6.0	0.254	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data66	6.0	0.4320000000000001	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data66	6.0	0.862941176470588	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data66	6.0	0.2577	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data66	6.0	0.014	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data66	6.0	0.158148148148148	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data67	6.0	0.176717975	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data67	6.0	0.791705152	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data67	6.0	0.04926005	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data67	6.0	0.087053666	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data67	6.0	0.02556649	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data67	6.0	-0.03537033	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data67	6.0	0.142003584	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data68	6.0	0.242684475	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data68	6.0	0.733533584	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data68	6.0	0.1663436	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data68	6.0	0.131877545	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data68	6.0	0.071762585	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data68	6.0	-0.05270667	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data68	6.0	0.171589516	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data69	6.0	0.324	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data69	6.0	0.952	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data69	6.0	0.7335294117647059	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data69	6.0	0.3669	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data69	6.0	-0.0085	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data69	6.0	0.200740740740741	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data29	6.0	0.337377525	log10_scale_patm_au	sd_patm_au	
+pChk1_au	experiment____model1_data29	6.0	0.68362152	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data29	6.0	0.3171182	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data29	6.0	0.164815124	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data29	6.0	0.13039726	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data29	6.0	-0.07637415	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data29	6.0	0.188634812	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data30	6.0	0.31673635	log10_scale_patm_au	sd_patm_au	
+pATM_au	experiment____model1_data30	6.0	0.308	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data30	6.0	0.7440000000000001	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data30	6.0	0.614477184	log10_scale_pchk1_au	sd_pchk1_au	
+pChk1_au	experiment____model1_data30	6.0	0.6994117647058821	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data30	6.0	0.285248	log10_scale_pchk2_au	sd_pchk2_au	
+pChk2_au	experiment____model1_data30	6.0	0.3935	log10_scale_pchk2_au	sd_pchk2_au	
+tp53_au	experiment____model1_data30	6.0	0.189162572	log10_scale_tp53_au	sd_tp53_au	
+pp53_au	experiment____model1_data30	6.0	0.144083735	log10_scale_pp53_au	sd_pp53_au	
+tp21_au	experiment____model1_data30	6.0	-0.12703578	log10_scale_tp21_au	sd_tp21_au	
+tp21_au	experiment____model1_data30	6.0	-0.0085	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data30	6.0	0.248893428	log10_scale_yh2ax_au	sd_yh2ax_au	
+yH2AX_au	experiment____model1_data30	6.0	0.18962962962963	log10_scale_yh2ax_au	sd_yh2ax_au	
+pATM_au	experiment____model1_data72	6.0	0.307	log10_scale_patm_au	sd_patm_au	
+pDNAPK_au	experiment____model1_data72	6.0	1.0	log10_scale_pdnapk_au	sd_pdnapk_au	
+pChk1_au	experiment____model1_data72	6.0	0.607647058823529	log10_scale_pchk1_au	sd_pchk1_au	
+pChk2_au	experiment____model1_data72	6.0	0.3186	log10_scale_pchk2_au	sd_pchk2_au	
+tp21_au	experiment____model1_data72	6.0	-0.0235	log10_scale_tp21_au	sd_tp21_au	
+yH2AX_au	experiment____model1_data72	6.0	0.157037037037037	log10_scale_yh2ax_au	sd_yh2ax_au	
+p21_mRNA_fold	experiment____model1_data73	12.0	1.43584394454956	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data73	12.0	0.9452263116836552	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data74	12.0	2.12996983528137	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data74	12.0	1.4881585836410502	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data75	12.0	3.30311965942383	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data75	12.0	2.14821624755859	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data76	12.0	3.8016111850738494	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data76	12.0	2.08513569831848	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data77	12.0	3.96188139915466	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data77	12.0	1.91261208057404	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data78	12.0	3.1540334224700897	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data78	12.0	1.8224818706512496	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data79	12.0	3.19580602645874	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data79	12.0	1.91648733615875	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data80	12.0	4.8909196853637695	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data80	12.0	2.2176759243011497	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data81	12.0	6.04004001617432	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data81	12.0	2.8560028076171897	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data82	12.0	2.0180692672729497	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data82	12.0	1.7269387245178205	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data83	12.0	1.0	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data83	12.0	1.0	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data12	12.0	1.0	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data12	12.0	1.0	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data85	12.0	5.26819610595703	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data85	12.0	1.52881181240082	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data86	12.0	7.14427137374878	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data86	12.0	1.97156536579132	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data87	12.0	9.27304553985596	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data87	12.0	2.0693666934967	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data88	12.0	11.7395095825195	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data88	12.0	3.2077572345733603	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data89	12.0	12.7283039093018	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data89	12.0	3.72004055976868	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	
+p21_mRNA_fold	experiment____model1_data90	12.0	11.2542142868042	log10_scale_p21_mRNA_fold	sd_p21_mRNA_fold	
+Wip1_mRNA_fold	experiment____model1_data90	12.0	3.2235579490661603	log10_scale_wip1_mRNA_fold	sd_wip1_mRNA_fold	

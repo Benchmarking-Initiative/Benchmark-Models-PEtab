@@ -1,0 +1,13 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate
+log10_delta_EL	log10(delta_{EL})	-5.0	3.0	-0.28571556902578127	true
+log10_delta_LM	log10(delta_{LM})	-5.0	3.0	-1.6462638119095538	true
+log10_delta_NE	log10(delta_{NE})	-5.0	3.0	-1.9233308736879506	true
+log10_mu_EE	log10(mu_{EE})	-5.0	3.0	-4.407424157293231	true
+log10_mu_LE	log10(mu_{LE})	-10.0	3.0	-9.99999999999997	true
+log10_mu_LL	log10(mu_{LL})	-10.0	3.0	-5.090700702632191	true
+log10_mu_N	log10(mu_{N})	-5.0	3.0	-0.13082268528194607	true
+log10_mu_P	log10(mu_{P})	-5.0	3.0	-4.999999984703741	true
+log10_mu_PE	log10(mu_{PE})	-10.0	3.0	-9.85001546652046	true
+log10_mu_PL	log10(mu_{PL})	-5.0	3.0	-4.43961138871735	true
+log10_rho_E	log10(rho_{E})	-5.0	3.0	-0.29463614300453467	true
+log10_rho_P	log10(rho_{P})	-5.0	3.0	-0.8983137706244001	true

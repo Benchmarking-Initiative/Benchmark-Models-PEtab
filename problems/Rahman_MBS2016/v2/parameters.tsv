@@ -1,0 +1,10 @@
+parameterId	lowerBound	upperBound	nominalValue	estimate
+log10_infected_normal_transmission_rate_relative	-1.0	3.0	2.6309056411890324	true
+log10_infected_moderate_transmission_rate	-4.0	0.0	-2.533532767259362	true
+log10_infected_weak_transmission_rate_relative	-1.0	3.0	2.9969317539040716	true
+log10_infected_weak_treatment_rate	-4.0	0.0	-4.0	true
+log10_infected_normal_worsen_rate	-4.0	0.0	-0.17688457060232743	true
+log10_infected_moderate_worsen_rate	-4.0	0.0	-2.0982311900518282	true
+log10_treated_moderate_improve_rate	-4.0	0.0	-0.8653130074431464	true
+log10_treated_weak_improve_rate	-4.0	0.0	-0.11037899831231045	true
+log10_behavioural_change_rate	-9.0	-5.0	-6.8735438865681955	true

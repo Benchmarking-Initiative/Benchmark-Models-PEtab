@@ -1,0 +1,10 @@
+parameterId	parameterName	lowerBound	upperBound	nominalValue	estimate
+log10_rho	log10(rho)	-0.37675070960209955	0.22010808804005508	0.13735407624015714	true
+log10_kappa	log10(kappa)	2.0	5.0	3.05618151994911	true
+log10_psi	log10(psi)	-10.0	-2.0	-8.516384557943377	true
+log10_phi	log10(phi)	-8.0	8.0	0.4627264564752205	true
+log10_beta	log10(beta)	0.0	4.0	0.022905190705984877	true
+log10_alpha	log10(alpha)	-4.0	3.0	0.4626398500576653	true
+log10_delta	log10(delta)	-2.0	2.0	-0.4290319343988387	true
+log10_sigma_a	log10(sigma_a)	1.0	5.0	2.221370237998359	true
+log10_sigma_b	log10(sigma_b)	-4.0	2.0	-0.44454299124747443	true
