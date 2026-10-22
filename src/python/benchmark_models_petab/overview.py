@@ -177,14 +177,23 @@ def make_sbml4humans_urls(
     ]
 
 
+def _fillna_str(df: pd.DataFrame, column: str, value: str) -> pd.DataFrame:
+    """Fill missing values in a string column.
+
+    Columns without any values are read as float, which can't be filled with
+    strings.
+    """
+    return df.astype({column: "string"}).fillna({column: value})
+
+
 def get_noise_distributions(observable_df):
     if petab.NOISE_DISTRIBUTION in observable_df.columns:
-        observable_df = observable_df.fillna(
-            value={petab.NOISE_DISTRIBUTION: petab.NORMAL}
+        observable_df = _fillna_str(
+            observable_df, petab.NOISE_DISTRIBUTION, petab.NORMAL
         )
         if petab.OBSERVABLE_TRANSFORMATION in observable_df.columns:
-            observable_df = observable_df.fillna(
-                value={petab.OBSERVABLE_TRANSFORMATION: petab.LIN}
+            observable_df = _fillna_str(
+                observable_df, petab.OBSERVABLE_TRANSFORMATION, petab.LIN
             )
             noise_distrs = [
                 tuple(e.values)
@@ -199,8 +208,8 @@ def get_noise_distributions(observable_df):
 
     else:
         if petab.OBSERVABLE_TRANSFORMATION in observable_df.columns:
-            observable_df = observable_df.fillna(
-                value={petab.OBSERVABLE_TRANSFORMATION: petab.LIN}
+            observable_df = _fillna_str(
+                observable_df, petab.OBSERVABLE_TRANSFORMATION, petab.LIN
             )
             noise_distrs = [
                 (e, petab.NORMAL)
@@ -337,8 +346,7 @@ def get_overview_df() -> pd.DataFrame:
         summary = get_summary(petab_problem, petab_problem_id)
         data.append(summary)
     df = pd.DataFrame(data)
-    df.set_index([index_column], inplace=True)
-    return df
+    return df.set_index([index_column])
 
 
 start_overview_table = "\n<!-- START OVERVIEW TABLE -->\n"
