@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Isensee_JCB2018,
         author = {Isensee, Jörg and Kaufholz, Melanie and Knape, Matthias J. and Hasenauer, Jan and Hammerich, Hanna and Gonczarowska-Jorge, Humberto and Zahedi, René P. and Schwede, Frank and Herberg, Friedrich W. and Hucho, Tim},
-        title = {PKA-RII subunit phosphorylation precedes activation by cAMP and regulates activity termination},
+        title = {{PKA-RII} subunit phosphorylation precedes activation by {cAMP} and regulates activity termination},
         journal = {Journal of Cell Biology},
         year = {2018},
         volume = {217},

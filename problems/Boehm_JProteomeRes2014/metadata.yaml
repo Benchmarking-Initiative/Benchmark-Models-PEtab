@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Boehm_JProteomeRes2014,
         author = {Boehm, Martin E. and Adlung, Lorenz and Schilling, Marcel and Roth, Susanne and Klingmüller, Ursula and Lehmann, Wolf D.},
-        title = {Identification of Isoform-Specific Dynamics in Phosphorylation-Dependent STAT5 Dimerization by Quantitative Mass Spectrometry and Mathematical Modeling},
+        title = {Identification of Isoform-Specific Dynamics in Phosphorylation-Dependent {STAT5} Dimerization by Quantitative Mass Spectrometry and Mathematical Modeling},
         journal = {Journal of Proteome Research},
         year = {2014},
         volume = {13},

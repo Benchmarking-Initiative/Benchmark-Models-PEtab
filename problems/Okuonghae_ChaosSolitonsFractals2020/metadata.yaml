@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Okuonghae_ChaosSolitonsFractals2020,
         author = {Okuonghae, D. and Omame, A.},
-        title = {Analysis of a mathematical model for COVID-19 population dynamics in Lagos, Nigeria},
+        title = {Analysis of a mathematical model for {COVID-19} population dynamics in {Lagos}, {Nigeria}},
         journal = {Chaos, Solitons \& Fractals},
         year = {2020},
         volume = {139},

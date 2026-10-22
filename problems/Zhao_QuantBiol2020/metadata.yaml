@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Zhao_QuantBiol2020,
         author = {Zhao, Shilei and Chen, Hua},
-        title = {Modeling the epidemic dynamics and control of COVID-19 outbreak in China},
+        title = {Modeling the epidemic dynamics and control of {COVID-19} outbreak in {China}},
         journal = {Quantitative Biology},
         year = {2020},
         volume = {8},

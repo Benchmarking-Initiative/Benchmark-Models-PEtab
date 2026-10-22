@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Lucarelli_CellSystems2018,
         author = {Lucarelli, Philippe and Schilling, Marcel and Kreutz, Clemens and Vlasov, Artyom and Boehm, Martin E. and Iwamoto, Nao and Steiert, Bernhard and Lattermann, Susen and Wäsch, Marvin and Stepath, Markus and Matter, Matthias S. and Heikenwälder, Mathias and Hoffmann, Katrin and Deharde, Daniela and Damm, Georg and Seehofer, Daniel and Muciek, Maria and Gretz, Norbert and Lehmann, Wolf D. and Timmer, Jens and Klingmüller, Ursula},
-        title = {Resolving the Combinatorial Complexity of Smad Protein Complex Formation and Its Link to Gene Expression},
+        title = {Resolving the Combinatorial Complexity of {Smad} Protein Complex Formation and Its Link to Gene Expression},
         journal = {Cell Systems},
         year = {2018},
         volume = {6},

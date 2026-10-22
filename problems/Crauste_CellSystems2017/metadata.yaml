@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Crauste_CellSystems2017,
         author = {Crauste, Fabien and Mafille, Julien and Boucinha, Lilia and Djebali, Sophia and Gandrillon, Olivier and Marvel, Jacqueline and Arpin, Christophe},
-        title = {Identification of Nascent Memory CD8 T Cells and Modeling of Their Ontogeny},
+        title = {Identification of Nascent Memory {CD8} {T} Cells and Modeling of Their Ontogeny},
         journal = {Cell Systems},
         year = {2017},
         volume = {4},

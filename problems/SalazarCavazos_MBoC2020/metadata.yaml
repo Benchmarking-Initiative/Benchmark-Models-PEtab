@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{SalazarCavazos_MBoC2020,
         author = {Salazar-Cavazos, Emanuel and Nitta, Carolina Franco and Mitra, Eshan D. and Wilson, Bridget S. and Lidke, Keith A. and Hlavacek, William S. and Lidke, Diane S.},
-        title = {Multisite EGFR phosphorylation is regulated by adaptor protein abundances and dimer lifetimes},
+        title = {Multisite {EGFR} phosphorylation is regulated by adaptor protein abundances and dimer lifetimes},
         journal = {Molecular Biology of the Cell},
         year = {2020},
         volume = {31},

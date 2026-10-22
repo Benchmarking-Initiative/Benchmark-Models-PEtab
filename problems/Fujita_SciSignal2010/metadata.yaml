@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Fujita_SciSignal2010,
         author = {Fujita, Kazuhiro A. and Toyoshima, Yu and Uda, Shinsuke and Ozaki, Yu-ichi and Kubota, Hiroyuki and Kuroda, Shinya},
-        title = {Decoupling of Receptor and Downstream Signals in the Akt Pathway by Its Low-Pass Filter Characteristics},
+        title = {Decoupling of Receptor and Downstream Signals in the {Akt} Pathway by Its Low-Pass Filter Characteristics},
         journal = {Science Signaling},
         year = {2010},
         volume = {3},

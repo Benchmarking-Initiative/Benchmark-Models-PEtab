@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Zheng_PNAS2012,
         author = {Zheng, Yupeng and Sweet, Steve M. M. and Popovic, Relja and Martinez-Garcia, Eva and Tipton, Jeremiah D. and Thomas, Paul M. and Licht, Jonathan D. and Kelleher, Neil L.},
-        title = {Total kinetic analysis reveals how combinatorial methylation patterns are established on lysines 27 and 36 of histone H3},
+        title = {Total kinetic analysis reveals how combinatorial methylation patterns are established on lysines 27 and 36 of histone {H3}},
         journal = {Proceedings of the National Academy of Sciences},
         year = {2012},
         volume = {109},

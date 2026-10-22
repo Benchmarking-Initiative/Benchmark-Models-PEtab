@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Rahman_MBS2016,
         author = {Rahman, S. M. Ashrafur and Vaidya, Naveen K. and Zou, Xingfu},
-        title = {Impact of early treatment programs on HIV epidemics: An immunity-based mathematical model},
+        title = {Impact of early treatment programs on {HIV} epidemics: An immunity-based mathematical model},
         journal = {Mathematical Biosciences},
         year = {2016},
         volume = {280},

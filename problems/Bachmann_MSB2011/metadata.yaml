@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Bachmann_MSB2011,
         author = {Bachmann, Julie and Raue, Andreas and Schilling, Marcel and Böhm, Martin E and Kreutz, Clemens and Kaschek, Daniel and Busch, Hauke and Gretz, Norbert and Lehmann, Wolf D and Timmer, Jens and Klingmüller, Ursula},
-        title = {Division of labor by dual feedback regulators controls JAK2/STAT5 signaling over broad ligand range},
+        title = {Division of labor by dual feedback regulators controls {JAK2/STAT5} signaling over broad ligand range},
         journal = {Molecular Systems Biology},
         year = {2011},
         volume = {7},

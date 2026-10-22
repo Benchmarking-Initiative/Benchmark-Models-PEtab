@@ -4,7 +4,7 @@ references:
     bibtex: |
       @article{Alkan_SciSignal2018,
         author = {Alkan, Ozan and Schoeberl, Birgit and Shah, Millie and Koshkaryev, Alexander and Heinemann, Tim and Drummond, Daryl C. and Yaffe, Michael B. and Raue, Andreas},
-        title = {Modeling chemotherapy-induced stress to identify rational combination therapies in the DNA damage response pathway},
+        title = {Modeling chemotherapy-induced stress to identify rational combination therapies in the {DNA} damage response pathway},
         journal = {Science Signaling},
         year = {2018},
         volume = {11},
