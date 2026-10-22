@@ -1,4 +1,29 @@
 {
+  "$defs": {
+    "Reference": {
+      "additionalProperties": false,
+      "description": "A publication a benchmark problem is based on.",
+      "properties": {
+        "doi": {
+          "description": "DOI of the publication, without URL prefix.",
+          "pattern": "^10\\.\\d{4,9}/\\S+$",
+          "title": "Doi",
+          "type": "string"
+        },
+        "bibtex": {
+          "description": "BibTeX entry of the publication, one field per line, including a `doi` field matching `doi`.",
+          "title": "Bibtex",
+          "type": "string"
+        }
+      },
+      "required": [
+        "doi",
+        "bibtex"
+      ],
+      "title": "Reference",
+      "type": "object"
+    }
+  },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "description": "Version-independent metadata of a benchmark problem.",
@@ -10,10 +35,20 @@
       "pattern": "^[A-Z][\\x20-\\x7E]*\\.$",
       "title": "Short Description",
       "type": "string"
+    },
+    "references": {
+      "description": "Publications the problem is based on. The first entry is the main publication; its BibTeX key is the problem ID.",
+      "items": {
+        "$ref": "#/$defs/Reference"
+      },
+      "minItems": 1,
+      "title": "References",
+      "type": "array"
     }
   },
   "required": [
-    "short_description"
+    "short_description",
+    "references"
   ],
   "title": "Benchmark problem metadata",
   "type": "object"
