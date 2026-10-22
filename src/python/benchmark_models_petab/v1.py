@@ -6,6 +6,7 @@ import petab.v1 as petab
 
 import pandas as pd
 
+from ._ids import resolve_id
 from .C import (
     MODELS as ALL_MODELS,
     MODELS_DIR,
@@ -33,6 +34,7 @@ def get_problem_yaml_path(id_: str) -> Path:
     -------
     The path to the PEtab problem YAML file.
     """
+    id_ = resolve_id(id_)
     yaml_path = Path(MODELS_DIR, id_, V1_DIRNAME, PROBLEM_FILENAME)
     if not yaml_path.exists():
         raise ValueError(
@@ -69,6 +71,7 @@ def get_simulation_df(id_: str) -> pd.DataFrame | None:
     -------
     The simulation dataframe if it exists, else None.
     """
+    id_ = resolve_id(id_)
     path = Path(MODELS_DIR, id_, V1_DIRNAME, SIMULATIONS_FILENAME)
     if path.is_file():
         return petab.get_simulation_df(path)
