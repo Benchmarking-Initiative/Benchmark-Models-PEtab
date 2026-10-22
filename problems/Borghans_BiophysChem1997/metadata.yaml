@@ -3,7 +3,7 @@ references:
   - doi: 10.1016/s0301-4622(97)00010-0
     bibtex: |
       @article{Borghans_BiophysChem1997,
-        author = {Borghans, José A.M. and Dupont, Geneviève and Goldbeter, Albert},
+        author = {Borghans, José A. M. and Dupont, Geneviève and Goldbeter, Albert},
         title = {Complex intracellular calcium oscillations. A theoretical exploration of possible mechanisms},
         journal = {Biophysical Chemistry},
         year = {1997},

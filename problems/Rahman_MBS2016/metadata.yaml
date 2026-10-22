@@ -3,7 +3,7 @@ references:
   - doi: 10.1016/j.mbs.2016.07.009
     bibtex: |
       @article{Rahman_MBS2016,
-        author = {Rahman, S.M. Ashrafur and Vaidya, Naveen K. and Zou, Xingfu},
+        author = {Rahman, S. M. Ashrafur and Vaidya, Naveen K. and Zou, Xingfu},
         title = {Impact of early treatment programs on HIV epidemics: An immunity-based mathematical model},
         journal = {Mathematical Biosciences},
         year = {2016},
