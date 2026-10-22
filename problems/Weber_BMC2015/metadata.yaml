@@ -3,7 +3,7 @@ references:
   - doi: 10.1186/s12918-015-0147-1
     bibtex: |
       @article{Weber_BMC2015,
-        author = {Weber, Patrick and Hornjik, Mariana and Olayioye, Monilola A and Hausser, Angelika and Radde, Nicole E},
+        author = {Weber, Patrick and Hornjik, Mariana and Olayioye, Monilola A. and Hausser, Angelika and Radde, Nicole E.},
         title = {A computational model of {PKD} and {CERT} interactions at the trans-{Golgi} network of mammalian cells},
         journal = {BMC Systems Biology},
         year = {2015},

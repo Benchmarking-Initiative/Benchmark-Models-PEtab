@@ -3,7 +3,7 @@ references:
   - doi: 10.1038/msb.2008.74
     bibtex: |
       @article{Chen_MSB2009,
-        author = {Chen, William W and Schoeberl, Birgit and Jasper, Paul J and Niepel, Mario and Nielsen, Ulrik B and Lauffenburger, Douglas A and Sorger, Peter K},
+        author = {Chen, William W. and Schoeberl, Birgit and Jasper, Paul J. and Niepel, Mario and Nielsen, Ulrik B. and Lauffenburger, Douglas A. and Sorger, Peter K.},
         title = {Input–output behavior of {ErbB} signaling pathways as revealed by a mass action model trained against dynamic data},
         journal = {Molecular Systems Biology},
         year = {2009},
