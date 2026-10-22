@@ -1,1 +1,14 @@
 short_description: Enzyme kinetic model of the in vitro cleavage of carotenoids and apocarotenoids by Arabidopsis carotenoid cleavage dioxygenase 4 (CCD4).
+references:
+  - doi: 10.1093/jxb/erw356
+    bibtex: |
+      @article{Bruno_JExpBot2016,
+        author = {Bruno, Mark and Koschmieder, Julian and Wuest, Florian and Schaub, Patrick and Fehling-Kaschek, Mirjam and Timmer, Jens and Beyer, Peter and Al-Babili, Salim},
+        title = {Enzymatic study on AtCCD4 and AtCCD7 and their potential to form acyclic regulatory metabolites},
+        journal = {Journal of Experimental Botany},
+        year = {2016},
+        volume = {67},
+        number = {21},
+        pages = {5993--6005},
+        doi = {10.1093/jxb/erw356},
+      }

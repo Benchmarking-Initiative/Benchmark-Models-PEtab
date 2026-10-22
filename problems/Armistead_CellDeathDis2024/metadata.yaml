@@ -1,1 +1,14 @@
 short_description: Small reaction network model of sphingolipid metabolism with ceramide feedback, fitted to lipidomics data of wild-type and mutant zebrafish embryos.
+references:
+  - doi: 10.1038/s41419-024-07134-2
+    bibtex: |
+      @article{Armistead_CellDeathDis2024,
+        author = {Armistead, Joy and Höpfl, Sebastian and Goldhausen, Pierre and Müller-Hartmann, Andrea and Fahle, Evelin and Hatzold, Julia and Franzen, Rainer and Brodesser, Susanne and Radde, Nicole E. and Hammerschmidt, Matthias},
+        title = {A sphingolipid rheostat controls apoptosis versus apical cell extrusion as alternative tumour-suppressive mechanisms},
+        journal = {Cell Death \& Disease},
+        year = {2024},
+        volume = {15},
+        number = {10},
+        pages = {746},
+        doi = {10.1038/s41419-024-07134-2},
+      }

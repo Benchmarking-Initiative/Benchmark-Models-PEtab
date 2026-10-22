@@ -1,1 +1,14 @@
 short_description: Small kinetic model of bacterial growth and production of the blue pigment indigoidine by engineered variants of a non-ribosomal peptide synthetase.
+references:
+  - doi: 10.1039/c3mb70594c
+    bibtex: |
+      @article{Beer_MolBioSystems2014,
+        author = {Beer, Ralf and Herbst, Konrad and Ignatiadis, Nikolaos and Kats, Ilia and Adlung, Lorenz and Meyer, Hannah and Niopek, Dominik and Christiansen, Tania and Georgi, Fanny and Kurzawa, Nils and Meichsner, Johanna and Rabe, Sophie and Riedel, Anja and Sachs, Joshua and Schessner, Julia and Schmidt, Florian and Walch, Philipp and Niopek, Katharina and Heinemann, Tim and Eils, Roland and Di Ventura, Barbara},
+        title = {Creating functional engineered variants of the single-module non-ribosomal peptide synthetase IndC by T domain exchange},
+        journal = {Molecular BioSystems},
+        year = {2014},
+        volume = {10},
+        number = {7},
+        pages = {1709--1718},
+        doi = {10.1039/c3mb70594c},
+      }

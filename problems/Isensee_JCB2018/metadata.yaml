@@ -1,1 +1,14 @@
 short_description: Reaction network model of cAMP-induced PKA activation and phosphorylation of its regulatory subunit in rat sensory neurons under pharmacological perturbations.
+references:
+  - doi: 10.1083/jcb.201708053
+    bibtex: |
+      @article{Isensee_JCB2018,
+        author = {Isensee, Jörg and Kaufholz, Melanie and Knape, Matthias J. and Hasenauer, Jan and Hammerich, Hanna and Gonczarowska-Jorge, Humberto and Zahedi, René P. and Schwede, Frank and Herberg, Friedrich W. and Hucho, Tim},
+        title = {PKA-RII subunit phosphorylation precedes activation by cAMP and regulates activity termination},
+        journal = {Journal of Cell Biology},
+        year = {2018},
+        volume = {217},
+        number = {6},
+        pages = {2167--2184},
+        doi = {10.1083/jcb.201708053},
+      }

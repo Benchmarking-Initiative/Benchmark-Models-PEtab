@@ -1,1 +1,14 @@
 short_description: Gene regulatory network model of the repressilator, a synthetic three-gene transcriptional oscillator in E. coli, fitted to a fluorescence time course.
+references:
+  - doi: 10.1038/35002125
+    bibtex: |
+      @article{Elowitz_Nature2000,
+        author = {Elowitz, Michael B. and Leibler, Stanislas},
+        title = {A synthetic oscillatory network of transcriptional regulators},
+        journal = {Nature},
+        year = {2000},
+        volume = {403},
+        number = {6767},
+        pages = {335--338},
+        doi = {10.1038/35002125},
+      }

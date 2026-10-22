@@ -1,1 +1,14 @@
 short_description: Within-host model of HIV-1 viral dynamics, fitted to plasma HIV-1 RNA levels after treatment with the protease inhibitor ritonavir.
+references:
+  - doi: 10.1126/science.271.5255.1582
+    bibtex: |
+      @article{Perelson_Science1996,
+        author = {Perelson, Alan S. and Neumann, Avidan U. and Markowitz, Martin and Leonard, John M. and Ho, David D.},
+        title = {HIV-1 Dynamics in Vivo: Virion Clearance Rate, Infected Cell Life-Span, and Viral Generation Time},
+        journal = {Science},
+        year = {1996},
+        volume = {271},
+        number = {5255},
+        pages = {1582--1586},
+        doi = {10.1126/science.271.5255.1582},
+      }

@@ -1,1 +1,14 @@
 short_description: Large-scale reaction network model of cancer signaling pathways, parameterized by cell-line-specific gene expression and fitted to drug response viability data.
+references:
+  - doi: 10.1016/j.cels.2018.10.013
+    bibtex: |
+      @article{Froehlich_CellSystems2018,
+        author = {Fröhlich, Fabian and Kessler, Thomas and Weindl, Daniel and Shadrin, Alexey and Schmiester, Leonard and Hache, Hendrik and Muradyan, Artur and Schütte, Moritz and Lim, Ji-Hyun and Heinig, Matthias and Theis, Fabian J. and Lehrach, Hans and Wierling, Christoph and Lange, Bodo and Hasenauer, Jan},
+        title = {Efficient Parameter Estimation Enables the Prediction of Drug Response Using a Mechanistic Pan-Cancer Pathway Model},
+        journal = {Cell Systems},
+        year = {2018},
+        volume = {7},
+        number = {6},
+        pages = {567--579.e6},
+        doi = {10.1016/j.cels.2018.10.013},
+      }

@@ -1,1 +1,14 @@
 short_description: Reaction network model of intracellular influenza A virus replication, fitted to viral RNA, genome import and virus release data in human A549 cells.
+references:
+  - doi: 10.1371/journal.pcbi.1006944
+    bibtex: |
+      @article{Laske_PLOSComputBiol2019,
+        author = {Laske, Tanja and Bachmann, Mandy and Dostert, Melanie and Karlas, Alexander and Wirth, Dagmar and Frensing, Timo and Meyer, Thomas F. and Hauser, Hansjörg and Reichl, Udo},
+        title = {Model-based analysis of influenza A virus replication in genetically engineered cell lines elucidates the impact of host cell factors on key kinetic parameters of virus growth},
+        journal = {PLOS Computational Biology},
+        year = {2019},
+        volume = {15},
+        number = {4},
+        pages = {e1006944},
+        doi = {10.1371/journal.pcbi.1006944},
+      }

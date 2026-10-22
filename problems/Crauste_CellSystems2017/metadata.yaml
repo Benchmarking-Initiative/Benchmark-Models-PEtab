@@ -1,1 +1,14 @@
 short_description: Cell population model of CD8 T cell differentiation (naive, early/late effector, memory), fitted to cell counts in mice after vaccinia virus infection.
+references:
+  - doi: 10.1016/j.cels.2017.01.014
+    bibtex: |
+      @article{Crauste_CellSystems2017,
+        author = {Crauste, Fabien and Mafille, Julien and Boucinha, Lilia and Djebali, Sophia and Gandrillon, Olivier and Marvel, Jacqueline and Arpin, Christophe},
+        title = {Identification of Nascent Memory CD8 T Cells and Modeling of Their Ontogeny},
+        journal = {Cell Systems},
+        year = {2017},
+        volume = {4},
+        number = {3},
+        pages = {306--317.e4},
+        doi = {10.1016/j.cels.2017.01.014},
+      }

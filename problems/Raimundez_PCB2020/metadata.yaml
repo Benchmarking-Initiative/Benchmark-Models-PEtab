@@ -1,1 +1,14 @@
 short_description: Reaction network model of EGFR and MET signaling to ERK and AKT in two gastric cancer cell lines in response to EGF and the anti-EGFR antibody cetuximab.
+references:
+  - doi: 10.1371/journal.pcbi.1007147
+    bibtex: |
+      @article{Raimundez_PCB2020,
+        author = {Raimúndez, Elba and Keller, Simone and Zwingenberger, Gwen and Ebert, Karolin and Hug, Sabine and Theis, Fabian J. and Maier, Dieter and Luber, Birgit and Hasenauer, Jan},
+        title = {Model-based analysis of response and resistance factors of cetuximab treatment in gastric cancer cell lines},
+        journal = {PLOS Computational Biology},
+        year = {2020},
+        volume = {16},
+        number = {3},
+        pages = {e1007147},
+        doi = {10.1371/journal.pcbi.1007147},
+      }

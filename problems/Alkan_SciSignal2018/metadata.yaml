@@ -1,1 +1,14 @@
 short_description: Reaction network model of the DNA damage response and cell fate in cancer cells treated with chemotherapeutics, fitted to signaling and cell count data.
+references:
+  - doi: 10.1126/scisignal.aat0229
+    bibtex: |
+      @article{Alkan_SciSignal2018,
+        author = {Alkan, Ozan and Schoeberl, Birgit and Shah, Millie and Koshkaryev, Alexander and Heinemann, Tim and Drummond, Daryl C. and Yaffe, Michael B. and Raue, Andreas},
+        title = {Modeling chemotherapy-induced stress to identify rational combination therapies in the DNA damage response pathway},
+        journal = {Science Signaling},
+        year = {2018},
+        volume = {11},
+        number = {540},
+        pages = {eaat0229},
+        doi = {10.1126/scisignal.aat0229},
+      }

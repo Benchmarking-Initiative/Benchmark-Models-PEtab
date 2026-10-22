@@ -1,1 +1,14 @@
 short_description: Kinetic model of the type-2 IP3 receptor, fitted to time courses of calcium release from liver microsomes at varying IP3 and calcium concentrations.
+references:
+  - doi: 10.1073/pnas.032281999
+    bibtex: |
+      @article{Sneyd_PNAS2002,
+        author = {Sneyd, James and Dufour, Jean-François},
+        title = {A dynamic model of the type-2 inositol trisphosphate receptor},
+        journal = {Proceedings of the National Academy of Sciences},
+        year = {2002},
+        volume = {99},
+        number = {4},
+        pages = {2398--2403},
+        doi = {10.1073/pnas.032281999},
+      }

@@ -1,1 +1,14 @@
 short_description: Reaction network model of the human cell cycle, generated from a rule-based model and fitted to compartment-resolved single-cell imaging data of RPE-1 cells.
+references:
+  - doi: 10.1371/journal.pcbi.1011151
+    bibtex: |
+      @article{Lang_PLOSComputBiol2024,
+        author = {Lang, Paul F. and Penas, David R. and Banga, Julio R. and Weindl, Daniel and Novak, Bela},
+        title = {Reusable rule-based cell cycle model explains compartment-resolved dynamics of 16 observables in RPE-1 cells},
+        journal = {PLOS Computational Biology},
+        year = {2024},
+        volume = {20},
+        number = {1},
+        pages = {e1011151},
+        doi = {10.1371/journal.pcbi.1011151},
+      }

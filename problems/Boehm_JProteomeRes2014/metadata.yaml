@@ -1,1 +1,14 @@
 short_description: Reaction network model of Epo-induced STAT5A/STAT5B phosphorylation and homo- and heterodimerization, fitted to quantitative mass spectrometry data.
+references:
+  - doi: 10.1021/pr5006923
+    bibtex: |
+      @article{Boehm_JProteomeRes2014,
+        author = {Boehm, Martin E. and Adlung, Lorenz and Schilling, Marcel and Roth, Susanne and Klingmüller, Ursula and Lehmann, Wolf D.},
+        title = {Identification of Isoform-Specific Dynamics in Phosphorylation-Dependent STAT5 Dimerization by Quantitative Mass Spectrometry and Mathematical Modeling},
+        journal = {Journal of Proteome Research},
+        year = {2014},
+        volume = {13},
+        number = {12},
+        pages = {5685--5694},
+        doi = {10.1021/pr5006923},
+      }

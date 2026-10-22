@@ -1,1 +1,14 @@
 short_description: Population model of oncolytic virus therapy with uninfected and infected tumor cells and virus, fitted to tumor size data in zebrafish.
+references:
+  - doi: 10.1016/j.ifacol.2025.07.160
+    bibtex: |
+      @article{Liu_IFACPapersOnLine2025,
+        author = {Liu, Yuhong and Pathirana, Dilan and Hasenauer, Jan},
+        title = {Parameter Estimation and Model Selection for the Quantitative Analysis of Oncolytic Virus Therapy in Zebrafish},
+        journal = {IFAC-PapersOnLine},
+        year = {2025},
+        volume = {59},
+        number = {6},
+        pages = {289--294},
+        doi = {10.1016/j.ifacol.2025.07.160},
+      }

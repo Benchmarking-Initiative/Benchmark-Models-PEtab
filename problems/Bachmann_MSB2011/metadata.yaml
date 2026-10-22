@@ -1,1 +1,14 @@
 short_description: Reaction network model of Epo-induced JAK2/STAT5 signaling with two negative feedback regulators (SOCS3, CIS) in murine erythroid progenitor cells.
+references:
+  - doi: 10.1038/msb.2011.50
+    bibtex: |
+      @article{Bachmann_MSB2011,
+        author = {Bachmann, Julie and Raue, Andreas and Schilling, Marcel and Böhm, Martin E and Kreutz, Clemens and Kaschek, Daniel and Busch, Hauke and Gretz, Norbert and Lehmann, Wolf D and Timmer, Jens and Klingmüller, Ursula},
+        title = {Division of labor by dual feedback regulators controls JAK2/STAT5 signaling over broad ligand range},
+        journal = {Molecular Systems Biology},
+        year = {2011},
+        volume = {7},
+        number = {1},
+        pages = {MSB201150},
+        doi = {10.1038/msb.2011.50},
+      }

@@ -1,1 +1,13 @@
 short_description: Reaction network model of EGF-induced EGFR, Akt and S6 phosphorylation in PC12 cells under different EGF stimulation profiles.
+references:
+  - doi: 10.1126/scisignal.2000810
+    bibtex: |
+      @article{Fujita_SciSignal2010,
+        author = {Fujita, Kazuhiro A. and Toyoshima, Yu and Uda, Shinsuke and Ozaki, Yu-ichi and Kubota, Hiroyuki and Kuroda, Shinya},
+        title = {Decoupling of Receptor and Downstream Signals in the Akt Pathway by Its Low-Pass Filter Characteristics},
+        journal = {Science Signaling},
+        year = {2010},
+        volume = {3},
+        number = {132},
+        doi = {10.1126/scisignal.2000810},
+      }
