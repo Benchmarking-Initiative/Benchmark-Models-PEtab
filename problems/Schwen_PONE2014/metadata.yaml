@@ -1,1 +1,14 @@
 short_description: Reaction network model of insulin binding, internalization and degradation in two subpopulations of isolated hepatocytes with low and high insulin binding.
+references:
+  - doi: 10.1371/journal.pone.0133653
+    bibtex: |
+      @article{Schwen_PONE2014,
+        author = {Schwen, Lars Ole and Schenk, Arne and Kreutz, Clemens and Timmer, Jens and Bartolomé Rodríguez, María Matilde and Kuepfer, Lars and Preusser, Tobias},
+        title = {Representative Sinusoids for Hepatic Four-Scale Pharmacokinetics Simulations},
+        journal = {PLOS ONE},
+        year = {2015},
+        volume = {10},
+        number = {7},
+        pages = {e0133653},
+        doi = {10.1371/journal.pone.0133653},
+      }

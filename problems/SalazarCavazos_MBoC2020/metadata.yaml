@@ -1,1 +1,14 @@
 short_description: Reaction network model of EGFR dimerization, multisite phosphorylation and binding of the adaptor proteins GRB2 and SHC1, generated from a rule-based model.
+references:
+  - doi: 10.1091/mbc.E19-09-0548
+    bibtex: |
+      @article{SalazarCavazos_MBoC2020,
+        author = {Salazar-Cavazos, Emanuel and Nitta, Carolina Franco and Mitra, Eshan D. and Wilson, Bridget S. and Lidke, Keith A. and Hlavacek, William S. and Lidke, Diane S.},
+        title = {Multisite {EGFR} phosphorylation is regulated by adaptor protein abundances and dimer lifetimes},
+        journal = {Molecular Biology of the Cell},
+        year = {2020},
+        volume = {31},
+        number = {7},
+        pages = {695--708},
+        doi = {10.1091/mbc.E19-09-0548},
+      }

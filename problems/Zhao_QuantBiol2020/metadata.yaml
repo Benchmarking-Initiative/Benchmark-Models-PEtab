@@ -1,1 +1,14 @@
 short_description: Compartmental epidemiological model of COVID-19 in Wuhan, Hubei and the rest of China, with quarantined and unquarantined infected individuals.
+references:
+  - doi: 10.1007/s40484-020-0199-0
+    bibtex: |
+      @article{Zhao_QuantBiol2020,
+        author = {Zhao, Shilei and Chen, Hua},
+        title = {Modeling the epidemic dynamics and control of {COVID-19} outbreak in {China}},
+        journal = {Quantitative Biology},
+        year = {2020},
+        volume = {8},
+        number = {1},
+        pages = {11--19},
+        doi = {10.1007/s40484-020-0199-0},
+      }

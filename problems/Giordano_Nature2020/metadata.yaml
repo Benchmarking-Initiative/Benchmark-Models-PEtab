@@ -1,1 +1,14 @@
 short_description: Compartmental epidemiological model (SIDARTHE, distinguishing detected/undetected and symptom severity) of the COVID-19 epidemic in Italy.
+references:
+  - doi: 10.1038/s41591-020-0883-7
+    bibtex: |
+      @article{Giordano_Nature2020,
+        author = {Giordano, Giulia and Blanchini, Franco and Bruno, Raffaele and Colaneri, Patrizio and Di Filippo, Alessandro and Di Matteo, Angela and Colaneri, Marta},
+        title = {Modelling the {COVID-19} epidemic and implementation of population-wide interventions in {Italy}},
+        journal = {Nature Medicine},
+        year = {2020},
+        volume = {26},
+        number = {6},
+        pages = {855--860},
+        doi = {10.1038/s41591-020-0883-7},
+      }

@@ -1,1 +1,14 @@
 short_description: Reaction network model of insulin receptor and IRS1 phosphorylation with receptor endocytosis and feedback in primary human adipocytes.
+references:
+  - doi: 10.1074/jbc.M110.106849
+    bibtex: |
+      @article{Brannmark_JBC2010,
+        author = {Brännmark, Cecilia and Palmér, Robert and Glad, S. Torkel and Cedersund, Gunnar and Strålfors, Peter},
+        title = {Mass and Information Feedbacks through Receptor Endocytosis Govern Insulin Signaling as Revealed Using a Parameter-free Modeling Framework},
+        journal = {Journal of Biological Chemistry},
+        year = {2010},
+        volume = {285},
+        number = {26},
+        pages = {20171--20179},
+        doi = {10.1074/jbc.M110.106849},
+      }

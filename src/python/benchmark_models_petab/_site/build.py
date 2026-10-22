@@ -14,7 +14,7 @@ from ..C import (
     V1_DIRNAME,
     V2_DIRNAME,
 )
-from ..metadata import get_metadata
+from ..metadata import get_bibtex, get_metadata
 
 REPO_URL = f"https://github.com/{GITHUB_REPO}"
 LOGO_URL = (
@@ -22,6 +22,8 @@ LOGO_URL = (
     f"/{GITHUB_DEFAULT_BRANCH}/gfx/logo.svg"
 )
 CONTRIBUTING_URL = f"{REPO_URL}/blob/{GITHUB_DEFAULT_BRANCH}/CONTRIBUTING.md"
+#: File name of the BibTeX entries of all problems, next to the page.
+BIBTEX_FILENAME = "references.bib"
 
 #: Rendering of the columns that are not plain text, by column name.
 #:  Other columns of integer dtype are rendered as numbers.
@@ -170,6 +172,9 @@ def get_summary_tiles(v1_df: pd.DataFrame, v2_df: pd.DataFrame) -> list:
 def create_overview_page(dest: Path) -> None:
     """Create the HTML page with the v1 and v2 overview tables.
 
+    The BibTeX entries of all problems' main publications are written to
+    `BIBTEX_FILENAME` in the same directory, linked from the page.
+
     :param dest: Path to the output HTML file.
     """
     from jinja2 import Environment, PackageLoader, select_autoescape
@@ -184,6 +189,7 @@ def create_overview_page(dest: Path) -> None:
         repo_url=REPO_URL,
         logo_url=LOGO_URL,
         contributing_url=CONTRIBUTING_URL,
+        bibtex_url=BIBTEX_FILENAME,
         summary_tiles=get_summary_tiles(v1_df, v2_df),
         tables={
             "v2": get_table(
@@ -202,3 +208,4 @@ def create_overview_page(dest: Path) -> None:
     )
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(html, encoding="utf-8")
+    (dest.parent / BIBTEX_FILENAME).write_text(get_bibtex(), encoding="utf-8")

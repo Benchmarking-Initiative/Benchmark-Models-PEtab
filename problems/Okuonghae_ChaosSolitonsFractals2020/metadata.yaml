@@ -1,1 +1,13 @@
 short_description: Compartmental epidemiological model of COVID-19 in Lagos, Nigeria, including asymptomatic and detected infections.
+references:
+  - doi: 10.1016/j.chaos.2020.110032
+    bibtex: |
+      @article{Okuonghae_ChaosSolitonsFractals2020,
+        author = {Okuonghae, D. and Omame, A.},
+        title = {Analysis of a mathematical model for {COVID-19} population dynamics in {Lagos}, {Nigeria}},
+        journal = {Chaos, Solitons \& Fractals},
+        year = {2020},
+        volume = {139},
+        pages = {110032},
+        doi = {10.1016/j.chaos.2020.110032},
+      }

@@ -1,1 +1,14 @@
 short_description: SIR compartmental epidemiological model of the early COVID-19 outbreak in New York and California.
+references:
+  - doi: 10.1073/pnas.2006520117
+    bibtex: |
+      @article{Bertozzi_PNAS2020,
+        author = {Bertozzi, Andrea L. and Franco, Elisa and Mohler, George and Short, Martin B. and Sledge, Daniel},
+        title = {The challenges of modeling and forecasting the spread of {COVID-19}},
+        journal = {Proceedings of the National Academy of Sciences},
+        year = {2020},
+        volume = {117},
+        number = {29},
+        pages = {16732--16738},
+        doi = {10.1073/pnas.2006520117},
+      }

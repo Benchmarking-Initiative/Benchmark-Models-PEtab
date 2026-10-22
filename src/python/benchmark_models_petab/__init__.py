@@ -7,7 +7,7 @@ Python tool to access the model collection.
 from . import v1, v2
 from .v1 import get_problem, get_problem_yaml_path, get_simulation_df
 from .C import MODEL_DIRS, MODELS, MODELS_DIR
-from .metadata import ProblemMetadata, get_metadata
+from .metadata import ProblemMetadata, get_bibtex, get_metadata
 from .overview import get_overview_df
 from importlib.metadata import PackageNotFoundError, version
 

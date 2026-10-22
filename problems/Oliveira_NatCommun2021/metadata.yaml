@@ -1,1 +1,14 @@
 short_description: Compartmental epidemiological model of COVID-19 in Bahia, Brazil (state excluding the capital Salvador), with non-detected cases, hospitalization and deaths.
+references:
+  - doi: 10.1038/s41467-020-19798-3
+    bibtex: |
+      @article{Oliveira_NatCommun2021,
+        author = {Oliveira, Juliane F. and Jorge, Daniel C. P. and Veiga, Rafael V. and Rodrigues, Moreno S. and Torquato, Matheus F. and da Silva, Nivea B. and Fiaccone, Rosemeire L. and Cardim, Luciana L. and Pereira, Felipe A. C. and de Castro, Caio P. and Paiva, Aureliano S. S. and Amad, Alan A. S. and Lima, Ernesto A. B. F. and Souza, Diego S. and Pinho, Suani T. R. and Ramos, Pablo Ivan P. and Andrade, Roberto F. S.},
+        title = {Mathematical modeling of {COVID-19} in 14.8 million individuals in {Bahia}, {Brazil}},
+        journal = {Nature Communications},
+        year = {2021},
+        volume = {12},
+        number = {1},
+        pages = {333},
+        doi = {10.1038/s41467-020-19798-3},
+      }

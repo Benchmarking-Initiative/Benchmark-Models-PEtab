@@ -1,1 +1,14 @@
 short_description: Reaction network model of the combinatorial methylation of lysines 27 and 36 on histone H3.
+references:
+  - doi: 10.1073/pnas.1205707109
+    bibtex: |
+      @article{Zheng_PNAS2012,
+        author = {Zheng, Yupeng and Sweet, Steve M. M. and Popovic, Relja and Martinez-Garcia, Eva and Tipton, Jeremiah D. and Thomas, Paul M. and Licht, Jonathan D. and Kelleher, Neil L.},
+        title = {Total kinetic analysis reveals how combinatorial methylation patterns are established on lysines 27 and 36 of histone {H3}},
+        journal = {Proceedings of the National Academy of Sciences},
+        year = {2012},
+        volume = {109},
+        number = {34},
+        pages = {13549--13554},
+        doi = {10.1073/pnas.1205707109},
+      }

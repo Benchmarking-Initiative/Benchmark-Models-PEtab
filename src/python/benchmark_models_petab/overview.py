@@ -348,8 +348,8 @@ end_overview_table = "\n<!-- END OVERVIEW TABLE -->\n"
 def get_readme_table() -> str:
     """Get the version-independent overview table for the README.
 
-    Lists each problem's short description and links to its PEtab v1 and
-    v2 encodings, where available.
+    Lists each problem's short description, links to its PEtab v1 and
+    v2 encodings, where available, and the DOI of its main publication.
     """
     rows = []
     for petab_problem_id in MODELS:
@@ -364,7 +364,10 @@ def get_readme_table() -> str:
                 if petab_problem_id in version.MODELS
                 else ""
             )
-        row["Description"] = get_metadata(petab_problem_id).short_description
+        metadata = get_metadata(petab_problem_id)
+        doi = metadata.references[0].doi
+        row["Reference"] = f"[{doi}](https://doi.org/{doi})"
+        row["Description"] = metadata.short_description
         rows.append(row)
     return pd.DataFrame(rows).to_markdown(index=False)
 

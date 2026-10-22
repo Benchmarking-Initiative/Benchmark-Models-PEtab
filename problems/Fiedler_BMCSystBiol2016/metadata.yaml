@@ -1,1 +1,14 @@
 short_description: Reaction network model of RAF/MEK/ERK signaling with ERK feedback in HeLa cells, fitted to phospho-MEK/ERK data without and with RAF or MEK inhibitors.
+references:
+  - doi: 10.1186/s12918-016-0319-7
+    bibtex: |
+      @article{Fiedler_BMCSystBiol2016,
+        author = {Fiedler, Anna and Raeth, Sebastian and Theis, Fabian J. and Hausser, Angelika and Hasenauer, Jan},
+        title = {Tailored parameter optimization methods for ordinary differential equation models with steady-state constraints},
+        journal = {BMC Systems Biology},
+        year = {2016},
+        volume = {10},
+        number = {1},
+        pages = {80},
+        doi = {10.1186/s12918-016-0319-7},
+      }

@@ -7,17 +7,16 @@ Each problem lives under `problems/<ProblemID>/`, with at least one of `v1/`/`v2
   `conditions.tsv`, `measurements.tsv`, `observables.tsv`, `parameters.tsv`, and optionally
   `simulations.tsv` and `visualizations.tsv`.
 - `v2/` holds the same problem in PEtab v2 format.
-- `metadata.yaml` contains version-independent metadata. Currently, this is a single-sentence
-  `short_description` of the problem, stating the type of model (e.g., biochemical reaction network,
-  compartmental epidemiological model), the biological system, and, where informative, the data.
-  For example:
-  ```yaml
-  short_description: Reaction network model of Epo-induced STAT5A/STAT5B phosphorylation and homo- and heterodimerization, fitted to quantitative mass spectrometry data.
-  ```
-  The file is validated against the `ProblemMetadata` model in
-  [`metadata.py`](src/python/benchmark_models_petab/metadata.py)
-  (check with `bmp-check-metadata`); the corresponding JSON schema is
-  [`metadata.schema.json`](src/python/benchmark_models_petab/schemas/metadata.schema.json).
+- `metadata.yaml` contains version-independent metadata:
+  - `short_description`: a single sentence stating the type of model (e.g., biochemical reaction
+    network, compartmental epidemiological model), the biological system, and, where informative,
+    the data.
+  - `references`: the publications the problem is based on, each with its `doi` and a `bibtex`
+    entry (one field per line, including a matching `doi` field). The first entry is the main
+    publication; its BibTeX key is the problem ID.
+
+  See [`problems/Boehm_JProteomeRes2014/metadata.yaml`](problems/Boehm_JProteomeRes2014/metadata.yaml)
+  for an example.
 - `resources/` (optional) holds anything else related to the problem that isn't part of the
   PEtab files themselves (e.g. raw data, scripts, notebooks, figures). There's no prescribed
   structure — organize it however fits your problem.

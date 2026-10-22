@@ -1,1 +1,14 @@
 short_description: Reaction network model of IL-13-induced JAK2/STAT5 signaling in the primary mediastinal B-cell lymphoma cell line MedB-1.
+references:
+  - doi: 10.1158/0008-5472.CAN-10-2987
+    bibtex: |
+      @article{Raia_CancerResearch2011,
+        author = {Raia, Valentina and Schilling, Marcel and Böhm, Martin and Hahn, Bettina and Kowarsch, Andreas and Raue, Andreas and Sticht, Carsten and Bohl, Sebastian and Saile, Maria and Möller, Peter and Gretz, Norbert and Timmer, Jens and Theis, Fabian and Lehmann, Wolf-Dieter and Lichter, Peter and Klingmüller, Ursula},
+        title = {Dynamic Mathematical Modeling of {IL13}-Induced Signaling in {Hodgkin} and Primary Mediastinal {B}-Cell Lymphoma Allows Prediction of Therapeutic Targets},
+        journal = {Cancer Research},
+        year = {2011},
+        volume = {71},
+        number = {3},
+        pages = {693--704},
+        doi = {10.1158/0008-5472.CAN-10-2987},
+      }

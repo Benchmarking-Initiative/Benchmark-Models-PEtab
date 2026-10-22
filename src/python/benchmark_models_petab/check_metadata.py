@@ -21,13 +21,20 @@ def check_metadata_file(path: Path) -> list[str]:
         return [f"Missing metadata file `{path.name}`."]
 
     try:
-        ProblemMetadata.from_yaml(path)
+        metadata = ProblemMetadata.from_yaml(path)
     except yaml.YAMLError as e:
         return [f"Invalid YAML: {e}"]
     except pydantic.ValidationError as e:
         return [
             f"{'/'.join(map(str, error['loc'])) or '<root>'}: {error['msg']}"
             for error in e.errors()
+        ]
+
+    problem_id = path.parent.name
+    if (key := metadata.references[0].bibtex_key) != problem_id:
+        return [
+            f"references/0/bibtex: BibTeX key `{key}` does not match the "
+            f"problem ID `{problem_id}`."
         ]
 
     return []
