@@ -160,5 +160,4 @@ def get_overview_df() -> pd.DataFrame:
         for petab_problem_id in v2.MODELS
     ]
     df = pd.DataFrame(data, columns=list(columns))
-    df.set_index([index_column], inplace=True)
-    return df
+    return df.set_index([index_column])
