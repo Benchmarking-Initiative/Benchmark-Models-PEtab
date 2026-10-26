@@ -8,6 +8,7 @@ from typing import Any
 import yaml
 from pydantic import BaseModel, ConfigDict, Field
 
+from ._ids import resolve_id
 from .C import METADATA_FILENAME, MODELS_DIR
 
 METADATA_SCHEMA_FILENAME = "metadata.schema.json"
@@ -66,7 +67,7 @@ def get_metadata_path(id_: str) -> Path:
     -------
     The path to the metadata file. The file is not guaranteed to exist.
     """
-    return Path(MODELS_DIR, id_, METADATA_FILENAME)
+    return Path(MODELS_DIR, resolve_id(id_), METADATA_FILENAME)
 
 
 def get_metadata(id_: str) -> ProblemMetadata:
