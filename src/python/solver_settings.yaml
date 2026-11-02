@@ -1,0 +1,59 @@
+# Solver settings for `simulate.py`.
+#
+# `default` applies to every problem; `problems` overrides it for single
+# problems. A problem needs an override if its simulations or its
+# log-likelihood change substantially with stricter tolerances, see
+# `simulate.py --check-simulation-tolerances`, which simulates again with
+# rtol and atol divided by 100 and requires a relative change below 1e-5.
+#
+# rtol, atol: relative and absolute integration tolerances (the steady-state
+#   tolerances follow them, see AMICI's `steady_state_tolerance_factor`)
+# max_steps: maximum number of integration steps per simulation
+# conditions: (optional) simulate only this many simulation conditions,
+#   evenly spaced, and compare only their rows of the simulation table; for
+#   problems too expensive to simulate completely in CI
+#   (`simulate.py --all-conditions` simulates all)
+default:
+  rtol: 1.0e-8
+  atol: 1.0e-16
+  max_steps: 10000
+
+problems:
+  Borghans_BiophysChem1997:
+    # default: change 1.1e-5
+    rtol: 1.0e-10
+    atol: 1.0e-18
+    # for the check at rtol 1e-12
+    max_steps: 100000
+  Chen_MSB2009:
+    # the default rtol is accurate enough (change 4e-8 at rtol 1e-10, with
+    # atol 1e-16 and more steps), but with atol 1e-18 the integration fails
+    atol: 1.0e-12
+  Crauste_CellSystems2017:
+    # change 6e-3 at the default rtol, 2e-4 at rtol 1e-10
+    rtol: 1.0e-12
+    atol: 1.0e-20
+  Froehlich_CellSystems2018:
+    # default: change 2.5e-4
+    rtol: 1.0e-10
+    atol: 1.0e-18
+    # all 9169 conditions take about 20 minutes on 4 cores; 200 take about
+    # 25 seconds and cover all 143 cell lines and all drugs
+    conditions: 200
+  Isensee_JCB2018:
+    # default: change 1.9e-5
+    rtol: 1.0e-10
+    atol: 1.0e-18
+  Lang_PLOSComputBiol2024:
+    # the default number of steps is too few (status -99, simulations NaN)
+    rtol: 1.0e-10
+    atol: 1.0e-18
+    max_steps: 100000
+  Raimundez_PCB2020:
+    # change 2.3e-3 at the default rtol, 2.3e-5 at rtol 1e-10
+    rtol: 1.0e-12
+    atol: 1.0e-20
+  Zheng_PNAS2012:
+    # default: change 1.7e-5
+    rtol: 1.0e-10
+    atol: 1.0e-18

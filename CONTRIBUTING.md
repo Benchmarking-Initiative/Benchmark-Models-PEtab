@@ -4,8 +4,9 @@ Simply create a new branch and open a pull request with your files. We will then
 
 Each problem lives under `problems/<ProblemID>/`, with at least one of `v1/`/`v2/` present:
 - `v1/` holds the problem in PEtab v1 format: `problem.yaml`, `model.xml`,
-  `conditions.tsv`, `measurements.tsv`, `observables.tsv`, `parameters.tsv`, and optionally
-  `simulations.tsv` and `visualizations.tsv`.
+  `conditions.tsv`, `measurements.tsv`, `observables.tsv`, `parameters.tsv`,
+  `simulations.tsv` (see [Simulation table](#simulation-table)), and optionally
+  `visualizations.tsv`.
 - `v2/` holds the same problem in PEtab v2 format.
 - `metadata.yaml` contains version-independent metadata. Currently, this is a single-sentence
   `short_description` of the problem, stating the type of model (e.g., biochemical reaction network,
@@ -21,6 +22,20 @@ Each problem lives under `problems/<ProblemID>/`, with at least one of `v1/`/`v2
 - `resources/` (optional) holds anything else related to the problem that isn't part of the
   PEtab files themselves (e.g. raw data, scripts, notebooks, figures). There's no prescribed
   structure — organize it however fits your problem.
+
+## Simulation table
+
+`v1/simulations.tsv` holds the simulations of the model at the nominal parameters of the
+parameter table, one row per row of the measurement table: the measurement table with the
+column `measurement` replaced by `simulation`. It can be generated with AMICI:
+```bash
+python src/python/simulate.py <ProblemID> --output problems/<ProblemID>/v1/simulations.tsv
+```
+The [Simulate](.github/workflows/simulate.yml) workflow checks that every problem reproduces
+its simulation table (`simulate.py <ProblemID> --check-simulations`), with the solver settings
+of [`solver_settings.yaml`](src/python/solver_settings.yaml). Check that these settings are
+accurate enough for a new problem with `simulate.py <ProblemID> --check-simulation-tolerances`,
+and add problem-specific settings to `solver_settings.yaml` if they are not.
 
 ## v1/v2 equivalence
 

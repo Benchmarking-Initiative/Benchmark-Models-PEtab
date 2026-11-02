@@ -3,6 +3,13 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    paths:
+      - 'problems/**'
+      - 'src/python/simulate.py'
+      - 'src/python/solver_settings.yaml'
+      - 'src/python/benchmark_models_petab/**'
+      - '.github/workflows/simulate.yml'
   workflow_dispatch:
   merge_group:
   schedule:
@@ -25,17 +32,26 @@ jobs:
         AMICI_PARALLEL_COMPILE: ""
       run: |
         pip install --upgrade pip
-        # TODO: once amici 1.0 is released, replace with:
-        # pip install amici[petab]
-        pip install petab
-        pip install "git+https://github.com/dweindl/amici.git@6a85422ad233fc268fb71272bba39f5b82db387a#egg=amici&subdirectory=python/sdist"
+        pip install "amici[petab]>=1.2.0"
 
-    - name: Simulate with nominal parameters
+    - name: Simulate and compare to the simulation tables
       env:
         AMICI_PARALLEL_COMPILE: ""
+      # The problems are simulated with the solver settings of
+      # src/python/solver_settings.yaml.
       run: |
+        failed=()
         for problem in `ls -1 problems/`; do
-            python src/python/simulate.py "$problem" -j
+            python src/python/simulate.py "$problem" -j --check-simulations \
+                || failed+=("$problem")
             echo
             echo
         done
+
+        {
+          echo "### Comparison to the simulation tables"
+          echo
+          echo "Failed: ${failed[*]:-none}"
+        } | tee -a "$GITHUB_STEP_SUMMARY"
+
+        [ ${#failed[@]} -eq 0 ]
