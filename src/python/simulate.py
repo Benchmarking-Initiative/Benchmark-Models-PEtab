@@ -22,7 +22,10 @@ from amici.importers.petab.v1 import (
     RDATAS,
 )
 import logging
+from pathlib import Path
+
 import numpy as np
+import yaml
 import pandas as pd
 import petab.v1.C as petab_C
 from petab.v1.lint import measurement_table_has_timepoint_specific_mappings
@@ -39,6 +42,14 @@ KEY_COLUMNS = [
 #: simulation tables carry the time points with more digits than the
 #: measurement tables.
 TIME_SIGNIFICANT_DIGITS = 6
+#: Default and problem-specific solver settings.
+SOLVER_SETTINGS_FILE = Path(__file__).with_name("solver_settings.yaml")
+#: For ``--check-tolerances``: the factor by which the tolerances are made
+#: stricter, and the largest acceptable relative change of the simulations
+#: and of the log-likelihood; 100 times below the default relative tolerance
+#: of the comparison to the simulation tables (``--rtol``).
+TOLERANCE_CHECK_FACTOR = 100
+TOLERANCE_CHECK_RTOL = 1e-5
 
 
 def parse_cli_args():
@@ -73,16 +84,31 @@ def parse_cli_args():
         ),
     )
     parser.add_argument(
+        "--check-tolerances",
+        action="store_true",
+        help=(
+            "Check that the solver tolerances are strict enough: simulate "
+            "again with stricter tolerances and exit with status 1 if the "
+            "simulations or the log-likelihood change substantially."
+        ),
+    )
+    parser.add_argument(
         "--rtol",
         type=float,
         default=1e-3,
-        help="Relative tolerance for --check (default: %(default)s).",
+        help=(
+            "Relative tolerance of the comparison for --check "
+            "(default: %(default)s)."
+        ),
     )
     parser.add_argument(
         "--atol",
         type=float,
         default=1e-6,
-        help="Absolute tolerance for --check (default: %(default)s).",
+        help=(
+            "Absolute tolerance of the comparison for --check "
+            "(default: %(default)s)."
+        ),
     )
     parser.add_argument(
         "--output",
@@ -243,6 +269,179 @@ def compare_simulations(
     return ok
 
 
+def get_solver_settings(problem_id: str) -> dict:
+    """Get the solver settings for a problem.
+
+    The defaults of :data:`SOLVER_SETTINGS_FILE`, updated by the settings
+    for the problem, if any.
+    """
+    with open(SOLVER_SETTINGS_FILE) as f:
+        settings = yaml.safe_load(f)
+    return {
+        **settings["default"],
+        **(settings.get("problems") or {}).get(problem_id, {}),
+    }
+
+
+def simulate(
+    problem,
+    model,
+    measurement_df: pd.DataFrame,
+    settings: dict,
+    num_threads: int = 1,
+    verbose: bool = True,
+):
+    """Simulate a PEtab problem at the nominal parameters.
+
+    Parameters
+    ----------
+    problem:
+        The PEtab problem the AMICI model was imported from, possibly
+        flattened.
+    model:
+        The AMICI model.
+    measurement_df:
+        The measurement table of the original problem (before flattening).
+    settings:
+        The solver settings, see :data:`SOLVER_SETTINGS_FILE`.
+    num_threads:
+        Number of threads to simulate the conditions in parallel.
+    verbose:
+        Whether to print the log-likelihood of every condition.
+
+    Returns
+    -------
+    The result of :func:`simulate_petab` and the simulations as PEtab
+    simulation table, in the order and with the observable IDs of
+    ``measurement_df``, or ``None`` if a simulation failed.
+    """
+    solver = model.create_solver()
+    solver.set_return_data_reporting_mode(
+        ass.RDataReporting.observables_likelihood
+    )
+    solver.set_relative_tolerance(settings["rtol"])
+    solver.set_absolute_tolerance(settings["atol"])
+    solver.set_max_steps(int(settings["max_steps"]))
+    res = simulate_petab(
+        problem, model, solver=solver, num_threads=num_threads
+    )
+
+    if verbose:
+        for rdata in res[RDATAS]:
+            print(
+                f"{rdata.id}: llh = {rdata.llh}, chi2 = {rdata.chi2}, "
+                f"status = {rdata.status}"
+            )
+        print()
+
+    failed = [rdata for rdata in res[RDATAS] if rdata.status != 0]
+    if failed:
+        print(
+            f"The simulation of {len(failed)} conditions failed, e.g. "
+            f"{failed[0].id} with status {failed[0].status}."
+        )
+        return res, None
+
+    # The simulations in the order of the measurement table, with the
+    # observable IDs of the original (not flattened) problem.
+    simulation_df = rdatas_to_simulation_df(
+        res[RDATAS], model, problem.measurement_df
+    ).loc[measurement_df.index]
+    simulation_df[petab_C.OBSERVABLE_ID] = measurement_df[
+        petab_C.OBSERVABLE_ID
+    ]
+    return res, simulation_df
+
+
+def check_tolerances(
+    problem,
+    model,
+    measurement_df: pd.DataFrame,
+    settings: dict,
+    simulation_df: pd.DataFrame,
+    llh: float,
+    num_threads: int = 1,
+) -> bool:
+    """Check that the solver tolerances are strict enough.
+
+    Simulates again with the tolerances divided by
+    :data:`TOLERANCE_CHECK_FACTOR` and checks that neither the simulations
+    nor the log-likelihood change by more than :data:`TOLERANCE_CHECK_RTOL`
+    (relative to the largest absolute simulation of the observable, for the
+    simulations).
+
+    Returns
+    -------
+    Whether the tolerances are strict enough.
+    """
+    stricter = {
+        **settings,
+        "rtol": settings["rtol"] / TOLERANCE_CHECK_FACTOR,
+        "atol": settings["atol"] / TOLERANCE_CHECK_FACTOR,
+    }
+    res_strict, simulation_df_strict = simulate(
+        problem,
+        model,
+        measurement_df,
+        stricter,
+        num_threads=num_threads,
+        verbose=False,
+    )
+    if simulation_df_strict is None:
+        print(
+            f"The simulation with stricter tolerances "
+            f"(rtol={stricter['rtol']:g}, atol={stricter['atol']:g}) failed. "
+            f"Increase max_steps for the problem in "
+            f"{SOLVER_SETTINGS_FILE.name}."
+        )
+        print()
+        return False
+    llh_strict = res_strict[LLH]
+
+    simulation = simulation_df[petab_C.SIMULATION].to_numpy(float)
+    simulation_strict = simulation_df_strict[petab_C.SIMULATION].to_numpy(
+        float
+    )
+    # scale of each observable, to judge the simulations close to zero
+    scale = (
+        pd.Series(np.abs(simulation_strict))
+        .groupby(simulation_df[petab_C.OBSERVABLE_ID].to_numpy())
+        .transform("max")
+        .to_numpy()
+    )
+    error = np.abs(simulation - simulation_strict) / np.where(
+        scale > 0, scale, 1.0
+    )
+    error[np.isnan(simulation) & np.isnan(simulation_strict)] = 0.0
+    error[np.isnan(simulation) != np.isnan(simulation_strict)] = np.inf
+    max_error = np.max(error, initial=0.0)
+    llh_error = abs(llh - llh_strict) / max(abs(llh_strict), 1.0)
+    if np.isnan(llh) and np.isnan(llh_strict):
+        llh_error = 0.0
+    elif np.isnan(llh) or np.isnan(llh_strict):
+        llh_error = np.inf
+
+    print(
+        f"Tolerance check: rtol={settings['rtol']:g}, "
+        f"atol={settings['atol']:g} vs. rtol={stricter['rtol']:g}, "
+        f"atol={stricter['atol']:g}: "
+        f"largest change of the simulations {max_error:.2e} (relative to "
+        f"the observable), of the log-likelihood {llh_error:.2e} "
+        f"({llh} vs. {llh_strict})."
+    )
+    ok = (
+        max_error <= TOLERANCE_CHECK_RTOL and llh_error <= TOLERANCE_CHECK_RTOL
+    )
+    if not ok:
+        print(
+            f"The tolerances are not strict enough: the changes exceed "
+            f"{TOLERANCE_CHECK_RTOL:g}. Set stricter tolerances for the "
+            f"problem in {SOLVER_SETTINGS_FILE.name}."
+        )
+    print()
+    return ok
+
+
 def main():
     """Simulate a PEtab problem with AMICI using nominal parameter values."""
     args = parse_cli_args()
@@ -253,69 +452,71 @@ def main():
 
     problem = benchmark_models_petab.get_problem(args.problem_id)
     expected_df = benchmark_models_petab.get_simulation_df(args.problem_id)
-    if args.check and expected_df is None:
+    if args.check and expected_df is None and not args.check_tolerances:
         print("No simulation table, skipping the simulation.")
         print()
         return
 
-    original_measurement_df = problem.measurement_df.copy()
-    flattened = measurement_table_has_timepoint_specific_mappings(
+    settings = get_solver_settings(args.problem_id)
+    print(f"Solver settings: {settings}")
+    print()
+
+    measurement_df = problem.measurement_df.copy()
+    if measurement_table_has_timepoint_specific_mappings(
         problem.measurement_df,
-    )
-    if flattened:
+    ):
         flatten_timepoint_specific_output_overrides(problem)
 
     model = import_petab_problem(
         problem, generate_sensitivity_code=False, verbose=logging.INFO
     )
-    solver = model.create_solver()
-    solver.set_return_data_reporting_mode(
-        ass.RDataReporting.observables_likelihood
+    res, simulation_df = simulate(
+        problem,
+        model,
+        measurement_df,
+        settings,
+        num_threads=args.num_threads,
     )
-    res = simulate_petab(
-        problem, model, solver=solver, num_threads=args.num_threads
-    )
-
-    for rdata in res[RDATAS]:
-        print(
-            f"{rdata.id}: llh = {rdata.llh}, chi2 = {rdata.chi2}, status = {rdata.status}"
-        )
-
-    print()
     print("Total log-likelihood:", res[LLH])
     print()
-
-    if not (args.check or args.output):
-        return
-
-    # The simulations in the order of the measurement table, with the
-    # observable IDs of the original (not flattened) problem.
-    simulation_df = rdatas_to_simulation_df(
-        res[RDATAS], model, problem.measurement_df
-    ).loc[original_measurement_df.index]
-    if flattened:
-        simulation_df[petab_C.OBSERVABLE_ID] = original_measurement_df[
-            petab_C.OBSERVABLE_ID
-        ]
+    if simulation_df is None:
+        print(f"FAILED: {args.problem_id}")
+        print()
+        sys.exit(1)
 
     if args.output:
         simulation_df.to_csv(args.output, sep="\t", index=False)
         print(f"Wrote the simulations to {args.output}.")
         print()
 
-    if not args.check:
-        return
+    ok = True
+    if args.check_tolerances:
+        ok &= check_tolerances(
+            problem,
+            model,
+            measurement_df,
+            settings,
+            simulation_df,
+            res[LLH],
+            num_threads=args.num_threads,
+        )
 
-    expected_df = unflatten_observable_ids(
-        expected_df, original_measurement_df[petab_C.OBSERVABLE_ID].unique()
-    )
-    if not compare_simulations(
-        simulation_df, expected_df, rtol=args.rtol, atol=args.atol
-    ):
+    if args.check and expected_df is None:
+        print("No simulation table, skipping the comparison.")
+        print()
+    elif args.check:
+        expected_df = unflatten_observable_ids(
+            expected_df, measurement_df[petab_C.OBSERVABLE_ID].unique()
+        )
+        ok &= compare_simulations(
+            simulation_df, expected_df, rtol=args.rtol, atol=args.atol
+        )
+        print()
+
+    if not ok:
         print(f"FAILED: {args.problem_id}")
         print()
         sys.exit(1)
-    print()
 
 
 if __name__ == "__main__":

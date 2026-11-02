@@ -35,23 +35,21 @@ jobs:
         pip install petab
         pip install "git+https://github.com/dweindl/amici.git@6a85422ad233fc268fb71272bba39f5b82db387a#egg=amici&subdirectory=python/sdist"
 
-    - name: Simulate with nominal parameters and compare to the simulation tables
+    - name: Simulate, check the solver tolerances and compare to the simulation tables
       env:
         AMICI_PARALLEL_COMPILE: ""
         # Problems whose simulation tables are known not to match the
-        # simulations at the nominal parameters. They are simulated and
-        # reported, but do not fail the job. Remove a problem from this
-        # list once its simulation table has been fixed.
+        # simulations at the nominal parameters (with tolerances that pass
+        # the tolerance check). They are simulated and reported, but do not
+        # fail the job. Remove a problem from this list once its simulation
+        # table has been fixed.
         KNOWN_FAILURES: >-
           Blasi_CellSystems2016
           Chen_MSB2009
-          Crauste_CellSystems2017
           Fujita_SciSignal2010
-          Lang_PLOSComputBiol2024
           Liu_IFACPapersOnLine2025
           Perelson_Science1996
           Raia_CancerResearch2011
-          Raimundez_PCB2020
           Sneyd_PNAS2002
           Zhao_QuantBiol2020
           Zheng_PNAS2012
@@ -62,7 +60,8 @@ jobs:
         for problem in `ls -1 problems/`; do
             known=false
             [[ " $KNOWN_FAILURES " == *" $problem "* ]] && known=true
-            if python src/python/simulate.py "$problem" -j --check; then
+            if python src/python/simulate.py "$problem" -j --check \
+                --check-tolerances; then
                 $known && fixed+=("$problem")
             elif $known; then
                 known_failed+=("$problem")
