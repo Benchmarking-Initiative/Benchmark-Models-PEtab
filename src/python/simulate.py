@@ -51,9 +51,11 @@ COMPARISON_RTOL = 1e-3
 COMPARISON_ATOL = 1e-6
 #: Default and problem-specific solver settings.
 SOLVER_SETTINGS_FILE = Path(__file__).with_name("solver_settings.yaml")
-#: For ``--check-tolerances``: the factor by which the tolerances are made
-#: stricter, and the largest acceptable relative change of the simulations
-#: and of the log-likelihood; 100 times below :data:`COMPARISON_RTOL`.
+#: For ``--check-tolerances``, which checks that the solver tolerances used
+#: to reproduce the simulations are tight enough to ensure sufficient
+#: accuracy: the factor by which the tolerances are made stricter, and the
+#: largest acceptable relative change of the simulations and of the
+#: log-likelihood; 100 times below :data:`COMPARISON_RTOL`.
 TOLERANCE_CHECK_FACTOR = 100
 TOLERANCE_CHECK_RTOL = 1e-5
 
