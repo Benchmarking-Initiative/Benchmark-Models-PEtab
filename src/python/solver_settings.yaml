@@ -3,8 +3,8 @@
 # `default` applies to every problem; `problems` overrides it for single
 # problems. A problem needs an override if its simulations or its
 # log-likelihood change substantially with stricter tolerances, see
-# `simulate.py --check-tolerances`, which simulates again with rtol and atol
-# divided by 100 and requires a relative change below 1e-5.
+# `simulate.py --check-simulation-tolerances`, which simulates again with
+# rtol and atol divided by 100 and requires a relative change below 1e-5.
 #
 # rtol, atol: relative and absolute integration tolerances (the steady-state
 #   tolerances follow them, see AMICI's `steady_state_tolerance_factor`)

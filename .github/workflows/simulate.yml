@@ -61,7 +61,8 @@ jobs:
         for problem in `ls -1 problems/`; do
             known=false
             [[ " $KNOWN_FAILURES " == *" $problem "* ]] && known=true
-            if python src/python/simulate.py "$problem" -j --check; then
+            if python src/python/simulate.py "$problem" -j \
+                --check-simulations; then
                 $known && fixed+=("$problem")
             elif $known; then
                 known_failed+=("$problem")

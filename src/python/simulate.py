@@ -3,9 +3,9 @@
 Script to simulate a model using AMICI.
 
 Basic usage: simulate.py <problem_id>
-Use ``--check`` to compare the simulations against the simulation table of
-the problem (``v1/simulations.tsv``); the script then exits with a non-zero
-status if they differ.
+Use ``--check-simulations`` to compare the simulations against the
+simulation table of the problem (``v1/simulations.tsv``); the script then
+exits with a non-zero status if they differ.
 See --help for more options.
 """
 
@@ -45,17 +45,18 @@ KEY_COLUMNS = [
 #: measurement tables.
 TIME_SIGNIFICANT_DIGITS = 6
 #: Relative and absolute tolerance of the comparison to the simulation
-#: tables (``--check``), see :func:`numpy.isclose`. Looser than the solver
-#: tolerances, as the tables were made with different tools and settings.
+#: tables (``--check-simulations``), see :func:`numpy.isclose`. Looser than
+#: the solver tolerances, as the tables were made with different tools and
+#: settings.
 COMPARISON_RTOL = 1e-3
 COMPARISON_ATOL = 1e-6
 #: Default and problem-specific solver settings.
 SOLVER_SETTINGS_FILE = Path(__file__).with_name("solver_settings.yaml")
-#: For ``--check-tolerances``, which checks that the solver tolerances used
-#: to reproduce the simulations are tight enough to ensure sufficient
-#: accuracy: the factor by which the tolerances are made stricter, and the
-#: largest acceptable relative change of the simulations and of the
-#: log-likelihood; 100 times below :data:`COMPARISON_RTOL`.
+#: For ``--check-simulation-tolerances``, which checks that the solver
+#: tolerances used to reproduce the simulations are tight enough to ensure
+#: sufficient accuracy: the factor by which the tolerances are made
+#: stricter, and the largest acceptable relative change of the simulations
+#: and of the log-likelihood; 100 times below :data:`COMPARISON_RTOL`.
 TOLERANCE_CHECK_FACTOR = 100
 TOLERANCE_CHECK_RTOL = 1e-5
 
@@ -83,7 +84,7 @@ def parse_cli_args():
         ),
     )
     parser.add_argument(
-        "--check",
+        "--check-simulations",
         action="store_true",
         help=(
             "Compare the simulations against the simulation table of the "
@@ -92,7 +93,7 @@ def parse_cli_args():
         ),
     )
     parser.add_argument(
-        "--check-tolerances",
+        "--check-simulation-tolerances",
         action="store_true",
         help=(
             "Check that the solver tolerances are strict enough: simulate "
@@ -492,7 +493,11 @@ def main():
 
     problem = benchmark_models_petab.get_problem(args.problem_id)
     expected_df = benchmark_models_petab.get_simulation_df(args.problem_id)
-    if args.check and expected_df is None and not args.check_tolerances:
+    if (
+        args.check_simulations
+        and expected_df is None
+        and not args.check_simulation_tolerances
+    ):
         print("No simulation table, skipping the simulation.")
         print()
         return
@@ -553,7 +558,7 @@ def main():
         print()
 
     ok = True
-    if args.check_tolerances:
+    if args.check_simulation_tolerances:
         ok &= check_tolerances(
             problem,
             model,
@@ -564,10 +569,10 @@ def main():
             num_threads=args.num_threads,
         )
 
-    if args.check and expected_df is None:
+    if args.check_simulations and expected_df is None:
         print("No simulation table, skipping the comparison.")
         print()
-    elif args.check:
+    elif args.check_simulations:
         expected_df = unflatten_observable_ids(
             expected_df, measurement_df[petab_C.OBSERVABLE_ID].unique()
         )
