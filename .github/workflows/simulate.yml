@@ -30,10 +30,11 @@ jobs:
         AMICI_PARALLEL_COMPILE: ""
       run: |
         pip install --upgrade pip
-        # TODO: once amici 1.0 is released, replace with:
-        # pip install amici[petab]
-        pip install petab
-        pip install "git+https://github.com/dweindl/amici.git@6a85422ad233fc268fb71272bba39f5b82db387a#egg=amici&subdirectory=python/sdist"
+        # >= 1.2.0: some earlier versions (e.g. 0.34.2 and 1.0.0) ignore the
+        # condition table value of a parameter with an initial assignment
+        # where it is used in another initial assignment
+        # (Liu_IFACPapersOnLine2025)
+        pip install "amici[petab]>=1.2.0"
 
     - name: Simulate and compare to the simulation tables
       env:
@@ -44,8 +45,7 @@ jobs:
         # simulations at the nominal parameters. They are simulated and
         # reported, but do not fail the job. Remove a problem from this list
         # once its simulation table has been fixed.
-        KNOWN_FAILURES: >-
-          Liu_IFACPapersOnLine2025
+        KNOWN_FAILURES: ""
       run: |
         failed=()
         known_failed=()

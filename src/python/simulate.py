@@ -15,8 +15,8 @@ import sys
 import argparse
 import benchmark_models_petab
 import amici.sim.sundials as ass
-from amici.importers.petab.v1 import (
-    import_petab_problem,
+from amici.importers.petab.v1 import import_petab_problem
+from amici.sim.sundials.petab.v1 import (
     rdatas_to_simulation_df,
     simulate_petab,
     LLH,
@@ -364,7 +364,7 @@ def simulate(
     solver.set_absolute_tolerance(settings["atol"])
     solver.set_max_steps(int(settings["max_steps"]))
     res = simulate_petab(
-        problem, model, solver=solver, num_threads=num_threads
+        problem, amici_model=model, solver=solver, num_threads=num_threads
     )
 
     if verbose:
