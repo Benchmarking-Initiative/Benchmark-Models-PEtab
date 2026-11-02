@@ -3,6 +3,11 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    paths:
+      - 'problems/**'
+      - 'src/python/simulate.py'
+      - '.github/workflows/simulate.yml'
   workflow_dispatch:
   merge_group:
   schedule:
@@ -30,12 +35,52 @@ jobs:
         pip install petab
         pip install "git+https://github.com/dweindl/amici.git@6a85422ad233fc268fb71272bba39f5b82db387a#egg=amici&subdirectory=python/sdist"
 
-    - name: Simulate with nominal parameters
+    - name: Simulate with nominal parameters and compare to the simulation tables
       env:
         AMICI_PARALLEL_COMPILE: ""
+        # Problems whose simulation tables are known not to match the
+        # simulations at the nominal parameters. They are simulated and
+        # reported, but do not fail the job. Remove a problem from this
+        # list once its simulation table has been fixed.
+        KNOWN_FAILURES: >-
+          Blasi_CellSystems2016
+          Chen_MSB2009
+          Crauste_CellSystems2017
+          Fujita_SciSignal2010
+          Lang_PLOSComputBiol2024
+          Liu_IFACPapersOnLine2025
+          Perelson_Science1996
+          Raia_CancerResearch2011
+          Raimundez_PCB2020
+          Sneyd_PNAS2002
+          Zhao_QuantBiol2020
+          Zheng_PNAS2012
       run: |
+        failed=()
+        known_failed=()
+        fixed=()
         for problem in `ls -1 problems/`; do
-            python src/python/simulate.py "$problem" -j
+            known=false
+            [[ " $KNOWN_FAILURES " == *" $problem "* ]] && known=true
+            if python src/python/simulate.py "$problem" -j --check; then
+                $known && fixed+=("$problem")
+            elif $known; then
+                known_failed+=("$problem")
+            else
+                failed+=("$problem")
+            fi
             echo
             echo
         done
+
+        {
+          echo "### Comparison to the simulation tables"
+          echo
+          echo "Failed: ${failed[*]:-none}"
+          echo
+          echo "Known failures (\`KNOWN_FAILURES\`): ${known_failed[*]:-none}"
+          echo
+          echo "Known failures that now pass, to be removed from \`KNOWN_FAILURES\`: ${fixed[*]:-none}"
+        } | tee -a "$GITHUB_STEP_SUMMARY"
+
+        [ ${#failed[@]} -eq 0 ] && [ ${#fixed[@]} -eq 0 ]
