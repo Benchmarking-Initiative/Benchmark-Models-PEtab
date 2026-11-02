@@ -203,7 +203,12 @@ def compare_simulations(
     -------
     Whether the simulations agree.
     """
-    for column in [petab_C.OBSERVABLE_ID, petab_C.SIMULATION_CONDITION_ID]:
+    for column in [
+        petab_C.OBSERVABLE_ID,
+        petab_C.SIMULATION_CONDITION_ID,
+        petab_C.TIME,
+        petab_C.SIMULATION,
+    ]:
         if column not in expected_df:
             print(f"The simulation table has no column `{column}`.")
             return False
@@ -269,6 +274,23 @@ def compare_simulations(
     return ok
 
 
+def rows_in_conditions(df: pd.DataFrame, conditions: pd.DataFrame):
+    """Get a boolean mask of the rows of a measurement/simulation table that
+    belong to one of the given simulation conditions.
+
+    Missing condition IDs are normalized to ``""``, as in
+    :func:`petab.v1.get_simulation_conditions`.
+    """
+    columns = list(conditions.columns)
+    keys = conditions.astype(object).fillna("").astype(str).drop_duplicates()
+    return (
+        _row_keys(df)[columns]
+        .merge(keys, how="left", indicator=True)["_merge"]
+        .eq("both")
+        .to_numpy()
+    )
+
+
 def select_conditions(problem, measurement_df: pd.DataFrame, n: int):
     """Restrict a problem to ``n`` of its simulation conditions.
 
@@ -296,14 +318,9 @@ def select_conditions(problem, measurement_df: pd.DataFrame, n: int):
     selected = conditions.iloc[
         np.unique(np.linspace(0, len(conditions) - 1, n).round().astype(int))
     ]
-    columns = list(selected.columns)
-    in_selected = (
-        problem.measurement_df[columns]
-        .merge(selected, how="left", indicator=True)["_merge"]
-        .eq("both")
-        .to_numpy()
-    )
-    index = problem.measurement_df.index[in_selected]
+    index = problem.measurement_df.index[
+        rows_in_conditions(problem.measurement_df, selected)
+    ]
 
     problem = copy.copy(problem)
     problem.measurement_df = problem.measurement_df.loc[index]
@@ -320,7 +337,7 @@ def get_solver_settings(problem_id: str) -> dict:
         settings = yaml.safe_load(f)
     return {
         **settings["default"],
-        **(settings.get("problems") or {}).get(problem_id, {}),
+        **((settings.get("problems") or {}).get(problem_id) or {}),
     }
 
 
@@ -539,15 +556,10 @@ def main():
             "--all-conditions to simulate all)."
         )
         print()
-        if expected_df is not None:
+        if args.check_simulations:
             # compare only the rows of the selected conditions
-            columns = list(conditions.columns)
-            keys = _row_keys(measurement_df)[columns].drop_duplicates()
             expected_df = expected_df.loc[
-                _row_keys(expected_df)[columns]
-                .merge(keys, how="left", indicator=True)["_merge"]
-                .eq("both")
-                .to_numpy()
+                rows_in_conditions(expected_df, conditions)
             ]
 
     res, simulation_df = simulate(

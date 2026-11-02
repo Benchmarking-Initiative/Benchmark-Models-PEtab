@@ -7,6 +7,8 @@ on:
     paths:
       - 'problems/**'
       - 'src/python/simulate.py'
+      - 'src/python/solver_settings.yaml'
+      - 'src/python/benchmark_models_petab/**'
       - '.github/workflows/simulate.yml'
   workflow_dispatch:
   merge_group:
@@ -52,7 +54,8 @@ jobs:
         fixed=()
         for problem in `ls -1 problems/`; do
             known=false
-            [[ " $KNOWN_FAILURES " == *" $problem "* ]] && known=true
+            # unquoted: any whitespace (also newlines) separates the IDs
+            [[ " "$(echo $KNOWN_FAILURES)" " == *" $problem "* ]] && known=true
             if python src/python/simulate.py "$problem" -j \
                 --check-simulations; then
                 $known && fixed+=("$problem")
