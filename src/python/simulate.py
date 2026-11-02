@@ -88,8 +88,8 @@ def parse_cli_args():
         action="store_true",
         help=(
             "Compare the simulations against the simulation table of the "
-            "problem and exit with status 1 if they differ. Problems "
-            "without a simulation table are skipped."
+            "problem and exit with status 1 if they differ or if the "
+            "problem has no simulation table."
         ),
     )
     parser.add_argument(
@@ -107,7 +107,7 @@ def parse_cli_args():
         help=(
             "Simulate all conditions, also for problems with `conditions` "
             "in the solver settings, for which by default only a subset of "
-            "the conditions is simulated."
+            "the conditions is simulated (always all with --output)."
         ),
     )
     parser.add_argument(
@@ -491,16 +491,24 @@ def main():
     print(args.problem_id)
     print("-" * len(args.problem_id), flush=True)
 
-    problem = benchmark_models_petab.get_problem(args.problem_id)
-    expected_df = benchmark_models_petab.get_simulation_df(args.problem_id)
-    if (
-        args.check_simulations
-        and expected_df is None
-        and not args.check_simulation_tolerances
-    ):
-        print("No simulation table, skipping the simulation.")
+    if args.problem_id not in benchmark_models_petab.MODELS:
+        sys.exit(f"Unknown problem: {args.problem_id}")
+    if args.problem_id not in benchmark_models_petab.v1.MODELS:
+        # TODO: simulate PEtab v2 problems
+        print("The problem has no PEtab v1 encoding, skipping it.")
         print()
         return
+
+    problem = benchmark_models_petab.get_problem(args.problem_id)
+    expected_df = benchmark_models_petab.get_simulation_df(args.problem_id)
+    if args.check_simulations and expected_df is None:
+        print(
+            "The problem has no simulation table. Add one, e.g. with "
+            "--output, see CONTRIBUTING.md."
+        )
+        print(f"FAILED: {args.problem_id}")
+        print()
+        sys.exit(1)
 
     settings = get_solver_settings(args.problem_id)
     print(f"Solver settings: {settings}")
@@ -517,7 +525,11 @@ def main():
     )
 
     n_conditions = settings.pop("conditions", None)
-    if n_conditions is not None and not args.all_conditions:
+    if (
+        n_conditions is not None
+        and not args.all_conditions
+        and not args.output
+    ):
         problem, measurement_df, conditions = select_conditions(
             problem, measurement_df, int(n_conditions)
         )
@@ -569,10 +581,7 @@ def main():
             num_threads=args.num_threads,
         )
 
-    if args.check_simulations and expected_df is None:
-        print("No simulation table, skipping the comparison.")
-        print()
-    elif args.check_simulations:
+    if args.check_simulations:
         expected_df = unflatten_observable_ids(
             expected_df, measurement_df[petab_C.OBSERVABLE_ID].unique()
         )
