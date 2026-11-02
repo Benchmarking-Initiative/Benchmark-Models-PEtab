@@ -32,10 +32,6 @@ jobs:
         AMICI_PARALLEL_COMPILE: ""
       run: |
         pip install --upgrade pip
-        # >= 1.2.0: some earlier versions (e.g. 0.34.2 and 1.0.0) ignore the
-        # condition table value of a parameter with an initial assignment
-        # where it is used in another initial assignment
-        # (Liu_IFACPapersOnLine2025)
         pip install "amici[petab]>=1.2.0"
 
     - name: Simulate and compare to the simulation tables
