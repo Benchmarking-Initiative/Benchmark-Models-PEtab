@@ -46,7 +46,6 @@ jobs:
         # once its simulation table has been fixed.
         KNOWN_FAILURES: >-
           Liu_IFACPapersOnLine2025
-          Raia_CancerResearch2011
       run: |
         failed=()
         known_failed=()
