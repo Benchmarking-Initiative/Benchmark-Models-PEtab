@@ -9,6 +9,7 @@ status if they differ.
 See --help for more options.
 """
 
+import copy
 import os
 import sys
 import argparse
@@ -27,6 +28,7 @@ from pathlib import Path
 import numpy as np
 import yaml
 import pandas as pd
+import petab.v1 as petab
 import petab.v1.C as petab_C
 from petab.v1.lint import measurement_table_has_timepoint_specific_mappings
 from petab.v1.core import flatten_timepoint_specific_output_overrides
@@ -90,6 +92,15 @@ def parse_cli_args():
             "Check that the solver tolerances are strict enough: simulate "
             "again with stricter tolerances and exit with status 1 if the "
             "simulations or the log-likelihood change substantially."
+        ),
+    )
+    parser.add_argument(
+        "--all-conditions",
+        action="store_true",
+        help=(
+            "Simulate all conditions, also for problems with `conditions` "
+            "in the solver settings, for which by default only a subset of "
+            "the conditions is simulated."
         ),
     )
     parser.add_argument(
@@ -267,6 +278,47 @@ def compare_simulations(
             f"(rtol={rtol}, atol={atol})."
         )
     return ok
+
+
+def select_conditions(problem, measurement_df: pd.DataFrame, n: int):
+    """Restrict a problem to ``n`` of its simulation conditions.
+
+    The conditions are evenly spaced in the order of
+    :func:`petab.v1.get_simulation_conditions`.
+
+    Parameters
+    ----------
+    problem:
+        The PEtab problem the AMICI model was imported from, possibly
+        flattened.
+    measurement_df:
+        The measurement table of the original problem (before flattening).
+    n:
+        The number of conditions.
+
+    Returns
+    -------
+    A copy of ``problem`` and ``measurement_df`` with only the measurements
+    of the selected conditions, and the selected conditions.
+    """
+    conditions = petab.get_simulation_conditions(problem.measurement_df)
+    if n >= len(conditions):
+        return problem, measurement_df, conditions
+    selected = conditions.iloc[
+        np.unique(np.linspace(0, len(conditions) - 1, n).round().astype(int))
+    ]
+    columns = list(selected.columns)
+    in_selected = (
+        problem.measurement_df[columns]
+        .merge(selected, how="left", indicator=True)["_merge"]
+        .eq("both")
+        .to_numpy()
+    )
+    index = problem.measurement_df.index[in_selected]
+
+    problem = copy.copy(problem)
+    problem.measurement_df = problem.measurement_df.loc[index]
+    return problem, measurement_df.loc[index], selected
 
 
 def get_solver_settings(problem_id: str) -> dict:
@@ -470,6 +522,29 @@ def main():
     model = import_petab_problem(
         problem, generate_sensitivity_code=False, verbose=logging.INFO
     )
+
+    n_conditions = settings.pop("conditions", None)
+    if n_conditions is not None and not args.all_conditions:
+        problem, measurement_df, conditions = select_conditions(
+            problem, measurement_df, int(n_conditions)
+        )
+        print(
+            f"Simulating {len(conditions)} of the conditions "
+            f"(`conditions` in {SOLVER_SETTINGS_FILE.name}; use "
+            "--all-conditions to simulate all)."
+        )
+        print()
+        if expected_df is not None:
+            # compare only the rows of the selected conditions
+            columns = list(conditions.columns)
+            keys = _row_keys(measurement_df)[columns].drop_duplicates()
+            expected_df = expected_df.loc[
+                _row_keys(expected_df)[columns]
+                .merge(keys, how="left", indicator=True)["_merge"]
+                .eq("both")
+                .to_numpy()
+            ]
+
     res, simulation_df = simulate(
         problem,
         model,

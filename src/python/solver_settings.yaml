@@ -9,6 +9,10 @@
 # rtol, atol: relative and absolute integration tolerances (the steady-state
 #   tolerances follow them, see AMICI's `steady_state_tolerance_factor`)
 # max_steps: maximum number of integration steps per simulation
+# conditions: (optional) simulate only this many simulation conditions,
+#   evenly spaced, and compare only their rows of the simulation table; for
+#   problems too expensive to simulate completely in CI
+#   (`simulate.py --all-conditions` simulates all)
 default:
   rtol: 1.0e-8
   atol: 1.0e-16
@@ -29,6 +33,12 @@ problems:
     # change 6e-3 at the default rtol, 2e-4 at rtol 1e-10
     rtol: 1.0e-12
     atol: 1.0e-20
+  Froehlich_CellSystems2018:
+    # default: change 2.5e-4
+    rtol: 1.0e-10
+    atol: 1.0e-18
+    # all 9169 conditions take about 20 minutes on 4 cores, 1000 about 2
+    conditions: 1000
   Isensee_JCB2018:
     # default: change 1.9e-5
     rtol: 1.0e-10
