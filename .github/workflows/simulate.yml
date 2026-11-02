@@ -45,13 +45,8 @@ jobs:
         # reported, but do not fail the job. Remove a problem from this list
         # once its simulation table has been fixed.
         KNOWN_FAILURES: >-
-          Chen_MSB2009
-          Fujita_SciSignal2010
           Liu_IFACPapersOnLine2025
-          Perelson_Science1996
           Raia_CancerResearch2011
-          Sneyd_PNAS2002
-          Zheng_PNAS2012
       run: |
         failed=()
         known_failed=()
