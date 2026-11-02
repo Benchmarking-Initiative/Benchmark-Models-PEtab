@@ -44,12 +44,16 @@ KEY_COLUMNS = [
 #: simulation tables carry the time points with more digits than the
 #: measurement tables.
 TIME_SIGNIFICANT_DIGITS = 6
+#: Relative and absolute tolerance of the comparison to the simulation
+#: tables (``--check``), see :func:`numpy.isclose`. Looser than the solver
+#: tolerances, as the tables were made with different tools and settings.
+COMPARISON_RTOL = 1e-3
+COMPARISON_ATOL = 1e-6
 #: Default and problem-specific solver settings.
 SOLVER_SETTINGS_FILE = Path(__file__).with_name("solver_settings.yaml")
 #: For ``--check-tolerances``: the factor by which the tolerances are made
 #: stricter, and the largest acceptable relative change of the simulations
-#: and of the log-likelihood; 100 times below the default relative tolerance
-#: of the comparison to the simulation tables (``--rtol``).
+#: and of the log-likelihood; 100 times below :data:`COMPARISON_RTOL`.
 TOLERANCE_CHECK_FACTOR = 100
 TOLERANCE_CHECK_RTOL = 1e-5
 
@@ -101,24 +105,6 @@ def parse_cli_args():
             "Simulate all conditions, also for problems with `conditions` "
             "in the solver settings, for which by default only a subset of "
             "the conditions is simulated."
-        ),
-    )
-    parser.add_argument(
-        "--rtol",
-        type=float,
-        default=1e-3,
-        help=(
-            "Relative tolerance of the comparison for --check "
-            "(default: %(default)s)."
-        ),
-    )
-    parser.add_argument(
-        "--atol",
-        type=float,
-        default=1e-6,
-        help=(
-            "Absolute tolerance of the comparison for --check "
-            "(default: %(default)s)."
         ),
     )
     parser.add_argument(
@@ -195,8 +181,8 @@ def unflatten_observable_ids(
 def compare_simulations(
     simulation_df: pd.DataFrame,
     expected_df: pd.DataFrame,
-    rtol: float,
-    atol: float,
+    rtol: float = COMPARISON_RTOL,
+    atol: float = COMPARISON_ATOL,
 ) -> bool:
     """Compare simulations against a reference simulation table.
 
@@ -583,9 +569,7 @@ def main():
         expected_df = unflatten_observable_ids(
             expected_df, measurement_df[petab_C.OBSERVABLE_ID].unique()
         )
-        ok &= compare_simulations(
-            simulation_df, expected_df, rtol=args.rtol, atol=args.atol
-        )
+        ok &= compare_simulations(simulation_df, expected_df)
         print()
 
     if not ok:
