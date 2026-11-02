@@ -41,29 +41,13 @@ jobs:
     - name: Simulate and compare to the simulation tables
       env:
         AMICI_PARALLEL_COMPILE: ""
-        # The problems are simulated with the solver settings of
-        # src/python/solver_settings.yaml.
-        # Problems whose simulation tables are known not to match the
-        # simulations at the nominal parameters. They are simulated and
-        # reported, but do not fail the job. Remove a problem from this list
-        # once its simulation table has been fixed.
-        KNOWN_FAILURES: ""
+      # The problems are simulated with the solver settings of
+      # src/python/solver_settings.yaml.
       run: |
         failed=()
-        known_failed=()
-        fixed=()
         for problem in `ls -1 problems/`; do
-            known=false
-            # unquoted: any whitespace (also newlines) separates the IDs
-            [[ " "$(echo $KNOWN_FAILURES)" " == *" $problem "* ]] && known=true
-            if python src/python/simulate.py "$problem" -j \
-                --check-simulations; then
-                $known && fixed+=("$problem")
-            elif $known; then
-                known_failed+=("$problem")
-            else
-                failed+=("$problem")
-            fi
+            python src/python/simulate.py "$problem" -j --check-simulations \
+                || failed+=("$problem")
             echo
             echo
         done
@@ -72,10 +56,6 @@ jobs:
           echo "### Comparison to the simulation tables"
           echo
           echo "Failed: ${failed[*]:-none}"
-          echo
-          echo "Known failures (\`KNOWN_FAILURES\`): ${known_failed[*]:-none}"
-          echo
-          echo "Known failures that now pass, to be removed from \`KNOWN_FAILURES\`: ${fixed[*]:-none}"
         } | tee -a "$GITHUB_STEP_SUMMARY"
 
-        [ ${#failed[@]} -eq 0 ] && [ ${#fixed[@]} -eq 0 ]
+        [ ${#failed[@]} -eq 0 ]

@@ -184,10 +184,9 @@ def unflatten_observable_ids(
 def compare_simulations(
     simulation_df: pd.DataFrame,
     expected_df: pd.DataFrame,
-    rtol: float = COMPARISON_RTOL,
-    atol: float = COMPARISON_ATOL,
 ) -> bool:
-    """Compare simulations against a reference simulation table.
+    """Compare simulations against a reference simulation table, with the
+    tolerances :data:`COMPARISON_RTOL` and :data:`COMPARISON_ATOL`.
 
     Parameters
     ----------
@@ -196,8 +195,6 @@ def compare_simulations(
         of :data:`KEY_COLUMNS`.
     expected_df:
         The reference simulation table.
-    rtol, atol:
-        Relative and absolute tolerance, see :func:`numpy.isclose`.
 
     Returns
     -------
@@ -242,7 +239,11 @@ def compare_simulations(
 
     both = merged[merged["_merge"] == "both"]
     close = np.isclose(
-        both["actual"], both["expected"], rtol=rtol, atol=atol, equal_nan=True
+        both["actual"],
+        both["expected"],
+        rtol=COMPARISON_RTOL,
+        atol=COMPARISON_ATOL,
+        equal_nan=True,
     )
     if not close.all():
         ok = False
@@ -255,7 +256,7 @@ def compare_simulations(
         ].abs().replace(0, np.nan)
         print(
             f"{len(mismatches)} of {len(both)} simulations differ "
-            f"(rtol={rtol}, atol={atol}); largest differences:"
+            f"(rtol={COMPARISON_RTOL}, atol={COMPARISON_ATOL}); largest differences:"
         )
         print(
             mismatches.sort_values("abs_diff", ascending=False)[
@@ -269,7 +270,7 @@ def compare_simulations(
     if ok:
         print(
             f"All {len(both)} simulations agree with the simulation table "
-            f"(rtol={rtol}, atol={atol})."
+            f"(rtol={COMPARISON_RTOL}, atol={COMPARISON_ATOL})."
         )
     return ok
 
