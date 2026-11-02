@@ -37,8 +37,9 @@ problems:
     # default: change 2.5e-4
     rtol: 1.0e-10
     atol: 1.0e-18
-    # all 9169 conditions take about 20 minutes on 4 cores, 1000 about 2
-    conditions: 1000
+    # all 9169 conditions take about 20 minutes on 4 cores; 200 take about
+    # 25 seconds and cover all 143 cell lines and all drugs
+    conditions: 200
   Isensee_JCB2018:
     # default: change 1.9e-5
     rtol: 1.0e-10
